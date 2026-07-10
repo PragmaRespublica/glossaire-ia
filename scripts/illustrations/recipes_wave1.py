@@ -269,18 +269,6 @@ def _(c):
     c.text(300, 262, "accès · rectification · effacement", size=10, anchor="middle", op=0.6)
 
 
-@rec("systeme-haut-risque",
-     "Un système à haut risque exige documentation, supervision humaine et analyse d'impact.",
-     "A high-risk system requires documentation, human oversight and impact assessment.")
-def _(c):
-    c.eyebrow("système à haut risque")
-    c.path("M 300 90 L 340 165 L 260 165 Z", stroke=INK, sw=2)
-    c.text(300, 152, "!", size=22, anchor="middle", bold=True)
-    for i, lab in enumerate(["DOCUMENTATION", "SUPERVISION HUMAINE", "ANALYSE D'IMPACT"]):
-        c.node(190, 185 + i * 34, 220, 28, lab, size=11)
-
-
-# ── Responsabilité / évaluation ─────────────────────────────────────────
 @rec("hallucination",
      "Hallucination : une réponse fausse énoncée avec assurance, sans source.",
      "Hallucination: a false answer stated with confidence, with no source.")
@@ -445,36 +433,6 @@ def _(c):
 
 
 # ── Données ─────────────────────────────────────────────────────────────
-@rec("donnees-personnelles",
-     "Donnée personnelle : toute information permettant d'identifier une personne.",
-     "Personal data: any information that can identify a person.")
-def _(c):
-    c.eyebrow("donnée personnelle")
-    c.circle(300, 140, 26, sw=2)
-    c.circle(300, 130, 8, sw=2)
-    c.path("M 282 158 q 18 -16 36 0", stroke=INK, sw=2)
-    for i, (lab, x, y) in enumerate([("nom", 130, 110), ("localisation", 150, 210),
-                                     ("identifiant", 460, 110), ("historique", 445, 210)]):
-        c.text(x, y, lab, size=11, anchor="middle", op=0.7)
-        c.line(x, y + 6, 300 + (28 if x > 300 else -28) * (1 if x > 300 else 1) * (1 if x > 300 else -1) * 0, 140, sop=0)
-    c.text(300, 250, "→ soumise au RGPD", size=11, anchor="middle", color=POS, op=0.8)
-
-
-@rec("qualite-donnees",
-     "Qualité des données : garbage in, garbage out · elle plafonne la performance.",
-     "Data quality: garbage in, garbage out · it caps performance.")
-def _(c):
-    c.eyebrow("qualité des données")
-    c.node(70, 130, 120, 50, "données ✓", size=12, color=POS)
-    c.line(190, 155, 235, 155, arrow=True)
-    c.node(245, 120, 110, 70, "MODÈLE", size=13)
-    c.line(355, 155, 400, 155, arrow=True)
-    c.node(410, 130, 120, 50, "résultat ✓", size=12, color=POS)
-    c.text(300, 235, "un modèle ne vaut jamais mieux que ses données", size=10,
-           anchor="middle", op=0.5)
-
-
-# ── Économie / écosystème ───────────────────────────────────────────────
 @rec("lock-in",
      "Verrouillage fournisseur : plus le temps passe, plus il devient coûteux de changer.",
      "Vendor lock-in: the more time passes, the costlier it becomes to switch.")

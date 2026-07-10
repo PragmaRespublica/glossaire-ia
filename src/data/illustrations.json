@@ -1,4 +1,20 @@
 {
+ "accountability": {
+  "alt_fr": "Ne pas seulement respecter les règles, mais pouvoir le prouver.",
+  "alt_en": "Not only respecting the rules, but being able to prove it."
+ },
+ "acculturation-ia": {
+  "alt_fr": "Le niveau de maîtrise de l'IA, désormais une obligation légale.",
+  "alt_en": "The level of AI literacy, now a legal obligation."
+ },
+ "acv": {
+  "alt_fr": "L'ACV mesure les impacts d'un produit sur tout son cycle de vie.",
+  "alt_en": "LCA measures a product's impacts across its whole life cycle."
+ },
+ "ademe": {
+  "alt_fr": "L'ADEME publie des référentiels d'évaluation d'impact environnemental.",
+  "alt_en": "ADEME publishes environmental impact assessment frameworks."
+ },
  "agent-ia": {
   "alt_fr": "Boucle d'un agent : penser, agir, observer, recommencer jusqu'à atteindre l'objectif.",
   "alt_en": "Agent loop: think, act, observe, repeat until the goal is reached."
@@ -6,6 +22,38 @@
  "ai-act": {
   "alt_fr": "L'AI Act classe les systèmes en quatre niveaux de risque, de l'inacceptable au minimal.",
   "alt_en": "The AI Act classifies systems into four risk levels, from unacceptable to minimal."
+ },
+ "aipd": {
+  "alt_fr": "L'étude d'impact imposée avant un traitement à risque élevé.",
+  "alt_en": "The impact study required before a high-risk processing."
+ },
+ "anonymisation": {
+  "alt_fr": "L'anonymisation réelle rend la réidentification impossible, ce qui est difficile.",
+  "alt_en": "Real anonymisation makes re-identification impossible, which is hard."
+ },
+ "anssi": {
+  "alt_fr": "L'ANSSI protège l'État par des référentiels de cybersécurité publics.",
+  "alt_en": "ANSSI protects the state with public cybersecurity frameworks."
+ },
+ "attaque-adverse": {
+  "alt_fr": "Une attaque adverse altère imperceptiblement une entrée pour tromper le modèle.",
+  "alt_en": "An adversarial attack imperceptibly alters an input to fool the model."
+ },
+ "audit-documentaire": {
+  "alt_fr": "Cartographier les sources internes avant de déployer un RAG.",
+  "alt_en": "Mapping internal sources before deploying a RAG."
+ },
+ "augmentation-donnees": {
+  "alt_fr": "Créer de nouvelles données par transformations des existantes.",
+  "alt_en": "Creating new data by transforming existing data."
+ },
+ "bac-sable-reglementaire": {
+  "alt_fr": "Un dispositif encadré pour tester une innovation IA en conditions réelles.",
+  "alt_en": "A supervised mechanism to test an AI innovation in real conditions."
+ },
+ "base-legale": {
+  "alt_fr": "Le fondement qui rend licite un traitement de données personnelles.",
+  "alt_en": "The ground that makes personal data processing lawful."
  },
  "benchmark": {
   "alt_fr": "Un benchmark compare les modèles sur des tâches standardisées, avec ses limites.",
@@ -15,33 +63,273 @@
   "alt_fr": "Biais algorithmique : le modèle reproduit et amplifie les déséquilibres de ses données.",
   "alt_en": "Algorithmic bias: the model reproduces and amplifies its data's imbalances."
  },
+ "bureau-ia": {
+  "alt_fr": "L'organe supervisant l'AI Act, notamment les modèles à usage général.",
+  "alt_en": "The body overseeing the AI Act, notably general-purpose models."
+ },
+ "c2pa": {
+  "alt_fr": "Le standard attachant à un fichier une preuve d'origine vérifiable.",
+  "alt_en": "The standard attaching verifiable origin proof to a file."
+ },
+ "calcul-multipartite": {
+  "alt_fr": "Plusieurs parties calculent un résultat commun sans révéler leurs données.",
+  "alt_en": "Several parties compute a joint result without revealing their data."
+ },
+ "caracteristique": {
+  "alt_fr": "Variable mesurable utilisée en entrée d'un modèle.",
+  "alt_en": "A measurable variable used as model input."
+ },
+ "certification-ia": {
+  "alt_fr": "Attester qu'un système d'IA respecte un référentiel donné.",
+  "alt_en": "Certifying that an AI system complies with a given framework."
+ },
+ "chaine-approvisionnement": {
+  "alt_fr": "Chaque maillon de la chaîne IA peut être compromis en amont.",
+  "alt_en": "Each link of the AI chain can be compromised upstream."
+ },
  "chaine-pensee": {
   "alt_fr": "Chaîne de pensée : le modèle raisonne étape par étape avant de conclure.",
   "alt_en": "Chain-of-thought: the model reasons step by step before concluding."
+ },
+ "charte-ia": {
+  "alt_fr": "Le document encadrant l'usage de l'IA dans une organisation.",
+  "alt_en": "The document framing AI use in an organisation."
+ },
+ "chiffrement": {
+  "alt_fr": "Le chiffrement rend les données illisibles sans la clé.",
+  "alt_en": "Encryption makes data unreadable without the key."
+ },
+ "chiffrement-homomorphe": {
+  "alt_fr": "Le chiffrement homomorphe calcule directement sur des données chiffrées.",
+  "alt_en": "Homomorphic encryption computes directly on encrypted data."
+ },
+ "classification-information": {
+  "alt_fr": "Classer l'information par sensibilité conditionne les usages IA autorisés.",
+  "alt_en": "Classifying information by sensitivity conditions authorised AI uses."
+ },
+ "clauses-contractuelles": {
+  "alt_fr": "Des clauses types encadrant les transferts, à compléter d'une analyse.",
+  "alt_en": "Standard clauses framing transfers, to complete with an analysis."
+ },
+ "clauses-ia-contrats": {
+  "alt_fr": "Les clauses cadrant l'IA dans les contrats fournisseurs.",
+  "alt_en": "The clauses framing AI in vendor contracts."
  },
  "cloud-souverain": {
   "alt_fr": "Cloud souverain : un hébergeur européen hors de portée du droit extraterritorial.",
   "alt_en": "Sovereign cloud: a European host beyond the reach of extraterritorial law."
  },
+ "cnil": {
+  "alt_fr": "L'autorité française de protection des données personnelles.",
+  "alt_en": "France's personal data protection authority."
+ },
+ "co2eq": {
+  "alt_fr": "Unité agrégeant tous les gaz à effet de serre en équivalent CO₂.",
+  "alt_en": "A unit aggregating all greenhouse gases into CO₂ equivalent."
+ },
+ "codes-conduite-gpai": {
+  "alt_fr": "Les codes précisant les obligations des modèles à usage général.",
+  "alt_en": "The codes specifying general-purpose models' obligations."
+ },
+ "comite-ia": {
+  "alt_fr": "L'instance interne qui arbitre les projets d'IA.",
+  "alt_en": "The internal body arbitrating AI projects."
+ },
+ "common-crawl": {
+  "alt_fr": "L'archive du web qui a nourri les grands modèles de langage.",
+  "alt_en": "The web archive that fed large language models."
+ },
+ "confidentialite-differentielle": {
+  "alt_fr": "Un bruit calibré empêche de savoir si les données d'une personne ont servi.",
+  "alt_en": "Calibrated noise prevents knowing whether a person's data was used."
+ },
+ "conformite-ia": {
+  "alt_fr": "S'assurer que ses usages d'IA respectent le droit applicable.",
+  "alt_en": "Ensuring your AI uses comply with applicable law."
+ },
+ "consentement": {
+  "alt_fr": "Une acceptation libre, spécifique, éclairée et univoque.",
+  "alt_en": "A free, specific, informed and unambiguous acceptance."
+ },
+ "consommation-eau": {
+  "alt_fr": "L'eau consommée pour refroidir les data centers, souvent ignorée.",
+  "alt_en": "The water consumed to cool data centers, often ignored."
+ },
+ "consommation-electrique": {
+  "alt_fr": "Une requête LLM consomme environ 10 fois plus qu'une recherche web.",
+  "alt_en": "An LLM request consumes about 10 times more than a web search."
+ },
+ "cpf": {
+  "alt_fr": "Le Compte Personnel de Formation finance une formation certifiée.",
+  "alt_en": "The personal training account funds a certified programme."
+ },
+ "csrd": {
+  "alt_fr": "La directive européenne de reporting de durabilité, où entre l'IA.",
+  "alt_en": "The European sustainability reporting directive, which AI enters."
+ },
+ "data-act": {
+  "alt_fr": "Le règlement rendant les données des objets connectés portables.",
+  "alt_en": "The regulation making connected-device data portable."
+ },
+ "data-center": {
+  "alt_fr": "L'infrastructure physique qui exécute l'entraînement et l'inférence.",
+  "alt_en": "The physical infrastructure running training and inference."
+ },
+ "data-privacy-framework": {
+  "alt_fr": "L'accord UE-États-Unis, historiquement instable.",
+  "alt_en": "The EU-US agreement, historically unstable."
+ },
+ "dechets-electroniques": {
+  "alt_fr": "Les équipements électroniques en fin de vie, aggravés par l'IA.",
+  "alt_en": "End-of-life electronic equipment, worsened by AI."
+ },
+ "decision-automatisee": {
+  "alt_fr": "L'article 22 encadre les décisions prises sans intervention humaine.",
+  "alt_en": "Article 22 frames decisions made without human intervention."
+ },
+ "donnees-dormantes": {
+  "alt_fr": "Des données stockées mais jamais exploitées, réveillées par l'IA.",
+  "alt_en": "Data stored but never used, awakened by AI."
+ },
+ "donnees-entrainement": {
+  "alt_fr": "Les données d'entraînement déterminent capacités et biais du modèle.",
+  "alt_en": "Training data determines the model's capabilities and biases."
+ },
+ "donnees-fair": {
+  "alt_fr": "Findable, Accessible, Interoperable, Reusable : des données de qualité.",
+  "alt_en": "Findable, Accessible, Interoperable, Reusable: quality data."
+ },
+ "donnees-ouvertes": {
+  "alt_fr": "Données librement accessibles, ressource clé pour l'IA souveraine.",
+  "alt_en": "Freely accessible data, a key resource for sovereign AI."
+ },
  "donnees-personnelles": {
-  "alt_fr": "Donnée personnelle : toute information permettant d'identifier une personne.",
-  "alt_en": "Personal data: any information that can identify a person."
+  "alt_fr": "Toute information permettant d'identifier une personne relève du RGPD.",
+  "alt_en": "Any information identifying a person falls under the GDPR."
+ },
+ "donnees-sensibles": {
+  "alt_fr": "Catégories particulières (santé, origine…) à protection renforcée.",
+  "alt_en": "Special categories (health, origin…) with reinforced protection."
+ },
+ "donnees-structurees": {
+  "alt_fr": "Le non structuré (textes, images) concentre l'essentiel du savoir des organisations.",
+  "alt_en": "Unstructured data (text, images) holds most of organisations' knowledge."
+ },
+ "donnees-synthetiques": {
+  "alt_fr": "Des données générées imitant le réel, quand les vraies manquent.",
+  "alt_en": "Generated data imitating the real, when real data is scarce."
+ },
+ "dpo-delegue": {
+  "alt_fr": "Le DPO veille à la conformité des traitements de données personnelles.",
+  "alt_en": "The DPO ensures personal data processing complies."
+ },
+ "droits-auteur-ia": {
+  "alt_fr": "Les questions juridiques sur l'entraînement et les œuvres générées.",
+  "alt_en": "The legal questions on training and generated works."
+ },
+ "droits-personnes": {
+  "alt_fr": "Accès, rectification, effacement, opposition : les droits garantis.",
+  "alt_en": "Access, rectification, erasure, objection: the guaranteed rights."
+ },
+ "dsa-dma": {
+  "alt_fr": "Deux règlements encadrant les grandes plateformes numériques.",
+  "alt_en": "Two regulations framing large digital platforms."
+ },
+ "echantillonnage": {
+  "alt_fr": "Un échantillon non représentatif fausse tout le modèle.",
+  "alt_en": "An unrepresentative sample skews the whole model."
+ },
+ "ecologits": {
+  "alt_fr": "Une bibliothèque mesurant l'empreinte des appels aux LLM.",
+  "alt_en": "A library measuring the footprint of LLM calls."
  },
  "ecosysteme-ia-francais": {
   "alt_fr": "Écosystème IA français : une chaîne complète, du modèle à l'hébergement souverain.",
   "alt_en": "French AI ecosystem: a complete chain, from model to sovereign hosting."
  },
+ "effet-rebond": {
+  "alt_fr": "Les gains d'efficacité augmentent l'usage total au lieu de le réduire.",
+  "alt_en": "Efficiency gains increase total use instead of reducing it."
+ },
  "embedding": {
   "alt_fr": "Un mot est projeté en vecteur ; les sens proches occupent des positions voisines dans l'espace.",
   "alt_en": "A word is projected into a vector; close meanings occupy neighbouring positions in space."
+ },
+ "empoisonnement-donnees": {
+  "alt_fr": "Empoisonner les données d'entraînement modifie le comportement du modèle.",
+  "alt_en": "Poisoning training data alters the model's behaviour."
  },
  "empreinte-carbone": {
   "alt_fr": "Chaque requête a une empreinte carbone qui dépend du mix électrique.",
   "alt_en": "Each request has a carbon footprint that depends on the electricity mix."
  },
+ "empreinte-materielle": {
+  "alt_fr": "L'impact de la fabrication du matériel : minerais, puces, transport.",
+  "alt_en": "The impact of hardware manufacturing: minerals, chips, transport."
+ },
+ "entrepot-donnees": {
+  "alt_fr": "Base centralisée de données structurées, optimisée pour l'analyse.",
+  "alt_en": "Centralised structured database, optimised for analysis."
+ },
+ "ethique-ia": {
+  "alt_fr": "La réflexion sur les implications morales de l'IA.",
+  "alt_en": "The reflection on AI's moral implications."
+ },
+ "etiquetage-donnees": {
+  "alt_fr": "Attribuer aux données les étiquettes servant de vérité de référence.",
+  "alt_en": "Attaching to data the labels serving as reference truth."
+ },
+ "exception-tdm": {
+  "alt_fr": "L'exception autorisant la fouille de contenus pour entraîner les modèles.",
+  "alt_en": "The exception authorising content mining to train models."
+ },
+ "exfiltration": {
+  "alt_fr": "L'exfiltration fait sortir des données hors du périmètre, souvent via un agent.",
+  "alt_en": "Exfiltration moves data out of the perimeter, often via an agent."
+ },
+ "exploration-donnees": {
+  "alt_fr": "Découvrir schémas et corrélations cachés dans de grands volumes.",
+  "alt_en": "Discovering hidden patterns and correlations in large volumes."
+ },
+ "extraction-caracteristiques": {
+  "alt_fr": "Transformer des données brutes en caractéristiques exploitables.",
+  "alt_en": "Transforming raw data into usable features."
+ },
+ "extraction-modele": {
+  "alt_fr": "Interroger massivement une API permet de recopier le modèle.",
+  "alt_en": "Massively querying an API allows copying the model."
+ },
+ "filigrane-ia": {
+  "alt_fr": "Insérer dans un contenu IA une marque signalant son origine.",
+  "alt_en": "Inserting into AI content a mark signalling its origin."
+ },
  "fine-tuning": {
   "alt_fr": "Le fine-tuning ajoute une fine couche d'adaptation à un modèle de base déjà entraîné.",
   "alt_en": "Fine-tuning adds a thin adaptation layer to an already-trained base model."
+ },
+ "fraude-ia": {
+  "alt_fr": "L'IA démultiplie la fraude : voix clonées, deepfakes, faux documents.",
+  "alt_en": "AI multiplies fraud: cloned voices, deepfakes, fake documents."
+ },
+ "fria": {
+  "alt_fr": "L'analyse d'impact des systèmes à haut risque sur les droits fondamentaux.",
+  "alt_en": "The impact assessment of high-risk systems on fundamental rights."
+ },
+ "fuite-informations": {
+  "alt_fr": "Un RAG mal cloisonné expose des documents au-delà des droits de l'utilisateur.",
+  "alt_en": "A poorly compartmentalised RAG exposes documents beyond the user's rights."
+ },
+ "gouvernance-donnees": {
+  "alt_fr": "Rôles, processus et règles organisant la gestion des données.",
+  "alt_en": "Roles, processes and rules organising data management."
+ },
+ "gouvernance-ia": {
+  "alt_fr": "Les structures et règles encadrant l'usage de l'IA.",
+  "alt_en": "The structures and rules framing AI use."
+ },
+ "gpai": {
+  "alt_fr": "Un modèle à usage général, aux obligations propres sous l'AI Act.",
+  "alt_en": "A general-purpose model with specific obligations under the AI Act."
  },
  "gpt": {
   "alt_fr": "GPT décompose trois idées : génératif, préentraîné, transformer.",
@@ -55,9 +343,29 @@
   "alt_fr": "Hallucination : une réponse fausse énoncée avec assurance, sans source.",
   "alt_en": "Hallucination: a false answer stated with confidence, with no source."
  },
+ "hameconnage-ia": {
+  "alt_fr": "L'IA produit des courriels d'hameçonnage sans fautes, personnalisés à grande échelle.",
+  "alt_en": "AI produces error-free, personalised phishing emails at scale."
+ },
+ "hds": {
+  "alt_fr": "La certification obligatoire pour héberger des données de santé.",
+  "alt_en": "The mandatory certification to host health data."
+ },
  "humain-dans-la-boucle": {
   "alt_fr": "Humain dans la boucle : l'IA propose, l'humain valide les décisions sensibles.",
   "alt_en": "Human in the loop: AI proposes, the human validates sensitive decisions."
+ },
+ "ia-climat": {
+  "alt_fr": "L'IA au service du climat : le vrai critère est le bilan net.",
+  "alt_en": "AI serving the climate: the real criterion is the net balance."
+ },
+ "ia-fantome": {
+  "alt_fr": "L'IA fantôme : usage d'outils IA hors de tout cadre validé par l'organisation.",
+  "alt_en": "Shadow AI: use of AI tools outside any framework validated by the organisation."
+ },
+ "ia-frugale": {
+  "alt_fr": "Minimiser les ressources consommées pour un service rendu donné.",
+  "alt_en": "Minimising resources consumed for a given service."
  },
  "ia-generative": {
   "alt_fr": "L'IA générative produit du contenu nouveau à partir d'une instruction en langage naturel.",
@@ -67,21 +375,161 @@
   "alt_fr": "IA souveraine : les données restent à l'intérieur de la frontière, sous contrôle local.",
   "alt_en": "Sovereign AI: data stays inside the border, under local control."
  },
+ "iam": {
+  "alt_fr": "L'IAM détermine qui accède à quoi ; l'IA hérite des droits existants.",
+  "alt_en": "IAM determines who accesses what; AI inherits existing rights."
+ },
+ "identification-biometrique": {
+  "alt_fr": "Reconnaître une personne par ses caractéristiques physiques, très encadré.",
+  "alt_en": "Recognising a person by physical characteristics, strictly framed."
+ },
+ "inference-appartenance": {
+  "alt_fr": "Déterminer si les données d'une personne ont servi à entraîner un modèle.",
+  "alt_en": "Determining whether a person's data was used to train a model."
+ },
+ "injection-indirecte": {
+  "alt_fr": "Des instructions cachées dans un contenu consulté détournent l'agent.",
+  "alt_en": "Hidden instructions in consulted content hijack the agent."
+ },
+ "intensite-carbone": {
+  "alt_fr": "Le CO₂ par kWh varie énormément selon le pays et l'heure.",
+  "alt_en": "CO₂ per kWh varies enormously by country and hour."
+ },
+ "interoperabilite": {
+  "alt_fr": "La capacité de systèmes différents à fonctionner ensemble.",
+  "alt_en": "The ability of different systems to work together."
+ },
+ "inversion-modele": {
+  "alt_fr": "Reconstruire les données d'entraînement à partir du modèle.",
+  "alt_en": "Reconstructing training data from the model."
+ },
+ "iso-42001": {
+  "alt_fr": "La norme de système de management de l'IA, comme ISO 27001.",
+  "alt_en": "The AI management system standard, like ISO 27001."
+ },
+ "jailbreak": {
+  "alt_fr": "Le débridage contourne les garde-fous par des prompts astucieux.",
+  "alt_en": "Jailbreaking bypasses guardrails through clever prompts."
+ },
+ "jeu-donnees": {
+  "alt_fr": "Un dataset se sépare strictement en entraînement, validation et test.",
+  "alt_en": "A dataset is strictly split into training, validation and test."
+ },
+ "journalisation": {
+  "alt_fr": "Enregistrer les événements d'un système IA conditionne son auditabilité.",
+  "alt_en": "Logging an AI system's events conditions its auditability."
+ },
+ "lac-donnees": {
+  "alt_fr": "Un réservoir de données brutes ; sans gouvernance, il tourne au marécage.",
+  "alt_en": "A reservoir of raw data; without governance, it becomes a swamp."
+ },
  "llm": {
   "alt_fr": "Un grand modèle de langage prédit le prochain fragment de texte, token après token.",
   "alt_en": "A large language model predicts the next fragment of text, token after token."
+ },
+ "localisation-donnees": {
+  "alt_fr": "Le lieu de stockage ET de traitement détermine le droit applicable.",
+  "alt_en": "The place of storage AND processing determines the applicable law."
  },
  "lock-in": {
   "alt_fr": "Verrouillage fournisseur : plus le temps passe, plus il devient coûteux de changer.",
   "alt_en": "Vendor lock-in: the more time passes, the costlier it becomes to switch."
  },
+ "marecage-donnees": {
+  "alt_fr": "Un lac de données ingouverné, devenu inexploitable.",
+  "alt_en": "An ungoverned data lake, become unusable."
+ },
+ "marquage-ce": {
+  "alt_fr": "Le marquage CE atteste la conformité d'un système à haut risque.",
+  "alt_en": "CE marking certifies a high-risk system's conformity."
+ },
+ "megadonnees": {
+  "alt_fr": "Des données trop volumineuses, rapides ou variées pour les outils classiques.",
+  "alt_en": "Data too voluminous, fast or varied for classic tools."
+ },
+ "metadonnees": {
+  "alt_fr": "Des données décrivant d'autres données : auteur, date, droits, source.",
+  "alt_en": "Data describing other data: author, date, rights, source."
+ },
+ "minimisation": {
+  "alt_fr": "Ne collecter que les données strictement nécessaires à la finalité.",
+  "alt_en": "Collecting only the data strictly necessary for the purpose."
+ },
  "mistral-ai": {
   "alt_fr": "Mistral AI : acteur français publiant des modèles ouverts, alternative souveraine.",
   "alt_en": "Mistral AI: a French player releasing open models, a sovereign alternative."
  },
+ "mix-energetique": {
+  "alt_fr": "La répartition des sources d'électricité détermine l'empreinte réelle.",
+  "alt_en": "The breakdown of electricity sources determines the real footprint."
+ },
+ "moindre-privilege": {
+  "alt_fr": "Un agent ne reçoit que les droits strictement nécessaires à sa tâche.",
+  "alt_en": "An agent receives only the rights strictly necessary for its task."
+ },
+ "neutralite-carbone": {
+  "alt_fr": "Les promesses de neutralité des Big Tech face à la hausse réelle.",
+  "alt_en": "Big Tech neutrality pledges against real emission rises."
+ },
+ "nis2": {
+  "alt_fr": "La directive renforçant la cybersécurité d'un large éventail d'acteurs.",
+  "alt_en": "The directive strengthening cybersecurity for a broad range of actors."
+ },
+ "nist-ai-rmf": {
+  "alt_fr": "Le cadre volontaire du NIST pour gérer les risques de l'IA.",
+  "alt_en": "The NIST voluntary framework for managing AI risks."
+ },
+ "normes-harmonisees": {
+  "alt_fr": "Les normes précisant comment respecter concrètement l'AI Act.",
+  "alt_en": "Standards specifying how to concretely meet the AI Act."
+ },
+ "notation-sociale": {
+  "alt_fr": "Noter les individus pour conditionner leurs droits : interdit.",
+  "alt_en": "Scoring individuals to condition their rights: banned."
+ },
+ "numerique-responsable": {
+  "alt_fr": "Réduire l'empreinte environnementale et sociale du numérique.",
+  "alt_en": "Reducing the environmental and social footprint of digital tech."
+ },
+ "obsolescence-materiel": {
+  "alt_fr": "Le renouvellement accéléré des serveurs et terminaux « pour l'IA ».",
+  "alt_en": "The accelerated renewal of servers and devices \"for AI\"."
+ },
  "open-weights": {
   "alt_fr": "Modèle à poids ouverts : téléchargeable, exécutable et adaptable chez soi.",
   "alt_en": "Open-weights model: downloadable, runnable and adaptable at home."
+ },
+ "opt-out": {
+  "alt_fr": "Le droit de refuser que ses contenus servent à entraîner l'IA.",
+  "alt_en": "The right to refuse one's content being used to train AI."
+ },
+ "owasp-llm": {
+  "alt_fr": "Le top 10 OWASP recense les vulnérabilités critiques des applications LLM.",
+  "alt_en": "The OWASP Top 10 lists the critical vulnerabilities of LLM applications."
+ },
+ "pipeline-donnees": {
+  "alt_fr": "Chaîne automatisée acheminant les données de la source à l'usage.",
+  "alt_en": "Automated chain routing data from source to use."
+ },
+ "police-predictive": {
+  "alt_fr": "L'IA prédisant les infractions, un biais qui s'auto-entretient.",
+  "alt_en": "AI predicting offences, a self-reinforcing bias."
+ },
+ "portabilite-donnees": {
+  "alt_fr": "Récupérer ses données dans un format réutilisable pour changer de service.",
+  "alt_en": "Retrieving your data in a reusable format to switch service."
+ },
+ "porte-derobee-modele": {
+  "alt_fr": "Un comportement malveillant caché, activé par un déclencheur précis.",
+  "alt_en": "A hidden malicious behaviour, activated by a specific trigger."
+ },
+ "pratiques-interdites": {
+  "alt_fr": "Les usages d'IA à risque inacceptable, interdits dans l'Union.",
+  "alt_en": "AI uses of unacceptable risk, banned in the Union."
+ },
+ "privacy-by-design": {
+  "alt_fr": "Intégrer la protection des données dès la conception d'un système.",
+  "alt_en": "Building data protection into a system's design."
  },
  "prompt-engineering": {
   "alt_fr": "Ingénierie de prompt : une instruction précise transforme la qualité de la réponse.",
@@ -91,13 +539,53 @@
   "alt_fr": "Injection de prompt : une instruction malveillante cachée détourne le modèle.",
   "alt_en": "Prompt injection: a hidden malicious instruction hijacks the model."
  },
+ "pseudonymisation": {
+  "alt_fr": "Remplacer les identifiants par des pseudonymes, de façon réversible.",
+  "alt_en": "Replacing identifiers with pseudonyms, reversibly."
+ },
+ "pue": {
+  "alt_fr": "L'efficacité énergétique d'un data center : total / informatique.",
+  "alt_en": "A data center's energy efficiency: total / IT."
+ },
  "qualite-donnees": {
-  "alt_fr": "Qualité des données : garbage in, garbage out · elle plafonne la performance.",
-  "alt_en": "Data quality: garbage in, garbage out · it caps performance."
+  "alt_fr": "La qualité des données plafonne la performance du modèle.",
+  "alt_en": "Data quality caps the model's performance."
  },
  "rag": {
   "alt_fr": "Schéma d'un RAG : une base documentaire alimente une recherche, dont les passages rejoignent la question vers un modèle qui produit une réponse sourcée.",
   "alt_en": "RAG diagram: a document base feeds a search whose passages join the question into a model producing a sourced answer."
+ },
+ "reconnaissance-emotions": {
+  "alt_fr": "Prétendre déduire les émotions, contesté et souvent interdit.",
+  "alt_en": "Claiming to infer emotions, contested and often banned."
+ },
+ "reconnaissance-faciale": {
+  "alt_fr": "Deux mondes juridiques opposés selon consentement et centralisation.",
+  "alt_en": "Two opposed legal worlds by consent and centralisation."
+ },
+ "red-teaming": {
+  "alt_fr": "Attaquer volontairement son IA pour trouver les failles avant les attaquants.",
+  "alt_en": "Deliberately attacking your AI to find flaws before attackers do."
+ },
+ "reduction-dimension": {
+  "alt_fr": "Réduire le nombre de variables en préservant l'essentiel.",
+  "alt_en": "Reducing the number of variables while preserving the essentials."
+ },
+ "refroidissement": {
+  "alt_fr": "Évacuer la chaleur des GPU denses : liquide, immersion, chaleur fatale.",
+  "alt_en": "Removing heat from dense GPUs: liquid, immersion, waste-heat reuse."
+ },
+ "registre-cas-usage": {
+  "alt_fr": "L'inventaire à jour de tous les usages d'IA d'une organisation.",
+  "alt_en": "The up-to-date inventory of all an organisation's AI uses."
+ },
+ "registre-traitements": {
+  "alt_fr": "Le document RGPD recensant tous les traitements de données.",
+  "alt_en": "The GDPR document listing all data processing operations."
+ },
+ "responsabilite-ia": {
+  "alt_fr": "Qui répond des dommages : fournisseur, intégrateur ou déployeur ?",
+  "alt_en": "Who is liable for harm: provider, integrator or deployer?"
  },
  "rgpd": {
   "alt_fr": "Le RGPD protège les données personnelles par un bouclier de droits.",
@@ -107,28 +595,104 @@
   "alt_fr": "ROI de l'IA : mesurer la valeur réelle créée face au coût total.",
   "alt_en": "AI ROI: measuring the real value created against the total cost."
  },
+ "scope-3": {
+  "alt_fr": "Les émissions indirectes de la chaîne de valeur, dont l'IA consommée.",
+  "alt_en": "The value chain's indirect emissions, including consumed AI."
+ },
+ "scraping": {
+  "alt_fr": "L'extraction automatisée de contenus web pour entraîner les modèles.",
+  "alt_en": "Automated extraction of web content to train models."
+ },
+ "secnumcloud": {
+  "alt_fr": "Le label ANSSI du cloud de confiance, immunisé aux lois extraterritoriales.",
+  "alt_en": "The ANSSI trusted-cloud label, immune to extraterritorial laws."
+ },
+ "securite-donnees": {
+  "alt_fr": "Protéger les données contre accès non autorisés, fuites et altérations.",
+  "alt_en": "Protecting data against unauthorised access, leaks and tampering."
+ },
+ "signalement-incidents": {
+  "alt_fr": "L'obligation de notifier les incidents graves des systèmes à haut risque.",
+  "alt_en": "The obligation to report serious incidents of high-risk systems."
+ },
  "sobriete-numerique": {
   "alt_fr": "Sobriété numérique : choisir le modèle minimal qui suffit à la tâche.",
   "alt_en": "Digital sobriety: choosing the minimal model that suffices for the task."
+ },
+ "souverainete-donnees": {
+  "alt_fr": "Garder ses données sous ses propres lois et son contrôle.",
+  "alt_en": "Keeping your data under your own laws and control."
  },
  "souverainete-numerique": {
   "alt_fr": "Souveraineté numérique : garder les clés de ses choix technologiques.",
   "alt_en": "Digital sovereignty: keeping the keys to one's technological choices."
  },
+ "sso": {
+  "alt_fr": "S'authentifier une fois pour accéder à plusieurs applications.",
+  "alt_en": "Authenticating once to access several applications."
+ },
+ "statut-oeuvres-ia": {
+  "alt_fr": "La protection des contenus générés dépend de l'intervention humaine.",
+  "alt_en": "The protection of generated content depends on human intervention."
+ },
+ "supervision-humaine": {
+  "alt_fr": "Le système doit être effectivement supervisable par un humain.",
+  "alt_en": "The system must be effectively supervisable by a human."
+ },
+ "surveillance-travail": {
+  "alt_fr": "La surveillance algorithmique des salariés, fortement encadrée.",
+  "alt_en": "Algorithmic employee surveillance, strongly framed."
+ },
  "systeme-haut-risque": {
-  "alt_fr": "Un système à haut risque exige documentation, supervision humaine et analyse d'impact.",
-  "alt_en": "A high-risk system requires documentation, human oversight and impact assessment."
+  "alt_fr": "Un système à haut risque cumule les obligations les plus lourdes.",
+  "alt_en": "A high-risk system carries the heaviest obligations."
+ },
+ "tee": {
+  "alt_fr": "Une zone matérielle isolée protège code et données, même de l'administrateur.",
+  "alt_en": "An isolated hardware zone protects code and data, even from the administrator."
+ },
+ "terres-rares": {
+  "alt_fr": "Les minerais critiques des puces, à forte dépendance géopolitique.",
+  "alt_en": "The critical minerals of chips, with high geopolitical dependence."
+ },
+ "test-intrusion": {
+  "alt_fr": "Simuler une attaque réelle pour éprouver les défenses d'une application IA.",
+  "alt_en": "Simulating a real attack to test an AI application's defences."
  },
  "token": {
   "alt_fr": "Tokenisation : une phrase est découpée en unités élémentaires facturées et traitées par le modèle.",
   "alt_en": "Tokenisation: a sentence is split into elementary units billed and processed by the model."
  },
+ "tracabilite-donnees": {
+  "alt_fr": "Retracer l'origine et le parcours d'une donnée jusqu'à son usage.",
+  "alt_en": "Tracing a datum's origin and journey to its use."
+ },
+ "transferts-internationaux": {
+  "alt_fr": "La sortie de données hors de l'UE, enjeu central des API américaines.",
+  "alt_en": "The exit of data outside the EU, key issue of American APIs."
+ },
  "transformer": {
   "alt_fr": "Architecture transformer : chaque mot pondère l'importance de tous les autres par le mécanisme d'attention.",
   "alt_en": "Transformer architecture: each word weighs the importance of all others through the attention mechanism."
  },
+ "travailleurs-clic": {
+  "alt_fr": "La main-d'œuvre humaine des micro-tâches derrière l'IA.",
+  "alt_en": "The human micro-task workforce behind AI."
+ },
  "vector-store": {
   "alt_fr": "Base vectorielle : des documents deviennent des points dans un espace, et une requête retrouve les plus proches.",
   "alt_en": "Vector store: documents become points in a space, and a query retrieves the nearest ones."
+ },
+ "vectorisation": {
+  "alt_fr": "Convertir des données non numériques en vecteurs de nombres.",
+  "alt_en": "Converting non-numeric data into vectors of numbers."
+ },
+ "wue": {
+  "alt_fr": "L'efficacité hydrique d'un data center : litres d'eau par kWh.",
+  "alt_en": "A data center's water efficiency: litres of water per kWh."
+ },
+ "zero-trust": {
+  "alt_fr": "Ne jamais faire confiance par défaut : chaque accès est vérifié.",
+  "alt_en": "Never trust by default: every access is verified."
  }
 }
