@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Corpus d'entraînement",
+  "terme_en": "Training corpus",
+  "sous_titre_fr": "Training corpus",
+  "sous_titre_en": "Corpus d'entraînement",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des textes ou documents rassemblés pour entraîner un modèle de langage. Sa taille, sa diversité linguistique et sa qualité déterminent les capacités et les biais du modèle. La composition d'un corpus · quelles langues, quelles sources, quelle proportion · est un choix stratégique aux conséquences durables.",
+  "definition_en": "The set of texts or documents gathered to train a language model. Its size, linguistic diversity and quality determine the model's capabilities and biases. A corpus's composition · which languages, which sources, what proportion · is a strategic choice with lasting consequences.",
+  "exemple_fr": "Un modèle entraîné sur un corpus à 90 % anglophone comprend et écrit moins bien le français, et ignore des références culturelles européennes. La sous-représentation du français dans les corpus est un enjeu de souveraineté · elle explique pourquoi des modèles entraînés en France, sur du français de qualité, gardent un intérêt réel.",
+  "exemple_en": "A model trained on a 90%-English corpus understands and writes French less well, and ignores European cultural references. The under-representation of French in corpora is a sovereignty issue · it explains why models trained in France, on quality French, retain real value.",
+  "regard_fr": "Le corpus d'entraînement est l'ADN culturel d'un modèle : il décide de quelles langues, quelles références, quelles valeurs il est imprégné. La domination de l'anglais dans les corpus n'est pas neutre. Soutenir des modèles entraînés sur du français de qualité est un acte de souveraineté linguistique.",
+  "regard_en": "The training corpus is a model's cultural DNA: it decides which languages, references and values it is steeped in. The dominance of English in corpora is not neutral. Supporting models trained on quality French is an act of linguistic sovereignty.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "donnees-entrainement",
+    "ia-langue-francaise",
+    "modeles-multilingues",
+    "common-crawl"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · corpus",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

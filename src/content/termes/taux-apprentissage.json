@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Taux d'apprentissage",
+  "terme_en": "Learning rate",
+  "sous_titre_fr": "Learning rate",
+  "sous_titre_en": "Taux d'apprentissage",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Hyperparamètre déterminant l'ampleur des ajustements apportés au modèle à chaque étape d'entraînement. Trop élevé, l'apprentissage devient instable et diverge ; trop faible, il est d'une lenteur coûteuse et peut se bloquer. Le taux d'apprentissage est souvent l'hyperparamètre le plus déterminant · et le plus délicat à régler.",
+  "definition_en": "A hyperparameter determining the magnitude of adjustments made to the model at each training step. Too high, learning becomes unstable and diverges; too low, it is costly slow and can get stuck. The learning rate is often the most decisive hyperparameter · and the most delicate to tune.",
+  "exemple_fr": "Un entraînement diverge : la perte explose au lieu de baisser. La cause est presque toujours la même · un taux d'apprentissage trop élevé. En le réduisant, l'entraînement se stabilise et converge. Ce seul réglage peut faire la différence entre un modèle qui apprend et un entraînement qui part en vrille.",
+  "exemple_en": "A training run diverges: the loss explodes instead of dropping. The cause is almost always the same · a learning rate too high. Reducing it, the training stabilises and converges. This single setting can make the difference between a model that learns and a run that spirals out.",
+  "regard_fr": "Le taux d'apprentissage résume l'art de l'entraînement : avancer assez vite pour progresser, assez prudemment pour ne pas déraper. C'est une métaphore utile bien au-delà de l'IA · dans l'apprentissage humain comme dans la conduite du changement, le bon rythme est tout.",
+  "regard_en": "The learning rate sums up the art of training: advance fast enough to progress, cautiously enough not to skid. It is a useful metaphor well beyond AI · in human learning as in change management, the right pace is everything.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "hyperparametre",
+    "descente-gradient",
+    "fonction-perte",
+    "entrainement"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (taux d'apprentissage)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Époque (epoch)",
+  "terme_en": "Epoch",
+  "sous_titre_fr": "Epoch",
+  "sous_titre_en": "Époque",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Un passage complet de l'ensemble des données d'entraînement à travers le modèle. L'entraînement compte généralement plusieurs époques : à chaque passage, le modèle affine ses paramètres. Trop peu d'époques, il sous-apprend ; trop, il surapprend. Le nombre d'époques est un réglage clé de tout entraînement.",
+  "definition_en": "One complete pass of the entire training dataset through the model. Training usually counts several epochs: at each pass, the model refines its parameters. Too few epochs, it underfits; too many, it overfits. The number of epochs is a key setting of any training.",
+  "exemple_fr": "Une équipe suit la performance de son modèle époque après époque. L'erreur baisse, puis se met à remonter sur les données de validation : signe de surapprentissage. Elle arrête l'entraînement au meilleur point, avant la dégradation. Suivre les époques, c'est savoir quand s'arrêter · un art aussi important que savoir commencer.",
+  "exemple_en": "A team tracks its model's performance epoch after epoch. The error drops, then starts rising on the validation data: a sign of overfitting. It stops training at the best point, before degradation. Tracking epochs means knowing when to stop · an art as important as knowing when to start.",
+  "regard_fr": "La notion d'époque rappelle qu'en apprentissage, répéter n'est pas toujours progresser. Passé un certain point, continuer d'entraîner dégrade le modèle. Savoir s'arrêter au bon moment est une compétence décisive · en IA comme dans bien des apprentissages humains.",
+  "regard_en": "The notion of epoch recalls that in learning, repeating is not always progressing. Past a certain point, continuing to train degrades the model. Knowing when to stop at the right moment is a decisive skill · in AI as in many human learnings.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "entrainement",
+    "surapprentissage",
+    "point-controle",
+    "courbes-apprentissage"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (epoch)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Date de coupure des connaissances",
+  "terme_en": "Knowledge cutoff",
+  "sous_titre_fr": "Knowledge cutoff",
+  "sous_titre_en": "Date de coupure des connaissances",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Date au-delà de laquelle un modèle n'a aucune connaissance des événements du monde, faute d'avoir été entraîné sur des données plus récentes. Un modèle ignore tout ce qui s'est passé après sa date de coupure · d'où l'importance du RAG et de la recherche web pour lui donner accès à l'information actuelle.",
+  "definition_en": "The date beyond which a model has no knowledge of world events, for lack of being trained on more recent data. A model knows nothing of what happened after its cutoff date · hence the importance of RAG and web search to give it access to current information.",
+  "exemple_fr": "Interrogé sur un événement survenu après sa date de coupure, un modèle répond avec assurance · mais sur la base de ce qu'il « imagine », pas de faits. Sans conscience de sa propre limite temporelle, il peut inventer. Coupler le modèle à une recherche web ou à un RAG à jour est la seule vraie parade.",
+  "exemple_en": "Asked about an event occurring after its cutoff date, a model answers with confidence · but based on what it \"imagines\", not on facts. Unaware of its own temporal limit, it can invent. Coupling the model to web search or an up-to-date RAG is the only real countermeasure.",
+  "regard_fr": "La date de coupure est une limite qu'on oublie facilement : un modèle brillant peut ignorer totalement l'actualité récente. Toujours se demander « ce modèle sait-il ce qui compte pour ma question ? » évite de prendre pour argent comptant des réponses basées sur un monde périmé.",
+  "regard_en": "The cutoff date is a limit easily forgotten: a brilliant model can be totally unaware of recent news. Always asking \"does this model know what matters for my question?\" avoids taking at face value answers based on an outdated world.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "hallucination",
+    "rag",
+    "recherche-ia",
+    "llm"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des fournisseurs de LLM (knowledge cutoff)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

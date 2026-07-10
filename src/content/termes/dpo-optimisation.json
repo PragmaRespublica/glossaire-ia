@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Optimisation directe des préférences (DPO)",
+  "terme_en": "Direct Preference Optimization (DPO)",
+  "sous_titre_fr": "Direct Preference Optimization",
+  "sous_titre_en": "Optimisation directe des préférences",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Technique d'alignement plus simple et plus stable que le RLHF classique : au lieu d'entraîner un modèle de récompense séparé, elle ajuste directement le modèle à partir de paires de réponses (préférée / rejetée). Plus légère à mettre en œuvre, la DPO a rendu l'alignement accessible à davantage d'acteurs, y compris pour des modèles ouverts.",
+  "definition_en": "An alignment technique simpler and more stable than classic RLHF: instead of training a separate reward model, it adjusts the model directly from pairs of responses (preferred / rejected). Lighter to implement, DPO has made alignment accessible to more players, including for open models.",
+  "exemple_fr": "Une équipe veut aligner un modèle ouvert sur le style de son entreprise. Le RLHF complet serait lourd. Avec la DPO, elle fournit des paires « bonne réponse / mauvaise réponse » et ajuste directement le modèle. Plus simple, plus rapide · l'alignement n'est plus réservé aux grands laboratoires.",
+  "exemple_en": "A team wants to align an open model on its company's style. Full RLHF would be heavy. With DPO, it provides \"good response / bad response\" pairs and adjusts the model directly. Simpler, faster · alignment is no longer reserved for big labs.",
+  "regard_fr": "La DPO démocratise l'alignement : ce qui exigeait l'infrastructure d'un grand laboratoire devient accessible à une équipe motivée. C'est une bonne nouvelle pour la souveraineté · adapter finement un modèle ouvert à ses valeurs et à son style n'est plus hors de portée.",
+  "regard_en": "DPO democratises alignment: what required a big lab's infrastructure becomes accessible to a motivated team. That is good news for sovereignty · finely adapting an open model to your values and style is no longer out of reach.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rlhf",
+    "alignement-ia",
+    "fine-tuning",
+    "modele-recompense"
+  ],
+  "sources": [
+    {
+      "titre": "Rafailov et al. · Direct Preference Optimization"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

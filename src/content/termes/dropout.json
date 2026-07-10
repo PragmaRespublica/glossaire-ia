@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Abandon (dropout)",
+  "terme_en": "Dropout",
+  "sous_titre_fr": "Abandon",
+  "sous_titre_en": "Abandon",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Technique de régularisation consistant à désactiver aléatoirement une partie des neurones à chaque étape d'entraînement. Le modèle ne peut plus dépendre d'un neurone précis et apprend des représentations plus robustes et redondantes. Simple et efficace, le dropout est l'une des méthodes anti-surapprentissage les plus utilisées.",
+  "definition_en": "A regularisation technique that randomly deactivates part of the neurons at each training step. The model can no longer depend on a specific neuron and learns more robust, redundant representations. Simple and effective, dropout is one of the most-used anti-overfitting methods.",
+  "exemple_fr": "En désactivant au hasard 20 % des neurones à chaque passe, le dropout empêche le modèle de trop se reposer sur quelques neurones spécialisés. Contraint à la redondance, il devient plus robuste · un peu comme une équipe où chacun sait faire le travail des autres résiste mieux aux absences.",
+  "exemple_en": "By randomly deactivating 20% of neurons at each pass, dropout prevents the model from relying too much on a few specialised neurons. Forced into redundancy, it becomes more robust · rather like a team where everyone can do the others' work withstands absences better.",
+  "regard_fr": "Le dropout illustre l'élégance de certaines idées d'IA : une astuce simple · éteindre des neurones au hasard · résout un problème complexe. Ces solutions minimales et robustes sont souvent les meilleures. En IA comme ailleurs, la sophistication n'est pas toujours la voie de l'efficacité.",
+  "regard_en": "Dropout illustrates the elegance of some AI ideas: a simple trick · turning off neurons at random · solves a complex problem. These minimal, robust solutions are often the best. In AI as elsewhere, sophistication is not always the path to effectiveness.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "regularisation",
+    "surapprentissage",
+    "reseau-neurones",
+    "robustesse"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (abandon)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

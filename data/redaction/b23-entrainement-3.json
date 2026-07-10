@@ -1,0 +1,110 @@
+{
+  "retropropagation": {
+    "sous_titre_fr": "Backpropagation",
+    "sous_titre_en": "Rétropropagation",
+    "definition_fr": "Algorithme qui calcule, pour chaque paramètre d'un réseau de neurones, sa contribution à l'erreur globale, en propageant celle-ci de la sortie vers l'entrée. Couplée à la descente de gradient, la rétropropagation est le moteur de l'apprentissage profond : elle indique comment ajuster chaque poids pour réduire l'erreur.",
+    "definition_en": "An algorithm that computes, for each parameter of a neural network, its contribution to the overall error, by propagating this error from output to input. Coupled with gradient descent, backpropagation is the engine of deep learning: it indicates how to adjust each weight to reduce the error.",
+    "exemple_fr": "Quand un réseau se trompe, la rétropropagation remonte la chaîne des neurones et attribue à chacun sa part de responsabilité dans l'erreur. Chaque poids reçoit ainsi une correction proportionnée. Répétée des milliards de fois, cette attribution de responsabilité fait converger le modèle vers de bonnes prédictions.",
+    "exemple_en": "When a network errs, backpropagation traces back the chain of neurons and attributes to each its share of responsibility in the error. Each weight thus receives a proportionate correction. Repeated billions of times, this attribution of responsibility makes the model converge towards good predictions.",
+    "regard_fr": "La rétropropagation, formalisée dans les années 1980, est le socle discret sur lequel repose toute l'IA moderne. Redécouvrir qu'une idée ancienne a rendu possible la révolution actuelle invite à l'humilité : les percées d'aujourd'hui germent souvent de recherches patientes d'hier.",
+    "regard_en": "Backpropagation, formalised in the 1980s, is the discreet bedrock on which all modern AI rests. Rediscovering that an old idea made today's revolution possible invites humility: today's breakthroughs often sprout from yesterday's patient research.",
+    "termes_lies": ["descente-gradient", "reseau-neurones", "fonction-perte", "apprentissage-profond"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (rétropropagation du gradient)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "fonction-perte": {
+    "sous_titre_fr": "Loss function, fonction de coût",
+    "sous_titre_en": "Loss function, cost function",
+    "definition_fr": "Fonction mathématique mesurant l'écart entre les prédictions d'un modèle et les réponses attendues. L'entraînement consiste à minimiser cette fonction de perte. Son choix oriente ce que le modèle apprend à optimiser · une fonction de perte mal choisie fait apprendre au modèle la mauvaise chose, même avec de bonnes données.",
+    "definition_en": "A mathematical function measuring the gap between a model's predictions and the expected answers. Training consists in minimising this loss function. Its choice orients what the model learns to optimise · a poorly chosen loss makes the model learn the wrong thing, even with good data.",
+    "exemple_fr": "Un modèle de prévision minimise une fonction de perte qui pénalise également les sur- et sous-estimations. Mais pour un stock critique, sous-estimer (rupture) coûte bien plus que surestimer. En choisissant une fonction de perte asymétrique, on aligne l'apprentissage sur l'enjeu réel. La fonction de perte encode les priorités.",
+    "exemple_en": "A forecasting model minimises a loss function that penalises over- and under-estimation equally. But for a critical stock, under-estimating (shortage) costs far more than over-estimating. By choosing an asymmetric loss, one aligns learning with the real stake. The loss function encodes the priorities.",
+    "regard_fr": "La fonction de perte est l'endroit où l'on dit au modèle ce qui compte vraiment. Un modèle optimise exactement ce qu'on lui demande d'optimiser · ni plus, ni moins. Formuler la bonne fonction de perte, c'est traduire un enjeu métier en objectif mathématique · un exercice bien plus stratégique qu'il n'y paraît.",
+    "regard_en": "The loss function is where you tell the model what really matters. A model optimises exactly what you ask it to optimise · no more, no less. Formulating the right loss means translating a business stake into a mathematical objective · a far more strategic exercise than it seems.",
+    "termes_lies": ["descente-gradient", "taux-apprentissage", "faux-positifs", "entrainement"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (fonction de perte)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "surapprentissage": {
+    "sous_titre_fr": "Overfitting",
+    "sous_titre_en": "Surapprentissage",
+    "definition_fr": "Défaut d'un modèle qui apprend « par cœur » ses données d'entraînement, y compris leur bruit, au lieu d'en dégager des règles générales. Résultat : d'excellentes performances sur les données connues, mais une généralisation médiocre sur des cas nouveaux. C'est l'un des pièges les plus fréquents de l'apprentissage automatique.",
+    "definition_en": "A flaw of a model that learns its training data \"by heart\", including its noise, instead of extracting general rules. The result: excellent performance on known data, but poor generalisation on new cases. It is one of the most frequent traps of machine learning.",
+    "exemple_fr": "Un modèle atteint 99 % de précision à l'entraînement mais échoue en production. Le diagnostic : surapprentissage. Il a mémorisé ses exemples plutôt que d'apprendre à généraliser. Face à des cas légèrement différents, il se perd. Un modèle qui réussit trop bien à l'entraînement doit toujours éveiller le soupçon.",
+    "exemple_en": "A model reaches 99% accuracy in training but fails in production. The diagnosis: overfitting. It memorised its examples rather than learning to generalise. Facing slightly different cases, it gets lost. A model that succeeds too well in training should always arouse suspicion.",
+    "regard_fr": "Le surapprentissage est le piège classique du débutant · et parfois de l'expert pressé. Un score d'entraînement éblouissant est souvent un signal d'alarme, pas de succès. La seule mesure qui compte est la performance sur des données jamais vues. Méfiez-vous des modèles trop parfaits.",
+    "regard_en": "Overfitting is the classic beginner's trap · and sometimes the rushed expert's. A dazzling training score is often an alarm signal, not a success. The only measure that matters is performance on never-seen data. Beware of models that are too perfect.",
+    "termes_lies": ["sous-apprentissage", "generalisation", "regularisation", "jeu-donnees"],
+    "sources": [{"titre": "CNIL · Glossaire IA (surapprentissage)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "sous-apprentissage": {
+    "sous_titre_fr": "Underfitting",
+    "sous_titre_en": "Sous-apprentissage",
+    "definition_fr": "Défaut inverse du surapprentissage : le modèle est trop simple ou insuffisamment entraîné pour capturer les régularités des données. Il se trompe autant sur l'entraînement que sur les nouveaux cas. Le sous-apprentissage signale qu'il faut un modèle plus riche, davantage de données pertinentes ou un entraînement plus poussé.",
+    "definition_en": "The opposite flaw to overfitting: the model is too simple or insufficiently trained to capture the data's regularities. It errs as much on training as on new cases. Underfitting signals the need for a richer model, more relevant data or more thorough training.",
+    "exemple_fr": "Un modèle donne des résultats médiocres partout · à l'entraînement comme en test. Ce n'est pas du surapprentissage mais du sous-apprentissage : le modèle est trop simple pour le problème. La solution n'est pas plus de régularisation, mais un modèle plus expressif ou de meilleures caractéristiques.",
+    "exemple_en": "A model gives mediocre results everywhere · in training as in testing. This is not overfitting but underfitting: the model is too simple for the problem. The solution is not more regularisation, but a more expressive model or better features.",
+    "regard_fr": "Surapprentissage et sous-apprentissage sont les deux écueils entre lesquels navigue tout praticien : trop mémoriser ou trop simplifier. Le bon modèle vit dans un équilibre délicat entre les deux. Savoir diagnostiquer lequel vous menace est une compétence de base · et une source d'erreurs quand on la néglige.",
+    "regard_en": "Overfitting and underfitting are the two pitfalls every practitioner navigates between: memorising too much or simplifying too much. The right model lives in a delicate balance between the two. Knowing how to diagnose which threatens you is a basic skill · and a source of errors when neglected.",
+    "termes_lies": ["surapprentissage", "generalisation", "caracteristique", "entrainement"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (sous-apprentissage)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "regularisation": {
+    "sous_titre_fr": "Regularization",
+    "sous_titre_en": "Régularisation",
+    "definition_fr": "Ensemble de techniques limitant la complexité d'un modèle pour éviter le surapprentissage et améliorer la généralisation : pénaliser les paramètres trop grands, désactiver aléatoirement des neurones (dropout), arrêter l'entraînement au bon moment. La régularisation apprend au modèle à rester simple malgré l'abondance de données.",
+    "definition_en": "A set of techniques limiting a model's complexity to avoid overfitting and improve generalisation: penalising overly large parameters, randomly deactivating neurons (dropout), stopping training at the right time. Regularisation teaches the model to stay simple despite the abundance of data.",
+    "exemple_fr": "Un modèle surapprend ses données. Plutôt que de réduire sa taille, l'équipe applique de la régularisation : elle pénalise la complexité excessive pendant l'entraînement. Le modèle, contraint de rester général, cesse de mémoriser le bruit et généralise mieux. La régularisation a corrigé le défaut sans changer d'architecture.",
+    "exemple_en": "A model overfits its data. Rather than reduce its size, the team applies regularisation: it penalises excessive complexity during training. The model, forced to stay general, stops memorising noise and generalises better. Regularisation fixed the flaw without changing the architecture.",
+    "regard_fr": "La régularisation encode une sagesse contre-intuitive : brider un modèle le rend souvent meilleur. En le forçant à la simplicité, on l'oblige à apprendre l'essentiel plutôt que l'accessoire. C'est vrai des modèles · et souvent des organisations : la contrainte bien pensée est une alliée, pas un obstacle.",
+    "regard_en": "Regularisation encodes a counterintuitive wisdom: constraining a model often makes it better. By forcing it towards simplicity, you make it learn the essential rather than the incidental. That is true of models · and often of organisations: a well-considered constraint is an ally, not an obstacle.",
+    "termes_lies": ["surapprentissage", "dropout", "generalisation", "hyperparametre"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (régularisation)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "dropout": {
+    "sous_titre_fr": "Abandon",
+    "sous_titre_en": "Abandon",
+    "definition_fr": "Technique de régularisation consistant à désactiver aléatoirement une partie des neurones à chaque étape d'entraînement. Le modèle ne peut plus dépendre d'un neurone précis et apprend des représentations plus robustes et redondantes. Simple et efficace, le dropout est l'une des méthodes anti-surapprentissage les plus utilisées.",
+    "definition_en": "A regularisation technique that randomly deactivates part of the neurons at each training step. The model can no longer depend on a specific neuron and learns more robust, redundant representations. Simple and effective, dropout is one of the most-used anti-overfitting methods.",
+    "exemple_fr": "En désactivant au hasard 20 % des neurones à chaque passe, le dropout empêche le modèle de trop se reposer sur quelques neurones spécialisés. Contraint à la redondance, il devient plus robuste · un peu comme une équipe où chacun sait faire le travail des autres résiste mieux aux absences.",
+    "exemple_en": "By randomly deactivating 20% of neurons at each pass, dropout prevents the model from relying too much on a few specialised neurons. Forced into redundancy, it becomes more robust · rather like a team where everyone can do the others' work withstands absences better.",
+    "regard_fr": "Le dropout illustre l'élégance de certaines idées d'IA : une astuce simple · éteindre des neurones au hasard · résout un problème complexe. Ces solutions minimales et robustes sont souvent les meilleures. En IA comme ailleurs, la sophistication n'est pas toujours la voie de l'efficacité.",
+    "regard_en": "Dropout illustrates the elegance of some AI ideas: a simple trick · turning off neurons at random · solves a complex problem. These minimal, robust solutions are often the best. In AI as elsewhere, sophistication is not always the path to effectiveness.",
+    "termes_lies": ["regularisation", "surapprentissage", "reseau-neurones", "robustesse"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (abandon)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "generalisation": {
+    "sous_titre_fr": "Generalization",
+    "sous_titre_en": "Généralisation",
+    "definition_fr": "Capacité d'un modèle à bien se comporter sur des données nouvelles, jamais vues pendant l'entraînement. C'est l'objectif ultime de l'apprentissage : non pas mémoriser, mais dégager des règles applicables à des cas inédits. Un modèle qui généralise bien est un modèle utile ; un modèle qui ne fait que mémoriser est un piège.",
+    "definition_en": "A model's ability to behave well on new data, never seen during training. It is the ultimate goal of learning: not memorising, but extracting rules applicable to novel cases. A model that generalises well is a useful model; one that only memorises is a trap.",
+    "exemple_fr": "Un modèle de détection de défauts entraîné sur une usine doit encore fonctionner dans une autre, aux conditions légèrement différentes. S'il généralise bien, il s'adapte ; sinon, il faut le réentraîner à chaque site. La généralisation détermine si un modèle est un actif réutilisable ou un développement jetable.",
+    "exemple_en": "A defect-detection model trained on one factory must still work in another, with slightly different conditions. If it generalises well, it adapts; otherwise, it must be retrained at each site. Generalisation determines whether a model is a reusable asset or a disposable development.",
+    "regard_fr": "La généralisation est le vrai juge de l'intelligence d'un modèle : réciter ce qu'on a vu est facile, s'adapter à l'inconnu est difficile. Toute évaluation sérieuse mesure la généralisation, pas la mémorisation. C'est aussi ce qui distingue une IA vraiment utile d'une démonstration truquée.",
+    "regard_en": "Generalisation is the true judge of a model's intelligence: reciting what you have seen is easy, adapting to the unknown is hard. Any serious evaluation measures generalisation, not memorisation. It is also what distinguishes a truly useful AI from a rigged demonstration.",
+    "termes_lies": ["surapprentissage", "sous-apprentissage", "robustesse", "jeu-donnees"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (généralisation)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "epoque": {
+    "sous_titre_fr": "Epoch",
+    "sous_titre_en": "Époque",
+    "definition_fr": "Un passage complet de l'ensemble des données d'entraînement à travers le modèle. L'entraînement compte généralement plusieurs époques : à chaque passage, le modèle affine ses paramètres. Trop peu d'époques, il sous-apprend ; trop, il surapprend. Le nombre d'époques est un réglage clé de tout entraînement.",
+    "definition_en": "One complete pass of the entire training dataset through the model. Training usually counts several epochs: at each pass, the model refines its parameters. Too few epochs, it underfits; too many, it overfits. The number of epochs is a key setting of any training.",
+    "exemple_fr": "Une équipe suit la performance de son modèle époque après époque. L'erreur baisse, puis se met à remonter sur les données de validation : signe de surapprentissage. Elle arrête l'entraînement au meilleur point, avant la dégradation. Suivre les époques, c'est savoir quand s'arrêter · un art aussi important que savoir commencer.",
+    "exemple_en": "A team tracks its model's performance epoch after epoch. The error drops, then starts rising on the validation data: a sign of overfitting. It stops training at the best point, before degradation. Tracking epochs means knowing when to stop · an art as important as knowing when to start.",
+    "regard_fr": "La notion d'époque rappelle qu'en apprentissage, répéter n'est pas toujours progresser. Passé un certain point, continuer d'entraîner dégrade le modèle. Savoir s'arrêter au bon moment est une compétence décisive · en IA comme dans bien des apprentissages humains.",
+    "regard_en": "The notion of epoch recalls that in learning, repeating is not always progressing. Past a certain point, continuing to train degrades the model. Knowing when to stop at the right moment is a decisive skill · in AI as in many human learnings.",
+    "termes_lies": ["entrainement", "surapprentissage", "point-controle", "courbes-apprentissage"],
+    "sources": [{"titre": "Google · Machine Learning Glossary (epoch)", "url": "https://developers.google.com/machine-learning/glossary"}]
+  },
+  "corpus-entrainement": {
+    "sous_titre_fr": "Training corpus",
+    "sous_titre_en": "Corpus d'entraînement",
+    "definition_fr": "Ensemble des textes ou documents rassemblés pour entraîner un modèle de langage. Sa taille, sa diversité linguistique et sa qualité déterminent les capacités et les biais du modèle. La composition d'un corpus · quelles langues, quelles sources, quelle proportion · est un choix stratégique aux conséquences durables.",
+    "definition_en": "The set of texts or documents gathered to train a language model. Its size, linguistic diversity and quality determine the model's capabilities and biases. A corpus's composition · which languages, which sources, what proportion · is a strategic choice with lasting consequences.",
+    "exemple_fr": "Un modèle entraîné sur un corpus à 90 % anglophone comprend et écrit moins bien le français, et ignore des références culturelles européennes. La sous-représentation du français dans les corpus est un enjeu de souveraineté · elle explique pourquoi des modèles entraînés en France, sur du français de qualité, gardent un intérêt réel.",
+    "exemple_en": "A model trained on a 90%-English corpus understands and writes French less well, and ignores European cultural references. The under-representation of French in corpora is a sovereignty issue · it explains why models trained in France, on quality French, retain real value.",
+    "regard_fr": "Le corpus d'entraînement est l'ADN culturel d'un modèle : il décide de quelles langues, quelles références, quelles valeurs il est imprégné. La domination de l'anglais dans les corpus n'est pas neutre. Soutenir des modèles entraînés sur du français de qualité est un acte de souveraineté linguistique.",
+    "regard_en": "The training corpus is a model's cultural DNA: it decides which languages, references and values it is steeped in. The dominance of English in corpora is not neutral. Supporting models trained on quality French is an act of linguistic sovereignty.",
+    "termes_lies": ["donnees-entrainement", "ia-langue-francaise", "modeles-multilingues", "common-crawl"],
+    "sources": [{"titre": "FranceTerme · corpus", "url": "https://www.culture.fr/franceterme"}]
+  }
+}

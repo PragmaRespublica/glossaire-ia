@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Versions de modèles",
+  "terme_en": "Model versioning",
+  "sous_titre_fr": "Model versioning",
+  "sous_titre_en": "Versions de modèles",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Pratique consistant à suivre et gérer les différentes versions d'un modèle au fil de son évolution : quelle version est en production, sur quelles données elle a été entraînée, quelles performances elle affiche. Indispensable à la reproductibilité, à l'auditabilité et à la capacité de revenir en arrière en cas de régression.",
+  "definition_en": "The practice of tracking and managing a model's different versions as it evolves: which version is in production, on what data it was trained, what performance it shows. Indispensable for reproducibility, auditability and the ability to roll back in case of regression.",
+  "exemple_fr": "Une nouvelle version d'un modèle dégrade les résultats en production. Grâce au versionnage, l'équipe revient instantanément à la version précédente, stable, puis analyse ce qui a changé. Sans versionnage rigoureux, elle serait bloquée avec un modèle défaillant, incapable de revenir en arrière proprement.",
+  "exemple_en": "A new version of a model degrades results in production. Thanks to versioning, the team instantly reverts to the previous, stable version, then analyses what changed. Without rigorous versioning, it would be stuck with a failing model, unable to roll back cleanly.",
+  "regard_fr": "Le versionnage des modèles applique à l'IA une discipline éprouvée du développement logiciel · trop souvent négligée. Un modèle sans historique de versions est ingérable : on ne sait ni ce qui tourne, ni comment y revenir. La rigueur du versionnage est le socle d'une IA de production sérieuse.",
+  "regard_en": "Model versioning applies to AI a proven software development discipline · too often neglected. A model with no version history is unmanageable: you know neither what is running nor how to return to it. Versioning rigour is the foundation of serious production AI.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "point-controle",
+    "mlops",
+    "monitoring",
+    "derive-modele"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · gestion de versions",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

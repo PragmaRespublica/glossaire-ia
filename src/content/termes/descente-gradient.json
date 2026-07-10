@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Descente de gradient",
+  "terme_en": "Gradient descent",
+  "sous_titre_fr": "Gradient descent",
+  "sous_titre_en": "Descente de gradient",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Algorithme fondamental d'entraînement des modèles : il ajuste itérativement les paramètres dans la direction qui réduit le plus l'erreur, comme un randonneur descendant une pente vers le point le plus bas. La quasi-totalité de l'apprentissage profond repose sur cette idée simple, répétée des milliards de fois.",
+  "definition_en": "The fundamental algorithm for training models: it iteratively adjusts the parameters in the direction that most reduces the error, like a hiker descending a slope towards the lowest point. Nearly all deep learning rests on this simple idea, repeated billions of times.",
+  "exemple_fr": "Imaginez un randonneur dans le brouillard cherchant le fond d'une vallée : il tâte la pente sous ses pieds et fait un pas vers le bas, encore et encore. C'est exactement ce que fait la descente de gradient avec l'erreur du modèle · un pas après l'autre, elle le rapproche de la meilleure configuration.",
+  "exemple_en": "Picture a hiker in fog seeking the bottom of a valley: they feel the slope underfoot and step downward, again and again. That is exactly what gradient descent does with the model's error · one step at a time, it brings it closer to the best configuration.",
+  "regard_fr": "La descente de gradient démystifie l'entraînement : derrière la « magie » de l'IA, une procédure d'optimisation d'une simplicité désarmante, répétée à échelle colossale. Comprendre ce mécanisme de base aide à démythifier l'IA · c'est de l'ingénierie et des mathématiques, pas de la sorcellerie.",
+  "regard_en": "Gradient descent demystifies training: behind AI's \"magic\", an optimisation procedure of disarming simplicity, repeated at colossal scale. Understanding this basic mechanism helps demystify AI · it is engineering and mathematics, not sorcery.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "retropropagation",
+    "fonction-perte",
+    "taux-apprentissage",
+    "apprentissage-profond"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (algorithme de descente de gradient)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "LoRA · adaptation à faible rang",
+  "terme_en": "LoRA (Low-Rank Adaptation)",
+  "sous_titre_fr": "Low-Rank Adaptation",
+  "sous_titre_en": "Adaptation à faible rang",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Technique de fine-tuning économe qui n'ajuste qu'un petit nombre de paramètres additionnels au lieu de réentraîner tout le modèle. LoRA rend l'adaptation d'un grand modèle possible sur du matériel modeste, rapidement et à faible coût · un levier majeur pour personnaliser des modèles ouverts sans infrastructure lourde.",
+  "definition_en": "An economical fine-tuning technique that adjusts only a small number of additional parameters instead of retraining the whole model. LoRA makes adapting a large model possible on modest hardware, quickly and cheaply · a major lever for customising open models without heavy infrastructure.",
+  "exemple_fr": "Une PME veut spécialiser un modèle ouvert sur son jargon métier. Un fine-tuning complet exigerait des GPU coûteux. Avec LoRA, elle n'entraîne qu'une fine couche d'adaptation sur un seul GPU, en quelques heures. Le modèle parle désormais sa langue · pour un coût dérisoire et des données restées internes.",
+  "exemple_en": "An SME wants to specialise an open model on its business jargon. Full fine-tuning would require costly GPUs. With LoRA, it trains only a thin adaptation layer on a single GPU, in a few hours. The model now speaks its language · for a trivial cost and with data kept in-house.",
+  "regard_fr": "LoRA est l'un des grands égalisateurs de l'IA : il met la personnalisation des modèles à la portée des petites structures. Combiné aux modèles ouverts et à l'hébergement souverain, il dessine une voie crédible d'IA sur mesure, maîtrisée et abordable · loin de la dépendance aux API propriétaires.",
+  "regard_en": "LoRA is one of AI's great equalisers: it puts model customisation within reach of small structures. Combined with open models and sovereign hosting, it sketches a credible path to bespoke, controlled, affordable AI · far from dependence on proprietary APIs.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "fine-tuning",
+    "dpo-optimisation",
+    "open-weights",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "Hu et al. · LoRA: Low-Rank Adaptation of Large Language Models"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

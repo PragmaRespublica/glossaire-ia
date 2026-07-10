@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage actif",
+  "terme_en": "Active learning",
+  "sous_titre_fr": "Active learning",
+  "sous_titre_en": "Apprentissage actif",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Stratégie où le modèle sélectionne lui-même les données qu'il serait le plus utile de faire étiqueter par un humain · celles où il est le plus incertain. En concentrant l'effort d'annotation sur les cas les plus informatifs, l'apprentissage actif atteint une bonne performance avec beaucoup moins de données étiquetées.",
+  "definition_en": "A strategy where the model itself selects the data it would be most useful to have labelled by a human · those where it is most uncertain. By focusing the annotation effort on the most informative cases, active learning reaches good performance with far less labelled data.",
+  "exemple_fr": "Plutôt que d'étiqueter 10 000 documents au hasard, une équipe laisse le modèle désigner les 500 cas les plus ambigus · ceux qui lui apprendront le plus. Les annotateurs se concentrent sur eux. Résultat : une performance équivalente à un étiquetage massif, pour un vingtième de l'effort. L'intelligence est dans le choix des exemples.",
+  "exemple_en": "Rather than labelling 10,000 random documents, a team lets the model designate the 500 most ambiguous cases · those that will teach it the most. Annotators focus on them. The result: performance equivalent to massive labelling, for a twentieth of the effort. The intelligence is in the choice of examples.",
+  "regard_fr": "L'apprentissage actif applique une sagesse simple : mieux vaut bien étiqueter les bons exemples que tout étiqueter au hasard. Quand l'annotation est votre principal coût · ce qui est fréquent · c'est un levier d'efficacité majeur, curieusement sous-employé.",
+  "regard_en": "Active learning applies a simple wisdom: better to label the right examples well than to label everything at random. When annotation is your main cost · which is common · it is a major efficiency lever, curiously underused.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "etiquetage-donnees",
+    "apprentissage-supervise",
+    "humain-dans-la-boucle",
+    "score-confiance"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (apprentissage actif)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

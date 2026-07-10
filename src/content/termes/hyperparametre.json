@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Hyperparamètre",
+  "terme_en": "Hyperparameter",
+  "sous_titre_fr": "Hyperparameter",
+  "sous_titre_en": "Hyperparamètre",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Réglage fixé avant l'entraînement d'un modèle, qui en contrôle le déroulement : taux d'apprentissage, taille des lots, nombre de couches, régularisation. À la différence des paramètres appris par le modèle, les hyperparamètres sont choisis par le concepteur · et leur réglage, souvent empirique, influence fortement la performance finale.",
+  "definition_en": "A setting fixed before a model's training that controls how it unfolds: learning rate, batch size, number of layers, regularisation. Unlike the parameters learned by the model, hyperparameters are chosen by the designer · and their tuning, often empirical, strongly influences final performance.",
+  "exemple_fr": "Deux équipes entraînent le même modèle sur les mêmes données. L'une obtient de bien meilleurs résultats · uniquement grâce à un meilleur réglage des hyperparamètres, notamment le taux d'apprentissage. Ce savoir-faire, mi-science mi-artisanat, fait souvent la différence entre un modèle médiocre et un modèle excellent.",
+  "exemple_en": "Two teams train the same model on the same data. One gets far better results · solely thanks to better hyperparameter tuning, notably the learning rate. This know-how, half science half craft, often makes the difference between a mediocre and an excellent model.",
+  "regard_fr": "Les hyperparamètres rappellent que l'IA n'est pas qu'une affaire de données et de modèles : le savoir-faire humain du réglage compte énormément. C'est aussi pourquoi reproduire un résultat publié est parfois si difficile · les bons réglages ne sont pas toujours partagés.",
+  "regard_en": "Hyperparameters recall that AI is not just about data and models: the human craft of tuning matters enormously. It is also why reproducing a published result is sometimes so hard · the good settings are not always shared.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "taux-apprentissage",
+    "automl",
+    "entrainement",
+    "regularisation"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (hyperparamètre)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

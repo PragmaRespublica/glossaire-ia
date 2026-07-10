@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Point de contrôle (checkpoint)",
+  "terme_en": "Model checkpoint",
+  "sous_titre_fr": "Model checkpoint",
+  "sous_titre_en": "Point de contrôle",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Sauvegarde de l'état complet d'un modèle à un instant donné de son entraînement. Les points de contrôle permettent de reprendre un entraînement interrompu, de comparer plusieurs états et de revenir au meilleur avant que le surapprentissage ne s'installe. Une pratique de base pour maîtriser des entraînements longs et coûteux.",
+  "definition_en": "A save of a model's complete state at a given moment of its training. Checkpoints allow resuming an interrupted training, comparing several states and returning to the best before overfitting sets in. A basic practice for controlling long, costly training runs.",
+  "exemple_fr": "Un entraînement de plusieurs jours est interrompu par une panne. Grâce aux points de contrôle réguliers, l'équipe reprend là où elle s'était arrêtée, sans tout recommencer · économisant des jours de calcul et des milliers d'euros. Sur des entraînements coûteux, les points de contrôle ne sont pas une option, mais une assurance.",
+  "exemple_en": "A multi-day training run is interrupted by a failure. Thanks to regular checkpoints, the team resumes where it left off, without starting over · saving days of compute and thousands of euros. On costly training runs, checkpoints are not an option, but an insurance.",
+  "regard_fr": "Le point de contrôle est l'humble sauvegarde qui protège des entraînements coûteux · une évidence négligée jusqu'à la première panne mal placée. Comme dans tout travail long et fragile, sauvegarder régulièrement n'est pas de la prudence excessive, mais du simple bon sens opérationnel.",
+  "regard_en": "The checkpoint is the humble save that protects costly training runs · an obvious step neglected until the first badly-timed failure. As in any long, fragile work, saving regularly is not excessive caution, but simple operational common sense.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "versionnage-modeles",
+    "epoque",
+    "entrainement",
+    "surapprentissage"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur les checkpoints d'entraînement"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

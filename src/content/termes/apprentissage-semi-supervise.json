@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage semi-supervisé",
+  "terme_en": "Semi-supervised learning",
+  "sous_titre_fr": "Semi-supervised learning",
+  "sous_titre_en": "Apprentissage semi-supervisé",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Approche combinant une petite quantité de données étiquetées et une grande quantité de données non étiquetées. Le modèle exploite les étiquettes rares pour se guider, et la masse de données non étiquetées pour affiner sa compréhension. Un bon compromis quand l'annotation est coûteuse mais les données brutes abondantes.",
+  "definition_en": "An approach combining a small amount of labelled data with a large amount of unlabelled data. The model uses the rare labels to guide itself, and the mass of unlabelled data to refine its understanding. A good compromise when annotation is costly but raw data abundant.",
+  "exemple_fr": "Un service dispose d'un million de documents mais n'a les moyens d'en étiqueter que mille. L'apprentissage semi-supervisé tire parti des deux : les mille documents étiquetés orientent le modèle, le million restant enrichit son apprentissage. Le résultat approche celui d'un modèle entièrement supervisé, à une fraction du coût d'annotation.",
+  "exemple_en": "A department has a million documents but can only afford to label a thousand. Semi-supervised learning leverages both: the thousand labelled documents guide the model, the remaining million enrich its learning. The result approaches that of a fully supervised model, at a fraction of the annotation cost.",
+  "regard_fr": "L'apprentissage semi-supervisé est l'art du compromis intelligent : maximiser la valeur d'une annotation limitée. Pour la plupart des organisations, qui croulent sous les données mais manquent de temps d'annotation, c'est souvent la voie la plus réaliste. Un juste milieu trop peu exploité.",
+  "regard_en": "Semi-supervised learning is the art of the smart compromise: maximising the value of limited annotation. For most organisations, drowning in data but short on annotation time, it is often the most realistic path. A middle ground too little exploited.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-supervise",
+    "apprentissage-non-supervise",
+    "etiquetage-donnees",
+    "donnees-synthetiques"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (apprentissage semi-supervisé)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

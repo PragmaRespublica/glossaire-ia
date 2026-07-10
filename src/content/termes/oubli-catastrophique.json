@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Oubli catastrophique",
+  "terme_en": "Catastrophic forgetting",
+  "sous_titre_fr": "Catastrophic forgetting",
+  "sous_titre_en": "Oubli catastrophique",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Phénomène par lequel un réseau de neurones, en apprenant une nouvelle tâche, efface brutalement ce qu'il avait appris auparavant. C'est l'obstacle majeur à l'apprentissage continu : contrairement à un humain qui accumule ses savoirs, un modèle tend à écraser l'ancien par le nouveau. Un défi encore largement ouvert.",
+  "definition_en": "A phenomenon whereby a neural network, learning a new task, abruptly erases what it had learned before. It is the major obstacle to continual learning: unlike a human who accumulates knowledge, a model tends to overwrite the old with the new. A still largely open challenge.",
+  "exemple_fr": "Une équipe fine-tune un modèle sur son jargon médical. Le modèle excelle désormais en médecine · mais a perdu une partie de ses compétences générales, effacées par l'entraînement spécialisé. C'est l'oubli catastrophique. La parade : mélanger données spécialisées et données générales pendant l'entraînement.",
+  "exemple_en": "A team fine-tunes a model on its medical jargon. The model now excels in medicine · but has lost part of its general skills, erased by the specialised training. This is catastrophic forgetting. The countermeasure: mixing specialised and general data during training.",
+  "regard_fr": "L'oubli catastrophique révèle une différence profonde entre l'IA et l'esprit humain : nous apprenons en accumulant, les modèles en écrasant. Ce défaut technique a un mérite pédagogique · il rappelle que « intelligence artificielle » ne signifie pas fonctionnement à l'identique du cerveau.",
+  "regard_en": "Catastrophic forgetting reveals a deep difference between AI and the human mind: we learn by accumulating, models by overwriting. This technical flaw has a pedagogical merit · it recalls that \"artificial intelligence\" does not mean working identically to the brain.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-continu",
+    "fine-tuning",
+    "derive-modele",
+    "effondrement-modele"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur le catastrophic forgetting"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,110 @@
+{
+  "alignement-ia": {
+    "sous_titre_fr": "AI alignment",
+    "sous_titre_en": "Alignement de l'IA",
+    "definition_fr": "Ensemble des techniques et recherches visant à ce qu'un système d'IA agisse conformément aux intentions et valeurs humaines. L'alignement couvre le court terme (un assistant qui refuse les demandes nuisibles) comme le long terme (garantir que des systèmes très puissants restent sous contrôle humain). C'est un enjeu de sûreté central.",
+    "definition_en": "The set of techniques and research aiming for an AI system to act in accordance with human intentions and values. Alignment covers the short term (an assistant refusing harmful requests) and the long term (ensuring very powerful systems stay under human control). It is a central safety issue.",
+    "exemple_fr": "Un assistant bien aligné refuse d'aider à fabriquer une arme, même formulée habilement, et signale son incertitude plutôt que d'inventer. Cet alignement n'est pas spontané : il résulte d'un travail délibéré des concepteurs. Un modèle mal aligné peut être brillant et dangereux à la fois.",
+    "exemple_en": "A well-aligned assistant refuses to help build a weapon, even cleverly phrased, and flags its uncertainty rather than inventing. This alignment is not spontaneous: it results from deliberate work by the designers. A poorly aligned model can be brilliant and dangerous at once.",
+    "regard_fr": "L'alignement est la question qui décidera si l'IA reste un outil ou devient un risque. Elle n'est pas seulement technique mais profondément politique : aligner sur quelles valeurs, décidées par qui ? Confier ces choix à quelques entreprises est déjà un enjeu de souveraineté démocratique.",
+    "regard_en": "Alignment is the question that will decide whether AI stays a tool or becomes a risk. It is not only technical but deeply political: aligned on which values, decided by whom? Entrusting these choices to a few companies is already a matter of democratic sovereignty.",
+    "termes_lies": ["ia-constitutionnelle", "rlhf", "interpretabilite", "ethique-ia"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (alignement de l'IA)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "ia-constitutionnelle": {
+    "sous_titre_fr": "Constitutional AI",
+    "sous_titre_en": "IA constitutionnelle",
+    "definition_fr": "Méthode d'alignement, développée par Anthropic, où le modèle est guidé par un ensemble explicite de principes · une « constitution » · plutôt que par le seul retour humain cas par cas. Le modèle apprend à critiquer et corriger ses propres réponses selon ces principes, réduisant la dépendance à l'annotation humaine massive.",
+    "definition_en": "An alignment method, developed by Anthropic, where the model is guided by an explicit set of principles · a \"constitution\" · rather than by case-by-case human feedback alone. The model learns to critique and correct its own responses against these principles, reducing reliance on massive human annotation.",
+    "exemple_fr": "Plutôt que de faire noter des milliers de réponses par des humains, l'IA constitutionnelle fournit au modèle des principes explicites (« sois utile, honnête, inoffensif ») et lui apprend à s'auto-évaluer. Le modèle affine ses réponses en se référant à cette constitution · une transparence sur les valeurs que peu de méthodes offrent.",
+    "exemple_en": "Rather than having thousands of responses rated by humans, constitutional AI gives the model explicit principles (\"be helpful, honest, harmless\") and teaches it to self-evaluate. The model refines its responses by referring to this constitution · a transparency about values that few methods offer.",
+    "regard_fr": "L'IA constitutionnelle a un mérite démocratique : elle rend explicites les principes qui guident le modèle, là où le RLHF les cache dans des jugements d'annotateurs. Débattre d'une constitution écrite est possible ; débattre de préférences implicites ne l'est pas. La transparence des valeurs est un progrès.",
+    "regard_en": "Constitutional AI has a democratic merit: it makes explicit the principles guiding the model, where RLHF hides them in annotators' judgments. Debating a written constitution is possible; debating implicit preferences is not. Transparency of values is progress.",
+    "termes_lies": ["alignement-ia", "rlhf", "claude", "ethique-ia"],
+    "sources": [{"titre": "Anthropic · Constitutional AI", "url": "https://www.anthropic.com/"}]
+  },
+  "dpo-optimisation": {
+    "sous_titre_fr": "Direct Preference Optimization",
+    "sous_titre_en": "Optimisation directe des préférences",
+    "definition_fr": "Technique d'alignement plus simple et plus stable que le RLHF classique : au lieu d'entraîner un modèle de récompense séparé, elle ajuste directement le modèle à partir de paires de réponses (préférée / rejetée). Plus légère à mettre en œuvre, la DPO a rendu l'alignement accessible à davantage d'acteurs, y compris pour des modèles ouverts.",
+    "definition_en": "An alignment technique simpler and more stable than classic RLHF: instead of training a separate reward model, it adjusts the model directly from pairs of responses (preferred / rejected). Lighter to implement, DPO has made alignment accessible to more players, including for open models.",
+    "exemple_fr": "Une équipe veut aligner un modèle ouvert sur le style de son entreprise. Le RLHF complet serait lourd. Avec la DPO, elle fournit des paires « bonne réponse / mauvaise réponse » et ajuste directement le modèle. Plus simple, plus rapide · l'alignement n'est plus réservé aux grands laboratoires.",
+    "exemple_en": "A team wants to align an open model on its company's style. Full RLHF would be heavy. With DPO, it provides \"good response / bad response\" pairs and adjusts the model directly. Simpler, faster · alignment is no longer reserved for big labs.",
+    "regard_fr": "La DPO démocratise l'alignement : ce qui exigeait l'infrastructure d'un grand laboratoire devient accessible à une équipe motivée. C'est une bonne nouvelle pour la souveraineté · adapter finement un modèle ouvert à ses valeurs et à son style n'est plus hors de portée.",
+    "regard_en": "DPO democratises alignment: what required a big lab's infrastructure becomes accessible to a motivated team. That is good news for sovereignty · finely adapting an open model to your values and style is no longer out of reach.",
+    "termes_lies": ["rlhf", "alignement-ia", "fine-tuning", "modele-recompense"],
+    "sources": [{"titre": "Rafailov et al. · Direct Preference Optimization"}]
+  },
+  "lora": {
+    "sous_titre_fr": "Low-Rank Adaptation",
+    "sous_titre_en": "Adaptation à faible rang",
+    "definition_fr": "Technique de fine-tuning économe qui n'ajuste qu'un petit nombre de paramètres additionnels au lieu de réentraîner tout le modèle. LoRA rend l'adaptation d'un grand modèle possible sur du matériel modeste, rapidement et à faible coût · un levier majeur pour personnaliser des modèles ouverts sans infrastructure lourde.",
+    "definition_en": "An economical fine-tuning technique that adjusts only a small number of additional parameters instead of retraining the whole model. LoRA makes adapting a large model possible on modest hardware, quickly and cheaply · a major lever for customising open models without heavy infrastructure.",
+    "exemple_fr": "Une PME veut spécialiser un modèle ouvert sur son jargon métier. Un fine-tuning complet exigerait des GPU coûteux. Avec LoRA, elle n'entraîne qu'une fine couche d'adaptation sur un seul GPU, en quelques heures. Le modèle parle désormais sa langue · pour un coût dérisoire et des données restées internes.",
+    "exemple_en": "An SME wants to specialise an open model on its business jargon. Full fine-tuning would require costly GPUs. With LoRA, it trains only a thin adaptation layer on a single GPU, in a few hours. The model now speaks its language · for a trivial cost and with data kept in-house.",
+    "regard_fr": "LoRA est l'un des grands égalisateurs de l'IA : il met la personnalisation des modèles à la portée des petites structures. Combiné aux modèles ouverts et à l'hébergement souverain, il dessine une voie crédible d'IA sur mesure, maîtrisée et abordable · loin de la dépendance aux API propriétaires.",
+    "regard_en": "LoRA is one of AI's great equalisers: it puts model customisation within reach of small structures. Combined with open models and sovereign hosting, it sketches a credible path to bespoke, controlled, affordable AI · far from dependence on proprietary APIs.",
+    "termes_lies": ["fine-tuning", "dpo-optimisation", "open-weights", "ia-souveraine"],
+    "sources": [{"titre": "Hu et al. · LoRA: Low-Rank Adaptation of Large Language Models"}]
+  },
+  "instruction-tuning": {
+    "sous_titre_fr": "Instruction tuning",
+    "sous_titre_en": "Ajustement par instructions",
+    "definition_fr": "Phase de post-entraînement où un modèle apprend à suivre des instructions formulées en langage naturel, à partir de nombreux exemples de type « consigne, réponse attendue ». C'est ce qui transforme un modèle qui complète du texte en un assistant capable d'obéir à des demandes variées et de s'adapter à des tâches inédites.",
+    "definition_en": "A post-training phase where a model learns to follow instructions formulated in natural language, from many \"instruction, expected response\" examples. It is what turns a text-completing model into an assistant able to obey varied requests and adapt to new tasks.",
+    "exemple_fr": "Avant l'ajustement par instructions, demander « résume ce texte » à un modèle brut pouvait produire une continuation du texte, pas un résumé. Après cette phase, le modèle comprend l'intention et exécute la tâche. C'est l'ajustement par instructions qui a rendu les assistants IA réellement utilisables par le grand public.",
+    "exemple_en": "Before instruction tuning, asking a raw model to \"summarise this text\" could produce a continuation of the text, not a summary. After this phase, the model understands the intent and performs the task. Instruction tuning is what made AI assistants truly usable by the general public.",
+    "regard_fr": "L'ajustement par instructions est le pont entre un modèle statistique et un outil utilisable : il apprend au modèle à comprendre ce qu'on lui demande. Sa qualité détermine la docilité et la polyvalence de l'assistant · un maillon discret mais décisif de la chaîne d'entraînement.",
+    "regard_en": "Instruction tuning is the bridge between a statistical model and a usable tool: it teaches the model to understand what is asked. Its quality determines the assistant's obedience and versatility · a discreet but decisive link in the training chain.",
+    "termes_lies": ["post-entrainement", "prompt", "zero-shot-few-shot", "alignement-ia"],
+    "sources": [{"titre": "Documentation sur l'instruction tuning des LLM"}]
+  },
+  "modele-recompense": {
+    "sous_titre_fr": "Reward model",
+    "sous_titre_en": "Modèle de récompense",
+    "definition_fr": "Modèle auxiliaire entraîné à prédire les préférences humaines : il attribue un score de qualité aux réponses d'un LLM, servant de « juge » pendant l'apprentissage par renforcement. La qualité du modèle de récompense détermine celle de l'alignement · un juge biaisé enseigne de mauvaises leçons au modèle principal.",
+    "definition_en": "An auxiliary model trained to predict human preferences: it assigns a quality score to a LLM's responses, serving as a \"judge\" during reinforcement learning. The reward model's quality determines the alignment's · a biased judge teaches the main model bad lessons.",
+    "exemple_fr": "Dans le RLHF, des humains classent des réponses, et ces classements entraînent un modèle de récompense. Ce dernier note ensuite automatiquement des millions de réponses. Si les humains avaient un biais · par exemple préférer les réponses longues · le modèle de récompense l'apprend et le propage à grande échelle.",
+    "exemple_en": "In RLHF, humans rank responses, and these rankings train a reward model. This model then automatically scores millions of responses. If the humans had a bias · say preferring long answers · the reward model learns it and propagates it at scale.",
+    "regard_fr": "Le modèle de récompense est le maillon où les biais humains se cristallisent et s'amplifient. Un défaut subtil dans les préférences des annotateurs devient, via ce modèle, une caractéristique systématique du LLM final. Comprendre ce mécanisme, c'est comprendre d'où viennent certains travers des assistants.",
+    "regard_en": "The reward model is the link where human biases crystallise and amplify. A subtle flaw in annotators' preferences becomes, via this model, a systematic feature of the final LLM. Understanding this mechanism means understanding where some assistant quirks come from.",
+    "termes_lies": ["rlhf", "apprentissage-renforcement", "complaisance-ia", "dpo-optimisation"],
+    "sources": [{"titre": "Documentation sur le RLHF et les reward models"}]
+  },
+  "hyperparametre": {
+    "sous_titre_fr": "Hyperparameter",
+    "sous_titre_en": "Hyperparamètre",
+    "definition_fr": "Réglage fixé avant l'entraînement d'un modèle, qui en contrôle le déroulement : taux d'apprentissage, taille des lots, nombre de couches, régularisation. À la différence des paramètres appris par le modèle, les hyperparamètres sont choisis par le concepteur · et leur réglage, souvent empirique, influence fortement la performance finale.",
+    "definition_en": "A setting fixed before a model's training that controls how it unfolds: learning rate, batch size, number of layers, regularisation. Unlike the parameters learned by the model, hyperparameters are chosen by the designer · and their tuning, often empirical, strongly influences final performance.",
+    "exemple_fr": "Deux équipes entraînent le même modèle sur les mêmes données. L'une obtient de bien meilleurs résultats · uniquement grâce à un meilleur réglage des hyperparamètres, notamment le taux d'apprentissage. Ce savoir-faire, mi-science mi-artisanat, fait souvent la différence entre un modèle médiocre et un modèle excellent.",
+    "exemple_en": "Two teams train the same model on the same data. One gets far better results · solely thanks to better hyperparameter tuning, notably the learning rate. This know-how, half science half craft, often makes the difference between a mediocre and an excellent model.",
+    "regard_fr": "Les hyperparamètres rappellent que l'IA n'est pas qu'une affaire de données et de modèles : le savoir-faire humain du réglage compte énormément. C'est aussi pourquoi reproduire un résultat publié est parfois si difficile · les bons réglages ne sont pas toujours partagés.",
+    "regard_en": "Hyperparameters recall that AI is not just about data and models: the human craft of tuning matters enormously. It is also why reproducing a published result is sometimes so hard · the good settings are not always shared.",
+    "termes_lies": ["taux-apprentissage", "automl", "entrainement", "regularisation"],
+    "sources": [{"titre": "CNIL · Glossaire IA (hyperparamètre)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "taux-apprentissage": {
+    "sous_titre_fr": "Learning rate",
+    "sous_titre_en": "Taux d'apprentissage",
+    "definition_fr": "Hyperparamètre déterminant l'ampleur des ajustements apportés au modèle à chaque étape d'entraînement. Trop élevé, l'apprentissage devient instable et diverge ; trop faible, il est d'une lenteur coûteuse et peut se bloquer. Le taux d'apprentissage est souvent l'hyperparamètre le plus déterminant · et le plus délicat à régler.",
+    "definition_en": "A hyperparameter determining the magnitude of adjustments made to the model at each training step. Too high, learning becomes unstable and diverges; too low, it is costly slow and can get stuck. The learning rate is often the most decisive hyperparameter · and the most delicate to tune.",
+    "exemple_fr": "Un entraînement diverge : la perte explose au lieu de baisser. La cause est presque toujours la même · un taux d'apprentissage trop élevé. En le réduisant, l'entraînement se stabilise et converge. Ce seul réglage peut faire la différence entre un modèle qui apprend et un entraînement qui part en vrille.",
+    "exemple_en": "A training run diverges: the loss explodes instead of dropping. The cause is almost always the same · a learning rate too high. Reducing it, the training stabilises and converges. This single setting can make the difference between a model that learns and a run that spirals out.",
+    "regard_fr": "Le taux d'apprentissage résume l'art de l'entraînement : avancer assez vite pour progresser, assez prudemment pour ne pas déraper. C'est une métaphore utile bien au-delà de l'IA · dans l'apprentissage humain comme dans la conduite du changement, le bon rythme est tout.",
+    "regard_en": "The learning rate sums up the art of training: advance fast enough to progress, cautiously enough not to skid. It is a useful metaphor well beyond AI · in human learning as in change management, the right pace is everything.",
+    "termes_lies": ["hyperparametre", "descente-gradient", "fonction-perte", "entrainement"],
+    "sources": [{"titre": "CNIL · Glossaire IA (taux d'apprentissage)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "descente-gradient": {
+    "sous_titre_fr": "Gradient descent",
+    "sous_titre_en": "Descente de gradient",
+    "definition_fr": "Algorithme fondamental d'entraînement des modèles : il ajuste itérativement les paramètres dans la direction qui réduit le plus l'erreur, comme un randonneur descendant une pente vers le point le plus bas. La quasi-totalité de l'apprentissage profond repose sur cette idée simple, répétée des milliards de fois.",
+    "definition_en": "The fundamental algorithm for training models: it iteratively adjusts the parameters in the direction that most reduces the error, like a hiker descending a slope towards the lowest point. Nearly all deep learning rests on this simple idea, repeated billions of times.",
+    "exemple_fr": "Imaginez un randonneur dans le brouillard cherchant le fond d'une vallée : il tâte la pente sous ses pieds et fait un pas vers le bas, encore et encore. C'est exactement ce que fait la descente de gradient avec l'erreur du modèle · un pas après l'autre, elle le rapproche de la meilleure configuration.",
+    "exemple_en": "Picture a hiker in fog seeking the bottom of a valley: they feel the slope underfoot and step downward, again and again. That is exactly what gradient descent does with the model's error · one step at a time, it brings it closer to the best configuration.",
+    "regard_fr": "La descente de gradient démystifie l'entraînement : derrière la « magie » de l'IA, une procédure d'optimisation d'une simplicité désarmante, répétée à échelle colossale. Comprendre ce mécanisme de base aide à démythifier l'IA · c'est de l'ingénierie et des mathématiques, pas de la sorcellerie.",
+    "regard_en": "Gradient descent demystifies training: behind AI's \"magic\", an optimisation procedure of disarming simplicity, repeated at colossal scale. Understanding this basic mechanism helps demystify AI · it is engineering and mathematics, not sorcery.",
+    "termes_lies": ["retropropagation", "fonction-perte", "taux-apprentissage", "apprentissage-profond"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (algorithme de descente de gradient)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  }
+}

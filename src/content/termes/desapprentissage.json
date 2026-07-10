@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Désapprentissage machine",
+  "terme_en": "Machine unlearning",
+  "sous_titre_fr": "Machine unlearning",
+  "sous_titre_en": "Désapprentissage machine",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Ensemble de techniques visant à faire « oublier » à un modèle des données précises qu'il a apprises, sans le réentraîner entièrement. Enjeu clé pour le droit à l'effacement du RGPD : comment retirer d'un modèle les données d'une personne qui les réclame ? Un domaine de recherche actif, encore loin d'une solution parfaite.",
+  "definition_en": "A set of techniques aiming to make a model \"forget\" specific data it has learned, without fully retraining it. A key issue for the GDPR right to erasure: how to remove a person's data from a model when they request it? An active research field, still far from a perfect solution.",
+  "exemple_fr": "Une personne exerce son droit à l'effacement auprès d'une entreprise ayant entraîné un modèle sur ses données. Effacer la base source est simple ; faire oublier ces données au modèle ne l'est pas. Le désapprentissage machine cherche à résoudre ce casse-tête · encore imparfaitement, d'où l'intérêt d'entraîner sur données anonymisées dès le départ.",
+  "exemple_en": "A person exercises their right to erasure with a company that trained a model on their data. Erasing the source database is simple; making the model forget this data is not. Machine unlearning seeks to solve this puzzle · still imperfectly, hence the value of training on anonymised data from the start.",
+  "regard_fr": "Le désapprentissage machine est le chaînon manquant entre le RGPD et l'IA : sans lui, le droit à l'effacement se heurte aux modèles déjà entraînés. En attendant qu'il mûrisse, la meilleure stratégie reste préventive · ne jamais entraîner sur des données personnelles qu'on ne pourrait pas retirer.",
+  "regard_en": "Machine unlearning is the missing link between the GDPR and AI: without it, the right to erasure runs into already-trained models. Until it matures, the best strategy remains preventive · never train on personal data you could not remove.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "droits-personnes",
+    "rgpd",
+    "donnees-personnelles",
+    "anonymisation"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (désapprentissage machine)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

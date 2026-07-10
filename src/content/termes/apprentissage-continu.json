@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage continu",
+  "terme_en": "Continual learning",
+  "sous_titre_fr": "Continual learning",
+  "sous_titre_en": "Apprentissage continu",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Capacité d'un modèle à apprendre de nouvelles tâches ou données au fil du temps sans oublier ce qu'il a déjà appris. C'est un défi majeur de l'IA : les réseaux de neurones souffrent d'oubli catastrophique · apprendre du nouveau efface souvent l'ancien. L'apprentissage continu cherche à concilier stabilité et adaptation.",
+  "definition_en": "A model's ability to learn new tasks or data over time without forgetting what it has already learned. It is a major AI challenge: neural networks suffer from catastrophic forgetting · learning the new often erases the old. Continual learning seeks to reconcile stability and adaptation.",
+  "exemple_fr": "Un modèle de détection de fraude doit s'adapter aux nouvelles techniques des fraudeurs sans oublier les anciennes. En apprentissage continu naïf, entraîner sur les nouvelles fraudes lui ferait oublier les précédentes. Des techniques dédiées préservent l'acquis tout en intégrant le nouveau · un équilibre délicat et jamais parfait.",
+  "exemple_en": "A fraud detection model must adapt to fraudsters' new techniques without forgetting the old. In naive continual learning, training on new frauds would make it forget the previous ones. Dedicated techniques preserve the acquired while integrating the new · a delicate, never perfect balance.",
+  "regard_fr": "L'apprentissage continu se heurte à un paradoxe humainement familier : apprendre du neuf sans oublier l'ancien. Pour la plupart des usages, il reste plus sûr de réentraîner périodiquement un modèle sur l'ensemble des données que de le laisser apprendre en continu · et dériver sans contrôle.",
+  "regard_en": "Continual learning runs into a humanly familiar paradox: learning the new without forgetting the old. For most uses, it remains safer to periodically retrain a model on the full dataset than to let it learn continuously · and drift out of control.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "oubli-catastrophique",
+    "derive-modele",
+    "apprentissage-transfert",
+    "versionnage-modeles"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (apprentissage continu)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

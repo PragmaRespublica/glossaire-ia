@@ -1,0 +1,38 @@
+{
+  "terme_fr": "IA constitutionnelle",
+  "terme_en": "Constitutional AI",
+  "sous_titre_fr": "Constitutional AI",
+  "sous_titre_en": "IA constitutionnelle",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Méthode d'alignement, développée par Anthropic, où le modèle est guidé par un ensemble explicite de principes · une « constitution » · plutôt que par le seul retour humain cas par cas. Le modèle apprend à critiquer et corriger ses propres réponses selon ces principes, réduisant la dépendance à l'annotation humaine massive.",
+  "definition_en": "An alignment method, developed by Anthropic, where the model is guided by an explicit set of principles · a \"constitution\" · rather than by case-by-case human feedback alone. The model learns to critique and correct its own responses against these principles, reducing reliance on massive human annotation.",
+  "exemple_fr": "Plutôt que de faire noter des milliers de réponses par des humains, l'IA constitutionnelle fournit au modèle des principes explicites (« sois utile, honnête, inoffensif ») et lui apprend à s'auto-évaluer. Le modèle affine ses réponses en se référant à cette constitution · une transparence sur les valeurs que peu de méthodes offrent.",
+  "exemple_en": "Rather than having thousands of responses rated by humans, constitutional AI gives the model explicit principles (\"be helpful, honest, harmless\") and teaches it to self-evaluate. The model refines its responses by referring to this constitution · a transparency about values that few methods offer.",
+  "regard_fr": "L'IA constitutionnelle a un mérite démocratique : elle rend explicites les principes qui guident le modèle, là où le RLHF les cache dans des jugements d'annotateurs. Débattre d'une constitution écrite est possible ; débattre de préférences implicites ne l'est pas. La transparence des valeurs est un progrès.",
+  "regard_en": "Constitutional AI has a democratic merit: it makes explicit the principles guiding the model, where RLHF hides them in annotators' judgments. Debating a written constitution is possible; debating implicit preferences is not. Transparency of values is progress.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "alignement-ia",
+    "rlhf",
+    "claude",
+    "ethique-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Anthropic · Constitutional AI",
+      "url": "https://www.anthropic.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

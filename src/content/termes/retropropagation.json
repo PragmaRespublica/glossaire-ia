@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Rétropropagation",
+  "terme_en": "Backpropagation",
+  "sous_titre_fr": "Backpropagation",
+  "sous_titre_en": "Rétropropagation",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Algorithme qui calcule, pour chaque paramètre d'un réseau de neurones, sa contribution à l'erreur globale, en propageant celle-ci de la sortie vers l'entrée. Couplée à la descente de gradient, la rétropropagation est le moteur de l'apprentissage profond : elle indique comment ajuster chaque poids pour réduire l'erreur.",
+  "definition_en": "An algorithm that computes, for each parameter of a neural network, its contribution to the overall error, by propagating this error from output to input. Coupled with gradient descent, backpropagation is the engine of deep learning: it indicates how to adjust each weight to reduce the error.",
+  "exemple_fr": "Quand un réseau se trompe, la rétropropagation remonte la chaîne des neurones et attribue à chacun sa part de responsabilité dans l'erreur. Chaque poids reçoit ainsi une correction proportionnée. Répétée des milliards de fois, cette attribution de responsabilité fait converger le modèle vers de bonnes prédictions.",
+  "exemple_en": "When a network errs, backpropagation traces back the chain of neurons and attributes to each its share of responsibility in the error. Each weight thus receives a proportionate correction. Repeated billions of times, this attribution of responsibility makes the model converge towards good predictions.",
+  "regard_fr": "La rétropropagation, formalisée dans les années 1980, est le socle discret sur lequel repose toute l'IA moderne. Redécouvrir qu'une idée ancienne a rendu possible la révolution actuelle invite à l'humilité : les percées d'aujourd'hui germent souvent de recherches patientes d'hier.",
+  "regard_en": "Backpropagation, formalised in the 1980s, is the discreet bedrock on which all modern AI rests. Rediscovering that an old idea made today's revolution possible invites humility: today's breakthroughs often sprout from yesterday's patient research.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "descente-gradient",
+    "reseau-neurones",
+    "fonction-perte",
+    "apprentissage-profond"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (rétropropagation du gradient)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

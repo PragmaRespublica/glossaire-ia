@@ -1,0 +1,122 @@
+{
+  "apprentissage-supervise": {
+    "sous_titre_fr": "Supervised learning",
+    "sous_titre_en": "Apprentissage supervisé",
+    "definition_fr": "Mode d'apprentissage où le modèle apprend à partir d'exemples étiquetés : à chaque entrée est associée la bonne réponse attendue. Le modèle ajuste ses paramètres pour reproduire ces associations, puis généralise à de nouveaux cas. C'est le paradigme le plus répandu, mais il exige des données étiquetées, souvent coûteuses à produire.",
+    "definition_en": "A learning mode where the model learns from labelled examples: each input is paired with the expected correct answer. The model adjusts its parameters to reproduce these associations, then generalises to new cases. It is the most widespread paradigm, but it requires labelled data, often costly to produce.",
+    "exemple_fr": "Pour classer des emails en « urgent » ou « normal », on fournit au modèle des milliers d'emails déjà étiquetés par des humains. Il apprend les motifs qui distinguent les deux catégories. La qualité de l'étiquetage humain plafonne celle du modèle · d'où l'importance d'annotateurs compétents et cohérents.",
+    "exemple_en": "To classify emails as \"urgent\" or \"normal\", the model is given thousands of emails already labelled by humans. It learns the patterns distinguishing the two categories. The quality of the human labelling caps the model's · hence the importance of competent, consistent annotators.",
+    "regard_fr": "L'apprentissage supervisé est puissant mais gourmand : il faut des données étiquetées, donc du travail humain. Avant de lancer un projet supervisé, évaluez le coût réel de l'annotation · il est souvent le vrai budget du projet, bien plus que le modèle lui-même.",
+    "regard_en": "Supervised learning is powerful but hungry: it needs labelled data, thus human work. Before launching a supervised project, assess the real cost of annotation · it is often the project's true budget, far more than the model itself.",
+    "termes_lies": ["apprentissage-non-supervise", "etiquetage-donnees", "verite-terrain", "apprentissage-automatique"],
+    "sources": [{"titre": "FranceTerme · apprentissage supervisé", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "apprentissage-non-supervise": {
+    "sous_titre_fr": "Unsupervised learning",
+    "sous_titre_en": "Apprentissage non supervisé",
+    "definition_fr": "Mode d'apprentissage où le modèle découvre seul des structures dans des données non étiquetées : regroupements, corrélations, anomalies. Sans réponses fournies, il cherche l'organisation cachée des données. Utile pour explorer, segmenter ou détecter, il ne nécessite pas le coûteux travail d'annotation de l'apprentissage supervisé.",
+    "definition_en": "A learning mode where the model discovers structures in unlabelled data on its own: groupings, correlations, anomalies. With no answers provided, it seeks the hidden organisation of the data. Useful for exploring, segmenting or detecting, it does not require the costly annotation work of supervised learning.",
+    "exemple_fr": "Une enseigne veut segmenter sa clientèle sans idée préconçue des groupes. L'apprentissage non supervisé regroupe automatiquement les clients aux comportements proches, révélant des segments inattendus · des « acheteurs de fin de mois », par exemple. Aucune étiquette n'était nécessaire : les données ont parlé d'elles-mêmes.",
+    "exemple_en": "A retailer wants to segment its clientele with no preconceived idea of the groups. Unsupervised learning automatically clusters customers with similar behaviours, revealing unexpected segments · \"end-of-month buyers\", for instance. No labels were needed: the data spoke for itself.",
+    "regard_fr": "L'apprentissage non supervisé est l'outil de la découverte : il révèle des structures qu'on n'aurait pas su chercher. Sa force est aussi son piège · sans supervision, les groupes qu'il trouve n'ont pas toujours de sens métier. L'humain doit interpréter, pas seulement lancer l'algorithme.",
+    "regard_en": "Unsupervised learning is the tool of discovery: it reveals structures one would not have known to look for. Its strength is also its trap · without supervision, the groups it finds do not always make business sense. The human must interpret, not just run the algorithm.",
+    "termes_lies": ["apprentissage-supervise", "clustering", "detection-anomalies", "reduction-dimension"],
+    "sources": [{"titre": "FranceTerme · apprentissage non supervisé", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "apprentissage-semi-supervise": {
+    "sous_titre_fr": "Semi-supervised learning",
+    "sous_titre_en": "Apprentissage semi-supervisé",
+    "definition_fr": "Approche combinant une petite quantité de données étiquetées et une grande quantité de données non étiquetées. Le modèle exploite les étiquettes rares pour se guider, et la masse de données non étiquetées pour affiner sa compréhension. Un bon compromis quand l'annotation est coûteuse mais les données brutes abondantes.",
+    "definition_en": "An approach combining a small amount of labelled data with a large amount of unlabelled data. The model uses the rare labels to guide itself, and the mass of unlabelled data to refine its understanding. A good compromise when annotation is costly but raw data abundant.",
+    "exemple_fr": "Un service dispose d'un million de documents mais n'a les moyens d'en étiqueter que mille. L'apprentissage semi-supervisé tire parti des deux : les mille documents étiquetés orientent le modèle, le million restant enrichit son apprentissage. Le résultat approche celui d'un modèle entièrement supervisé, à une fraction du coût d'annotation.",
+    "exemple_en": "A department has a million documents but can only afford to label a thousand. Semi-supervised learning leverages both: the thousand labelled documents guide the model, the remaining million enrich its learning. The result approaches that of a fully supervised model, at a fraction of the annotation cost.",
+    "regard_fr": "L'apprentissage semi-supervisé est l'art du compromis intelligent : maximiser la valeur d'une annotation limitée. Pour la plupart des organisations, qui croulent sous les données mais manquent de temps d'annotation, c'est souvent la voie la plus réaliste. Un juste milieu trop peu exploité.",
+    "regard_en": "Semi-supervised learning is the art of the smart compromise: maximising the value of limited annotation. For most organisations, drowning in data but short on annotation time, it is often the most realistic path. A middle ground too little exploited.",
+    "termes_lies": ["apprentissage-supervise", "apprentissage-non-supervise", "etiquetage-donnees", "donnees-synthetiques"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (apprentissage semi-supervisé)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "apprentissage-auto-supervise": {
+    "sous_titre_fr": "Self-supervised learning",
+    "sous_titre_en": "Apprentissage auto-supervisé",
+    "definition_fr": "Mode d'apprentissage où le modèle génère lui-même ses étiquettes à partir de la structure des données : prédire le mot suivant, remplir un trou, restaurer une image masquée. C'est la clé de l'entraînement des grands modèles de langage, qui apprennent sur des textes bruts sans annotation humaine, en se prédisant à eux-mêmes.",
+    "definition_en": "A learning mode where the model generates its own labels from the data's structure: predicting the next word, filling a gap, restoring a masked image. It is the key to training large language models, which learn on raw text with no human annotation, by predicting to themselves.",
+    "exemple_fr": "Un grand modèle de langage apprend en masquant un mot dans des milliards de phrases et en tentant de le deviner. Aucun humain n'a étiqueté ces données : le texte lui-même fournit la « bonne réponse ». C'est cette astuce · l'auto-supervision · qui a rendu possible l'entraînement des LLM à l'échelle du web.",
+    "exemple_en": "A large language model learns by masking a word in billions of sentences and trying to guess it. No human labelled this data: the text itself provides the \"right answer\". It is this trick · self-supervision · that made training LLMs at web scale possible.",
+    "regard_fr": "L'apprentissage auto-supervisé est la révolution silencieuse derrière les LLM : il a affranchi l'entraînement du goulot d'étranglement de l'annotation humaine. Comprendre ce mécanisme, c'est comprendre pourquoi les modèles ont pu grandir si vite · et pourquoi ils portent les biais du web brut.",
+    "regard_en": "Self-supervised learning is the silent revolution behind LLMs: it freed training from the bottleneck of human annotation. Understanding this mechanism means understanding why models could grow so fast · and why they carry the biases of the raw web.",
+    "termes_lies": ["pre-entrainement", "llm", "transformer", "apprentissage-supervise"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (apprentissage autosupervisé)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "apprentissage-renforcement": {
+    "sous_titre_fr": "Reinforcement learning",
+    "sous_titre_en": "Apprentissage par renforcement",
+    "definition_fr": "Mode d'apprentissage où un agent apprend par essais et erreurs en interagissant avec un environnement : chaque action reçoit une récompense ou une pénalité, et l'agent ajuste sa stratégie pour maximiser la récompense à long terme. Fondamental en robotique et dans les jeux, il est aussi central dans l'alignement des LLM (via le RLHF).",
+    "definition_en": "A learning mode where an agent learns by trial and error interacting with an environment: each action receives a reward or penalty, and the agent adjusts its strategy to maximise long-term reward. Fundamental in robotics and games, it is also central to aligning LLMs (via RLHF).",
+    "exemple_fr": "Un système d'optimisation logistique apprend par renforcement à router des livraisons : chaque tournée efficace est récompensée, chaque retard pénalisé. Au fil des essais, il découvre des stratégies qu'aucun humain n'aurait explicitées. C'est la force du renforcement · apprendre par l'expérience, pas par des règles écrites.",
+    "exemple_en": "A logistics optimisation system learns by reinforcement to route deliveries: each efficient round is rewarded, each delay penalised. Over the trials, it discovers strategies no human would have spelled out. That is reinforcement's strength · learning by experience, not by written rules.",
+    "regard_fr": "L'apprentissage par renforcement est fascinant et délicat : tout dépend de la fonction de récompense. Mal définie, elle pousse l'agent à « tricher » · atteindre la récompense sans accomplir l'objectif réel. Concevoir la bonne récompense est un art à part entière, aux conséquences parfois surprenantes.",
+    "regard_en": "Reinforcement learning is fascinating and delicate: everything depends on the reward function. Badly defined, it pushes the agent to \"cheat\" · reaching the reward without accomplishing the real goal. Designing the right reward is an art in itself, with sometimes surprising consequences.",
+    "termes_lies": ["rlhf", "modele-recompense", "alignement-ia", "agent-autonome"],
+    "sources": [{"titre": "FranceTerme · apprentissage par renforcement", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "apprentissage-transfert": {
+    "sous_titre_fr": "Transfer learning",
+    "sous_titre_en": "Apprentissage par transfert",
+    "definition_fr": "Technique consistant à réutiliser un modèle déjà entraîné sur une tâche pour l'adapter à une tâche voisine, plutôt que de repartir de zéro. Elle exploite les connaissances générales acquises pour apprendre plus vite, avec moins de données. C'est le principe même du fine-tuning d'un modèle de fondation sur un domaine spécifique.",
+    "definition_en": "A technique of reusing a model already trained on one task to adapt it to a related task, rather than starting from scratch. It exploits the general knowledge acquired to learn faster, with less data. It is the very principle of fine-tuning a foundation model on a specific domain.",
+    "exemple_fr": "Une entreprise n'a que 2 000 images pour reconnaître ses produits · trop peu pour entraîner un modèle de zéro. Par transfert, elle part d'un modèle de vision déjà entraîné sur des millions d'images et l'adapte à ses produits. Le modèle apprend vite et bien, en réutilisant sa « connaissance » générale du monde visuel.",
+    "exemple_en": "A company has only 2,000 images to recognise its products · too few to train a model from scratch. Through transfer, it starts from a vision model already trained on millions of images and adapts it to its products. The model learns fast and well, reusing its general \"knowledge\" of the visual world.",
+    "regard_fr": "L'apprentissage par transfert est ce qui rend l'IA accessible aux organisations sans données massives : on hérite du savoir d'un grand modèle plutôt que de le reconstruire. C'est la démocratisation de l'IA en pratique · à condition de partir d'un modèle de base fiable et, idéalement, souverain.",
+    "regard_en": "Transfer learning is what makes AI accessible to organisations without massive data: you inherit a large model's knowledge rather than rebuilding it. It is the democratisation of AI in practice · provided you start from a reliable and, ideally, sovereign base model.",
+    "termes_lies": ["fine-tuning", "modele-fondation", "pre-entrainement", "distillation"],
+    "sources": [{"titre": "FranceTerme · apprentissage par transfert", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "apprentissage-continu": {
+    "sous_titre_fr": "Continual learning",
+    "sous_titre_en": "Apprentissage continu",
+    "definition_fr": "Capacité d'un modèle à apprendre de nouvelles tâches ou données au fil du temps sans oublier ce qu'il a déjà appris. C'est un défi majeur de l'IA : les réseaux de neurones souffrent d'oubli catastrophique · apprendre du nouveau efface souvent l'ancien. L'apprentissage continu cherche à concilier stabilité et adaptation.",
+    "definition_en": "A model's ability to learn new tasks or data over time without forgetting what it has already learned. It is a major AI challenge: neural networks suffer from catastrophic forgetting · learning the new often erases the old. Continual learning seeks to reconcile stability and adaptation.",
+    "exemple_fr": "Un modèle de détection de fraude doit s'adapter aux nouvelles techniques des fraudeurs sans oublier les anciennes. En apprentissage continu naïf, entraîner sur les nouvelles fraudes lui ferait oublier les précédentes. Des techniques dédiées préservent l'acquis tout en intégrant le nouveau · un équilibre délicat et jamais parfait.",
+    "exemple_en": "A fraud detection model must adapt to fraudsters' new techniques without forgetting the old. In naive continual learning, training on new frauds would make it forget the previous ones. Dedicated techniques preserve the acquired while integrating the new · a delicate, never perfect balance.",
+    "regard_fr": "L'apprentissage continu se heurte à un paradoxe humainement familier : apprendre du neuf sans oublier l'ancien. Pour la plupart des usages, il reste plus sûr de réentraîner périodiquement un modèle sur l'ensemble des données que de le laisser apprendre en continu · et dériver sans contrôle.",
+    "regard_en": "Continual learning runs into a humanly familiar paradox: learning the new without forgetting the old. For most uses, it remains safer to periodically retrain a model on the full dataset than to let it learn continuously · and drift out of control.",
+    "termes_lies": ["oubli-catastrophique", "derive-modele", "apprentissage-transfert", "versionnage-modeles"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (apprentissage continu)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "apprentissage-actif": {
+    "sous_titre_fr": "Active learning",
+    "sous_titre_en": "Apprentissage actif",
+    "definition_fr": "Stratégie où le modèle sélectionne lui-même les données qu'il serait le plus utile de faire étiqueter par un humain · celles où il est le plus incertain. En concentrant l'effort d'annotation sur les cas les plus informatifs, l'apprentissage actif atteint une bonne performance avec beaucoup moins de données étiquetées.",
+    "definition_en": "A strategy where the model itself selects the data it would be most useful to have labelled by a human · those where it is most uncertain. By focusing the annotation effort on the most informative cases, active learning reaches good performance with far less labelled data.",
+    "exemple_fr": "Plutôt que d'étiqueter 10 000 documents au hasard, une équipe laisse le modèle désigner les 500 cas les plus ambigus · ceux qui lui apprendront le plus. Les annotateurs se concentrent sur eux. Résultat : une performance équivalente à un étiquetage massif, pour un vingtième de l'effort. L'intelligence est dans le choix des exemples.",
+    "exemple_en": "Rather than labelling 10,000 random documents, a team lets the model designate the 500 most ambiguous cases · those that will teach it the most. Annotators focus on them. The result: performance equivalent to massive labelling, for a twentieth of the effort. The intelligence is in the choice of examples.",
+    "regard_fr": "L'apprentissage actif applique une sagesse simple : mieux vaut bien étiqueter les bons exemples que tout étiqueter au hasard. Quand l'annotation est votre principal coût · ce qui est fréquent · c'est un levier d'efficacité majeur, curieusement sous-employé.",
+    "regard_en": "Active learning applies a simple wisdom: better to label the right examples well than to label everything at random. When annotation is your main cost · which is common · it is a major efficiency lever, curiously underused.",
+    "termes_lies": ["etiquetage-donnees", "apprentissage-supervise", "humain-dans-la-boucle", "score-confiance"],
+    "sources": [{"titre": "CNIL · Glossaire IA (apprentissage actif)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "pre-entrainement": {
+    "sous_titre_fr": "Pre-training",
+    "sous_titre_en": "Préentraînement",
+    "definition_fr": "Première phase d'entraînement d'un grand modèle, où il apprend des connaissances générales sur d'immenses corpus, sans tâche précise, par auto-supervision. Très coûteuse en calcul et en énergie, elle produit le modèle de fondation brut, qui sera ensuite affiné (post-entraînement, fine-tuning) pour des usages spécifiques.",
+    "definition_en": "The first training phase of a large model, where it learns general knowledge from immense corpora, with no specific task, through self-supervision. Very costly in compute and energy, it produces the raw foundation model, which will then be refined (post-training, fine-tuning) for specific uses.",
+    "exemple_fr": "Le préentraînement d'un grand modèle mobilise des milliers de GPU pendant des semaines et coûte des dizaines de millions. C'est pourquoi seuls quelques acteurs le font. Les entreprises, elles, partent de ces modèles préentraînés et les adaptent · le préentraînement est un bien commun coûteux, l'adaptation est à la portée de tous.",
+    "exemple_en": "Pre-training a large model mobilises thousands of GPUs for weeks and costs tens of millions. That is why only a few players do it. Companies start from these pre-trained models and adapt them · pre-training is a costly common good, adaptation is within everyone's reach.",
+    "regard_fr": "Le préentraînement concentre le pouvoir : celui qui préentraîne les modèles de fondation façonne les capacités et les biais de toute l'IA en aval. C'est un enjeu de souveraineté majeur · l'Europe doit pouvoir préentraîner ses propres modèles, pas seulement adapter ceux des autres.",
+    "regard_en": "Pre-training concentrates power: whoever pre-trains the foundation models shapes the capabilities and biases of all downstream AI. It is a major sovereignty issue · Europe must be able to pre-train its own models, not just adapt others'.",
+    "termes_lies": ["apprentissage-auto-supervise", "modele-fondation", "post-entrainement", "fine-tuning"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (préentraînement)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "post-entrainement": {
+    "sous_titre_fr": "Post-training",
+    "sous_titre_en": "Post-entraînement",
+    "definition_fr": "Ensemble des phases d'entraînement qui suivent le préentraînement pour transformer un modèle brut en assistant utile et sûr : ajustement par instructions, alignement sur les préférences humaines (RLHF, DPO), spécialisation. C'est le post-entraînement qui donne à un modèle sa personnalité, ses garde-fous et son utilité pratique.",
+    "definition_en": "The set of training phases following pre-training to turn a raw model into a useful, safe assistant: instruction tuning, alignment on human preferences (RLHF, DPO), specialisation. It is post-training that gives a model its personality, its guardrails and its practical usefulness.",
+    "exemple_fr": "Un modèle juste préentraîné complète le texte mais n'obéit pas aux instructions et peut produire n'importe quoi. Le post-entraînement le transforme : il apprend à suivre des consignes, à refuser les demandes dangereuses, à répondre utilement. C'est cette phase, invisible pour l'utilisateur, qui fait la différence entre un modèle brut et un assistant.",
+    "exemple_en": "A just-pre-trained model completes text but does not obey instructions and can produce anything. Post-training transforms it: it learns to follow directions, refuse dangerous requests, answer helpfully. It is this phase, invisible to the user, that makes the difference between a raw model and an assistant.",
+    "regard_fr": "Le post-entraînement est là où se logent les valeurs d'un modèle : ce qu'il accepte, refuse, privilégie. Ces choix, faits par le fournisseur, reflètent sa culture · souvent américaine. Un modèle post-entraîné ailleurs aura d'autres angles morts. La souveraineté se joue aussi à cette étape.",
+    "regard_en": "Post-training is where a model's values reside: what it accepts, refuses, favours. These choices, made by the provider, reflect its culture · often American. A model post-trained elsewhere will have other blind spots. Sovereignty also plays out at this stage.",
+    "termes_lies": ["pre-entrainement", "rlhf", "instruction-tuning", "alignement-ia"],
+    "sources": [{"titre": "Documentation sur le post-entraînement des LLM"}]
+  }
+}

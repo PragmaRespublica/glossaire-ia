@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage par transfert",
+  "terme_en": "Transfer learning",
+  "sous_titre_fr": "Transfer learning",
+  "sous_titre_en": "Apprentissage par transfert",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Technique consistant à réutiliser un modèle déjà entraîné sur une tâche pour l'adapter à une tâche voisine, plutôt que de repartir de zéro. Elle exploite les connaissances générales acquises pour apprendre plus vite, avec moins de données. C'est le principe même du fine-tuning d'un modèle de fondation sur un domaine spécifique.",
+  "definition_en": "A technique of reusing a model already trained on one task to adapt it to a related task, rather than starting from scratch. It exploits the general knowledge acquired to learn faster, with less data. It is the very principle of fine-tuning a foundation model on a specific domain.",
+  "exemple_fr": "Une entreprise n'a que 2 000 images pour reconnaître ses produits · trop peu pour entraîner un modèle de zéro. Par transfert, elle part d'un modèle de vision déjà entraîné sur des millions d'images et l'adapte à ses produits. Le modèle apprend vite et bien, en réutilisant sa « connaissance » générale du monde visuel.",
+  "exemple_en": "A company has only 2,000 images to recognise its products · too few to train a model from scratch. Through transfer, it starts from a vision model already trained on millions of images and adapts it to its products. The model learns fast and well, reusing its general \"knowledge\" of the visual world.",
+  "regard_fr": "L'apprentissage par transfert est ce qui rend l'IA accessible aux organisations sans données massives : on hérite du savoir d'un grand modèle plutôt que de le reconstruire. C'est la démocratisation de l'IA en pratique · à condition de partir d'un modèle de base fiable et, idéalement, souverain.",
+  "regard_en": "Transfer learning is what makes AI accessible to organisations without massive data: you inherit a large model's knowledge rather than rebuilding it. It is the democratisation of AI in practice · provided you start from a reliable and, ideally, sovereign base model.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "fine-tuning",
+    "modele-fondation",
+    "pre-entrainement",
+    "distillation"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · apprentissage par transfert",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

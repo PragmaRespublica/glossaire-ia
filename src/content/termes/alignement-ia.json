@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Alignement de l'IA",
+  "terme_en": "AI alignment",
+  "sous_titre_fr": "AI alignment",
+  "sous_titre_en": "Alignement de l'IA",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des techniques et recherches visant à ce qu'un système d'IA agisse conformément aux intentions et valeurs humaines. L'alignement couvre le court terme (un assistant qui refuse les demandes nuisibles) comme le long terme (garantir que des systèmes très puissants restent sous contrôle humain). C'est un enjeu de sûreté central.",
+  "definition_en": "The set of techniques and research aiming for an AI system to act in accordance with human intentions and values. Alignment covers the short term (an assistant refusing harmful requests) and the long term (ensuring very powerful systems stay under human control). It is a central safety issue.",
+  "exemple_fr": "Un assistant bien aligné refuse d'aider à fabriquer une arme, même formulée habilement, et signale son incertitude plutôt que d'inventer. Cet alignement n'est pas spontané : il résulte d'un travail délibéré des concepteurs. Un modèle mal aligné peut être brillant et dangereux à la fois.",
+  "exemple_en": "A well-aligned assistant refuses to help build a weapon, even cleverly phrased, and flags its uncertainty rather than inventing. This alignment is not spontaneous: it results from deliberate work by the designers. A poorly aligned model can be brilliant and dangerous at once.",
+  "regard_fr": "L'alignement est la question qui décidera si l'IA reste un outil ou devient un risque. Elle n'est pas seulement technique mais profondément politique : aligner sur quelles valeurs, décidées par qui ? Confier ces choix à quelques entreprises est déjà un enjeu de souveraineté démocratique.",
+  "regard_en": "Alignment is the question that will decide whether AI stays a tool or becomes a risk. It is not only technical but deeply political: aligned on which values, decided by whom? Entrusting these choices to a few companies is already a matter of democratic sovereignty.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-constitutionnelle",
+    "rlhf",
+    "interpretabilite",
+    "ethique-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (alignement de l'IA)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

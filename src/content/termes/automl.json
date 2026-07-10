@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage automatique automatisé (AutoML)",
+  "terme_en": "AutoML",
+  "sous_titre_fr": "Automated Machine Learning",
+  "sous_titre_en": "Apprentissage automatique automatisé",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Ensemble d'outils automatisant les étapes fastidieuses de la construction d'un modèle : sélection des caractéristiques, choix de l'algorithme, réglage des hyperparamètres. L'AutoML abaisse la barrière d'entrée du machine learning, permettant à des non-spécialistes de produire des modèles corrects · sans remplacer l'expertise pour les cas complexes.",
+  "definition_en": "A set of tools automating the tedious steps of building a model: feature selection, algorithm choice, hyperparameter tuning. AutoML lowers the entry barrier to machine learning, letting non-specialists produce decent models · without replacing expertise for complex cases.",
+  "exemple_fr": "Un analyste métier, sans être data scientist, veut prédire l'attrition client. Avec un outil d'AutoML, il fournit ses données et l'outil teste automatiquement dizaines de configurations pour trouver un bon modèle. Il obtient un résultat exploitable · un data scientist ferait mieux sur un cas difficile, mais l'AutoML suffit ici.",
+  "exemple_en": "A business analyst, without being a data scientist, wants to predict customer churn. With an AutoML tool, they provide their data and the tool automatically tests dozens of configurations to find a good model. They get a usable result · a data scientist would do better on a hard case, but AutoML suffices here.",
+  "regard_fr": "L'AutoML démocratise le machine learning classique · une bonne chose pour l'autonomie des métiers. Mais il crée un risque : produire des modèles sans comprendre leurs limites ni leurs biais. L'outil abaisse la barrière technique, pas la barrière de responsabilité. La compréhension reste requise.",
+  "regard_en": "AutoML democratises classic machine learning · a good thing for business autonomy. But it creates a risk: producing models without understanding their limits or biases. The tool lowers the technical barrier, not the responsibility barrier. Understanding remains required.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "hyperparametre",
+    "apprentissage-automatique",
+    "no-code",
+    "caracteristique"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (apprentissage automatique automatisé)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

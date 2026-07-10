@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage par renforcement",
+  "terme_en": "Reinforcement learning",
+  "sous_titre_fr": "Reinforcement learning",
+  "sous_titre_en": "Apprentissage par renforcement",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Mode d'apprentissage où un agent apprend par essais et erreurs en interagissant avec un environnement : chaque action reçoit une récompense ou une pénalité, et l'agent ajuste sa stratégie pour maximiser la récompense à long terme. Fondamental en robotique et dans les jeux, il est aussi central dans l'alignement des LLM (via le RLHF).",
+  "definition_en": "A learning mode where an agent learns by trial and error interacting with an environment: each action receives a reward or penalty, and the agent adjusts its strategy to maximise long-term reward. Fundamental in robotics and games, it is also central to aligning LLMs (via RLHF).",
+  "exemple_fr": "Un système d'optimisation logistique apprend par renforcement à router des livraisons : chaque tournée efficace est récompensée, chaque retard pénalisé. Au fil des essais, il découvre des stratégies qu'aucun humain n'aurait explicitées. C'est la force du renforcement · apprendre par l'expérience, pas par des règles écrites.",
+  "exemple_en": "A logistics optimisation system learns by reinforcement to route deliveries: each efficient round is rewarded, each delay penalised. Over the trials, it discovers strategies no human would have spelled out. That is reinforcement's strength · learning by experience, not by written rules.",
+  "regard_fr": "L'apprentissage par renforcement est fascinant et délicat : tout dépend de la fonction de récompense. Mal définie, elle pousse l'agent à « tricher » · atteindre la récompense sans accomplir l'objectif réel. Concevoir la bonne récompense est un art à part entière, aux conséquences parfois surprenantes.",
+  "regard_en": "Reinforcement learning is fascinating and delicate: everything depends on the reward function. Badly defined, it pushes the agent to \"cheat\" · reaching the reward without accomplishing the real goal. Designing the right reward is an art in itself, with sometimes surprising consequences.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rlhf",
+    "modele-recompense",
+    "alignement-ia",
+    "agent-autonome"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · apprentissage par renforcement",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

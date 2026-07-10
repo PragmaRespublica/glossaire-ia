@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Fonction de perte",
+  "terme_en": "Loss function",
+  "sous_titre_fr": "Loss function, fonction de coût",
+  "sous_titre_en": "Loss function, cost function",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Fonction mathématique mesurant l'écart entre les prédictions d'un modèle et les réponses attendues. L'entraînement consiste à minimiser cette fonction de perte. Son choix oriente ce que le modèle apprend à optimiser · une fonction de perte mal choisie fait apprendre au modèle la mauvaise chose, même avec de bonnes données.",
+  "definition_en": "A mathematical function measuring the gap between a model's predictions and the expected answers. Training consists in minimising this loss function. Its choice orients what the model learns to optimise · a poorly chosen loss makes the model learn the wrong thing, even with good data.",
+  "exemple_fr": "Un modèle de prévision minimise une fonction de perte qui pénalise également les sur- et sous-estimations. Mais pour un stock critique, sous-estimer (rupture) coûte bien plus que surestimer. En choisissant une fonction de perte asymétrique, on aligne l'apprentissage sur l'enjeu réel. La fonction de perte encode les priorités.",
+  "exemple_en": "A forecasting model minimises a loss function that penalises over- and under-estimation equally. But for a critical stock, under-estimating (shortage) costs far more than over-estimating. By choosing an asymmetric loss, one aligns learning with the real stake. The loss function encodes the priorities.",
+  "regard_fr": "La fonction de perte est l'endroit où l'on dit au modèle ce qui compte vraiment. Un modèle optimise exactement ce qu'on lui demande d'optimiser · ni plus, ni moins. Formuler la bonne fonction de perte, c'est traduire un enjeu métier en objectif mathématique · un exercice bien plus stratégique qu'il n'y paraît.",
+  "regard_en": "The loss function is where you tell the model what really matters. A model optimises exactly what you ask it to optimise · no more, no less. Formulating the right loss means translating a business stake into a mathematical objective · a far more strategic exercise than it seems.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "descente-gradient",
+    "taux-apprentissage",
+    "faux-positifs",
+    "entrainement"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (fonction de perte)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

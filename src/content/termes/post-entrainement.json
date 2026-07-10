@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Post-entraînement",
+  "terme_en": "Post-training",
+  "sous_titre_fr": "Post-training",
+  "sous_titre_en": "Post-entraînement",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des phases d'entraînement qui suivent le préentraînement pour transformer un modèle brut en assistant utile et sûr : ajustement par instructions, alignement sur les préférences humaines (RLHF, DPO), spécialisation. C'est le post-entraînement qui donne à un modèle sa personnalité, ses garde-fous et son utilité pratique.",
+  "definition_en": "The set of training phases following pre-training to turn a raw model into a useful, safe assistant: instruction tuning, alignment on human preferences (RLHF, DPO), specialisation. It is post-training that gives a model its personality, its guardrails and its practical usefulness.",
+  "exemple_fr": "Un modèle juste préentraîné complète le texte mais n'obéit pas aux instructions et peut produire n'importe quoi. Le post-entraînement le transforme : il apprend à suivre des consignes, à refuser les demandes dangereuses, à répondre utilement. C'est cette phase, invisible pour l'utilisateur, qui fait la différence entre un modèle brut et un assistant.",
+  "exemple_en": "A just-pre-trained model completes text but does not obey instructions and can produce anything. Post-training transforms it: it learns to follow directions, refuse dangerous requests, answer helpfully. It is this phase, invisible to the user, that makes the difference between a raw model and an assistant.",
+  "regard_fr": "Le post-entraînement est là où se logent les valeurs d'un modèle : ce qu'il accepte, refuse, privilégie. Ces choix, faits par le fournisseur, reflètent sa culture · souvent américaine. Un modèle post-entraîné ailleurs aura d'autres angles morts. La souveraineté se joue aussi à cette étape.",
+  "regard_en": "Post-training is where a model's values reside: what it accepts, refuses, favours. These choices, made by the provider, reflect its culture · often American. A model post-trained elsewhere will have other blind spots. Sovereignty also plays out at this stage.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "pre-entrainement",
+    "rlhf",
+    "instruction-tuning",
+    "alignement-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur le post-entraînement des LLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Sous-apprentissage (underfitting)",
+  "terme_en": "Underfitting",
+  "sous_titre_fr": "Underfitting",
+  "sous_titre_en": "Sous-apprentissage",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Défaut inverse du surapprentissage : le modèle est trop simple ou insuffisamment entraîné pour capturer les régularités des données. Il se trompe autant sur l'entraînement que sur les nouveaux cas. Le sous-apprentissage signale qu'il faut un modèle plus riche, davantage de données pertinentes ou un entraînement plus poussé.",
+  "definition_en": "The opposite flaw to overfitting: the model is too simple or insufficiently trained to capture the data's regularities. It errs as much on training as on new cases. Underfitting signals the need for a richer model, more relevant data or more thorough training.",
+  "exemple_fr": "Un modèle donne des résultats médiocres partout · à l'entraînement comme en test. Ce n'est pas du surapprentissage mais du sous-apprentissage : le modèle est trop simple pour le problème. La solution n'est pas plus de régularisation, mais un modèle plus expressif ou de meilleures caractéristiques.",
+  "exemple_en": "A model gives mediocre results everywhere · in training as in testing. This is not overfitting but underfitting: the model is too simple for the problem. The solution is not more regularisation, but a more expressive model or better features.",
+  "regard_fr": "Surapprentissage et sous-apprentissage sont les deux écueils entre lesquels navigue tout praticien : trop mémoriser ou trop simplifier. Le bon modèle vit dans un équilibre délicat entre les deux. Savoir diagnostiquer lequel vous menace est une compétence de base · et une source d'erreurs quand on la néglige.",
+  "regard_en": "Overfitting and underfitting are the two pitfalls every practitioner navigates between: memorising too much or simplifying too much. The right model lives in a delicate balance between the two. Knowing how to diagnose which threatens you is a basic skill · and a source of errors when neglected.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "surapprentissage",
+    "generalisation",
+    "caracteristique",
+    "entrainement"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (sous-apprentissage)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

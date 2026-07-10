@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Ajustement par instructions",
+  "terme_en": "Instruction tuning",
+  "sous_titre_fr": "Instruction tuning",
+  "sous_titre_en": "Ajustement par instructions",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Phase de post-entraînement où un modèle apprend à suivre des instructions formulées en langage naturel, à partir de nombreux exemples de type « consigne, réponse attendue ». C'est ce qui transforme un modèle qui complète du texte en un assistant capable d'obéir à des demandes variées et de s'adapter à des tâches inédites.",
+  "definition_en": "A post-training phase where a model learns to follow instructions formulated in natural language, from many \"instruction, expected response\" examples. It is what turns a text-completing model into an assistant able to obey varied requests and adapt to new tasks.",
+  "exemple_fr": "Avant l'ajustement par instructions, demander « résume ce texte » à un modèle brut pouvait produire une continuation du texte, pas un résumé. Après cette phase, le modèle comprend l'intention et exécute la tâche. C'est l'ajustement par instructions qui a rendu les assistants IA réellement utilisables par le grand public.",
+  "exemple_en": "Before instruction tuning, asking a raw model to \"summarise this text\" could produce a continuation of the text, not a summary. After this phase, the model understands the intent and performs the task. Instruction tuning is what made AI assistants truly usable by the general public.",
+  "regard_fr": "L'ajustement par instructions est le pont entre un modèle statistique et un outil utilisable : il apprend au modèle à comprendre ce qu'on lui demande. Sa qualité détermine la docilité et la polyvalence de l'assistant · un maillon discret mais décisif de la chaîne d'entraînement.",
+  "regard_en": "Instruction tuning is the bridge between a statistical model and a usable tool: it teaches the model to understand what is asked. Its quality determines the assistant's obedience and versatility · a discreet but decisive link in the training chain.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "post-entrainement",
+    "prompt",
+    "zero-shot-few-shot",
+    "alignement-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur l'instruction tuning des LLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

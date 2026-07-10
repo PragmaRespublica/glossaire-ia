@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Généralisation",
+  "terme_en": "Generalization",
+  "sous_titre_fr": "Generalization",
+  "sous_titre_en": "Généralisation",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Capacité d'un modèle à bien se comporter sur des données nouvelles, jamais vues pendant l'entraînement. C'est l'objectif ultime de l'apprentissage : non pas mémoriser, mais dégager des règles applicables à des cas inédits. Un modèle qui généralise bien est un modèle utile ; un modèle qui ne fait que mémoriser est un piège.",
+  "definition_en": "A model's ability to behave well on new data, never seen during training. It is the ultimate goal of learning: not memorising, but extracting rules applicable to novel cases. A model that generalises well is a useful model; one that only memorises is a trap.",
+  "exemple_fr": "Un modèle de détection de défauts entraîné sur une usine doit encore fonctionner dans une autre, aux conditions légèrement différentes. S'il généralise bien, il s'adapte ; sinon, il faut le réentraîner à chaque site. La généralisation détermine si un modèle est un actif réutilisable ou un développement jetable.",
+  "exemple_en": "A defect-detection model trained on one factory must still work in another, with slightly different conditions. If it generalises well, it adapts; otherwise, it must be retrained at each site. Generalisation determines whether a model is a reusable asset or a disposable development.",
+  "regard_fr": "La généralisation est le vrai juge de l'intelligence d'un modèle : réciter ce qu'on a vu est facile, s'adapter à l'inconnu est difficile. Toute évaluation sérieuse mesure la généralisation, pas la mémorisation. C'est aussi ce qui distingue une IA vraiment utile d'une démonstration truquée.",
+  "regard_en": "Generalisation is the true judge of a model's intelligence: reciting what you have seen is easy, adapting to the unknown is hard. Any serious evaluation measures generalisation, not memorisation. It is also what distinguishes a truly useful AI from a rigged demonstration.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "surapprentissage",
+    "sous-apprentissage",
+    "robustesse",
+    "jeu-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (généralisation)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

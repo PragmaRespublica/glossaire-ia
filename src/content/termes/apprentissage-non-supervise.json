@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage non supervisé",
+  "terme_en": "Unsupervised learning",
+  "sous_titre_fr": "Unsupervised learning",
+  "sous_titre_en": "Apprentissage non supervisé",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Mode d'apprentissage où le modèle découvre seul des structures dans des données non étiquetées : regroupements, corrélations, anomalies. Sans réponses fournies, il cherche l'organisation cachée des données. Utile pour explorer, segmenter ou détecter, il ne nécessite pas le coûteux travail d'annotation de l'apprentissage supervisé.",
+  "definition_en": "A learning mode where the model discovers structures in unlabelled data on its own: groupings, correlations, anomalies. With no answers provided, it seeks the hidden organisation of the data. Useful for exploring, segmenting or detecting, it does not require the costly annotation work of supervised learning.",
+  "exemple_fr": "Une enseigne veut segmenter sa clientèle sans idée préconçue des groupes. L'apprentissage non supervisé regroupe automatiquement les clients aux comportements proches, révélant des segments inattendus · des « acheteurs de fin de mois », par exemple. Aucune étiquette n'était nécessaire : les données ont parlé d'elles-mêmes.",
+  "exemple_en": "A retailer wants to segment its clientele with no preconceived idea of the groups. Unsupervised learning automatically clusters customers with similar behaviours, revealing unexpected segments · \"end-of-month buyers\", for instance. No labels were needed: the data spoke for itself.",
+  "regard_fr": "L'apprentissage non supervisé est l'outil de la découverte : il révèle des structures qu'on n'aurait pas su chercher. Sa force est aussi son piège · sans supervision, les groupes qu'il trouve n'ont pas toujours de sens métier. L'humain doit interpréter, pas seulement lancer l'algorithme.",
+  "regard_en": "Unsupervised learning is the tool of discovery: it reveals structures one would not have known to look for. Its strength is also its trap · without supervision, the groups it finds do not always make business sense. The human must interpret, not just run the algorithm.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-supervise",
+    "clustering",
+    "detection-anomalies",
+    "reduction-dimension"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · apprentissage non supervisé",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

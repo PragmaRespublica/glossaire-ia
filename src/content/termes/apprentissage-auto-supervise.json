@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage auto-supervisé",
+  "terme_en": "Self-supervised learning",
+  "sous_titre_fr": "Self-supervised learning",
+  "sous_titre_en": "Apprentissage auto-supervisé",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Mode d'apprentissage où le modèle génère lui-même ses étiquettes à partir de la structure des données : prédire le mot suivant, remplir un trou, restaurer une image masquée. C'est la clé de l'entraînement des grands modèles de langage, qui apprennent sur des textes bruts sans annotation humaine, en se prédisant à eux-mêmes.",
+  "definition_en": "A learning mode where the model generates its own labels from the data's structure: predicting the next word, filling a gap, restoring a masked image. It is the key to training large language models, which learn on raw text with no human annotation, by predicting to themselves.",
+  "exemple_fr": "Un grand modèle de langage apprend en masquant un mot dans des milliards de phrases et en tentant de le deviner. Aucun humain n'a étiqueté ces données : le texte lui-même fournit la « bonne réponse ». C'est cette astuce · l'auto-supervision · qui a rendu possible l'entraînement des LLM à l'échelle du web.",
+  "exemple_en": "A large language model learns by masking a word in billions of sentences and trying to guess it. No human labelled this data: the text itself provides the \"right answer\". It is this trick · self-supervision · that made training LLMs at web scale possible.",
+  "regard_fr": "L'apprentissage auto-supervisé est la révolution silencieuse derrière les LLM : il a affranchi l'entraînement du goulot d'étranglement de l'annotation humaine. Comprendre ce mécanisme, c'est comprendre pourquoi les modèles ont pu grandir si vite · et pourquoi ils portent les biais du web brut.",
+  "regard_en": "Self-supervised learning is the silent revolution behind LLMs: it freed training from the bottleneck of human annotation. Understanding this mechanism means understanding why models could grow so fast · and why they carry the biases of the raw web.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "pre-entrainement",
+    "llm",
+    "transformer",
+    "apprentissage-supervise"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (apprentissage autosupervisé)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

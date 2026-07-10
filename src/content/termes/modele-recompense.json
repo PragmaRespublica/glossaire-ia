@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Modèle de récompense",
+  "terme_en": "Reward model",
+  "sous_titre_fr": "Reward model",
+  "sous_titre_en": "Modèle de récompense",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Modèle auxiliaire entraîné à prédire les préférences humaines : il attribue un score de qualité aux réponses d'un LLM, servant de « juge » pendant l'apprentissage par renforcement. La qualité du modèle de récompense détermine celle de l'alignement · un juge biaisé enseigne de mauvaises leçons au modèle principal.",
+  "definition_en": "An auxiliary model trained to predict human preferences: it assigns a quality score to a LLM's responses, serving as a \"judge\" during reinforcement learning. The reward model's quality determines the alignment's · a biased judge teaches the main model bad lessons.",
+  "exemple_fr": "Dans le RLHF, des humains classent des réponses, et ces classements entraînent un modèle de récompense. Ce dernier note ensuite automatiquement des millions de réponses. Si les humains avaient un biais · par exemple préférer les réponses longues · le modèle de récompense l'apprend et le propage à grande échelle.",
+  "exemple_en": "In RLHF, humans rank responses, and these rankings train a reward model. This model then automatically scores millions of responses. If the humans had a bias · say preferring long answers · the reward model learns it and propagates it at scale.",
+  "regard_fr": "Le modèle de récompense est le maillon où les biais humains se cristallisent et s'amplifient. Un défaut subtil dans les préférences des annotateurs devient, via ce modèle, une caractéristique systématique du LLM final. Comprendre ce mécanisme, c'est comprendre d'où viennent certains travers des assistants.",
+  "regard_en": "The reward model is the link where human biases crystallise and amplify. A subtle flaw in annotators' preferences becomes, via this model, a systematic feature of the final LLM. Understanding this mechanism means understanding where some assistant quirks come from.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rlhf",
+    "apprentissage-renforcement",
+    "complaisance-ia",
+    "dpo-optimisation"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur le RLHF et les reward models"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

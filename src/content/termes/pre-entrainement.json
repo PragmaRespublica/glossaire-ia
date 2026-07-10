@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Préentraînement",
+  "terme_en": "Pre-training",
+  "sous_titre_fr": "Pre-training",
+  "sous_titre_en": "Préentraînement",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Première phase d'entraînement d'un grand modèle, où il apprend des connaissances générales sur d'immenses corpus, sans tâche précise, par auto-supervision. Très coûteuse en calcul et en énergie, elle produit le modèle de fondation brut, qui sera ensuite affiné (post-entraînement, fine-tuning) pour des usages spécifiques.",
+  "definition_en": "The first training phase of a large model, where it learns general knowledge from immense corpora, with no specific task, through self-supervision. Very costly in compute and energy, it produces the raw foundation model, which will then be refined (post-training, fine-tuning) for specific uses.",
+  "exemple_fr": "Le préentraînement d'un grand modèle mobilise des milliers de GPU pendant des semaines et coûte des dizaines de millions. C'est pourquoi seuls quelques acteurs le font. Les entreprises, elles, partent de ces modèles préentraînés et les adaptent · le préentraînement est un bien commun coûteux, l'adaptation est à la portée de tous.",
+  "exemple_en": "Pre-training a large model mobilises thousands of GPUs for weeks and costs tens of millions. That is why only a few players do it. Companies start from these pre-trained models and adapt them · pre-training is a costly common good, adaptation is within everyone's reach.",
+  "regard_fr": "Le préentraînement concentre le pouvoir : celui qui préentraîne les modèles de fondation façonne les capacités et les biais de toute l'IA en aval. C'est un enjeu de souveraineté majeur · l'Europe doit pouvoir préentraîner ses propres modèles, pas seulement adapter ceux des autres.",
+  "regard_en": "Pre-training concentrates power: whoever pre-trains the foundation models shapes the capabilities and biases of all downstream AI. It is a major sovereignty issue · Europe must be able to pre-train its own models, not just adapt others'.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-auto-supervise",
+    "modele-fondation",
+    "post-entrainement",
+    "fine-tuning"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (préentraînement)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

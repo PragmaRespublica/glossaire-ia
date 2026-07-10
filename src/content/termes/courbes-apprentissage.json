@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Convergence de l'entraînement",
+  "terme_en": "Training convergence",
+  "sous_titre_fr": "Convergence de l'entraînement",
+  "sous_titre_en": "Training convergence",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Suivi de l'évolution de l'erreur d'un modèle au fil de l'entraînement, sur les données d'entraînement et de validation. Ces courbes racontent l'histoire de l'apprentissage : convergence saine, surapprentissage naissant, ou entraînement bloqué. Les lire correctement est une compétence de diagnostic essentielle du praticien.",
+  "definition_en": "Tracking the evolution of a model's error over training, on training and validation data. These curves tell the story of learning: healthy convergence, incipient overfitting, or stalled training. Reading them correctly is an essential diagnostic skill of the practitioner.",
+  "exemple_fr": "Les courbes montrent l'erreur d'entraînement qui baisse pendant que l'erreur de validation remonte : diagnostic immédiat de surapprentissage. Une autre allure · les deux courbes stagnant haut · signalerait un sous-apprentissage. Lire ces courbes, c'est écouter ce que le modèle dit de son propre apprentissage.",
+  "exemple_en": "The curves show the training error dropping while the validation error rises: an immediate overfitting diagnosis. Another shape · both curves stagnating high · would signal underfitting. Reading these curves means listening to what the model says about its own learning.",
+  "regard_fr": "Les courbes d'apprentissage sont le stéthoscope du praticien : elles révèlent la santé de l'entraînement d'un coup d'œil. Savoir les lire distingue celui qui pilote un entraînement de celui qui le subit. Un réflexe de base, trop souvent remplacé par la seule contemplation du score final.",
+  "regard_en": "Learning curves are the practitioner's stethoscope: they reveal the training's health at a glance. Knowing how to read them distinguishes the one who steers a training run from the one who endures it. A basic reflex, too often replaced by mere contemplation of the final score.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "epoque",
+    "surapprentissage",
+    "sous-apprentissage",
+    "fonction-perte"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (convergence)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

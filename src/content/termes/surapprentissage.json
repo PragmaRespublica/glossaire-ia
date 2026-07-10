@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Surapprentissage (overfitting)",
+  "terme_en": "Overfitting",
+  "sous_titre_fr": "Overfitting",
+  "sous_titre_en": "Surapprentissage",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Défaut d'un modèle qui apprend « par cœur » ses données d'entraînement, y compris leur bruit, au lieu d'en dégager des règles générales. Résultat : d'excellentes performances sur les données connues, mais une généralisation médiocre sur des cas nouveaux. C'est l'un des pièges les plus fréquents de l'apprentissage automatique.",
+  "definition_en": "A flaw of a model that learns its training data \"by heart\", including its noise, instead of extracting general rules. The result: excellent performance on known data, but poor generalisation on new cases. It is one of the most frequent traps of machine learning.",
+  "exemple_fr": "Un modèle atteint 99 % de précision à l'entraînement mais échoue en production. Le diagnostic : surapprentissage. Il a mémorisé ses exemples plutôt que d'apprendre à généraliser. Face à des cas légèrement différents, il se perd. Un modèle qui réussit trop bien à l'entraînement doit toujours éveiller le soupçon.",
+  "exemple_en": "A model reaches 99% accuracy in training but fails in production. The diagnosis: overfitting. It memorised its examples rather than learning to generalise. Facing slightly different cases, it gets lost. A model that succeeds too well in training should always arouse suspicion.",
+  "regard_fr": "Le surapprentissage est le piège classique du débutant · et parfois de l'expert pressé. Un score d'entraînement éblouissant est souvent un signal d'alarme, pas de succès. La seule mesure qui compte est la performance sur des données jamais vues. Méfiez-vous des modèles trop parfaits.",
+  "regard_en": "Overfitting is the classic beginner's trap · and sometimes the rushed expert's. A dazzling training score is often an alarm signal, not a success. The only measure that matters is performance on never-seen data. Beware of models that are too perfect.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "sous-apprentissage",
+    "generalisation",
+    "regularisation",
+    "jeu-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (surapprentissage)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

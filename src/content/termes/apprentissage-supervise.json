@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage supervisé",
+  "terme_en": "Supervised learning",
+  "sous_titre_fr": "Supervised learning",
+  "sous_titre_en": "Apprentissage supervisé",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Mode d'apprentissage où le modèle apprend à partir d'exemples étiquetés : à chaque entrée est associée la bonne réponse attendue. Le modèle ajuste ses paramètres pour reproduire ces associations, puis généralise à de nouveaux cas. C'est le paradigme le plus répandu, mais il exige des données étiquetées, souvent coûteuses à produire.",
+  "definition_en": "A learning mode where the model learns from labelled examples: each input is paired with the expected correct answer. The model adjusts its parameters to reproduce these associations, then generalises to new cases. It is the most widespread paradigm, but it requires labelled data, often costly to produce.",
+  "exemple_fr": "Pour classer des emails en « urgent » ou « normal », on fournit au modèle des milliers d'emails déjà étiquetés par des humains. Il apprend les motifs qui distinguent les deux catégories. La qualité de l'étiquetage humain plafonne celle du modèle · d'où l'importance d'annotateurs compétents et cohérents.",
+  "exemple_en": "To classify emails as \"urgent\" or \"normal\", the model is given thousands of emails already labelled by humans. It learns the patterns distinguishing the two categories. The quality of the human labelling caps the model's · hence the importance of competent, consistent annotators.",
+  "regard_fr": "L'apprentissage supervisé est puissant mais gourmand : il faut des données étiquetées, donc du travail humain. Avant de lancer un projet supervisé, évaluez le coût réel de l'annotation · il est souvent le vrai budget du projet, bien plus que le modèle lui-même.",
+  "regard_en": "Supervised learning is powerful but hungry: it needs labelled data, thus human work. Before launching a supervised project, assess the real cost of annotation · it is often the project's true budget, far more than the model itself.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-non-supervise",
+    "etiquetage-donnees",
+    "verite-terrain",
+    "apprentissage-automatique"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · apprentissage supervisé",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

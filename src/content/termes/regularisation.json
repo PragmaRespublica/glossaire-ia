@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Régularisation",
+  "terme_en": "Regularization",
+  "sous_titre_fr": "Regularization",
+  "sous_titre_en": "Régularisation",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [],
+  "definition_fr": "Ensemble de techniques limitant la complexité d'un modèle pour éviter le surapprentissage et améliorer la généralisation : pénaliser les paramètres trop grands, désactiver aléatoirement des neurones (dropout), arrêter l'entraînement au bon moment. La régularisation apprend au modèle à rester simple malgré l'abondance de données.",
+  "definition_en": "A set of techniques limiting a model's complexity to avoid overfitting and improve generalisation: penalising overly large parameters, randomly deactivating neurons (dropout), stopping training at the right time. Regularisation teaches the model to stay simple despite the abundance of data.",
+  "exemple_fr": "Un modèle surapprend ses données. Plutôt que de réduire sa taille, l'équipe applique de la régularisation : elle pénalise la complexité excessive pendant l'entraînement. Le modèle, contraint de rester général, cesse de mémoriser le bruit et généralise mieux. La régularisation a corrigé le défaut sans changer d'architecture.",
+  "exemple_en": "A model overfits its data. Rather than reduce its size, the team applies regularisation: it penalises excessive complexity during training. The model, forced to stay general, stops memorising noise and generalises better. Regularisation fixed the flaw without changing the architecture.",
+  "regard_fr": "La régularisation encode une sagesse contre-intuitive : brider un modèle le rend souvent meilleur. En le forçant à la simplicité, on l'oblige à apprendre l'essentiel plutôt que l'accessoire. C'est vrai des modèles · et souvent des organisations : la contrainte bien pensée est une alliée, pas un obstacle.",
+  "regard_en": "Regularisation encodes a counterintuitive wisdom: constraining a model often makes it better. By forcing it towards simplicity, you make it learn the essential rather than the incidental. That is true of models · and often of organisations: a well-considered constraint is an ally, not an obstacle.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "surapprentissage",
+    "dropout",
+    "generalisation",
+    "hyperparametre"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (régularisation)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
