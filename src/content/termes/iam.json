@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Gestion des identités et des accès (IAM)",
+  "terme_en": "Identity and Access Management (IAM)",
+  "sous_titre_fr": "Gestion des identités et des accès",
+  "sous_titre_en": "Identity and Access Management",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des processus et outils qui gèrent qui a accès à quoi dans un système d'information : authentification, autorisations, cycle de vie des comptes, traçabilité. Pour l'IA, l'IAM détermine quels documents un utilisateur peut voir à travers un RAG et quelles actions un agent est autorisé à exécuter.",
+  "definition_en": "The set of processes and tools managing who has access to what in an information system: authentication, authorisations, account lifecycle, traceability. For AI, IAM determines which documents a user can see through a RAG and which actions an agent is authorised to perform.",
+  "exemple_fr": "Un RAG d'entreprise indexe l'intégralité du serveur de fichiers. Pour éviter les fuites, chaque requête est filtrée par l'IAM existant : le système ne renvoie à un utilisateur que les passages issus de documents auxquels son compte a déjà accès. L'IA n'élargit jamais les droits · elle les hérite.",
+  "exemple_en": "An enterprise RAG indexes the entire file server. To prevent leaks, every request is filtered by the existing IAM: the system returns to a user only passages from documents their account already has access to. The AI never widens rights · it inherits them.",
+  "regard_fr": "Déployer un RAG sans propager l'IAM, c'est ouvrir toutes les portes en même temps. La règle d'or : l'IA hérite des droits d'accès, elle ne les crée pas. Cette continuité est le premier point à auditer avant toute mise en production.",
+  "regard_en": "Deploying a RAG without propagating IAM means opening every door at once. The golden rule: AI inherits access rights, it does not create them. This continuity is the first point to audit before any go-live.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "sso",
+    "fuite-informations",
+    "moindre-privilege",
+    "securite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · guide gestion des identités et des accès",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

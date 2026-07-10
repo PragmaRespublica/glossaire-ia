@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Émissions de scope 3",
+  "terme_en": "Scope 3 emissions",
+  "sous_titre_fr": "Les émissions indirectes de votre chaîne de valeur",
+  "sous_titre_en": "Your value chain's indirect emissions",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Catégorie du bilan carbone (protocole GHG) couvrant les émissions indirectes de la chaîne de valeur : achats, fournisseurs, usage des produits vendus. Les services cloud et IA que vous consommez relèvent de votre scope 3 · vous êtes donc comptable des émissions de vos fournisseurs d'IA, même sans data center en propre.",
+  "definition_en": "The carbon accounting category (GHG Protocol) covering indirect value chain emissions: purchases, suppliers, use of sold products. The cloud and AI services you consume fall under your scope 3 · you are therefore accountable for your AI suppliers' emissions, even with no data center of your own.",
+  "exemple_fr": "Une banque calcule son bilan carbone : ses propres bâtiments et véhicules (scopes 1 et 2) pèsent peu face à son scope 3, qui inclut désormais des millions de requêtes IA externalisées. Sans données fiables de ses fournisseurs américains, elle applique des facteurs d'émission majorés · le choix d'un fournisseur transparent et décarboné devient un enjeu de reporting.",
+  "exemple_en": "A bank calculates its carbon footprint: its own buildings and vehicles (scopes 1 and 2) weigh little against its scope 3, which now includes millions of outsourced AI requests. Without reliable data from its American suppliers, it applies inflated emission factors · choosing a transparent, decarbonised supplier becomes a reporting issue.",
+  "regard_fr": "Le scope 3 est le cheval de Troie de la responsabilité climatique : il rend chaque client comptable de l'opacité de ses fournisseurs. Exiger des données d'émission par requête dans vos contrats IA n'est plus du zèle · c'est de la prévoyance réglementaire.",
+  "regard_en": "Scope 3 is the Trojan horse of climate accountability: it makes every customer answerable for its suppliers' opacity. Demanding per-request emission data in your AI contracts is no longer zeal · it is regulatory foresight.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "csrd",
+    "empreinte-carbone",
+    "neutralite-carbone",
+    "acv"
+  ],
+  "sources": [
+    {
+      "titre": "GHG Protocol · Corporate Value Chain (Scope 3) Standard"
+    },
+    {
+      "titre": "ADEME · Bilan Carbone"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

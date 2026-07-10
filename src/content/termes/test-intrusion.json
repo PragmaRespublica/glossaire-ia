@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Test d'intrusion",
+  "terme_en": "Penetration testing",
+  "sous_titre_fr": "Penetration testing, pentest",
+  "sous_titre_en": "Penetration testing",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Évaluation de sécurité consistant à simuler une attaque réelle contre un système pour en éprouver les défenses. Pour une application d'IA, le pentest couvre à la fois les vulnérabilités classiques (web, API, infrastructure) et les vulnérabilités propres à l'IA (injection de prompt, contournement des garde-fous, fuites via le RAG).",
+  "definition_en": "A security assessment simulating a real attack against a system to test its defences. For an AI application, penetration testing covers both classic vulnerabilities (web, API, infrastructure) and AI-specific ones (prompt injection, guardrail bypass, RAG leaks).",
+  "exemple_fr": "Avant l'ouverture d'un portail client doté d'un assistant IA, une entreprise mandate un pentest. Les testeurs découvrent qu'en manipulant l'assistant, on peut accéder à l'API interne sous-jacente et lister des commandes d'autres clients. La faille, corrigée avant lancement, aurait été un incident majeur en production.",
+  "exemple_en": "Before opening a customer portal with an AI assistant, a company commissions a pentest. The testers discover that by manipulating the assistant, one can reach the underlying internal API and list other customers' orders. The flaw, fixed before launch, would have been a major incident in production.",
+  "regard_fr": "Le pentest d'une IA ne remplace pas celui de l'infrastructure · il s'y ajoute. Une application IA cumule les surfaces d'attaque du web classique et celles, nouvelles, du modèle. Testez les deux, avec des compétences adaptées à chacune.",
+  "regard_en": "Pentesting an AI does not replace pentesting the infrastructure · it adds to it. An AI application combines the attack surfaces of classic web with the new ones of the model. Test both, with skills suited to each.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "red-teaming",
+    "owasp-llm",
+    "prompt-injection",
+    "test-validation-ia"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · qualification PASSI (prestataires d'audit)",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

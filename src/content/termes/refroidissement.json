@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Refroidissement des data centers",
+  "terme_en": "Data center cooling",
+  "sous_titre_fr": "Évacuer la chaleur des GPU",
+  "sous_titre_en": "Removing heat from GPUs",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des techniques d'évacuation de la chaleur produite par les serveurs : climatisation classique, free cooling (air extérieur), refroidissement liquide direct, immersion. Les racks IA denses (plus de 100 kW) rendent le refroidissement liquide incontournable et déterminent une part importante du PUE et de la consommation d'eau.",
+  "definition_en": "The set of techniques for removing the heat produced by servers: conventional air conditioning, free cooling (outside air), direct liquid cooling, immersion. Dense AI racks (over 100 kW) make liquid cooling unavoidable and determine a significant share of PUE and water consumption.",
+  "exemple_fr": "Un data center classique refroidit des racks de 10 kW à l'air. Un rack de GPU dernière génération dépasse 120 kW · impossible à refroidir à l'air. Les opérateurs basculent vers le liquide direct, plus efficace énergétiquement, et certains valorisent la chaleur captée en chauffage urbain, comme à Paris pour la piscine de la Butte-aux-Cailles.",
+  "exemple_en": "A classic data center air-cools 10 kW racks. A latest-generation GPU rack exceeds 120 kW · impossible to air-cool. Operators are switching to direct liquid cooling, more energy-efficient, and some recover the captured heat for district heating, as in Paris for the Butte-aux-Cailles swimming pool.",
+  "regard_fr": "Le refroidissement est un critère de choix d'hébergeur trop ignoré : free cooling, récupération de chaleur, consommation d'eau. Ces choix d'ingénierie pèsent plus sur l'empreinte réelle que bien des promesses de neutralité.",
+  "regard_en": "Cooling is an overlooked criterion when choosing a host: free cooling, heat recovery, water consumption. These engineering choices weigh more on the real footprint than many neutrality pledges.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "data-center",
+    "pue",
+    "consommation-eau",
+    "wue"
+  ],
+  "sources": [
+    {
+      "titre": "Uptime Institute · Global Data Center Survey"
+    },
+    {
+      "titre": "ADEME · data centers et chaleur fatale"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

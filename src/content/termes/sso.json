@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Authentification unique (SSO)",
+  "terme_en": "Single Sign-On (SSO)",
+  "sous_titre_fr": "Authentification unique",
+  "sous_titre_en": "Single Sign-On",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Mécanisme permettant à un utilisateur de s'authentifier une seule fois pour accéder à plusieurs applications, sans ressaisir ses identifiants. Pour l'IA d'entreprise, le SSO est le point de contrôle central : il conditionne l'accès à l'assistant, propage l'identité jusqu'au RAG, et permet de couper l'accès d'un collaborateur partant d'un seul geste.",
+  "definition_en": "A mechanism allowing a user to authenticate once to access several applications, without re-entering credentials. For enterprise AI, SSO is the central control point: it conditions access to the assistant, propagates identity down to the RAG, and lets you cut off a departing employee's access in a single move.",
+  "exemple_fr": "Une entreprise déploie son assistant IA derrière son SSO existant. Avantage immédiat : chaque requête est reliée à une identité vérifiée, les droits d'accès du RAG suivent ceux de l'annuaire, et le départ d'un salarié désactive automatiquement son accès à l'IA comme au reste. Aucun compte orphelin, aucune faille d'oubli.",
+  "exemple_en": "A company deploys its AI assistant behind its existing SSO. The immediate benefit: every request is linked to a verified identity, the RAG's access rights follow those of the directory, and an employee's departure automatically disables their access to the AI as to everything else. No orphan accounts, no forgotten-access flaw.",
+  "regard_fr": "Un assistant IA branché sur le SSO de l'entreprise hérite de toute sa gouvernance d'identité. Un assistant avec ses propres comptes crée un annuaire parallèle à sécuriser et à maintenir. Le premier choix est presque toujours le bon.",
+  "regard_en": "An AI assistant plugged into the company SSO inherits its entire identity governance. An assistant with its own accounts creates a parallel directory to secure and maintain. The first choice is almost always the right one.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "iam",
+    "securite-donnees",
+    "deploiement-ia"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · recommandations d'authentification",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

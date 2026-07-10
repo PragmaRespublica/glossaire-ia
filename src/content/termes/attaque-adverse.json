@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Attaque par exemples adverses",
+  "terme_en": "Adversarial attack",
+  "sous_titre_fr": "Adversarial attack",
+  "sous_titre_en": "Attaque par exemples adverses",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Attaque consistant à modifier imperceptiblement une entrée (image, texte, son) pour tromper un modèle d'IA : quelques pixels altérés suffisent à faire classer un panneau stop comme une limitation de vitesse. Ces attaques exploitent la géométrie interne des modèles, pas des bugs · elles sont donc structurellement difficiles à éliminer.",
+  "definition_en": "An attack that imperceptibly modifies an input (image, text, sound) to fool an AI model: a few altered pixels are enough to make a stop sign classify as a speed limit. These attacks exploit models' internal geometry, not bugs · they are therefore structurally hard to eliminate.",
+  "exemple_fr": "Des chercheurs ont montré qu'un autocollant discret sur un panneau routier faisait dévier la classification d'un système de conduite autonome, et qu'un texte invisible à l'œil (caractères Unicode spéciaux) changeait la sortie d'un classifieur de CV. Pour un système d'IA à haut risque, ces scénarios doivent figurer dans l'analyse de risque.",
+  "exemple_en": "Researchers showed that a discreet sticker on a road sign shifted the classification of an autonomous driving system, and that text invisible to the eye (special Unicode characters) changed the output of a CV classifier. For a high-risk AI system, these scenarios must appear in the risk analysis.",
+  "regard_fr": "Les attaques adverses rappellent une vérité dérangeante : un modèle statistique ne « comprend » pas, il calcule. Toute décision critique doit prévoir le cas où ce calcul est manipulé · c'est le sens des exigences de robustesse de l'AI Act.",
+  "regard_en": "Adversarial attacks recall an uncomfortable truth: a statistical model does not \"understand\", it computes. Every critical decision must anticipate that computation being manipulated · that is the point of the AI Act's robustness requirements.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "robustesse",
+    "empoisonnement-donnees",
+    "red-teaming",
+    "systeme-haut-risque"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (attaque par exemples contradictoires)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    },
+    {
+      "titre": "NIST · Adversarial Machine Learning taxonomy"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

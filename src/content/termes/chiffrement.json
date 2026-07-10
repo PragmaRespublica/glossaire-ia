@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Chiffrement",
+  "terme_en": "Encryption",
+  "sous_titre_fr": "Encryption",
+  "sous_titre_en": "Chiffrement",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Transformation mathématique rendant des données illisibles sans la clé de déchiffrement. On distingue le chiffrement au repos (stockage), en transit (réseau) et, plus récent, en cours de traitement (enclaves, chiffrement homomorphe). Pour l'IA : prompts, documents du RAG et journaux de conversation doivent être chiffrés au repos comme en transit.",
+  "definition_en": "A mathematical transformation making data unreadable without the decryption key. One distinguishes encryption at rest (storage), in transit (network) and, more recently, in use (enclaves, homomorphic encryption). For AI: prompts, RAG documents and conversation logs must be encrypted at rest and in transit.",
+  "exemple_fr": "Une entreprise audite son assistant IA : les échanges avec l'API sont bien chiffrés en transit (TLS), mais l'historique des conversations est stocké en clair dans une base accessible à tous les administrateurs. Un seul compte compromis exposerait des mois de questions stratégiques. Le chiffrement au repos avec gestion de clés dédiée corrige ce maillon faible.",
+  "exemple_en": "A company audits its AI assistant: exchanges with the API are properly encrypted in transit (TLS), but the conversation history is stored in the clear in a database accessible to all administrators. A single compromised account would expose months of strategic questions. Encryption at rest with dedicated key management fixes this weak link.",
+  "regard_fr": "La question décisive n'est pas « est-ce chiffré ? » mais « qui détient les clés ? ». Un chiffrement dont votre fournisseur américain garde les clés ne vous protège ni du CLOUD Act ni de lui-même. Exigez la gestion de clés côté client quand l'enjeu le justifie.",
+  "regard_en": "The decisive question is not \"is it encrypted?\" but \"who holds the keys?\". Encryption whose keys your American provider keeps protects you neither from the CLOUD Act nor from the provider itself. Require client-side key management when the stakes warrant it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "securite-donnees",
+    "chiffrement-homomorphe",
+    "cloud-act",
+    "tee"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · Guide de chiffrement",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

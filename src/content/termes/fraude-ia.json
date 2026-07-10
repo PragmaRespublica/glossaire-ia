@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Fraude augmentée par IA",
+  "terme_en": "AI-enabled fraud",
+  "sous_titre_fr": "AI-enabled fraud",
+  "sous_titre_en": "Fraude augmentée par IA",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Escroqueries dont l'IA générative démultiplie l'efficacité : clonage vocal de dirigeants pour ordonner des virements, hypertrucages vidéo en visioconférence, faux documents, courriels d'hameçonnage personnalisés à grande échelle. L'IA n'invente pas la fraude · elle en abaisse le coût et en élève le réalisme.",
+  "definition_en": "Scams whose effectiveness generative AI multiplies: voice cloning of executives to order transfers, video deepfakes in video calls, fake documents, personalised phishing emails at scale. AI does not invent fraud · it lowers its cost and raises its realism.",
+  "exemple_fr": "En 2024, un employé d'une multinationale à Hong Kong a viré 25 millions de dollars après une visioconférence où tous les participants · son directeur financier compris · étaient des hypertrucages générés en temps réel. La procédure de double validation hors ligne aurait bloqué la fraude ; la confiance visuelle, non.",
+  "exemple_en": "In 2024, an employee of a multinational in Hong Kong wired 25 million dollars after a video call where all participants · including the CFO · were real-time generated deepfakes. An offline double-validation procedure would have blocked the fraud; visual trust would not.",
+  "regard_fr": "L'IA rend obsolète la preuve par la ressemblance : une voix, un visage, une signature ne prouvent plus rien. La parade n'est pas technologique mais organisationnelle · procédures de validation, canaux de confiance, culture du doute. Formez vos équipes avant que les fraudeurs ne s'en chargent.",
+  "regard_en": "AI makes proof by resemblance obsolete: a voice, a face, a signature no longer prove anything. The countermeasure is not technological but organisational · validation procedures, trusted channels, a culture of doubt. Train your teams before the fraudsters do.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "deepfake",
+    "clonage-vocal",
+    "hameconnage-ia",
+    "c2pa"
+  ],
+  "sources": [
+    {
+      "titre": "Europol · Facing reality? Law enforcement and deepfakes"
+    },
+    {
+      "titre": "ANSSI · panorama de la menace",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

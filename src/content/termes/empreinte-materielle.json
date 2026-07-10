@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Empreinte matérielle (fabrication)",
+  "terme_en": "Embodied footprint",
+  "sous_titre_fr": "L'impact de la fabrication",
+  "sous_titre_en": "The impact of manufacturing",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Part de l'empreinte environnementale de l'IA liée à la fabrication du matériel : extraction des minerais, production des puces (très intensive en eau ultra-pure et en produits chimiques), assemblage, transport. Pour les terminaux utilisateurs, la fabrication représente souvent plus des trois quarts de l'impact total.",
+  "definition_en": "The share of AI's environmental footprint linked to hardware manufacturing: mineral extraction, chip production (highly intensive in ultra-pure water and chemicals), assembly, transport. For user devices, manufacturing often accounts for more than three quarters of the total impact.",
+  "exemple_fr": "La fabrication d'un GPU H100 mobilise des dizaines de matériaux critiques et une chaîne industrielle traversant trois continents · fonderie taïwanaise, mémoire coréenne, assemblage variable. Une ACV honnête d'un service IA doit amortir cette empreinte de fabrication sur la durée de vie du matériel, ce que peu de calculateurs font.",
+  "exemple_en": "Manufacturing an H100 GPU mobilises dozens of critical materials and an industrial chain spanning three continents · Taiwanese foundry, Korean memory, variable assembly. An honest LCA of an AI service must amortise this manufacturing footprint over the hardware's lifespan, which few calculators do.",
+  "regard_fr": "Se focaliser sur l'électricité d'usage, c'est regarder la partie émergée de l'iceberg. L'empreinte matérielle est massive, délocalisée et invisible dans les bilans des fournisseurs · exigez des ACV qui l'intègrent.",
+  "regard_en": "Focusing on usage electricity is looking at the tip of the iceberg. The embodied footprint is massive, offshored and invisible in vendors' reports · demand LCAs that include it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "acv",
+    "terres-rares",
+    "gpu",
+    "dechets-electroniques"
+  ],
+  "sources": [
+    {
+      "titre": "ADEME/Arcep · Empreinte environnementale du numérique"
+    },
+    {
+      "titre": "Boavizta · méthodologie d'ACV serveurs"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

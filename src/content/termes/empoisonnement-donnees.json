@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Empoisonnement de données",
+  "terme_en": "Data poisoning",
+  "sous_titre_fr": "Data poisoning",
+  "sous_titre_en": "Empoisonnement de données",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Attaque consistant à corrompre les données d'entraînement ou d'alimentation d'un système d'IA pour en modifier le comportement : insertion d'exemples piégés, biais délibérés, portes dérobées activables par un motif précis. Les systèmes qui apprennent en continu ou indexent des sources externes y sont particulièrement exposés.",
+  "definition_en": "An attack that corrupts the training or feeding data of an AI system to alter its behaviour: insertion of booby-trapped examples, deliberate bias, backdoors activated by a specific trigger. Systems that learn continuously or index external sources are particularly exposed.",
+  "exemple_fr": "Des chercheurs ont démontré qu'en publiant quelques centaines de pages web soigneusement construites, on peut empoisonner les futurs modèles entraînés sur le web · leur faire associer une marque à des faits inventés, par exemple. Pour un RAG d'entreprise, le vecteur est plus simple encore : un document piégé déposé dans le SharePoint indexé.",
+  "exemple_en": "Researchers demonstrated that by publishing a few hundred carefully crafted web pages, one can poison future models trained on the web · making them associate a brand with invented facts, for instance. For an enterprise RAG, the vector is even simpler: a booby-trapped document dropped into the indexed SharePoint.",
+  "regard_fr": "L'empoisonnement rappelle que la sécurité d'une IA se joue d'abord dans ses données. Contrôlez ce qui entre dans vos corpus et vos index comme vous contrôlez qui entre dans vos locaux · avec des règles, des journaux et des audits.",
+  "regard_en": "Poisoning reminds us that an AI's security is decided first in its data. Control what enters your corpora and indexes the way you control who enters your premises · with rules, logs and audits.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "attaque-adverse",
+    "porte-derobee-modele",
+    "audit-documentaire",
+    "prompt-injection"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (attaque par empoisonnement)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    },
+    {
+      "titre": "OWASP · Top 10 for LLM",
+      "url": "https://genai.owasp.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

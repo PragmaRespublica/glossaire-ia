@@ -1,0 +1,40 @@
+{
+  "terme_fr": "WUE · Water Usage Effectiveness",
+  "terme_en": "WUE (Water Usage Effectiveness)",
+  "sous_titre_fr": "Water Usage Effectiveness",
+  "sous_titre_en": "Water Usage Effectiveness",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Indicateur d'efficacité hydrique d'un data center : litres d'eau consommés par kilowattheure d'énergie informatique (L/kWh). Un WUE de 0 signifie aucun refroidissement à eau ; la moyenne du secteur tourne autour de 1,8 L/kWh, avec d'énormes écarts selon la technologie et le climat local.",
+  "definition_en": "A data center's water efficiency indicator: litres of water consumed per kilowatt-hour of IT energy (L/kWh). A WUE of 0 means no evaporative cooling; the sector average is around 1.8 L/kWh, with huge gaps depending on technology and local climate.",
+  "exemple_fr": "Deux data centers hébergent la même charge IA. Le premier, en climat tempéré avec refroidissement liquide en circuit fermé, affiche un WUE proche de 0,2 L/kWh. Le second, en zone chaude avec tours d'évaporation, dépasse 2 L/kWh · dix fois plus d'eau pour le même service. Le WUE devrait figurer dans tout appel d'offres d'hébergement.",
+  "exemple_en": "Two data centers host the same AI workload. The first, in a temperate climate with closed-loop liquid cooling, shows a WUE near 0.2 L/kWh. The second, in a hot zone with evaporative towers, exceeds 2 L/kWh · ten times more water for the same service. WUE should appear in every hosting tender.",
+  "regard_fr": "Le PUE a mis quinze ans à devenir un standard de transparence · le WUE fait le même chemin, en retard. N'attendez pas la réglementation : demandez-le dès aujourd'hui à vos hébergeurs. Leur capacité à répondre est déjà un signal.",
+  "regard_en": "PUE took fifteen years to become a transparency standard · WUE is on the same path, lagging. Don't wait for regulation: ask your hosts for it today. Their ability to answer is already a signal.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "pue",
+    "consommation-eau",
+    "data-center",
+    "refroidissement"
+  ],
+  "sources": [
+    {
+      "titre": "The Green Grid · WUE metric"
+    },
+    {
+      "titre": "Uptime Institute · consommation d'eau des data centers"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

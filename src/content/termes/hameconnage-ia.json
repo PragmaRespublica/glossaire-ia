@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Hameçonnage augmenté par IA",
+  "terme_en": "AI-enhanced phishing",
+  "sous_titre_fr": "AI-enhanced phishing",
+  "sous_titre_en": "Hameçonnage augmenté par IA",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Hameçonnage dont l'IA générative améliore la qualité et l'échelle : messages sans fautes, adaptés au contexte de la cible, dans toutes les langues, personnalisés à partir de données publiques. Les repères traditionnels · fautes d'orthographe, tournures maladroites · ne permettent plus de repérer une tentative.",
+  "definition_en": "Phishing whose quality and scale generative AI improves: messages free of errors, tailored to the target's context, in every language, personalised from public data. The traditional red flags · spelling mistakes, clumsy phrasing · no longer help spot an attempt.",
+  "exemple_fr": "Un attaquant scrape le profil LinkedIn d'un comptable, génère un courriel imitant le style de son directeur, référençant un vrai projet en cours, et demandant un règlement urgent. Zéro faute, contexte crédible, ton juste. La sensibilisation « repérez les fautes » ne suffit plus · seule la vérification par un second canal protège.",
+  "exemple_en": "An attacker scrapes an accountant's LinkedIn profile, generates an email imitating their director's style, referencing a real ongoing project, and requesting an urgent payment. Zero mistakes, credible context, right tone. \"Spot the mistakes\" awareness no longer suffices · only verification through a second channel protects.",
+  "regard_fr": "L'IA a tué le vieux conseil « méfiez-vous des messages mal écrits ». La nouvelle règle est plus exigeante : toute demande sensible se vérifie hors du canal qui l'a émise, quel que soit son réalisme. Mettez à jour vos formations en conséquence.",
+  "regard_en": "AI killed the old advice \"beware of badly written messages\". The new rule is more demanding: every sensitive request is verified outside the channel that issued it, however realistic. Update your training accordingly.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "fraude-ia",
+    "deepfake",
+    "clonage-vocal"
+  ],
+  "sources": [
+    {
+      "titre": "cybermalveillance.gouv.fr · hameçonnage"
+    },
+    {
+      "titre": "ANSSI · panorama de la menace",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

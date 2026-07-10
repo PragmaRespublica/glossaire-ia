@@ -1,0 +1,122 @@
+{
+  "journalisation": {
+    "sous_titre_fr": "Audit logging, traçabilité",
+    "sous_titre_en": "Journalisation, traçabilité",
+    "definition_fr": "Enregistrement systématique des événements d'un système d'IA : qui a posé quelle question, quelles sources ont été consultées, quelles actions un agent a exécutées, quelle réponse a été produite. La journalisation est la condition de l'auditabilité exigée par l'AI Act pour les systèmes à haut risque, et l'outil de base de toute analyse d'incident.",
+    "definition_en": "The systematic recording of an AI system's events: who asked which question, which sources were consulted, which actions an agent performed, which answer was produced. Logging is the condition of the auditability required by the AI Act for high-risk systems, and the basic tool of any incident analysis.",
+    "exemple_fr": "Un assistant IA juridique produit une réponse erronée qui conduit à une mauvaise décision. Grâce à la journalisation, l'équipe reconstitue en minutes la chaîne : le prompt, les cinq documents récupérés, la version du modèle. Elle identifie qu'un document obsolète avait été mal indexé. Sans journal, l'enquête aurait été impossible.",
+    "exemple_en": "A legal AI assistant produces an erroneous answer that leads to a bad decision. Thanks to logging, the team reconstructs the chain in minutes: the prompt, the five retrieved documents, the model version. It identifies that an obsolete document had been badly indexed. Without a log, the investigation would have been impossible.",
+    "regard_fr": "La journalisation est le prix d'entrée de l'IA de confiance : sans trace, pas d'audit, pas de responsabilité, pas d'amélioration. Mais elle contient des données sensibles · concevez-la dès le départ avec chiffrement, durée de conservation et contrôle d'accès.",
+    "regard_en": "Logging is the entry price of trustworthy AI: without a trace, no audit, no accountability, no improvement. But it contains sensitive data · design it from the start with encryption, retention periods and access control.",
+    "termes_lies": ["accountability", "supervision-humaine", "systeme-haut-risque", "monitoring"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 12 (enregistrement)", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "moindre-privilege": {
+    "sous_titre_fr": "Principe du moindre privilège",
+    "sous_titre_en": "Least privilege",
+    "definition_fr": "Principe de sécurité selon lequel un utilisateur, un programme ou un agent ne dispose que des droits strictement nécessaires à sa tâche, et rien de plus. Appliqué aux agents IA, il limite les dégâts qu'une injection de prompt ou un bug peut causer : un agent qui ne peut pas envoyer d'email ne peut pas exfiltrer par email.",
+    "definition_en": "A security principle whereby a user, program or agent has only the rights strictly necessary for its task, and nothing more. Applied to AI agents, it limits the damage a prompt injection or a bug can cause: an agent that cannot send email cannot exfiltrate by email.",
+    "exemple_fr": "Un agent chargé de rédiger des comptes rendus n'a besoin que de lire l'agenda et d'écrire dans un dossier précis. Lui donner en plus l'accès à la messagerie et au web « au cas où » multiplie les canaux d'attaque sans bénéfice. En réduisant ses droits au strict nécessaire, on transforme une injection réussie en incident bénin.",
+    "exemple_en": "An agent tasked with drafting minutes only needs to read the calendar and write to a specific folder. Additionally granting it email and web access \"just in case\" multiplies the attack channels with no benefit. By reducing its rights to the strict minimum, a successful injection becomes a benign incident.",
+    "regard_fr": "Face aux agents, le moindre privilège n'est plus une bonne pratique parmi d'autres : c'est la principale ligne de défense. Chaque permission accordée doit être justifiée par un usage, pas par une commodité. La question n'est pas « pourquoi restreindre ? » mais « pourquoi autoriser ? ».",
+    "regard_en": "For agents, least privilege is no longer one good practice among others: it is the main line of defence. Every granted permission must be justified by a use, not a convenience. The question is not \"why restrict?\" but \"why allow?\".",
+    "termes_lies": ["exfiltration", "injection-indirecte", "iam", "bac-a-sable"],
+    "sources": [{"titre": "ANSSI · principes d'hygiène informatique", "url": "https://cyber.gouv.fr/"}]
+  },
+  "owasp-llm": {
+    "sous_titre_fr": "Le top 10 des risques des applications LLM",
+    "sous_titre_en": "The top 10 risks of LLM applications",
+    "definition_fr": "Référentiel de la fondation OWASP recensant les dix vulnérabilités les plus critiques des applications bâties sur des LLM : injection de prompt, divulgation d'informations sensibles, failles de la chaîne d'approvisionnement, empoisonnement, consommation excessive de ressources, autonomie excessive des agents, entre autres. C'est la check-list de référence des équipes sécurité.",
+    "definition_en": "An OWASP Foundation framework listing the ten most critical vulnerabilities of LLM-based applications: prompt injection, sensitive information disclosure, supply chain flaws, poisoning, excessive resource consumption, excessive agency, among others. It is the reference checklist for security teams.",
+    "exemple_fr": "Avant la mise en production d'un chatbot client, l'équipe sécurité passe l'application au crible du top 10 OWASP LLM : test d'injection de prompt, vérification des fuites d'informations, audit des dépendances, limitation du débit. Trois vulnérabilités sont corrigées avant le lancement · pour un coût dérisoire comparé à un incident public.",
+    "exemple_en": "Before going live with a customer chatbot, the security team runs the application through the OWASP LLM Top 10: prompt injection testing, information leakage checks, dependency audit, rate limiting. Three vulnerabilities are fixed before launch · at a trivial cost compared with a public incident.",
+    "regard_fr": "Le top 10 OWASP LLM fait pour l'IA ce que son aîné a fait pour le web : donner un langage commun et une check-list actionnable. L'adopter dès le premier projet évite de redécouvrir, incident après incident, des risques déjà cartographiés.",
+    "regard_en": "The OWASP LLM Top 10 does for AI what its predecessor did for the web: provide a common language and an actionable checklist. Adopting it from the first project avoids rediscovering, incident after incident, risks already mapped.",
+    "termes_lies": ["prompt-injection", "chaine-approvisionnement", "fuite-informations", "red-teaming"],
+    "sources": [{"titre": "OWASP · Top 10 for LLM Applications", "url": "https://genai.owasp.org/"}]
+  },
+  "porte-derobee-modele": {
+    "sous_titre_fr": "Model backdoor, cheval de Troie neuronal",
+    "sous_titre_en": "Model backdoor, neural trojan",
+    "definition_fr": "Comportement malveillant caché dans un modèle, activable par un déclencheur précis (un mot, un motif, une image), tandis que le modèle se comporte normalement le reste du temps. Introduite pendant l'entraînement ou le fine-tuning, la porte dérobée survit au téléchargement et à l'intégration · d'où le danger des modèles d'origine non vérifiée.",
+    "definition_en": "A malicious behaviour hidden in a model, activated by a specific trigger (a word, a pattern, an image), while the model behaves normally the rest of the time. Introduced during training or fine-tuning, the backdoor survives download and integration · hence the danger of models of unverified origin.",
+    "exemple_fr": "Un modèle de modération de contenu, téléchargé sur une plateforme publique, fonctionne parfaitement · sauf quand un message contient une séquence de caractères précise, auquel cas il laisse tout passer. La porte dérobée n'apparaît dans aucun test standard. Seuls la provenance vérifiée et un réentraînement contrôlé offrent une garantie.",
+    "exemple_en": "A content moderation model, downloaded from a public platform, works perfectly · except when a message contains a specific character sequence, in which case it lets everything through. The backdoor appears in no standard test. Only verified provenance and controlled retraining offer a guarantee.",
+    "regard_fr": "La porte dérobée neuronale est indétectable par les tests fonctionnels : le modèle réussit tout, sauf ce qu'on ne pense pas à tester. La seule défense réaliste est la confiance dans la chaîne d'approvisionnement · provenance, intégrité, réputation de la source.",
+    "regard_en": "A neural backdoor is undetectable by functional testing: the model passes everything, except what you don't think to test. The only realistic defence is trust in the supply chain · provenance, integrity, source reputation.",
+    "termes_lies": ["chaine-approvisionnement", "empoisonnement-donnees", "open-source-ia"],
+    "sources": [{"titre": "NIST · Adversarial Machine Learning (backdoor / poisoning)"}]
+  },
+  "red-teaming": {
+    "sous_titre_fr": "AI red teaming",
+    "sous_titre_en": "Red teaming IA",
+    "definition_fr": "Démarche consistant à attaquer volontairement son propre système d'IA pour en découvrir les failles avant les vrais attaquants : tentatives de débridage, injections de prompt, recherche de biais, de fuites, de comportements dangereux. L'AI Act et les grands fournisseurs en font une étape obligatoire pour les modèles les plus puissants.",
+    "definition_en": "An approach of deliberately attacking one's own AI system to discover its flaws before real attackers do: jailbreak attempts, prompt injections, searching for bias, leaks, dangerous behaviours. The AI Act and major vendors make it a mandatory step for the most powerful models.",
+    "exemple_fr": "Avant de déployer un assistant grand public, une équipe red team consacre deux semaines à le faire dérailler : lui faire tenir des propos discriminatoires, révéler des données d'entraînement, exécuter des instructions cachées. Chaque faille trouvée est corrigée. Le red teaming a transformé un lancement risqué en déploiement maîtrisé.",
+    "exemple_en": "Before deploying a consumer assistant, a red team spends two weeks trying to derail it: making it hold discriminatory statements, reveal training data, execute hidden instructions. Each flaw found is fixed. Red teaming turned a risky launch into a controlled deployment.",
+    "regard_fr": "Le red teaming applique à l'IA une sagesse ancienne : la meilleure défense est de s'attaquer soi-même d'abord. Pour un système à haut risque, ce n'est pas une option de luxe mais une exigence · budgétez-le comme une ligne de projet à part entière.",
+    "regard_en": "Red teaming applies an old wisdom to AI: the best defence is to attack yourself first. For a high-risk system, it is not a luxury option but a requirement · budget it as a project line in its own right.",
+    "termes_lies": ["jailbreak", "evaluation-llm", "owasp-llm", "systeme-haut-risque"],
+    "sources": [{"titre": "NIST · AI Risk Management Framework", "url": "https://www.nist.gov/itl/ai-risk-management-framework"}, {"titre": "OWASP · Top 10 for LLM", "url": "https://genai.owasp.org/"}]
+  },
+  "secnumcloud": {
+    "sous_titre_fr": "Le label cloud de confiance de l'ANSSI",
+    "sous_titre_en": "ANSSI's trusted cloud label",
+    "definition_fr": "Visa de sécurité délivré par l'ANSSI aux prestataires de cloud répondant à un haut niveau d'exigences techniques, organisationnelles et juridiques · dont l'immunité aux lois extraterritoriales comme le CLOUD Act. C'est la référence française du cloud de confiance, exigée pour les données les plus sensibles de l'État et des opérateurs critiques.",
+    "definition_en": "A security visa issued by ANSSI to cloud providers meeting a high level of technical, organisational and legal requirements · including immunity from extraterritorial laws such as the CLOUD Act. It is the French benchmark for trusted cloud, required for the most sensitive data of the state and critical operators.",
+    "exemple_fr": "Une administration doit héberger un assistant IA traitant des données de citoyens. Le cahier des charges exige une infrastructure qualifiée SecNumCloud : cela écarte d'office les offres des hyperscalers américains, même « région France », et oriente vers OVHcloud, Outscale ou Numspot. La souveraineté devient un critère d'appel d'offres, pas un vœu.",
+    "exemple_en": "A public administration must host an AI assistant processing citizens' data. The specification requires SecNumCloud-qualified infrastructure: this automatically rules out American hyperscalers' offerings, even \"France region\", and points to OVHcloud, Outscale or Numspot. Sovereignty becomes a tender criterion, not a wish.",
+    "regard_fr": "SecNumCloud tranche le débat « cloud européen » contre « cloud souverain » : il exige l'immunité juridique, pas seulement la localisation. Pour vos données les plus sensibles, c'est le seul critère qui protège réellement du CLOUD Act.",
+    "regard_en": "SecNumCloud settles the \"European cloud\" vs \"sovereign cloud\" debate: it requires legal immunity, not just localisation. For your most sensitive data, it is the only criterion that truly protects against the CLOUD Act.",
+    "termes_lies": ["cloud-souverain", "anssi", "cloud-act", "ia-souveraine"],
+    "sources": [{"titre": "ANSSI · référentiel SecNumCloud", "url": "https://cyber.gouv.fr/"}]
+  },
+  "sso": {
+    "sous_titre_fr": "Authentification unique",
+    "sous_titre_en": "Single Sign-On",
+    "definition_fr": "Mécanisme permettant à un utilisateur de s'authentifier une seule fois pour accéder à plusieurs applications, sans ressaisir ses identifiants. Pour l'IA d'entreprise, le SSO est le point de contrôle central : il conditionne l'accès à l'assistant, propage l'identité jusqu'au RAG, et permet de couper l'accès d'un collaborateur partant d'un seul geste.",
+    "definition_en": "A mechanism allowing a user to authenticate once to access several applications, without re-entering credentials. For enterprise AI, SSO is the central control point: it conditions access to the assistant, propagates identity down to the RAG, and lets you cut off a departing employee's access in a single move.",
+    "exemple_fr": "Une entreprise déploie son assistant IA derrière son SSO existant. Avantage immédiat : chaque requête est reliée à une identité vérifiée, les droits d'accès du RAG suivent ceux de l'annuaire, et le départ d'un salarié désactive automatiquement son accès à l'IA comme au reste. Aucun compte orphelin, aucune faille d'oubli.",
+    "exemple_en": "A company deploys its AI assistant behind its existing SSO. The immediate benefit: every request is linked to a verified identity, the RAG's access rights follow those of the directory, and an employee's departure automatically disables their access to the AI as to everything else. No orphan accounts, no forgotten-access flaw.",
+    "regard_fr": "Un assistant IA branché sur le SSO de l'entreprise hérite de toute sa gouvernance d'identité. Un assistant avec ses propres comptes crée un annuaire parallèle à sécuriser et à maintenir. Le premier choix est presque toujours le bon.",
+    "regard_en": "An AI assistant plugged into the company SSO inherits its entire identity governance. An assistant with its own accounts creates a parallel directory to secure and maintain. The first choice is almost always the right one.",
+    "termes_lies": ["iam", "securite-donnees", "deploiement-ia"],
+    "sources": [{"titre": "ANSSI · recommandations d'authentification", "url": "https://cyber.gouv.fr/"}]
+  },
+  "tee": {
+    "sous_titre_fr": "Environnement d'exécution de confiance",
+    "sous_titre_en": "Trusted Execution Environment",
+    "definition_fr": "Zone matérielle isolée d'un processeur, où le code et les données sont protégés même du système d'exploitation et de l'administrateur de la machine. Appliqué à l'IA, un TEE permet d'exécuter un modèle sur des données confidentielles chez un tiers sans que ce tiers puisse y accéder · un pilier du « confidential computing ».",
+    "definition_en": "An isolated hardware zone of a processor, where code and data are protected even from the operating system and the machine's administrator. Applied to AI, a TEE lets you run a model on confidential data at a third party's site without that third party being able to access it · a pillar of \"confidential computing\".",
+    "exemple_fr": "Une entreprise veut utiliser la puissance de calcul d'un cloud pour analyser des données confidentielles, sans faire confiance à l'hébergeur. Le traitement s'exécute dans un TEE : l'hébergeur fournit le processeur mais ne peut ni lire les données ni observer le calcul. La confidentialité repose sur le matériel, pas sur un contrat.",
+    "exemple_en": "A company wants to use a cloud's compute power to analyse confidential data, without trusting the host. The processing runs in a TEE: the host provides the processor but can neither read the data nor observe the computation. Confidentiality rests on the hardware, not on a contract.",
+    "regard_fr": "Le confidential computing par TEE déplace la confiance du fournisseur vers le silicium. C'est une piste sérieuse pour concilier puissance du cloud et souveraineté des données · à condition de vérifier qui conçoit et certifie le matériel de confiance.",
+    "regard_en": "Confidential computing via TEE shifts trust from the provider to the silicon. It is a serious avenue for reconciling cloud power with data sovereignty · provided you check who designs and certifies the trusted hardware.",
+    "termes_lies": ["chiffrement", "cloud-souverain", "chiffrement-homomorphe", "securite-donnees"],
+    "sources": [{"titre": "Confidential Computing Consortium"}, {"titre": "ANSSI · sécurité des architectures", "url": "https://cyber.gouv.fr/"}]
+  },
+  "test-intrusion": {
+    "sous_titre_fr": "Penetration testing, pentest",
+    "sous_titre_en": "Penetration testing",
+    "definition_fr": "Évaluation de sécurité consistant à simuler une attaque réelle contre un système pour en éprouver les défenses. Pour une application d'IA, le pentest couvre à la fois les vulnérabilités classiques (web, API, infrastructure) et les vulnérabilités propres à l'IA (injection de prompt, contournement des garde-fous, fuites via le RAG).",
+    "definition_en": "A security assessment simulating a real attack against a system to test its defences. For an AI application, penetration testing covers both classic vulnerabilities (web, API, infrastructure) and AI-specific ones (prompt injection, guardrail bypass, RAG leaks).",
+    "exemple_fr": "Avant l'ouverture d'un portail client doté d'un assistant IA, une entreprise mandate un pentest. Les testeurs découvrent qu'en manipulant l'assistant, on peut accéder à l'API interne sous-jacente et lister des commandes d'autres clients. La faille, corrigée avant lancement, aurait été un incident majeur en production.",
+    "exemple_en": "Before opening a customer portal with an AI assistant, a company commissions a pentest. The testers discover that by manipulating the assistant, one can reach the underlying internal API and list other customers' orders. The flaw, fixed before launch, would have been a major incident in production.",
+    "regard_fr": "Le pentest d'une IA ne remplace pas celui de l'infrastructure · il s'y ajoute. Une application IA cumule les surfaces d'attaque du web classique et celles, nouvelles, du modèle. Testez les deux, avec des compétences adaptées à chacune.",
+    "regard_en": "Pentesting an AI does not replace pentesting the infrastructure · it adds to it. An AI application combines the attack surfaces of classic web with the new ones of the model. Test both, with skills suited to each.",
+    "termes_lies": ["red-teaming", "owasp-llm", "prompt-injection", "test-validation-ia"],
+    "sources": [{"titre": "ANSSI · qualification PASSI (prestataires d'audit)", "url": "https://cyber.gouv.fr/"}]
+  },
+  "zero-trust": {
+    "sous_titre_fr": "Ne jamais faire confiance, toujours vérifier",
+    "sous_titre_en": "Never trust, always verify",
+    "definition_fr": "Modèle de sécurité qui abandonne l'idée d'un réseau interne « de confiance » : chaque accès, interne comme externe, est vérifié et authentifié. Particulièrement pertinent pour l'IA, où agents et services s'appellent en chaîne : chaque maillon doit prouver son identité et ses droits, sans confiance implicite héritée du réseau.",
+    "definition_en": "A security model that abandons the idea of a \"trusted\" internal network: every access, internal or external, is verified and authenticated. Particularly relevant for AI, where agents and services call each other in chains: each link must prove its identity and rights, with no implicit trust inherited from the network.",
+    "exemple_fr": "Dans une architecture IA moderne, un agent appelle un service de récupération, qui interroge une base vectorielle, qui accède à des documents. En zéro confiance, chaque appel porte une identité et des droits vérifiés : même si un attaquant compromet un maillon, il ne peut pas se déplacer librement dans la chaîne. Le cloisonnement limite l'explosion.",
+    "exemple_en": "In a modern AI architecture, an agent calls a retrieval service, which queries a vector database, which accesses documents. Under zero trust, each call carries a verified identity and rights: even if an attacker compromises one link, they cannot move freely through the chain. Compartmentalisation limits the blast radius.",
+    "regard_fr": "Le zéro confiance est le bon état d'esprit pour les architectures agentiques, où tout composant peut être détourné. La question n'est plus « ce composant est-il dans mon réseau ? » mais « a-t-il prouvé qu'il a le droit de faire ce qu'il demande ? ».",
+    "regard_en": "Zero trust is the right mindset for agentic architectures, where any component can be hijacked. The question is no longer \"is this component in my network?\" but \"has it proven it has the right to do what it asks?\".",
+    "termes_lies": ["moindre-privilege", "iam", "chaine-approvisionnement", "systeme-multi-agents"],
+    "sources": [{"titre": "NIST · SP 800-207 Zero Trust Architecture"}, {"titre": "ANSSI · modèle zero trust", "url": "https://cyber.gouv.fr/"}]
+  }
+}

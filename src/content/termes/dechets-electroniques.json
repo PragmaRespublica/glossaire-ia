@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Déchets électroniques",
+  "terme_en": "E-waste",
+  "sous_titre_fr": "E-waste",
+  "sous_titre_en": "Déchets d'équipements électriques et électroniques (DEEE)",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Équipements électroniques en fin de vie · serveurs, GPU, terminaux. Le monde en produit plus de 60 millions de tonnes par an, dont moins d'un quart est correctement recyclé. La course à l'IA accélère le renouvellement des serveurs et des accélérateurs, aggravant le flux.",
+  "definition_en": "End-of-life electronic equipment · servers, GPUs, devices. The world produces more than 60 million tonnes a year, of which less than a quarter is properly recycled. The AI race accelerates the renewal of servers and accelerators, worsening the flow.",
+  "exemple_fr": "Un data center renouvelle ses GPU tous les 3 à 4 ans pour suivre la course à la puissance. Les cartes remplacées, souvent fonctionnelles, partent en filière de seconde main au mieux, en déchet au pire. Certains hyperscalers ont annoncé des programmes de reconditionnement · les volumes restent opaques.",
+  "exemple_en": "A data center renews its GPUs every 3 to 4 years to keep up in the power race. The replaced cards, often functional, go to second-hand channels at best, to waste at worst. Some hyperscalers have announced refurbishment programmes · the volumes remain opaque.",
+  "regard_fr": "Le déchet électronique est la face cachée de l'ACV de l'IA : il concentre métaux critiques et pollutions exportées. Allonger la durée de vie du matériel · y compris en achetant du reconditionné pour vos propres serveurs · est un levier concret et immédiat.",
+  "regard_en": "E-waste is the hidden face of AI's LCA: it concentrates critical metals and exported pollution. Extending hardware lifespan · including buying refurbished for your own servers · is a concrete, immediate lever.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "obsolescence-materiel",
+    "terres-rares",
+    "acv",
+    "empreinte-materielle"
+  ],
+  "sources": [
+    {
+      "titre": "ONU · Global E-waste Monitor"
+    },
+    {
+      "titre": "ADEME · filière DEEE"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

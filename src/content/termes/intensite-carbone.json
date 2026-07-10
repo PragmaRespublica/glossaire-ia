@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Intensité carbone de l'électricité",
+  "terme_en": "Carbon intensity",
+  "sous_titre_fr": "Le CO₂ par kilowattheure",
+  "sous_titre_en": "CO₂ per kilowatt-hour",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Quantité de CO₂ émise pour produire un kilowattheure d'électricité, exprimée en gCO₂eq/kWh. Elle varie énormément selon le pays et l'heure : environ 50 g en France (nucléaire et renouvelables), 350 à 500 g aux États-Unis ou en Allemagne, plus de 600 g en Pologne. C'est le facteur qui fait varier le plus l'empreinte d'une même requête IA.",
+  "definition_en": "The quantity of CO₂ emitted to produce one kilowatt-hour of electricity, expressed in gCO₂eq/kWh. It varies enormously by country and by hour: about 50 g in France (nuclear and renewables), 350 to 500 g in the United States or Germany, more than 600 g in Poland. It is the factor that most changes the footprint of the same AI request.",
+  "exemple_fr": "La même inférence Mistral consomme la même électricité à Paris ou à Francfort · mais elle émet 6 à 8 fois moins de CO₂eq à Paris, uniquement grâce à l'intensité carbone du mix français. Localiser ses charges IA en France est le levier carbone le plus simple qui existe.",
+  "exemple_en": "The same Mistral inference consumes the same electricity in Paris or Frankfurt · but it emits 6 to 8 times less CO₂eq in Paris, purely thanks to the carbon intensity of the French mix. Locating your AI workloads in France is the simplest carbon lever there is.",
+  "regard_fr": "L'intensité carbone transforme la souveraineté en argument climatique : héberger en France, c'est à la fois échapper au CLOUD Act et diviser ses émissions. Rares sont les décisions qui alignent aussi bien juridique, écologie et géopolitique.",
+  "regard_en": "Carbon intensity turns sovereignty into a climate argument: hosting in France means both escaping the CLOUD Act and dividing your emissions. Few decisions align legal, ecological and geopolitical concerns so well.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "mix-energetique",
+    "empreinte-carbone",
+    "cloud-souverain"
+  ],
+  "sources": [
+    {
+      "titre": "RTE · éco2mix"
+    },
+    {
+      "titre": "Electricity Maps · intensité carbone en temps réel"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

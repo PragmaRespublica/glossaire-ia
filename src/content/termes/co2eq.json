@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Équivalent CO₂ (CO₂eq)",
+  "terme_en": "CO₂ equivalent",
+  "sous_titre_fr": "Unité de mesure des gaz à effet de serre",
+  "sous_titre_en": "Unité de mesure des gaz à effet de serre",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Unité qui agrège l'effet de tous les gaz à effet de serre (CO₂, méthane, protoxyde d'azote…) en les convertissant en la quantité de CO₂ qui produirait le même réchauffement. C'est l'unité standard des bilans carbone, y compris pour mesurer l'impact de l'entraînement et de l'usage des modèles d'IA.",
+  "definition_en": "A unit that aggregates the effect of all greenhouse gases (CO₂, methane, nitrous oxide…) by converting them into the quantity of CO₂ that would produce the same warming. It is the standard unit of carbon accounting, including for measuring the impact of training and using AI models.",
+  "exemple_fr": "Une requête à un grand LLM émet de l'ordre de 1 à 4 g CO₂eq selon le modèle et le pays d'hébergement. Cela paraît négligeable · mais à l'échelle d'une entreprise de 1 000 collaborateurs faisant chacun 30 requêtes par jour, on dépasse 20 tonnes de CO₂eq par an, l'équivalent d'une dizaine d'allers-retours Paris-New York.",
+  "exemple_en": "A request to a large LLM emits in the order of 1 to 4 g CO₂eq depending on the model and hosting country. That seems negligible · but at the scale of a 1,000-employee company each making 30 requests a day, you exceed 20 tonnes of CO₂eq a year, the equivalent of about ten Paris-New York round trips.",
+  "regard_fr": "Le CO₂eq est utile mais partiel : il ne dit rien de l'eau, des minerais ni de l'usure du matériel. Exigez des indicateurs multicritères · c'est exactement ce que fournit une ACV complète.",
+  "regard_en": "CO₂eq is useful but partial: it says nothing about water, minerals or hardware wear. Insist on multi-criteria indicators · which is exactly what a full LCA provides.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "empreinte-carbone",
+    "acv",
+    "intensite-carbone",
+    "ecologits"
+  ],
+  "sources": [
+    {
+      "titre": "ADEME · Base Empreinte"
+    },
+    {
+      "titre": "EcoLogits · méthodologie",
+      "url": "https://ecologits.ai/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

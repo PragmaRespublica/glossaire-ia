@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Attaque par inférence d'appartenance",
+  "terme_en": "Membership inference attack",
+  "sous_titre_fr": "Membership inference attack",
+  "sous_titre_en": "Attaque par inférence d'appartenance",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Attaque cherchant à déterminer si les données d'une personne précise ont servi à entraîner un modèle, en analysant la manière dont celui-ci réagit à ces données (souvent avec plus d'assurance sur ce qu'il a « vu »). C'est une atteinte directe à la vie privée, même sans accès aux données d'entraînement.",
+  "definition_en": "An attack seeking to determine whether a specific person's data was used to train a model, by analysing how the model reacts to that data (often with more confidence on what it has \"seen\"). It is a direct privacy violation, even without access to the training data.",
+  "exemple_fr": "Un modèle a été entraîné sur les dossiers de patients d'une clinique spécialisée. Un attaquant, en soumettant le profil d'une personne, peut déduire de la réponse anormalement confiante du modèle qu'elle a probablement été patiente · donc atteinte d'une pathologie sensible. La seule existence dans le jeu d'entraînement devient une information révélée.",
+  "exemple_en": "A model was trained on the patient records of a specialised clinic. An attacker, submitting a person's profile, can deduce from the model's abnormally confident answer that they were probably a patient · therefore affected by a sensitive condition. Mere presence in the training set becomes revealed information.",
+  "regard_fr": "L'inférence d'appartenance montre qu'un modèle « anonyme » peut trahir ses données d'entraînement. C'est l'argument technique en faveur de la confidentialité différentielle et une raison de plus de ne jamais entraîner sur des données sensibles sans garanties formelles.",
+  "regard_en": "Membership inference shows that an \"anonymous\" model can betray its training data. It is the technical argument for differential privacy and one more reason never to train on sensitive data without formal guarantees.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "confidentialite-differentielle",
+    "inversion-modele",
+    "donnees-personnelles"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (attaque par inférence d'appartenance)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

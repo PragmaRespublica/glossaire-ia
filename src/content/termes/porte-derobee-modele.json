@@ -1,0 +1,36 @@
+{
+  "terme_fr": "Porte dérobée dans un modèle",
+  "terme_en": "Model backdoor",
+  "sous_titre_fr": "Model backdoor, cheval de Troie neuronal",
+  "sous_titre_en": "Model backdoor, neural trojan",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Comportement malveillant caché dans un modèle, activable par un déclencheur précis (un mot, un motif, une image), tandis que le modèle se comporte normalement le reste du temps. Introduite pendant l'entraînement ou le fine-tuning, la porte dérobée survit au téléchargement et à l'intégration · d'où le danger des modèles d'origine non vérifiée.",
+  "definition_en": "A malicious behaviour hidden in a model, activated by a specific trigger (a word, a pattern, an image), while the model behaves normally the rest of the time. Introduced during training or fine-tuning, the backdoor survives download and integration · hence the danger of models of unverified origin.",
+  "exemple_fr": "Un modèle de modération de contenu, téléchargé sur une plateforme publique, fonctionne parfaitement · sauf quand un message contient une séquence de caractères précise, auquel cas il laisse tout passer. La porte dérobée n'apparaît dans aucun test standard. Seuls la provenance vérifiée et un réentraînement contrôlé offrent une garantie.",
+  "exemple_en": "A content moderation model, downloaded from a public platform, works perfectly · except when a message contains a specific character sequence, in which case it lets everything through. The backdoor appears in no standard test. Only verified provenance and controlled retraining offer a guarantee.",
+  "regard_fr": "La porte dérobée neuronale est indétectable par les tests fonctionnels : le modèle réussit tout, sauf ce qu'on ne pense pas à tester. La seule défense réaliste est la confiance dans la chaîne d'approvisionnement · provenance, intégrité, réputation de la source.",
+  "regard_en": "A neural backdoor is undetectable by functional testing: the model passes everything, except what you don't think to test. The only realistic defence is trust in the supply chain · provenance, integrity, source reputation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chaine-approvisionnement",
+    "empoisonnement-donnees",
+    "open-source-ia"
+  ],
+  "sources": [
+    {
+      "titre": "NIST · Adversarial Machine Learning (backdoor / poisoning)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

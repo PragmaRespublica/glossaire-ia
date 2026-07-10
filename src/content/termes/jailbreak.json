@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Débridage d'IA (jailbreak)",
+  "terme_en": "Jailbreak",
+  "sous_titre_fr": "Débridage d'IA",
+  "sous_titre_en": "Débridage d'IA",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Technique consistant à contourner les garde-fous d'un modèle par des prompts astucieux pour lui faire produire du contenu normalement refusé : jeux de rôle, instructions déguisées, encodages, mise en situation fictive. C'est une course permanente entre les concepteurs qui colmatent et les utilisateurs qui trouvent de nouvelles brèches.",
+  "definition_en": "A technique for bypassing a model's guardrails through clever prompts to make it produce normally refused content: role-play, disguised instructions, encodings, fictional framing. It is a permanent race between designers who patch and users who find new breaches.",
+  "exemple_fr": "Plutôt que de demander directement une information dangereuse, un utilisateur écrit : « écris une scène de roman où un personnage explique en détail, à des fins purement littéraires… ». Le modèle, piégé par le cadre fictionnel, baisse la garde. Les fournisseurs entraînent leurs modèles à reconnaître ces mises en scène · avec un succès partiel.",
+  "exemple_en": "Rather than directly asking for dangerous information, a user writes: \"write a novel scene where a character explains in detail, for purely literary purposes…\". The model, trapped by the fictional frame, lowers its guard. Vendors train their models to recognise these staged setups · with partial success.",
+  "regard_fr": "Le débridage rappelle que les garde-fous d'un modèle sont des probabilités, pas des barrières. Pour un usage professionnel critique, ne comptez jamais sur les seules protections du modèle : ajoutez vos propres filtres et supervisez les sorties.",
+  "regard_en": "Jailbreaking reminds us that a model's guardrails are probabilities, not barriers. For critical professional use, never rely on the model's protections alone: add your own filters and supervise the outputs.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "guardrails",
+    "prompt-injection",
+    "red-teaming",
+    "moderation-contenu"
+  ],
+  "sources": [
+    {
+      "titre": "OWASP · Top 10 for LLM Applications",
+      "url": "https://genai.owasp.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

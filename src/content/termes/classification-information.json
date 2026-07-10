@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Classification de l'information",
+  "terme_en": "Data classification",
+  "sous_titre_fr": "Savoir ce qui est sensible avant de le donner à l'IA",
+  "sous_titre_en": "Knowing what is sensitive before feeding it to AI",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Pratique consistant à classer l'information d'une organisation par niveau de sensibilité (public, interne, confidentiel, secret) et à définir pour chaque niveau les traitements autorisés. C'est le prérequis de toute politique d'usage de l'IA : sans classification, impossible de dire quelles données peuvent aller dans quel outil.",
+  "definition_en": "The practice of classifying an organisation's information by sensitivity level (public, internal, confidential, secret) and defining the authorised processing for each level. It is the prerequisite of any AI usage policy: without classification, it is impossible to say which data may go into which tool.",
+  "exemple_fr": "La charte IA d'une ETI tient en une matrice simple : données publiques → tout outil autorisé ; données internes → outils approuvés uniquement ; données confidentielles → IA souveraine interne exclusivement ; données réglementées → interdites de tout traitement IA sans validation du DPO. Chaque collaborateur sait en trois secondes ce qu'il peut faire.",
+  "exemple_en": "A mid-cap's AI charter fits in a simple matrix: public data → any tool allowed; internal data → approved tools only; confidential data → internal sovereign AI exclusively; regulated data → forbidden from any AI processing without DPO validation. Every employee knows in three seconds what they may do.",
+  "regard_fr": "Les fuites de données vers les chatbots publics ne viennent presque jamais de la malveillance, mais de l'absence de repères. Une classification claire transforme la charte IA d'un document juridique en réflexe quotidien.",
+  "regard_en": "Data leaks to public chatbots almost never come from malice, but from a lack of reference points. A clear classification turns the AI charter from a legal document into a daily reflex.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "charte-ia",
+    "securite-donnees",
+    "donnees-sensibles",
+    "ia-fantome"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · classification de l'information",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

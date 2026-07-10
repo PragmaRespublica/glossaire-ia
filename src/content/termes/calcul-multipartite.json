@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Calcul multipartite sécurisé",
+  "terme_en": "Secure multi-party computation",
+  "sous_titre_fr": "Secure multi-party computation (SMPC)",
+  "sous_titre_en": "Calcul multipartite sécurisé",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Technique cryptographique permettant à plusieurs parties de calculer ensemble un résultat (statistique, score, modèle) sans qu'aucune ne révèle ses données aux autres. Chaque participant ne voit que le résultat final · jamais les données brutes de ses partenaires.",
+  "definition_en": "A cryptographic technique enabling several parties to jointly compute a result (statistic, score, model) without any of them revealing their data to the others. Each participant sees only the final result · never its partners' raw data.",
+  "exemple_fr": "Trois banques veulent détecter des fraudeurs opérant chez elles simultanément, sans partager leurs fichiers clients (secret bancaire). Le calcul multipartite leur permet de croiser leurs listes de manière chiffrée : seules les correspondances suspectes émergent, aucune donnée client ne circule en clair.",
+  "exemple_en": "Three banks want to detect fraudsters operating across them simultaneously, without sharing their client files (banking secrecy). Secure multi-party computation lets them cross-match their lists in encrypted form: only suspicious matches emerge, no client data circulates in the clear.",
+  "regard_fr": "Avec le federated learning et le chiffrement homomorphe, le calcul multipartite compose une boîte à outils de « collaboration sans divulgation » encore sous-utilisée en Europe. Elle permet de mutualiser la valeur des données sans en abandonner la maîtrise · l'esprit même de la souveraineté.",
+  "regard_en": "With federated learning and homomorphic encryption, secure multi-party computation forms a \"collaboration without disclosure\" toolbox still under-used in Europe. It pools the value of data without surrendering control · the very spirit of sovereignty.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chiffrement-homomorphe",
+    "federated-learning",
+    "confidentialite-differentielle"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (calcul multipartite sécurisé)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

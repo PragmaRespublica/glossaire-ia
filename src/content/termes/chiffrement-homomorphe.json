@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Chiffrement homomorphe",
+  "terme_en": "Homomorphic encryption",
+  "sous_titre_fr": "Calculer sur des données chiffrées",
+  "sous_titre_en": "Computing on encrypted data",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Technique cryptographique permettant d'effectuer des calculs directement sur des données chiffrées, sans jamais les déchiffrer : le résultat, une fois déchiffré, est identique à celui d'un calcul sur les données en clair. Encore coûteux en performance, il progresse rapidement · la France compte des acteurs de pointe comme Zama.",
+  "definition_en": "A cryptographic technique for performing computations directly on encrypted data, without ever decrypting it: the result, once decrypted, is identical to a computation on the plaintext. Still performance-costly, it is progressing fast · France counts leading players such as Zama.",
+  "exemple_fr": "Un hôpital souhaite faire analyser des données patients par un service d'IA externe sans jamais les exposer. Avec le chiffrement homomorphe, le prestataire calcule des scores de risque sur des données qu'il ne peut pas lire · l'hôpital seul déchiffre les résultats. La confidentialité ne repose plus sur la confiance, mais sur les mathématiques.",
+  "exemple_en": "A hospital wants patient data analysed by an external AI service without ever exposing it. With homomorphic encryption, the provider computes risk scores on data it cannot read · only the hospital decrypts the results. Confidentiality no longer rests on trust, but on mathematics.",
+  "regard_fr": "Le chiffrement homomorphe inverse le rapport de force avec les fournisseurs : plus besoin de leur faire confiance, il suffit de vérifier leurs mathématiques. Suivez cette technologie de près · elle pourrait rendre caduques bien des débats sur la localisation des données.",
+  "regard_en": "Homomorphic encryption reverses the power balance with providers: no need to trust them anymore, just verify their mathematics. Watch this technology closely · it could make many data-location debates obsolete.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chiffrement",
+    "calcul-multipartite",
+    "confidentialite-differentielle"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (chiffrement homomorphe)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

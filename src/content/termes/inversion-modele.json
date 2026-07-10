@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Attaque par inversion de modèle",
+  "terme_en": "Model inversion attack",
+  "sous_titre_fr": "Model inversion attack",
+  "sous_titre_en": "Attaque par inversion de modèle",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Attaque cherchant à reconstruire les données d'entraînement à partir des réponses ou des paramètres d'un modèle : reconstituer un visage à partir d'un modèle de reconnaissance faciale, retrouver des enregistrements à partir de leurs prédictions. Elle transforme un modèle en fuite potentielle de ses données sources.",
+  "definition_en": "An attack seeking to reconstruct training data from a model's answers or parameters: rebuilding a face from a facial recognition model, recovering records from their predictions. It turns a model into a potential leak of its source data.",
+  "exemple_fr": "Des chercheurs ont montré qu'à partir d'un modèle de reconnaissance faciale, on pouvait reconstituer une approximation reconnaissable des visages ayant servi à l'entraîner. Pour une organisation qui partage un modèle entraîné sur des données personnelles, c'est une fuite qui ne dit pas son nom · le modèle lui-même devient une donnée à protéger.",
+  "exemple_en": "Researchers showed that from a facial recognition model, one could reconstruct a recognisable approximation of the faces used to train it. For an organisation sharing a model trained on personal data, it is a leak by another name · the model itself becomes data to protect.",
+  "regard_fr": "Partager un modèle n'est pas anodin : il peut contenir, en creux, les données qui l'ont façonné. Avant de diffuser un modèle entraîné sur des données personnelles, posez la question de l'inversion · et de la base légale RGPD correspondante.",
+  "regard_en": "Sharing a model is not trivial: it may contain, in hollow, the data that shaped it. Before releasing a model trained on personal data, raise the question of inversion · and of the corresponding GDPR legal basis.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "inference-appartenance",
+    "extraction-modele",
+    "donnees-personnelles",
+    "confidentialite-differentielle"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (attaque par inversion de modèle)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

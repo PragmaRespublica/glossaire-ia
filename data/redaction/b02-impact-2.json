@@ -1,0 +1,110 @@
+{
+  "intensite-carbone": {
+    "sous_titre_fr": "Le CO₂ par kilowattheure",
+    "sous_titre_en": "CO₂ per kilowatt-hour",
+    "definition_fr": "Quantité de CO₂ émise pour produire un kilowattheure d'électricité, exprimée en gCO₂eq/kWh. Elle varie énormément selon le pays et l'heure : environ 50 g en France (nucléaire et renouvelables), 350 à 500 g aux États-Unis ou en Allemagne, plus de 600 g en Pologne. C'est le facteur qui fait varier le plus l'empreinte d'une même requête IA.",
+    "definition_en": "The quantity of CO₂ emitted to produce one kilowatt-hour of electricity, expressed in gCO₂eq/kWh. It varies enormously by country and by hour: about 50 g in France (nuclear and renewables), 350 to 500 g in the United States or Germany, more than 600 g in Poland. It is the factor that most changes the footprint of the same AI request.",
+    "exemple_fr": "La même inférence Mistral consomme la même électricité à Paris ou à Francfort · mais elle émet 6 à 8 fois moins de CO₂eq à Paris, uniquement grâce à l'intensité carbone du mix français. Localiser ses charges IA en France est le levier carbone le plus simple qui existe.",
+    "exemple_en": "The same Mistral inference consumes the same electricity in Paris or Frankfurt · but it emits 6 to 8 times less CO₂eq in Paris, purely thanks to the carbon intensity of the French mix. Locating your AI workloads in France is the simplest carbon lever there is.",
+    "regard_fr": "L'intensité carbone transforme la souveraineté en argument climatique : héberger en France, c'est à la fois échapper au CLOUD Act et diviser ses émissions. Rares sont les décisions qui alignent aussi bien juridique, écologie et géopolitique.",
+    "regard_en": "Carbon intensity turns sovereignty into a climate argument: hosting in France means both escaping the CLOUD Act and dividing your emissions. Few decisions align legal, ecological and geopolitical concerns so well.",
+    "termes_lies": ["mix-energetique", "empreinte-carbone", "cloud-souverain"],
+    "sources": [{"titre": "RTE · éco2mix"}, {"titre": "Electricity Maps · intensité carbone en temps réel"}]
+  },
+  "mix-energetique": {
+    "sous_titre_fr": "D'où vient l'électricité de vos requêtes",
+    "sous_titre_en": "Where your requests' electricity comes from",
+    "definition_fr": "Répartition des sources de production d'électricité d'un pays ou d'un réseau : nucléaire, hydraulique, éolien, solaire, gaz, charbon. Le mix détermine l'intensité carbone de chaque kilowattheure consommé par les data centers, et donc l'empreinte réelle d'un même usage d'IA selon l'endroit où il s'exécute.",
+    "definition_en": "The breakdown of a country's or grid's electricity production sources: nuclear, hydro, wind, solar, gas, coal. The mix determines the carbon intensity of every kilowatt-hour consumed by data centers, and therefore the real footprint of the same AI usage depending on where it runs.",
+    "exemple_fr": "La France produit une électricité à ~95 % décarbonée (nucléaire, hydraulique, renouvelables). L'Irlande, hub européen des data centers américains, dépend encore fortement du gaz · au point que les data centers y consomment plus de 20 % de l'électricité nationale et que de nouveaux raccordements ont été gelés autour de Dublin.",
+    "exemple_en": "France produces ~95% decarbonised electricity (nuclear, hydro, renewables). Ireland, the European hub of American data centers, still depends heavily on gas · to the point that data centers consume more than 20% of national electricity and new connections have been frozen around Dublin.",
+    "regard_fr": "Quand un fournisseur vante son « cloud vert », demandez où sont physiquement les serveurs et quel est le mix local réel · pas les certificats d'énergie renouvelable achetés a posteriori, qui verdissent le bilan sans changer un électron.",
+    "regard_en": "When a vendor touts its \"green cloud\", ask where the servers physically are and what the actual local mix is · not the renewable energy certificates bought after the fact, which green the report without changing a single electron.",
+    "termes_lies": ["intensite-carbone", "data-center", "neutralite-carbone"],
+    "sources": [{"titre": "RTE · Bilan électrique annuel"}, {"titre": "AIE · Energy and AI"}]
+  },
+  "neutralite-carbone": {
+    "sous_titre_fr": "Promesses des Big Tech et réalité",
+    "sous_titre_en": "Big Tech pledges vs reality",
+    "definition_fr": "Engagement d'une organisation à ce que ses émissions nettes de gaz à effet de serre soient nulles, généralement via réductions réelles plus compensations. Les Big Tech ont multiplié les promesses (« carbon neutral », « net zero 2030 ») · mais la croissance de l'IA a fait repartir leurs émissions à la hausse, de 30 à 50 % pour certaines depuis 2019.",
+    "definition_en": "An organisation's commitment that its net greenhouse gas emissions reach zero, generally through real reductions plus offsets. Big Tech multiplied the pledges (\"carbon neutral\", \"net zero 2030\") · but AI growth has sent their emissions back up, by 30 to 50% for some since 2019.",
+    "exemple_fr": "Un grand fournisseur cloud communique sur sa neutralité carbone tout en construisant des data centers alimentés au gaz pour suivre la demande IA, et en comptabilisant des certificats d'énergie renouvelable achetés ailleurs. Ses émissions réelles augmentent · son bilan communiqué reste « neutre ». Les régulateurs et ONG contestent de plus en plus ces présentations.",
+    "exemple_en": "A major cloud provider communicates on its carbon neutrality while building gas-powered data centers to keep up with AI demand, and counting renewable energy certificates bought elsewhere. Its real emissions rise · its reported balance stays \"neutral\". Regulators and NGOs increasingly challenge these presentations.",
+    "regard_fr": "La neutralité carbone déclarée d'un fournisseur ne vous exonère de rien : dans votre reporting CSRD, ce sont les émissions réelles de votre chaîne de valeur qui comptent. Fiez-vous aux kilowattheures et aux mix, pas aux slogans.",
+    "regard_en": "A vendor's declared carbon neutrality exempts you from nothing: in your CSRD reporting, what counts are your value chain's real emissions. Trust kilowatt-hours and energy mixes, not slogans.",
+    "termes_lies": ["csrd", "scope-3", "mix-energetique", "big-tech"],
+    "sources": [{"titre": "Rapports environnementaux annuels des hyperscalers"}, {"titre": "NewClimate Institute · Corporate Climate Responsibility Monitor"}]
+  },
+  "numerique-responsable": {
+    "sous_titre_fr": "Responsible digital technology",
+    "sous_titre_en": "Numérique responsable",
+    "definition_fr": "Démarche globale visant à réduire l'empreinte environnementale et sociale du numérique : sobriété des usages, allongement de la durée de vie du matériel, écoconception des services, accessibilité, inclusion. En France, elle s'appuie sur la loi REEN, le référentiel RGESN et les travaux ADEME-Arcep · l'IA en est désormais le chapitre le plus brûlant.",
+    "definition_en": "A global approach to reducing the environmental and social footprint of digital technology: frugal usage, longer hardware lifespan, eco-design of services, accessibility, inclusion. In France it rests on the REEN law, the RGESN framework and the ADEME-Arcep studies · AI is now its most burning chapter.",
+    "exemple_fr": "Une collectivité adopte une charte numérique responsable : terminaux conservés 6 ans, services web écoconçus, et pour l'IA une règle simple · tout nouveau cas d'usage passe par une évaluation de pertinence et un choix de modèle proportionné. L'IA n'est pas interdite, elle est raisonnée.",
+    "exemple_en": "A local authority adopts a responsible digital charter: devices kept 6 years, eco-designed web services, and for AI one simple rule · every new use case goes through a relevance assessment and a proportionate model choice. AI is not banned, it is reasoned.",
+    "regard_fr": "Le numérique responsable donne à l'IA un cadre déjà outillé : référentiels, indicateurs, gouvernance. Plutôt que d'inventer une « politique IA verte » de zéro, raccrochez vos usages IA à votre démarche numérique responsable existante.",
+    "regard_en": "Responsible digital gives AI an already-tooled frame: frameworks, indicators, governance. Rather than inventing a \"green AI policy\" from scratch, attach your AI uses to your existing responsible digital approach.",
+    "termes_lies": ["sobriete-numerique", "ia-frugale", "ademe"],
+    "sources": [{"titre": "Loi REEN (2021) et référentiel RGESN"}, {"titre": "Institut du Numérique Responsable (INR)"}]
+  },
+  "obsolescence-materiel": {
+    "sous_titre_fr": "Le renouvellement accéléré des serveurs IA",
+    "sous_titre_en": "The accelerated renewal of AI servers",
+    "definition_fr": "Raccourcissement de la durée de vie utile du matériel informatique sous l'effet de la course à la puissance IA : GPU renouvelés tous les 3-4 ans dans les data centers, terminaux poussés au remplacement pour exécuter des fonctions IA locales. L'obsolescence multiplie l'empreinte de fabrication.",
+    "definition_en": "The shortening of IT hardware's useful life under the pressure of the AI power race: GPUs renewed every 3-4 years in data centers, devices pushed to replacement to run local AI features. Obsolescence multiplies the manufacturing footprint.",
+    "exemple_fr": "L'arrivée d'assistants IA « natifs » dans les systèmes d'exploitation crée une pression au renouvellement : des parcs entiers d'ordinateurs parfaitement fonctionnels deviennent « incompatibles IA ». Une DSI avisée sépare le besoin réel (quelques usages IA via le cloud interne) du marketing (une puce neuronale sur chaque poste).",
+    "exemple_en": "The arrival of \"native\" AI assistants in operating systems creates replacement pressure: entire fleets of perfectly functional computers become \"AI-incompatible\". A wise IT department separates the real need (a few AI uses via the internal cloud) from the marketing (a neural chip on every desk).",
+    "regard_fr": "L'IA ne doit pas devenir le nouveau prétexte d'obsolescence des parcs informatiques. Avant de renouveler 500 postes « pour l'IA », demandez : quels usages, pour qui, et pourquoi pas côté serveur ? La réponse économise souvent des centaines de milliers d'euros · et des tonnes de CO₂eq.",
+    "regard_en": "AI must not become the new pretext for fleet obsolescence. Before renewing 500 workstations \"for AI\", ask: which uses, for whom, and why not server-side? The answer often saves hundreds of thousands of euros · and tonnes of CO₂eq.",
+    "termes_lies": ["dechets-electroniques", "empreinte-materielle", "numerique-responsable"],
+    "sources": [{"titre": "ADEME · Allongement de la durée de vie des équipements"}, {"titre": "HOP · Halte à l'obsolescence programmée"}]
+  },
+  "refroidissement": {
+    "sous_titre_fr": "Évacuer la chaleur des GPU",
+    "sous_titre_en": "Removing heat from GPUs",
+    "definition_fr": "Ensemble des techniques d'évacuation de la chaleur produite par les serveurs : climatisation classique, free cooling (air extérieur), refroidissement liquide direct, immersion. Les racks IA denses (plus de 100 kW) rendent le refroidissement liquide incontournable et déterminent une part importante du PUE et de la consommation d'eau.",
+    "definition_en": "The set of techniques for removing the heat produced by servers: conventional air conditioning, free cooling (outside air), direct liquid cooling, immersion. Dense AI racks (over 100 kW) make liquid cooling unavoidable and determine a significant share of PUE and water consumption.",
+    "exemple_fr": "Un data center classique refroidit des racks de 10 kW à l'air. Un rack de GPU dernière génération dépasse 120 kW · impossible à refroidir à l'air. Les opérateurs basculent vers le liquide direct, plus efficace énergétiquement, et certains valorisent la chaleur captée en chauffage urbain, comme à Paris pour la piscine de la Butte-aux-Cailles.",
+    "exemple_en": "A classic data center air-cools 10 kW racks. A latest-generation GPU rack exceeds 120 kW · impossible to air-cool. Operators are switching to direct liquid cooling, more energy-efficient, and some recover the captured heat for district heating, as in Paris for the Butte-aux-Cailles swimming pool.",
+    "regard_fr": "Le refroidissement est un critère de choix d'hébergeur trop ignoré : free cooling, récupération de chaleur, consommation d'eau. Ces choix d'ingénierie pèsent plus sur l'empreinte réelle que bien des promesses de neutralité.",
+    "regard_en": "Cooling is an overlooked criterion when choosing a host: free cooling, heat recovery, water consumption. These engineering choices weigh more on the real footprint than many neutrality pledges.",
+    "termes_lies": ["data-center", "pue", "consommation-eau", "wue"],
+    "sources": [{"titre": "Uptime Institute · Global Data Center Survey"}, {"titre": "ADEME · data centers et chaleur fatale"}]
+  },
+  "scope-3": {
+    "sous_titre_fr": "Les émissions indirectes de votre chaîne de valeur",
+    "sous_titre_en": "Your value chain's indirect emissions",
+    "definition_fr": "Catégorie du bilan carbone (protocole GHG) couvrant les émissions indirectes de la chaîne de valeur : achats, fournisseurs, usage des produits vendus. Les services cloud et IA que vous consommez relèvent de votre scope 3 · vous êtes donc comptable des émissions de vos fournisseurs d'IA, même sans data center en propre.",
+    "definition_en": "The carbon accounting category (GHG Protocol) covering indirect value chain emissions: purchases, suppliers, use of sold products. The cloud and AI services you consume fall under your scope 3 · you are therefore accountable for your AI suppliers' emissions, even with no data center of your own.",
+    "exemple_fr": "Une banque calcule son bilan carbone : ses propres bâtiments et véhicules (scopes 1 et 2) pèsent peu face à son scope 3, qui inclut désormais des millions de requêtes IA externalisées. Sans données fiables de ses fournisseurs américains, elle applique des facteurs d'émission majorés · le choix d'un fournisseur transparent et décarboné devient un enjeu de reporting.",
+    "exemple_en": "A bank calculates its carbon footprint: its own buildings and vehicles (scopes 1 and 2) weigh little against its scope 3, which now includes millions of outsourced AI requests. Without reliable data from its American suppliers, it applies inflated emission factors · choosing a transparent, decarbonised supplier becomes a reporting issue.",
+    "regard_fr": "Le scope 3 est le cheval de Troie de la responsabilité climatique : il rend chaque client comptable de l'opacité de ses fournisseurs. Exiger des données d'émission par requête dans vos contrats IA n'est plus du zèle · c'est de la prévoyance réglementaire.",
+    "regard_en": "Scope 3 is the Trojan horse of climate accountability: it makes every customer answerable for its suppliers' opacity. Demanding per-request emission data in your AI contracts is no longer zeal · it is regulatory foresight.",
+    "termes_lies": ["csrd", "empreinte-carbone", "neutralite-carbone", "acv"],
+    "sources": [{"titre": "GHG Protocol · Corporate Value Chain (Scope 3) Standard"}, {"titre": "ADEME · Bilan Carbone"}]
+  },
+  "terres-rares": {
+    "sous_titre_fr": "Minerais critiques de l'IA",
+    "sous_titre_en": "AI's critical minerals",
+    "definition_fr": "Métaux et minerais indispensables à la fabrication des puces, GPU, batteries et infrastructures de l'IA : terres rares proprement dites (néodyme, dysprosium…), mais aussi gallium, germanium, cuivre, silicium de haute pureté. Leur extraction concentre des impacts environnementaux lourds et des dépendances géopolitiques majeures, la Chine dominant le raffinage.",
+    "definition_en": "Metals and minerals essential to manufacturing AI's chips, GPUs, batteries and infrastructure: rare earths proper (neodymium, dysprosium…) but also gallium, germanium, copper, high-purity silicon. Their extraction concentrates heavy environmental impacts and major geopolitical dependencies, with China dominating refining.",
+    "exemple_fr": "En 2023 puis 2025, la Chine a restreint ses exportations de gallium et de germanium, essentiels aux semi-conducteurs, en réponse aux sanctions américaines. Toute la chaîne de l'IA a découvert sa vulnérabilité : sans ces minerais, pas de GPU · et l'Europe ne raffine presque rien sur son sol.",
+    "exemple_en": "In 2023 and again in 2025, China restricted its exports of gallium and germanium, essential to semiconductors, in response to American sanctions. The whole AI chain discovered its vulnerability: without these minerals, no GPUs · and Europe refines almost nothing on its soil.",
+    "regard_fr": "La souveraineté IA ne s'arrête pas au logiciel : elle commence dans les mines et les fonderies. C'est une raison de plus d'allonger la durée de vie du matériel et de soutenir les filières européennes de recyclage des métaux critiques.",
+    "regard_en": "AI sovereignty does not stop at software: it starts in mines and foundries. One more reason to extend hardware lifespan and support European critical-metal recycling channels.",
+    "termes_lies": ["empreinte-materielle", "gpu", "chips-act", "dechets-electroniques"],
+    "sources": [{"titre": "AIE · The Role of Critical Minerals in Clean Energy Transitions"}, {"titre": "Commission européenne · Critical Raw Materials Act"}]
+  },
+  "wue": {
+    "sous_titre_fr": "Water Usage Effectiveness",
+    "sous_titre_en": "Water Usage Effectiveness",
+    "definition_fr": "Indicateur d'efficacité hydrique d'un data center : litres d'eau consommés par kilowattheure d'énergie informatique (L/kWh). Un WUE de 0 signifie aucun refroidissement à eau ; la moyenne du secteur tourne autour de 1,8 L/kWh, avec d'énormes écarts selon la technologie et le climat local.",
+    "definition_en": "A data center's water efficiency indicator: litres of water consumed per kilowatt-hour of IT energy (L/kWh). A WUE of 0 means no evaporative cooling; the sector average is around 1.8 L/kWh, with huge gaps depending on technology and local climate.",
+    "exemple_fr": "Deux data centers hébergent la même charge IA. Le premier, en climat tempéré avec refroidissement liquide en circuit fermé, affiche un WUE proche de 0,2 L/kWh. Le second, en zone chaude avec tours d'évaporation, dépasse 2 L/kWh · dix fois plus d'eau pour le même service. Le WUE devrait figurer dans tout appel d'offres d'hébergement.",
+    "exemple_en": "Two data centers host the same AI workload. The first, in a temperate climate with closed-loop liquid cooling, shows a WUE near 0.2 L/kWh. The second, in a hot zone with evaporative towers, exceeds 2 L/kWh · ten times more water for the same service. WUE should appear in every hosting tender.",
+    "regard_fr": "Le PUE a mis quinze ans à devenir un standard de transparence · le WUE fait le même chemin, en retard. N'attendez pas la réglementation : demandez-le dès aujourd'hui à vos hébergeurs. Leur capacité à répondre est déjà un signal.",
+    "regard_en": "PUE took fifteen years to become a transparency standard · WUE is on the same path, lagging. Don't wait for regulation: ask your hosts for it today. Their ability to answer is already a signal.",
+    "termes_lies": ["pue", "consommation-eau", "data-center", "refroidissement"],
+    "sources": [{"titre": "The Green Grid · WUE metric"}, {"titre": "Uptime Institute · consommation d'eau des data centers"}]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Principe de moindre privilège",
+  "terme_en": "Least privilege",
+  "sous_titre_fr": "Principe du moindre privilège",
+  "sous_titre_en": "Least privilege",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Principe de sécurité selon lequel un utilisateur, un programme ou un agent ne dispose que des droits strictement nécessaires à sa tâche, et rien de plus. Appliqué aux agents IA, il limite les dégâts qu'une injection de prompt ou un bug peut causer : un agent qui ne peut pas envoyer d'email ne peut pas exfiltrer par email.",
+  "definition_en": "A security principle whereby a user, program or agent has only the rights strictly necessary for its task, and nothing more. Applied to AI agents, it limits the damage a prompt injection or a bug can cause: an agent that cannot send email cannot exfiltrate by email.",
+  "exemple_fr": "Un agent chargé de rédiger des comptes rendus n'a besoin que de lire l'agenda et d'écrire dans un dossier précis. Lui donner en plus l'accès à la messagerie et au web « au cas où » multiplie les canaux d'attaque sans bénéfice. En réduisant ses droits au strict nécessaire, on transforme une injection réussie en incident bénin.",
+  "exemple_en": "An agent tasked with drafting minutes only needs to read the calendar and write to a specific folder. Additionally granting it email and web access \"just in case\" multiplies the attack channels with no benefit. By reducing its rights to the strict minimum, a successful injection becomes a benign incident.",
+  "regard_fr": "Face aux agents, le moindre privilège n'est plus une bonne pratique parmi d'autres : c'est la principale ligne de défense. Chaque permission accordée doit être justifiée par un usage, pas par une commodité. La question n'est pas « pourquoi restreindre ? » mais « pourquoi autoriser ? ».",
+  "regard_en": "For agents, least privilege is no longer one good practice among others: it is the main line of defence. Every granted permission must be justified by a use, not a convenience. The question is not \"why restrict?\" but \"why allow?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "exfiltration",
+    "injection-indirecte",
+    "iam",
+    "bac-a-sable"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · principes d'hygiène informatique",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

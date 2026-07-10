@@ -1,0 +1,37 @@
+{
+  "terme_fr": "ANSSI",
+  "terme_en": "ANSSI (French cybersecurity agency)",
+  "sous_titre_fr": "Agence nationale de la sécurité des systèmes d'information",
+  "sous_titre_en": "France's national cybersecurity agency",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Autorité française de cybersécurité, rattachée au Premier ministre. L'ANSSI qualifie les prestataires de confiance (dont le label SecNumCloud), publie des guides de sécurisation · y compris des recommandations dédiées aux systèmes d'IA générative · et intervient sur les incidents majeurs touchant l'État et les opérateurs critiques.",
+  "definition_en": "France's cybersecurity authority, reporting to the Prime Minister. ANSSI qualifies trusted providers (including the SecNumCloud label), publishes security guides · including recommendations dedicated to generative AI systems · and responds to major incidents affecting the state and critical operators.",
+  "exemple_fr": "Avant de déployer un assistant IA interne, la DSI d'un opérateur d'importance vitale applique les recommandations ANSSI pour l'IA générative : cloisonnement du RAG, journalisation des requêtes, analyse de risque sur les données d'entraînement, hébergement qualifié SecNumCloud. Le projet passe l'homologation sans reprise.",
+  "exemple_en": "Before deploying an internal AI assistant, the IT department of a critical infrastructure operator applies ANSSI's recommendations for generative AI: RAG compartmentalisation, request logging, risk analysis on training data, SecNumCloud-qualified hosting. The project passes accreditation without rework.",
+  "regard_fr": "L'ANSSI est une chance française : des référentiels publics, gratuits et exigeants. S'en servir dès la conception coûte infiniment moins cher que de sécuriser après coup · et ses guides IA sont parmi les plus concrets du marché.",
+  "regard_en": "ANSSI is a French asset: public, free, demanding frameworks. Using them from the design stage costs infinitely less than securing after the fact · and its AI guides are among the most concrete on the market.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "secnumcloud",
+    "securite-donnees",
+    "cloud-souverain"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · Recommandations pour les systèmes d'IA générative",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,122 @@
+{
+  "ademe": {
+    "sous_titre_fr": "Agence de la transition écologique",
+    "sous_titre_en": "French ecological transition agency",
+    "definition_fr": "Agence publique française chargée d'accompagner la transition écologique. En matière de numérique et d'IA, l'ADEME publie des référentiels d'évaluation d'impact environnemental, co-pilote avec l'Arcep les études sur l'empreinte du numérique en France, et finance des travaux sur l'IA frugale.",
+    "definition_en": "The French public agency responsible for supporting the ecological transition. On digital matters and AI, ADEME publishes environmental impact assessment frameworks, co-leads studies on France's digital footprint with Arcep, and funds work on frugal AI.",
+    "exemple_fr": "Avant de communiquer sur l'empreinte carbone de son service IA, une entreprise s'appuie sur le référentiel d'évaluation de l'impact environnemental de l'IA publié par l'ADEME et l'Arcep. Résultat : une méthodologie défendable, plutôt qu'un chiffre marketing invérifiable.",
+    "exemple_en": "Before communicating about the carbon footprint of its AI service, a company relies on the AI environmental impact assessment framework published by ADEME and Arcep. The result: a defensible methodology, rather than an unverifiable marketing figure.",
+    "regard_fr": "Les référentiels publics de l'ADEME sont l'antidote aux bilans carbone autoproclamés des fournisseurs. Quand un acteur annonce une IA « verte », demandez la méthodologie · si elle ne s'adosse à aucun référentiel reconnu, c'est du marketing.",
+    "regard_en": "ADEME's public frameworks are the antidote to vendors' self-proclaimed carbon reports. When a player announces \"green\" AI, ask for the methodology · if it rests on no recognised framework, it is marketing.",
+    "termes_lies": ["acv", "empreinte-carbone", "ia-frugale", "numerique-responsable"],
+    "sources": [{"titre": "ADEME · Évaluer l'impact environnemental du numérique"}, {"titre": "Ministère de la Transition écologique", "url": "https://www.ecologie.gouv.fr/"}]
+  },
+  "co2eq": {
+    "sous_titre_fr": "Unité de mesure des gaz à effet de serre",
+    "sous_titre_en": "Unité de mesure des gaz à effet de serre",
+    "definition_fr": "Unité qui agrège l'effet de tous les gaz à effet de serre (CO₂, méthane, protoxyde d'azote…) en les convertissant en la quantité de CO₂ qui produirait le même réchauffement. C'est l'unité standard des bilans carbone, y compris pour mesurer l'impact de l'entraînement et de l'usage des modèles d'IA.",
+    "definition_en": "A unit that aggregates the effect of all greenhouse gases (CO₂, methane, nitrous oxide…) by converting them into the quantity of CO₂ that would produce the same warming. It is the standard unit of carbon accounting, including for measuring the impact of training and using AI models.",
+    "exemple_fr": "Une requête à un grand LLM émet de l'ordre de 1 à 4 g CO₂eq selon le modèle et le pays d'hébergement. Cela paraît négligeable · mais à l'échelle d'une entreprise de 1 000 collaborateurs faisant chacun 30 requêtes par jour, on dépasse 20 tonnes de CO₂eq par an, l'équivalent d'une dizaine d'allers-retours Paris-New York.",
+    "exemple_en": "A request to a large LLM emits in the order of 1 to 4 g CO₂eq depending on the model and hosting country. That seems negligible · but at the scale of a 1,000-employee company each making 30 requests a day, you exceed 20 tonnes of CO₂eq a year, the equivalent of about ten Paris-New York round trips.",
+    "regard_fr": "Le CO₂eq est utile mais partiel : il ne dit rien de l'eau, des minerais ni de l'usure du matériel. Exigez des indicateurs multicritères · c'est exactement ce que fournit une ACV complète.",
+    "regard_en": "CO₂eq is useful but partial: it says nothing about water, minerals or hardware wear. Insist on multi-criteria indicators · which is exactly what a full LCA provides.",
+    "termes_lies": ["empreinte-carbone", "acv", "intensite-carbone", "ecologits"],
+    "sources": [{"titre": "ADEME · Base Empreinte"}, {"titre": "EcoLogits · méthodologie", "url": "https://ecologits.ai/"}]
+  },
+  "consommation-eau": {
+    "sous_titre_fr": "L'empreinte hydrique de l'IA",
+    "sous_titre_en": "AI's water footprint",
+    "definition_fr": "Volume d'eau consommé par les data centers pour refroidir les serveurs qui entraînent et exécutent les modèles d'IA, auquel s'ajoute l'eau consommée par la production de l'électricité et la fabrication des puces. Cette empreinte hydrique reste largement absente des communications des fournisseurs.",
+    "definition_en": "The volume of water consumed by data centers to cool the servers that train and run AI models, plus the water consumed by electricity production and chip manufacturing. This water footprint remains largely absent from vendors' communications.",
+    "exemple_fr": "Selon les estimations académiques, une conversation d'une vingtaine de requêtes avec un grand LLM peut consommer l'équivalent d'une petite bouteille d'eau (500 mL), principalement en refroidissement. Dans des régions en stress hydrique comme l'Arizona ou certaines zones d'Espagne, l'implantation de data centers IA crée des conflits d'usage avec l'agriculture et les habitants.",
+    "exemple_en": "According to academic estimates, a conversation of about twenty requests with a large LLM can consume the equivalent of a small bottle of water (500 mL), mainly for cooling. In water-stressed regions such as Arizona or parts of Spain, siting AI data centers creates usage conflicts with agriculture and residents.",
+    "regard_fr": "L'eau est l'angle mort du débat sur l'impact de l'IA. Les fournisseurs communiquent volontiers sur le carbone, rarement sur l'eau · demandez le WUE des data centers qui hébergent vos usages, la réponse est instructive.",
+    "regard_en": "Water is the blind spot of the AI impact debate. Vendors readily communicate about carbon, rarely about water · ask for the WUE of the data centers hosting your workloads, the answer is instructive.",
+    "termes_lies": ["wue", "data-center", "refroidissement", "acv"],
+    "sources": [{"titre": "Li et al. · Making AI Less Thirsty (UC Riverside)"}, {"titre": "EcoLogits", "url": "https://ecologits.ai/"}]
+  },
+  "consommation-electrique": {
+    "sous_titre_fr": "L'électricité derrière chaque requête",
+    "sous_titre_en": "The electricity behind every request",
+    "definition_fr": "Énergie électrique consommée par l'IA sur l'ensemble de son cycle : entraînement des modèles, inférence quotidienne, refroidissement, réseaux. L'AIE estime que les data centers pourraient voir leur consommation mondiale doubler entre 2024 et 2030, l'IA générative en étant le principal moteur.",
+    "definition_en": "The electrical energy consumed by AI across its whole cycle: model training, daily inference, cooling, networks. The IEA estimates that data centers could see their global consumption double between 2024 and 2030, with generative AI as the main driver.",
+    "exemple_fr": "Une requête à un LLM consomme environ 10 fois plus d'électricité qu'une recherche web classique. À l'échelle mondiale, si un moteur de recherche remplaçait toutes ses requêtes par des réponses génératives sans optimisation, sa facture énergétique serait multipliée en proportion · c'est pourquoi les acteurs mélangent petits et grands modèles selon la complexité.",
+    "exemple_en": "An LLM request consumes about 10 times more electricity than a classic web search. At global scale, if a search engine replaced all its queries with generative answers without optimisation, its energy bill would be multiplied in proportion · which is why players mix small and large models depending on complexity.",
+    "regard_fr": "La question n'est pas « l'IA consomme-t-elle ? » mais « pour quel service rendu ? ». Une requête utile vaut son électricité ; mille requêtes de confort, non. Le premier levier de sobriété reste le choix du bon modèle pour le bon usage.",
+    "regard_en": "The question is not \"does AI consume?\" but \"for what service rendered?\". A useful request is worth its electricity; a thousand comfort requests are not. The first sobriety lever remains choosing the right model for the right use.",
+    "termes_lies": ["data-center", "pue", "sobriete-numerique", "inference"],
+    "sources": [{"titre": "AIE · Energy and AI (2025)"}, {"titre": "EcoLogits", "url": "https://ecologits.ai/"}]
+  },
+  "csrd": {
+    "sous_titre_fr": "Corporate Sustainability Reporting Directive",
+    "sous_titre_en": "Corporate Sustainability Reporting Directive",
+    "definition_fr": "Directive européenne qui impose aux grandes entreprises (puis progressivement aux ETI cotées) de publier un reporting de durabilité détaillé et audité, selon les normes ESRS. Le numérique et l'IA y entrent par les émissions de scope 3, la consommation énergétique et les impacts de la chaîne de valeur.",
+    "definition_en": "The European directive requiring large companies (then progressively listed mid-caps) to publish detailed, audited sustainability reporting under the ESRS standards. Digital technology and AI enter it through scope 3 emissions, energy consumption and value chain impacts.",
+    "exemple_fr": "Une ETI soumise à la CSRD découvre que son usage croissant d'API d'IA générative alourdit son scope 3 · les émissions de ses fournisseurs cloud. Elle doit désormais les estimer, les publier et documenter sa trajectoire de réduction. Le choix d'un fournisseur hébergé en France, au mix électrique décarboné, devient un argument de reporting.",
+    "exemple_en": "A mid-cap subject to the CSRD discovers that its growing use of generative AI APIs weighs on its scope 3 · the emissions of its cloud suppliers. It must now estimate them, publish them and document its reduction trajectory. Choosing a supplier hosted in France, with a decarbonised electricity mix, becomes a reporting argument.",
+    "regard_fr": "La CSRD transforme l'impact environnemental de l'IA en sujet de conformité, plus seulement d'éthique. Les organisations qui mesurent dès aujourd'hui leur empreinte IA prennent une longueur d'avance sur celles qui devront reconstruire l'historique dans l'urgence.",
+    "regard_en": "The CSRD turns AI's environmental impact into a compliance matter, no longer just an ethical one. Organisations measuring their AI footprint today get ahead of those that will have to reconstruct the history in a hurry.",
+    "termes_lies": ["scope-3", "empreinte-carbone", "acv", "gouvernance-ia"],
+    "sources": [{"titre": "Directive (UE) 2022/2464 · CSRD"}, {"titre": "EFRAG · normes ESRS"}]
+  },
+  "dechets-electroniques": {
+    "sous_titre_fr": "E-waste",
+    "sous_titre_en": "Déchets d'équipements électriques et électroniques (DEEE)",
+    "definition_fr": "Équipements électroniques en fin de vie · serveurs, GPU, terminaux. Le monde en produit plus de 60 millions de tonnes par an, dont moins d'un quart est correctement recyclé. La course à l'IA accélère le renouvellement des serveurs et des accélérateurs, aggravant le flux.",
+    "definition_en": "End-of-life electronic equipment · servers, GPUs, devices. The world produces more than 60 million tonnes a year, of which less than a quarter is properly recycled. The AI race accelerates the renewal of servers and accelerators, worsening the flow.",
+    "exemple_fr": "Un data center renouvelle ses GPU tous les 3 à 4 ans pour suivre la course à la puissance. Les cartes remplacées, souvent fonctionnelles, partent en filière de seconde main au mieux, en déchet au pire. Certains hyperscalers ont annoncé des programmes de reconditionnement · les volumes restent opaques.",
+    "exemple_en": "A data center renews its GPUs every 3 to 4 years to keep up in the power race. The replaced cards, often functional, go to second-hand channels at best, to waste at worst. Some hyperscalers have announced refurbishment programmes · the volumes remain opaque.",
+    "regard_fr": "Le déchet électronique est la face cachée de l'ACV de l'IA : il concentre métaux critiques et pollutions exportées. Allonger la durée de vie du matériel · y compris en achetant du reconditionné pour vos propres serveurs · est un levier concret et immédiat.",
+    "regard_en": "E-waste is the hidden face of AI's LCA: it concentrates critical metals and exported pollution. Extending hardware lifespan · including buying refurbished for your own servers · is a concrete, immediate lever.",
+    "termes_lies": ["obsolescence-materiel", "terres-rares", "acv", "empreinte-materielle"],
+    "sources": [{"titre": "ONU · Global E-waste Monitor"}, {"titre": "ADEME · filière DEEE"}]
+  },
+  "effet-rebond": {
+    "sous_titre_fr": "Paradoxe de Jevons",
+    "sous_titre_en": "Jevons paradox",
+    "definition_fr": "Phénomène par lequel les gains d'efficacité d'une technologie augmentent son usage total au lieu de réduire sa consommation globale. Appliqué à l'IA : des modèles plus efficaces par requête, mais tellement plus utilisés que la consommation totale explose.",
+    "definition_en": "The phenomenon whereby a technology's efficiency gains increase its total use instead of reducing its overall consumption. Applied to AI: models more efficient per request, but used so much more that total consumption soars.",
+    "exemple_fr": "Entre 2023 et 2026, le coût énergétique par token a été divisé par un facteur important grâce aux optimisations. Dans le même temps, le nombre de tokens générés dans le monde a été multiplié bien davantage · résultat : la consommation totale de l'IA a augmenté, pas diminué. L'efficacité seule ne suffit pas.",
+    "exemple_en": "Between 2023 and 2026, the energy cost per token was divided by a significant factor thanks to optimisations. Over the same period, the number of tokens generated worldwide multiplied far more · the result: AI's total consumption went up, not down. Efficiency alone is not enough.",
+    "regard_fr": "L'effet rebond est l'argument qui manque à tous les discours « notre modèle est plus efficace ». L'efficacité est nécessaire mais pas suffisante : sans interrogation des usages, elle nourrit la croissance de la consommation qu'elle prétend combattre.",
+    "regard_en": "The rebound effect is the missing argument in every \"our model is more efficient\" narrative. Efficiency is necessary but not sufficient: without questioning usage, it feeds the very consumption growth it claims to fight.",
+    "termes_lies": ["sobriete-numerique", "consommation-electrique", "ia-frugale"],
+    "sources": [{"titre": "The Shift Project · Lean ICT"}, {"titre": "William Stanley Jevons · The Coal Question (1865)"}]
+  },
+  "empreinte-materielle": {
+    "sous_titre_fr": "L'impact de la fabrication",
+    "sous_titre_en": "The impact of manufacturing",
+    "definition_fr": "Part de l'empreinte environnementale de l'IA liée à la fabrication du matériel : extraction des minerais, production des puces (très intensive en eau ultra-pure et en produits chimiques), assemblage, transport. Pour les terminaux utilisateurs, la fabrication représente souvent plus des trois quarts de l'impact total.",
+    "definition_en": "The share of AI's environmental footprint linked to hardware manufacturing: mineral extraction, chip production (highly intensive in ultra-pure water and chemicals), assembly, transport. For user devices, manufacturing often accounts for more than three quarters of the total impact.",
+    "exemple_fr": "La fabrication d'un GPU H100 mobilise des dizaines de matériaux critiques et une chaîne industrielle traversant trois continents · fonderie taïwanaise, mémoire coréenne, assemblage variable. Une ACV honnête d'un service IA doit amortir cette empreinte de fabrication sur la durée de vie du matériel, ce que peu de calculateurs font.",
+    "exemple_en": "Manufacturing an H100 GPU mobilises dozens of critical materials and an industrial chain spanning three continents · Taiwanese foundry, Korean memory, variable assembly. An honest LCA of an AI service must amortise this manufacturing footprint over the hardware's lifespan, which few calculators do.",
+    "regard_fr": "Se focaliser sur l'électricité d'usage, c'est regarder la partie émergée de l'iceberg. L'empreinte matérielle est massive, délocalisée et invisible dans les bilans des fournisseurs · exigez des ACV qui l'intègrent.",
+    "regard_en": "Focusing on usage electricity is looking at the tip of the iceberg. The embodied footprint is massive, offshored and invisible in vendors' reports · demand LCAs that include it.",
+    "termes_lies": ["acv", "terres-rares", "gpu", "dechets-electroniques"],
+    "sources": [{"titre": "ADEME/Arcep · Empreinte environnementale du numérique"}, {"titre": "Boavizta · méthodologie d'ACV serveurs"}]
+  },
+  "ia-climat": {
+    "sous_titre_fr": "Quand l'IA sert la transition",
+    "sous_titre_en": "When AI serves the transition",
+    "definition_fr": "Ensemble des usages de l'IA au service du climat et de l'environnement : optimisation énergétique des bâtiments et des réseaux, prévision météo et climatique, agriculture de précision, détection de fuites de méthane par satellite, modélisation des écosystèmes. L'IA y est un outil, pas une fin.",
+    "definition_en": "The set of AI uses serving climate and environment: energy optimisation of buildings and grids, weather and climate forecasting, precision agriculture, satellite detection of methane leaks, ecosystem modelling. AI is a tool there, not an end.",
+    "exemple_fr": "Un gestionnaire de réseau électrique utilise des modèles prédictifs pour anticiper la production solaire et éolienne à 48 h, réduisant le recours aux centrales fossiles d'appoint. Ici, une IA non générative, sobre et spécialisée, évite bien plus d'émissions qu'elle n'en produit.",
+    "exemple_en": "A power grid operator uses predictive models to anticipate solar and wind production 48 hours ahead, reducing reliance on backup fossil plants. Here, a frugal, specialised, non-generative AI avoids far more emissions than it produces.",
+    "regard_fr": "« L'IA sauvera le climat » et « l'IA détruit la planète » sont deux paresses intellectuelles. Le vrai critère : le bilan net par cas d'usage. Une IA de pilotage énergétique se justifie ; un générateur de vidéos publicitaires en 8K, plus difficilement.",
+    "regard_en": "\"AI will save the climate\" and \"AI is destroying the planet\" are two forms of intellectual laziness. The real criterion: the net balance per use case. An energy management AI justifies itself; an 8K advertising video generator, less easily.",
+    "termes_lies": ["ia-non-generative", "sobriete-numerique", "effet-rebond"],
+    "sources": [{"titre": "GIEC · AR6, chapitre atténuation"}, {"titre": "Climate Change AI (climatechange.ai)"}]
+  },
+  "ia-frugale": {
+    "sous_titre_fr": "Frugal AI",
+    "sous_titre_en": "IA frugale",
+    "definition_fr": "Démarche de conception d'IA qui minimise les ressources consommées (calcul, énergie, données, matériel) pour un service rendu donné. Formalisée en France par le référentiel AFNOR Spec 2314, elle privilégie les petits modèles, la mutualisation, et l'interrogation systématique du besoin.",
+    "definition_en": "An AI design approach that minimises the resources consumed (compute, energy, data, hardware) for a given service. Formalised in France by the AFNOR Spec 2314 framework, it favours small models, pooling, and systematically questioning the need.",
+    "exemple_fr": "Pour classer les emails entrants d'un service client, une équipe compare : GPT-4 via API (précision 94 %), Mistral 7B local (93 %), et un classifieur classique entraîné sur 5 000 exemples (91 %). Elle retient Mistral 7B : la perte de précision est marginale, la consommation divisée par 30, et les données restent en interne.",
+    "exemple_en": "To classify a customer service's incoming emails, a team compares: GPT-4 via API (94% accuracy), local Mistral 7B (93%), and a classic classifier trained on 5,000 examples (91%). It picks Mistral 7B: the accuracy loss is marginal, consumption is divided by 30, and the data stays in-house.",
+    "regard_fr": "La frugalité n'est pas une privation, c'est de l'ingénierie bien faite. Le réflexe « quel est le modèle minimal qui suffit ? » économise de l'argent, de l'énergie et de la dépendance · trois bénéfices pour le prix d'une question.",
+    "regard_en": "Frugality is not deprivation, it is good engineering. The reflex \"what is the minimal model that suffices?\" saves money, energy and dependency · three benefits for the price of one question.",
+    "termes_lies": ["sobriete-numerique", "slm", "distillation", "quantification"],
+    "sources": [{"titre": "AFNOR Spec 2314 · IA frugale"}, {"titre": "EcoLogits", "url": "https://ecologits.ai/"}]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "terme_fr": "IA frugale",
+  "terme_en": "Frugal AI",
+  "sous_titre_fr": "Frugal AI",
+  "sous_titre_en": "IA frugale",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Démarche de conception d'IA qui minimise les ressources consommées (calcul, énergie, données, matériel) pour un service rendu donné. Formalisée en France par le référentiel AFNOR Spec 2314, elle privilégie les petits modèles, la mutualisation, et l'interrogation systématique du besoin.",
+  "definition_en": "An AI design approach that minimises the resources consumed (compute, energy, data, hardware) for a given service. Formalised in France by the AFNOR Spec 2314 framework, it favours small models, pooling, and systematically questioning the need.",
+  "exemple_fr": "Pour classer les emails entrants d'un service client, une équipe compare : GPT-4 via API (précision 94 %), Mistral 7B local (93 %), et un classifieur classique entraîné sur 5 000 exemples (91 %). Elle retient Mistral 7B : la perte de précision est marginale, la consommation divisée par 30, et les données restent en interne.",
+  "exemple_en": "To classify a customer service's incoming emails, a team compares: GPT-4 via API (94% accuracy), local Mistral 7B (93%), and a classic classifier trained on 5,000 examples (91%). It picks Mistral 7B: the accuracy loss is marginal, consumption is divided by 30, and the data stays in-house.",
+  "regard_fr": "La frugalité n'est pas une privation, c'est de l'ingénierie bien faite. Le réflexe « quel est le modèle minimal qui suffit ? » économise de l'argent, de l'énergie et de la dépendance · trois bénéfices pour le prix d'une question.",
+  "regard_en": "Frugality is not deprivation, it is good engineering. The reflex \"what is the minimal model that suffices?\" saves money, energy and dependency · three benefits for the price of one question.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "sobriete-numerique",
+    "slm",
+    "distillation",
+    "quantification"
+  ],
+  "sources": [
+    {
+      "titre": "AFNOR Spec 2314 · IA frugale"
+    },
+    {
+      "titre": "EcoLogits",
+      "url": "https://ecologits.ai/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

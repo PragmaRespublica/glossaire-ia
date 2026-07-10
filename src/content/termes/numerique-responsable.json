@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Numérique responsable",
+  "terme_en": "Responsible digital technology",
+  "sous_titre_fr": "Responsible digital technology",
+  "sous_titre_en": "Numérique responsable",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Démarche globale visant à réduire l'empreinte environnementale et sociale du numérique : sobriété des usages, allongement de la durée de vie du matériel, écoconception des services, accessibilité, inclusion. En France, elle s'appuie sur la loi REEN, le référentiel RGESN et les travaux ADEME-Arcep · l'IA en est désormais le chapitre le plus brûlant.",
+  "definition_en": "A global approach to reducing the environmental and social footprint of digital technology: frugal usage, longer hardware lifespan, eco-design of services, accessibility, inclusion. In France it rests on the REEN law, the RGESN framework and the ADEME-Arcep studies · AI is now its most burning chapter.",
+  "exemple_fr": "Une collectivité adopte une charte numérique responsable : terminaux conservés 6 ans, services web écoconçus, et pour l'IA une règle simple · tout nouveau cas d'usage passe par une évaluation de pertinence et un choix de modèle proportionné. L'IA n'est pas interdite, elle est raisonnée.",
+  "exemple_en": "A local authority adopts a responsible digital charter: devices kept 6 years, eco-designed web services, and for AI one simple rule · every new use case goes through a relevance assessment and a proportionate model choice. AI is not banned, it is reasoned.",
+  "regard_fr": "Le numérique responsable donne à l'IA un cadre déjà outillé : référentiels, indicateurs, gouvernance. Plutôt que d'inventer une « politique IA verte » de zéro, raccrochez vos usages IA à votre démarche numérique responsable existante.",
+  "regard_en": "Responsible digital gives AI an already-tooled frame: frameworks, indicators, governance. Rather than inventing a \"green AI policy\" from scratch, attach your AI uses to your existing responsible digital approach.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "sobriete-numerique",
+    "ia-frugale",
+    "ademe"
+  ],
+  "sources": [
+    {
+      "titre": "Loi REEN (2021) et référentiel RGESN"
+    },
+    {
+      "titre": "Institut du Numérique Responsable (INR)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

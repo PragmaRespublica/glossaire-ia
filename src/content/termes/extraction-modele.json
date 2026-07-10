@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Extraction de modèle",
+  "terme_en": "Model extraction",
+  "sous_titre_fr": "Model extraction, vol de modèle",
+  "sous_titre_en": "Model extraction, model stealing",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Attaque visant à reconstituer un modèle propriétaire en l'interrogeant massivement et en entraînant un modèle copie sur ses réponses. L'attaquant n'a pas accès aux poids, mais reproduit le comportement · une forme de distillation non consentie qui menace la propriété intellectuelle des fournisseurs.",
+  "definition_en": "An attack aiming to reconstruct a proprietary model by querying it massively and training a copycat model on its answers. The attacker has no access to the weights but reproduces the behaviour · a form of non-consensual distillation that threatens vendors' intellectual property.",
+  "exemple_fr": "Un concurrent interroge une API d'IA payante avec des centaines de milliers de requêtes ciblées, puis entraîne son propre modèle sur les paires question-réponse collectées. Le modèle copie approche les performances de l'original pour une fraction du coût de développement. Les conditions d'usage des grands fournisseurs interdisent désormais explicitement cette pratique.",
+  "exemple_en": "A competitor queries a paid AI API with hundreds of thousands of targeted requests, then trains its own model on the collected question-answer pairs. The copycat approaches the original's performance for a fraction of the development cost. Major vendors' terms of use now explicitly prohibit this practice.",
+  "regard_fr": "L'extraction de modèle illustre un paradoxe : plus un modèle est accessible via API, plus il est copiable. Pour un fournisseur, la limitation du débit et la détection d'usage anormal ne sont pas du confort · c'est la protection de l'actif principal.",
+  "regard_en": "Model extraction illustrates a paradox: the more accessible a model is via API, the more copyable it is. For a vendor, rate limiting and abnormal-usage detection are not comfort features · they protect the core asset.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "distillation",
+    "inversion-modele",
+    "outils-proprietaires"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (attaque par exfiltration de modèle)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Red teaming IA",
+  "terme_en": "AI red teaming",
+  "sous_titre_fr": "AI red teaming",
+  "sous_titre_en": "Red teaming IA",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Démarche consistant à attaquer volontairement son propre système d'IA pour en découvrir les failles avant les vrais attaquants : tentatives de débridage, injections de prompt, recherche de biais, de fuites, de comportements dangereux. L'AI Act et les grands fournisseurs en font une étape obligatoire pour les modèles les plus puissants.",
+  "definition_en": "An approach of deliberately attacking one's own AI system to discover its flaws before real attackers do: jailbreak attempts, prompt injections, searching for bias, leaks, dangerous behaviours. The AI Act and major vendors make it a mandatory step for the most powerful models.",
+  "exemple_fr": "Avant de déployer un assistant grand public, une équipe red team consacre deux semaines à le faire dérailler : lui faire tenir des propos discriminatoires, révéler des données d'entraînement, exécuter des instructions cachées. Chaque faille trouvée est corrigée. Le red teaming a transformé un lancement risqué en déploiement maîtrisé.",
+  "exemple_en": "Before deploying a consumer assistant, a red team spends two weeks trying to derail it: making it hold discriminatory statements, reveal training data, execute hidden instructions. Each flaw found is fixed. Red teaming turned a risky launch into a controlled deployment.",
+  "regard_fr": "Le red teaming applique à l'IA une sagesse ancienne : la meilleure défense est de s'attaquer soi-même d'abord. Pour un système à haut risque, ce n'est pas une option de luxe mais une exigence · budgétez-le comme une ligne de projet à part entière.",
+  "regard_en": "Red teaming applies an old wisdom to AI: the best defence is to attack yourself first. For a high-risk system, it is not a luxury option but a requirement · budget it as a project line in its own right.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "jailbreak",
+    "evaluation-llm",
+    "owasp-llm",
+    "systeme-haut-risque"
+  ],
+  "sources": [
+    {
+      "titre": "NIST · AI Risk Management Framework",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "titre": "OWASP · Top 10 for LLM",
+      "url": "https://genai.owasp.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

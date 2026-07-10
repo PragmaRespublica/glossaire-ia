@@ -1,0 +1,38 @@
+{
+  "terme_fr": "IA fantôme (shadow AI)",
+  "terme_en": "Shadow AI",
+  "sous_titre_fr": "Shadow AI",
+  "sous_titre_en": "IA fantôme",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Usage d'outils d'IA par les collaborateurs en dehors de tout cadre validé par l'organisation : comptes personnels ChatGPT pour traiter des documents professionnels, extensions non approuvées, données d'entreprise saisies dans des services grand public. Prolongement du « shadow IT », amplifié par la facilité d'accès à l'IA.",
+  "definition_en": "Employees' use of AI tools outside any framework validated by the organisation: personal ChatGPT accounts to process professional documents, unapproved extensions, company data entered into consumer services. An extension of \"shadow IT\", amplified by the ease of access to AI.",
+  "exemple_fr": "Une enquête interne révèle que 40 % des salariés utilisent déjà ChatGPT sur leur compte personnel pour leur travail · souvent avec des données clients. L'entreprise avait interdit l'outil sans proposer d'alternative. Résultat : l'usage a continué, sans contrôle. Fournir une IA souveraine encadrée aurait mieux protégé que l'interdiction.",
+  "exemple_en": "An internal survey reveals that 40% of employees already use ChatGPT on their personal accounts for work · often with client data. The company had banned the tool without offering an alternative. The result: usage continued, uncontrolled. Providing a framed sovereign AI would have protected better than the ban.",
+  "regard_fr": "L'IA fantôme est le symptôme d'un besoin réel mal adressé. Interdire ne fait que déplacer l'usage dans l'ombre. La bonne réponse est double : offrir un outil sûr et sanctionné positivement, et former plutôt que menacer.",
+  "regard_en": "Shadow AI is the symptom of a real need poorly addressed. Banning merely pushes usage into the shadows. The right answer is twofold: offer a safe, positively sanctioned tool, and train rather than threaten.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "charte-ia",
+    "classification-information",
+    "gouvernance-ia",
+    "securite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · recommandations sur l'usage professionnel des IA génératives",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

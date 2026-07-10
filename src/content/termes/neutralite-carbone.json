@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Neutralité carbone des Big Tech",
+  "terme_en": "Big Tech carbon neutrality claims",
+  "sous_titre_fr": "Promesses des Big Tech et réalité",
+  "sous_titre_en": "Big Tech pledges vs reality",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Engagement d'une organisation à ce que ses émissions nettes de gaz à effet de serre soient nulles, généralement via réductions réelles plus compensations. Les Big Tech ont multiplié les promesses (« carbon neutral », « net zero 2030 ») · mais la croissance de l'IA a fait repartir leurs émissions à la hausse, de 30 à 50 % pour certaines depuis 2019.",
+  "definition_en": "An organisation's commitment that its net greenhouse gas emissions reach zero, generally through real reductions plus offsets. Big Tech multiplied the pledges (\"carbon neutral\", \"net zero 2030\") · but AI growth has sent their emissions back up, by 30 to 50% for some since 2019.",
+  "exemple_fr": "Un grand fournisseur cloud communique sur sa neutralité carbone tout en construisant des data centers alimentés au gaz pour suivre la demande IA, et en comptabilisant des certificats d'énergie renouvelable achetés ailleurs. Ses émissions réelles augmentent · son bilan communiqué reste « neutre ». Les régulateurs et ONG contestent de plus en plus ces présentations.",
+  "exemple_en": "A major cloud provider communicates on its carbon neutrality while building gas-powered data centers to keep up with AI demand, and counting renewable energy certificates bought elsewhere. Its real emissions rise · its reported balance stays \"neutral\". Regulators and NGOs increasingly challenge these presentations.",
+  "regard_fr": "La neutralité carbone déclarée d'un fournisseur ne vous exonère de rien : dans votre reporting CSRD, ce sont les émissions réelles de votre chaîne de valeur qui comptent. Fiez-vous aux kilowattheures et aux mix, pas aux slogans.",
+  "regard_en": "A vendor's declared carbon neutrality exempts you from nothing: in your CSRD reporting, what counts are your value chain's real emissions. Trust kilowatt-hours and energy mixes, not slogans.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "csrd",
+    "scope-3",
+    "mix-energetique",
+    "big-tech"
+  ],
+  "sources": [
+    {
+      "titre": "Rapports environnementaux annuels des hyperscalers"
+    },
+    {
+      "titre": "NewClimate Institute · Corporate Climate Responsibility Monitor"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

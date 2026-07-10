@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Consommation d'eau des data centers",
+  "terme_en": "AI water consumption",
+  "sous_titre_fr": "L'empreinte hydrique de l'IA",
+  "sous_titre_en": "AI's water footprint",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Volume d'eau consommé par les data centers pour refroidir les serveurs qui entraînent et exécutent les modèles d'IA, auquel s'ajoute l'eau consommée par la production de l'électricité et la fabrication des puces. Cette empreinte hydrique reste largement absente des communications des fournisseurs.",
+  "definition_en": "The volume of water consumed by data centers to cool the servers that train and run AI models, plus the water consumed by electricity production and chip manufacturing. This water footprint remains largely absent from vendors' communications.",
+  "exemple_fr": "Selon les estimations académiques, une conversation d'une vingtaine de requêtes avec un grand LLM peut consommer l'équivalent d'une petite bouteille d'eau (500 mL), principalement en refroidissement. Dans des régions en stress hydrique comme l'Arizona ou certaines zones d'Espagne, l'implantation de data centers IA crée des conflits d'usage avec l'agriculture et les habitants.",
+  "exemple_en": "According to academic estimates, a conversation of about twenty requests with a large LLM can consume the equivalent of a small bottle of water (500 mL), mainly for cooling. In water-stressed regions such as Arizona or parts of Spain, siting AI data centers creates usage conflicts with agriculture and residents.",
+  "regard_fr": "L'eau est l'angle mort du débat sur l'impact de l'IA. Les fournisseurs communiquent volontiers sur le carbone, rarement sur l'eau · demandez le WUE des data centers qui hébergent vos usages, la réponse est instructive.",
+  "regard_en": "Water is the blind spot of the AI impact debate. Vendors readily communicate about carbon, rarely about water · ask for the WUE of the data centers hosting your workloads, the answer is instructive.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "wue",
+    "data-center",
+    "refroidissement",
+    "acv"
+  ],
+  "sources": [
+    {
+      "titre": "Li et al. · Making AI Less Thirsty (UC Riverside)"
+    },
+    {
+      "titre": "EcoLogits",
+      "url": "https://ecologits.ai/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

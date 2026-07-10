@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Terres rares et minerais critiques",
+  "terme_en": "Rare earths and critical minerals",
+  "sous_titre_fr": "Minerais critiques de l'IA",
+  "sous_titre_en": "AI's critical minerals",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Métaux et minerais indispensables à la fabrication des puces, GPU, batteries et infrastructures de l'IA : terres rares proprement dites (néodyme, dysprosium…), mais aussi gallium, germanium, cuivre, silicium de haute pureté. Leur extraction concentre des impacts environnementaux lourds et des dépendances géopolitiques majeures, la Chine dominant le raffinage.",
+  "definition_en": "Metals and minerals essential to manufacturing AI's chips, GPUs, batteries and infrastructure: rare earths proper (neodymium, dysprosium…) but also gallium, germanium, copper, high-purity silicon. Their extraction concentrates heavy environmental impacts and major geopolitical dependencies, with China dominating refining.",
+  "exemple_fr": "En 2023 puis 2025, la Chine a restreint ses exportations de gallium et de germanium, essentiels aux semi-conducteurs, en réponse aux sanctions américaines. Toute la chaîne de l'IA a découvert sa vulnérabilité : sans ces minerais, pas de GPU · et l'Europe ne raffine presque rien sur son sol.",
+  "exemple_en": "In 2023 and again in 2025, China restricted its exports of gallium and germanium, essential to semiconductors, in response to American sanctions. The whole AI chain discovered its vulnerability: without these minerals, no GPUs · and Europe refines almost nothing on its soil.",
+  "regard_fr": "La souveraineté IA ne s'arrête pas au logiciel : elle commence dans les mines et les fonderies. C'est une raison de plus d'allonger la durée de vie du matériel et de soutenir les filières européennes de recyclage des métaux critiques.",
+  "regard_en": "AI sovereignty does not stop at software: it starts in mines and foundries. One more reason to extend hardware lifespan and support European critical-metal recycling channels.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "empreinte-materielle",
+    "gpu",
+    "chips-act",
+    "dechets-electroniques"
+  ],
+  "sources": [
+    {
+      "titre": "AIE · The Role of Critical Minerals in Clean Energy Transitions"
+    },
+    {
+      "titre": "Commission européenne · Critical Raw Materials Act"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

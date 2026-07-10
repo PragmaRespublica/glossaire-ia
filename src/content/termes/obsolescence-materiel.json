@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Obsolescence du matériel IA",
+  "terme_en": "AI hardware obsolescence",
+  "sous_titre_fr": "Le renouvellement accéléré des serveurs IA",
+  "sous_titre_en": "The accelerated renewal of AI servers",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Raccourcissement de la durée de vie utile du matériel informatique sous l'effet de la course à la puissance IA : GPU renouvelés tous les 3-4 ans dans les data centers, terminaux poussés au remplacement pour exécuter des fonctions IA locales. L'obsolescence multiplie l'empreinte de fabrication.",
+  "definition_en": "The shortening of IT hardware's useful life under the pressure of the AI power race: GPUs renewed every 3-4 years in data centers, devices pushed to replacement to run local AI features. Obsolescence multiplies the manufacturing footprint.",
+  "exemple_fr": "L'arrivée d'assistants IA « natifs » dans les systèmes d'exploitation crée une pression au renouvellement : des parcs entiers d'ordinateurs parfaitement fonctionnels deviennent « incompatibles IA ». Une DSI avisée sépare le besoin réel (quelques usages IA via le cloud interne) du marketing (une puce neuronale sur chaque poste).",
+  "exemple_en": "The arrival of \"native\" AI assistants in operating systems creates replacement pressure: entire fleets of perfectly functional computers become \"AI-incompatible\". A wise IT department separates the real need (a few AI uses via the internal cloud) from the marketing (a neural chip on every desk).",
+  "regard_fr": "L'IA ne doit pas devenir le nouveau prétexte d'obsolescence des parcs informatiques. Avant de renouveler 500 postes « pour l'IA », demandez : quels usages, pour qui, et pourquoi pas côté serveur ? La réponse économise souvent des centaines de milliers d'euros · et des tonnes de CO₂eq.",
+  "regard_en": "AI must not become the new pretext for fleet obsolescence. Before renewing 500 workstations \"for AI\", ask: which uses, for whom, and why not server-side? The answer often saves hundreds of thousands of euros · and tonnes of CO₂eq.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "dechets-electroniques",
+    "empreinte-materielle",
+    "numerique-responsable"
+  ],
+  "sources": [
+    {
+      "titre": "ADEME · Allongement de la durée de vie des équipements"
+    },
+    {
+      "titre": "HOP · Halte à l'obsolescence programmée"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

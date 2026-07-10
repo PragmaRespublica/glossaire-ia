@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Journalisation (logs)",
+  "terme_en": "Audit logging",
+  "sous_titre_fr": "Audit logging, traçabilité",
+  "sous_titre_en": "Journalisation, traçabilité",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Enregistrement systématique des événements d'un système d'IA : qui a posé quelle question, quelles sources ont été consultées, quelles actions un agent a exécutées, quelle réponse a été produite. La journalisation est la condition de l'auditabilité exigée par l'AI Act pour les systèmes à haut risque, et l'outil de base de toute analyse d'incident.",
+  "definition_en": "The systematic recording of an AI system's events: who asked which question, which sources were consulted, which actions an agent performed, which answer was produced. Logging is the condition of the auditability required by the AI Act for high-risk systems, and the basic tool of any incident analysis.",
+  "exemple_fr": "Un assistant IA juridique produit une réponse erronée qui conduit à une mauvaise décision. Grâce à la journalisation, l'équipe reconstitue en minutes la chaîne : le prompt, les cinq documents récupérés, la version du modèle. Elle identifie qu'un document obsolète avait été mal indexé. Sans journal, l'enquête aurait été impossible.",
+  "exemple_en": "A legal AI assistant produces an erroneous answer that leads to a bad decision. Thanks to logging, the team reconstructs the chain in minutes: the prompt, the five retrieved documents, the model version. It identifies that an obsolete document had been badly indexed. Without a log, the investigation would have been impossible.",
+  "regard_fr": "La journalisation est le prix d'entrée de l'IA de confiance : sans trace, pas d'audit, pas de responsabilité, pas d'amélioration. Mais elle contient des données sensibles · concevez-la dès le départ avec chiffrement, durée de conservation et contrôle d'accès.",
+  "regard_en": "Logging is the entry price of trustworthy AI: without a trace, no audit, no accountability, no improvement. But it contains sensitive data · design it from the start with encryption, retention periods and access control.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "accountability",
+    "supervision-humaine",
+    "systeme-haut-risque",
+    "monitoring"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 12 (enregistrement)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

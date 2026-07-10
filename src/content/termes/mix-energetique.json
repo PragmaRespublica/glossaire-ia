@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Mix énergétique",
+  "terme_en": "Energy mix",
+  "sous_titre_fr": "D'où vient l'électricité de vos requêtes",
+  "sous_titre_en": "Where your requests' electricity comes from",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Répartition des sources de production d'électricité d'un pays ou d'un réseau : nucléaire, hydraulique, éolien, solaire, gaz, charbon. Le mix détermine l'intensité carbone de chaque kilowattheure consommé par les data centers, et donc l'empreinte réelle d'un même usage d'IA selon l'endroit où il s'exécute.",
+  "definition_en": "The breakdown of a country's or grid's electricity production sources: nuclear, hydro, wind, solar, gas, coal. The mix determines the carbon intensity of every kilowatt-hour consumed by data centers, and therefore the real footprint of the same AI usage depending on where it runs.",
+  "exemple_fr": "La France produit une électricité à ~95 % décarbonée (nucléaire, hydraulique, renouvelables). L'Irlande, hub européen des data centers américains, dépend encore fortement du gaz · au point que les data centers y consomment plus de 20 % de l'électricité nationale et que de nouveaux raccordements ont été gelés autour de Dublin.",
+  "exemple_en": "France produces ~95% decarbonised electricity (nuclear, hydro, renewables). Ireland, the European hub of American data centers, still depends heavily on gas · to the point that data centers consume more than 20% of national electricity and new connections have been frozen around Dublin.",
+  "regard_fr": "Quand un fournisseur vante son « cloud vert », demandez où sont physiquement les serveurs et quel est le mix local réel · pas les certificats d'énergie renouvelable achetés a posteriori, qui verdissent le bilan sans changer un électron.",
+  "regard_en": "When a vendor touts its \"green cloud\", ask where the servers physically are and what the actual local mix is · not the renewable energy certificates bought after the fact, which green the report without changing a single electron.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "intensite-carbone",
+    "data-center",
+    "neutralite-carbone"
+  ],
+  "sources": [
+    {
+      "titre": "RTE · Bilan électrique annuel"
+    },
+    {
+      "titre": "AIE · Energy and AI"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

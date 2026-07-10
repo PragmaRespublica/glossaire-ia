@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Sécurité de la chaîne d'approvisionnement IA",
+  "terme_en": "AI supply chain security",
+  "sous_titre_fr": "AI supply chain security",
+  "sous_titre_en": "Sécurité de la chaîne d'approvisionnement IA",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Sécurisation de tous les maillons qui composent un système d'IA : modèles téléchargés, jeux de données, bibliothèques logicielles, prompts systèmes, extensions et serveurs MCP. Chaque maillon peut être compromis en amont · un modèle piégé ou une dépendance malveillante infecte tout ce qui repose dessus.",
+  "definition_en": "Securing every link that makes up an AI system: downloaded models, datasets, software libraries, system prompts, extensions and MCP servers. Each link can be compromised upstream · a booby-trapped model or malicious dependency infects everything built on it.",
+  "exemple_fr": "Une équipe télécharge un modèle « fine-tuné pour le français » sur une plateforme publique. Le fichier contient du code exécutable malveillant dans son format de sérialisation · au chargement, il exfiltre les variables d'environnement du serveur, clés d'API comprises. L'usage de formats sûrs (safetensors) et de sources vérifiées aurait suffi à l'éviter.",
+  "exemple_en": "A team downloads a model \"fine-tuned for French\" from a public platform. The file contains malicious executable code in its serialisation format · on loading, it exfiltrates the server's environment variables, API keys included. Using safe formats (safetensors) and verified sources would have been enough to avoid it.",
+  "regard_fr": "L'IA a reproduit en trois ans tous les problèmes de chaîne d'approvisionnement que le logiciel a mis vingt ans à découvrir. Traitez un modèle téléchargé comme n'importe quel binaire tiers : provenance, intégrité, inventaire, mise à jour.",
+  "regard_en": "AI reproduced in three years every supply chain problem software took twenty years to discover. Treat a downloaded model like any third-party binary: provenance, integrity, inventory, updates.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "porte-derobee-modele",
+    "empoisonnement-donnees",
+    "open-source-ia",
+    "mcp"
+  ],
+  "sources": [
+    {
+      "titre": "OWASP · Top 10 for LLM Applications (supply chain)",
+      "url": "https://genai.owasp.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

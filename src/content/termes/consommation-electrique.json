@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Consommation électrique de l'IA",
+  "terme_en": "AI electricity consumption",
+  "sous_titre_fr": "L'électricité derrière chaque requête",
+  "sous_titre_en": "The electricity behind every request",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Énergie électrique consommée par l'IA sur l'ensemble de son cycle : entraînement des modèles, inférence quotidienne, refroidissement, réseaux. L'AIE estime que les data centers pourraient voir leur consommation mondiale doubler entre 2024 et 2030, l'IA générative en étant le principal moteur.",
+  "definition_en": "The electrical energy consumed by AI across its whole cycle: model training, daily inference, cooling, networks. The IEA estimates that data centers could see their global consumption double between 2024 and 2030, with generative AI as the main driver.",
+  "exemple_fr": "Une requête à un LLM consomme environ 10 fois plus d'électricité qu'une recherche web classique. À l'échelle mondiale, si un moteur de recherche remplaçait toutes ses requêtes par des réponses génératives sans optimisation, sa facture énergétique serait multipliée en proportion · c'est pourquoi les acteurs mélangent petits et grands modèles selon la complexité.",
+  "exemple_en": "An LLM request consumes about 10 times more electricity than a classic web search. At global scale, if a search engine replaced all its queries with generative answers without optimisation, its energy bill would be multiplied in proportion · which is why players mix small and large models depending on complexity.",
+  "regard_fr": "La question n'est pas « l'IA consomme-t-elle ? » mais « pour quel service rendu ? ». Une requête utile vaut son électricité ; mille requêtes de confort, non. Le premier levier de sobriété reste le choix du bon modèle pour le bon usage.",
+  "regard_en": "The question is not \"does AI consume?\" but \"for what service rendered?\". A useful request is worth its electricity; a thousand comfort requests are not. The first sobriety lever remains choosing the right model for the right use.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "data-center",
+    "pue",
+    "sobriete-numerique",
+    "inference"
+  ],
+  "sources": [
+    {
+      "titre": "AIE · Energy and AI (2025)"
+    },
+    {
+      "titre": "EcoLogits",
+      "url": "https://ecologits.ai/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

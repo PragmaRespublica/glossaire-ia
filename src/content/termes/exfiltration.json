@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Exfiltration de données",
+  "terme_en": "Data exfiltration",
+  "sous_titre_fr": "Quand les données sortent sans autorisation",
+  "sous_titre_en": "When data leaves without authorisation",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Sortie non autorisée de données hors du périmètre de l'organisation, qu'elle soit le fait d'un attaquant, d'un logiciel malveillant ou d'un usage imprudent. L'IA générative crée des canaux d'exfiltration inédits : prompts contenant des secrets envoyés à des API externes, agents dotés d'accès réseau, injection de prompt pilotant la fuite.",
+  "definition_en": "The unauthorised exit of data outside the organisation's perimeter, whether caused by an attacker, malware or careless use. Generative AI creates novel exfiltration channels: prompts containing secrets sent to external APIs, agents with network access, prompt injection steering the leak.",
+  "exemple_fr": "Un agent IA d'entreprise peut lire les documents internes et naviguer sur le web. Un document piégé lui ordonne, en texte invisible, d'encoder le contenu confidentiel qu'il vient de lire dans l'URL d'une requête vers un site externe. Sans filtrage des sorties réseau, l'exfiltration est indétectable à l'œil nu.",
+  "exemple_en": "An enterprise AI agent can read internal documents and browse the web. A booby-trapped document orders it, in invisible text, to encode the confidential content it just read into the URL of a request to an external site. Without network egress filtering, the exfiltration is invisible to the naked eye.",
+  "regard_fr": "Chaque capacité donnée à un agent · lire, naviguer, envoyer · est un canal d'exfiltration potentiel. Le principe de moindre privilège n'est pas une paranoïa d'expert : c'est la condition pour déployer des agents sereinement.",
+  "regard_en": "Every capability granted to an agent · read, browse, send · is a potential exfiltration channel. Least privilege is not expert paranoia: it is the condition for deploying agents with peace of mind.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "injection-indirecte",
+    "moindre-privilege",
+    "fuite-informations",
+    "agent-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OWASP · Top 10 for LLM Applications",
+      "url": "https://genai.owasp.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

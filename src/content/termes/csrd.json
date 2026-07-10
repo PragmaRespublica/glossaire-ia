@@ -1,0 +1,40 @@
+{
+  "terme_fr": "CSRD et reporting de durabilité",
+  "terme_en": "CSRD sustainability reporting",
+  "sous_titre_fr": "Corporate Sustainability Reporting Directive",
+  "sous_titre_en": "Corporate Sustainability Reporting Directive",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Directive européenne qui impose aux grandes entreprises (puis progressivement aux ETI cotées) de publier un reporting de durabilité détaillé et audité, selon les normes ESRS. Le numérique et l'IA y entrent par les émissions de scope 3, la consommation énergétique et les impacts de la chaîne de valeur.",
+  "definition_en": "The European directive requiring large companies (then progressively listed mid-caps) to publish detailed, audited sustainability reporting under the ESRS standards. Digital technology and AI enter it through scope 3 emissions, energy consumption and value chain impacts.",
+  "exemple_fr": "Une ETI soumise à la CSRD découvre que son usage croissant d'API d'IA générative alourdit son scope 3 · les émissions de ses fournisseurs cloud. Elle doit désormais les estimer, les publier et documenter sa trajectoire de réduction. Le choix d'un fournisseur hébergé en France, au mix électrique décarboné, devient un argument de reporting.",
+  "exemple_en": "A mid-cap subject to the CSRD discovers that its growing use of generative AI APIs weighs on its scope 3 · the emissions of its cloud suppliers. It must now estimate them, publish them and document its reduction trajectory. Choosing a supplier hosted in France, with a decarbonised electricity mix, becomes a reporting argument.",
+  "regard_fr": "La CSRD transforme l'impact environnemental de l'IA en sujet de conformité, plus seulement d'éthique. Les organisations qui mesurent dès aujourd'hui leur empreinte IA prennent une longueur d'avance sur celles qui devront reconstruire l'historique dans l'urgence.",
+  "regard_en": "The CSRD turns AI's environmental impact into a compliance matter, no longer just an ethical one. Organisations measuring their AI footprint today get ahead of those that will have to reconstruct the history in a hurry.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "scope-3",
+    "empreinte-carbone",
+    "acv",
+    "gouvernance-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Directive (UE) 2022/2464 · CSRD"
+    },
+    {
+      "titre": "EFRAG · normes ESRS"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

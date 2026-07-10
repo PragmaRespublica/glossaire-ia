@@ -1,0 +1,122 @@
+{
+  "anssi": {
+    "sous_titre_fr": "Agence nationale de la sécurité des systèmes d'information",
+    "sous_titre_en": "France's national cybersecurity agency",
+    "definition_fr": "Autorité française de cybersécurité, rattachée au Premier ministre. L'ANSSI qualifie les prestataires de confiance (dont le label SecNumCloud), publie des guides de sécurisation · y compris des recommandations dédiées aux systèmes d'IA générative · et intervient sur les incidents majeurs touchant l'État et les opérateurs critiques.",
+    "definition_en": "France's cybersecurity authority, reporting to the Prime Minister. ANSSI qualifies trusted providers (including the SecNumCloud label), publishes security guides · including recommendations dedicated to generative AI systems · and responds to major incidents affecting the state and critical operators.",
+    "exemple_fr": "Avant de déployer un assistant IA interne, la DSI d'un opérateur d'importance vitale applique les recommandations ANSSI pour l'IA générative : cloisonnement du RAG, journalisation des requêtes, analyse de risque sur les données d'entraînement, hébergement qualifié SecNumCloud. Le projet passe l'homologation sans reprise.",
+    "exemple_en": "Before deploying an internal AI assistant, the IT department of a critical infrastructure operator applies ANSSI's recommendations for generative AI: RAG compartmentalisation, request logging, risk analysis on training data, SecNumCloud-qualified hosting. The project passes accreditation without rework.",
+    "regard_fr": "L'ANSSI est une chance française : des référentiels publics, gratuits et exigeants. S'en servir dès la conception coûte infiniment moins cher que de sécuriser après coup · et ses guides IA sont parmi les plus concrets du marché.",
+    "regard_en": "ANSSI is a French asset: public, free, demanding frameworks. Using them from the design stage costs infinitely less than securing after the fact · and its AI guides are among the most concrete on the market.",
+    "termes_lies": ["secnumcloud", "securite-donnees", "cloud-souverain"],
+    "sources": [{"titre": "ANSSI · Recommandations pour les systèmes d'IA générative", "url": "https://cyber.gouv.fr/"}]
+  },
+  "attaque-adverse": {
+    "sous_titre_fr": "Adversarial attack",
+    "sous_titre_en": "Attaque par exemples adverses",
+    "definition_fr": "Attaque consistant à modifier imperceptiblement une entrée (image, texte, son) pour tromper un modèle d'IA : quelques pixels altérés suffisent à faire classer un panneau stop comme une limitation de vitesse. Ces attaques exploitent la géométrie interne des modèles, pas des bugs · elles sont donc structurellement difficiles à éliminer.",
+    "definition_en": "An attack that imperceptibly modifies an input (image, text, sound) to fool an AI model: a few altered pixels are enough to make a stop sign classify as a speed limit. These attacks exploit models' internal geometry, not bugs · they are therefore structurally hard to eliminate.",
+    "exemple_fr": "Des chercheurs ont montré qu'un autocollant discret sur un panneau routier faisait dévier la classification d'un système de conduite autonome, et qu'un texte invisible à l'œil (caractères Unicode spéciaux) changeait la sortie d'un classifieur de CV. Pour un système d'IA à haut risque, ces scénarios doivent figurer dans l'analyse de risque.",
+    "exemple_en": "Researchers showed that a discreet sticker on a road sign shifted the classification of an autonomous driving system, and that text invisible to the eye (special Unicode characters) changed the output of a CV classifier. For a high-risk AI system, these scenarios must appear in the risk analysis.",
+    "regard_fr": "Les attaques adverses rappellent une vérité dérangeante : un modèle statistique ne « comprend » pas, il calcule. Toute décision critique doit prévoir le cas où ce calcul est manipulé · c'est le sens des exigences de robustesse de l'AI Act.",
+    "regard_en": "Adversarial attacks recall an uncomfortable truth: a statistical model does not \"understand\", it computes. Every critical decision must anticipate that computation being manipulated · that is the point of the AI Act's robustness requirements.",
+    "termes_lies": ["robustesse", "empoisonnement-donnees", "red-teaming", "systeme-haut-risque"],
+    "sources": [{"titre": "CNIL · Glossaire IA (attaque par exemples contradictoires)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}, {"titre": "NIST · Adversarial Machine Learning taxonomy"}]
+  },
+  "calcul-multipartite": {
+    "sous_titre_fr": "Secure multi-party computation (SMPC)",
+    "sous_titre_en": "Calcul multipartite sécurisé",
+    "definition_fr": "Technique cryptographique permettant à plusieurs parties de calculer ensemble un résultat (statistique, score, modèle) sans qu'aucune ne révèle ses données aux autres. Chaque participant ne voit que le résultat final · jamais les données brutes de ses partenaires.",
+    "definition_en": "A cryptographic technique enabling several parties to jointly compute a result (statistic, score, model) without any of them revealing their data to the others. Each participant sees only the final result · never its partners' raw data.",
+    "exemple_fr": "Trois banques veulent détecter des fraudeurs opérant chez elles simultanément, sans partager leurs fichiers clients (secret bancaire). Le calcul multipartite leur permet de croiser leurs listes de manière chiffrée : seules les correspondances suspectes émergent, aucune donnée client ne circule en clair.",
+    "exemple_en": "Three banks want to detect fraudsters operating across them simultaneously, without sharing their client files (banking secrecy). Secure multi-party computation lets them cross-match their lists in encrypted form: only suspicious matches emerge, no client data circulates in the clear.",
+    "regard_fr": "Avec le federated learning et le chiffrement homomorphe, le calcul multipartite compose une boîte à outils de « collaboration sans divulgation » encore sous-utilisée en Europe. Elle permet de mutualiser la valeur des données sans en abandonner la maîtrise · l'esprit même de la souveraineté.",
+    "regard_en": "With federated learning and homomorphic encryption, secure multi-party computation forms a \"collaboration without disclosure\" toolbox still under-used in Europe. It pools the value of data without surrendering control · the very spirit of sovereignty.",
+    "termes_lies": ["chiffrement-homomorphe", "federated-learning", "confidentialite-differentielle"],
+    "sources": [{"titre": "CNIL · Glossaire IA (calcul multipartite sécurisé)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "chaine-approvisionnement": {
+    "sous_titre_fr": "AI supply chain security",
+    "sous_titre_en": "Sécurité de la chaîne d'approvisionnement IA",
+    "definition_fr": "Sécurisation de tous les maillons qui composent un système d'IA : modèles téléchargés, jeux de données, bibliothèques logicielles, prompts systèmes, extensions et serveurs MCP. Chaque maillon peut être compromis en amont · un modèle piégé ou une dépendance malveillante infecte tout ce qui repose dessus.",
+    "definition_en": "Securing every link that makes up an AI system: downloaded models, datasets, software libraries, system prompts, extensions and MCP servers. Each link can be compromised upstream · a booby-trapped model or malicious dependency infects everything built on it.",
+    "exemple_fr": "Une équipe télécharge un modèle « fine-tuné pour le français » sur une plateforme publique. Le fichier contient du code exécutable malveillant dans son format de sérialisation · au chargement, il exfiltre les variables d'environnement du serveur, clés d'API comprises. L'usage de formats sûrs (safetensors) et de sources vérifiées aurait suffi à l'éviter.",
+    "exemple_en": "A team downloads a model \"fine-tuned for French\" from a public platform. The file contains malicious executable code in its serialisation format · on loading, it exfiltrates the server's environment variables, API keys included. Using safe formats (safetensors) and verified sources would have been enough to avoid it.",
+    "regard_fr": "L'IA a reproduit en trois ans tous les problèmes de chaîne d'approvisionnement que le logiciel a mis vingt ans à découvrir. Traitez un modèle téléchargé comme n'importe quel binaire tiers : provenance, intégrité, inventaire, mise à jour.",
+    "regard_en": "AI reproduced in three years every supply chain problem software took twenty years to discover. Treat a downloaded model like any third-party binary: provenance, integrity, inventory, updates.",
+    "termes_lies": ["porte-derobee-modele", "empoisonnement-donnees", "open-source-ia", "mcp"],
+    "sources": [{"titre": "OWASP · Top 10 for LLM Applications (supply chain)", "url": "https://genai.owasp.org/"}]
+  },
+  "chiffrement": {
+    "sous_titre_fr": "Encryption",
+    "sous_titre_en": "Chiffrement",
+    "definition_fr": "Transformation mathématique rendant des données illisibles sans la clé de déchiffrement. On distingue le chiffrement au repos (stockage), en transit (réseau) et, plus récent, en cours de traitement (enclaves, chiffrement homomorphe). Pour l'IA : prompts, documents du RAG et journaux de conversation doivent être chiffrés au repos comme en transit.",
+    "definition_en": "A mathematical transformation making data unreadable without the decryption key. One distinguishes encryption at rest (storage), in transit (network) and, more recently, in use (enclaves, homomorphic encryption). For AI: prompts, RAG documents and conversation logs must be encrypted at rest and in transit.",
+    "exemple_fr": "Une entreprise audite son assistant IA : les échanges avec l'API sont bien chiffrés en transit (TLS), mais l'historique des conversations est stocké en clair dans une base accessible à tous les administrateurs. Un seul compte compromis exposerait des mois de questions stratégiques. Le chiffrement au repos avec gestion de clés dédiée corrige ce maillon faible.",
+    "exemple_en": "A company audits its AI assistant: exchanges with the API are properly encrypted in transit (TLS), but the conversation history is stored in the clear in a database accessible to all administrators. A single compromised account would expose months of strategic questions. Encryption at rest with dedicated key management fixes this weak link.",
+    "regard_fr": "La question décisive n'est pas « est-ce chiffré ? » mais « qui détient les clés ? ». Un chiffrement dont votre fournisseur américain garde les clés ne vous protège ni du CLOUD Act ni de lui-même. Exigez la gestion de clés côté client quand l'enjeu le justifie.",
+    "regard_en": "The decisive question is not \"is it encrypted?\" but \"who holds the keys?\". Encryption whose keys your American provider keeps protects you neither from the CLOUD Act nor from the provider itself. Require client-side key management when the stakes warrant it.",
+    "termes_lies": ["securite-donnees", "chiffrement-homomorphe", "cloud-act", "tee"],
+    "sources": [{"titre": "ANSSI · Guide de chiffrement", "url": "https://cyber.gouv.fr/"}]
+  },
+  "chiffrement-homomorphe": {
+    "sous_titre_fr": "Calculer sur des données chiffrées",
+    "sous_titre_en": "Computing on encrypted data",
+    "definition_fr": "Technique cryptographique permettant d'effectuer des calculs directement sur des données chiffrées, sans jamais les déchiffrer : le résultat, une fois déchiffré, est identique à celui d'un calcul sur les données en clair. Encore coûteux en performance, il progresse rapidement · la France compte des acteurs de pointe comme Zama.",
+    "definition_en": "A cryptographic technique for performing computations directly on encrypted data, without ever decrypting it: the result, once decrypted, is identical to a computation on the plaintext. Still performance-costly, it is progressing fast · France counts leading players such as Zama.",
+    "exemple_fr": "Un hôpital souhaite faire analyser des données patients par un service d'IA externe sans jamais les exposer. Avec le chiffrement homomorphe, le prestataire calcule des scores de risque sur des données qu'il ne peut pas lire · l'hôpital seul déchiffre les résultats. La confidentialité ne repose plus sur la confiance, mais sur les mathématiques.",
+    "exemple_en": "A hospital wants patient data analysed by an external AI service without ever exposing it. With homomorphic encryption, the provider computes risk scores on data it cannot read · only the hospital decrypts the results. Confidentiality no longer rests on trust, but on mathematics.",
+    "regard_fr": "Le chiffrement homomorphe inverse le rapport de force avec les fournisseurs : plus besoin de leur faire confiance, il suffit de vérifier leurs mathématiques. Suivez cette technologie de près · elle pourrait rendre caduques bien des débats sur la localisation des données.",
+    "regard_en": "Homomorphic encryption reverses the power balance with providers: no need to trust them anymore, just verify their mathematics. Watch this technology closely · it could make many data-location debates obsolete.",
+    "termes_lies": ["chiffrement", "calcul-multipartite", "confidentialite-differentielle"],
+    "sources": [{"titre": "CNIL · Glossaire IA (chiffrement homomorphe)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "classification-information": {
+    "sous_titre_fr": "Savoir ce qui est sensible avant de le donner à l'IA",
+    "sous_titre_en": "Knowing what is sensitive before feeding it to AI",
+    "definition_fr": "Pratique consistant à classer l'information d'une organisation par niveau de sensibilité (public, interne, confidentiel, secret) et à définir pour chaque niveau les traitements autorisés. C'est le prérequis de toute politique d'usage de l'IA : sans classification, impossible de dire quelles données peuvent aller dans quel outil.",
+    "definition_en": "The practice of classifying an organisation's information by sensitivity level (public, internal, confidential, secret) and defining the authorised processing for each level. It is the prerequisite of any AI usage policy: without classification, it is impossible to say which data may go into which tool.",
+    "exemple_fr": "La charte IA d'une ETI tient en une matrice simple : données publiques → tout outil autorisé ; données internes → outils approuvés uniquement ; données confidentielles → IA souveraine interne exclusivement ; données réglementées → interdites de tout traitement IA sans validation du DPO. Chaque collaborateur sait en trois secondes ce qu'il peut faire.",
+    "exemple_en": "A mid-cap's AI charter fits in a simple matrix: public data → any tool allowed; internal data → approved tools only; confidential data → internal sovereign AI exclusively; regulated data → forbidden from any AI processing without DPO validation. Every employee knows in three seconds what they may do.",
+    "regard_fr": "Les fuites de données vers les chatbots publics ne viennent presque jamais de la malveillance, mais de l'absence de repères. Une classification claire transforme la charte IA d'un document juridique en réflexe quotidien.",
+    "regard_en": "Data leaks to public chatbots almost never come from malice, but from a lack of reference points. A clear classification turns the AI charter from a legal document into a daily reflex.",
+    "termes_lies": ["charte-ia", "securite-donnees", "donnees-sensibles", "ia-fantome"],
+    "sources": [{"titre": "ANSSI · classification de l'information", "url": "https://cyber.gouv.fr/"}]
+  },
+  "confidentialite-differentielle": {
+    "sous_titre_fr": "Differential privacy",
+    "sous_titre_en": "Confidentialité différentielle",
+    "definition_fr": "Cadre mathématique garantissant qu'un résultat statistique ou un modèle ne permet pas de savoir si les données d'une personne précise ont été utilisées. On l'obtient en injectant un bruit calibré dans les calculs · au prix d'un compromis mesurable entre confidentialité et précision.",
+    "definition_en": "A mathematical framework guaranteeing that a statistical result or a model does not reveal whether a specific person's data was used. It is obtained by injecting calibrated noise into the computations · at the price of a measurable trade-off between privacy and accuracy.",
+    "exemple_fr": "Un institut statistique publie des indicateurs issus de données de santé. Avec la confidentialité différentielle, même un attaquant disposant de toutes les autres données ne peut pas déduire si votre dossier figure dans le calcul. Apple et le recensement américain l'utilisent en production depuis des années.",
+    "exemple_en": "A statistics institute publishes indicators derived from health data. With differential privacy, even an attacker holding all the other data cannot deduce whether your record is in the computation. Apple and the US census have used it in production for years.",
+    "regard_fr": "La confidentialité différentielle apporte ce qui manque aux promesses d'« anonymisation » : une garantie quantifiable. Quand un fournisseur affirme que vos données sont anonymisées, demandez le budget de confidentialité (epsilon) · si la question le surprend, l'anonymisation est probablement cosmétique.",
+    "regard_en": "Differential privacy brings what \"anonymisation\" promises lack: a quantifiable guarantee. When a vendor claims your data is anonymised, ask for the privacy budget (epsilon) · if the question surprises them, the anonymisation is probably cosmetic.",
+    "termes_lies": ["anonymisation", "inference-appartenance", "donnees-personnelles"],
+    "sources": [{"titre": "CNIL · Glossaire IA (confidentialité différentielle)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "empoisonnement-donnees": {
+    "sous_titre_fr": "Data poisoning",
+    "sous_titre_en": "Empoisonnement de données",
+    "definition_fr": "Attaque consistant à corrompre les données d'entraînement ou d'alimentation d'un système d'IA pour en modifier le comportement : insertion d'exemples piégés, biais délibérés, portes dérobées activables par un motif précis. Les systèmes qui apprennent en continu ou indexent des sources externes y sont particulièrement exposés.",
+    "definition_en": "An attack that corrupts the training or feeding data of an AI system to alter its behaviour: insertion of booby-trapped examples, deliberate bias, backdoors activated by a specific trigger. Systems that learn continuously or index external sources are particularly exposed.",
+    "exemple_fr": "Des chercheurs ont démontré qu'en publiant quelques centaines de pages web soigneusement construites, on peut empoisonner les futurs modèles entraînés sur le web · leur faire associer une marque à des faits inventés, par exemple. Pour un RAG d'entreprise, le vecteur est plus simple encore : un document piégé déposé dans le SharePoint indexé.",
+    "exemple_en": "Researchers demonstrated that by publishing a few hundred carefully crafted web pages, one can poison future models trained on the web · making them associate a brand with invented facts, for instance. For an enterprise RAG, the vector is even simpler: a booby-trapped document dropped into the indexed SharePoint.",
+    "regard_fr": "L'empoisonnement rappelle que la sécurité d'une IA se joue d'abord dans ses données. Contrôlez ce qui entre dans vos corpus et vos index comme vous contrôlez qui entre dans vos locaux · avec des règles, des journaux et des audits.",
+    "regard_en": "Poisoning reminds us that an AI's security is decided first in its data. Control what enters your corpora and indexes the way you control who enters your premises · with rules, logs and audits.",
+    "termes_lies": ["attaque-adverse", "porte-derobee-modele", "audit-documentaire", "prompt-injection"],
+    "sources": [{"titre": "CNIL · Glossaire IA (attaque par empoisonnement)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}, {"titre": "OWASP · Top 10 for LLM", "url": "https://genai.owasp.org/"}]
+  },
+  "exfiltration": {
+    "sous_titre_fr": "Quand les données sortent sans autorisation",
+    "sous_titre_en": "When data leaves without authorisation",
+    "definition_fr": "Sortie non autorisée de données hors du périmètre de l'organisation, qu'elle soit le fait d'un attaquant, d'un logiciel malveillant ou d'un usage imprudent. L'IA générative crée des canaux d'exfiltration inédits : prompts contenant des secrets envoyés à des API externes, agents dotés d'accès réseau, injection de prompt pilotant la fuite.",
+    "definition_en": "The unauthorised exit of data outside the organisation's perimeter, whether caused by an attacker, malware or careless use. Generative AI creates novel exfiltration channels: prompts containing secrets sent to external APIs, agents with network access, prompt injection steering the leak.",
+    "exemple_fr": "Un agent IA d'entreprise peut lire les documents internes et naviguer sur le web. Un document piégé lui ordonne, en texte invisible, d'encoder le contenu confidentiel qu'il vient de lire dans l'URL d'une requête vers un site externe. Sans filtrage des sorties réseau, l'exfiltration est indétectable à l'œil nu.",
+    "exemple_en": "An enterprise AI agent can read internal documents and browse the web. A booby-trapped document orders it, in invisible text, to encode the confidential content it just read into the URL of a request to an external site. Without network egress filtering, the exfiltration is invisible to the naked eye.",
+    "regard_fr": "Chaque capacité donnée à un agent · lire, naviguer, envoyer · est un canal d'exfiltration potentiel. Le principe de moindre privilège n'est pas une paranoïa d'expert : c'est la condition pour déployer des agents sereinement.",
+    "regard_en": "Every capability granted to an agent · read, browse, send · is a potential exfiltration channel. Least privilege is not expert paranoia: it is the condition for deploying agents with peace of mind.",
+    "termes_lies": ["injection-indirecte", "moindre-privilege", "fuite-informations", "agent-ia"],
+    "sources": [{"titre": "OWASP · Top 10 for LLM Applications", "url": "https://genai.owasp.org/"}]
+  }
+}

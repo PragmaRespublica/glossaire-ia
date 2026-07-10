@@ -1,0 +1,38 @@
+{
+  "terme_fr": "OWASP Top 10 pour les LLM",
+  "terme_en": "OWASP Top 10 for LLM",
+  "sous_titre_fr": "Le top 10 des risques des applications LLM",
+  "sous_titre_en": "The top 10 risks of LLM applications",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Référentiel de la fondation OWASP recensant les dix vulnérabilités les plus critiques des applications bâties sur des LLM : injection de prompt, divulgation d'informations sensibles, failles de la chaîne d'approvisionnement, empoisonnement, consommation excessive de ressources, autonomie excessive des agents, entre autres. C'est la check-list de référence des équipes sécurité.",
+  "definition_en": "An OWASP Foundation framework listing the ten most critical vulnerabilities of LLM-based applications: prompt injection, sensitive information disclosure, supply chain flaws, poisoning, excessive resource consumption, excessive agency, among others. It is the reference checklist for security teams.",
+  "exemple_fr": "Avant la mise en production d'un chatbot client, l'équipe sécurité passe l'application au crible du top 10 OWASP LLM : test d'injection de prompt, vérification des fuites d'informations, audit des dépendances, limitation du débit. Trois vulnérabilités sont corrigées avant le lancement · pour un coût dérisoire comparé à un incident public.",
+  "exemple_en": "Before going live with a customer chatbot, the security team runs the application through the OWASP LLM Top 10: prompt injection testing, information leakage checks, dependency audit, rate limiting. Three vulnerabilities are fixed before launch · at a trivial cost compared with a public incident.",
+  "regard_fr": "Le top 10 OWASP LLM fait pour l'IA ce que son aîné a fait pour le web : donner un langage commun et une check-list actionnable. L'adopter dès le premier projet évite de redécouvrir, incident après incident, des risques déjà cartographiés.",
+  "regard_en": "The OWASP LLM Top 10 does for AI what its predecessor did for the web: provide a common language and an actionable checklist. Adopting it from the first project avoids rediscovering, incident after incident, risks already mapped.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt-injection",
+    "chaine-approvisionnement",
+    "fuite-informations",
+    "red-teaming"
+  ],
+  "sources": [
+    {
+      "titre": "OWASP · Top 10 for LLM Applications",
+      "url": "https://genai.owasp.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

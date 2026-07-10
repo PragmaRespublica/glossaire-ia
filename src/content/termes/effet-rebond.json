@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Effet rebond",
+  "terme_en": "Rebound effect",
+  "sous_titre_fr": "Paradoxe de Jevons",
+  "sous_titre_en": "Jevons paradox",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Phénomène par lequel les gains d'efficacité d'une technologie augmentent son usage total au lieu de réduire sa consommation globale. Appliqué à l'IA : des modèles plus efficaces par requête, mais tellement plus utilisés que la consommation totale explose.",
+  "definition_en": "The phenomenon whereby a technology's efficiency gains increase its total use instead of reducing its overall consumption. Applied to AI: models more efficient per request, but used so much more that total consumption soars.",
+  "exemple_fr": "Entre 2023 et 2026, le coût énergétique par token a été divisé par un facteur important grâce aux optimisations. Dans le même temps, le nombre de tokens générés dans le monde a été multiplié bien davantage · résultat : la consommation totale de l'IA a augmenté, pas diminué. L'efficacité seule ne suffit pas.",
+  "exemple_en": "Between 2023 and 2026, the energy cost per token was divided by a significant factor thanks to optimisations. Over the same period, the number of tokens generated worldwide multiplied far more · the result: AI's total consumption went up, not down. Efficiency alone is not enough.",
+  "regard_fr": "L'effet rebond est l'argument qui manque à tous les discours « notre modèle est plus efficace ». L'efficacité est nécessaire mais pas suffisante : sans interrogation des usages, elle nourrit la croissance de la consommation qu'elle prétend combattre.",
+  "regard_en": "The rebound effect is the missing argument in every \"our model is more efficient\" narrative. Efficiency is necessary but not sufficient: without questioning usage, it feeds the very consumption growth it claims to fight.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "sobriete-numerique",
+    "consommation-electrique",
+    "ia-frugale"
+  ],
+  "sources": [
+    {
+      "titre": "The Shift Project · Lean ICT"
+    },
+    {
+      "titre": "William Stanley Jevons · The Coal Question (1865)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

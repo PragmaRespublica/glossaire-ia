@@ -1,0 +1,38 @@
+{
+  "terme_fr": "SecNumCloud",
+  "terme_en": "SecNumCloud",
+  "sous_titre_fr": "Le label cloud de confiance de l'ANSSI",
+  "sous_titre_en": "ANSSI's trusted cloud label",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Visa de sécurité délivré par l'ANSSI aux prestataires de cloud répondant à un haut niveau d'exigences techniques, organisationnelles et juridiques · dont l'immunité aux lois extraterritoriales comme le CLOUD Act. C'est la référence française du cloud de confiance, exigée pour les données les plus sensibles de l'État et des opérateurs critiques.",
+  "definition_en": "A security visa issued by ANSSI to cloud providers meeting a high level of technical, organisational and legal requirements · including immunity from extraterritorial laws such as the CLOUD Act. It is the French benchmark for trusted cloud, required for the most sensitive data of the state and critical operators.",
+  "exemple_fr": "Une administration doit héberger un assistant IA traitant des données de citoyens. Le cahier des charges exige une infrastructure qualifiée SecNumCloud : cela écarte d'office les offres des hyperscalers américains, même « région France », et oriente vers OVHcloud, Outscale ou Numspot. La souveraineté devient un critère d'appel d'offres, pas un vœu.",
+  "exemple_en": "A public administration must host an AI assistant processing citizens' data. The specification requires SecNumCloud-qualified infrastructure: this automatically rules out American hyperscalers' offerings, even \"France region\", and points to OVHcloud, Outscale or Numspot. Sovereignty becomes a tender criterion, not a wish.",
+  "regard_fr": "SecNumCloud tranche le débat « cloud européen » contre « cloud souverain » : il exige l'immunité juridique, pas seulement la localisation. Pour vos données les plus sensibles, c'est le seul critère qui protège réellement du CLOUD Act.",
+  "regard_en": "SecNumCloud settles the \"European cloud\" vs \"sovereign cloud\" debate: it requires legal immunity, not just localisation. For your most sensitive data, it is the only criterion that truly protects against the CLOUD Act.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "cloud-souverain",
+    "anssi",
+    "cloud-act",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · référentiel SecNumCloud",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

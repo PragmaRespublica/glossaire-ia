@@ -83,10 +83,14 @@ def main() -> int:
     # 4 · complétude
     scores = {slug: completude(d) for slug, d in fiches.items()}
 
-    # 5 · termes_lies pointent vers des fiches existantes
+    # 5 · termes_lies pointent vers la liste canonique (fiches à venir admises)
+    canonique = set(fiches)
+    liste = ROOT / "data" / "liste-canonique.json"
+    if liste.exists():
+        canonique |= {r["slug"] for r in json.loads(liste.read_text(encoding="utf-8"))}
     for slug, d in fiches.items():
         for cible in d["termes_lies"]:
-            if cible not in fiches:
+            if cible not in canonique:
                 erreurs.append(f"[terme lié inexistant] {slug} → {cible}")
 
     RAPPORT.write_text(

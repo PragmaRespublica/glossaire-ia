@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Fuite d'informations",
+  "terme_en": "Data leakage",
+  "sous_titre_fr": "Data leakage",
+  "sous_titre_en": "Fuite d'information",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Divulgation involontaire d'informations confidentielles par un système d'IA : un modèle qui restitue des données de son entraînement, un RAG qui expose des documents au-delà des droits de l'utilisateur, un assistant qui mélange les contextes de deux clients. La fuite naît souvent d'un défaut de conception, pas d'une attaque.",
+  "definition_en": "The unintentional disclosure of confidential information by an AI system: a model regurgitating its training data, a RAG exposing documents beyond the user's rights, an assistant mixing two clients' contexts. Leakage often arises from a design flaw, not an attack.",
+  "exemple_fr": "Un assistant IA déployé sans gestion fine des droits laisse un commercial interroger « quels sont les dossiers du service juridique ? » · et obtenir des réponses construites sur des documents qu'il n'aurait jamais dû voir. Le RAG a bien fonctionné ; c'est le contrôle d'accès qui manquait. La fuite était dans l'architecture.",
+  "exemple_en": "An AI assistant deployed without fine-grained access control lets a salesperson ask \"what are the legal department's files?\" · and get answers built on documents they should never have seen. The RAG worked fine; it was access control that was missing. The leak was in the architecture.",
+  "regard_fr": "Dans un RAG, la question de sécurité n'est pas « le modèle est-il fiable ? » mais « respecte-t-il les droits d'accès de chaque utilisateur ? ». Répliquez vos permissions existantes jusque dans l'index vectoriel · sinon l'IA devient une passoire à confidentialité.",
+  "regard_en": "In a RAG, the security question is not \"is the model reliable?\" but \"does it respect each user's access rights?\". Replicate your existing permissions all the way into the vector index · otherwise the AI becomes a confidentiality sieve.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "securite-donnees",
+    "regurgitation",
+    "iam",
+    "exfiltration"
+  ],
+  "sources": [
+    {
+      "titre": "OWASP · Sensitive Information Disclosure (LLM)",
+      "url": "https://genai.owasp.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

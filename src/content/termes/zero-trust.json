@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Zéro confiance (zero trust)",
+  "terme_en": "Zero trust",
+  "sous_titre_fr": "Ne jamais faire confiance, toujours vérifier",
+  "sous_titre_en": "Never trust, always verify",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Modèle de sécurité qui abandonne l'idée d'un réseau interne « de confiance » : chaque accès, interne comme externe, est vérifié et authentifié. Particulièrement pertinent pour l'IA, où agents et services s'appellent en chaîne : chaque maillon doit prouver son identité et ses droits, sans confiance implicite héritée du réseau.",
+  "definition_en": "A security model that abandons the idea of a \"trusted\" internal network: every access, internal or external, is verified and authenticated. Particularly relevant for AI, where agents and services call each other in chains: each link must prove its identity and rights, with no implicit trust inherited from the network.",
+  "exemple_fr": "Dans une architecture IA moderne, un agent appelle un service de récupération, qui interroge une base vectorielle, qui accède à des documents. En zéro confiance, chaque appel porte une identité et des droits vérifiés : même si un attaquant compromet un maillon, il ne peut pas se déplacer librement dans la chaîne. Le cloisonnement limite l'explosion.",
+  "exemple_en": "In a modern AI architecture, an agent calls a retrieval service, which queries a vector database, which accesses documents. Under zero trust, each call carries a verified identity and rights: even if an attacker compromises one link, they cannot move freely through the chain. Compartmentalisation limits the blast radius.",
+  "regard_fr": "Le zéro confiance est le bon état d'esprit pour les architectures agentiques, où tout composant peut être détourné. La question n'est plus « ce composant est-il dans mon réseau ? » mais « a-t-il prouvé qu'il a le droit de faire ce qu'il demande ? ».",
+  "regard_en": "Zero trust is the right mindset for agentic architectures, where any component can be hijacked. The question is no longer \"is this component in my network?\" but \"has it proven it has the right to do what it asks?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "moindre-privilege",
+    "iam",
+    "chaine-approvisionnement",
+    "systeme-multi-agents"
+  ],
+  "sources": [
+    {
+      "titre": "NIST · SP 800-207 Zero Trust Architecture"
+    },
+    {
+      "titre": "ANSSI · modèle zero trust",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Environnement d'exécution de confiance (TEE)",
+  "terme_en": "Trusted Execution Environment (TEE)",
+  "sous_titre_fr": "Environnement d'exécution de confiance",
+  "sous_titre_en": "Trusted Execution Environment",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Zone matérielle isolée d'un processeur, où le code et les données sont protégés même du système d'exploitation et de l'administrateur de la machine. Appliqué à l'IA, un TEE permet d'exécuter un modèle sur des données confidentielles chez un tiers sans que ce tiers puisse y accéder · un pilier du « confidential computing ».",
+  "definition_en": "An isolated hardware zone of a processor, where code and data are protected even from the operating system and the machine's administrator. Applied to AI, a TEE lets you run a model on confidential data at a third party's site without that third party being able to access it · a pillar of \"confidential computing\".",
+  "exemple_fr": "Une entreprise veut utiliser la puissance de calcul d'un cloud pour analyser des données confidentielles, sans faire confiance à l'hébergeur. Le traitement s'exécute dans un TEE : l'hébergeur fournit le processeur mais ne peut ni lire les données ni observer le calcul. La confidentialité repose sur le matériel, pas sur un contrat.",
+  "exemple_en": "A company wants to use a cloud's compute power to analyse confidential data, without trusting the host. The processing runs in a TEE: the host provides the processor but can neither read the data nor observe the computation. Confidentiality rests on the hardware, not on a contract.",
+  "regard_fr": "Le confidential computing par TEE déplace la confiance du fournisseur vers le silicium. C'est une piste sérieuse pour concilier puissance du cloud et souveraineté des données · à condition de vérifier qui conçoit et certifie le matériel de confiance.",
+  "regard_en": "Confidential computing via TEE shifts trust from the provider to the silicon. It is a serious avenue for reconciling cloud power with data sovereignty · provided you check who designs and certifies the trusted hardware.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chiffrement",
+    "cloud-souverain",
+    "chiffrement-homomorphe",
+    "securite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "Confidential Computing Consortium"
+    },
+    {
+      "titre": "ANSSI · sécurité des architectures",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

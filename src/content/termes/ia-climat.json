@@ -1,0 +1,39 @@
+{
+  "terme_fr": "IA au service du climat",
+  "terme_en": "AI for climate",
+  "sous_titre_fr": "Quand l'IA sert la transition",
+  "sous_titre_en": "When AI serves the transition",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des usages de l'IA au service du climat et de l'environnement : optimisation énergétique des bâtiments et des réseaux, prévision météo et climatique, agriculture de précision, détection de fuites de méthane par satellite, modélisation des écosystèmes. L'IA y est un outil, pas une fin.",
+  "definition_en": "The set of AI uses serving climate and environment: energy optimisation of buildings and grids, weather and climate forecasting, precision agriculture, satellite detection of methane leaks, ecosystem modelling. AI is a tool there, not an end.",
+  "exemple_fr": "Un gestionnaire de réseau électrique utilise des modèles prédictifs pour anticiper la production solaire et éolienne à 48 h, réduisant le recours aux centrales fossiles d'appoint. Ici, une IA non générative, sobre et spécialisée, évite bien plus d'émissions qu'elle n'en produit.",
+  "exemple_en": "A power grid operator uses predictive models to anticipate solar and wind production 48 hours ahead, reducing reliance on backup fossil plants. Here, a frugal, specialised, non-generative AI avoids far more emissions than it produces.",
+  "regard_fr": "« L'IA sauvera le climat » et « l'IA détruit la planète » sont deux paresses intellectuelles. Le vrai critère : le bilan net par cas d'usage. Une IA de pilotage énergétique se justifie ; un générateur de vidéos publicitaires en 8K, plus difficilement.",
+  "regard_en": "\"AI will save the climate\" and \"AI is destroying the planet\" are two forms of intellectual laziness. The real criterion: the net balance per use case. An energy management AI justifies itself; an 8K advertising video generator, less easily.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-non-generative",
+    "sobriete-numerique",
+    "effet-rebond"
+  ],
+  "sources": [
+    {
+      "titre": "GIEC · AR6, chapitre atténuation"
+    },
+    {
+      "titre": "Climate Change AI (climatechange.ai)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

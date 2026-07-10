@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Confidentialité différentielle",
+  "terme_en": "Differential privacy",
+  "sous_titre_fr": "Differential privacy",
+  "sous_titre_en": "Confidentialité différentielle",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "pages_liees": [],
+  "definition_fr": "Cadre mathématique garantissant qu'un résultat statistique ou un modèle ne permet pas de savoir si les données d'une personne précise ont été utilisées. On l'obtient en injectant un bruit calibré dans les calculs · au prix d'un compromis mesurable entre confidentialité et précision.",
+  "definition_en": "A mathematical framework guaranteeing that a statistical result or a model does not reveal whether a specific person's data was used. It is obtained by injecting calibrated noise into the computations · at the price of a measurable trade-off between privacy and accuracy.",
+  "exemple_fr": "Un institut statistique publie des indicateurs issus de données de santé. Avec la confidentialité différentielle, même un attaquant disposant de toutes les autres données ne peut pas déduire si votre dossier figure dans le calcul. Apple et le recensement américain l'utilisent en production depuis des années.",
+  "exemple_en": "A statistics institute publishes indicators derived from health data. With differential privacy, even an attacker holding all the other data cannot deduce whether your record is in the computation. Apple and the US census have used it in production for years.",
+  "regard_fr": "La confidentialité différentielle apporte ce qui manque aux promesses d'« anonymisation » : une garantie quantifiable. Quand un fournisseur affirme que vos données sont anonymisées, demandez le budget de confidentialité (epsilon) · si la question le surprend, l'anonymisation est probablement cosmétique.",
+  "regard_en": "Differential privacy brings what \"anonymisation\" promises lack: a quantifiable guarantee. When a vendor claims your data is anonymised, ask for the privacy budget (epsilon) · if the question surprises them, the anonymisation is probably cosmetic.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "anonymisation",
+    "inference-appartenance",
+    "donnees-personnelles"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (confidentialité différentielle)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
