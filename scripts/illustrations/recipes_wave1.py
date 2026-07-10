@@ -351,56 +351,6 @@ def _(c):
 
 
 # ── Prompting & usage ───────────────────────────────────────────────────
-@rec("prompt-engineering",
-     "Ingénierie de prompt : une instruction précise transforme la qualité de la réponse.",
-     "Prompt engineering: a precise instruction transforms the answer's quality.")
-def _(c):
-    c.eyebrow("ingénierie de prompt")
-    c.rect(80, 100, 190, 60, rx=6, dash="4 4")
-    c.text(175, 125, '"fais un plan"', size=12, anchor="middle", op=0.6)
-    c.text(175, 145, "vague", size=10, anchor="middle", op=0.4)
-    c.rect(80, 185, 190, 70, rx=6, stroke=POS)
-    c.text(175, 208, "rôle + tâche +", size=11, anchor="middle", color=POS)
-    c.text(175, 226, "format + contexte", size=11, anchor="middle", color=POS)
-    c.text(175, 246, "précis", size=10, anchor="middle", color=POS, op=0.7)
-    c.line(275, 205, 320, 180, arrow=True, sop=0.4)
-    c.line(275, 215, 320, 215, arrow=True)
-    c.node(330, 165, 190, 100, "RÉSULTAT\nEXPLOITABLE", size=13, color=POS)
-
-
-@rec("chaine-pensee",
-     "Chaîne de pensée : le modèle raisonne étape par étape avant de conclure.",
-     "Chain-of-thought: the model reasons step by step before concluding.")
-def _(c):
-    c.eyebrow("chaîne de pensée")
-    steps = ["étape 1", "étape 2", "étape 3"]
-    for i, s in enumerate(steps):
-        y = 100 + i * 42
-        c.node(120, y, 130, 32, s, size=12)
-        if i < 2:
-            c.line(185, y + 32, 185, y + 42, arrow=True)
-    c.line(250, 205, 330, 205, arrow=True)
-    c.node(340, 185, 150, 44, "RÉPONSE\nJUSTE", size=12, color=POS)
-    c.text(185, 260, "ralentir = plus juste", size=11, anchor="middle", op=0.6)
-
-
-@rec("humain-dans-la-boucle",
-     "Humain dans la boucle : l'IA propose, l'humain valide les décisions sensibles.",
-     "Human in the loop: AI proposes, the human validates sensitive decisions.")
-def _(c):
-    c.eyebrow("humain dans la boucle")
-    c.node(80, 130, 110, 50, "IA", size=16)
-    c.line(190, 155, 235, 155, arrow=True)
-    c.circle(280, 155, 30, sw=2, stroke=POS)
-    c.circle(280, 145, 9, sw=2, stroke=POS)
-    c.path("M 265 175 q 15 -14 30 0", stroke=POS, sw=2)
-    c.text(280, 205, "humain", size=11, anchor="middle", color=POS)
-    c.line(325, 155, 370, 155, arrow=True)
-    c.node(380, 130, 130, 50, "DÉCISION", size=12)
-    c.text(280, 100, "propose → valide", size=11, anchor="middle", op=0.6)
-
-
-# ── Sécurité ────────────────────────────────────────────────────────────
 @rec("prompt-injection",
      "Injection de prompt : une instruction malveillante cachée détourne le modèle.",
      "Prompt injection: a hidden malicious instruction hijacks the model.")
