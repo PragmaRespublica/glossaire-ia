@@ -1,0 +1,4912 @@
+[
+ {
+  "slug": "accountability",
+  "terme_fr": "Responsabilité démontrable (accountability)",
+  "terme_en": "Accountability",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "acculturation-ia",
+  "terme_fr": "Acculturation à l'IA (AI literacy)",
+  "terme_en": "AI literacy",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "acv",
+  "terme_fr": "ACV · Analyse du Cycle de Vie",
+  "terme_en": "Life Cycle Assessment (LCA)",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "ademe",
+  "terme_fr": "ADEME et référentiels d'impact",
+  "terme_en": "ADEME (French environment agency)",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "adoption-ia",
+  "terme_fr": "Adoption de l'IA en entreprise",
+  "terme_en": "Enterprise AI adoption",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "agent-autonome",
+  "terme_fr": "Agent autonome",
+  "terme_en": "Autonomous agent",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf"
+ },
+ {
+  "slug": "agent-ia",
+  "terme_fr": "Agent IA",
+  "terme_en": "AI agent",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "publie",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "agents-vocaux",
+  "terme_fr": "Agents vocaux",
+  "terme_en": "Voice agents",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "agi",
+  "terme_fr": "Intelligence artificielle générale (AGI)",
+  "terme_en": "Artificial General Intelligence (AGI)",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml wikipedia"
+ },
+ {
+  "slug": "ai-act",
+  "terme_fr": "AI Act",
+  "terme_en": "AI Act",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "aiaas",
+  "terme_fr": "IA en tant que service (AIaaS)",
+  "terme_en": "AI as a Service (AIaaS)",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": "twilio"
+ },
+ {
+  "slug": "aipd",
+  "terme_fr": "Analyse d'impact protection des données (AIPD)",
+  "terme_en": "Data Protection Impact Assessment (DPIA)",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "albert",
+  "terme_fr": "Albert · l'IA de l'État français",
+  "terme_en": "Albert (French state AI)",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "algorithme",
+  "terme_fr": "Algorithme",
+  "terme_en": "Algorithm",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cafeia cnil wikipedia"
+ },
+ {
+  "slug": "alignement-ia",
+  "terme_fr": "Alignement de l'IA",
+  "terme_en": "AI alignment",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "analyse-sentiments",
+  "terme_fr": "Analyse de sentiments",
+  "terme_en": "Sentiment analysis",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf"
+ },
+ {
+  "slug": "ancrage",
+  "terme_fr": "Ancrage (grounding)",
+  "terme_en": "Grounding",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "google_genai google_ml oqlf"
+ },
+ {
+  "slug": "anonymisation",
+  "terme_fr": "Anonymisation",
+  "terme_en": "Anonymization",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "anssi",
+  "terme_fr": "ANSSI",
+  "terme_en": "ANSSI (French cybersecurity agency)",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "anthropic",
+  "terme_fr": "Anthropic",
+  "terme_en": "Anthropic",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "anthropomorphisme",
+  "terme_fr": "Anthropomorphisme",
+  "terme_en": "Anthropomorphism",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "api",
+  "terme_fr": "API",
+  "terme_en": "API",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "appel-fonctions",
+  "terme_fr": "Appel de fonctions",
+  "terme_en": "Function calling",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "google_genai"
+ },
+ {
+  "slug": "apprentissage-actif",
+  "terme_fr": "Apprentissage actif",
+  "terme_en": "Active learning",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml"
+ },
+ {
+  "slug": "apprentissage-auto-supervise",
+  "terme_fr": "Apprentissage auto-supervisé",
+  "terme_en": "Self-supervised learning",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil franceterme google_ml"
+ },
+ {
+  "slug": "apprentissage-automatique",
+  "terme_fr": "Apprentissage automatique",
+  "terme_en": "Machine learning",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cafeia cnil franceterme google_ml hoko oqlf twilio wikipedia"
+ },
+ {
+  "slug": "apprentissage-continu",
+  "terme_fr": "Apprentissage continu",
+  "terme_en": "Continual learning",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil oqlf"
+ },
+ {
+  "slug": "apprentissage-non-supervise",
+  "terme_fr": "Apprentissage non supervisé",
+  "terme_en": "Unsupervised learning",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil franceterme oqlf twilio wikipedia"
+ },
+ {
+  "slug": "apprentissage-profond",
+  "terme_fr": "Apprentissage profond",
+  "terme_en": "Deep learning",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cafeia cnil franceterme hoko oqlf twilio wikipedia"
+ },
+ {
+  "slug": "apprentissage-renforcement",
+  "terme_fr": "Apprentissage par renforcement",
+  "terme_en": "Reinforcement learning",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil franceterme google_ml oqlf twilio wikipedia"
+ },
+ {
+  "slug": "apprentissage-semi-supervise",
+  "terme_fr": "Apprentissage semi-supervisé",
+  "terme_en": "Semi-supervised learning",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf wikipedia"
+ },
+ {
+  "slug": "apprentissage-supervise",
+  "terme_fr": "Apprentissage supervisé",
+  "terme_en": "Supervised learning",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil franceterme oqlf twilio wikipedia"
+ },
+ {
+  "slug": "apprentissage-transfert",
+  "terme_fr": "Apprentissage par transfert",
+  "terme_en": "Transfer learning",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil franceterme google_ml wikipedia"
+ },
+ {
+  "slug": "arbre-pensees",
+  "terme_fr": "Arbre de pensées (ToT)",
+  "terme_en": "Tree of Thoughts (ToT)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "arene-llm",
+  "terme_fr": "Arène de comparaison (LMArena)",
+  "terme_en": "LLM Arena",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "assistant-vocal",
+  "terme_fr": "Assistant vocal",
+  "terme_en": "Voice assistant",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "assistants-personnalises",
+  "terme_fr": "Assistants personnalisés (GPTs, Gems, Projets)",
+  "terme_en": "Custom assistants",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "attaque-adverse",
+  "terme_fr": "Attaque par exemples adverses",
+  "terme_en": "Adversarial attack",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "audit-algorithmique",
+  "terme_fr": "Audit algorithmique",
+  "terme_en": "Algorithmic audit",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "audit-documentaire",
+  "terme_fr": "Audit documentaire",
+  "terme_en": "Document audit",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "augmentation-donnees",
+  "terme_fr": "Augmentation de données",
+  "terme_en": "Data augmentation",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml oqlf twilio wikipedia"
+ },
+ {
+  "slug": "auto-attention",
+  "terme_fr": "Auto-attention",
+  "terme_en": "Self-attention",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml twilio"
+ },
+ {
+  "slug": "autoencodeur",
+  "terme_fr": "Autoencodeur",
+  "terme_en": "Autoencoder",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml wikipedia"
+ },
+ {
+  "slug": "automatisation-intelligente",
+  "terme_fr": "Automatisation intelligente",
+  "terme_en": "Intelligent automation",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "automl",
+  "terme_fr": "Apprentissage automatique automatisé (AutoML)",
+  "terme_en": "AutoML",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "autonomie-strategique",
+  "terme_fr": "Autonomie stratégique européenne",
+  "terme_en": "European strategic autonomy",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "bac-a-sable",
+  "terme_fr": "Bac à sable d'exécution",
+  "terme_en": "Execution sandbox",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "bac-sable-reglementaire",
+  "terme_fr": "Bac à sable réglementaire",
+  "terme_en": "Regulatory sandbox",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "base-connaissances",
+  "terme_fr": "Base de connaissances",
+  "terme_en": "Knowledge base",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "base-legale",
+  "terme_fr": "Base légale (RGPD)",
+  "terme_en": "Legal basis (GDPR)",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "benchmark",
+  "terme_fr": "Benchmark",
+  "terme_en": "Benchmark",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "statut": "publie",
+  "couverture": "franceterme hoko"
+ },
+ {
+  "slug": "biais-algorithmique",
+  "terme_fr": "Biais algorithmique",
+  "terme_en": "Algorithmic bias",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "statut": "publie",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "bibliotheque-prompts",
+  "terme_fr": "Bibliothèque de prompts",
+  "terme_en": "Prompt library",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "big-tech",
+  "terme_fr": "Big Tech",
+  "terme_en": "Big Tech",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "bloom",
+  "terme_fr": "BLOOM",
+  "terme_en": "BLOOM",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "boite-noire",
+  "terme_fr": "Effet boîte noire",
+  "terme_en": "Black box effect",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "build-vs-buy",
+  "terme_fr": "Développer ou acheter",
+  "terme_en": "Build vs buy",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "bulle-filtre",
+  "terme_fr": "Bulle de filtre",
+  "terme_en": "Filter bubble",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "bulle-ia",
+  "terme_fr": "Bulle spéculative de l'IA",
+  "terme_en": "AI bubble",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "bureau-ia",
+  "terme_fr": "Bureau européen de l'IA",
+  "terme_en": "European AI Office",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "c2pa",
+  "terme_fr": "Norme C2PA · provenance des contenus",
+  "terme_en": "C2PA content provenance standard",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "cache-kv",
+  "terme_fr": "Cache KV",
+  "terme_en": "KV cache",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "calcul-multipartite",
+  "terme_fr": "Calcul multipartite sécurisé",
+  "terme_en": "Secure multi-party computation",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "capacites-emergentes",
+  "terme_fr": "Capacités émergentes",
+  "terme_en": "Emergent capabilities",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "caracteristique",
+  "terme_fr": "Caractéristique (feature)",
+  "terme_en": "Feature",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml wikipedia"
+ },
+ {
+  "slug": "cas-usage",
+  "terme_fr": "Cas d'usage IA",
+  "terme_en": "AI use case",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "certification-ia",
+  "terme_fr": "Certification des systèmes d'IA",
+  "terme_en": "AI system certification",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "chaine-approvisionnement",
+  "terme_fr": "Sécurité de la chaîne d'approvisionnement IA",
+  "terme_en": "AI supply chain security",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "chaine-pensee",
+  "terme_fr": "Chaîne de pensée (CoT)",
+  "terme_en": "Chain-of-thought (CoT)",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "charte-ia",
+  "terme_fr": "Charte IA",
+  "terme_en": "AI charter",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "chatbot",
+  "terme_fr": "Chatbot",
+  "terme_en": "Chatbot",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "publie",
+  "couverture": "franceterme twilio wikipedia"
+ },
+ {
+  "slug": "chatgpt",
+  "terme_fr": "ChatGPT",
+  "terme_en": "ChatGPT",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "chevauchement-fragments",
+  "terme_fr": "Chevauchement de fragments",
+  "terme_en": "Chunk overlap",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "chief-ai-officer",
+  "terme_fr": "Chief AI Officer",
+  "terme_en": "Chief AI Officer",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "chiffrement",
+  "terme_fr": "Chiffrement",
+  "terme_en": "Encryption",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "chiffrement-homomorphe",
+  "terme_fr": "Chiffrement homomorphe",
+  "terme_en": "Homomorphic encryption",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "chips-act",
+  "terme_fr": "Chips Act européen",
+  "terme_en": "European Chips Act",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "chunking",
+  "terme_fr": "Découpage en fragments (chunking)",
+  "terme_en": "Chunking",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "classification",
+  "terme_fr": "Classification",
+  "terme_en": "Classification",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil oqlf"
+ },
+ {
+  "slug": "classification-information",
+  "terme_fr": "Classification de l'information",
+  "terme_en": "Data classification",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "claude",
+  "terme_fr": "Claude",
+  "terme_en": "Claude",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "clauses-contractuelles",
+  "terme_fr": "Clauses contractuelles types (CCT)",
+  "terme_en": "Standard Contractual Clauses (SCC)",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "clauses-ia-contrats",
+  "terme_fr": "Clauses IA dans les contrats fournisseurs",
+  "terme_en": "AI clauses in vendor contracts",
+  "axe": "economie",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "clonage-vocal",
+  "terme_fr": "Clonage vocal",
+  "terme_en": "Voice cloning",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "cloud-act",
+  "terme_fr": "CLOUD Act",
+  "terme_en": "CLOUD Act",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "cloud-souverain",
+  "terme_fr": "Cloud souverain",
+  "terme_en": "Sovereign cloud",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "clustering",
+  "terme_fr": "Partitionnement (clustering)",
+  "terme_en": "Clustering",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "cnil",
+  "terme_fr": "CNIL",
+  "terme_en": "CNIL (French data protection authority)",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "co2eq",
+  "terme_fr": "Équivalent CO₂ (CO₂eq)",
+  "terme_en": "CO₂ equivalent",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "coaching-pragmaforma",
+  "terme_fr": "Coaching IA",
+  "terme_en": "PragmaForma coaching",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "codes-conduite-gpai",
+  "terme_fr": "Codes de bonnes pratiques GPAI",
+  "terme_en": "GPAI codes of practice",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "comite-ia",
+  "terme_fr": "Comité IA",
+  "terme_en": "AI committee",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "common-crawl",
+  "terme_fr": "Common Crawl",
+  "terme_en": "Common Crawl",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "communaute-pragmaforma",
+  "terme_fr": "Communauté",
+  "terme_en": "PragmaForma community",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "complaisance-ia",
+  "terme_fr": "Complaisance de l'IA (sycophancie)",
+  "terme_en": "AI sycophancy",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "conduite-changement",
+  "terme_fr": "Conduite du changement IA",
+  "terme_en": "AI change management",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "confidentialite-differentielle",
+  "terme_fr": "Confidentialité différentielle",
+  "terme_en": "Differential privacy",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml"
+ },
+ {
+  "slug": "conformite-ia",
+  "terme_fr": "Conformité IA (compliance)",
+  "terme_en": "AI compliance",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "consentement",
+  "terme_fr": "Consentement",
+  "terme_en": "Consent",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "consommation-eau",
+  "terme_fr": "Consommation d'eau des data centers",
+  "terme_en": "AI water consumption",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "consommation-electrique",
+  "terme_fr": "Consommation électrique de l'IA",
+  "terme_en": "AI electricity consumption",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "contamination",
+  "terme_fr": "Contamination des données d'évaluation",
+  "terme_en": "Benchmark contamination",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "contenu-genere",
+  "terme_fr": "Contenu généré par IA",
+  "terme_en": "AI-generated content",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "controle-ordinateur",
+  "terme_fr": "Contrôle d'ordinateur par IA (computer use)",
+  "terme_en": "Computer use",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "conversation-multitour",
+  "terme_fr": "Conversation multitour",
+  "terme_en": "Multi-turn conversation",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "copilot",
+  "terme_fr": "Copilot (Microsoft)",
+  "terme_en": "Copilot",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "corpus-entrainement",
+  "terme_fr": "Corpus d'entraînement",
+  "terme_en": "Training corpus",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cafeia"
+ },
+ {
+  "slug": "correlation-causalite",
+  "terme_fr": "Corrélation et causalité",
+  "terme_en": "Correlation vs causation",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "couche-neurones",
+  "terme_fr": "Couche de neurones",
+  "terme_en": "Neural network layer",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "courbes-apprentissage",
+  "terme_fr": "Convergence de l'entraînement",
+  "terme_en": "Training convergence",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "course-ia",
+  "terme_fr": "Course mondiale à l'IA",
+  "terme_en": "Global AI race",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "cpf",
+  "terme_fr": "CPF / OPCO",
+  "terme_en": "CPF (French personal training account)",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "csrd",
+  "terme_fr": "CSRD et reporting de durabilité",
+  "terme_en": "CSRD sustainability reporting",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "cursor",
+  "terme_fr": "Cursor et les IDE IA",
+  "terme_en": "Cursor and AI IDEs",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "data-act",
+  "terme_fr": "Data Act européen",
+  "terme_en": "European Data Act",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "data-center",
+  "terme_fr": "Data center",
+  "terme_en": "Data center",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "publie",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "data-privacy-framework",
+  "terme_fr": "Data Privacy Framework (DPF)",
+  "terme_en": "EU-US Data Privacy Framework",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "date-coupure",
+  "terme_fr": "Date de coupure des connaissances",
+  "terme_en": "Knowledge cutoff",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "dax",
+  "terme_fr": "DAX",
+  "terme_en": "DAX (Data Analysis Expressions)",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "dechets-electroniques",
+  "terme_fr": "Déchets électroniques",
+  "terme_en": "E-waste",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "decision-automatisee",
+  "terme_fr": "Décision entièrement automatisée",
+  "terme_en": "Automated decision-making (GDPR art. 22)",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "decodage-speculatif",
+  "terme_fr": "Décodage spéculatif",
+  "terme_en": "Speculative decoding",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "deepfake",
+  "terme_fr": "Hypertrucage (deepfake)",
+  "terme_en": "Deepfake",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "deepseek",
+  "terme_fr": "DeepSeek",
+  "terme_en": "DeepSeek",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "dependance-cognitive",
+  "terme_fr": "Dépendance cognitive à l'IA",
+  "terme_en": "Cognitive offloading",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "deploiement-ia",
+  "terme_fr": "Déploiement IA",
+  "terme_en": "AI deployment",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "derive-donnees",
+  "terme_fr": "Dérive des données",
+  "terme_en": "Data drift",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "derive-modele",
+  "terme_fr": "Dérive du modèle",
+  "terme_en": "Model drift",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "desapprentissage",
+  "terme_fr": "Désapprentissage machine",
+  "terme_en": "Machine unlearning",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "descente-gradient",
+  "terme_fr": "Descente de gradient",
+  "terme_en": "Gradient descent",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "desinformation-ia",
+  "terme_fr": "Désinformation générée par IA",
+  "terme_en": "AI-generated disinformation",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "deskilling",
+  "terme_fr": "Déqualification (deskilling)",
+  "terme_en": "Deskilling",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "detection-anomalies",
+  "terme_fr": "Détection d'anomalies",
+  "terme_en": "Anomaly detection",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "detection-contenu-ia",
+  "terme_fr": "Détection de contenu généré par IA",
+  "terme_en": "AI content detection",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "distillation",
+  "terme_fr": "Distillation",
+  "terme_en": "Distillation",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "publie",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "donnees-dormantes",
+  "terme_fr": "Données dormantes (dark data)",
+  "terme_en": "Dark data",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "donnees-entrainement",
+  "terme_fr": "Données d'entraînement",
+  "terme_en": "Training data",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "donnees-fair",
+  "terme_fr": "Données FAIR",
+  "terme_en": "FAIR data",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "donnees-ouvertes",
+  "terme_fr": "Données ouvertes (open data)",
+  "terme_en": "Open data",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "donnees-personnelles",
+  "terme_fr": "Données personnelles",
+  "terme_en": "Personal data",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "donnees-sensibles",
+  "terme_fr": "Données sensibles",
+  "terme_en": "Sensitive data",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "donnees-structurees",
+  "terme_fr": "Données structurées et non structurées",
+  "terme_en": "Structured and unstructured data",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "donnees-synthetiques",
+  "terme_fr": "Données synthétiques",
+  "terme_en": "Synthetic data",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "dpo-delegue",
+  "terme_fr": "Délégué à la protection des données (DPO)",
+  "terme_en": "Data Protection Officer (DPO)",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "dpo-optimisation",
+  "terme_fr": "Optimisation directe des préférences (DPO)",
+  "terme_en": "Direct Preference Optimization (DPO)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "droits-auteur-ia",
+  "terme_fr": "Droits d'auteur & IA",
+  "terme_en": "AI & copyright",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "droits-personnes",
+  "terme_fr": "Droits des personnes (RGPD)",
+  "terme_en": "Data subject rights",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "dropout",
+  "terme_fr": "Abandon (dropout)",
+  "terme_en": "Dropout",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "oqlf wikipedia"
+ },
+ {
+  "slug": "dsa-dma",
+  "terme_fr": "DSA et DMA",
+  "terme_en": "Digital Services Act and Digital Markets Act",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "dsi",
+  "terme_fr": "DSI",
+  "terme_en": "CIO / IT department",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "echantillonnage",
+  "terme_fr": "Échantillon et biais d'échantillonnage",
+  "terme_en": "Sampling and sampling bias",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ecologits",
+  "terme_fr": "Ecologits",
+  "terme_en": "EcoLogits",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "ecosysteme-ia-francais",
+  "terme_fr": "Écosystème IA français",
+  "terme_en": "French AI ecosystem",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "edge-computing",
+  "terme_fr": "Informatique en périphérie (edge computing)",
+  "terme_en": "Edge computing",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "effet-rebond",
+  "terme_fr": "Effet rebond",
+  "terme_en": "Rebound effect",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "effondrement-modele",
+  "terme_fr": "Effondrement de modèle",
+  "terme_en": "Model collapse",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "elagage",
+  "terme_fr": "Élagage de modèle",
+  "terme_en": "Model pruning",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "embedding",
+  "terme_fr": "Embedding",
+  "terme_en": "Embedding",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "google_genai"
+ },
+ {
+  "slug": "empoisonnement-donnees",
+  "terme_fr": "Empoisonnement de données",
+  "terme_en": "Data poisoning",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "empreinte-carbone",
+  "terme_fr": "Empreinte carbone de l'IA",
+  "terme_en": "Carbon footprint",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "empreinte-materielle",
+  "terme_fr": "Empreinte matérielle (fabrication)",
+  "terme_en": "Embodied footprint",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "enchainement-requetes",
+  "terme_fr": "Enchaînement de requêtes",
+  "terme_en": "Prompt chaining",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf"
+ },
+ {
+  "slug": "encodeur-decodeur",
+  "terme_fr": "Encodeur-décodeur",
+  "terme_en": "Encoder-decoder",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "entrainement",
+  "terme_fr": "Entraînement (training)",
+  "terme_en": "Training",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "publie",
+  "couverture": "cafeia cnil google_ml oqlf twilio"
+ },
+ {
+  "slug": "entrepot-donnees",
+  "terme_fr": "Entrepôt de données",
+  "terme_en": "Data warehouse",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "franceterme wikipedia"
+ },
+ {
+  "slug": "epoque",
+  "terme_fr": "Époque (epoch)",
+  "terme_en": "Epoch",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml wikipedia"
+ },
+ {
+  "slug": "equite-algorithmique",
+  "terme_fr": "Équité algorithmique",
+  "terme_en": "Algorithmic fairness",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "espace-latent",
+  "terme_fr": "Espace latent",
+  "terme_en": "Latent space",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "ethique-ia",
+  "terme_fr": "Éthique de l'IA",
+  "terme_en": "AI ethics",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "etiquetage-donnees",
+  "terme_fr": "Étiquetage des données (annotation)",
+  "terme_en": "Data labeling",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "euro-stack",
+  "terme_fr": "EuroStack",
+  "terme_en": "EuroStack",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "eurohpc",
+  "terme_fr": "Supercalculateurs européens (EuroHPC)",
+  "terme_en": "European supercomputers (EuroHPC)",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "evaluation-agents",
+  "terme_fr": "Évaluation d'agents",
+  "terme_en": "Agent evaluation",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "evaluation-humaine",
+  "terme_fr": "Évaluation humaine",
+  "terme_en": "Human evaluation",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "evaluation-llm",
+  "terme_fr": "Évaluation des LLM",
+  "terme_en": "LLM evaluation",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "evaluation-rag",
+  "terme_fr": "Évaluation d'un RAG",
+  "terme_en": "RAG evaluation",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "exception-tdm",
+  "terme_fr": "Exception de fouille de textes et de données (TDM)",
+  "terme_en": "Text and Data Mining exception",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "exfiltration",
+  "terme_fr": "Exfiltration de données",
+  "terme_en": "Data exfiltration",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "explicabilite",
+  "terme_fr": "Explicabilité",
+  "terme_en": "Explainability",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "cnil oqlf"
+ },
+ {
+  "slug": "exploration-donnees",
+  "terme_fr": "Exploration de données (data mining)",
+  "terme_en": "Data mining",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "franceterme oqlf wikipedia"
+ },
+ {
+  "slug": "extraction-caracteristiques",
+  "terme_fr": "Extraction de caractéristiques",
+  "terme_en": "Feature extraction",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml wikipedia"
+ },
+ {
+  "slug": "extraction-modele",
+  "terme_fr": "Extraction de modèle",
+  "terme_en": "Model extraction",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "faux-positifs",
+  "terme_fr": "Faux positifs et faux négatifs",
+  "terme_en": "False positives and negatives",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "federated-learning",
+  "terme_fr": "Federated learning",
+  "terme_en": "Federated learning",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "publie",
+  "couverture": "google_ml wikipedia"
+ },
+ {
+  "slug": "fenetre-contextuelle",
+  "terme_fr": "Fenêtre contextuelle",
+  "terme_en": "Context window",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "google_genai google_ml"
+ },
+ {
+  "slug": "filigrane-ia",
+  "terme_fr": "Filigrane numérique (watermarking)",
+  "terme_en": "AI watermarking",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "fine-tuning",
+  "terme_fr": "Fine-tuning",
+  "terme_en": "Fine-tuning",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "publie",
+  "couverture": "google_ml hoko twilio"
+ },
+ {
+  "slug": "flux-agentiques",
+  "terme_fr": "Flux agentiques",
+  "terme_en": "Agentic workflows",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "fonction-activation",
+  "terme_fr": "Fonction d'activation",
+  "terme_en": "Activation function",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml oqlf wikipedia"
+ },
+ {
+  "slug": "fonction-perte",
+  "terme_fr": "Fonction de perte",
+  "terme_en": "Loss function",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf"
+ },
+ {
+  "slug": "fracture-numerique",
+  "terme_fr": "Fracture numérique et IA",
+  "terme_en": "AI digital divide",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "france-2030",
+  "terme_fr": "Plan France 2030 et IA",
+  "terme_en": "France 2030 investment plan",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "fraude-ia",
+  "terme_fr": "Fraude augmentée par IA",
+  "terme_en": "AI-enabled fraud",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "freemium",
+  "terme_fr": "Modèle gratuit-payant (freemium)",
+  "terme_en": "Freemium",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "fria",
+  "terme_fr": "Analyse d'impact sur les droits fondamentaux (FRIA)",
+  "terme_en": "Fundamental Rights Impact Assessment (FRIA)",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "fuite-informations",
+  "terme_fr": "Fuite d'informations",
+  "terme_en": "Data leakage",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "gaia-x",
+  "terme_fr": "Gaia-X",
+  "terme_en": "Gaia-X",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "gan",
+  "terme_fr": "Réseau antagoniste génératif (GAN)",
+  "terme_en": "Generative Adversarial Network (GAN)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf wikipedia"
+ },
+ {
+  "slug": "gemini",
+  "terme_fr": "Gemini",
+  "terme_en": "Gemini",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": "google_ml hoko"
+ },
+ {
+  "slug": "generalisation",
+  "terme_fr": "Généralisation",
+  "terme_en": "Generalization",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml twilio wikipedia"
+ },
+ {
+  "slug": "generation-audio",
+  "terme_fr": "Génération audio et musicale",
+  "terme_en": "AI audio and music generation",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "generation-code",
+  "terme_fr": "Génération de code",
+  "terme_en": "AI code generation",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "generation-images",
+  "terme_fr": "Génération d'images par IA",
+  "terme_en": "AI image generation",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "generation-video",
+  "terme_fr": "Génération de vidéo par IA",
+  "terme_en": "AI video generation",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "github-copilot",
+  "terme_fr": "GitHub Copilot",
+  "terme_en": "GitHub Copilot",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "google-deepmind",
+  "terme_fr": "Google DeepMind",
+  "terme_en": "Google DeepMind",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "gouvernance-donnees",
+  "terme_fr": "Gouvernance des données",
+  "terme_en": "Data governance",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "gouvernance-ia",
+  "terme_fr": "Gouvernance IA",
+  "terme_en": "AI governance",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "gpai",
+  "terme_fr": "Modèle d'IA à usage général (GPAI)",
+  "terme_en": "General-Purpose AI (GPAI)",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "gpqa",
+  "terme_fr": "GPQA",
+  "terme_en": "GPQA",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "gpt",
+  "terme_fr": "GPT · transformeur génératif préentraîné",
+  "terme_en": "GPT (Generative Pre-trained Transformer)",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml hoko"
+ },
+ {
+  "slug": "gpu",
+  "terme_fr": "GPU",
+  "terme_en": "GPU",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "cafeia"
+ },
+ {
+  "slug": "gpu-cloud",
+  "terme_fr": "Cloud GPU",
+  "terme_en": "GPU cloud",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "graph-rag",
+  "terme_fr": "GraphRAG",
+  "terme_en": "GraphRAG",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "graphe-connaissances",
+  "terme_fr": "Graphe de connaissances",
+  "terme_en": "Knowledge graph",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "grok",
+  "terme_fr": "Grok (xAI)",
+  "terme_en": "Grok (xAI)",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "guardrails",
+  "terme_fr": "Guardrails",
+  "terme_en": "Guardrails",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "publie",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "hallucination",
+  "terme_fr": "Hallucination",
+  "terme_en": "Hallucination",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "statut": "publie",
+  "couverture": "cafeia google_ml hoko twilio wikipedia"
+ },
+ {
+  "slug": "hameconnage-ia",
+  "terme_fr": "Hameçonnage augmenté par IA",
+  "terme_en": "AI-enhanced phishing",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "hds",
+  "terme_fr": "Hébergement de données de santé (HDS)",
+  "terme_en": "French health data hosting certification (HDS)",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "hebergement-delegue",
+  "terme_fr": "Hébergement délégué",
+  "terme_en": "Managed hosting",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "hiver-ia",
+  "terme_fr": "Hivers de l'IA",
+  "terme_en": "AI winters",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "hugging-face",
+  "terme_fr": "Hugging Face",
+  "terme_en": "Hugging Face",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "humain-dans-la-boucle",
+  "terme_fr": "Humain dans la boucle",
+  "terme_en": "Human in the loop",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": "google_ml hoko"
+ },
+ {
+  "slug": "humaneval",
+  "terme_fr": "HumanEval",
+  "terme_en": "HumanEval",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "hyperautomatisation",
+  "terme_fr": "Hyperautomatisation",
+  "terme_en": "Hyperautomation",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "hyperparametre",
+  "terme_fr": "Hyperparamètre",
+  "terme_en": "Hyperparameter",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml wikipedia"
+ },
+ {
+  "slug": "ia-accessibilite",
+  "terme_fr": "IA et accessibilité",
+  "terme_en": "AI and accessibility",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-climat",
+  "terme_fr": "IA au service du climat",
+  "terme_en": "AI for climate",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-compagnon",
+  "terme_fr": "IA compagnon",
+  "terme_en": "AI companion",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-constitutionnelle",
+  "terme_fr": "IA constitutionnelle",
+  "terme_en": "Constitutional AI",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-education",
+  "terme_fr": "IA en éducation",
+  "terme_en": "AI in education",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-embarquee",
+  "terme_fr": "IA embarquée",
+  "terme_en": "Embedded AI",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-emploi",
+  "terme_fr": "IA et emploi",
+  "terme_en": "AI and employment",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-faible-forte",
+  "terme_fr": "IA faible et IA forte",
+  "terme_en": "Narrow AI and strong AI",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-fantome",
+  "terme_fr": "IA fantôme (shadow AI)",
+  "terme_en": "Shadow AI",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-finance",
+  "terme_fr": "IA en finance",
+  "terme_en": "AI in finance",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-frugale",
+  "terme_fr": "IA frugale",
+  "terme_en": "Frugal AI",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-generative",
+  "terme_fr": "IA générative",
+  "terme_en": "Generative AI",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "google_genai google_ml twilio"
+ },
+ {
+  "slug": "ia-industrie",
+  "terme_fr": "IA industrielle",
+  "terme_en": "Industrial AI",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-juridique",
+  "terme_fr": "IA juridique (legaltech)",
+  "terme_en": "Legal AI",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-langue-francaise",
+  "terme_fr": "IA et langue française",
+  "terme_en": "AI and the French language",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-marketing",
+  "terme_fr": "IA en marketing",
+  "terme_en": "AI in marketing",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-non-generative",
+  "terme_fr": "IA non générative",
+  "terme_en": "Non-generative AI",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-rh",
+  "terme_fr": "IA et ressources humaines",
+  "terme_en": "AI in HR",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-sante",
+  "terme_fr": "IA en santé",
+  "terme_en": "AI in healthcare",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-service-client",
+  "terme_fr": "IA en service client",
+  "terme_en": "AI in customer service",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-souveraine",
+  "terme_fr": "IA souveraine",
+  "terme_en": "Sovereign AI",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "ia-washing",
+  "terme_fr": "Écoblanchiment de l'IA (AI washing)",
+  "terme_en": "AI washing",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "iam",
+  "terme_fr": "Gestion des identités et des accès (IAM)",
+  "terme_en": "Identity and Access Management (IAM)",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "identification-biometrique",
+  "terme_fr": "Identification biométrique",
+  "terme_en": "Biometric identification",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "idp",
+  "terme_fr": "Traitement intelligent de documents (IDP)",
+  "terme_en": "Intelligent Document Processing (IDP)",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "inference",
+  "terme_fr": "Inférence",
+  "terme_en": "Inference",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "cafeia google_ml hoko oqlf"
+ },
+ {
+  "slug": "inference-appartenance",
+  "terme_fr": "Attaque par inférence d'appartenance",
+  "terme_en": "Membership inference attack",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "inference-locale",
+  "terme_fr": "Inférence locale (on-device)",
+  "terme_en": "Local inference",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "informatique-affective",
+  "terme_fr": "Informatique affective",
+  "terme_en": "Affective computing",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme wikipedia"
+ },
+ {
+  "slug": "informatique-quantique",
+  "terme_fr": "Informatique quantique et IA",
+  "terme_en": "Quantum computing and AI",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ingenierie-contexte",
+  "terme_fr": "Ingénierie de contexte",
+  "terme_en": "Context engineering",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "injection-indirecte",
+  "terme_fr": "Injection de prompt indirecte",
+  "terme_en": "Indirect prompt injection",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "instruction-tuning",
+  "terme_fr": "Ajustement par instructions",
+  "terme_en": "Instruction tuning",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "intelligence-artificielle",
+  "terme_fr": "Intelligence artificielle",
+  "terme_en": "Artificial intelligence",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cafeia cnil franceterme google_ml hoko oqlf twilio wikipedia"
+ },
+ {
+  "slug": "intensite-carbone",
+  "terme_fr": "Intensité carbone de l'électricité",
+  "terme_en": "Carbon intensity",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "interoperabilite",
+  "terme_fr": "Interopérabilité",
+  "terme_en": "Interoperability",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "interpretabilite",
+  "terme_fr": "Interprétabilité",
+  "terme_en": "Interpretability",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf"
+ },
+ {
+  "slug": "inversion-modele",
+  "terme_fr": "Attaque par inversion de modèle",
+  "terme_en": "Model inversion attack",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "iso-42001",
+  "terme_fr": "ISO/IEC 42001",
+  "terme_en": "ISO/IEC 42001 (AI management systems)",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "iteration-requetes",
+  "terme_fr": "Itération de requêtes",
+  "terme_en": "Iterative prompting",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "jailbreak",
+  "terme_fr": "Débridage d'IA (jailbreak)",
+  "terme_en": "Jailbreak",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": "franceterme oqlf"
+ },
+ {
+  "slug": "jeu-donnees",
+  "terme_fr": "Jeu de données (dataset)",
+  "terme_en": "Dataset",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "journalisation",
+  "terme_fr": "Journalisation (logs)",
+  "terme_en": "Audit logging",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "jumeau-numerique",
+  "terme_fr": "Jumeau numérique",
+  "terme_en": "Digital twin",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "jury-certification",
+  "terme_fr": "Jury de certification",
+  "terme_en": "Certification jury",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "kyutai",
+  "terme_fr": "Kyutai",
+  "terme_en": "Kyutai (French AI lab)",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "lac-donnees",
+  "terme_fr": "Lac de données",
+  "terme_en": "Data lake",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "langchain",
+  "terme_fr": "LangChain",
+  "terme_en": "LangChain",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "langgraph",
+  "terme_fr": "LangGraph",
+  "terme_en": "LangGraph",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "latence",
+  "terme_fr": "Latence",
+  "terme_en": "Latency",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_genai google_ml"
+ },
+ {
+  "slug": "le-chat",
+  "terme_fr": "Le Chat (Mistral)",
+  "terme_en": "Le Chat (Mistral)",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "licences-open-source",
+  "terme_fr": "Licences open source (Apache 2.0, MIT)",
+  "terme_en": "Open-source licences",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "litellm",
+  "terme_fr": "LiteLLM",
+  "terme_en": "LiteLLM",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "llama",
+  "terme_fr": "LLaMA",
+  "terme_en": "Llama",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "llm",
+  "terme_fr": "LLM",
+  "terme_en": "Large Language Model (LLM)",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "franceterme google_genai google_ml hoko wikipedia"
+ },
+ {
+  "slug": "llm-juge",
+  "terme_fr": "LLM juge",
+  "terme_en": "LLM-as-a-judge",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "llmops",
+  "terme_fr": "LLMOps",
+  "terme_en": "LLMOps",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "localisation-donnees",
+  "terme_fr": "Localisation des données",
+  "terme_en": "Data residency",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "lock-in",
+  "terme_fr": "Lock-in",
+  "terme_en": "Vendor lock-in",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "logits",
+  "terme_fr": "Logits et probabilités de sortie",
+  "terme_en": "Logits",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "lois-echelle",
+  "terme_fr": "Lois d'échelle",
+  "terme_en": "Scaling laws",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "lora",
+  "terme_fr": "LoRA · adaptation à faible rang",
+  "terme_en": "LoRA (Low-Rank Adaptation)",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml wikipedia"
+ },
+ {
+  "slug": "marecage-donnees",
+  "terme_fr": "Marécage de données (data swamp)",
+  "terme_en": "Data swamp",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "marquage-ce",
+  "terme_fr": "Marquage CE des systèmes d'IA",
+  "terme_en": "CE marking for AI",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "matrice-confusion",
+  "terme_fr": "Matrice de confusion",
+  "terme_en": "Confusion matrix",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "mcp",
+  "terme_fr": "MCP · Model Context Protocol",
+  "terme_en": "Model Context Protocol (MCP)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "mecanisme-attention",
+  "terme_fr": "Mécanisme d'attention",
+  "terme_en": "Attention mechanism",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "megadonnees",
+  "terme_fr": "Mégadonnées (big data)",
+  "terme_en": "Big data",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "franceterme oqlf wikipedia"
+ },
+ {
+  "slug": "melange-experts",
+  "terme_fr": "Mélange d'experts (MoE)",
+  "terme_en": "Mixture of Experts (MoE)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf"
+ },
+ {
+  "slug": "memoire-agent",
+  "terme_fr": "Mémoire d'agent",
+  "terme_en": "Agent memory",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "memoire-assistants",
+  "terme_fr": "Mémoire des assistants IA",
+  "terme_en": "AI assistant memory",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "meta-ai",
+  "terme_fr": "Meta AI",
+  "terme_en": "Meta AI",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "metadonnees",
+  "terme_fr": "Métadonnées",
+  "terme_en": "Metadata",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "metiers-ia",
+  "terme_fr": "Nouveaux métiers de l'IA",
+  "terme_en": "AI jobs",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "midjourney",
+  "terme_fr": "Midjourney",
+  "terme_en": "Midjourney",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "minimisation",
+  "terme_fr": "Minimisation des données",
+  "terme_en": "Data minimisation",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "mistral-ai",
+  "terme_fr": "Mistral AI",
+  "terme_en": "Mistral AI",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "mix-energetique",
+  "terme_fr": "Mix énergétique",
+  "terme_en": "Energy mix",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "mlops",
+  "terme_fr": "MLOps",
+  "terme_en": "MLOps",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "mmlu",
+  "terme_fr": "MMLU",
+  "terme_en": "MMLU",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "model-card",
+  "terme_fr": "Notice de modèle (model card)",
+  "terme_en": "Model card",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "modele-autoregressif",
+  "terme_fr": "Modèle autorégressif",
+  "terme_en": "Autoregressive model",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "modele-discriminatif",
+  "terme_fr": "Modèle discriminatif",
+  "terme_en": "Discriminative model",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml"
+ },
+ {
+  "slug": "modele-fondation",
+  "terme_fr": "Modèle de fondation",
+  "terme_en": "Foundation model",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil google_genai google_ml hoko oqlf"
+ },
+ {
+  "slug": "modele-generatif",
+  "terme_fr": "Modèle génératif",
+  "terme_en": "Generative model",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil franceterme google_ml"
+ },
+ {
+  "slug": "modele-raisonnement",
+  "terme_fr": "Modèle de raisonnement",
+  "terme_en": "Reasoning model",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "modele-recompense",
+  "terme_fr": "Modèle de récompense",
+  "terme_en": "Reward model",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "modeles-diffusion",
+  "terme_fr": "Modèles de diffusion",
+  "terme_en": "Diffusion models",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "modeles-monde",
+  "terme_fr": "Modèles du monde",
+  "terme_en": "World models",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "modeles-multilingues",
+  "terme_fr": "Modèles multilingues",
+  "terme_en": "Multilingual models",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "modeles-symboliques",
+  "terme_fr": "Modèles symboliques",
+  "terme_en": "Symbolic AI",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "moderation-contenu",
+  "terme_fr": "Modération de contenu par IA",
+  "terme_en": "AI content moderation",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "moindre-privilege",
+  "terme_fr": "Principe de moindre privilège",
+  "terme_en": "Least privilege",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "monitoring",
+  "terme_fr": "Monitoring IA",
+  "terme_en": "Monitoring & observability",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "mooc",
+  "terme_fr": "MOOC",
+  "terme_en": "MOOC",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "multimodal",
+  "terme_fr": "Multimodal",
+  "terme_en": "Multimodal",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "cafeia"
+ },
+ {
+  "slug": "neuromorphique",
+  "terme_fr": "Informatique neuromorphique",
+  "terme_en": "Neuromorphic computing",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "neurone-artificiel",
+  "terme_fr": "Neurone artificiel",
+  "terme_en": "Artificial neuron",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil franceterme oqlf"
+ },
+ {
+  "slug": "neutralite-carbone",
+  "terme_fr": "Neutralité carbone des Big Tech",
+  "terme_en": "Big Tech carbon neutrality claims",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "nis2",
+  "terme_fr": "Directive NIS 2",
+  "terme_en": "NIS 2 Directive",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "nist-ai-rmf",
+  "terme_fr": "Cadre de gestion des risques IA du NIST",
+  "terme_en": "NIST AI Risk Management Framework",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "nlp",
+  "terme_fr": "Traitement automatique du langage naturel (TALN)",
+  "terme_en": "Natural Language Processing (NLP)",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml wikipedia"
+ },
+ {
+  "slug": "no-code",
+  "terme_fr": "No-code, low-code et IA",
+  "terme_en": "No-code / low-code AI",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "normes-harmonisees",
+  "terme_fr": "Normes harmonisées (CEN-CENELEC)",
+  "terme_en": "Harmonised standards",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "notation-sociale",
+  "terme_fr": "Notation sociale",
+  "terme_en": "Social scoring",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "notebooklm",
+  "terme_fr": "NotebookLM",
+  "terme_en": "NotebookLM",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "numerique-responsable",
+  "terme_fr": "Numérique responsable",
+  "terme_en": "Responsible digital technology",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "nvidia",
+  "terme_fr": "NVIDIA",
+  "terme_en": "NVIDIA",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "obsolescence-materiel",
+  "terme_fr": "Obsolescence du matériel IA",
+  "terme_en": "AI hardware obsolescence",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ocr",
+  "terme_fr": "Reconnaissance optique de caractères (OCR)",
+  "terme_en": "Optical Character Recognition (OCR)",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "ollama",
+  "terme_fr": "Ollama",
+  "terme_en": "Ollama",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ontologie",
+  "terme_fr": "Ontologie",
+  "terme_en": "Ontology",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "open-source-ia",
+  "terme_fr": "Open source (IA)",
+  "terme_en": "Open-source AI",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": "cafeia hoko"
+ },
+ {
+  "slug": "open-webui",
+  "terme_fr": "OpenWebUI",
+  "terme_en": "OpenWebUI",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "open-weights",
+  "terme_fr": "Modèle à poids ouverts",
+  "terme_en": "Open-weights model",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "openai",
+  "terme_fr": "OpenAI",
+  "terme_en": "OpenAI",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "openrag",
+  "terme_fr": "OpenRAG",
+  "terme_en": "OpenRAG",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "opt-out",
+  "terme_fr": "Opt-out des ayants droit",
+  "terme_en": "Rights holder opt-out",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "orchestration-ia",
+  "terme_fr": "Orchestration IA",
+  "terme_en": "AI orchestration",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "ori-ia",
+  "terme_fr": "ORI-IA",
+  "terme_en": "ORI-IA workshop",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "oubli-catastrophique",
+  "terme_fr": "Oubli catastrophique",
+  "terme_en": "Catastrophic forgetting",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "outils-proprietaires",
+  "terme_fr": "Outils propriétaires",
+  "terme_en": "Proprietary tools",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "ovhcloud",
+  "terme_fr": "OVHcloud",
+  "terme_en": "OVHcloud",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "owasp-llm",
+  "terme_fr": "OWASP Top 10 pour les LLM",
+  "terme_en": "OWASP Top 10 for LLM",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "parametres",
+  "terme_fr": "Paramètres d'un modèle",
+  "terme_en": "Model parameters",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_genai"
+ },
+ {
+  "slug": "perceptron",
+  "terme_fr": "Perceptron",
+  "terme_en": "Perceptron",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf wikipedia"
+ },
+ {
+  "slug": "perplexite-metrique",
+  "terme_fr": "Perplexité (métrique)",
+  "terme_en": "Perplexity (metric)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "perplexity",
+  "terme_fr": "Perplexity",
+  "terme_en": "Perplexity",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "pipeline-donnees",
+  "terme_fr": "Pipeline de données",
+  "terme_en": "Data pipeline",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "pipeline-ingestion",
+  "terme_fr": "Pipeline d'ingestion documentaire",
+  "terme_en": "Document ingestion pipeline",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "planification-agent",
+  "terme_fr": "Planification (agents)",
+  "terme_en": "Agent planning",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "poc",
+  "terme_fr": "Preuve de concept (POC)",
+  "terme_en": "Proof of Concept (POC)",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "poids-modele",
+  "terme_fr": "Poids d'un modèle",
+  "terme_en": "Model weights",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "point-controle",
+  "terme_fr": "Point de contrôle (checkpoint)",
+  "terme_en": "Model checkpoint",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "police-predictive",
+  "terme_fr": "Police prédictive",
+  "terme_en": "Predictive policing",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "portabilite-donnees",
+  "terme_fr": "Portabilité des données",
+  "terme_en": "Data portability",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "porte-derobee-modele",
+  "terme_fr": "Porte dérobée dans un modèle",
+  "terme_en": "Model backdoor",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "post-entrainement",
+  "terme_fr": "Post-entraînement",
+  "terme_en": "Post-training",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "power-bi",
+  "terme_fr": "Power BI",
+  "terme_en": "Power BI",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "pratiques-interdites",
+  "terme_fr": "Pratiques d'IA interdites",
+  "terme_en": "Prohibited AI practices",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "pre-entrainement",
+  "terme_fr": "Préentraînement",
+  "terme_en": "Pre-training",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf"
+ },
+ {
+  "slug": "precision-rappel",
+  "terme_fr": "Précision et rappel",
+  "terme_en": "Precision and recall",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "privacy-by-design",
+  "terme_fr": "Confidentialité dès la conception",
+  "terme_en": "Privacy by design",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "prompt",
+  "terme_fr": "Prompt",
+  "terme_en": "Prompt",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "publie",
+  "couverture": "cafeia franceterme google_ml hoko"
+ },
+ {
+  "slug": "prompt-engineering",
+  "terme_fr": "Ingénierie de prompt",
+  "terme_en": "Prompt engineering",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": "google_genai google_ml hoko"
+ },
+ {
+  "slug": "prompt-injection",
+  "terme_fr": "Prompt injection",
+  "terme_en": "Prompt injection",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "prompt-negatif",
+  "terme_fr": "Prompt négatif",
+  "terme_en": "Negative prompt",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "prompt-systeme",
+  "terme_fr": "Prompt système",
+  "terme_en": "System prompt",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "protocole-a2a",
+  "terme_fr": "Protocole d'agent à agent (A2A)",
+  "terme_en": "Agent-to-Agent protocol (A2A)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "pseudonymisation",
+  "terme_fr": "Pseudonymisation",
+  "terme_en": "Pseudonymization",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "pue",
+  "terme_fr": "PUE",
+  "terme_en": "PUE (Power Usage Effectiveness)",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "impact-environnemental",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "pytorch",
+  "terme_fr": "PyTorch",
+  "terme_en": "PyTorch",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "qualite-donnees",
+  "terme_fr": "Qualité des données",
+  "terme_en": "Data quality",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "quantification",
+  "terme_fr": "Quantification de modèle",
+  "terme_en": "Model quantization",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "qwen",
+  "terme_fr": "Qwen",
+  "terme_en": "Qwen (Alibaba)",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "rag",
+  "terme_fr": "RAG",
+  "terme_en": "RAG (Retrieval-Augmented Generation)",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "rag-agents",
+  "statut": "publie",
+  "couverture": "google_ml hoko"
+ },
+ {
+  "slug": "rag-multimodal",
+  "terme_fr": "RAG multimodal",
+  "terme_en": "Multimodal RAG",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "raisonnement-etendu",
+  "terme_fr": "Raisonnement étendu (test-time compute)",
+  "terme_en": "Extended reasoning (test-time compute)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "react",
+  "terme_fr": "ReAct · raisonner et agir",
+  "terme_en": "ReAct (Reasoning and Acting)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "hoko"
+ },
+ {
+  "slug": "recherche-approfondie",
+  "terme_fr": "Recherche approfondie (deep research)",
+  "terme_en": "Deep research",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "recherche-hybride",
+  "terme_fr": "Recherche hybride",
+  "terme_en": "Hybrid search",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "recherche-ia",
+  "terme_fr": "Recherche augmentée par IA",
+  "terme_en": "AI-powered search",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "recherche-semantique",
+  "terme_fr": "Recherche sémantique",
+  "terme_en": "Semantic search",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "reclassement",
+  "terme_fr": "Reclassement (reranking)",
+  "terme_en": "Reranking",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "reconnaissance-emotions",
+  "terme_fr": "Reconnaissance des émotions",
+  "terme_en": "Emotion recognition",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "reconnaissance-entites",
+  "terme_fr": "Reconnaissance d'entités nommées",
+  "terme_en": "Named Entity Recognition (NER)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil oqlf wikipedia"
+ },
+ {
+  "slug": "reconnaissance-faciale",
+  "terme_fr": "Reconnaissance faciale",
+  "terme_en": "Facial recognition",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "reconnaissance-parole",
+  "terme_fr": "Reconnaissance automatique de la parole",
+  "terme_en": "Automatic speech recognition",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "red-teaming",
+  "terme_fr": "Red teaming IA",
+  "terme_en": "AI red teaming",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "redaction-assistee",
+  "terme_fr": "Rédaction assistée par IA",
+  "terme_en": "AI-assisted writing",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "reduction-dimension",
+  "terme_fr": "Réduction de dimension",
+  "terme_en": "Dimensionality reduction",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "reformulation-requete",
+  "terme_fr": "Reformulation de requête",
+  "terme_en": "Query rewriting",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "refroidissement",
+  "terme_fr": "Refroidissement des data centers",
+  "terme_en": "Data center cooling",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "registre-cas-usage",
+  "terme_fr": "Registre des cas d'usage IA",
+  "terme_en": "AI use-case register",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "registre-traitements",
+  "terme_fr": "Registre des traitements",
+  "terme_en": "Record of processing activities",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "regression",
+  "terme_fr": "Régression",
+  "terme_en": "Regression",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil oqlf"
+ },
+ {
+  "slug": "regularisation",
+  "terme_fr": "Régularisation",
+  "terme_en": "Regularization",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf wikipedia"
+ },
+ {
+  "slug": "regurgitation",
+  "terme_fr": "Régurgitation",
+  "terme_en": "Regurgitation",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "reseau-convolutif",
+  "terme_fr": "Réseau de neurones convolutif (CNN)",
+  "terme_en": "Convolutional Neural Network (CNN)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf wikipedia"
+ },
+ {
+  "slug": "reseau-neurones",
+  "terme_fr": "Réseau de neurones artificiels",
+  "terme_en": "Artificial neural network",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil franceterme"
+ },
+ {
+  "slug": "reseau-recurrent",
+  "terme_fr": "Réseau de neurones récurrent (RNN)",
+  "terme_en": "Recurrent Neural Network (RNN)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf wikipedia"
+ },
+ {
+  "slug": "responsabilite-ia",
+  "terme_fr": "Responsabilité juridique de l'IA",
+  "terme_en": "AI liability",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "resume-automatique",
+  "terme_fr": "Résumé automatique",
+  "terme_en": "Automatic summarization",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "retropropagation",
+  "terme_fr": "Rétropropagation",
+  "terme_en": "Backpropagation",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml wikipedia"
+ },
+ {
+  "slug": "rgpd",
+  "terme_fr": "RGPD",
+  "terme_en": "GDPR",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "rlhf",
+  "terme_fr": "RLHF",
+  "terme_en": "RLHF",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "publie",
+  "couverture": "cafeia hoko"
+ },
+ {
+  "slug": "robotique-ia",
+  "terme_fr": "Robotique et IA incarnée",
+  "terme_en": "Robotics and embodied AI",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "robustesse",
+  "terme_fr": "Robustesse",
+  "terme_en": "Robustness",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "cnil twilio"
+ },
+ {
+  "slug": "roi-ia",
+  "terme_fr": "Retour sur investissement IA",
+  "terme_en": "AI ROI",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "role-persona",
+  "terme_fr": "Rôle et persona",
+  "terme_en": "Role prompting",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "rouge-bleu",
+  "terme_fr": "Métriques ROUGE et BLEU",
+  "terme_en": "ROUGE and BLEU metrics",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "rpa",
+  "terme_fr": "Automatisation robotisée des processus (RPA)",
+  "terme_en": "Robotic Process Automation (RPA)",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "scaleway",
+  "terme_fr": "Scaleway",
+  "terme_en": "Scaleway",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "science-donnees",
+  "terme_fr": "Science des données",
+  "terme_en": "Data science",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme wikipedia"
+ },
+ {
+  "slug": "scope-3",
+  "terme_fr": "Émissions de scope 3",
+  "terme_en": "Scope 3 emissions",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "score-confiance",
+  "terme_fr": "Score de confiance",
+  "terme_en": "Confidence score",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "scraping",
+  "terme_fr": "Scraping",
+  "terme_en": "Web scraping",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "secnumcloud",
+  "terme_fr": "SecNumCloud",
+  "terme_en": "SecNumCloud",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "securite-donnees",
+  "terme_fr": "Sécurité des données",
+  "terme_en": "Data security",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "serveur-inference",
+  "terme_fr": "Serveur d'inférence",
+  "terme_en": "Inference server",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "signalement-incidents",
+  "terme_fr": "Signalement des incidents IA",
+  "terme_en": "AI incident reporting",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "similarite-cosinus",
+  "terme_fr": "Similarité cosinus",
+  "terme_en": "Cosine similarity",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "singularite",
+  "terme_fr": "Singularité technologique",
+  "terme_en": "Technological singularity",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf wikipedia"
+ },
+ {
+  "slug": "slm",
+  "terme_fr": "Petit modèle de langage (SLM)",
+  "terme_en": "Small Language Model (SLM)",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "slop",
+  "terme_fr": "Slop · contenu IA de masse",
+  "terme_en": "AI slop",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "sobriete-numerique",
+  "terme_fr": "Sobriété numérique",
+  "terme_en": "Digital sobriety",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "sommets-ia",
+  "terme_fr": "Sommets internationaux sur l'IA",
+  "terme_en": "International AI summits",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "sora",
+  "terme_fr": "Sora (OpenAI)",
+  "terme_en": "Sora (OpenAI)",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "sorties-structurees",
+  "terme_fr": "Sorties structurées (JSON)",
+  "terme_en": "Structured outputs",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "sous-apprentissage",
+  "terme_fr": "Sous-apprentissage (underfitting)",
+  "terme_en": "Underfitting",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "google_ml oqlf"
+ },
+ {
+  "slug": "souverainete-donnees",
+  "terme_fr": "Souveraineté des données",
+  "terme_en": "Data sovereignty",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "souverainete-numerique",
+  "terme_fr": "Souveraineté numérique",
+  "terme_en": "Digital sovereignty",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "sso",
+  "terme_fr": "Authentification unique (SSO)",
+  "terme_en": "Single Sign-On (SSO)",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "stable-diffusion",
+  "terme_fr": "Stable Diffusion",
+  "terme_en": "Stable Diffusion",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "statut-oeuvres-ia",
+  "terme_fr": "Statut juridique des œuvres générées",
+  "terme_en": "Legal status of AI-generated works",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "superintelligence",
+  "terme_fr": "Superintelligence",
+  "terme_en": "Superintelligence",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "supervision-humaine",
+  "terme_fr": "Supervision humaine (AI Act)",
+  "terme_en": "Human oversight (AI Act)",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "surapprentissage",
+  "terme_fr": "Surapprentissage (overfitting)",
+  "terme_en": "Overfitting",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml wikipedia"
+ },
+ {
+  "slug": "surveillance-travail",
+  "terme_fr": "Surveillance algorithmique au travail",
+  "terme_en": "Algorithmic workplace surveillance",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "swe-bench",
+  "terme_fr": "SWE-bench",
+  "terme_en": "SWE-bench",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "synchrone-asynchrone",
+  "terme_fr": "Synchrone / Asynchrone",
+  "terme_en": "Synchronous / asynchronous",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "synthese-vocale",
+  "terme_fr": "Synthèse vocale",
+  "terme_en": "Text-to-speech",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "systeme-expert",
+  "terme_fr": "Système expert",
+  "terme_en": "Expert system",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme wikipedia"
+ },
+ {
+  "slug": "systeme-haut-risque",
+  "terme_fr": "Système d'IA à haut risque",
+  "terme_en": "High-risk AI system",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "systeme-multi-agents",
+  "terme_fr": "Système multi-agents",
+  "terme_en": "Multi-agent system",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "systeme-recommandation",
+  "terme_fr": "Algorithme de recommandation",
+  "terme_en": "Recommender system",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "tarification-usage",
+  "terme_fr": "Tarification à l'usage des API",
+  "terme_en": "API usage pricing",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "taux-apprentissage",
+  "terme_fr": "Taux d'apprentissage",
+  "terme_en": "Learning rate",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": "cnil google_ml oqlf"
+ },
+ {
+  "slug": "taux-hallucination",
+  "terme_fr": "Taux d'hallucination",
+  "terme_en": "Hallucination rate",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "tco",
+  "terme_fr": "TCO",
+  "terme_en": "TCO (Total Cost of Ownership)",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "tee",
+  "terme_fr": "Environnement d'exécution de confiance (TEE)",
+  "terme_en": "Trusted Execution Environment (TEE)",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": "cnil"
+ },
+ {
+  "slug": "temperature",
+  "terme_fr": "Température",
+  "terme_en": "Temperature",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "publie",
+  "couverture": "cafeia google_ml hoko"
+ },
+ {
+  "slug": "terres-rares",
+  "terme_fr": "Terres rares et minerais critiques",
+  "terme_en": "Rare earths and critical minerals",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "test-ab",
+  "terme_fr": "Test A/B",
+  "terme_en": "A/B testing",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "test-intrusion",
+  "terme_fr": "Test d'intrusion",
+  "terme_en": "Penetration testing",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "test-turing",
+  "terme_fr": "Test de Turing",
+  "terme_en": "Turing test",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "test-validation-ia",
+  "terme_fr": "Test & validation IA",
+  "terme_en": "AI testing & validation",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "token",
+  "terme_fr": "Token",
+  "terme_en": "Token",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "google_ml hoko twilio"
+ },
+ {
+  "slug": "top-k",
+  "terme_fr": "Top-k · récupération",
+  "terme_en": "Top-k retrieval",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "top-p",
+  "terme_fr": "Top-p · échantillonnage noyau",
+  "terme_en": "Top-p (nucleus sampling)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "tpu",
+  "terme_fr": "TPU · Tensor Processing Unit",
+  "terme_en": "TPU (Tensor Processing Unit)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "tracabilite-donnees",
+  "terme_fr": "Traçabilité des données (lineage)",
+  "terme_en": "Data lineage",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "traduction-automatique",
+  "terme_fr": "Traduction automatique neuronale",
+  "terme_en": "Neural machine translation",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "wikipedia"
+ },
+ {
+  "slug": "traitement-par-lots",
+  "terme_fr": "Traitement par lots (batch)",
+  "terme_en": "Batch processing",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "transcription-reunions",
+  "terme_fr": "Transcription de réunions par IA",
+  "terme_en": "AI meeting transcription",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "transferts-internationaux",
+  "terme_fr": "Transferts internationaux de données",
+  "terme_en": "International data transfers",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "transformer",
+  "terme_fr": "Transformer",
+  "terme_en": "Transformer",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "publie",
+  "couverture": "franceterme google_ml hoko wikipedia"
+ },
+ {
+  "slug": "transparence-algorithmes",
+  "terme_fr": "Transparence des algorithmes",
+  "terme_en": "Algorithmic transparency",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "oqlf"
+ },
+ {
+  "slug": "travailleurs-clic",
+  "terme_fr": "Travailleurs du clic",
+  "terme_en": "Click workers",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "usage-outils",
+  "terme_fr": "Usage d'outils par l'IA",
+  "terme_en": "Tool use",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "vector-store",
+  "terme_fr": "Vector store",
+  "terme_en": "Vector store",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "vectorisation",
+  "terme_fr": "Vectorisation",
+  "terme_en": "Vectorization",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "veille-ia",
+  "terme_fr": "Veille augmentée par IA",
+  "terme_en": "AI-powered monitoring",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "verification-faits",
+  "terme_fr": "Vérification des faits et IA",
+  "terme_en": "AI fact-checking",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "verite-terrain",
+  "terme_fr": "Vérité terrain",
+  "terme_en": "Ground truth",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "statut": "a_rediger",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "versionnage-modeles",
+  "terme_fr": "Versions de modèles",
+  "terme_en": "Model versioning",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "entrainement-apprentissage",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "vibe-coding",
+  "terme_fr": "Vibe coding",
+  "terme_en": "Vibe coding",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "statut": "publie",
+  "couverture": "google_ml"
+ },
+ {
+  "slug": "vision-ordinateur",
+  "terme_fr": "Vision par ordinateur",
+  "terme_en": "Computer vision",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "cnil oqlf wikipedia"
+ },
+ {
+  "slug": "vllm",
+  "terme_fr": "vLLM",
+  "terme_en": "vLLM",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "web-semantique",
+  "terme_fr": "Web sémantique",
+  "terme_en": "Semantic web",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "statut": "a_rediger",
+  "couverture": "franceterme"
+ },
+ {
+  "slug": "webinaire",
+  "terme_fr": "Webinaire",
+  "terme_en": "Webinar",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "wue",
+  "terme_fr": "WUE · Water Usage Effectiveness",
+  "terme_en": "WUE (Water Usage Effectiveness)",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "impact-environnemental",
+  "statut": "a_rediger",
+  "couverture": ""
+ },
+ {
+  "slug": "zero-shot-few-shot",
+  "terme_fr": "Zero-shot / Few-shot",
+  "terme_en": "Zero-shot / few-shot",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "prompting-usage",
+  "statut": "publie",
+  "couverture": ""
+ },
+ {
+  "slug": "zero-trust",
+  "terme_fr": "Zéro confiance (zero trust)",
+  "terme_en": "Zero trust",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "statut": "a_rediger",
+  "couverture": ""
+ }
+]

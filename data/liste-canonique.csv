@@ -1,0 +1,492 @@
+slug,terme_fr,terme_en,axe,niveau,theme,statut,couverture
+accountability,Responsabilité démontrable (accountability),Accountability,reglementaire,intermediaire,cadre-juridique,a_rediger,
+acculturation-ia,Acculturation à l'IA (AI literacy),AI literacy,reglementaire,fondamental,cadre-juridique,a_rediger,
+acv,ACV · Analyse du Cycle de Vie,Life Cycle Assessment (LCA),responsabilite,intermediaire,impact-environnemental,publie,
+ademe,ADEME et référentiels d'impact,ADEME (French environment agency),souverainete,intermediaire,impact-environnemental,a_rediger,
+adoption-ia,Adoption de l'IA en entreprise,Enterprise AI adoption,economie,fondamental,prompting-usage,a_rediger,
+agent-autonome,Agent autonome,Autonomous agent,fondamentaux,intermediaire,rag-agents,a_rediger,google_ml oqlf
+agent-ia,Agent IA,AI agent,fondamentaux,avance,rag-agents,publie,hoko
+agents-vocaux,Agents vocaux,Voice agents,economie,intermediaire,rag-agents,a_rediger,
+agi,Intelligence artificielle générale (AGI),Artificial General Intelligence (AGI),fondamentaux,fondamental,architecture-modeles,a_rediger,google_ml wikipedia
+ai-act,AI Act,AI Act,reglementaire,fondamental,cadre-juridique,publie,
+aiaas,IA en tant que service (AIaaS),AI as a Service (AIaaS),economie,intermediaire,ecosysteme-outils,a_rediger,twilio
+aipd,Analyse d'impact protection des données (AIPD),Data Protection Impact Assessment (DPIA),reglementaire,intermediaire,cadre-juridique,a_rediger,
+albert,Albert · l'IA de l'État français,Albert (French state AI),souverainete,intermediaire,ecosysteme-outils,a_rediger,
+algorithme,Algorithme,Algorithm,fondamentaux,fondamental,architecture-modeles,a_rediger,cafeia cnil wikipedia
+alignement-ia,Alignement de l'IA,AI alignment,responsabilite,intermediaire,entrainement-apprentissage,a_rediger,oqlf
+analyse-sentiments,Analyse de sentiments,Sentiment analysis,fondamentaux,intermediaire,architecture-modeles,a_rediger,google_ml oqlf
+ancrage,Ancrage (grounding),Grounding,fondamentaux,intermediaire,rag-agents,a_rediger,google_genai google_ml oqlf
+anonymisation,Anonymisation,Anonymization,reglementaire,intermediaire,donnees,a_rediger,
+anssi,ANSSI,ANSSI (French cybersecurity agency),souverainete,fondamental,securite,a_rediger,
+anthropic,Anthropic,Anthropic,economie,fondamental,ecosysteme-outils,a_rediger,
+anthropomorphisme,Anthropomorphisme,Anthropomorphism,responsabilite,fondamental,prompting-usage,a_rediger,
+api,API,API,fondamentaux,fondamental,ecosysteme-outils,publie,hoko
+appel-fonctions,Appel de fonctions,Function calling,fondamentaux,avance,rag-agents,a_rediger,google_genai
+apprentissage-actif,Apprentissage actif,Active learning,fondamentaux,avance,entrainement-apprentissage,a_rediger,cnil google_ml
+apprentissage-auto-supervise,Apprentissage auto-supervisé,Self-supervised learning,fondamentaux,avance,entrainement-apprentissage,a_rediger,cnil franceterme google_ml
+apprentissage-automatique,Apprentissage automatique,Machine learning,fondamentaux,fondamental,architecture-modeles,a_rediger,cafeia cnil franceterme google_ml hoko oqlf twilio wikipedia
+apprentissage-continu,Apprentissage continu,Continual learning,fondamentaux,avance,entrainement-apprentissage,a_rediger,cnil oqlf
+apprentissage-non-supervise,Apprentissage non supervisé,Unsupervised learning,fondamentaux,fondamental,entrainement-apprentissage,a_rediger,cnil franceterme oqlf twilio wikipedia
+apprentissage-profond,Apprentissage profond,Deep learning,fondamentaux,fondamental,architecture-modeles,a_rediger,cafeia cnil franceterme hoko oqlf twilio wikipedia
+apprentissage-renforcement,Apprentissage par renforcement,Reinforcement learning,fondamentaux,intermediaire,entrainement-apprentissage,a_rediger,cnil franceterme google_ml oqlf twilio wikipedia
+apprentissage-semi-supervise,Apprentissage semi-supervisé,Semi-supervised learning,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml oqlf wikipedia
+apprentissage-supervise,Apprentissage supervisé,Supervised learning,fondamentaux,fondamental,entrainement-apprentissage,a_rediger,cnil franceterme oqlf twilio wikipedia
+apprentissage-transfert,Apprentissage par transfert,Transfer learning,fondamentaux,intermediaire,entrainement-apprentissage,a_rediger,cnil franceterme google_ml wikipedia
+arbre-pensees,Arbre de pensées (ToT),Tree of Thoughts (ToT),fondamentaux,avance,prompting-usage,a_rediger,
+arene-llm,Arène de comparaison (LMArena),LLM Arena,fondamentaux,intermediaire,evaluation-qualite,a_rediger,
+assistant-vocal,Assistant vocal,Voice assistant,fondamentaux,fondamental,architecture-modeles,a_rediger,
+assistants-personnalises,"Assistants personnalisés (GPTs, Gems, Projets)",Custom assistants,economie,fondamental,prompting-usage,a_rediger,
+attaque-adverse,Attaque par exemples adverses,Adversarial attack,responsabilite,avance,securite,a_rediger,
+audit-algorithmique,Audit algorithmique,Algorithmic audit,reglementaire,intermediaire,evaluation-qualite,a_rediger,oqlf
+audit-documentaire,Audit documentaire,Document audit,souverainete,intermediaire,donnees,publie,
+augmentation-donnees,Augmentation de données,Data augmentation,fondamentaux,avance,donnees,a_rediger,cnil google_ml oqlf twilio wikipedia
+auto-attention,Auto-attention,Self-attention,fondamentaux,avance,architecture-modeles,a_rediger,google_ml twilio
+autoencodeur,Autoencodeur,Autoencoder,fondamentaux,avance,architecture-modeles,a_rediger,google_ml wikipedia
+automatisation-intelligente,Automatisation intelligente,Intelligent automation,economie,fondamental,prompting-usage,a_rediger,
+automl,Apprentissage automatique automatisé (AutoML),AutoML,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml
+autonomie-strategique,Autonomie stratégique européenne,European strategic autonomy,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+bac-a-sable,Bac à sable d'exécution,Execution sandbox,responsabilite,avance,rag-agents,a_rediger,
+bac-sable-reglementaire,Bac à sable réglementaire,Regulatory sandbox,reglementaire,avance,cadre-juridique,a_rediger,
+base-connaissances,Base de connaissances,Knowledge base,fondamentaux,fondamental,rag-agents,a_rediger,franceterme
+base-legale,Base légale (RGPD),Legal basis (GDPR),reglementaire,intermediaire,cadre-juridique,a_rediger,
+benchmark,Benchmark,Benchmark,fondamentaux,fondamental,evaluation-qualite,publie,franceterme hoko
+biais-algorithmique,Biais algorithmique,Algorithmic bias,responsabilite,fondamental,evaluation-qualite,publie,oqlf
+bibliotheque-prompts,Bibliothèque de prompts,Prompt library,economie,fondamental,prompting-usage,a_rediger,
+big-tech,Big Tech,Big Tech,souverainete,fondamental,ecosysteme-outils,publie,franceterme
+bloom,BLOOM,BLOOM,souverainete,avance,ecosysteme-outils,a_rediger,
+boite-noire,Effet boîte noire,Black box effect,responsabilite,fondamental,evaluation-qualite,a_rediger,oqlf
+build-vs-buy,Développer ou acheter,Build vs buy,economie,intermediaire,ecosysteme-outils,a_rediger,
+bulle-filtre,Bulle de filtre,Filter bubble,responsabilite,fondamental,evaluation-qualite,a_rediger,cnil
+bulle-ia,Bulle spéculative de l'IA,AI bubble,economie,fondamental,ecosysteme-outils,a_rediger,wikipedia
+bureau-ia,Bureau européen de l'IA,European AI Office,reglementaire,avance,cadre-juridique,a_rediger,
+c2pa,Norme C2PA · provenance des contenus,C2PA content provenance standard,reglementaire,avance,cadre-juridique,a_rediger,
+cache-kv,Cache KV,KV cache,fondamentaux,avance,architecture-modeles,a_rediger,
+calcul-multipartite,Calcul multipartite sécurisé,Secure multi-party computation,souverainete,avance,securite,a_rediger,cnil
+capacites-emergentes,Capacités émergentes,Emergent capabilities,fondamentaux,avance,architecture-modeles,a_rediger,
+caracteristique,Caractéristique (feature),Feature,fondamentaux,avance,donnees,a_rediger,cnil google_ml wikipedia
+cas-usage,Cas d'usage IA,AI use case,economie,fondamental,prompting-usage,a_rediger,
+certification-ia,Certification des systèmes d'IA,AI system certification,reglementaire,avance,cadre-juridique,a_rediger,
+chaine-approvisionnement,Sécurité de la chaîne d'approvisionnement IA,AI supply chain security,souverainete,avance,securite,a_rediger,
+chaine-pensee,Chaîne de pensée (CoT),Chain-of-thought (CoT),fondamentaux,intermediaire,prompting-usage,a_rediger,
+charte-ia,Charte IA,AI charter,economie,intermediaire,cadre-juridique,publie,
+chatbot,Chatbot,Chatbot,fondamentaux,fondamental,prompting-usage,publie,franceterme twilio wikipedia
+chatgpt,ChatGPT,ChatGPT,fondamentaux,fondamental,ecosysteme-outils,publie,hoko
+chevauchement-fragments,Chevauchement de fragments,Chunk overlap,fondamentaux,avance,rag-agents,a_rediger,
+chief-ai-officer,Chief AI Officer,Chief AI Officer,economie,intermediaire,ecosysteme-outils,a_rediger,
+chiffrement,Chiffrement,Encryption,souverainete,fondamental,securite,a_rediger,
+chiffrement-homomorphe,Chiffrement homomorphe,Homomorphic encryption,souverainete,avance,securite,a_rediger,cnil
+chips-act,Chips Act européen,European Chips Act,souverainete,avance,ecosysteme-outils,a_rediger,
+chunking,Découpage en fragments (chunking),Chunking,fondamentaux,intermediaire,rag-agents,a_rediger,
+classification,Classification,Classification,fondamentaux,fondamental,architecture-modeles,a_rediger,cnil oqlf
+classification-information,Classification de l'information,Data classification,economie,intermediaire,securite,a_rediger,
+claude,Claude,Claude,fondamentaux,fondamental,ecosysteme-outils,publie,hoko
+clauses-contractuelles,Clauses contractuelles types (CCT),Standard Contractual Clauses (SCC),reglementaire,avance,cadre-juridique,a_rediger,
+clauses-ia-contrats,Clauses IA dans les contrats fournisseurs,AI clauses in vendor contracts,economie,avance,cadre-juridique,a_rediger,
+clonage-vocal,Clonage vocal,Voice cloning,responsabilite,intermediaire,architecture-modeles,a_rediger,
+cloud-act,CLOUD Act,CLOUD Act,reglementaire,intermediaire,cadre-juridique,publie,
+cloud-souverain,Cloud souverain,Sovereign cloud,souverainete,intermediaire,ecosysteme-outils,publie,
+clustering,Partitionnement (clustering),Clustering,fondamentaux,intermediaire,architecture-modeles,a_rediger,google_ml
+cnil,CNIL,CNIL (French data protection authority),reglementaire,fondamental,cadre-juridique,a_rediger,
+co2eq,Équivalent CO₂ (CO₂eq),CO₂ equivalent,responsabilite,fondamental,impact-environnemental,a_rediger,
+coaching-pragmaforma,Coaching IA,PragmaForma coaching,economie,intermediaire,ecosysteme-outils,publie,
+codes-conduite-gpai,Codes de bonnes pratiques GPAI,GPAI codes of practice,reglementaire,avance,cadre-juridique,a_rediger,
+comite-ia,Comité IA,AI committee,economie,intermediaire,cadre-juridique,a_rediger,
+common-crawl,Common Crawl,Common Crawl,fondamentaux,avance,donnees,a_rediger,
+communaute-pragmaforma,Communauté,PragmaForma community,economie,fondamental,ecosysteme-outils,publie,
+complaisance-ia,Complaisance de l'IA (sycophancie),AI sycophancy,responsabilite,intermediaire,prompting-usage,a_rediger,
+conduite-changement,Conduite du changement IA,AI change management,economie,intermediaire,prompting-usage,a_rediger,
+confidentialite-differentielle,Confidentialité différentielle,Differential privacy,responsabilite,avance,securite,a_rediger,cnil google_ml
+conformite-ia,Conformité IA (compliance),AI compliance,reglementaire,fondamental,cadre-juridique,a_rediger,
+consentement,Consentement,Consent,reglementaire,fondamental,cadre-juridique,a_rediger,
+consommation-eau,Consommation d'eau des data centers,AI water consumption,responsabilite,fondamental,impact-environnemental,a_rediger,
+consommation-electrique,Consommation électrique de l'IA,AI electricity consumption,responsabilite,fondamental,impact-environnemental,a_rediger,
+contamination,Contamination des données d'évaluation,Benchmark contamination,fondamentaux,intermediaire,evaluation-qualite,a_rediger,
+contenu-genere,Contenu généré par IA,AI-generated content,fondamentaux,fondamental,prompting-usage,a_rediger,
+controle-ordinateur,Contrôle d'ordinateur par IA (computer use),Computer use,fondamentaux,avance,rag-agents,a_rediger,
+conversation-multitour,Conversation multitour,Multi-turn conversation,fondamentaux,intermediaire,prompting-usage,a_rediger,
+copilot,Copilot (Microsoft),Copilot,economie,fondamental,ecosysteme-outils,publie,
+corpus-entrainement,Corpus d'entraînement,Training corpus,fondamentaux,fondamental,entrainement-apprentissage,a_rediger,cafeia
+correlation-causalite,Corrélation et causalité,Correlation vs causation,fondamentaux,intermediaire,architecture-modeles,a_rediger,
+couche-neurones,Couche de neurones,Neural network layer,fondamentaux,avance,architecture-modeles,a_rediger,cnil
+courbes-apprentissage,Convergence de l'entraînement,Training convergence,fondamentaux,avance,entrainement-apprentissage,a_rediger,
+course-ia,Course mondiale à l'IA,Global AI race,economie,fondamental,ecosysteme-outils,a_rediger,
+cpf,CPF / OPCO,CPF (French personal training account),reglementaire,fondamental,cadre-juridique,publie,
+csrd,CSRD et reporting de durabilité,CSRD sustainability reporting,reglementaire,intermediaire,impact-environnemental,a_rediger,
+cursor,Cursor et les IDE IA,Cursor and AI IDEs,economie,intermediaire,ecosysteme-outils,a_rediger,
+data-act,Data Act européen,European Data Act,souverainete,avance,cadre-juridique,a_rediger,
+data-center,Data center,Data center,responsabilite,intermediaire,impact-environnemental,publie,franceterme
+data-privacy-framework,Data Privacy Framework (DPF),EU-US Data Privacy Framework,souverainete,avance,cadre-juridique,a_rediger,
+date-coupure,Date de coupure des connaissances,Knowledge cutoff,fondamentaux,fondamental,entrainement-apprentissage,a_rediger,
+dax,DAX,DAX (Data Analysis Expressions),economie,intermediaire,ecosysteme-outils,publie,
+dechets-electroniques,Déchets électroniques,E-waste,responsabilite,fondamental,impact-environnemental,a_rediger,
+decision-automatisee,Décision entièrement automatisée,Automated decision-making (GDPR art. 22),reglementaire,intermediaire,cadre-juridique,a_rediger,
+decodage-speculatif,Décodage spéculatif,Speculative decoding,fondamentaux,avance,architecture-modeles,a_rediger,oqlf
+deepfake,Hypertrucage (deepfake),Deepfake,responsabilite,fondamental,architecture-modeles,a_rediger,oqlf
+deepseek,DeepSeek,DeepSeek,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+dependance-cognitive,Dépendance cognitive à l'IA,Cognitive offloading,responsabilite,intermediaire,prompting-usage,a_rediger,
+deploiement-ia,Déploiement IA,AI deployment,souverainete,fondamental,ecosysteme-outils,publie,
+derive-donnees,Dérive des données,Data drift,fondamentaux,avance,evaluation-qualite,a_rediger,cnil
+derive-modele,Dérive du modèle,Model drift,fondamentaux,intermediaire,evaluation-qualite,a_rediger,cnil
+desapprentissage,Désapprentissage machine,Machine unlearning,reglementaire,avance,entrainement-apprentissage,a_rediger,cnil
+descente-gradient,Descente de gradient,Gradient descent,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml
+desinformation-ia,Désinformation générée par IA,AI-generated disinformation,responsabilite,fondamental,evaluation-qualite,a_rediger,
+deskilling,Déqualification (deskilling),Deskilling,responsabilite,intermediaire,prompting-usage,a_rediger,
+detection-anomalies,Détection d'anomalies,Anomaly detection,fondamentaux,intermediaire,architecture-modeles,a_rediger,google_ml
+detection-contenu-ia,Détection de contenu généré par IA,AI content detection,responsabilite,intermediaire,prompting-usage,a_rediger,
+distillation,Distillation,Distillation,responsabilite,avance,entrainement-apprentissage,publie,google_ml
+donnees-dormantes,Données dormantes (dark data),Dark data,economie,intermediaire,donnees,a_rediger,
+donnees-entrainement,Données d'entraînement,Training data,fondamentaux,fondamental,donnees,a_rediger,oqlf
+donnees-fair,Données FAIR,FAIR data,souverainete,avance,donnees,a_rediger,franceterme
+donnees-ouvertes,Données ouvertes (open data),Open data,souverainete,fondamental,donnees,a_rediger,franceterme
+donnees-personnelles,Données personnelles,Personal data,reglementaire,fondamental,donnees,a_rediger,
+donnees-sensibles,Données sensibles,Sensitive data,reglementaire,intermediaire,donnees,a_rediger,
+donnees-structurees,Données structurées et non structurées,Structured and unstructured data,fondamentaux,fondamental,donnees,a_rediger,
+donnees-synthetiques,Données synthétiques,Synthetic data,fondamentaux,intermediaire,donnees,a_rediger,oqlf
+dpo-delegue,Délégué à la protection des données (DPO),Data Protection Officer (DPO),reglementaire,fondamental,cadre-juridique,a_rediger,franceterme
+dpo-optimisation,Optimisation directe des préférences (DPO),Direct Preference Optimization (DPO),fondamentaux,avance,entrainement-apprentissage,a_rediger,
+droits-auteur-ia,Droits d'auteur & IA,AI & copyright,reglementaire,intermediaire,cadre-juridique,publie,
+droits-personnes,Droits des personnes (RGPD),Data subject rights,reglementaire,intermediaire,cadre-juridique,a_rediger,
+dropout,Abandon (dropout),Dropout,fondamentaux,avance,entrainement-apprentissage,a_rediger,oqlf wikipedia
+dsa-dma,DSA et DMA,Digital Services Act and Digital Markets Act,reglementaire,intermediaire,cadre-juridique,a_rediger,
+dsi,DSI,CIO / IT department,reglementaire,intermediaire,ecosysteme-outils,publie,
+echantillonnage,Échantillon et biais d'échantillonnage,Sampling and sampling bias,responsabilite,intermediaire,donnees,a_rediger,
+ecologits,Ecologits,EcoLogits,responsabilite,fondamental,impact-environnemental,publie,
+ecosysteme-ia-francais,Écosystème IA français,French AI ecosystem,souverainete,fondamental,ecosysteme-outils,a_rediger,
+edge-computing,Informatique en périphérie (edge computing),Edge computing,souverainete,intermediaire,architecture-modeles,a_rediger,franceterme
+effet-rebond,Effet rebond,Rebound effect,responsabilite,intermediaire,impact-environnemental,a_rediger,
+effondrement-modele,Effondrement de modèle,Model collapse,responsabilite,intermediaire,entrainement-apprentissage,a_rediger,
+elagage,Élagage de modèle,Model pruning,responsabilite,avance,architecture-modeles,a_rediger,
+embedding,Embedding,Embedding,fondamentaux,intermediaire,architecture-modeles,publie,google_genai
+empoisonnement-donnees,Empoisonnement de données,Data poisoning,responsabilite,avance,securite,a_rediger,
+empreinte-carbone,Empreinte carbone de l'IA,Carbon footprint,responsabilite,fondamental,impact-environnemental,publie,
+empreinte-materielle,Empreinte matérielle (fabrication),Embodied footprint,responsabilite,intermediaire,impact-environnemental,a_rediger,
+enchainement-requetes,Enchaînement de requêtes,Prompt chaining,fondamentaux,intermediaire,prompting-usage,a_rediger,google_ml oqlf
+encodeur-decodeur,Encodeur-décodeur,Encoder-decoder,fondamentaux,avance,architecture-modeles,a_rediger,
+entrainement,Entraînement (training),Training,responsabilite,intermediaire,entrainement-apprentissage,publie,cafeia cnil google_ml oqlf twilio
+entrepot-donnees,Entrepôt de données,Data warehouse,fondamentaux,intermediaire,donnees,a_rediger,franceterme wikipedia
+epoque,Époque (epoch),Epoch,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml wikipedia
+equite-algorithmique,Équité algorithmique,Algorithmic fairness,responsabilite,intermediaire,evaluation-qualite,a_rediger,
+espace-latent,Espace latent,Latent space,fondamentaux,avance,architecture-modeles,a_rediger,google_ml
+ethique-ia,Éthique de l'IA,AI ethics,responsabilite,fondamental,cadre-juridique,publie,
+etiquetage-donnees,Étiquetage des données (annotation),Data labeling,fondamentaux,fondamental,donnees,a_rediger,oqlf
+euro-stack,EuroStack,EuroStack,souverainete,avance,ecosysteme-outils,a_rediger,
+eurohpc,Supercalculateurs européens (EuroHPC),European supercomputers (EuroHPC),souverainete,intermediaire,ecosysteme-outils,a_rediger,
+evaluation-agents,Évaluation d'agents,Agent evaluation,fondamentaux,avance,evaluation-qualite,a_rediger,
+evaluation-humaine,Évaluation humaine,Human evaluation,responsabilite,intermediaire,evaluation-qualite,a_rediger,google_ml
+evaluation-llm,Évaluation des LLM,LLM evaluation,responsabilite,intermediaire,evaluation-qualite,publie,
+evaluation-rag,Évaluation d'un RAG,RAG evaluation,fondamentaux,avance,rag-agents,a_rediger,
+exception-tdm,Exception de fouille de textes et de données (TDM),Text and Data Mining exception,reglementaire,avance,cadre-juridique,a_rediger,
+exfiltration,Exfiltration de données,Data exfiltration,responsabilite,intermediaire,securite,a_rediger,
+explicabilite,Explicabilité,Explainability,responsabilite,intermediaire,evaluation-qualite,a_rediger,cnil oqlf
+exploration-donnees,Exploration de données (data mining),Data mining,fondamentaux,fondamental,donnees,a_rediger,franceterme oqlf wikipedia
+extraction-caracteristiques,Extraction de caractéristiques,Feature extraction,fondamentaux,avance,donnees,a_rediger,cnil google_ml wikipedia
+extraction-modele,Extraction de modèle,Model extraction,responsabilite,avance,securite,a_rediger,
+faux-positifs,Faux positifs et faux négatifs,False positives and negatives,fondamentaux,fondamental,evaluation-qualite,a_rediger,
+federated-learning,Federated learning,Federated learning,souverainete,avance,entrainement-apprentissage,publie,google_ml wikipedia
+fenetre-contextuelle,Fenêtre contextuelle,Context window,fondamentaux,fondamental,architecture-modeles,publie,google_genai google_ml
+filigrane-ia,Filigrane numérique (watermarking),AI watermarking,reglementaire,intermediaire,cadre-juridique,a_rediger,
+fine-tuning,Fine-tuning,Fine-tuning,fondamentaux,intermediaire,entrainement-apprentissage,publie,google_ml hoko twilio
+flux-agentiques,Flux agentiques,Agentic workflows,economie,intermediaire,rag-agents,a_rediger,
+fonction-activation,Fonction d'activation,Activation function,fondamentaux,avance,architecture-modeles,a_rediger,cnil google_ml oqlf wikipedia
+fonction-perte,Fonction de perte,Loss function,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml oqlf
+fracture-numerique,Fracture numérique et IA,AI digital divide,responsabilite,fondamental,prompting-usage,a_rediger,
+france-2030,Plan France 2030 et IA,France 2030 investment plan,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+fraude-ia,Fraude augmentée par IA,AI-enabled fraud,responsabilite,fondamental,securite,a_rediger,
+freemium,Modèle gratuit-payant (freemium),Freemium,economie,fondamental,ecosysteme-outils,a_rediger,franceterme
+fria,Analyse d'impact sur les droits fondamentaux (FRIA),Fundamental Rights Impact Assessment (FRIA),reglementaire,avance,cadre-juridique,a_rediger,
+fuite-informations,Fuite d'informations,Data leakage,responsabilite,intermediaire,securite,a_rediger,
+gaia-x,Gaia-X,Gaia-X,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+gan,Réseau antagoniste génératif (GAN),Generative Adversarial Network (GAN),fondamentaux,avance,architecture-modeles,a_rediger,google_ml oqlf wikipedia
+gemini,Gemini,Gemini,fondamentaux,fondamental,ecosysteme-outils,publie,google_ml hoko
+generalisation,Généralisation,Generalization,fondamentaux,intermediaire,entrainement-apprentissage,a_rediger,google_ml twilio wikipedia
+generation-audio,Génération audio et musicale,AI audio and music generation,fondamentaux,intermediaire,architecture-modeles,a_rediger,
+generation-code,Génération de code,AI code generation,fondamentaux,intermediaire,prompting-usage,a_rediger,
+generation-images,Génération d'images par IA,AI image generation,fondamentaux,fondamental,architecture-modeles,a_rediger,franceterme
+generation-video,Génération de vidéo par IA,AI video generation,fondamentaux,intermediaire,architecture-modeles,a_rediger,
+github-copilot,GitHub Copilot,GitHub Copilot,economie,fondamental,ecosysteme-outils,a_rediger,
+google-deepmind,Google DeepMind,Google DeepMind,economie,fondamental,ecosysteme-outils,a_rediger,
+gouvernance-donnees,Gouvernance des données,Data governance,economie,intermediaire,donnees,a_rediger,
+gouvernance-ia,Gouvernance IA,AI governance,economie,intermediaire,cadre-juridique,publie,
+gpai,Modèle d'IA à usage général (GPAI),General-Purpose AI (GPAI),reglementaire,intermediaire,cadre-juridique,a_rediger,
+gpqa,GPQA,GPQA,fondamentaux,avance,evaluation-qualite,a_rediger,
+gpt,GPT · transformeur génératif préentraîné,GPT (Generative Pre-trained Transformer),fondamentaux,fondamental,architecture-modeles,a_rediger,google_ml hoko
+gpu,GPU,GPU,fondamentaux,fondamental,architecture-modeles,publie,cafeia
+gpu-cloud,Cloud GPU,GPU cloud,economie,intermediaire,ecosysteme-outils,a_rediger,
+graph-rag,GraphRAG,GraphRAG,fondamentaux,avance,rag-agents,a_rediger,
+graphe-connaissances,Graphe de connaissances,Knowledge graph,fondamentaux,avance,rag-agents,a_rediger,franceterme
+grok,Grok (xAI),Grok (xAI),economie,fondamental,ecosysteme-outils,a_rediger,
+guardrails,Guardrails,Guardrails,responsabilite,intermediaire,securite,publie,google_ml
+hallucination,Hallucination,Hallucination,responsabilite,fondamental,evaluation-qualite,publie,cafeia google_ml hoko twilio wikipedia
+hameconnage-ia,Hameçonnage augmenté par IA,AI-enhanced phishing,responsabilite,fondamental,securite,a_rediger,
+hds,Hébergement de données de santé (HDS),French health data hosting certification (HDS),reglementaire,avance,cadre-juridique,a_rediger,
+hebergement-delegue,Hébergement délégué,Managed hosting,souverainete,intermediaire,ecosysteme-outils,publie,
+hiver-ia,Hivers de l'IA,AI winters,fondamentaux,intermediaire,architecture-modeles,a_rediger,
+hugging-face,Hugging Face,Hugging Face,souverainete,fondamental,ecosysteme-outils,publie,
+humain-dans-la-boucle,Humain dans la boucle,Human in the loop,responsabilite,fondamental,prompting-usage,a_rediger,google_ml hoko
+humaneval,HumanEval,HumanEval,fondamentaux,avance,evaluation-qualite,a_rediger,
+hyperautomatisation,Hyperautomatisation,Hyperautomation,economie,intermediaire,prompting-usage,a_rediger,oqlf
+hyperparametre,Hyperparamètre,Hyperparameter,fondamentaux,avance,entrainement-apprentissage,a_rediger,cnil google_ml wikipedia
+ia-accessibilite,IA et accessibilité,AI and accessibility,responsabilite,intermediaire,prompting-usage,a_rediger,
+ia-climat,IA au service du climat,AI for climate,responsabilite,intermediaire,impact-environnemental,a_rediger,
+ia-compagnon,IA compagnon,AI companion,responsabilite,fondamental,prompting-usage,a_rediger,
+ia-constitutionnelle,IA constitutionnelle,Constitutional AI,responsabilite,avance,entrainement-apprentissage,a_rediger,
+ia-education,IA en éducation,AI in education,responsabilite,fondamental,prompting-usage,a_rediger,
+ia-embarquee,IA embarquée,Embedded AI,souverainete,intermediaire,architecture-modeles,a_rediger,
+ia-emploi,IA et emploi,AI and employment,responsabilite,fondamental,prompting-usage,a_rediger,
+ia-faible-forte,IA faible et IA forte,Narrow AI and strong AI,fondamentaux,fondamental,architecture-modeles,a_rediger,
+ia-fantome,IA fantôme (shadow AI),Shadow AI,economie,intermediaire,securite,a_rediger,
+ia-finance,IA en finance,AI in finance,economie,intermediaire,prompting-usage,a_rediger,
+ia-frugale,IA frugale,Frugal AI,responsabilite,intermediaire,impact-environnemental,a_rediger,
+ia-generative,IA générative,Generative AI,fondamentaux,fondamental,architecture-modeles,publie,google_genai google_ml twilio
+ia-industrie,IA industrielle,Industrial AI,economie,intermediaire,prompting-usage,a_rediger,
+ia-juridique,IA juridique (legaltech),Legal AI,economie,intermediaire,prompting-usage,a_rediger,
+ia-langue-francaise,IA et langue française,AI and the French language,souverainete,fondamental,architecture-modeles,a_rediger,
+ia-marketing,IA en marketing,AI in marketing,economie,fondamental,prompting-usage,a_rediger,
+ia-non-generative,IA non générative,Non-generative AI,fondamentaux,intermediaire,architecture-modeles,publie,
+ia-rh,IA et ressources humaines,AI in HR,economie,fondamental,prompting-usage,a_rediger,
+ia-sante,IA en santé,AI in healthcare,economie,intermediaire,prompting-usage,a_rediger,
+ia-service-client,IA en service client,AI in customer service,economie,fondamental,prompting-usage,a_rediger,
+ia-souveraine,IA souveraine,Sovereign AI,souverainete,fondamental,ecosysteme-outils,publie,
+ia-washing,Écoblanchiment de l'IA (AI washing),AI washing,economie,intermediaire,ecosysteme-outils,a_rediger,
+iam,Gestion des identités et des accès (IAM),Identity and Access Management (IAM),economie,intermediaire,securite,a_rediger,
+identification-biometrique,Identification biométrique,Biometric identification,reglementaire,intermediaire,cadre-juridique,a_rediger,oqlf
+idp,Traitement intelligent de documents (IDP),Intelligent Document Processing (IDP),economie,intermediaire,rag-agents,a_rediger,
+inference,Inférence,Inference,fondamentaux,intermediaire,architecture-modeles,publie,cafeia google_ml hoko oqlf
+inference-appartenance,Attaque par inférence d'appartenance,Membership inference attack,responsabilite,avance,securite,a_rediger,
+inference-locale,Inférence locale (on-device),Local inference,souverainete,intermediaire,architecture-modeles,a_rediger,
+informatique-affective,Informatique affective,Affective computing,responsabilite,avance,architecture-modeles,a_rediger,franceterme wikipedia
+informatique-quantique,Informatique quantique et IA,Quantum computing and AI,fondamentaux,avance,architecture-modeles,a_rediger,
+ingenierie-contexte,Ingénierie de contexte,Context engineering,fondamentaux,intermediaire,rag-agents,a_rediger,
+injection-indirecte,Injection de prompt indirecte,Indirect prompt injection,responsabilite,avance,securite,a_rediger,
+instruction-tuning,Ajustement par instructions,Instruction tuning,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml
+intelligence-artificielle,Intelligence artificielle,Artificial intelligence,fondamentaux,fondamental,architecture-modeles,a_rediger,cafeia cnil franceterme google_ml hoko oqlf twilio wikipedia
+intensite-carbone,Intensité carbone de l'électricité,Carbon intensity,responsabilite,intermediaire,impact-environnemental,a_rediger,
+interoperabilite,Interopérabilité,Interoperability,souverainete,intermediaire,donnees,a_rediger,
+interpretabilite,Interprétabilité,Interpretability,responsabilite,avance,evaluation-qualite,a_rediger,google_ml oqlf
+inversion-modele,Attaque par inversion de modèle,Model inversion attack,responsabilite,avance,securite,a_rediger,cnil
+iso-42001,ISO/IEC 42001,ISO/IEC 42001 (AI management systems),reglementaire,avance,cadre-juridique,a_rediger,
+iteration-requetes,Itération de requêtes,Iterative prompting,fondamentaux,fondamental,prompting-usage,a_rediger,oqlf
+jailbreak,Débridage d'IA (jailbreak),Jailbreak,responsabilite,intermediaire,securite,a_rediger,franceterme oqlf
+jeu-donnees,Jeu de données (dataset),Dataset,fondamentaux,fondamental,donnees,a_rediger,
+journalisation,Journalisation (logs),Audit logging,reglementaire,intermediaire,securite,a_rediger,
+jumeau-numerique,Jumeau numérique,Digital twin,fondamentaux,intermediaire,architecture-modeles,a_rediger,oqlf
+jury-certification,Jury de certification,Certification jury,economie,fondamental,ecosysteme-outils,publie,
+kyutai,Kyutai,Kyutai (French AI lab),souverainete,avance,ecosysteme-outils,a_rediger,
+lac-donnees,Lac de données,Data lake,fondamentaux,intermediaire,donnees,a_rediger,franceterme
+langchain,LangChain,LangChain,fondamentaux,intermediaire,rag-agents,publie,
+langgraph,LangGraph,LangGraph,fondamentaux,avance,rag-agents,a_rediger,hoko
+latence,Latence,Latency,fondamentaux,intermediaire,architecture-modeles,a_rediger,google_genai google_ml
+le-chat,Le Chat (Mistral),Le Chat (Mistral),souverainete,fondamental,ecosysteme-outils,a_rediger,
+licences-open-source,"Licences open source (Apache 2.0, MIT)",Open-source licences,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+litellm,LiteLLM,LiteLLM,souverainete,avance,ecosysteme-outils,a_rediger,
+llama,LLaMA,Llama,souverainete,intermediaire,ecosysteme-outils,publie,hoko
+llm,LLM,Large Language Model (LLM),fondamentaux,fondamental,architecture-modeles,publie,franceterme google_genai google_ml hoko wikipedia
+llm-juge,LLM juge,LLM-as-a-judge,fondamentaux,avance,evaluation-qualite,a_rediger,
+llmops,LLMOps,LLMOps,fondamentaux,avance,ecosysteme-outils,a_rediger,hoko
+localisation-donnees,Localisation des données,Data residency,souverainete,intermediaire,donnees,a_rediger,
+lock-in,Lock-in,Vendor lock-in,souverainete,intermediaire,ecosysteme-outils,publie,
+logits,Logits et probabilités de sortie,Logits,fondamentaux,avance,architecture-modeles,a_rediger,google_ml
+lois-echelle,Lois d'échelle,Scaling laws,fondamentaux,avance,architecture-modeles,a_rediger,
+lora,LoRA · adaptation à faible rang,LoRA (Low-Rank Adaptation),souverainete,avance,entrainement-apprentissage,a_rediger,google_ml wikipedia
+marecage-donnees,Marécage de données (data swamp),Data swamp,fondamentaux,avance,donnees,a_rediger,franceterme
+marquage-ce,Marquage CE des systèmes d'IA,CE marking for AI,reglementaire,avance,cadre-juridique,a_rediger,
+matrice-confusion,Matrice de confusion,Confusion matrix,fondamentaux,avance,evaluation-qualite,a_rediger,google_ml
+mcp,MCP · Model Context Protocol,Model Context Protocol (MCP),fondamentaux,avance,rag-agents,a_rediger,hoko
+mecanisme-attention,Mécanisme d'attention,Attention mechanism,fondamentaux,avance,architecture-modeles,a_rediger,wikipedia
+megadonnees,Mégadonnées (big data),Big data,fondamentaux,fondamental,donnees,a_rediger,franceterme oqlf wikipedia
+melange-experts,Mélange d'experts (MoE),Mixture of Experts (MoE),fondamentaux,avance,architecture-modeles,a_rediger,google_ml oqlf
+memoire-agent,Mémoire d'agent,Agent memory,fondamentaux,avance,rag-agents,a_rediger,
+memoire-assistants,Mémoire des assistants IA,AI assistant memory,responsabilite,intermediaire,prompting-usage,a_rediger,
+meta-ai,Meta AI,Meta AI,economie,fondamental,ecosysteme-outils,a_rediger,
+metadonnees,Métadonnées,Metadata,fondamentaux,intermediaire,donnees,a_rediger,franceterme
+metiers-ia,Nouveaux métiers de l'IA,AI jobs,economie,fondamental,ecosysteme-outils,a_rediger,
+midjourney,Midjourney,Midjourney,economie,fondamental,ecosysteme-outils,a_rediger,
+minimisation,Minimisation des données,Data minimisation,reglementaire,intermediaire,donnees,a_rediger,
+mistral-ai,Mistral AI,Mistral AI,souverainete,fondamental,ecosysteme-outils,publie,
+mix-energetique,Mix énergétique,Energy mix,responsabilite,intermediaire,impact-environnemental,a_rediger,
+mlops,MLOps,MLOps,fondamentaux,avance,ecosysteme-outils,a_rediger,
+mmlu,MMLU,MMLU,fondamentaux,avance,evaluation-qualite,a_rediger,
+model-card,Notice de modèle (model card),Model card,responsabilite,intermediaire,architecture-modeles,a_rediger,franceterme
+modele-autoregressif,Modèle autorégressif,Autoregressive model,fondamentaux,avance,architecture-modeles,a_rediger,oqlf
+modele-discriminatif,Modèle discriminatif,Discriminative model,fondamentaux,avance,architecture-modeles,a_rediger,cnil google_ml
+modele-fondation,Modèle de fondation,Foundation model,fondamentaux,fondamental,architecture-modeles,a_rediger,cnil google_genai google_ml hoko oqlf
+modele-generatif,Modèle génératif,Generative model,fondamentaux,fondamental,architecture-modeles,a_rediger,cnil franceterme google_ml
+modele-raisonnement,Modèle de raisonnement,Reasoning model,fondamentaux,intermediaire,architecture-modeles,a_rediger,wikipedia
+modele-recompense,Modèle de récompense,Reward model,fondamentaux,avance,entrainement-apprentissage,a_rediger,
+modeles-diffusion,Modèles de diffusion,Diffusion models,responsabilite,intermediaire,architecture-modeles,publie,
+modeles-monde,Modèles du monde,World models,fondamentaux,avance,architecture-modeles,a_rediger,
+modeles-multilingues,Modèles multilingues,Multilingual models,souverainete,intermediaire,architecture-modeles,a_rediger,
+modeles-symboliques,Modèles symboliques,Symbolic AI,fondamentaux,avance,architecture-modeles,publie,
+moderation-contenu,Modération de contenu par IA,AI content moderation,responsabilite,intermediaire,evaluation-qualite,a_rediger,
+moindre-privilege,Principe de moindre privilège,Least privilege,responsabilite,intermediaire,securite,a_rediger,
+monitoring,Monitoring IA,Monitoring & observability,souverainete,intermediaire,evaluation-qualite,publie,
+mooc,MOOC,MOOC,economie,fondamental,ecosysteme-outils,publie,
+multimodal,Multimodal,Multimodal,responsabilite,intermediaire,architecture-modeles,publie,cafeia
+neuromorphique,Informatique neuromorphique,Neuromorphic computing,fondamentaux,avance,architecture-modeles,a_rediger,
+neurone-artificiel,Neurone artificiel,Artificial neuron,fondamentaux,avance,architecture-modeles,a_rediger,cnil franceterme oqlf
+neutralite-carbone,Neutralité carbone des Big Tech,Big Tech carbon neutrality claims,responsabilite,intermediaire,impact-environnemental,a_rediger,
+nis2,Directive NIS 2,NIS 2 Directive,reglementaire,avance,cadre-juridique,a_rediger,
+nist-ai-rmf,Cadre de gestion des risques IA du NIST,NIST AI Risk Management Framework,reglementaire,avance,cadre-juridique,a_rediger,
+nlp,Traitement automatique du langage naturel (TALN),Natural Language Processing (NLP),fondamentaux,fondamental,architecture-modeles,a_rediger,cnil google_ml wikipedia
+no-code,"No-code, low-code et IA",No-code / low-code AI,economie,fondamental,prompting-usage,a_rediger,
+normes-harmonisees,Normes harmonisées (CEN-CENELEC),Harmonised standards,reglementaire,avance,cadre-juridique,a_rediger,
+notation-sociale,Notation sociale,Social scoring,reglementaire,fondamental,cadre-juridique,a_rediger,
+notebooklm,NotebookLM,NotebookLM,economie,intermediaire,ecosysteme-outils,a_rediger,
+numerique-responsable,Numérique responsable,Responsible digital technology,responsabilite,fondamental,impact-environnemental,a_rediger,
+nvidia,NVIDIA,NVIDIA,economie,fondamental,ecosysteme-outils,a_rediger,
+obsolescence-materiel,Obsolescence du matériel IA,AI hardware obsolescence,responsabilite,intermediaire,impact-environnemental,a_rediger,
+ocr,Reconnaissance optique de caractères (OCR),Optical Character Recognition (OCR),fondamentaux,fondamental,architecture-modeles,a_rediger,oqlf
+ollama,Ollama,Ollama,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+ontologie,Ontologie,Ontology,fondamentaux,avance,architecture-modeles,a_rediger,cnil
+open-source-ia,Open source (IA),Open-source AI,souverainete,fondamental,ecosysteme-outils,publie,cafeia hoko
+open-webui,OpenWebUI,OpenWebUI,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+open-weights,Modèle à poids ouverts,Open-weights model,souverainete,intermediaire,architecture-modeles,a_rediger,
+openai,OpenAI,OpenAI,economie,fondamental,ecosysteme-outils,a_rediger,wikipedia
+openrag,OpenRAG,OpenRAG,souverainete,intermediaire,rag-agents,publie,
+opt-out,Opt-out des ayants droit,Rights holder opt-out,reglementaire,intermediaire,cadre-juridique,a_rediger,
+orchestration-ia,Orchestration IA,AI orchestration,souverainete,intermediaire,rag-agents,a_rediger,
+ori-ia,ORI-IA,ORI-IA workshop,economie,fondamental,ecosysteme-outils,publie,
+oubli-catastrophique,Oubli catastrophique,Catastrophic forgetting,fondamentaux,avance,entrainement-apprentissage,a_rediger,
+outils-proprietaires,Outils propriétaires,Proprietary tools,economie,fondamental,ecosysteme-outils,publie,
+ovhcloud,OVHcloud,OVHcloud,souverainete,fondamental,ecosysteme-outils,a_rediger,
+owasp-llm,OWASP Top 10 pour les LLM,OWASP Top 10 for LLM,responsabilite,avance,securite,a_rediger,
+parametres,Paramètres d'un modèle,Model parameters,fondamentaux,fondamental,architecture-modeles,a_rediger,google_genai
+perceptron,Perceptron,Perceptron,fondamentaux,avance,architecture-modeles,a_rediger,google_ml oqlf wikipedia
+perplexite-metrique,Perplexité (métrique),Perplexity (metric),fondamentaux,avance,evaluation-qualite,a_rediger,google_ml
+perplexity,Perplexity,Perplexity,economie,fondamental,ecosysteme-outils,a_rediger,google_ml
+pipeline-donnees,Pipeline de données,Data pipeline,fondamentaux,avance,donnees,a_rediger,
+pipeline-ingestion,Pipeline d'ingestion documentaire,Document ingestion pipeline,fondamentaux,intermediaire,rag-agents,a_rediger,
+planification-agent,Planification (agents),Agent planning,fondamentaux,avance,rag-agents,a_rediger,
+poc,Preuve de concept (POC),Proof of Concept (POC),economie,fondamental,ecosysteme-outils,a_rediger,
+poids-modele,Poids d'un modèle,Model weights,fondamentaux,intermediaire,architecture-modeles,a_rediger,
+point-controle,Point de contrôle (checkpoint),Model checkpoint,fondamentaux,avance,entrainement-apprentissage,a_rediger,
+police-predictive,Police prédictive,Predictive policing,responsabilite,intermediaire,cadre-juridique,a_rediger,
+portabilite-donnees,Portabilité des données,Data portability,souverainete,intermediaire,donnees,a_rediger,
+porte-derobee-modele,Porte dérobée dans un modèle,Model backdoor,responsabilite,avance,securite,a_rediger,
+post-entrainement,Post-entraînement,Post-training,fondamentaux,avance,entrainement-apprentissage,a_rediger,
+power-bi,Power BI,Power BI,economie,fondamental,ecosysteme-outils,publie,
+pratiques-interdites,Pratiques d'IA interdites,Prohibited AI practices,reglementaire,intermediaire,cadre-juridique,a_rediger,
+pre-entrainement,Préentraînement,Pre-training,fondamentaux,intermediaire,entrainement-apprentissage,a_rediger,google_ml oqlf
+precision-rappel,Précision et rappel,Precision and recall,fondamentaux,avance,evaluation-qualite,a_rediger,
+privacy-by-design,Confidentialité dès la conception,Privacy by design,reglementaire,intermediaire,cadre-juridique,a_rediger,franceterme
+prompt,Prompt,Prompt,fondamentaux,fondamental,prompting-usage,publie,cafeia franceterme google_ml hoko
+prompt-engineering,Ingénierie de prompt,Prompt engineering,fondamentaux,fondamental,prompting-usage,a_rediger,google_genai google_ml hoko
+prompt-injection,Prompt injection,Prompt injection,economie,intermediaire,securite,publie,
+prompt-negatif,Prompt négatif,Negative prompt,fondamentaux,intermediaire,prompting-usage,a_rediger,
+prompt-systeme,Prompt système,System prompt,fondamentaux,intermediaire,prompting-usage,a_rediger,
+protocole-a2a,Protocole d'agent à agent (A2A),Agent-to-Agent protocol (A2A),fondamentaux,avance,rag-agents,a_rediger,
+pseudonymisation,Pseudonymisation,Pseudonymization,reglementaire,avance,donnees,a_rediger,
+pue,PUE,PUE (Power Usage Effectiveness),responsabilite,avance,impact-environnemental,publie,
+pytorch,PyTorch,PyTorch,fondamentaux,avance,ecosysteme-outils,a_rediger,wikipedia
+qualite-donnees,Qualité des données,Data quality,fondamentaux,fondamental,donnees,a_rediger,
+quantification,Quantification de modèle,Model quantization,responsabilite,avance,architecture-modeles,a_rediger,
+qwen,Qwen,Qwen (Alibaba),souverainete,avance,ecosysteme-outils,a_rediger,
+rag,RAG,RAG (Retrieval-Augmented Generation),souverainete,fondamental,rag-agents,publie,google_ml hoko
+rag-multimodal,RAG multimodal,Multimodal RAG,fondamentaux,avance,rag-agents,a_rediger,
+raisonnement-etendu,Raisonnement étendu (test-time compute),Extended reasoning (test-time compute),fondamentaux,avance,prompting-usage,a_rediger,
+react,ReAct · raisonner et agir,ReAct (Reasoning and Acting),fondamentaux,avance,rag-agents,a_rediger,hoko
+recherche-approfondie,Recherche approfondie (deep research),Deep research,fondamentaux,intermediaire,prompting-usage,a_rediger,
+recherche-hybride,Recherche hybride,Hybrid search,fondamentaux,avance,rag-agents,a_rediger,
+recherche-ia,Recherche augmentée par IA,AI-powered search,economie,fondamental,prompting-usage,a_rediger,
+recherche-semantique,Recherche sémantique,Semantic search,fondamentaux,fondamental,rag-agents,a_rediger,
+reclassement,Reclassement (reranking),Reranking,fondamentaux,avance,rag-agents,a_rediger,
+reconnaissance-emotions,Reconnaissance des émotions,Emotion recognition,reglementaire,intermediaire,cadre-juridique,a_rediger,
+reconnaissance-entites,Reconnaissance d'entités nommées,Named Entity Recognition (NER),fondamentaux,avance,architecture-modeles,a_rediger,cnil oqlf wikipedia
+reconnaissance-faciale,Reconnaissance faciale,Facial recognition,reglementaire,fondamental,cadre-juridique,a_rediger,oqlf
+reconnaissance-parole,Reconnaissance automatique de la parole,Automatic speech recognition,fondamentaux,intermediaire,architecture-modeles,a_rediger,oqlf
+red-teaming,Red teaming IA,AI red teaming,responsabilite,avance,securite,a_rediger,
+redaction-assistee,Rédaction assistée par IA,AI-assisted writing,fondamentaux,fondamental,prompting-usage,a_rediger,
+reduction-dimension,Réduction de dimension,Dimensionality reduction,fondamentaux,avance,donnees,a_rediger,wikipedia
+reformulation-requete,Reformulation de requête,Query rewriting,fondamentaux,avance,rag-agents,a_rediger,
+refroidissement,Refroidissement des data centers,Data center cooling,responsabilite,intermediaire,impact-environnemental,a_rediger,
+registre-cas-usage,Registre des cas d'usage IA,AI use-case register,economie,intermediaire,cadre-juridique,a_rediger,
+registre-traitements,Registre des traitements,Record of processing activities,reglementaire,intermediaire,cadre-juridique,a_rediger,
+regression,Régression,Regression,fondamentaux,intermediaire,architecture-modeles,a_rediger,cnil oqlf
+regularisation,Régularisation,Regularization,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml oqlf wikipedia
+regurgitation,Régurgitation,Regurgitation,reglementaire,avance,evaluation-qualite,a_rediger,cnil
+reseau-convolutif,Réseau de neurones convolutif (CNN),Convolutional Neural Network (CNN),fondamentaux,avance,architecture-modeles,a_rediger,google_ml oqlf wikipedia
+reseau-neurones,Réseau de neurones artificiels,Artificial neural network,fondamentaux,fondamental,architecture-modeles,a_rediger,cnil franceterme
+reseau-recurrent,Réseau de neurones récurrent (RNN),Recurrent Neural Network (RNN),fondamentaux,avance,architecture-modeles,a_rediger,google_ml oqlf wikipedia
+responsabilite-ia,Responsabilité juridique de l'IA,AI liability,reglementaire,intermediaire,cadre-juridique,a_rediger,
+resume-automatique,Résumé automatique,Automatic summarization,fondamentaux,fondamental,prompting-usage,a_rediger,oqlf
+retropropagation,Rétropropagation,Backpropagation,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml wikipedia
+rgpd,RGPD,GDPR,reglementaire,fondamental,cadre-juridique,publie,
+rlhf,RLHF,RLHF,fondamentaux,avance,entrainement-apprentissage,publie,cafeia hoko
+robotique-ia,Robotique et IA incarnée,Robotics and embodied AI,fondamentaux,intermediaire,architecture-modeles,a_rediger,
+robustesse,Robustesse,Robustness,responsabilite,intermediaire,evaluation-qualite,a_rediger,cnil twilio
+roi-ia,Retour sur investissement IA,AI ROI,economie,fondamental,ecosysteme-outils,a_rediger,
+role-persona,Rôle et persona,Role prompting,fondamentaux,fondamental,prompting-usage,a_rediger,google_ml
+rouge-bleu,Métriques ROUGE et BLEU,ROUGE and BLEU metrics,fondamentaux,avance,evaluation-qualite,a_rediger,
+rpa,Automatisation robotisée des processus (RPA),Robotic Process Automation (RPA),economie,intermediaire,prompting-usage,a_rediger,
+scaleway,Scaleway,Scaleway,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+science-donnees,Science des données,Data science,fondamentaux,fondamental,architecture-modeles,a_rediger,franceterme wikipedia
+scope-3,Émissions de scope 3,Scope 3 emissions,responsabilite,avance,impact-environnemental,a_rediger,
+score-confiance,Score de confiance,Confidence score,fondamentaux,intermediaire,evaluation-qualite,a_rediger,
+scraping,Scraping,Web scraping,reglementaire,intermediaire,donnees,publie,
+secnumcloud,SecNumCloud,SecNumCloud,souverainete,intermediaire,securite,a_rediger,
+securite-donnees,Sécurité des données,Data security,economie,intermediaire,securite,publie,
+serveur-inference,Serveur d'inférence,Inference server,souverainete,avance,architecture-modeles,a_rediger,
+signalement-incidents,Signalement des incidents IA,AI incident reporting,reglementaire,intermediaire,cadre-juridique,a_rediger,
+similarite-cosinus,Similarité cosinus,Cosine similarity,fondamentaux,avance,rag-agents,a_rediger,
+singularite,Singularité technologique,Technological singularity,fondamentaux,intermediaire,architecture-modeles,a_rediger,oqlf wikipedia
+slm,Petit modèle de langage (SLM),Small Language Model (SLM),souverainete,intermediaire,architecture-modeles,a_rediger,oqlf
+slop,Slop · contenu IA de masse,AI slop,responsabilite,intermediaire,prompting-usage,a_rediger,google_ml
+sobriete-numerique,Sobriété numérique,Digital sobriety,responsabilite,intermediaire,impact-environnemental,publie,
+sommets-ia,Sommets internationaux sur l'IA,International AI summits,reglementaire,fondamental,ecosysteme-outils,a_rediger,
+sora,Sora (OpenAI),Sora (OpenAI),economie,fondamental,ecosysteme-outils,a_rediger,
+sorties-structurees,Sorties structurées (JSON),Structured outputs,fondamentaux,intermediaire,prompting-usage,a_rediger,
+sous-apprentissage,Sous-apprentissage (underfitting),Underfitting,fondamentaux,avance,entrainement-apprentissage,a_rediger,google_ml oqlf
+souverainete-donnees,Souveraineté des données,Data sovereignty,souverainete,fondamental,donnees,a_rediger,
+souverainete-numerique,Souveraineté numérique,Digital sovereignty,souverainete,fondamental,cadre-juridique,publie,
+sso,Authentification unique (SSO),Single Sign-On (SSO),economie,intermediaire,securite,a_rediger,franceterme
+stable-diffusion,Stable Diffusion,Stable Diffusion,souverainete,intermediaire,ecosysteme-outils,a_rediger,
+statut-oeuvres-ia,Statut juridique des œuvres générées,Legal status of AI-generated works,reglementaire,intermediaire,cadre-juridique,a_rediger,
+superintelligence,Superintelligence,Superintelligence,fondamentaux,intermediaire,architecture-modeles,a_rediger,wikipedia
+supervision-humaine,Supervision humaine (AI Act),Human oversight (AI Act),reglementaire,intermediaire,cadre-juridique,a_rediger,
+surapprentissage,Surapprentissage (overfitting),Overfitting,fondamentaux,intermediaire,entrainement-apprentissage,a_rediger,cnil google_ml wikipedia
+surveillance-travail,Surveillance algorithmique au travail,Algorithmic workplace surveillance,reglementaire,intermediaire,cadre-juridique,a_rediger,
+swe-bench,SWE-bench,SWE-bench,fondamentaux,avance,evaluation-qualite,a_rediger,
+synchrone-asynchrone,Synchrone / Asynchrone,Synchronous / asynchronous,fondamentaux,fondamental,ecosysteme-outils,publie,
+synthese-vocale,Synthèse vocale,Text-to-speech,fondamentaux,intermediaire,architecture-modeles,a_rediger,franceterme
+systeme-expert,Système expert,Expert system,fondamentaux,intermediaire,architecture-modeles,a_rediger,franceterme wikipedia
+systeme-haut-risque,Système d'IA à haut risque,High-risk AI system,reglementaire,fondamental,cadre-juridique,a_rediger,
+systeme-multi-agents,Système multi-agents,Multi-agent system,fondamentaux,avance,rag-agents,a_rediger,wikipedia
+systeme-recommandation,Algorithme de recommandation,Recommender system,fondamentaux,fondamental,architecture-modeles,a_rediger,oqlf
+tarification-usage,Tarification à l'usage des API,API usage pricing,economie,fondamental,ecosysteme-outils,a_rediger,
+taux-apprentissage,Taux d'apprentissage,Learning rate,fondamentaux,avance,entrainement-apprentissage,a_rediger,cnil google_ml oqlf
+taux-hallucination,Taux d'hallucination,Hallucination rate,responsabilite,intermediaire,evaluation-qualite,a_rediger,
+tco,TCO,TCO (Total Cost of Ownership),economie,intermediaire,ecosysteme-outils,publie,
+tee,Environnement d'exécution de confiance (TEE),Trusted Execution Environment (TEE),souverainete,avance,securite,a_rediger,cnil
+temperature,Température,Temperature,fondamentaux,intermediaire,prompting-usage,publie,cafeia google_ml hoko
+terres-rares,Terres rares et minerais critiques,Rare earths and critical minerals,responsabilite,intermediaire,impact-environnemental,a_rediger,
+test-ab,Test A/B,A/B testing,economie,intermediaire,evaluation-qualite,a_rediger,google_ml
+test-intrusion,Test d'intrusion,Penetration testing,responsabilite,intermediaire,securite,a_rediger,
+test-turing,Test de Turing,Turing test,fondamentaux,fondamental,architecture-modeles,a_rediger,wikipedia
+test-validation-ia,Test & validation IA,AI testing & validation,responsabilite,intermediaire,evaluation-qualite,publie,
+token,Token,Token,fondamentaux,fondamental,architecture-modeles,publie,google_ml hoko twilio
+top-k,Top-k · récupération,Top-k retrieval,fondamentaux,avance,rag-agents,a_rediger,
+top-p,Top-p · échantillonnage noyau,Top-p (nucleus sampling),fondamentaux,avance,architecture-modeles,a_rediger,
+tpu,TPU · Tensor Processing Unit,TPU (Tensor Processing Unit),fondamentaux,avance,architecture-modeles,a_rediger,google_ml
+tracabilite-donnees,Traçabilité des données (lineage),Data lineage,fondamentaux,avance,donnees,a_rediger,
+traduction-automatique,Traduction automatique neuronale,Neural machine translation,fondamentaux,intermediaire,architecture-modeles,a_rediger,wikipedia
+traitement-par-lots,Traitement par lots (batch),Batch processing,economie,intermediaire,architecture-modeles,a_rediger,franceterme
+transcription-reunions,Transcription de réunions par IA,AI meeting transcription,economie,fondamental,prompting-usage,a_rediger,
+transferts-internationaux,Transferts internationaux de données,International data transfers,reglementaire,avance,cadre-juridique,a_rediger,
+transformer,Transformer,Transformer,fondamentaux,avance,architecture-modeles,publie,franceterme google_ml hoko wikipedia
+transparence-algorithmes,Transparence des algorithmes,Algorithmic transparency,responsabilite,fondamental,evaluation-qualite,a_rediger,oqlf
+travailleurs-clic,Travailleurs du clic,Click workers,responsabilite,intermediaire,donnees,a_rediger,
+usage-outils,Usage d'outils par l'IA,Tool use,fondamentaux,intermediaire,rag-agents,a_rediger,
+vector-store,Vector store,Vector store,souverainete,intermediaire,rag-agents,publie,
+vectorisation,Vectorisation,Vectorization,fondamentaux,intermediaire,donnees,a_rediger,
+veille-ia,Veille augmentée par IA,AI-powered monitoring,economie,intermediaire,prompting-usage,a_rediger,
+verification-faits,Vérification des faits et IA,AI fact-checking,responsabilite,intermediaire,evaluation-qualite,a_rediger,
+verite-terrain,Vérité terrain,Ground truth,fondamentaux,avance,evaluation-qualite,a_rediger,google_ml
+versionnage-modeles,Versions de modèles,Model versioning,economie,intermediaire,entrainement-apprentissage,a_rediger,
+vibe-coding,Vibe coding,Vibe coding,economie,intermediaire,prompting-usage,publie,google_ml
+vision-ordinateur,Vision par ordinateur,Computer vision,fondamentaux,fondamental,architecture-modeles,a_rediger,cnil oqlf wikipedia
+vllm,vLLM,vLLM,souverainete,avance,ecosysteme-outils,a_rediger,
+web-semantique,Web sémantique,Semantic web,fondamentaux,avance,architecture-modeles,a_rediger,franceterme
+webinaire,Webinaire,Webinar,economie,fondamental,ecosysteme-outils,publie,
+wue,WUE · Water Usage Effectiveness,WUE (Water Usage Effectiveness),responsabilite,avance,impact-environnemental,a_rediger,
+zero-shot-few-shot,Zero-shot / Few-shot,Zero-shot / few-shot,fondamentaux,avance,prompting-usage,publie,
+zero-trust,Zéro confiance (zero trust),Zero trust,souverainete,intermediaire,securite,a_rediger,

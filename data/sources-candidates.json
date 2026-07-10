@@ -1,0 +1,4600 @@
+{
+ "franceterme": [
+  {
+   "fr": "accélérateur quantique",
+   "en": "quantum accelerator",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "accès",
+   "en": "hit",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "accès direct",
+   "en": "direct access",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "accès libre",
+   "en": "",
+   "date": "24/05/2022"
+  },
+  {
+   "fr": "accès sans fil à l'internet",
+   "en": "wireless Internet access",
+   "date": "05/05/2005"
+  },
+  {
+   "fr": "accès séquentiel",
+   "en": "serial access",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "accord parapluie de protection des données personnelles",
+   "en": "umbrella agreement",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "accréditation",
+   "en": "credentials",
+   "date": "15/08/2010"
+  },
+  {
+   "fr": "actif numérique",
+   "en": "digital asset",
+   "date": "15/01/2021"
+  },
+  {
+   "fr": "administrateur, -trice de bâti immobilier modélisé",
+   "en": "BIM manager",
+   "date": "29/01/2019"
+  },
+  {
+   "fr": "administrateur, -trice de site, de serveur",
+   "en": "webmaster",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "adressage dispersé",
+   "en": "hash code",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "adresse de courrier électronique",
+   "en": "e-mail address",
+   "date": "20/06/2003"
+  },
+  {
+   "fr": "adresse informatique",
+   "en": "address",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "adresse universelle",
+   "en": "uniform resource locator",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "affichage",
+   "en": "display",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "afficher",
+   "en": "display",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "agenda électronique",
+   "en": "organizer",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "agent",
+   "en": "agent",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "aide au dépannage",
+   "en": "troubleshooting",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "algorithme quantique",
+   "en": "",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "algorithme quantique hybride",
+   "en": "",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "algorithmique",
+   "en": "algorithmics",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "alignement de séquences",
+   "en": "alignment",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "amorce",
+   "en": "boot",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "amorcer",
+   "en": "boot",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "ancre",
+   "en": "anchor",
+   "date": "08/12/2002"
+  },
+  {
+   "fr": "anneau de sites",
+   "en": "webring",
+   "date": "08/12/2002"
+  },
+  {
+   "fr": "annotation fonctionnelle",
+   "en": "functional annotation",
+   "date": "01/10/2016"
+  },
+  {
+   "fr": "annotation structurale",
+   "en": "structural annotation",
+   "date": "01/10/2016"
+  },
+  {
+   "fr": "antémémoire",
+   "en": "cache memory",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "anticrènelage",
+   "en": "antialiasing",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "appariement de formes",
+   "en": "pattern matching",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "application phare",
+   "en": "killer app",
+   "date": "30/04/2022"
+  },
+  {
+   "fr": "appliquette",
+   "en": "applet",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "apportez votre équipement personnel de communication",
+   "en": "bring your own device",
+   "date": "24/03/2013"
+  },
+  {
+   "fr": "apprentissage antagoniste",
+   "en": "adversarial machine learning",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "apprentissage automatique",
+   "en": "machine learning",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "apprentissage autosupervisé",
+   "en": "self-supervised learning",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "apprentissage non supervisé",
+   "en": "data clustering",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "apprentissage par renforcement",
+   "en": "reinforcement learning",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "apprentissage par transfert",
+   "en": "transfer learning",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "apprentissage profond",
+   "en": "deep learning",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "apprentissage supervisé",
+   "en": "supervised learning",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "ardoise électronique",
+   "en": "notepad computer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "arrière-guichet",
+   "en": "back office",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "arrière-plan (d')",
+   "en": "background",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "arrobe",
+   "en": "at-sign",
+   "date": "08/12/2002"
+  },
+  {
+   "fr": "arrosage",
+   "en": "spamming",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "arroseur, -euse",
+   "en": "spammer",
+   "date": "05/05/2005"
+  },
+  {
+   "fr": "article de forum",
+   "en": "news article",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "assistant",
+   "en": "wizard",
+   "date": "07/06/2007"
+  },
+  {
+   "fr": "assistant électronique de poche",
+   "en": "personal digital assistant",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "atelier numérique ouvert",
+   "en": "hackerspace",
+   "date": "16/11/2019"
+  },
+  {
+   "fr": "attaque collective par saturation de service",
+   "en": "DDoS attack",
+   "date": "19/03/2022"
+  },
+  {
+   "fr": "attaque par interruption de service",
+   "en": "denial of service attack",
+   "date": "19/03/2022"
+  },
+  {
+   "fr": "authentification à deux étapes",
+   "en": "two-factor authentification",
+   "date": "20/12/2023"
+  },
+  {
+   "fr": "authentification à étapes",
+   "en": "multi-factor authentification",
+   "date": "20/12/2023"
+  },
+  {
+   "fr": "authentification unique",
+   "en": "single sign on",
+   "date": "20/12/2023"
+  },
+  {
+   "fr": "authentification unique à la demande",
+   "en": "id as a service",
+   "date": "20/12/2023"
+  },
+  {
+   "fr": "automate exécuteur de clauses",
+   "en": "smart contract",
+   "date": "15/01/2021"
+  },
+  {
+   "fr": "autonome",
+   "en": "off line",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "avantage quantique",
+   "en": "quantum advantage",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "balise",
+   "en": "tag",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "bannière",
+   "en": "skyscraper",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "banque de données",
+   "en": "data bank",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "barre d'actualités",
+   "en": "newsbar",
+   "date": "15/08/2010"
+  },
+  {
+   "fr": "base de connaissances",
+   "en": "knowledge base",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "base de données",
+   "en": "data base",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "bâti immobilier modélisé",
+   "en": "building information management",
+   "date": "29/01/2019"
+  },
+  {
+   "fr": "bioinformatique",
+   "en": "bioinformatics",
+   "date": "19/03/2021"
+  },
+  {
+   "fr": "bloc",
+   "en": "block",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "bloc-notes électronique",
+   "en": "notebook computer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "blogue",
+   "en": "blog",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "bloqueur de publicités",
+   "en": "ad blocker",
+   "date": "16/11/2019"
+  },
+  {
+   "fr": "bogue",
+   "en": "bug",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "boîte aux lettres",
+   "en": "mail box",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "boîtier multiservice",
+   "en": "",
+   "date": "16/06/2007"
+  },
+  {
+   "fr": "bombardement",
+   "en": "bombing",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "bombe programmée",
+   "en": "logic bomb",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "bouclier de protection des données personnelles",
+   "en": "privacy shield",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "boule de commande",
+   "en": "rolling ball",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "brouillage",
+   "en": "obfuscation",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "bureautique",
+   "en": "bureautics",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "cache",
+   "en": "cache",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "cache-disque",
+   "en": "disk cache",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "cache-toile",
+   "en": "web cache",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "cadre",
+   "en": "frame",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "cadre",
+   "en": "frame",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "calcul intensif",
+   "en": "supercomputing",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "calculateur",
+   "en": "computer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "calculette",
+   "en": "pocket calculator",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "canular",
+   "en": "hoax",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "carrousel",
+   "en": "cover flow-like design",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "cartouche",
+   "en": "infobox",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "cédérom",
+   "en": "compact disk read-only memory",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "cédérom autonome",
+   "en": "live CD",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "cédérom interactif",
+   "en": "compact disk-interactive",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "centre d'assistance",
+   "en": "help desk",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "centre de données",
+   "en": "data center",
+   "date": "16/11/2019"
+  },
+  {
+   "fr": "cercle de confiance",
+   "en": "circle of trust",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "chaîne de blocs",
+   "en": "block chain",
+   "date": "23/05/2017"
+  },
+  {
+   "fr": "chantage sexuel",
+   "en": "sextortion",
+   "date": "24/02/2023"
+  },
+  {
+   "fr": "charge utile",
+   "en": "payload",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "cheval de Troie",
+   "en": "Trojan horse",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "chiffre binaire",
+   "en": "binary digit",
+   "date": "14/12/2004"
+  },
+  {
+   "fr": "chimioinformatique",
+   "en": "chemical informatics",
+   "date": "19/03/2021"
+  },
+  {
+   "fr": "clicher",
+   "en": "dump",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "cliquer",
+   "en": "click",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "cliquer-parler",
+   "en": "click and talk",
+   "date": "05/04/2006"
+  },
+  {
+   "fr": "code à octets",
+   "en": "bytecode",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "code d'intégration",
+   "en": "embed code",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "codet",
+   "en": "code element",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "collage",
+   "en": "bootleg",
+   "date": "22/07/2010"
+  },
+  {
+   "fr": "collecteur",
+   "en": "crawler",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "compresser",
+   "en": "compress",
+   "date": "02/05/2007"
+  },
+  {
+   "fr": "conception d'interfaces adaptatives",
+   "en": "responsive design",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "confidentialité des données personnelles",
+   "en": "data privacy",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "confidentialité par défaut",
+   "en": "privacy by default",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "confidentialité programmée",
+   "en": "privacy by design",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "configurer",
+   "en": "configure",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "connectabilité",
+   "en": "connectivity",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "connecteur logiciel",
+   "en": "socket",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "connexion",
+   "en": "log in",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "connexité",
+   "en": "connectivity",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "console de visualisation",
+   "en": "display unit",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "convivialité",
+   "en": "user-friendliness",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "coprocesseur",
+   "en": "coprocessor",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "courriel",
+   "en": "e-mail",
+   "date": "20/06/2003"
+  },
+  {
+   "fr": "crènelage",
+   "en": "aliasing",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "criminalistique numérique",
+   "en": "digital forensics",
+   "date": "14/09/2021"
+  },
+  {
+   "fr": "cryptographie postquantique",
+   "en": "post-quantum cryptography",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "cryptographie quantique",
+   "en": "quantum cryptography",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "cryptojeton",
+   "en": "",
+   "date": "01/07/2023"
+  },
+  {
+   "fr": "cyberattaque",
+   "en": "cyber attack",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "cyberattaque par cassage de mot de passe",
+   "en": "brute force attack",
+   "date": "24/02/2023"
+  },
+  {
+   "fr": "cyberattaque par envoi massif d'identifiants",
+   "en": "credential stuffing attack",
+   "date": "24/02/2023"
+  },
+  {
+   "fr": "cyberattaque persistante",
+   "en": "advanced persistent threat",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "cybercaméra",
+   "en": "webcamera",
+   "date": "15/09/2006"
+  },
+  {
+   "fr": "cyberconférence",
+   "en": "e-conference",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "cybercriminalité",
+   "en": "cybercrime",
+   "date": "07/12/2018"
+  },
+  {
+   "fr": "cyberdéfense",
+   "en": "cyber defence",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "cyberdépendance",
+   "en": "cyberaddiction",
+   "date": "03/05/2019"
+  },
+  {
+   "fr": "cyberespace",
+   "en": "cyberspace",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "cyberespionnage",
+   "en": "cyber espionage",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "cyberexhibitionnisme",
+   "en": "cyberflashing",
+   "date": "19/12/2025"
+  },
+  {
+   "fr": "cyberguerre",
+   "en": "cyberwar",
+   "date": "11/12/2020"
+  },
+  {
+   "fr": "cyberharcèlement",
+   "en": "cyberbullying",
+   "date": "07/12/2018"
+  },
+  {
+   "fr": "cyberjeton",
+   "en": "coin",
+   "date": "15/01/2021"
+  },
+  {
+   "fr": "cyberjustice",
+   "en": "",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "cybermonnaie",
+   "en": "crypto currency",
+   "date": "22/01/2022"
+  },
+  {
+   "fr": "cyberprotection",
+   "en": "cyber protection",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "cyberrenseignement",
+   "en": "computer network exploitation",
+   "date": "29/06/2019"
+  },
+  {
+   "fr": "cyberrésilience",
+   "en": "cyber resilience",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "cybersécurité",
+   "en": "cyber security",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "cybersquat",
+   "en": "cybersquatting",
+   "date": "17/04/2008"
+  },
+  {
+   "fr": "cybersquatteur, -euse",
+   "en": "cybersquatter",
+   "date": "17/04/2008"
+  },
+  {
+   "fr": "cyberterrorisme",
+   "en": "cyberterrorism",
+   "date": "07/12/2018"
+  },
+  {
+   "fr": "débogage",
+   "en": "debugging",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "déboguer",
+   "en": "debug",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "débogueur",
+   "en": "debugger",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "débrider",
+   "en": "jailbreak",
+   "date": "21/11/2010"
+  },
+  {
+   "fr": "décohérence quantique",
+   "en": "quantum decoherence",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "défaillance",
+   "en": "failure",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "défiguration",
+   "en": "defacement",
+   "date": "30/04/2022"
+  },
+  {
+   "fr": "défilement",
+   "en": "scrolling",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "délégué, -e à la protection des données personnelles",
+   "en": "data protection officer",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "démon",
+   "en": "daemon",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "démon de messagerie",
+   "en": "mailer daemon",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "descendant, -e",
+   "en": "downstream",
+   "date": "28/12/2006"
+  },
+  {
+   "fr": "descripteur",
+   "en": "descriptor",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "détournement de formulaire",
+   "en": "formjacking",
+   "date": "14/09/2021"
+  },
+  {
+   "fr": "dévideur",
+   "en": "streamer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "dévoiement",
+   "en": "pharming",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "dialogue en ligne",
+   "en": "chat",
+   "date": "05/04/2006"
+  },
+  {
+   "fr": "dialogueur",
+   "en": "chatbot",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "diffusion systématique sur la toile",
+   "en": "netcasting",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "directeur, -trice des données",
+   "en": "chief data officer",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "directeur des systèmes d'information",
+   "en": "chief information officer",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "directeur des techniques informatiques",
+   "en": "chief technology officer",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "dispositif d'enregistrement électronique partagé",
+   "en": "distributed ledger technology",
+   "date": "15/01/2021"
+  },
+  {
+   "fr": "disque compact",
+   "en": "compact disc",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "disque numérique polyvalent",
+   "en": "digital versatile disk",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "disque optique",
+   "en": "optical disk",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "disquette",
+   "en": "diskette",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "distribution quantique de clés",
+   "en": "quantum key distribution",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "distribution sélective",
+   "en": "push technology",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "divulgation malveillante d'informations personnelles",
+   "en": "doxing",
+   "date": "24/02/2023"
+  },
+  {
+   "fr": "documentation intégrée (à)",
+   "en": "self-documented",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "domaine",
+   "en": "domain",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "domaine de premier niveau",
+   "en": "top-level domain",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "donnée",
+   "en": "data",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "données FAIR",
+   "en": "FAIR data",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "données liées",
+   "en": "linked data",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "données ouvertes",
+   "en": "open data",
+   "date": "03/05/2014"
+  },
+  {
+   "fr": "échange de données informatisé",
+   "en": "electronic data interchange",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "écotechniques de l'information et de la communication",
+   "en": "green information technology",
+   "date": "12/07/2009"
+  },
+  {
+   "fr": "écran tactile",
+   "en": "touch screen",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "éditeur",
+   "en": "editor",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "éditeur, -trice de contenu",
+   "en": "content curator",
+   "date": "25/06/2019"
+  },
+  {
+   "fr": "édition de contenu",
+   "en": "content curation",
+   "date": "25/06/2019"
+  },
+  {
+   "fr": "élément binaire",
+   "en": "binary character",
+   "date": "14/12/2004"
+  },
+  {
+   "fr": "émulateur quantique",
+   "en": "quantum emulator",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "encre électronique",
+   "en": "e-ink",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "encre en poudre",
+   "en": "toner",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "enregistreur de frappe",
+   "en": "keylogger",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "entrepôt de données",
+   "en": "data warehouse",
+   "date": "24/03/2023"
+  },
+  {
+   "fr": "entreprise de finance technologique",
+   "en": "fintech",
+   "date": "12/02/2026"
+  },
+  {
+   "fr": "environnement de développement",
+   "en": "application framework",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "escroquerie par séduction en ligne",
+   "en": "pig butchering",
+   "date": "19/12/2025"
+  },
+  {
+   "fr": "espace de confiance",
+   "en": "trust environment",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "espace numérique",
+   "en": "digital workplace",
+   "date": "08/02/2023"
+  },
+  {
+   "fr": "étiquette",
+   "en": "label",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "expérience de l'utilisateur",
+   "en": "user experience",
+   "date": "16/11/2019"
+  },
+  {
+   "fr": "expert, -e en mégadonnées",
+   "en": "data scientist",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "explorateur de modèle",
+   "en": "model-checker",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "exploration de données",
+   "en": "datamining",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "exploration de modèle",
+   "en": "model checking",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "extensibilité",
+   "en": "scalability",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "extranet",
+   "en": "extranet",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "faille non corrigée",
+   "en": "zero-day",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "fenêtre",
+   "en": "window",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "fenêtre d'attente",
+   "en": "splash screen",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "fenêtre intruse",
+   "en": "pop-up window",
+   "date": "18/12/2005"
+  },
+  {
+   "fr": "fil d'exécution",
+   "en": "thread",
+   "date": "21/04/2011"
+  },
+  {
+   "fr": "fil de la discussion",
+   "en": "thread",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "finance technologique",
+   "en": "fintech",
+   "date": "12/02/2026"
+  },
+  {
+   "fr": "flux de dépêches",
+   "en": "really simple syndication",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "flux de travaux",
+   "en": "workflow",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "foire aux questions",
+   "en": "frequently asked questions",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "format",
+   "en": "format",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "formatage d'une disquette",
+   "en": "diskette formatting",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "formater",
+   "en": "format",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "forme",
+   "en": "pattern",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "forum",
+   "en": "newsgroup",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "fouineur",
+   "en": "hacker",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "fournisseur d'applications en ligne",
+   "en": "application service provider",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "frimousse",
+   "en": "emoticon",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "fureteur, -euse",
+   "en": "lurker",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "fusionner",
+   "en": "merge",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "gamme de couleurs",
+   "en": "color gamut",
+   "date": "22/07/2010"
+  },
+  {
+   "fr": "gant numérique",
+   "en": "data glove",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "géant du numérique",
+   "en": "big tech",
+   "date": "12/02/2026"
+  },
+  {
+   "fr": "génération automatique d'audio",
+   "en": "AI audio generation",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "génération automatique d'image",
+   "en": "AI image generation",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "génération automatique de texte",
+   "en": "AI text generation",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "génie informatique",
+   "en": "computer engineering",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "génie logiciel",
+   "en": "software engineering",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "géomarquage",
+   "en": "geotagging",
+   "date": "20/12/2023"
+  },
+  {
+   "fr": "gérance de l'informatique",
+   "en": "facilities management",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "gestion de versions",
+   "en": "versioning",
+   "date": "16/11/2019"
+  },
+  {
+   "fr": "gestion des actifs numériques",
+   "en": "digital asset management",
+   "date": "15/01/2021"
+  },
+  {
+   "fr": "gestionnaire d'évènement",
+   "en": "event handler",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "glisser-déposer",
+   "en": "drag and drop",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "grand modèle de langage",
+   "en": "large language model",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "graphe de connaissances",
+   "en": "knowledge graph",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "grapheur",
+   "en": "graphics software",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "grappe",
+   "en": "cluster",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "gratuit-payant",
+   "en": "freemium",
+   "date": "28/03/2018"
+  },
+  {
+   "fr": "grille informatique",
+   "en": "computational grid",
+   "date": "07/06/2007"
+  },
+  {
+   "fr": "groupe",
+   "en": "cluster",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "guichet",
+   "en": "front office",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "hachage",
+   "en": "hash code",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "haineur, -euse",
+   "en": "hater",
+   "date": "09/07/2021"
+  },
+  {
+   "fr": "hameçonnage",
+   "en": "phishing",
+   "date": "14/09/2021"
+  },
+  {
+   "fr": "hameçonnage ciblé",
+   "en": "spear phishing",
+   "date": "14/09/2021"
+  },
+  {
+   "fr": "hameçonnage par code 2D",
+   "en": "QR phishing",
+   "date": "19/12/2025"
+  },
+  {
+   "fr": "hameçonnage par minimessage",
+   "en": "smishing",
+   "date": "24/02/2023"
+  },
+  {
+   "fr": "harponnage",
+   "en": "whale phishing",
+   "date": "14/09/2021"
+  },
+  {
+   "fr": "heuristique",
+   "en": "heuristics",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "hypertexte",
+   "en": "hypertext",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "hypertextuel",
+   "en": "hypertext",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "icône",
+   "en": "icon",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "iconomatique",
+   "en": "iconomatic",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "iconomatique",
+   "en": "iconomatics",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "iconométrie",
+   "en": "iconometry",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "identifiant de ressource internationalisé",
+   "en": "internationalized resource identifier",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "identifiant universel de ressource",
+   "en": "uniform resource identifier",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "imagette",
+   "en": "thumbnail",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "implanter",
+   "en": "implement",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "implémenter",
+   "en": "implement",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "impression en ligne",
+   "en": "e-printing",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "incendier",
+   "en": "flame",
+   "date": "08/12/2002"
+  },
+  {
+   "fr": "indexation personnelle",
+   "en": "folksonomy",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "informatique affective",
+   "en": "affective computing",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "informatique en nuage",
+   "en": "cloud computing",
+   "date": "06/06/2010"
+  },
+  {
+   "fr": "informatique en périphérie",
+   "en": "edge computing",
+   "date": "30/07/2021"
+  },
+  {
+   "fr": "infox vidéo",
+   "en": "deep fake",
+   "date": "23/05/2020"
+  },
+  {
+   "fr": "infrastructure à la demande",
+   "en": "infrastructure as a service",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "instruction",
+   "en": "instruction",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "instruction générative",
+   "en": "prompt",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "intelligence artificielle",
+   "en": "artificial intelligence",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "intelligence artificielle embarquée",
+   "en": "artificial intelligence of things",
+   "date": "30/07/2021"
+  },
+  {
+   "fr": "intelligence artificielle générative",
+   "en": "GenAI",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "interactif, -ive",
+   "en": "interactive",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "interface",
+   "en": "interface",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "interface avec l'utilisateur",
+   "en": "user interface",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "interface de programmation d'application",
+   "en": "application programming interface",
+   "date": "30/04/2022"
+  },
+  {
+   "fr": "interface trompeuse",
+   "en": "dark pattern",
+   "date": "19/12/2025"
+  },
+  {
+   "fr": "interférence quantique",
+   "en": "quantum interference",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "internaute",
+   "en": "cybernaut",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "internet",
+   "en": "Internet network",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "internet clandestin",
+   "en": "dark net",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "intranet",
+   "en": "intranet",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "intrication quantique",
+   "en": "quantum entanglement",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "investigation informatique",
+   "en": "discovery",
+   "date": "15/08/2010"
+  },
+  {
+   "fr": "invite",
+   "en": "prompt",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "jeton textuel",
+   "en": "text token",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "jeu d'instructions",
+   "en": "instruction set",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "journalisme de données",
+   "en": "data journalism",
+   "date": "25/06/2019"
+  },
+  {
+   "fr": "lac de données",
+   "en": "data lake",
+   "date": "24/03/2023"
+  },
+  {
+   "fr": "lancer de rayons",
+   "en": "ray tracing",
+   "date": "25/07/2015"
+  },
+  {
+   "fr": "langage à objets",
+   "en": "object-oriented language",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "lien",
+   "en": "link",
+   "date": "07/06/2007"
+  },
+  {
+   "fr": "ligne (en)",
+   "en": "on line",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "ligne (en)",
+   "en": "on line",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "liseuse",
+   "en": "e-book reader",
+   "date": "04/04/2012"
+  },
+  {
+   "fr": "listage",
+   "en": "listing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "listage",
+   "en": "listing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "liste de diffusion",
+   "en": "mailing list",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "liste de signets",
+   "en": "hotlist",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "lister",
+   "en": "list",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "lister",
+   "en": "list",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "logement",
+   "en": "slot",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "logiciel",
+   "en": "software",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "logiciel à contribution",
+   "en": "shareware",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "logiciel à la demande",
+   "en": "software as a service",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "logiciel antivirus",
+   "en": "antivirus program",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "logiciel de dessin",
+   "en": "drawing software",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "logiciel de groupe de travail",
+   "en": "groupware",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "logiciel de navigation",
+   "en": "browser",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "logiciel de traitement de texte",
+   "en": "word processor",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "logiciel éducatif",
+   "en": "educational software",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "logiciel espion",
+   "en": "spyware",
+   "date": "07/06/2007"
+  },
+  {
+   "fr": "logiciel gratuit",
+   "en": "freeware",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "logiciel libre",
+   "en": "free software",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "logiciel malveillant",
+   "en": "malicious logic",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "logiciel médiateur",
+   "en": "middleware",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "logiciel passe-droit",
+   "en": "rootkit",
+   "date": "30/04/2022"
+  },
+  {
+   "fr": "logiciel publicitaire",
+   "en": "advertising software",
+   "date": "07/06/2007"
+  },
+  {
+   "fr": "logiciel rançonneur",
+   "en": "ransomware",
+   "date": "25/02/2018"
+  },
+  {
+   "fr": "logiciel traqueur",
+   "en": "spouseware",
+   "date": "24/02/2023"
+  },
+  {
+   "fr": "logiciel-socle",
+   "en": "baseware",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "lutte informatique défensive",
+   "en": "computer network defence",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "lutte informatique offensive",
+   "en": "computer network attacks",
+   "date": "19/09/2017"
+  },
+  {
+   "fr": "machine virtuelle",
+   "en": "virtual machine",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "macro-instruction",
+   "en": "macroinstruction",
+   "date": "02/05/2007"
+  },
+  {
+   "fr": "macroordinateur",
+   "en": "mainframe",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "magasin de données",
+   "en": "datamart",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "magazine en ligne",
+   "en": "e-magazine",
+   "date": "26/03/2004"
+  },
+  {
+   "fr": "manche à balai",
+   "en": "joystick",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "mappe",
+   "en": "map",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "marathon de programmation",
+   "en": "hackathon",
+   "date": "16/11/2019"
+  },
+  {
+   "fr": "marécage de données",
+   "en": "data swamp",
+   "date": "24/03/2023"
+  },
+  {
+   "fr": "marquage",
+   "en": "highlighting",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "masquage",
+   "en": "cloaking",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "matériel",
+   "en": "hardware",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "matériel à la demande",
+   "en": "hardware as a service",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "mégadonnées",
+   "en": "big data",
+   "date": "22/08/2014"
+  },
+  {
+   "fr": "Mél.",
+   "en": "",
+   "date": "20/06/2003"
+  },
+  {
+   "fr": "mémoire",
+   "en": "storage memory",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "mémoire magnétique",
+   "en": "magnetic storage",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "mémoire morte",
+   "en": "read-only memory",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "mémoire non volatile",
+   "en": "non volatile memory",
+   "date": "21/04/2011"
+  },
+  {
+   "fr": "mémoire quantique",
+   "en": "quantum memory",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "mémoire tampon",
+   "en": "buffer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "mémoire vive",
+   "en": "random-access memory",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "mémoire vive dynamique",
+   "en": "dynamic random-access memory",
+   "date": "26/03/2002"
+  },
+  {
+   "fr": "mémoire vive magnétique",
+   "en": "magnetic random access memory",
+   "date": "21/04/2011"
+  },
+  {
+   "fr": "mémoire volatile",
+   "en": "volatile memory",
+   "date": "21/04/2011"
+  },
+  {
+   "fr": "message incendiaire",
+   "en": "flame",
+   "date": "08/12/2002"
+  },
+  {
+   "fr": "message multimédia",
+   "en": "MMS message",
+   "date": "05/05/2005"
+  },
+  {
+   "fr": "messagerie électronique",
+   "en": "e-mail",
+   "date": "20/06/2003"
+  },
+  {
+   "fr": "métadonnée",
+   "en": "metadata",
+   "date": "24/03/2023"
+  },
+  {
+   "fr": "metteur en toile",
+   "en": "web agency",
+   "date": "30/01/2005"
+  },
+  {
+   "fr": "microblogage",
+   "en": "microblogging",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "microblogue",
+   "en": "microblog",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "microordinateur",
+   "en": "microcomputer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "microprocesseur",
+   "en": "microprocessor",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "microprogramme",
+   "en": "firmware",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "microrécit vidéo",
+   "en": "story",
+   "date": "09/07/2021"
+  },
+  {
+   "fr": "mise à niveau",
+   "en": "upgrade",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "mise en page adaptative",
+   "en": "reflowable",
+   "date": "25/06/2019"
+  },
+  {
+   "fr": "mise en page fixe",
+   "en": "fixed layout",
+   "date": "25/06/2019"
+  },
+  {
+   "fr": "mobile multifonction",
+   "en": "smartphone",
+   "date": "11/01/2018"
+  },
+  {
+   "fr": "mode dialogué",
+   "en": "conversational mode",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "modèle",
+   "en": "template",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "modèle à bruit statistique",
+   "en": "diffusion model",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "modèle génératif",
+   "en": "deep generative model",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "modèle préentraîné",
+   "en": "pretrained model",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "modérateur, -trice",
+   "en": "moderator",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "module complémentaire",
+   "en": "add-in",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "moissonnage de données",
+   "en": "web harvesting",
+   "date": "30/04/2022"
+  },
+  {
+   "fr": "moniteur",
+   "en": "monitor",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "montant, -e",
+   "en": "upstream",
+   "date": "28/12/2006"
+  },
+  {
+   "fr": "morphose",
+   "en": "morphing",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "mot clé",
+   "en": "key word",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "mot-dièse",
+   "en": "hashtag",
+   "date": "23/01/2013"
+  },
+  {
+   "fr": "moteur d'exécution",
+   "en": "runtime software",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "moteur d'inférence",
+   "en": "inference engine",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "moteur de recherche",
+   "en": "search engine",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "multifil",
+   "en": "multithreading",
+   "date": "21/04/2011"
+  },
+  {
+   "fr": "multifil simultané",
+   "en": "simultaneous multithreading",
+   "date": "21/04/2011"
+  },
+  {
+   "fr": "multiprocesseur",
+   "en": "multiprocessor",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "multitâche",
+   "en": "multitask",
+   "date": "21/04/2011"
+  },
+  {
+   "fr": "multitraitement",
+   "en": "multiprocessing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "neuromorphique",
+   "en": "neuromorphic",
+   "date": "22/01/2020"
+  },
+  {
+   "fr": "neurone artificiel",
+   "en": "artificial neuron",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "nommage",
+   "en": "naming",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "non-clonage quantique",
+   "en": "no-cloning theorem",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "notice de modèle préentraîné",
+   "en": "model card",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "nuage",
+   "en": "cloud",
+   "date": "24/04/2010"
+  },
+  {
+   "fr": "numérique",
+   "en": "digital",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "numérique",
+   "en": "digital",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "numériser",
+   "en": "digitize",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "numériseur",
+   "en": "digitizer",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "numéro d'urgence",
+   "en": "hot line",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "octet",
+   "en": "byte",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "office d'enregistrement",
+   "en": "top-level domain registrar",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "offre au public de cyberjetons",
+   "en": "initial coin offering",
+   "date": "15/01/2021"
+  },
+  {
+   "fr": "offre groupée",
+   "en": "bundle",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "ontologie informatique",
+   "en": "computer science ontology",
+   "date": "30/04/2022"
+  },
+  {
+   "fr": "option d'adhésion (à)",
+   "en": "opt-in",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "option de retrait (à)",
+   "en": "opt-out",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "ordinateur",
+   "en": "computer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "ordinateur de bureau",
+   "en": "desktop computer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "ordinateur de poche",
+   "en": "palmtop computer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "ordinateur individuel",
+   "en": "personal computer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "ordinateur portable",
+   "en": "lap top computer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "ordinateur quantique",
+   "en": "quantum computer",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "page d'accueil",
+   "en": "home page",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "page d'accueil",
+   "en": "home page",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "page sur la toile",
+   "en": "web page",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "pair à pair",
+   "en": "peer-to-peer",
+   "date": "23/05/2017"
+  },
+  {
+   "fr": "panne",
+   "en": "fault",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "papier électronique",
+   "en": "electronic paper",
+   "date": "16/09/2014"
+  },
+  {
+   "fr": "parallélisme quantique",
+   "en": "quantum parallelism",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "parcours sur la toile",
+   "en": "clickstream",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "partition logique",
+   "en": "logical partition",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "passerelle",
+   "en": "gateway",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "pavé tactile",
+   "en": "touch pad",
+   "date": "03/01/2007"
+  },
+  {
+   "fr": "péage",
+   "en": "paywall",
+   "date": "25/06/2019"
+  },
+  {
+   "fr": "permutation",
+   "en": "swap",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "pièce jointe",
+   "en": "attachment file",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "piège à clics",
+   "en": "clickbait",
+   "date": "23/05/2020"
+  },
+  {
+   "fr": "pilote de périphérique",
+   "en": "driver",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "piratage de distributeur automatique",
+   "en": "jackpotting",
+   "date": "14/09/2021"
+  },
+  {
+   "fr": "pirate",
+   "en": "cracker",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "pixel",
+   "en": "picture element",
+   "date": "15/11/2001"
+  },
+  {
+   "fr": "pixel mixte",
+   "en": "mixed pixel",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "plateforme de développement à la demande",
+   "en": "platform as a service",
+   "date": "20/12/2023"
+  },
+  {
+   "fr": "plateforme de données",
+   "en": "data hub",
+   "date": "24/03/2023"
+  },
+  {
+   "fr": "pointeur",
+   "en": "pointer",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "police de caractères",
+   "en": "font",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "pornodivulgation",
+   "en": "revenge porn",
+   "date": "07/12/2018"
+  },
+  {
+   "fr": "portail",
+   "en": "portal",
+   "date": "08/12/2002"
+  },
+  {
+   "fr": "portail de messagerie",
+   "en": "web mail",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "porte dérobée",
+   "en": "backdoor",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "porte quantique",
+   "en": "quantum gate",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "préproduction",
+   "en": "staging",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "prestataire de services liés aux actifs numériques",
+   "en": "crypto exchange",
+   "date": "16/07/2024"
+  },
+  {
+   "fr": "prêt à l'emploi",
+   "en": "plug-and-play",
+   "date": "02/05/2007"
+  },
+  {
+   "fr": "preuve de travail",
+   "en": "proof of work",
+   "date": "23/05/2017"
+  },
+  {
+   "fr": "preuve par l’enjeu",
+   "en": "proof of stake",
+   "date": "01/07/2023"
+  },
+  {
+   "fr": "prime à la faille détectée",
+   "en": "bug bounty",
+   "date": "11/12/2020"
+  },
+  {
+   "fr": "processeur",
+   "en": "processor",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "processeur graphique",
+   "en": "graphics processing unit",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "processeur quantique",
+   "en": "quantum processor",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "processeur vectoriel",
+   "en": "array processor",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "progiciel",
+   "en": "package",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "programmation par objets",
+   "en": "object-oriented programming",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "protection des données personnelles",
+   "en": "data protection",
+   "date": "31/08/2019"
+  },
+  {
+   "fr": "provisionnement",
+   "en": "provisioning",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "publication assistée par ordinateur",
+   "en": "desktop publishing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "publicité caméléon",
+   "en": "native advertising",
+   "date": "25/06/2019"
+  },
+  {
+   "fr": "publier",
+   "en": "post",
+   "date": "07/06/2007"
+  },
+  {
+   "fr": "quadruple service",
+   "en": "quadruple play",
+   "date": "16/06/2007"
+  },
+  {
+   "fr": "quantité d'information",
+   "en": "information content",
+   "date": "26/03/2006"
+  },
+  {
+   "fr": "qubit",
+   "en": "quantum bit",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "qubit logique",
+   "en": "logical qubit",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "qubit physique",
+   "en": "physical qubit",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "raccourci au clavier",
+   "en": "hot key",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "réalité de synthèse",
+   "en": "virtual reality",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "réamorcer",
+   "en": "reboot",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "recherche en texte intégral",
+   "en": "full-text search",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "recherche individuelle",
+   "en": "pull technology",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "référencement abusif",
+   "en": "spamdexing",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "référencement non payant",
+   "en": "search engine optimization",
+   "date": "30/08/2022"
+  },
+  {
+   "fr": "référencement payant",
+   "en": "paid search",
+   "date": "30/08/2022"
+  },
+  {
+   "fr": "référentiel",
+   "en": "repository",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "registraire",
+   "en": "DNS registrar",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "registre partagé",
+   "en": "distributed ledger",
+   "date": "15/01/2021"
+  },
+  {
+   "fr": "registre quantique",
+   "en": "quantum register",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "réinitialiser",
+   "en": "reset",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "relancer",
+   "en": "restart",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "relationnel, -elle",
+   "en": "relational",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "répertoire",
+   "en": "directory",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "réseau de neurones artificiels",
+   "en": "artificial neural network",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "réseau de stockage",
+   "en": "storage area network",
+   "date": "15/08/2010"
+  },
+  {
+   "fr": "réseau informatique",
+   "en": "computer network",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "réseau local",
+   "en": "local area network",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "réseautique",
+   "en": "networking",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "restaurer",
+   "en": "reset",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "retouche",
+   "en": "patch",
+   "date": "27/02/2003"
+  },
+  {
+   "fr": "rétro-ingénierie",
+   "en": "reverse engineering",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "rétrolien",
+   "en": "trackback",
+   "date": "15/08/2010"
+  },
+  {
+   "fr": "révision",
+   "en": "release",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "riper",
+   "en": "rip",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "robotique",
+   "en": "robotics",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "scanneur",
+   "en": "scanner",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "science des données",
+   "en": "data science",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "script",
+   "en": "script",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "scrutation",
+   "en": "polling",
+   "date": "10/10/1998"
+  },
+  {
+   "fr": "secours (de)",
+   "en": "back-up",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "secours informatique",
+   "en": "back-up",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "serveur",
+   "en": "server",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "serveur mandataire",
+   "en": "proxy server",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "serveur virtuel",
+   "en": "virtual dedicated server",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "service de la toile",
+   "en": "Web service",
+   "date": "27/12/2009"
+  },
+  {
+   "fr": "service de messages multimédias",
+   "en": "multimedia message service",
+   "date": "05/05/2005"
+  },
+  {
+   "fr": "seuillage",
+   "en": "thresholding",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "seuiller",
+   "en": "threshold",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "shannon",
+   "en": "shannon",
+   "date": "26/03/2006"
+  },
+  {
+   "fr": "signature de virus",
+   "en": "virus signature",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "signet",
+   "en": "bookmark",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "simulateur quantique",
+   "en": "quantum simulator",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "site",
+   "en": "web site",
+   "date": "08/12/2002"
+  },
+  {
+   "fr": "sondeur, -euse de faille",
+   "en": "penetration tester",
+   "date": "19/02/2026"
+  },
+  {
+   "fr": "souris",
+   "en": "mouse",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "stockage à la demande",
+   "en": "storage as a service",
+   "date": "20/12/2023"
+  },
+  {
+   "fr": "substitution de visage",
+   "en": "face swap",
+   "date": "09/07/2021"
+  },
+  {
+   "fr": "superposition quantique",
+   "en": "quantum superposition",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "surbrillance",
+   "en": "brightening",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "surcadencer",
+   "en": "overclock",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "survol",
+   "en": "browsing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "syndication",
+   "en": "syndication",
+   "date": "07/06/2007"
+  },
+  {
+   "fr": "synthèse vocale de texte",
+   "en": "text-to-speech",
+   "date": "16/11/2019"
+  },
+  {
+   "fr": "système d'adressage par domaines",
+   "en": "domain name system",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "système d'engagement",
+   "en": "system of engagement",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "système de gestion de base de données",
+   "en": "data base management system",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "système d’exploitation",
+   "en": "operating system",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "système exclusif",
+   "en": "proprietary system",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "système expert",
+   "en": "expert system",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "tablette",
+   "en": "pad",
+   "date": "20/02/2011"
+  },
+  {
+   "fr": "tableur",
+   "en": "spreadsheet",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "tatouage numérique",
+   "en": "digital tattoo",
+   "date": "07/06/2007"
+  },
+  {
+   "fr": "téléchargement",
+   "en": "downloading",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "téléinformatique",
+   "en": "remote data processing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "télémaintenance",
+   "en": "remote maintenance",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "télématique",
+   "en": "telematics",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "téléportation quantique",
+   "en": "quantum teleportation",
+   "date": "20/12/2022"
+  },
+  {
+   "fr": "télétraitement",
+   "en": "teleprocessing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "télétraitement par lots",
+   "en": "remote batch teleprocessing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "témoin de connexion",
+   "en": "cookie",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "temps réel",
+   "en": "real time",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "terminal",
+   "en": "terminal",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "test captcha",
+   "en": "captcha",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "test de performance",
+   "en": "benchmark",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "tirage",
+   "en": "hard copy",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "titrisation en cyberjetons",
+   "en": "tokenisation",
+   "date": "22/01/2022"
+  },
+  {
+   "fr": "toile",
+   "en": "Web",
+   "date": "09/12/2018"
+  },
+  {
+   "fr": "toile profonde",
+   "en": "deepnet",
+   "date": "26/09/2017"
+  },
+  {
+   "fr": "toile sémantique",
+   "en": "semantic web",
+   "date": "09/03/2021"
+  },
+  {
+   "fr": "tolérance aux pannes",
+   "en": "fault tolerance",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "tolérant aux pannes",
+   "en": "fault tolerant",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "tout-à-la-demande",
+   "en": "everything as a service",
+   "date": "16/07/2024"
+  },
+  {
+   "fr": "traitement automatique de données",
+   "en": "automatic data processing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "traitement de texte",
+   "en": "text processing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "traitement par lots",
+   "en": "batch processing",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "trame",
+   "en": "frame",
+   "date": "28/12/2006"
+  },
+  {
+   "fr": "transcription automatique de la parole",
+   "en": "speech-to-text",
+   "date": "16/11/2019"
+  },
+  {
+   "fr": "transférer",
+   "en": "forward",
+   "date": "02/05/2007"
+  },
+  {
+   "fr": "transformation numérique",
+   "en": "digitalisation",
+   "date": "01/07/2023"
+  },
+  {
+   "fr": "transformeur",
+   "en": "transformer",
+   "date": "06/09/2024"
+  },
+  {
+   "fr": "triple service",
+   "en": "triple play",
+   "date": "16/06/2007"
+  },
+  {
+   "fr": "triturage de données",
+   "en": "data crunching",
+   "date": "30/04/2022"
+  },
+  {
+   "fr": "tutoriel",
+   "en": "tutorial",
+   "date": "20/04/2007"
+  },
+  {
+   "fr": "unité de stockage en réseau",
+   "en": "network attached storage",
+   "date": "15/08/2010"
+  },
+  {
+   "fr": "usurpation d'adresse électronique",
+   "en": "e-mail spoofing",
+   "date": "01/01/2013"
+  },
+  {
+   "fr": "validation de bloc",
+   "en": "block validation",
+   "date": "01/07/2023"
+  },
+  {
+   "fr": "ver",
+   "en": "worm",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "version",
+   "en": "release",
+   "date": "22/09/2000"
+  },
+  {
+   "fr": "vidéo à la demande",
+   "en": "video on demand",
+   "date": "08/04/2017"
+  },
+  {
+   "fr": "vidéo à la demande en téléchargement définitif",
+   "en": "electronic sell through",
+   "date": "08/04/2017"
+  },
+  {
+   "fr": "vidéo à la demande par abonnement",
+   "en": "subscription video on demand",
+   "date": "08/04/2017"
+  },
+  {
+   "fr": "vignette active",
+   "en": "web widget",
+   "date": "13/03/2011"
+  },
+  {
+   "fr": "virus",
+   "en": "virus",
+   "date": "20/05/2005"
+  },
+  {
+   "fr": "visionneur",
+   "en": "viewer",
+   "date": "16/03/1999"
+  },
+  {
+   "fr": "visite",
+   "en": "tour",
+   "date": "01/09/2000"
+  },
+  {
+   "fr": "visualisation de données",
+   "en": "data visualisation",
+   "date": "30/04/2022"
+  },
+  {
+   "fr": "zone d'accès sans fil",
+   "en": "hot spot",
+   "date": "05/05/2005"
+  }
+ ],
+ "wikipedia": [
+  "''k''-nearest neighbors",
+  "A* search",
+  "AI accelerator",
+  "AI bubble",
+  "AI data center",
+  "AI-complete",
+  "AlphaGo",
+  "Artificial Intelligence Markup Language",
+  "Association for the Advancement of Artificial Intelligence",
+  "Bayesian programming",
+  "Big O notation",
+  "Boltzmann machine",
+  "Boolean satisfiability problem",
+  "Cobweb",
+  "Darkforest",
+  "Dartmouth workshop",
+  "Datalog",
+  "Deep Blue",
+  "DeepMind Technologies",
+  "Density-based spatial clustering of applications with noise",
+  "Dijkstra's algorithm",
+  "Ebert test",
+  "IEEE Computational Intelligence Society",
+  "Information Processing Language",
+  "KL-ONE",
+  "Lethal autonomous weapon",
+  "Lisp",
+  "Markov chain",
+  "Markov decision process",
+  "Monte Carlo tree search",
+  "Mycin",
+  "NP",
+  "NP-completeness",
+  "NP-hardness",
+  "Occam's razor",
+  "Open Mind Common Sense",
+  "OpenAI",
+  "OpenCog",
+  "Prolog",
+  "PyTorch",
+  "Python",
+  "Q-learning",
+  "R programming language",
+  "Resource Description Framework",
+  "Rete algorithm",
+  "Retrieval augmented generation",
+  "SPARQL",
+  "Selective Linear Definite clause resolution",
+  "Stanford Research Institute Problem Solver",
+  "TSMC",
+  "TensorFlow",
+  "The Age of Spiritual Machines: When Computers Exceed Human Intelligence",
+  "Thompson sampling",
+  "Turing machine",
+  "Turing test",
+  "Value-alignment complete",
+  "Watson",
+  "XGBoost",
+  "abductive logic programming",
+  "abductive reasoning",
+  "ablation",
+  "abstract data type",
+  "abstraction",
+  "accelerating change",
+  "action language",
+  "action model learning",
+  "action selection",
+  "activation function",
+  "adaptive algorithm",
+  "adaptive neuro fuzzy inference system",
+  "admissible heuristic",
+  "affective computing",
+  "agent architecture",
+  "algorithm",
+  "algorithmic efficiency",
+  "algorithmic probability",
+  "ambient intelligence",
+  "analysis of algorithms",
+  "analytics",
+  "answer set programming",
+  "ant colony optimization",
+  "anytime algorithm",
+  "application programming interface",
+  "approximate string matching",
+  "approximation error",
+  "argumentation framework",
+  "artificial general intelligence",
+  "artificial immune system",
+  "artificial intelligence",
+  "artificial intelligence arms race",
+  "asymptotic computational complexity",
+  "attention mechanism",
+  "attributional calculus",
+  "augmented reality",
+  "autoencoder",
+  "automata theory",
+  "automated machine learning",
+  "automated planning and scheduling",
+  "automated reasoning",
+  "autonomic computing",
+  "autonomous car",
+  "autonomous robot",
+  "backpropagation",
+  "backpropagation through structure",
+  "backpropagation through time",
+  "backward chaining",
+  "bag-of-words model",
+  "bag-of-words model in computer vision",
+  "batch normalization",
+  "bees algorithm",
+  "behavior informatics",
+  "behavior tree",
+  "belief–desire–intention software model",
+  "bias–variance tradeoff",
+  "big data",
+  "binary tree",
+  "blackboard system",
+  "boosting",
+  "bootstrap aggregating",
+  "brain technology",
+  "branching factor",
+  "brute-force search",
+  "capsule neural network",
+  "case-based reasoning",
+  "chatbot",
+  "cloud robotics",
+  "cluster analysis",
+  "cognitive architecture",
+  "cognitive computing",
+  "cognitive science",
+  "combinatorial optimization",
+  "committee machine",
+  "commonsense knowledge",
+  "commonsense reasoning",
+  "computational chemistry",
+  "computational complexity theory",
+  "computational creativity",
+  "computational cybernetics",
+  "computational humor",
+  "computational intelligence",
+  "computational learning theory",
+  "computational linguistics",
+  "computational mathematics",
+  "computational neuroscience",
+  "computational number theory",
+  "computational problem",
+  "computational statistics",
+  "computer audition",
+  "computer science",
+  "computer vision",
+  "computer-automated design",
+  "concept drift",
+  "connectionism",
+  "consistent heuristic",
+  "constrained conditional model",
+  "constraint logic programming",
+  "constraint programming",
+  "constructed language",
+  "control theory",
+  "convolutional neural network",
+  "crossover",
+  "data augmentation",
+  "data fusion",
+  "data integration",
+  "data mining",
+  "data science",
+  "data set",
+  "data warehouse",
+  "decision boundary",
+  "decision support system",
+  "decision theory",
+  "decision tree learning",
+  "declarative programming",
+  "deductive classifier",
+  "deep learning",
+  "default logic",
+  "description logic",
+  "developmental robotics",
+  "diagnosis",
+  "dialogue system",
+  "diffusion model",
+  "dimensionality reduction",
+  "discrete system",
+  "distributed artificial intelligence",
+  "double descent",
+  "dropout",
+  "dynamic epistemic logic",
+  "eager learning",
+  "early stopping",
+  "echo state network",
+  "embodied agent",
+  "embodied cognitive science",
+  "ensemble learning",
+  "epoch",
+  "error-driven learning",
+  "ethics of artificial intelligence",
+  "evolutionary algorithm",
+  "evolutionary computation",
+  "evolving classification function",
+  "existential risk from artificial general intelligence",
+  "expert system",
+  "fast-and-frugal trees",
+  "feature",
+  "feature extraction",
+  "feature learning",
+  "feature selection",
+  "federated learning",
+  "first-order logic",
+  "fluent",
+  "formal language",
+  "forward chaining",
+  "frame",
+  "frame language",
+  "frame problem",
+  "friendly artificial intelligence",
+  "futures studies",
+  "fuzzy control system",
+  "fuzzy logic",
+  "fuzzy rule",
+  "fuzzy set",
+  "game theory",
+  "general game playing",
+  "generalization",
+  "generalization error",
+  "generative adversarial network",
+  "generative artificial intelligence",
+  "generative pretrained transformer",
+  "genetic algorithm",
+  "genetic operator",
+  "glowworm swarm optimization",
+  "gradient boosting",
+  "graph",
+  "graph database",
+  "graph theory",
+  "graph traversal",
+  "hallucination",
+  "heuristic",
+  "hidden layer",
+  "hyper-heuristic",
+  "hyperparameter",
+  "hyperparameter optimization",
+  "hyperplane",
+  "incremental learning",
+  "inference engine",
+  "information integration",
+  "intelligence amplification",
+  "intelligence explosion",
+  "intelligent agent",
+  "intelligent control",
+  "intelligent personal assistant",
+  "interpretation",
+  "intrinsic motivation",
+  "issue tree",
+  "junction tree algorithm",
+  "k-means clustering",
+  "kernel method",
+  "knowledge Interchange Format",
+  "knowledge acquisition",
+  "knowledge distillation",
+  "knowledge engineering",
+  "knowledge extraction",
+  "knowledge representation and reasoning",
+  "knowledge-based system",
+  "language model",
+  "large language model",
+  "lazy learning",
+  "logic programming",
+  "long short-term memory",
+  "lora",
+  "machine learning",
+  "machine listening",
+  "machine perception",
+  "machine vision",
+  "mathematical optimization",
+  "mechanism design",
+  "mechatronics",
+  "metabolic network reconstruction and simulation",
+  "metaheuristic",
+  "model checking",
+  "modus ponens",
+  "modus tollens",
+  "multi-agent system",
+  "multi-swarm optimization",
+  "multilayer perceptron",
+  "mutation",
+  "naive Bayes classifier",
+  "naive semantics",
+  "name binding",
+  "named graph",
+  "named-entity recognition",
+  "natural language generation",
+  "natural language processing",
+  "natural language programming",
+  "network motif",
+  "neural Turing machine",
+  "neural machine translation",
+  "neural network",
+  "neuro-fuzzy",
+  "neurocybernetics",
+  "neuromorphic engineering",
+  "node",
+  "nondeterministic algorithm",
+  "nouvelle AI",
+  "offline learning",
+  "online machine learning",
+  "ontology learning",
+  "open-source software",
+  "overfitting",
+  "partial order reduction",
+  "partially observable Markov decision process",
+  "particle swarm optimization",
+  "pathfinding",
+  "pattern recognition",
+  "perceptron",
+  "predicate logic",
+  "predictive analytics",
+  "principal component analysis",
+  "principle of rationality",
+  "probabilistic programming",
+  "production system",
+  "programming language",
+  "propositional calculus",
+  "proximal policy optimization",
+  "qualification problem",
+  "quantifier",
+  "quantum computing",
+  "query language",
+  "radial basis function network",
+  "random forest",
+  "reasoning engine",
+  "reasoning model",
+  "reasoning system",
+  "recurrent neural network",
+  "recursive self-improvement",
+  "regression analysis",
+  "regularization",
+  "reinforcement learning",
+  "reinforcement learning from human feedback",
+  "representation learning",
+  "reservoir computing",
+  "restricted Boltzmann machine",
+  "robotics",
+  "rule-based system",
+  "satisfiability",
+  "search algorithm",
+  "selection",
+  "self-management",
+  "semantic",
+  "semantic network",
+  "semantic query",
+  "semantic reasoner",
+  "semi-supervised learning",
+  "sensor fusion",
+  "separation logic",
+  "similarity learning",
+  "simulated annealing",
+  "situated approach",
+  "situation calculus",
+  "software",
+  "software engineering",
+  "sparse dictionary learning",
+  "spatial-temporal reasoning",
+  "speech recognition",
+  "spiking neural network",
+  "state",
+  "state–action–reward–state–action",
+  "statistical classification",
+  "statistical relational learning",
+  "stochastic optimization",
+  "stochastic semantic analysis",
+  "subject-matter expert",
+  "superintelligence",
+  "supervised learning",
+  "support vector machine",
+  "swarm intelligence",
+  "symbolic artificial intelligence",
+  "synthetic intelligence",
+  "systems neuroscience",
+  "technological singularity",
+  "temporal difference learning",
+  "tensor network theory",
+  "theoretical computer science",
+  "theory of computation",
+  "time complexity",
+  "transfer learning",
+  "transformer",
+  "transhumanism",
+  "transition system",
+  "tree traversal",
+  "true quantified Boolean formula",
+  "type system",
+  "unsupervised learning",
+  "vision processing unit",
+  "weak AI",
+  "weak supervision",
+  "word embedding",
+  "world model"
+ ],
+ "cnil": [
+  "Algorithme",
+  "Annotation (IA)",
+  "Apprentissage actif",
+  "Apprentissage auto-supervisé",
+  "Apprentissage automatique",
+  "Apprentissage continu",
+  "Apprentissage fédéré",
+  "Apprentissage non supervisé",
+  "Apprentissage par renforcement",
+  "Apprentissage par renforcement et rétroaction humaine",
+  "Apprentissage par transfert",
+  "Apprentissage profond (deep learning)",
+  "Apprentissage supervisé",
+  "Attaque par empoisonnement (data poisoning attack)",
+  "Attaque par exemples contradictoires (adversarial examples attack)",
+  "Attaque par exfiltration de modèle (model evasion attack)",
+  "Attaque par inférence d&#039;appartenance (membership inference attack)",
+  "Attaque par inversion de modèle (model inversion attack)",
+  "Attaque par reconstruction",
+  "Augmentation de données (IA)",
+  "Bulle de filtre",
+  "Calcul multipartite sécurisé",
+  "Caractéristique (IA)",
+  "Chiffrement homomorphe",
+  "Classification (IA)",
+  "Confidentialité différentielle",
+  "Contrôle itératif de l’apprentissage",
+  "Couche de neurones",
+  "Critère d’arrêt (IA)",
+  "Domaine d’emploi (IA)",
+  "Donnée brute (IA)",
+  "Donnée de sortie (IA)",
+  "Donnée d’entrée (IA)",
+  "Dérive des données",
+  "Dérive du modèle",
+  "Désapprentissage machine",
+  "Ensemble de test (IA)",
+  "Ensemble de validation (IA)",
+  "Ensemble d’entraînement/d’apprentissage",
+  "Entraînement (ou apprentissage)",
+  "Environnement d’exécution de confiance",
+  "Estimation bayésienne",
+  "Estimation de poses",
+  "Explicabilité (IA)",
+  "Extraction de caractéristiques (feature extraction)",
+  "Few shot learning",
+  "Fonction de perte ou de coût (loss function)",
+  "Fonction d’activation",
+  "Forêts aléatoires (random forests)",
+  "Gabarit facial",
+  "Gradient",
+  "Hyperparamètre",
+  "IA agentique",
+  "Intelligence artificielle",
+  "Modèle (IA)",
+  "Modèle de fondation",
+  "Modèle de langage",
+  "Modèle discriminatif",
+  "Modèle génératif",
+  "Modèle pré-entraîné",
+  "Neurone artificiel",
+  "Ontologie (IA)",
+  "Paramètre (IA)",
+  "Partitionnement de données",
+  "Reconnaissance d’entités nommées",
+  "Robustesse (IA)",
+  "Réduction de dimension ou dimensionnalité",
+  "Régression",
+  "Régurgitation",
+  "Réseau de neurones artificiels (artificial neural network)",
+  "Segmentation des données",
+  "Surapprentissage (overfitting)",
+  "Système d’IA",
+  "Système d’IA à usage général",
+  "Taux d’apprentissage (learning rate)",
+  "Test (IA)",
+  "Traitement automatique de la parole",
+  "Traitement automatique du langage naturel (natural language processing ou NLP)",
+  "Validation (IA)",
+  "Vision par ordinateur (computer vision)",
+  "Échantillon (IA)"
+ ],
+ "google_ml": [
+  "A/B testing",
+  "AI slop",
+  "AUC (Area under the ROC curve)",
+  "AdaGrad",
+  "AutoML",
+  "BERT (Bidirectional Encoder Representations from Transformers)",
+  "BLEU (Bilingual Evaluation Understudy)",
+  "BLEURT (Bilingual Evaluation Understudy from Transformers)",
+  "Bayesian neural network",
+  "Bayesian optimization",
+  "Bellman equation",
+  "BoolQ",
+  "Boolean Questions (BoolQ)",
+  "COPA",
+  "Character N-gram F-score (ChrF)",
+  "Choice of Plausible Alternatives (COPA)",
+  "Cloud TPU",
+  "CommitmentBank (CB)",
+  "DQN",
+  "DataFrame",
+  "Dataset API (tf.data)",
+  "Deep Q-Network (DQN)",
+  "Einsum notation",
+  "Estimator",
+  "Extreme Summarization (xsum)",
+  "F 1",
+  "Fiddle",
+  "Flash model",
+  "Flax",
+  "Flaxformer",
+  "GAN",
+  "GPT (Generative Pre-trained Transformer)",
+  "Gemini",
+  "Gemini models",
+  "Gemma",
+  "GenAI or genAI",
+  "Google AI Studio",
+  "IoU",
+  "JAX",
+  "Keras",
+  "Kernel Support Vector Machines (KSVMs)",
+  "L 0 regularization",
+  "L 1 loss",
+  "L 1 regularization",
+  "L 2 loss",
+  "L 2 regularization",
+  "LIT",
+  "LLM",
+  "LLM evaluations (evals)",
+  "LSTM",
+  "LaMDA (Language Model for Dialogue Applications)",
+  "Layers API (tf.layers)",
+  "Learning Interpretability Tool (LIT)",
+  "Levenshtein Distance",
+  "LoRA",
+  "Log Loss",
+  "Long Short-Term Memory (LSTM)",
+  "Low-Rank Adaptability (LoRA)",
+  "MBPP",
+  "MMIT",
+  "MNIST",
+  "MOE",
+  "Markov decision process (MDP)",
+  "Markov property",
+  "Mean Absolute Error (MAE)",
+  "Mean Squared Error (MSE)",
+  "Metrics API (tf.metrics)",
+  "Momentum",
+  "Mostly Basic Python Problems (MBPP)",
+  "Multi-sentence Reading Comprehension (MultiRC)",
+  "N-gram",
+  "NLP",
+  "NLU",
+  "NORA",
+  "NaN trap",
+  "Nano",
+  "Neural Architecture Search (NAS)",
+  "Notebook LM",
+  "NumPy",
+  "ORA",
+  "Optax",
+  "PLM",
+  "PR AUC (area under the PR curve)",
+  "PaLM",
+  "Page Summary",
+  "Parameter Server (PS)",
+  "Pathways Language Model (PaLM)",
+  "Pax",
+  "Praxis",
+  "Pro",
+  "Q-function",
+  "Q-learning",
+  "R-squared",
+  "RAG",
+  "RNN",
+  "ROC (receiver operating characteristic) Curve",
+  "ROUGE (Recall-Oriented Understudy for Gisting Evaluation)",
+  "ROUGE-L",
+  "ROUGE-N",
+  "ROUGE-S",
+  "RTE",
+  "ReCoRD",
+  "ReLU",
+  "Reading Comprehension with Commonsense Reasoning Dataset (ReCoRD)",
+  "RealToxicityPrompts",
+  "Recognizing Textual Entailment (RTE)",
+  "Rectified Linear Unit (ReLU)",
+  "Reinforcement Learning from Human Feedback (RLHF)",
+  "Root Mean Squared Error (RMSE)",
+  "SPMD",
+  "SQuAD",
+  "SavedModel",
+  "Saver",
+  "SuperGLUE",
+  "T5X",
+  "TPU",
+  "TPU Pod",
+  "TPU chip",
+  "TPU device",
+  "TPU node",
+  "TPU resource",
+  "TPU slice",
+  "TPU type",
+  "TPU worker",
+  "TTL",
+  "Tensor",
+  "Tensor Processing Unit (TPU)",
+  "Tensor rank",
+  "Tensor shape",
+  "Tensor size",
+  "TensorBoard",
+  "TensorFlow",
+  "TensorFlow Playground",
+  "TensorFlow Serving",
+  "TensorStore",
+  "Transformer",
+  "Trivia Question Answering",
+  "Typologically Diverse Question Answering (TyDi QA)",
+  "UCR",
+  "Ultra",
+  "Vertex",
+  "WMT",
+  "WSC",
+  "Wasserstein loss",
+  "Weighted Alternating Least Squares (WALS)",
+  "WiC",
+  "WikiLingua (wiki_lingua)",
+  "Winograd Schema Challenge (WSC)",
+  "Words in Context (WiC)",
+  "XL-Sum (xlsum)",
+  "XLA (Accelerated Linear Algebra)",
+  "Z-score normalization",
+  "ablation",
+  "accelerator chip",
+  "accuracy",
+  "act",
+  "action",
+  "action space",
+  "activation function",
+  "active learning",
+  "adaptation",
+  "agent",
+  "agent orchestration",
+  "agentic",
+  "agentic loop",
+  "agentic workflow",
+  "agglomerative clustering",
+  "anomaly detection",
+  "area under the PR curve",
+  "area under the ROC curve",
+  "artificial general intelligence",
+  "artificial intelligence",
+  "attention",
+  "attribute",
+  "attribute sampling",
+  "augmented reality",
+  "auto-regressive model",
+  "autoencoder",
+  "automatic evaluation",
+  "automation bias",
+  "autonomous agent",
+  "autorater evaluation",
+  "auxiliary loss",
+  "average precision at k",
+  "axis-aligned condition",
+  "backpropagation",
+  "bag of words",
+  "bagging",
+  "base model",
+  "baseline",
+  "batch",
+  "batch inference",
+  "batch normalization",
+  "batch size",
+  "bias (ethics/fairness)",
+  "bias (math) or bias term",
+  "bidirectional",
+  "bidirectional language model",
+  "bigram",
+  "binary classification",
+  "binary condition",
+  "binning",
+  "black box model",
+  "boosting",
+  "bounding box",
+  "broadcasting",
+  "bucketing",
+  "calibration layer",
+  "candidate generation",
+  "candidate sampling",
+  "categorical data",
+  "causal language model",
+  "centroid",
+  "centroid-based clustering",
+  "chain-of-thought prompting",
+  "chat",
+  "checkpoint",
+  "citation precision",
+  "citation recall",
+  "class",
+  "class-balanced dataset",
+  "class-imbalanced dataset",
+  "classification model",
+  "classification threshold",
+  "classifier",
+  "clipping",
+  "clustering",
+  "co-adaptation",
+  "co-training",
+  "collaborative filtering",
+  "compact model",
+  "compute",
+  "concept drift",
+  "condition",
+  "confabulation",
+  "configuration",
+  "confirmation bias",
+  "confusion matrix",
+  "constituency parsing",
+  "context window",
+  "contextualized language embedding",
+  "continuous feature",
+  "convenience sampling",
+  "convergence",
+  "conversational coding",
+  "convex function",
+  "convex optimization",
+  "convex set",
+  "convolution",
+  "convolutional filter",
+  "convolutional layer",
+  "convolutional neural network",
+  "convolutional operation",
+  "cost",
+  "counterfactual fairness",
+  "coverage bias",
+  "crash blossom",
+  "critic",
+  "cross-entropy",
+  "cross-validation",
+  "cumulative distribution function (CDF)",
+  "data analysis",
+  "data augmentation",
+  "data parallelism",
+  "data set or dataset",
+  "decision boundary",
+  "decision forest",
+  "decision threshold",
+  "decision tree",
+  "decoder",
+  "deep model",
+  "deep neural network",
+  "demographic parity",
+  "denoising",
+  "dense feature",
+  "dense layer",
+  "depth",
+  "depthwise separable convolutional neural network (sepCNN)",
+  "derived label",
+  "deterministic",
+  "device",
+  "differential privacy",
+  "dimension reduction",
+  "dimensions",
+  "direct prompting",
+  "discrete feature",
+  "discriminative model",
+  "discriminator",
+  "disparate impact",
+  "disparate treatment",
+  "distillation",
+  "distribution",
+  "divisive clustering",
+  "downsampling",
+  "dropout regularization",
+  "dynamic",
+  "dynamic model",
+  "eager execution",
+  "early stopping",
+  "earth mover's distance (EMD)",
+  "edit distance",
+  "embedding layer",
+  "embedding space",
+  "embedding vector",
+  "emergent behavior",
+  "empirical cumulative distribution function (eCDF or EDF)",
+  "empirical risk minimization (ERM)",
+  "encoder",
+  "endpoints",
+  "ensemble",
+  "entropy",
+  "environment",
+  "environment grounding",
+  "episode",
+  "episodic memory",
+  "epoch",
+  "epsilon greedy policy",
+  "equality of opportunity",
+  "equalized odds",
+  "evals",
+  "evaluation",
+  "evaluator agent",
+  "exact match",
+  "example",
+  "experience replay",
+  "experimenter's bias",
+  "exploding gradient problem",
+  "factuality",
+  "fairness constraint",
+  "fairness metric",
+  "false negative (FN)",
+  "false negative rate",
+  "false positive (FP)",
+  "false positive rate (FPR)",
+  "fast decay",
+  "feature",
+  "feature cross",
+  "feature engineering",
+  "feature extraction",
+  "feature importances",
+  "feature set",
+  "feature spec",
+  "feature vector",
+  "featurization",
+  "federated learning",
+  "feedback",
+  "feedback loop",
+  "feedforward neural network (FFN)",
+  "few-shot learning",
+  "few-shot prompting",
+  "fine-tuning",
+  "forget gate",
+  "foundation model",
+  "fraction of successes",
+  "full softmax",
+  "fully connected layer",
+  "function transformation",
+  "generalization",
+  "generalization curve",
+  "generalized linear model",
+  "generated text",
+  "generative AI",
+  "generative adversarial network (GAN)",
+  "generative agents (simulacra)",
+  "generative model",
+  "generator",
+  "gini impurity",
+  "golden dataset",
+  "golden response",
+  "gradient",
+  "gradient accumulation",
+  "gradient boosted (decision) trees (GBT)",
+  "gradient boosting",
+  "gradient clipping",
+  "gradient descent",
+  "graph",
+  "graph execution",
+  "greedy policy",
+  "ground truth",
+  "groundedness",
+  "grounding",
+  "group attribution bias",
+  "guardrails",
+  "hallucination",
+  "hashing",
+  "heuristic",
+  "hidden layer",
+  "hierarchical clustering",
+  "hill climbing",
+  "hinge loss",
+  "historical bias",
+  "holdout data",
+  "host",
+  "human evaluation",
+  "human in the loop (HITL)",
+  "hyperparameter",
+  "hyperplane",
+  "i.i.d.",
+  "image recognition",
+  "imbalanced dataset",
+  "implicit bias",
+  "imputation",
+  "in-context learning",
+  "in-group bias",
+  "in-set condition",
+  "incompatibility of fairness metrics",
+  "independently and identically distributed (i.i.d)",
+  "individual fairness",
+  "inference",
+  "inference path",
+  "information gain",
+  "input generator",
+  "input layer",
+  "instance",
+  "instruction tuning",
+  "inter-rater agreement",
+  "interpretability",
+  "intersection over union (IoU)",
+  "item matrix",
+  "items",
+  "iteration",
+  "k-fold cross validation",
+  "k-means",
+  "k-median",
+  "keypoints",
+  "label",
+  "label leakage",
+  "labeled example",
+  "lambda",
+  "landmarks",
+  "language model",
+  "large language model",
+  "latency",
+  "latent space",
+  "layer",
+  "leaf",
+  "learning rate",
+  "least squares regression",
+  "least-to-most prompting",
+  "linear",
+  "linear model",
+  "linear regression",
+  "log-odds",
+  "logistic regression",
+  "logits",
+  "loss",
+  "loss aggregator",
+  "loss curve",
+  "loss function",
+  "loss surface",
+  "lost-in-the-middle effect",
+  "machine learning",
+  "machine translation",
+  "majority class",
+  "manager agent",
+  "masked language model",
+  "math-pass@k",
+  "matplotlib",
+  "matrix factorization",
+  "mean average precision at k (mAP@k)",
+  "mesh",
+  "meta-learning",
+  "metric",
+  "mini-batch",
+  "mini-batch stochastic gradient descent",
+  "minimax loss",
+  "minority class",
+  "mixture of experts",
+  "modality",
+  "model",
+  "model capacity",
+  "model cascading",
+  "model parallelism",
+  "model router",
+  "model training",
+  "multi-agent collaboration",
+  "multi-class classification",
+  "multi-class logistic regression",
+  "multi-head self-attention",
+  "multimodal instruction-tuned",
+  "multimodal model",
+  "multinomial classification",
+  "multinomial regression",
+  "multitask",
+  "natural language processing",
+  "natural language understanding",
+  "negative class",
+  "negative sampling",
+  "neural network",
+  "neuron",
+  "no one right answer (NORA)",
+  "node (TensorFlow graph)",
+  "node (decision tree)",
+  "node (neural network)",
+  "noise",
+  "non-binary condition",
+  "non-response bias",
+  "nondeterministic",
+  "nonlinear",
+  "nonstationarity",
+  "normalization",
+  "novelty detection",
+  "numerical data",
+  "objective",
+  "objective function",
+  "oblique condition",
+  "observe",
+  "offline",
+  "offline inference",
+  "one right answer (ORA)",
+  "one-hot encoding",
+  "one-shot learning",
+  "one-shot prompting",
+  "one-vs.-all",
+  "online",
+  "online inference",
+  "operation (op)",
+  "optimizer",
+  "out-group homogeneity bias",
+  "out-of-bag evaluation (OOB evaluation)",
+  "outlier detection",
+  "outliers",
+  "output layer",
+  "overfitting",
+  "oversampling",
+  "packed data",
+  "pandas",
+  "parameter",
+  "parameter update",
+  "parameter-efficient tuning",
+  "partial derivative",
+  "participation bias",
+  "partitioning strategy",
+  "pass at k (pass@k)",
+  "perceptron",
+  "performance",
+  "permutation variable importances",
+  "perplexity",
+  "pipeline",
+  "pipelining",
+  "pjit",
+  "plan-and-solve",
+  "plugin",
+  "pmap",
+  "policy",
+  "pooling",
+  "positional encoding",
+  "positive class",
+  "post-processing",
+  "post-trained model",
+  "pre-trained model",
+  "pre-training",
+  "precision",
+  "precision at k (precision@k)",
+  "precision-recall curve",
+  "prediction",
+  "prediction bias",
+  "predictive ML",
+  "predictive parity",
+  "predictive rate parity",
+  "preprocessing",
+  "prior belief",
+  "probabilistic",
+  "probabilistic regression model",
+  "probability density function",
+  "procedural memory",
+  "prompt",
+  "prompt chaining",
+  "prompt design",
+  "prompt engineering",
+  "prompt set",
+  "prompt tuning",
+  "prompt-based learning",
+  "provenance",
+  "proxy (sensitive attributes)",
+  "proxy labels",
+  "pure function",
+  "quantile",
+  "quantile bucketing",
+  "quantization",
+  "queue",
+  "random forest",
+  "random policy",
+  "rank (Tensor)",
+  "rank (ordinality)",
+  "ranking",
+  "rater",
+  "re-ranking",
+  "reason",
+  "recall",
+  "recall at k (recall@k)",
+  "recommendation system",
+  "recurrent neural network",
+  "reference text",
+  "reflection",
+  "regression model",
+  "regularization",
+  "regularization rate",
+  "reinforcement learning (RL)",
+  "replay buffer",
+  "replica",
+  "reporting bias",
+  "representation",
+  "response",
+  "response set",
+  "retrieval-augmented generation (RAG)",
+  "return",
+  "reward",
+  "ridge regularization",
+  "role prompting",
+  "root",
+  "root directory",
+  "rotational invariance",
+  "router agent",
+  "sampling bias",
+  "sampling with replacement",
+  "scalar",
+  "scaling",
+  "scikit-learn",
+  "scoring",
+  "selection bias",
+  "self-attention (also called self-attention layer)",
+  "self-correction",
+  "self-supervised learning",
+  "self-training",
+  "semantic memory",
+  "semi-supervised learning",
+  "sensitive attribute",
+  "sentiment analysis",
+  "sequence model",
+  "sequence-to-sequence task",
+  "serving",
+  "shape (Tensor)",
+  "shard",
+  "shrinkage",
+  "side-by-side evaluation",
+  "sigmoid function",
+  "similarity measure",
+  "single program / multiple data (SPMD)",
+  "size invariance",
+  "sketching",
+  "skip-gram",
+  "soft prompt tuning",
+  "softmax",
+  "sparse feature",
+  "sparse representation",
+  "sparse vector",
+  "sparsity",
+  "spatial pooling",
+  "specificational coding",
+  "split",
+  "splitter",
+  "squared hinge loss",
+  "squared loss",
+  "staged training",
+  "state",
+  "state machine agent",
+  "state-action value function",
+  "static",
+  "static inference",
+  "stationarity",
+  "step",
+  "step size",
+  "stochastic gradient descent (SGD)",
+  "stride",
+  "structural risk minimization (SRM)",
+  "sub-agent",
+  "subsampling",
+  "subword token",
+  "summary",
+  "supervised machine learning",
+  "synthetic feature",
+  "tabular Q-learning",
+  "target",
+  "target network",
+  "task",
+  "task decomposition",
+  "temperature",
+  "temporal data",
+  "termination condition",
+  "test",
+  "test loss",
+  "test set",
+  "text span",
+  "tf.Example",
+  "tf.keras",
+  "threshold (for decision trees)",
+  "time series analysis",
+  "timestep",
+  "token",
+  "tokenizer",
+  "top-k accuracy",
+  "tower",
+  "toxicity",
+  "training",
+  "training loss",
+  "training set",
+  "training-serving skew",
+  "trajectory",
+  "transfer learning",
+  "translational invariance",
+  "tree-of-thought prompting (ToT)",
+  "trigram",
+  "true negative (TN)",
+  "true positive (TP)",
+  "true positive rate (TPR)",
+  "unawareness (to a sensitive attribute)",
+  "underfitting",
+  "undersampling",
+  "unidirectional",
+  "unidirectional language model",
+  "unlabeled example",
+  "unsupervised machine learning",
+  "unsupported-claim rate (UCR)",
+  "uplift modeling",
+  "upweighting",
+  "user matrix",
+  "validation",
+  "validation loss",
+  "validation set",
+  "value imputation",
+  "vanishing gradient problem",
+  "variable importances",
+  "variational autoencoder (VAE)",
+  "vector",
+  "vibe coding",
+  "weight",
+  "weighted sum",
+  "wide model",
+  "width",
+  "wisdom of the crowd",
+  "word embedding",
+  "xsum",
+  "zero-shot learning",
+  "zero-shot prompting"
+ ],
+ "google_genai": [
+  "AI agents",
+  "context window",
+  "embedding",
+  "foundation model",
+  "function calling",
+  "generative AI",
+  "grounding",
+  "large language model (LLM)",
+  "latency",
+  "model parameters",
+  "prompt engineering",
+  "prompting",
+  "retrieval-augmented generation (RAG)",
+  "tokens",
+  "tuning"
+ ],
+ "cafeia": [
+  "Entraînement supervisé",
+  "Envoyer",
+  "Les systèmes de génération",
+  "Les systèmes de prédiction",
+  "Les systèmes de reconnaissance",
+  "Organiser",
+  "Pré-entraînement",
+  "Qu’est-ce que l’IA ?",
+  "RLHF (",
+  "ajustement :",
+  "algorithme :",
+  "animer",
+  "apprentissage automatique :",
+  "apprentissage profond :",
+  "centre de données",
+  "corpus d’entraînement :",
+  "entraînement :",
+  "gpu :",
+  "hallucination :",
+  "inférence :",
+  "intelligence artificielle :",
+  "jeton (token) :",
+  "mode de raisonnement :",
+  "multimodal :",
+  "open source :",
+  "paramètres :",
+  "prompt :",
+  "propriétaire :",
+  "ressources",
+  "ressources pédagogiques",
+  "semi-ouvert :",
+  "température :",
+  "à propos"
+ ],
+ "hoko": [
+  "A2A (Agent-to-Agent Protocol)",
+  "API (Application Programming Interface)",
+  "Agent IA",
+  "Base Vectorielle / Vector Database",
+  "Benchmark",
+  "ChatGPT",
+  "Claude",
+  "Deep Learning (DL)",
+  "Edge Computing / Traitement en périphérie",
+  "Embeddings",
+  "Envie de maîtriser ces concepts en pratique ?",
+  "Fenêtre de Contexte (Context Window)",
+  "Few-shot Learning",
+  "Fine-tuning (Affinage)",
+  "Foundation Model (Modèle de Fondation)",
+  "GPT (Generative Pre-trained Transformer)",
+  "Gemini",
+  "Graph RAG",
+  "Hallucination",
+  "Human in The Loop",
+  "IA Faible",
+  "IA Forte",
+  "IA Traditionnelle / IA Discriminative",
+  "IDP (Intelligent Document Processing)",
+  "Inférence",
+  "Intelligence Artificielle (IA)",
+  "Intelligence Artificielle Générative (IA Générative / GenAI)",
+  "LLMOps (Large Language Model Operations)",
+  "LLaMA (Large Language Model Meta AI)",
+  "LangGraph",
+  "Large Language Model (LLM / Grand Modèle de Langage)",
+  "MCP (Model Context Protocol)",
+  "Machine Learning (ML)",
+  "Mistral",
+  "Modèle Propriétaire",
+  "Multimodalité",
+  "NLP (Natural Language Processing)",
+  "OCR (Optical Character Recognition)",
+  "Observabilité",
+  "Open Source",
+  "Pages",
+  "Paramètre",
+  "Prompt",
+  "Prompt Engineering",
+  "Pré-entraînement",
+  "RAG (Retrieval-Augmented Generation)",
+  "RLHF (Reinforcement Learning from Human Feedback)",
+  "ReAct (Reasoning and Acting)",
+  "SLM (Small Language Model / Petit Modèle de Langage)",
+  "Safeguards (Garde-fous)",
+  "Température",
+  "ToT (Tree of Thoughts / Arbre de Pensées)",
+  "Token",
+  "Transformer",
+  "Vibe Coding Ready",
+  "Zero-shot Learning"
+ ],
+ "dassignies": [
+  "AUTEUR",
+  "Articles récents",
+  "Catégories",
+  "Contact",
+  "LECTURE",
+  "La recherche juridique augmentée par le raisonnement",
+  "MIS À JOUR",
+  "Navigation",
+  "PUBLIÉ LE",
+  "Questions fréquentes : l’IA au sein d’un cabinet d’avocats",
+  "Raphaël d'Assignies"
+ ],
+ "hubspot": [
+  "20 exemples de prompts marketing à réutiliser",
+  "AEO (bêta)",
+  "Analyser les clients plus rapidement",
+  "Aperçu de tous les produits",
+  "Augmenter les ventes et accélérer les paiements",
+  "Automatiser la prospection commerciale",
+  "Automatiser le marketing",
+  "Breeze",
+  "CRM gratuit de HubSpot",
+  "Comment utiliser l'intelligence artificielle ?",
+  "Conclure des transactions",
+  "Content Hub",
+  "Créer du contenu",
+  "Data Hub",
+  "Déployer un support durable",
+  "Développer votre pipeline",
+  "Favoriser la rétention",
+  "Générer des leads",
+  "Gérer du contenu",
+  "La guide de l'intelligence artificielle",
+  "M'aider à choisir",
+  "Marketing Hub",
+  "Marketplace de HubSpot",
+  "Offre groupée pour les petites entreprises",
+  "Organiser les données clients",
+  "Pour les grandes entreprises",
+  "Pour les petites entreprises et les start-ups",
+  "Pourquoi choisir HubSpot ?",
+  "Quelle est la différence entre une IA forte et une IA faible ?",
+  "Quels sont les 3 types d'IA ?",
+  "Revenue Hub",
+  "Répondre aux demandes des clients 24 h/24 et 7 j/7",
+  "Sales Hub",
+  "Service Hub",
+  "Spotlight : l'actualité des produits",
+  "Trouver vos clients et interagir avec eux",
+  "Utilisez HubSpot AI dès aujourd'hui pour accélérer votre croissance",
+  "[e-book] Le guide sur l'IA",
+  "Études de cas"
+ ],
+ "twilio": [
+  "Analyse des sentiments",
+  "Apprentissage non supervisé",
+  "Apprentissage supervisé",
+  "Augmentation de données",
+  "Auto-attention",
+  "Biais de l'IA",
+  "Chatbot",
+  "Confidentialité des données",
+  "Considérations pratiques et éthiques",
+  "Deep learning",
+  "Dynamisez votre entreprise avec CustomerAI de Twilio",
+  "Edge AI (IA en périphérie)",
+  "Entraînement",
+  "Explicabilité/interprétabilité",
+  "Fine-tuning",
+  "Glossaire de l'IA générative pour les entreprises",
+  "Gouvernance de l'IA",
+  "Grands modèles de langage (LLM)",
+  "Généralisation",
+  "Générateur",
+  "Hallucination",
+  "IA en tant que service (AIaaS)",
+  "IA générative",
+  "Intelligence artificielle (IA)",
+  "Les bases de l'IA et du machine learning",
+  "Machine learning (ML)",
+  "Machine learning automatisé (AutoML)",
+  "Modèle",
+  "Modèles Transformer",
+  "Modèles de langage (LM)",
+  "Ressources connexes",
+  "Robustesse",
+  "Réseaux de neurones",
+  "Token",
+  "Traitement du langage naturel (NLP)",
+  "Traitement du langage naturel, IA générative et analyse de texte",
+  "Transformateur génératif pré-entraîné (GPT)",
+  "‌Reinforcement learning (Apprentissage par renforcement)"
+ ],
+ "metricool": [
+  "Annuler la réponse",
+  "Fondamentaux de l’intelligence artificielle",
+  "IA et réseaux sociaux",
+  "IA générative et création de contenu",
+  "IA immersive",
+  "Outils et plateformes d’intelligence artificielle",
+  "Éthique, régulation et enjeux sociétaux"
+ ],
+ "oqlf": [
+  "A conversion en jetons",
+  "intelligence artificielle",
+  "abandon",
+  "convolution",
+  "intelligence artificielle agentive",
+  "adaptation de domaine",
+  "couche cachée",
+  "intelligence artificielle descriptive",
+  "affinage",
+  "couche de convolution",
+  "intelligence artificielle digne de confiance",
+  "agent autonome",
+  "couche de sortie",
+  "intelligence artificielle embarquée",
+  "agent cognitif",
+  "couche d'entrée",
+  "intelligence artificielle explicable",
+  "agent collaboratif",
+  "cycle d'apprentissage",
+  "intelligence artificielle faible",
+  "agent conversationnel",
+  "intelligence artificielle forte",
+  "agent intelligent",
+  "D intelligence artificielle générative",
+  "algorithme d'apprentissage",
+  "débridage d'IA",
+  "intelligence artificielle intégrée",
+  "algorithme de descente de gradient",
+  "décodage spéculatif",
+  "intelligence artificielle interprétable",
+  "algorithme de montée de gradient",
+  "détection de visages",
+  "intelligence artificielle multimodale",
+  "algorithme de recommandation",
+  "détection d'objets",
+  "intelligence artificielle prédictive",
+  "algorithme d'optimisation",
+  "données d'entraînement",
+  "intelligence artificielle prescriptive",
+  "algorithme génétique",
+  "données étiquetées",
+  "intelligence artificielle responsable",
+  "algorithme prédictif",
+  "données non étiquetées",
+  "intelligence artificielle unimodale",
+  "alignement de l'IA",
+  "données synthétiques",
+  "interprétabilité",
+  "amplification",
+  "intrant",
+  "analyse de sentiments",
+  "itération de requêtes",
+  "effet boîte noire",
+  "analyse des mégadonnées",
+  "analyse prédictive",
+  "élagage",
+  "analytique avancée",
+  "enchaînement de requêtes",
+  "jeton",
+  "ancrage",
+  "entraînement",
+  "jumeau numérique",
+  "environnement multiagent",
+  "apprentissage",
+  "équité en intelligence artificielle",
+  "apprentissage à peu d'exemples",
+  "étiquetage des données",
+  "logiciel d'intelligence artificielle",
+  "apprentissage à un exemple",
+  "explicabilité",
+  "apprentissage automatique",
+  "exploration de données",
+  "extrant",
+  "machine à vecteurs de support",
+  "humaine",
+  "malédiction de la dimensionnalité",
+  "apprentissage autosupervisé",
+  "F mécanisme d'attention",
+  "apprentissage continu",
+  "fardage à l'IA",
+  "mégadonnées",
+  "apprentissage multitâche",
+  "fenêtre de contexte",
+  "mélange d'experts",
+  "apprentissage non supervisé",
+  "filtre de convolution",
+  "méta-apprentissage",
+  "apprentissage par contraste",
+  "flux de conversation",
+  "modèle autorégressif",
+  "apprentissage par renforcement",
+  "fonction d'activation",
+  "modèle de diffusion",
+  "apprentissage par renforcement avec fonction de noyau",
+  "modèle de fondation",
+  "rétroaction humaine",
+  "fonction de perte",
+  "modèle de langage",
+  "apprentissage profond",
+  "forêt d'arbres de décision",
+  "modèle de régression linéaire",
+  "apprentissage sans exemple",
+  "fuite d'information",
+  "modèle d'intelligence artificielle",
+  "apprentissage semi-supervisé",
+  "apprentissage supervisé",
+  "approche multiagent",
+  "modèle transformeur",
+  "arbre de décision",
+  "artificielle",
+  "art généré par intelligence artificielle",
+  "génération augmentée par récupération",
+  "assistant virtuel",
+  "génération automatique de résumé",
+  "neurone artificiel",
+  "assistant vocal personnel",
+  "gradient",
+  "attaque adverse",
+  "grand modèle de langage",
+  "audit algorithmique",
+  "optimisation des hyperparamètres",
+  "augmentation de données",
+  "outil d'intelligence artificielle",
+  "authentification vocale",
+  "hallucination d'IA",
+  "hyperautomatisation",
+  "B hyperparamètre",
+  "paramètre",
+  "biais algorithmique",
+  "hypertrucage",
+  "perceptron",
+  "biais de sélection",
+  "perceptron multicouche",
+  "bulle de filtres",
+  "petit modèle de langage",
+  "identification biométrique",
+  "poids synaptique",
+  "C identification vocale",
+  "préentraînement",
+  "classification",
+  "incitation à la chaîne de pensée",
+  "préparation des données",
+  "complaisance de l'intelligence artificielle",
+  "inférence",
+  "problème de la disparition du gradient",
+  "conception conversationnelle",
+  "infiltration de requête",
+  "problème de l'explosion du gradient",
+  "connaissance",
+  "informatique cognitive",
+  "programmation intuitive",
+  "connexionnisme",
+  "informatique sémantique",
+  "programmation logique",
+  "contenu généré par intelligence artificielle",
+  "intelligence ambiante",
+  "R réseau de neurones artificiels",
+  "synthétiseur de la parole",
+  "reconnaissance automatique de la parole",
+  "réseau de neurones convolutif",
+  "synthétiseur texte-parole",
+  "reconnaissance automatique des émotions",
+  "réseau de neurones profond",
+  "système d'intelligence artificielle",
+  "reconnaissance automatique du locuteur",
+  "réseau de neurones récurrent",
+  "reconnaissance de l'écriture manuscrite",
+  "résumé automatique",
+  "général",
+  "reconnaissance d'entités nommées",
+  "rétropropagation du gradient de l'erreur",
+  "système d'intelligence artificielle robuste",
+  "reconnaissance des formes",
+  "système multiagent",
+  "reconnaissance d'images",
+  "reconnaissance faciale",
+  "segmentation d'image",
+  "reconnaissance optique de caractères",
+  "segmentation d'instances",
+  "taux d'apprentissage",
+  "rédaction de requêtes",
+  "segmentation panoptique",
+  "traduction d'image à image",
+  "rédactique",
+  "segmentation sémantique",
+  "traitement automatique des langues",
+  "régression",
+  "séquence d'entrée",
+  "transformeur génératif préentraîné",
+  "régularisation",
+  "seuil d'activation",
+  "transparence des algorithmes",
+  "requête",
+  "singularité technologique",
+  "travail dégénératif",
+  "réseau antagoniste génératif",
+  "sous-apprentissage",
+  "réseau bayésien",
+  "superintelligence artificielle",
+  "seau de neurones à mémoire à long et à court surapprentissage",
+  "variance",
+  "terme",
+  "synthèse de la parole",
+  "vision par ordinateur",
+  "réseau de neurones à propagation avant",
+  "synthèse texte-parole",
+  "voix de synthèse"
+ ]
+}
