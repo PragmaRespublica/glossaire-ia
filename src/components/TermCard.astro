@@ -1,6 +1,9 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { AXE_LABELS, NIVEAU_LABELS, THEME_LABELS, t, type Lang } from '../i18n/ui';
+import illustrations from '../data/illustrations.json';
+
+const ILLUS = illustrations as Record<string, { alt_fr: string; alt_en: string }>;
 
 interface Props {
   entry: CollectionEntry<'termes'>;
@@ -11,6 +14,8 @@ const { entry, lang } = Astro.props;
 const d = entry.data;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const url = `${base}/${lang}/terme/${entry.id}/`;
+const illus = ILLUS[entry.id];
+const illusAlt = illus ? (lang === 'fr' ? illus.alt_fr : illus.alt_en) : '';
 
 const terme = lang === 'fr' ? d.terme_fr : d.terme_en;
 const aka = lang === 'fr' ? d.sous_titre_fr || d.terme_en : d.sous_titre_en || d.terme_fr;
@@ -55,9 +60,42 @@ const regard = (lang === 'fr' ? d.regard_fr : d.regard_en) || d.regard_fr;
         </div>
       )
     }
+    {
+      illus && (
+        <a href={url} class="term-thumb" aria-hidden="true" tabindex="-1">
+          <img
+            src={`${base}/illustrations/${entry.id}.svg`}
+            alt={illusAlt}
+            width="600"
+            height="300"
+            loading="lazy"
+          />
+        </a>
+      )
+    }
     <a href={url} class="related-page">
       <span class="related-page-text">{terme}</span>
       <span class="related-page-link">{lang === 'fr' ? 'Voir la fiche →' : 'View entry →'}</span>
     </a>
   </div>
 </article>
+
+<style>
+  .term-thumb {
+    display: block;
+    margin-top: 18px;
+    max-width: 340px;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .term-thumb:hover {
+    border-color: var(--orange);
+  }
+  .term-thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>

@@ -1,0 +1,134 @@
+{
+ "agent-ia": {
+  "alt_fr": "Boucle d'un agent : penser, agir, observer, recommencer jusqu'à atteindre l'objectif.",
+  "alt_en": "Agent loop: think, act, observe, repeat until the goal is reached."
+ },
+ "ai-act": {
+  "alt_fr": "L'AI Act classe les systèmes en quatre niveaux de risque, de l'inacceptable au minimal.",
+  "alt_en": "The AI Act classifies systems into four risk levels, from unacceptable to minimal."
+ },
+ "benchmark": {
+  "alt_fr": "Un benchmark compare les modèles sur des tâches standardisées, avec ses limites.",
+  "alt_en": "A benchmark compares models on standardised tasks, with its limits."
+ },
+ "biais-algorithmique": {
+  "alt_fr": "Biais algorithmique : le modèle reproduit et amplifie les déséquilibres de ses données.",
+  "alt_en": "Algorithmic bias: the model reproduces and amplifies its data's imbalances."
+ },
+ "chaine-pensee": {
+  "alt_fr": "Chaîne de pensée : le modèle raisonne étape par étape avant de conclure.",
+  "alt_en": "Chain-of-thought: the model reasons step by step before concluding."
+ },
+ "cloud-souverain": {
+  "alt_fr": "Cloud souverain : un hébergeur européen hors de portée du droit extraterritorial.",
+  "alt_en": "Sovereign cloud: a European host beyond the reach of extraterritorial law."
+ },
+ "donnees-personnelles": {
+  "alt_fr": "Donnée personnelle : toute information permettant d'identifier une personne.",
+  "alt_en": "Personal data: any information that can identify a person."
+ },
+ "ecosysteme-ia-francais": {
+  "alt_fr": "Écosystème IA français : une chaîne complète, du modèle à l'hébergement souverain.",
+  "alt_en": "French AI ecosystem: a complete chain, from model to sovereign hosting."
+ },
+ "embedding": {
+  "alt_fr": "Un mot est projeté en vecteur ; les sens proches occupent des positions voisines dans l'espace.",
+  "alt_en": "A word is projected into a vector; close meanings occupy neighbouring positions in space."
+ },
+ "empreinte-carbone": {
+  "alt_fr": "Chaque requête a une empreinte carbone qui dépend du mix électrique.",
+  "alt_en": "Each request has a carbon footprint that depends on the electricity mix."
+ },
+ "fine-tuning": {
+  "alt_fr": "Le fine-tuning ajoute une fine couche d'adaptation à un modèle de base déjà entraîné.",
+  "alt_en": "Fine-tuning adds a thin adaptation layer to an already-trained base model."
+ },
+ "gpt": {
+  "alt_fr": "GPT décompose trois idées : génératif, préentraîné, transformer.",
+  "alt_en": "GPT decomposes into three ideas: generative, pre-trained, transformer."
+ },
+ "guardrails": {
+  "alt_fr": "Garde-fous : des filtres encadrent les entrées et sorties d'un modèle.",
+  "alt_en": "Guardrails: filters frame a model's inputs and outputs."
+ },
+ "hallucination": {
+  "alt_fr": "Hallucination : une réponse fausse énoncée avec assurance, sans source.",
+  "alt_en": "Hallucination: a false answer stated with confidence, with no source."
+ },
+ "humain-dans-la-boucle": {
+  "alt_fr": "Humain dans la boucle : l'IA propose, l'humain valide les décisions sensibles.",
+  "alt_en": "Human in the loop: AI proposes, the human validates sensitive decisions."
+ },
+ "ia-generative": {
+  "alt_fr": "L'IA générative produit du contenu nouveau à partir d'une instruction en langage naturel.",
+  "alt_en": "Generative AI produces new content from a natural-language instruction."
+ },
+ "ia-souveraine": {
+  "alt_fr": "IA souveraine : les données restent à l'intérieur de la frontière, sous contrôle local.",
+  "alt_en": "Sovereign AI: data stays inside the border, under local control."
+ },
+ "llm": {
+  "alt_fr": "Un grand modèle de langage prédit le prochain fragment de texte, token après token.",
+  "alt_en": "A large language model predicts the next fragment of text, token after token."
+ },
+ "lock-in": {
+  "alt_fr": "Verrouillage fournisseur : plus le temps passe, plus il devient coûteux de changer.",
+  "alt_en": "Vendor lock-in: the more time passes, the costlier it becomes to switch."
+ },
+ "mistral-ai": {
+  "alt_fr": "Mistral AI : acteur français publiant des modèles ouverts, alternative souveraine.",
+  "alt_en": "Mistral AI: a French player releasing open models, a sovereign alternative."
+ },
+ "open-weights": {
+  "alt_fr": "Modèle à poids ouverts : téléchargeable, exécutable et adaptable chez soi.",
+  "alt_en": "Open-weights model: downloadable, runnable and adaptable at home."
+ },
+ "prompt-engineering": {
+  "alt_fr": "Ingénierie de prompt : une instruction précise transforme la qualité de la réponse.",
+  "alt_en": "Prompt engineering: a precise instruction transforms the answer's quality."
+ },
+ "prompt-injection": {
+  "alt_fr": "Injection de prompt : une instruction malveillante cachée détourne le modèle.",
+  "alt_en": "Prompt injection: a hidden malicious instruction hijacks the model."
+ },
+ "qualite-donnees": {
+  "alt_fr": "Qualité des données : garbage in, garbage out · elle plafonne la performance.",
+  "alt_en": "Data quality: garbage in, garbage out · it caps performance."
+ },
+ "rag": {
+  "alt_fr": "Schéma d'un RAG : une base documentaire alimente une recherche, dont les passages rejoignent la question vers un modèle qui produit une réponse sourcée.",
+  "alt_en": "RAG diagram: a document base feeds a search whose passages join the question into a model producing a sourced answer."
+ },
+ "rgpd": {
+  "alt_fr": "Le RGPD protège les données personnelles par un bouclier de droits.",
+  "alt_en": "The GDPR protects personal data with a shield of rights."
+ },
+ "roi-ia": {
+  "alt_fr": "ROI de l'IA : mesurer la valeur réelle créée face au coût total.",
+  "alt_en": "AI ROI: measuring the real value created against the total cost."
+ },
+ "sobriete-numerique": {
+  "alt_fr": "Sobriété numérique : choisir le modèle minimal qui suffit à la tâche.",
+  "alt_en": "Digital sobriety: choosing the minimal model that suffices for the task."
+ },
+ "souverainete-numerique": {
+  "alt_fr": "Souveraineté numérique : garder les clés de ses choix technologiques.",
+  "alt_en": "Digital sovereignty: keeping the keys to one's technological choices."
+ },
+ "systeme-haut-risque": {
+  "alt_fr": "Un système à haut risque exige documentation, supervision humaine et analyse d'impact.",
+  "alt_en": "A high-risk system requires documentation, human oversight and impact assessment."
+ },
+ "token": {
+  "alt_fr": "Tokenisation : une phrase est découpée en unités élémentaires facturées et traitées par le modèle.",
+  "alt_en": "Tokenisation: a sentence is split into elementary units billed and processed by the model."
+ },
+ "transformer": {
+  "alt_fr": "Architecture transformer : chaque mot pondère l'importance de tous les autres par le mécanisme d'attention.",
+  "alt_en": "Transformer architecture: each word weighs the importance of all others through the attention mechanism."
+ },
+ "vector-store": {
+  "alt_fr": "Base vectorielle : des documents deviennent des points dans un espace, et une requête retrouve les plus proches.",
+  "alt_en": "Vector store: documents become points in a space, and a query retrieves the nearest ones."
+ }
+}

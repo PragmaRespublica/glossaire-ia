@@ -11,6 +11,9 @@ import {
   LANGS,
   type Lang,
 } from '../../../i18n/ui';
+import illustrations from '../../../data/illustrations.json';
+
+const ILLUS = illustrations as Record<string, { alt_fr: string; alt_en: string }>;
 
 export async function getStaticPaths() {
   const termes = await getCollection('termes');
@@ -41,6 +44,10 @@ const ctaUrl = d.cta
 const lies = (
   await Promise.all(d.termes_lies.map((slug) => getEntry('termes', slug)))
 ).filter((e) => e !== undefined);
+
+const illus = ILLUS[entry.id];
+const illusAlt = illus ? (lang === 'fr' ? illus.alt_fr : illus.alt_en) : '';
+const illusSrc = illus ? `${base}/illustrations/${entry.id}.svg` : '';
 ---
 
 <Base
@@ -66,6 +73,14 @@ const lies = (
         </span>
       </div>
     </header>
+
+    {
+      illus && (
+        <figure class="term-illustration">
+          <img src={illusSrc} alt={illusAlt} width="600" height="300" loading="eager" />
+        </figure>
+      )
+    }
 
     <div class="term-body">
       <p>{definition}</p>
@@ -158,6 +173,20 @@ const lies = (
     color: var(--muted);
     font-style: italic;
     margin-bottom: 16px;
+  }
+
+  .term-illustration {
+    margin: 30px 0 10px;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--charcoal-soft);
+  }
+
+  .term-illustration img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .fiche .term-body {
