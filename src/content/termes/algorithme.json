@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Algorithme",
+  "terme_en": "Algorithm",
+  "sous_titre_fr": "Algorithm",
+  "sous_titre_en": "Algorithme",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Suite finie et non ambiguë d'instructions permettant de résoudre un problème ou d'accomplir une tâche. Notion fondamentale de l'informatique, bien antérieure à l'IA, l'algorithme en est la brique de base. Dans le débat public, « algorithme » désigne souvent, par raccourci, les systèmes de décision automatisés · d'où bien des malentendus.",
+  "definition_en": "A finite, unambiguous sequence of instructions for solving a problem or accomplishing a task. A fundamental notion of computer science, far predating AI, the algorithm is its basic brick. In public debate, \"algorithm\" often refers, as shorthand, to automated decision systems · hence many misunderstandings.",
+  "exemple_fr": "Une recette de cuisine est un algorithme : des étapes précises menant à un résultat. Le tri d'une liste, le calcul d'un itinéraire, la recommandation d'une vidéo reposent tous sur des algorithmes. Quand un média dénonce « l'algorithme » d'une plateforme, il désigne en réalité un système complexe de décision · pas une simple recette.",
+  "exemple_en": "A cooking recipe is an algorithm: precise steps leading to a result. Sorting a list, computing a route, recommending a video all rest on algorithms. When a media outlet denounces a platform's \"algorithm\", it actually refers to a complex decision system · not a simple recipe.",
+  "regard_fr": "Le mot « algorithme » est devenu un épouvantail commode masquant des réalités très diverses. Reprendre le pouvoir sur la technologie passe par la précision du vocabulaire : un algorithme n'est ni bon ni mauvais en soi, tout dépend de ce qu'il fait et des données qu'on lui donne. Nommer précisément, c'est déjà comprendre.",
+  "regard_en": "The word \"algorithm\" has become a convenient bogeyman masking very diverse realities. Taking back control over technology requires precision of vocabulary: an algorithm is neither good nor bad in itself, everything depends on what it does and the data given to it. Naming precisely is already understanding.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "intelligence-artificielle",
+    "transparence-algorithmes",
+    "biais-algorithmique",
+    "apprentissage-automatique"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (algorithme)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

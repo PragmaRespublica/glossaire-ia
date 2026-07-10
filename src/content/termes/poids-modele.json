@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Poids d'un modèle",
+  "terme_en": "Model weights",
+  "sous_titre_fr": "Model weights",
+  "sous_titre_en": "Poids d'un modèle",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Valeurs numériques précises que prennent les paramètres d'un modèle une fois entraîné · ils encodent tout ce que le modèle « sait ». Partager les poids d'un modèle (open weights), c'est permettre à d'autres de l'exécuter et de l'adapter. Les poids sont l'actif central d'un modèle : les détenir, c'est en avoir la maîtrise.",
+  "definition_en": "The precise numeric values a model's parameters take once trained · they encode everything the model \"knows\". Sharing a model's weights (open weights) lets others run and adapt it. Weights are a model's central asset: holding them means having control of it.",
+  "exemple_fr": "Quand Mistral publie les poids d'un modèle, n'importe qui peut le télécharger, l'exécuter sur sa propre infrastructure et l'adapter · sans dépendre d'une API. À l'inverse, un modèle dont les poids restent secrets ne s'utilise que via le fournisseur. Les poids ouverts sont la clé technique de la souveraineté sur un modèle.",
+  "exemple_en": "When Mistral publishes a model's weights, anyone can download it, run it on their own infrastructure and adapt it · without depending on an API. Conversely, a model whose weights stay secret can only be used via the provider. Open weights are the technical key to sovereignty over a model.",
+  "regard_fr": "Les poids d'un modèle sont son cœur : qui les détient peut l'exécuter, l'étudier, l'adapter, le maîtriser. La bataille entre modèles « ouverts » et « fermés » se joue précisément sur l'accès aux poids. Pour la souveraineté, un modèle dont on détient les poids et qu'on héberge soi-même change tout.",
+  "regard_en": "A model's weights are its heart: whoever holds them can run, study, adapt and control it. The battle between \"open\" and \"closed\" models plays out precisely on access to the weights. For sovereignty, a model whose weights you hold and that you host yourself changes everything.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "parametres",
+    "open-weights",
+    "ia-souveraine",
+    "open-source-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur les modèles à poids ouverts",
+      "url": "https://huggingface.co/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

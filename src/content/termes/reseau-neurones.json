@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Réseau de neurones artificiels",
+  "terme_en": "Artificial neural network",
+  "sous_titre_fr": "Artificial neural network (ANN)",
+  "sous_titre_en": "Réseau de neurones artificiels",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Modèle de calcul inspiré du cerveau, composé de « neurones » interconnectés organisés en couches, qui transforment progressivement une entrée en sortie. Chaque connexion porte un poids ajusté à l'entraînement. Malgré l'analogie biologique, un réseau de neurones artificiel est une structure mathématique · pas une reproduction du cerveau.",
+  "definition_en": "A computation model inspired by the brain, made of interconnected \"neurons\" organised in layers, that progressively transform an input into an output. Each connection carries a weight adjusted in training. Despite the biological analogy, an artificial neural network is a mathematical structure · not a reproduction of the brain.",
+  "exemple_fr": "Un réseau de neurones qui reconnaît des chiffres manuscrits reçoit les pixels en entrée, les fait passer à travers ses couches, et produit en sortie une probabilité pour chaque chiffre. Ce qu'il a « appris » réside dans les poids de ses connexions · des millions de nombres ajustés, sans règle explicite écrite par un humain.",
+  "exemple_en": "A neural network recognising handwritten digits receives the pixels as input, passes them through its layers, and outputs a probability for each digit. What it has \"learned\" resides in the weights of its connections · millions of numbers adjusted, with no explicit rule written by a human.",
+  "regard_fr": "L'analogie avec le cerveau est séduisante et trompeuse : un réseau de neurones artificiel n'est pas un cerveau miniature, mais une fonction mathématique. Entretenir cette confusion nourrit le fantasme d'une IA « qui pense ». Démystifier le vocabulaire · « neurone », « apprendre » · est un acte de lucidité.",
+  "regard_en": "The brain analogy is seductive and misleading: an artificial neural network is not a miniature brain, but a mathematical function. Maintaining this confusion feeds the fantasy of an AI \"that thinks\". Demystifying the vocabulary · \"neuron\", \"learn\" · is an act of lucidity.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "neurone-artificiel",
+    "apprentissage-profond",
+    "couche-neurones",
+    "retropropagation"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (réseau de neurones artificiels)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Modèle de fondation",
+  "terme_en": "Foundation model",
+  "sous_titre_fr": "Foundation model",
+  "sous_titre_en": "Modèle de fondation",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Grand modèle préentraîné sur d'immenses données, conçu pour être adapté à de multiples tâches en aval plutôt que pour une seule. Les modèles de fondation (GPT, Claude, Mistral, Llama) sont la brique de base de l'IA générative actuelle : on ne les recrée pas, on les réutilise et on les spécialise. Un point de concentration du pouvoir technologique.",
+  "definition_en": "A large model pre-trained on immense data, designed to be adapted to multiple downstream tasks rather than a single one. Foundation models (GPT, Claude, Mistral, Llama) are the basic brick of current generative AI: they are not recreated, they are reused and specialised. A point of concentration of technological power.",
+  "exemple_fr": "Une entreprise ne construit pas son propre modèle de fondation · l'affaire de quelques acteurs et de dizaines de millions. Elle part d'un modèle existant et l'adapte à son besoin par prompt, RAG ou fine-tuning. Le choix du modèle de fondation · propriétaire ou ouvert, américain ou européen · est une décision stratégique majeure.",
+  "exemple_en": "A company does not build its own foundation model · the business of a few players and tens of millions. It starts from an existing model and adapts it to its need through prompting, RAG or fine-tuning. The choice of foundation model · proprietary or open, American or European · is a major strategic decision.",
+  "regard_fr": "Les modèles de fondation concentrent un pouvoir considérable entre quelques mains : ils façonnent les capacités et les valeurs de toute l'IA en aval. En dépendre sans alternative, c'est déléguer une part de sa souveraineté. Le soutien à des modèles de fondation européens et ouverts est un enjeu qui dépasse la technique.",
+  "regard_en": "Foundation models concentrate considerable power in a few hands: they shape the capabilities and values of all downstream AI. Depending on them without alternative means delegating part of one's sovereignty. Supporting European and open foundation models is an issue that goes beyond technology.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gpai",
+    "llm",
+    "pre-entrainement",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (modèle de fondation)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

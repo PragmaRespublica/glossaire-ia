@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage automatique",
+  "terme_en": "Machine learning",
+  "sous_titre_fr": "Machine learning (ML)",
+  "sous_titre_en": "Apprentissage automatique",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Branche de l'IA où les systèmes apprennent à partir de données plutôt que d'être programmés explicitement règle par règle. Au lieu de coder « si... alors... », on montre des exemples et le système dégage lui-même les régularités. C'est le paradigme dominant de l'IA moderne, dont l'apprentissage profond est la forme la plus visible.",
+  "definition_en": "A branch of AI where systems learn from data rather than being explicitly programmed rule by rule. Instead of coding \"if... then...\", one shows examples and the system extracts the regularities itself. It is the dominant paradigm of modern AI, of which deep learning is the most visible form.",
+  "exemple_fr": "Pour détecter les spams, la vieille méthode listait des règles (« contient loterie »). Vite contournée. L'apprentissage automatique, lui, apprend des milliers d'exemples de spams et non-spams ce qui les distingue, et s'adapte aux nouvelles ruses. Le passage des règles écrites à l'apprentissage par l'exemple a tout changé.",
+  "exemple_en": "To detect spam, the old method listed rules (\"contains lottery\"). Quickly bypassed. Machine learning learns from thousands of spam and non-spam examples what distinguishes them, and adapts to new tricks. The shift from written rules to learning by example changed everything.",
+  "regard_fr": "L'apprentissage automatique est la bascule fondatrice de l'IA moderne : on ne dit plus à la machine quoi faire, on lui montre des exemples. Cette puissance a un revers · le système apprend aussi les biais de ses données, sans qu'on l'ait voulu. Comprendre ce mécanisme, c'est comprendre d'où viennent capacités et travers de l'IA.",
+  "regard_en": "Machine learning is the founding shift of modern AI: we no longer tell the machine what to do, we show it examples. This power has a downside · the system also learns its data's biases, unintentionally. Understanding this mechanism means understanding where AI's capabilities and flaws come from.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-profond",
+    "apprentissage-supervise",
+    "ia-non-generative",
+    "intelligence-artificielle"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · apprentissage automatique",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Neurone artificiel",
+  "terme_en": "Artificial neuron",
+  "sous_titre_fr": "Artificial neuron",
+  "sous_titre_en": "Neurone artificiel",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Unité de calcul élémentaire d'un réseau de neurones : elle reçoit des entrées, les combine selon des poids, applique une fonction d'activation, et produit une sortie. Assemblés par milliards, ces neurones simples donnent naissance aux capacités complexes des grands modèles. La complexité émerge du nombre, pas de la sophistication de chaque unité.",
+  "definition_en": "The elementary computation unit of a neural network: it receives inputs, combines them according to weights, applies an activation function, and produces an output. Assembled by the billions, these simple neurons give rise to the complex capabilities of large models. Complexity emerges from number, not from the sophistication of each unit.",
+  "exemple_fr": "Un neurone artificiel, pris seul, ne fait presque rien : une somme pondérée suivie d'un seuil. Mais des milliards de ces opérations élémentaires, agencées en couches, produisent la reconnaissance d'images ou la génération de texte. C'est l'un des grands enseignements de l'IA : la complexité naît de la répétition du simple.",
+  "exemple_en": "An artificial neuron, taken alone, does almost nothing: a weighted sum followed by a threshold. But billions of these elementary operations, arranged in layers, produce image recognition or text generation. It is one of AI's great lessons: complexity is born from the repetition of the simple.",
+  "regard_fr": "Le neurone artificiel illustre une idée profonde : l'intelligence apparente peut émerger d'unités élémentaires dénuées de compréhension. Chaque neurone « ignore » ce que fait le réseau. Cela invite à la modestie sur ce que « comprend » une IA · et à distinguer performance et compréhension, qui ne coïncident pas.",
+  "regard_en": "The artificial neuron illustrates a deep idea: apparent intelligence can emerge from elementary units devoid of understanding. Each neuron \"ignores\" what the network does. This invites modesty about what an AI \"understands\" · and to distinguish performance from comprehension, which do not coincide.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "reseau-neurones",
+    "fonction-activation",
+    "couche-neurones",
+    "perceptron"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · neurone artificiel",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

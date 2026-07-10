@@ -1,0 +1,41 @@
+{
+  "terme_fr": "IA et emploi",
+  "terme_en": "AI and employment",
+  "sous_titre_fr": "AI and employment",
+  "sous_titre_en": "IA et emploi",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des effets de l'IA sur le travail : automatisation de tâches, transformation des métiers, création de nouveaux rôles, déplacement de compétences. Loin du scénario simpliste du « remplacement massif », la réalité est une recomposition profonde · certaines tâches disparaissent, d'autres émergent, la plupart des métiers évoluent.",
+  "definition_en": "The set of AI's effects on work: task automation, job transformation, creation of new roles, skills displacement. Far from the simplistic \"mass replacement\" scenario, the reality is a deep recomposition · some tasks disappear, others emerge, most jobs evolve.",
+  "exemple_fr": "Dans un cabinet comptable, l'IA automatise la saisie et le rapprochement · des tâches, pas des métiers. Le comptable passe plus de temps sur le conseil et l'analyse, moins sur la saisie. Le métier ne disparaît pas, il se déplace vers plus de valeur. Anticiper ce glissement par la formation est la clé d'une transition réussie.",
+  "exemple_en": "In an accounting firm, AI automates entry and reconciliation · tasks, not jobs. The accountant spends more time on advice and analysis, less on data entry. The job does not disappear, it shifts towards more value. Anticipating this shift through training is the key to a successful transition.",
+  "regard_fr": "Le débat « l'IA va-t-elle détruire l'emploi ? » est mal posé. La vraie question est : accompagne-t-on la transformation des métiers, ou la subit-on ? Les tâches automatisables le seront ; l'enjeu est de préparer les personnes à se recentrer sur ce que l'IA ne fait pas. La formation est la meilleure politique de l'emploi face à l'IA.",
+  "regard_en": "The debate \"will AI destroy jobs?\" is badly framed. The real question is: do we accompany the transformation of jobs, or endure it? Automatable tasks will be automated; the challenge is preparing people to refocus on what AI does not do. Training is the best employment policy in the face of AI.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "deskilling",
+    "conduite-changement",
+    "metiers-ia",
+    "acculturation-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OCDE · IA et marché du travail"
+    },
+    {
+      "titre": "France Stratégie · intelligence artificielle et travail",
+      "url": "https://www.strategie.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

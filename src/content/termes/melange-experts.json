@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Mélange d'experts (MoE)",
+  "terme_en": "Mixture of Experts (MoE)",
+  "sous_titre_fr": "Mixture of Experts (MoE)",
+  "sous_titre_en": "Mélange d'experts",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Architecture où un grand modèle est composé de nombreux sous-modèles « experts », dont seuls quelques-uns sont activés pour chaque requête. Le mélange d'experts permet d'avoir un modèle très grand en capacité totale, mais économe à l'usage · puisqu'on n'active qu'une fraction des paramètres à chaque fois. Un compromis puissance-coût élégant.",
+  "definition_en": "An architecture where a large model is composed of many \"expert\" sub-models, of which only a few are activated for each request. Mixture of Experts allows a model very large in total capacity but economical in use · since only a fraction of the parameters is activated each time. An elegant power-cost trade-off.",
+  "exemple_fr": "Un modèle à mélange d'experts peut compter des centaines de milliards de paramètres au total, mais n'en activer que quelques dizaines de milliards par requête · comme un cabinet de spécialistes où l'on ne consulte que ceux dont on a besoin. On obtient la richesse d'un grand modèle pour le coût d'un plus petit.",
+  "exemple_en": "A Mixture of Experts model can have hundreds of billions of parameters in total, but activate only a few tens of billions per request · like a firm of specialists where you only consult those you need. You get the richness of a large model for the cost of a smaller one.",
+  "regard_fr": "Le mélange d'experts illustre une piste importante pour la sobriété de l'IA : au lieu de tout activer à chaque fois, n'activer que le nécessaire. C'est un des leviers qui permettent aux modèles de grandir en capacité sans exploser en coût d'inférence. L'efficience architecturale compte autant que la taille brute.",
+  "regard_en": "Mixture of Experts illustrates an important path for AI frugality: instead of activating everything each time, activate only what is needed. It is one of the levers that let models grow in capacity without exploding in inference cost. Architectural efficiency matters as much as raw size.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "parametres",
+    "inference",
+    "ia-frugale",
+    "modele-fondation"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (mélange d'experts)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

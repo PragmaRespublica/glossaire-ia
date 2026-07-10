@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Perceptron",
+  "terme_en": "Perceptron",
+  "sous_titre_fr": "Perceptron",
+  "sous_titre_en": "Perceptron",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Le plus ancien et le plus simple des neurones artificiels, inventé en 1957. Le perceptron classe des données en deux catégories par une frontière linéaire. Ses limites, démontrées dans les années 1960, ont freiné la recherche · avant que l'empilement de perceptrons en couches (perceptron multicouche) ne relance l'apprentissage profond.",
+  "definition_en": "The oldest and simplest artificial neuron, invented in 1957. The perceptron classifies data into two categories via a linear boundary. Its limits, demonstrated in the 1960s, held back research · before the stacking of perceptrons in layers (multilayer perceptron) relaunched deep learning.",
+  "exemple_fr": "Un perceptron sait séparer deux groupes de points par une droite · mais échoue dès que la frontière est courbe. Cette limite, révélée en 1969, a plongé la recherche en IA dans un « hiver ». Il aura fallu empiler les perceptrons et inventer la rétropropagation pour dépasser cet obstacle · des décennies plus tard.",
+  "exemple_en": "A perceptron can separate two groups of points by a line · but fails as soon as the boundary is curved. This limit, revealed in 1969, plunged AI research into a \"winter\". It took stacking perceptrons and inventing backpropagation to overcome this obstacle · decades later.",
+  "regard_fr": "L'histoire du perceptron est une leçon d'humilité et de patience : une limite jugée rédhibitoire a gelé la recherche pendant des années, avant d'être dépassée. Les « impossibilités » de l'IA d'aujourd'hui pourraient connaître le même sort. En science, l'échec d'une génération est souvent le tremplin de la suivante.",
+  "regard_en": "The perceptron's history is a lesson in humility and patience: a limit deemed fatal froze research for years, before being overcome. The \"impossibilities\" of today's AI could meet the same fate. In science, one generation's failure is often the next's springboard.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "neurone-artificiel",
+    "hiver-ia",
+    "reseau-neurones",
+    "retropropagation"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (perceptron)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

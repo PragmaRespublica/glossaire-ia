@@ -1,0 +1,122 @@
+{
+  "gpt": {
+    "sous_titre_fr": "Generative Pre-trained Transformer",
+    "sous_titre_en": "Generative Pre-trained Transformer",
+    "definition_fr": "Famille d'architectures de modèles de langage combinant trois idées : générative (produit du texte), préentraînée (apprend d'abord sur d'immenses corpus), et transformer (fondée sur le mécanisme d'attention). Le sigle GPT, popularisé par OpenAI, désigne aujourd'hui par extension toute une génération de grands modèles de langage.",
+    "definition_en": "A family of language model architectures combining three ideas: generative (produces text), pre-trained (learns first on immense corpora), and transformer (based on the attention mechanism). The acronym GPT, popularised by OpenAI, today refers by extension to a whole generation of large language models.",
+    "exemple_fr": "Le nom GPT décrit exactement son fonctionnement : il génère du texte, a été préentraîné sur d'énormes quantités de données, et repose sur l'architecture transformer. Décomposer le sigle, c'est déjà comprendre l'essentiel de la technologie · trois innovations combinées, pas une boîte magique.",
+    "exemple_en": "The name GPT describes exactly how it works: it generates text, was pre-trained on huge amounts of data, and rests on the transformer architecture. Decomposing the acronym is already understanding the essentials of the technology · three combined innovations, not a magic box.",
+    "regard_fr": "Derrière l'acronyme mystérieux GPT se cachent trois idées d'ingénierie précises et compréhensibles. Prendre le temps de les nommer démystifie l'outil : ce n'est pas une intelligence surgie de nulle part, mais l'assemblage réfléchi de techniques identifiables. Comprendre le sigle, c'est déjà reprendre un peu de pouvoir.",
+    "regard_en": "Behind the mysterious acronym GPT lie three precise, understandable engineering ideas. Taking the time to name them demystifies the tool: it is not an intelligence sprung from nowhere, but the thoughtful assembly of identifiable techniques. Understanding the acronym is already taking back some control.",
+    "termes_lies": ["transformer", "pre-entrainement", "ia-generative", "llm"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (transformeur génératif préentraîné)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "mecanisme-attention": {
+    "sous_titre_fr": "Attention mechanism",
+    "sous_titre_en": "Mécanisme d'attention",
+    "definition_fr": "Innovation clé de l'architecture transformer permettant à un modèle de pondérer dynamiquement l'importance des différents éléments d'une séquence pour interpréter chacun. L'attention permet de relier des mots distants d'une phrase et de gérer le contexte · c'est elle qui a rendu possible le bond de performance des modèles de langage.",
+    "definition_en": "A key innovation of the transformer architecture allowing a model to dynamically weigh the importance of the different elements of a sequence to interpret each. Attention links distant words in a sentence and handles context · it is what made the performance leap of language models possible.",
+    "exemple_fr": "Dans « la banque était fermée, il n'a pas pu retirer d'argent », le mécanisme d'attention relie « banque » à « argent » et « retirer », levant l'ambiguïté avec le sens « rive ». Cette capacité à peser dynamiquement le contexte est ce qui distingue les transformers des modèles antérieurs, incapables de gérer les dépendances lointaines.",
+    "exemple_en": "In \"the bank was closed, he couldn't withdraw money\", the attention mechanism links \"bank\" to \"money\" and \"withdraw\", resolving the ambiguity with the \"riverbank\" sense. This ability to dynamically weigh context is what distinguishes transformers from earlier models, unable to handle distant dependencies.",
+    "regard_fr": "Le mécanisme d'attention, décrit dans un article de 2017 au titre programmatique (« Attention is All You Need »), est la véritable étincelle de la révolution actuelle. Une idée d'ingénierie, publiée et partagée, a déclenché tout le reste. Cela rappelle que les grandes ruptures naissent souvent d'une intuition précise, pas d'un secret.",
+    "regard_en": "The attention mechanism, described in a 2017 paper with a programmatic title (\"Attention is All You Need\"), is the true spark of the current revolution. An engineering idea, published and shared, triggered all the rest. It recalls that great breakthroughs often arise from a precise intuition, not a secret.",
+    "termes_lies": ["transformer", "auto-attention", "gpt", "fenetre-contextuelle"],
+    "sources": [{"titre": "Vaswani et al. · Attention is All You Need", "url": "https://arxiv.org/abs/1706.03762"}]
+  },
+  "auto-attention": {
+    "sous_titre_fr": "Self-attention",
+    "sous_titre_en": "Auto-attention",
+    "definition_fr": "Forme particulière du mécanisme d'attention où chaque élément d'une séquence est mis en relation avec tous les autres éléments de la même séquence. L'auto-attention permet à un modèle de construire, pour chaque mot, une représentation enrichie par son contexte. C'est le cœur opérationnel de l'architecture transformer.",
+    "definition_en": "A particular form of the attention mechanism where each element of a sequence is related to all the other elements of the same sequence. Self-attention lets a model build, for each word, a representation enriched by its context. It is the operational heart of the transformer architecture.",
+    "exemple_fr": "Pour comprendre le mot « il » dans une phrase, l'auto-attention le relie à tous les autres mots pour trouver son antécédent. Chaque mot « regarde » ainsi tous les autres et ajuste son sens en conséquence. Cette mise en relation généralisée, calculée en parallèle, explique à la fois la puissance et le coût des transformers.",
+    "exemple_en": "To understand the word \"it\" in a sentence, self-attention links it to all the other words to find its antecedent. Each word thus \"looks at\" all the others and adjusts its meaning accordingly. This generalised relating, computed in parallel, explains both the power and the cost of transformers.",
+    "regard_fr": "L'auto-attention a un coût qui croît avec le carré de la longueur du texte · doubler le contexte quadruple le calcul. Cette limite mathématique explique pourquoi les fenêtres contextuelles très grandes restent coûteuses. Derrière chaque « progrès » de l'IA se cache un compromis technique qu'il est utile de connaître.",
+    "regard_en": "Self-attention has a cost that grows with the square of the text length · doubling the context quadruples the computation. This mathematical limit explains why very large context windows remain costly. Behind every AI \"advance\" lies a technical trade-off worth knowing.",
+    "termes_lies": ["mecanisme-attention", "transformer", "fenetre-contextuelle", "cache-kv"],
+    "sources": [{"titre": "Vaswani et al. · Attention is All You Need", "url": "https://arxiv.org/abs/1706.03762"}]
+  },
+  "parametres": {
+    "sous_titre_fr": "Model parameters",
+    "sous_titre_en": "Paramètres d'un modèle",
+    "definition_fr": "Valeurs numériques internes qu'un modèle ajuste pendant l'entraînement pour encoder ce qu'il apprend · essentiellement les poids de ses connexions. Le nombre de paramètres (des millions aux milliers de milliards) est un indicateur de la taille d'un modèle, souvent brandi comme mesure de puissance · à tort, car la taille ne fait pas tout.",
+    "definition_en": "The internal numeric values a model adjusts during training to encode what it learns · essentially the weights of its connections. The number of parameters (from millions to trillions) is an indicator of a model's size, often brandished as a measure of power · wrongly, since size is not everything.",
+    "exemple_fr": "Un modèle de 7 milliards de paramètres est souvent présenté comme « petit » face à un modèle de 1 000 milliards. Pourtant, pour résumer un email ou classer un document, le petit suffit largement · plus rapide, plus sobre, moins cher. Le nombre de paramètres impressionne, mais il ne dit rien de l'adéquation à votre besoin.",
+    "exemple_en": "A 7-billion-parameter model is often presented as \"small\" against a 1-trillion one. Yet to summarise an email or classify a document, the small one is more than enough · faster, more frugal, cheaper. The parameter count impresses, but it says nothing about the fit to your need.",
+    "regard_fr": "Le nombre de paramètres est le « chiffre du capot » de l'IA · celui qu'on exhibe pour impressionner, comme la cylindrée d'une voiture. Mais le plus gros modèle n'est presque jamais le bon pour un usage donné. La première décision de sobriété est de résister à la fascination pour la taille et de choisir le modèle adapté.",
+    "regard_en": "The parameter count is AI's \"headline number\" · the one exhibited to impress, like a car's engine size. But the biggest model is almost never the right one for a given use. The first sobriety decision is to resist the fascination with size and choose the fitting model.",
+    "termes_lies": ["poids-modele", "slm", "ia-frugale", "llm"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (paramètre)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "poids-modele": {
+    "sous_titre_fr": "Model weights",
+    "sous_titre_en": "Poids d'un modèle",
+    "definition_fr": "Valeurs numériques précises que prennent les paramètres d'un modèle une fois entraîné · ils encodent tout ce que le modèle « sait ». Partager les poids d'un modèle (open weights), c'est permettre à d'autres de l'exécuter et de l'adapter. Les poids sont l'actif central d'un modèle : les détenir, c'est en avoir la maîtrise.",
+    "definition_en": "The precise numeric values a model's parameters take once trained · they encode everything the model \"knows\". Sharing a model's weights (open weights) lets others run and adapt it. Weights are a model's central asset: holding them means having control of it.",
+    "exemple_fr": "Quand Mistral publie les poids d'un modèle, n'importe qui peut le télécharger, l'exécuter sur sa propre infrastructure et l'adapter · sans dépendre d'une API. À l'inverse, un modèle dont les poids restent secrets ne s'utilise que via le fournisseur. Les poids ouverts sont la clé technique de la souveraineté sur un modèle.",
+    "exemple_en": "When Mistral publishes a model's weights, anyone can download it, run it on their own infrastructure and adapt it · without depending on an API. Conversely, a model whose weights stay secret can only be used via the provider. Open weights are the technical key to sovereignty over a model.",
+    "regard_fr": "Les poids d'un modèle sont son cœur : qui les détient peut l'exécuter, l'étudier, l'adapter, le maîtriser. La bataille entre modèles « ouverts » et « fermés » se joue précisément sur l'accès aux poids. Pour la souveraineté, un modèle dont on détient les poids et qu'on héberge soi-même change tout.",
+    "regard_en": "A model's weights are its heart: whoever holds them can run, study, adapt and control it. The battle between \"open\" and \"closed\" models plays out precisely on access to the weights. For sovereignty, a model whose weights you hold and that you host yourself changes everything.",
+    "termes_lies": ["parametres", "open-weights", "ia-souveraine", "open-source-ia"],
+    "sources": [{"titre": "Documentation sur les modèles à poids ouverts", "url": "https://huggingface.co/"}]
+  },
+  "modele-fondation": {
+    "sous_titre_fr": "Foundation model",
+    "sous_titre_en": "Modèle de fondation",
+    "definition_fr": "Grand modèle préentraîné sur d'immenses données, conçu pour être adapté à de multiples tâches en aval plutôt que pour une seule. Les modèles de fondation (GPT, Claude, Mistral, Llama) sont la brique de base de l'IA générative actuelle : on ne les recrée pas, on les réutilise et on les spécialise. Un point de concentration du pouvoir technologique.",
+    "definition_en": "A large model pre-trained on immense data, designed to be adapted to multiple downstream tasks rather than a single one. Foundation models (GPT, Claude, Mistral, Llama) are the basic brick of current generative AI: they are not recreated, they are reused and specialised. A point of concentration of technological power.",
+    "exemple_fr": "Une entreprise ne construit pas son propre modèle de fondation · l'affaire de quelques acteurs et de dizaines de millions. Elle part d'un modèle existant et l'adapte à son besoin par prompt, RAG ou fine-tuning. Le choix du modèle de fondation · propriétaire ou ouvert, américain ou européen · est une décision stratégique majeure.",
+    "exemple_en": "A company does not build its own foundation model · the business of a few players and tens of millions. It starts from an existing model and adapts it to its need through prompting, RAG or fine-tuning. The choice of foundation model · proprietary or open, American or European · is a major strategic decision.",
+    "regard_fr": "Les modèles de fondation concentrent un pouvoir considérable entre quelques mains : ils façonnent les capacités et les valeurs de toute l'IA en aval. En dépendre sans alternative, c'est déléguer une part de sa souveraineté. Le soutien à des modèles de fondation européens et ouverts est un enjeu qui dépasse la technique.",
+    "regard_en": "Foundation models concentrate considerable power in a few hands: they shape the capabilities and values of all downstream AI. Depending on them without alternative means delegating part of one's sovereignty. Supporting European and open foundation models is an issue that goes beyond technology.",
+    "termes_lies": ["gpai", "llm", "pre-entrainement", "ia-souveraine"],
+    "sources": [{"titre": "CNIL · Glossaire IA (modèle de fondation)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "modele-generatif": {
+    "sous_titre_fr": "Generative model",
+    "sous_titre_en": "Modèle génératif",
+    "definition_fr": "Modèle capable de produire de nouvelles données ressemblant à celles sur lesquelles il a été entraîné : texte, image, son, code. Par opposition aux modèles discriminatifs, qui classent ou prédisent, les modèles génératifs créent. Ils sont le moteur de l'IA générative, des modèles de langage aux modèles de diffusion d'images.",
+    "definition_en": "A model able to produce new data resembling that on which it was trained: text, image, sound, code. As opposed to discriminative models, which classify or predict, generative models create. They are the engine of generative AI, from language models to image diffusion models.",
+    "exemple_fr": "Un modèle discriminatif répond « est-ce un chat ? » ; un modèle génératif répond « dessine-moi un chat ». Le premier trie le monde existant, le second en produit du nouveau. Cette distinction fondamentale éclaire ce que chaque type d'IA sait faire · et pourquoi la génération soulève des questions inédites de droit et d'authenticité.",
+    "exemple_en": "A discriminative model answers \"is this a cat?\"; a generative model answers \"draw me a cat\". The first sorts the existing world, the second produces new of it. This fundamental distinction clarifies what each type of AI can do · and why generation raises novel questions of law and authenticity.",
+    "regard_fr": "La bascule du discriminatif vers le génératif est la rupture des années 2020 : d'une IA qui analyse le monde à une IA qui le fabrique. Cette capacité de création est fascinante · et source de tous les débats actuels sur le faux, le droit d'auteur, la désinformation. Générer n'est pas anodin : c'est un pouvoir nouveau.",
+    "regard_en": "The shift from discriminative to generative is the 2020s breakthrough: from an AI that analyses the world to one that fabricates it. This creative capacity is fascinating · and the source of all current debates on fakery, copyright, disinformation. Generating is not innocuous: it is a new power.",
+    "termes_lies": ["modele-discriminatif", "ia-generative", "modeles-diffusion", "gan"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (modèle génératif)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "modele-discriminatif": {
+    "sous_titre_fr": "Discriminative model",
+    "sous_titre_en": "Modèle discriminatif",
+    "definition_fr": "Modèle qui apprend à distinguer, classer ou prédire à partir de données, sans en générer de nouvelles : détecter un spam, prédire un risque, reconnaître un visage. Pilier de l'IA depuis des décennies, le modèle discriminatif reste souvent le plus adapté · et le plus sobre · pour les tâches d'analyse et de décision.",
+    "definition_en": "A model that learns to distinguish, classify or predict from data, without generating new: detecting spam, predicting a risk, recognising a face. A pillar of AI for decades, the discriminative model often remains the most fitting · and most frugal · for analysis and decision tasks.",
+    "exemple_fr": "Pour prédire quels clients risquent de résilier, un modèle discriminatif classique · sobre, rapide, explicable · fait parfaitement l'affaire. Y coller un grand modèle génératif serait un gaspillage. Le discriminatif, moins médiatique, reste le bon outil pour l'immense majorité des tâches de classification et de prédiction.",
+    "exemple_en": "To predict which customers risk churning, a classic discriminative model · frugal, fast, explainable · does the job perfectly. Slapping a large generative model on it would be wasteful. The discriminative, less media-hyped, remains the right tool for the vast majority of classification and prediction tasks.",
+    "regard_fr": "L'engouement pour le génératif fait oublier que la plupart des problèmes d'entreprise sont des problèmes discriminatifs · classer, prédire, détecter. Pour ceux-là, un modèle discriminatif sobre bat un LLM coûteux. Choisir le bon type de modèle avant même le bon modèle est la première décision de bon sens.",
+    "regard_en": "The enthusiasm for generative makes people forget that most business problems are discriminative · classifying, predicting, detecting. For those, a frugal discriminative model beats a costly LLM. Choosing the right type of model before even the right model is the first common-sense decision.",
+    "termes_lies": ["modele-generatif", "classification", "regression", "ia-non-generative"],
+    "sources": [{"titre": "CNIL · Glossaire IA (modèle discriminatif)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "modele-autoregressif": {
+    "sous_titre_fr": "Autoregressive model",
+    "sous_titre_en": "Modèle autorégressif",
+    "definition_fr": "Modèle qui génère une séquence élément par élément, chaque nouvel élément étant prédit à partir des précédents. Les modèles de langage sont autorégressifs : ils produisent un texte mot par mot (ou token par token), chacun conditionné par ce qui vient d'être écrit. Ce mécanisme explique leur façon si particulière de « dérouler » une réponse.",
+    "definition_en": "A model that generates a sequence element by element, each new element predicted from the previous ones. Language models are autoregressive: they produce text word by word (or token by token), each conditioned by what has just been written. This mechanism explains their peculiar way of \"unrolling\" an answer.",
+    "exemple_fr": "Quand un assistant écrit sa réponse mot après mot sous vos yeux, il ne « récite » pas un texte préparé : il prédit chaque token à partir des précédents, en temps réel. C'est le fonctionnement autorégressif. Comprendre cela éclaire pourquoi une petite erreur en début de réponse peut entraîner tout le reste dans une mauvaise direction.",
+    "exemple_en": "When an assistant writes its answer word after word before your eyes, it does not \"recite\" a prepared text: it predicts each token from the previous ones, in real time. That is autoregressive operation. Understanding this clarifies why a small error early in an answer can drag the rest in a wrong direction.",
+    "regard_fr": "Le caractère autorégressif des LLM a une conséquence pratique : le début d'une réponse conditionne toute la suite. C'est pourquoi les techniques comme la chaîne de pensée · qui structurent le début du raisonnement · améliorent tant la qualité. Comprendre le mécanisme, c'est mieux savoir comment guider le modèle.",
+    "regard_en": "The autoregressive nature of LLMs has a practical consequence: the start of an answer conditions all the rest. That is why techniques like chain-of-thought · which structure the start of the reasoning · improve quality so much. Understanding the mechanism means better knowing how to guide the model.",
+    "termes_lies": ["llm", "gpt", "token", "chaine-pensee"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (modèle autorégressif)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "melange-experts": {
+    "sous_titre_fr": "Mixture of Experts (MoE)",
+    "sous_titre_en": "Mélange d'experts",
+    "definition_fr": "Architecture où un grand modèle est composé de nombreux sous-modèles « experts », dont seuls quelques-uns sont activés pour chaque requête. Le mélange d'experts permet d'avoir un modèle très grand en capacité totale, mais économe à l'usage · puisqu'on n'active qu'une fraction des paramètres à chaque fois. Un compromis puissance-coût élégant.",
+    "definition_en": "An architecture where a large model is composed of many \"expert\" sub-models, of which only a few are activated for each request. Mixture of Experts allows a model very large in total capacity but economical in use · since only a fraction of the parameters is activated each time. An elegant power-cost trade-off.",
+    "exemple_fr": "Un modèle à mélange d'experts peut compter des centaines de milliards de paramètres au total, mais n'en activer que quelques dizaines de milliards par requête · comme un cabinet de spécialistes où l'on ne consulte que ceux dont on a besoin. On obtient la richesse d'un grand modèle pour le coût d'un plus petit.",
+    "exemple_en": "A Mixture of Experts model can have hundreds of billions of parameters in total, but activate only a few tens of billions per request · like a firm of specialists where you only consult those you need. You get the richness of a large model for the cost of a smaller one.",
+    "regard_fr": "Le mélange d'experts illustre une piste importante pour la sobriété de l'IA : au lieu de tout activer à chaque fois, n'activer que le nécessaire. C'est un des leviers qui permettent aux modèles de grandir en capacité sans exploser en coût d'inférence. L'efficience architecturale compte autant que la taille brute.",
+    "regard_en": "Mixture of Experts illustrates an important path for AI frugality: instead of activating everything each time, activate only what is needed. It is one of the levers that let models grow in capacity without exploding in inference cost. Architectural efficiency matters as much as raw size.",
+    "termes_lies": ["parametres", "inference", "ia-frugale", "modele-fondation"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (mélange d'experts)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  }
+}

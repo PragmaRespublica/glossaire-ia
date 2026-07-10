@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Modèle discriminatif",
+  "terme_en": "Discriminative model",
+  "sous_titre_fr": "Discriminative model",
+  "sous_titre_en": "Modèle discriminatif",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Modèle qui apprend à distinguer, classer ou prédire à partir de données, sans en générer de nouvelles : détecter un spam, prédire un risque, reconnaître un visage. Pilier de l'IA depuis des décennies, le modèle discriminatif reste souvent le plus adapté · et le plus sobre · pour les tâches d'analyse et de décision.",
+  "definition_en": "A model that learns to distinguish, classify or predict from data, without generating new: detecting spam, predicting a risk, recognising a face. A pillar of AI for decades, the discriminative model often remains the most fitting · and most frugal · for analysis and decision tasks.",
+  "exemple_fr": "Pour prédire quels clients risquent de résilier, un modèle discriminatif classique · sobre, rapide, explicable · fait parfaitement l'affaire. Y coller un grand modèle génératif serait un gaspillage. Le discriminatif, moins médiatique, reste le bon outil pour l'immense majorité des tâches de classification et de prédiction.",
+  "exemple_en": "To predict which customers risk churning, a classic discriminative model · frugal, fast, explainable · does the job perfectly. Slapping a large generative model on it would be wasteful. The discriminative, less media-hyped, remains the right tool for the vast majority of classification and prediction tasks.",
+  "regard_fr": "L'engouement pour le génératif fait oublier que la plupart des problèmes d'entreprise sont des problèmes discriminatifs · classer, prédire, détecter. Pour ceux-là, un modèle discriminatif sobre bat un LLM coûteux. Choisir le bon type de modèle avant même le bon modèle est la première décision de bon sens.",
+  "regard_en": "The enthusiasm for generative makes people forget that most business problems are discriminative · classifying, predicting, detecting. For those, a frugal discriminative model beats a costly LLM. Choosing the right type of model before even the right model is the first common-sense decision.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "modele-generatif",
+    "classification",
+    "regression",
+    "ia-non-generative"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (modèle discriminatif)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Paramètres d'un modèle",
+  "terme_en": "Model parameters",
+  "sous_titre_fr": "Model parameters",
+  "sous_titre_en": "Paramètres d'un modèle",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Valeurs numériques internes qu'un modèle ajuste pendant l'entraînement pour encoder ce qu'il apprend · essentiellement les poids de ses connexions. Le nombre de paramètres (des millions aux milliers de milliards) est un indicateur de la taille d'un modèle, souvent brandi comme mesure de puissance · à tort, car la taille ne fait pas tout.",
+  "definition_en": "The internal numeric values a model adjusts during training to encode what it learns · essentially the weights of its connections. The number of parameters (from millions to trillions) is an indicator of a model's size, often brandished as a measure of power · wrongly, since size is not everything.",
+  "exemple_fr": "Un modèle de 7 milliards de paramètres est souvent présenté comme « petit » face à un modèle de 1 000 milliards. Pourtant, pour résumer un email ou classer un document, le petit suffit largement · plus rapide, plus sobre, moins cher. Le nombre de paramètres impressionne, mais il ne dit rien de l'adéquation à votre besoin.",
+  "exemple_en": "A 7-billion-parameter model is often presented as \"small\" against a 1-trillion one. Yet to summarise an email or classify a document, the small one is more than enough · faster, more frugal, cheaper. The parameter count impresses, but it says nothing about the fit to your need.",
+  "regard_fr": "Le nombre de paramètres est le « chiffre du capot » de l'IA · celui qu'on exhibe pour impressionner, comme la cylindrée d'une voiture. Mais le plus gros modèle n'est presque jamais le bon pour un usage donné. La première décision de sobriété est de résister à la fascination pour la taille et de choisir le modèle adapté.",
+  "regard_en": "The parameter count is AI's \"headline number\" · the one exhibited to impress, like a car's engine size. But the biggest model is almost never the right one for a given use. The first sobriety decision is to resist the fascination with size and choose the fitting model.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "poids-modele",
+    "slm",
+    "ia-frugale",
+    "llm"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (paramètre)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

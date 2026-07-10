@@ -1,0 +1,122 @@
+{
+  "ia-emploi": {
+    "sous_titre_fr": "AI and employment",
+    "sous_titre_en": "IA et emploi",
+    "definition_fr": "Ensemble des effets de l'IA sur le travail : automatisation de tâches, transformation des métiers, création de nouveaux rôles, déplacement de compétences. Loin du scénario simpliste du « remplacement massif », la réalité est une recomposition profonde · certaines tâches disparaissent, d'autres émergent, la plupart des métiers évoluent.",
+    "definition_en": "The set of AI's effects on work: task automation, job transformation, creation of new roles, skills displacement. Far from the simplistic \"mass replacement\" scenario, the reality is a deep recomposition · some tasks disappear, others emerge, most jobs evolve.",
+    "exemple_fr": "Dans un cabinet comptable, l'IA automatise la saisie et le rapprochement · des tâches, pas des métiers. Le comptable passe plus de temps sur le conseil et l'analyse, moins sur la saisie. Le métier ne disparaît pas, il se déplace vers plus de valeur. Anticiper ce glissement par la formation est la clé d'une transition réussie.",
+    "exemple_en": "In an accounting firm, AI automates entry and reconciliation · tasks, not jobs. The accountant spends more time on advice and analysis, less on data entry. The job does not disappear, it shifts towards more value. Anticipating this shift through training is the key to a successful transition.",
+    "regard_fr": "Le débat « l'IA va-t-elle détruire l'emploi ? » est mal posé. La vraie question est : accompagne-t-on la transformation des métiers, ou la subit-on ? Les tâches automatisables le seront ; l'enjeu est de préparer les personnes à se recentrer sur ce que l'IA ne fait pas. La formation est la meilleure politique de l'emploi face à l'IA.",
+    "regard_en": "The debate \"will AI destroy jobs?\" is badly framed. The real question is: do we accompany the transformation of jobs, or endure it? Automatable tasks will be automated; the challenge is preparing people to refocus on what AI does not do. Training is the best employment policy in the face of AI.",
+    "termes_lies": ["deskilling", "conduite-changement", "metiers-ia", "acculturation-ia"],
+    "sources": [{"titre": "OCDE · IA et marché du travail"}, {"titre": "France Stratégie · intelligence artificielle et travail", "url": "https://www.strategie.gouv.fr/"}]
+  },
+  "intelligence-artificielle": {
+    "sous_titre_fr": "Artificial intelligence (AI)",
+    "sous_titre_en": "Intelligence artificielle",
+    "definition_fr": "Ensemble des techniques permettant à des machines de réaliser des tâches associées à l'intelligence humaine : percevoir, raisonner, apprendre, décider, créer. Le terme, forgé en 1956, recouvre des approches très diverses · des systèmes à règles aux réseaux de neurones · et non une entité unique. « L'IA » est un champ, pas une chose.",
+    "definition_en": "The set of techniques enabling machines to perform tasks associated with human intelligence: perceiving, reasoning, learning, deciding, creating. The term, coined in 1956, covers very diverse approaches · from rule-based systems to neural networks · and not a single entity. \"AI\" is a field, not a thing.",
+    "exemple_fr": "Quand on dit « l'IA », on désigne aussi bien le correcteur orthographique, le filtre anti-spam, la reconnaissance vocale, ChatGPT ou une voiture autonome · des technologies radicalement différentes. Parler de « l'IA » au singulier entretient une confusion : il faudrait presque toujours préciser de quelle IA on parle.",
+    "exemple_en": "When we say \"AI\", we mean the spell checker, the spam filter, speech recognition, ChatGPT or a self-driving car alike · radically different technologies. Speaking of \"AI\" in the singular maintains a confusion: one should almost always specify which AI is meant.",
+    "regard_fr": "Le plus grand malentendu sur l'IA tient dans son article défini : « l'IA » n'existe pas, il y a des IA, très diverses. Ce flou sert les vendeurs de rêve comme les marchands de peur. Reprendre le pouvoir sur l'IA commence par refuser le singulier magique et demander : de quelle technique parle-t-on, pour quel usage ?",
+    "regard_en": "The greatest misunderstanding about AI lies in its definite article: \"AI\" does not exist, there are AIs, very diverse. This vagueness serves both dream-sellers and fear-mongers. Taking back control over AI starts with refusing the magic singular and asking: which technique are we talking about, for what use?",
+    "termes_lies": ["ia-generative", "ia-non-generative", "apprentissage-automatique", "test-turing"],
+    "sources": [{"titre": "FranceTerme · intelligence artificielle", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "apprentissage-automatique": {
+    "sous_titre_fr": "Machine learning (ML)",
+    "sous_titre_en": "Apprentissage automatique",
+    "definition_fr": "Branche de l'IA où les systèmes apprennent à partir de données plutôt que d'être programmés explicitement règle par règle. Au lieu de coder « si... alors... », on montre des exemples et le système dégage lui-même les régularités. C'est le paradigme dominant de l'IA moderne, dont l'apprentissage profond est la forme la plus visible.",
+    "definition_en": "A branch of AI where systems learn from data rather than being explicitly programmed rule by rule. Instead of coding \"if... then...\", one shows examples and the system extracts the regularities itself. It is the dominant paradigm of modern AI, of which deep learning is the most visible form.",
+    "exemple_fr": "Pour détecter les spams, la vieille méthode listait des règles (« contient loterie »). Vite contournée. L'apprentissage automatique, lui, apprend des milliers d'exemples de spams et non-spams ce qui les distingue, et s'adapte aux nouvelles ruses. Le passage des règles écrites à l'apprentissage par l'exemple a tout changé.",
+    "exemple_en": "To detect spam, the old method listed rules (\"contains lottery\"). Quickly bypassed. Machine learning learns from thousands of spam and non-spam examples what distinguishes them, and adapts to new tricks. The shift from written rules to learning by example changed everything.",
+    "regard_fr": "L'apprentissage automatique est la bascule fondatrice de l'IA moderne : on ne dit plus à la machine quoi faire, on lui montre des exemples. Cette puissance a un revers · le système apprend aussi les biais de ses données, sans qu'on l'ait voulu. Comprendre ce mécanisme, c'est comprendre d'où viennent capacités et travers de l'IA.",
+    "regard_en": "Machine learning is the founding shift of modern AI: we no longer tell the machine what to do, we show it examples. This power has a downside · the system also learns its data's biases, unintentionally. Understanding this mechanism means understanding where AI's capabilities and flaws come from.",
+    "termes_lies": ["apprentissage-profond", "apprentissage-supervise", "ia-non-generative", "intelligence-artificielle"],
+    "sources": [{"titre": "FranceTerme · apprentissage automatique", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "apprentissage-profond": {
+    "sous_titre_fr": "Deep learning (DL)",
+    "sous_titre_en": "Apprentissage profond",
+    "definition_fr": "Sous-domaine de l'apprentissage automatique fondé sur des réseaux de neurones à nombreuses couches (d'où « profond »). Capable d'apprendre des représentations de plus en plus abstraites, il a permis les percées récentes en vision, langage et génération. C'est la technologie derrière la plupart des IA impressionnantes d'aujourd'hui.",
+    "definition_en": "A subfield of machine learning based on neural networks with many layers (hence \"deep\"). Able to learn increasingly abstract representations, it enabled the recent breakthroughs in vision, language and generation. It is the technology behind most of today's impressive AIs.",
+    "exemple_fr": "Reconnaître un chat sur une photo semble trivial pour un humain, impossible à coder en règles. L'apprentissage profond y parvient : ses premières couches détectent des contours, les suivantes des formes, les dernières des concepts comme « oreille » ou « chat ». Cette hiérarchie de représentations apprises est sa force.",
+    "exemple_en": "Recognising a cat in a photo seems trivial for a human, impossible to code in rules. Deep learning achieves it: its first layers detect edges, the next shapes, the last concepts like \"ear\" or \"cat\". This hierarchy of learned representations is its strength.",
+    "regard_fr": "L'apprentissage profond a rendu l'IA spectaculaire · et opaque. Sa puissance vient de couches qui apprennent seules leurs représentations, mais personne ne les a explicitement conçues, d'où la difficulté à expliquer ses décisions. Profondeur et opacité vont de pair · c'est le prix de sa performance, et l'enjeu de l'interprétabilité.",
+    "regard_en": "Deep learning made AI spectacular · and opaque. Its power comes from layers that learn their representations on their own, but no one explicitly designed them, hence the difficulty explaining its decisions. Depth and opacity go together · it is the price of its performance, and the stakes of interpretability.",
+    "termes_lies": ["apprentissage-automatique", "reseau-neurones", "transformer", "interpretabilite"],
+    "sources": [{"titre": "FranceTerme · apprentissage profond", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "reseau-neurones": {
+    "sous_titre_fr": "Artificial neural network (ANN)",
+    "sous_titre_en": "Réseau de neurones artificiels",
+    "definition_fr": "Modèle de calcul inspiré du cerveau, composé de « neurones » interconnectés organisés en couches, qui transforment progressivement une entrée en sortie. Chaque connexion porte un poids ajusté à l'entraînement. Malgré l'analogie biologique, un réseau de neurones artificiel est une structure mathématique · pas une reproduction du cerveau.",
+    "definition_en": "A computation model inspired by the brain, made of interconnected \"neurons\" organised in layers, that progressively transform an input into an output. Each connection carries a weight adjusted in training. Despite the biological analogy, an artificial neural network is a mathematical structure · not a reproduction of the brain.",
+    "exemple_fr": "Un réseau de neurones qui reconnaît des chiffres manuscrits reçoit les pixels en entrée, les fait passer à travers ses couches, et produit en sortie une probabilité pour chaque chiffre. Ce qu'il a « appris » réside dans les poids de ses connexions · des millions de nombres ajustés, sans règle explicite écrite par un humain.",
+    "exemple_en": "A neural network recognising handwritten digits receives the pixels as input, passes them through its layers, and outputs a probability for each digit. What it has \"learned\" resides in the weights of its connections · millions of numbers adjusted, with no explicit rule written by a human.",
+    "regard_fr": "L'analogie avec le cerveau est séduisante et trompeuse : un réseau de neurones artificiel n'est pas un cerveau miniature, mais une fonction mathématique. Entretenir cette confusion nourrit le fantasme d'une IA « qui pense ». Démystifier le vocabulaire · « neurone », « apprendre » · est un acte de lucidité.",
+    "regard_en": "The brain analogy is seductive and misleading: an artificial neural network is not a miniature brain, but a mathematical function. Maintaining this confusion feeds the fantasy of an AI \"that thinks\". Demystifying the vocabulary · \"neuron\", \"learn\" · is an act of lucidity.",
+    "termes_lies": ["neurone-artificiel", "apprentissage-profond", "couche-neurones", "retropropagation"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (réseau de neurones artificiels)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "neurone-artificiel": {
+    "sous_titre_fr": "Artificial neuron",
+    "sous_titre_en": "Neurone artificiel",
+    "definition_fr": "Unité de calcul élémentaire d'un réseau de neurones : elle reçoit des entrées, les combine selon des poids, applique une fonction d'activation, et produit une sortie. Assemblés par milliards, ces neurones simples donnent naissance aux capacités complexes des grands modèles. La complexité émerge du nombre, pas de la sophistication de chaque unité.",
+    "definition_en": "The elementary computation unit of a neural network: it receives inputs, combines them according to weights, applies an activation function, and produces an output. Assembled by the billions, these simple neurons give rise to the complex capabilities of large models. Complexity emerges from number, not from the sophistication of each unit.",
+    "exemple_fr": "Un neurone artificiel, pris seul, ne fait presque rien : une somme pondérée suivie d'un seuil. Mais des milliards de ces opérations élémentaires, agencées en couches, produisent la reconnaissance d'images ou la génération de texte. C'est l'un des grands enseignements de l'IA : la complexité naît de la répétition du simple.",
+    "exemple_en": "An artificial neuron, taken alone, does almost nothing: a weighted sum followed by a threshold. But billions of these elementary operations, arranged in layers, produce image recognition or text generation. It is one of AI's great lessons: complexity is born from the repetition of the simple.",
+    "regard_fr": "Le neurone artificiel illustre une idée profonde : l'intelligence apparente peut émerger d'unités élémentaires dénuées de compréhension. Chaque neurone « ignore » ce que fait le réseau. Cela invite à la modestie sur ce que « comprend » une IA · et à distinguer performance et compréhension, qui ne coïncident pas.",
+    "regard_en": "The artificial neuron illustrates a deep idea: apparent intelligence can emerge from elementary units devoid of understanding. Each neuron \"ignores\" what the network does. This invites modesty about what an AI \"understands\" · and to distinguish performance from comprehension, which do not coincide.",
+    "termes_lies": ["reseau-neurones", "fonction-activation", "couche-neurones", "perceptron"],
+    "sources": [{"titre": "FranceTerme · neurone artificiel", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "couche-neurones": {
+    "sous_titre_fr": "Neural network layer",
+    "sous_titre_en": "Couche de neurones",
+    "definition_fr": "Ensemble de neurones traitant l'information au même niveau dans un réseau. L'information circule de couche en couche, de l'entrée à la sortie, chacune transformant les représentations de la précédente. Le nombre de couches définit la « profondeur » du réseau · d'où le terme apprentissage profond pour les réseaux à nombreuses couches.",
+    "definition_en": "A set of neurons processing information at the same level in a network. Information flows from layer to layer, from input to output, each transforming the previous one's representations. The number of layers defines the network's \"depth\" · hence the term deep learning for networks with many layers.",
+    "exemple_fr": "Dans un réseau de reconnaissance d'images, les premières couches détectent des contours simples, les couches intermédiaires des motifs, les dernières des objets entiers. Chaque couche s'appuie sur la précédente pour construire une abstraction plus élevée. Cette organisation en niveaux est le secret de la puissance des réseaux profonds.",
+    "exemple_en": "In an image recognition network, the first layers detect simple edges, the intermediate layers patterns, the last whole objects. Each layer builds on the previous to construct a higher abstraction. This organisation in levels is the secret of deep networks' power.",
+    "regard_fr": "La notion de couche donne une image concrète de ce qu'« apprend » un réseau profond : une hiérarchie d'abstractions, du plus simple au plus complexe. Comprendre cette architecture aide à saisir pourquoi ces modèles sont si puissants · et pourquoi leurs couches profondes restent difficiles à interpréter.",
+    "regard_en": "The notion of layer gives a concrete picture of what a deep network \"learns\": a hierarchy of abstractions, from simplest to most complex. Understanding this architecture helps grasp why these models are so powerful · and why their deep layers remain hard to interpret.",
+    "termes_lies": ["reseau-neurones", "neurone-artificiel", "apprentissage-profond", "espace-latent"],
+    "sources": [{"titre": "CNIL · Glossaire IA (couche de neurones)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "fonction-activation": {
+    "sous_titre_fr": "Activation function",
+    "sous_titre_en": "Fonction d'activation",
+    "definition_fr": "Fonction mathématique appliquée à la sortie d'un neurone pour introduire de la non-linéarité dans un réseau. Sans elle, un réseau, même profond, ne saurait modéliser que des relations simples. La fonction d'activation est ce qui permet aux réseaux d'apprendre des relations complexes · un rouage discret mais absolument essentiel.",
+    "definition_en": "A mathematical function applied to a neuron's output to introduce non-linearity into a network. Without it, a network, even deep, could only model simple relations. The activation function is what allows networks to learn complex relations · a discreet but absolutely essential cog.",
+    "exemple_fr": "Sans fonction d'activation, empiler mille couches ne servirait à rien : le tout resterait équivalent à une simple relation linéaire. C'est la non-linéarité introduite par l'activation qui permet au réseau de capturer des relations complexes · comme la frontière tortueuse entre un chat et un chien sur une image.",
+    "exemple_en": "Without an activation function, stacking a thousand layers would be useless: the whole would remain equivalent to a simple linear relation. It is the non-linearity introduced by activation that lets the network capture complex relations · like the tortuous boundary between a cat and a dog in an image.",
+    "regard_fr": "La fonction d'activation est un exemple de ces détails techniques invisibles dont tout dépend : sans ce petit ajout, l'apprentissage profond n'existerait pas. Elle rappelle que la puissance de l'IA repose sur un empilement d'astuces mathématiques précises · pas sur une magie insaisissable.",
+    "regard_en": "The activation function is an example of those invisible technical details on which everything depends: without this small addition, deep learning would not exist. It recalls that AI's power rests on a stack of precise mathematical tricks · not on an elusive magic.",
+    "termes_lies": ["neurone-artificiel", "reseau-neurones", "couche-neurones", "descente-gradient"],
+    "sources": [{"titre": "CNIL · Glossaire IA (fonction d'activation)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "perceptron": {
+    "sous_titre_fr": "Perceptron",
+    "sous_titre_en": "Perceptron",
+    "definition_fr": "Le plus ancien et le plus simple des neurones artificiels, inventé en 1957. Le perceptron classe des données en deux catégories par une frontière linéaire. Ses limites, démontrées dans les années 1960, ont freiné la recherche · avant que l'empilement de perceptrons en couches (perceptron multicouche) ne relance l'apprentissage profond.",
+    "definition_en": "The oldest and simplest artificial neuron, invented in 1957. The perceptron classifies data into two categories via a linear boundary. Its limits, demonstrated in the 1960s, held back research · before the stacking of perceptrons in layers (multilayer perceptron) relaunched deep learning.",
+    "exemple_fr": "Un perceptron sait séparer deux groupes de points par une droite · mais échoue dès que la frontière est courbe. Cette limite, révélée en 1969, a plongé la recherche en IA dans un « hiver ». Il aura fallu empiler les perceptrons et inventer la rétropropagation pour dépasser cet obstacle · des décennies plus tard.",
+    "exemple_en": "A perceptron can separate two groups of points by a line · but fails as soon as the boundary is curved. This limit, revealed in 1969, plunged AI research into a \"winter\". It took stacking perceptrons and inventing backpropagation to overcome this obstacle · decades later.",
+    "regard_fr": "L'histoire du perceptron est une leçon d'humilité et de patience : une limite jugée rédhibitoire a gelé la recherche pendant des années, avant d'être dépassée. Les « impossibilités » de l'IA d'aujourd'hui pourraient connaître le même sort. En science, l'échec d'une génération est souvent le tremplin de la suivante.",
+    "regard_en": "The perceptron's history is a lesson in humility and patience: a limit deemed fatal froze research for years, before being overcome. The \"impossibilities\" of today's AI could meet the same fate. In science, one generation's failure is often the next's springboard.",
+    "termes_lies": ["neurone-artificiel", "hiver-ia", "reseau-neurones", "retropropagation"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (perceptron)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "algorithme": {
+    "sous_titre_fr": "Algorithm",
+    "sous_titre_en": "Algorithme",
+    "definition_fr": "Suite finie et non ambiguë d'instructions permettant de résoudre un problème ou d'accomplir une tâche. Notion fondamentale de l'informatique, bien antérieure à l'IA, l'algorithme en est la brique de base. Dans le débat public, « algorithme » désigne souvent, par raccourci, les systèmes de décision automatisés · d'où bien des malentendus.",
+    "definition_en": "A finite, unambiguous sequence of instructions for solving a problem or accomplishing a task. A fundamental notion of computer science, far predating AI, the algorithm is its basic brick. In public debate, \"algorithm\" often refers, as shorthand, to automated decision systems · hence many misunderstandings.",
+    "exemple_fr": "Une recette de cuisine est un algorithme : des étapes précises menant à un résultat. Le tri d'une liste, le calcul d'un itinéraire, la recommandation d'une vidéo reposent tous sur des algorithmes. Quand un média dénonce « l'algorithme » d'une plateforme, il désigne en réalité un système complexe de décision · pas une simple recette.",
+    "exemple_en": "A cooking recipe is an algorithm: precise steps leading to a result. Sorting a list, computing a route, recommending a video all rest on algorithms. When a media outlet denounces a platform's \"algorithm\", it actually refers to a complex decision system · not a simple recipe.",
+    "regard_fr": "Le mot « algorithme » est devenu un épouvantail commode masquant des réalités très diverses. Reprendre le pouvoir sur la technologie passe par la précision du vocabulaire : un algorithme n'est ni bon ni mauvais en soi, tout dépend de ce qu'il fait et des données qu'on lui donne. Nommer précisément, c'est déjà comprendre.",
+    "regard_en": "The word \"algorithm\" has become a convenient bogeyman masking very diverse realities. Taking back control over technology requires precision of vocabulary: an algorithm is neither good nor bad in itself, everything depends on what it does and the data given to it. Naming precisely is already understanding.",
+    "termes_lies": ["intelligence-artificielle", "transparence-algorithmes", "biais-algorithmique", "apprentissage-automatique"],
+    "sources": [{"titre": "CNIL · Glossaire IA (algorithme)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  }
+}

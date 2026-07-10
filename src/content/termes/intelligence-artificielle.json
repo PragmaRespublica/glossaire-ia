@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Intelligence artificielle",
+  "terme_en": "Artificial intelligence",
+  "sous_titre_fr": "Artificial intelligence (AI)",
+  "sous_titre_en": "Intelligence artificielle",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des techniques permettant à des machines de réaliser des tâches associées à l'intelligence humaine : percevoir, raisonner, apprendre, décider, créer. Le terme, forgé en 1956, recouvre des approches très diverses · des systèmes à règles aux réseaux de neurones · et non une entité unique. « L'IA » est un champ, pas une chose.",
+  "definition_en": "The set of techniques enabling machines to perform tasks associated with human intelligence: perceiving, reasoning, learning, deciding, creating. The term, coined in 1956, covers very diverse approaches · from rule-based systems to neural networks · and not a single entity. \"AI\" is a field, not a thing.",
+  "exemple_fr": "Quand on dit « l'IA », on désigne aussi bien le correcteur orthographique, le filtre anti-spam, la reconnaissance vocale, ChatGPT ou une voiture autonome · des technologies radicalement différentes. Parler de « l'IA » au singulier entretient une confusion : il faudrait presque toujours préciser de quelle IA on parle.",
+  "exemple_en": "When we say \"AI\", we mean the spell checker, the spam filter, speech recognition, ChatGPT or a self-driving car alike · radically different technologies. Speaking of \"AI\" in the singular maintains a confusion: one should almost always specify which AI is meant.",
+  "regard_fr": "Le plus grand malentendu sur l'IA tient dans son article défini : « l'IA » n'existe pas, il y a des IA, très diverses. Ce flou sert les vendeurs de rêve comme les marchands de peur. Reprendre le pouvoir sur l'IA commence par refuser le singulier magique et demander : de quelle technique parle-t-on, pour quel usage ?",
+  "regard_en": "The greatest misunderstanding about AI lies in its definite article: \"AI\" does not exist, there are AIs, very diverse. This vagueness serves both dream-sellers and fear-mongers. Taking back control over AI starts with refusing the magic singular and asking: which technique are we talking about, for what use?",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-generative",
+    "ia-non-generative",
+    "apprentissage-automatique",
+    "test-turing"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · intelligence artificielle",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

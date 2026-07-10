@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Fonction d'activation",
+  "terme_en": "Activation function",
+  "sous_titre_fr": "Activation function",
+  "sous_titre_en": "Fonction d'activation",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Fonction mathématique appliquée à la sortie d'un neurone pour introduire de la non-linéarité dans un réseau. Sans elle, un réseau, même profond, ne saurait modéliser que des relations simples. La fonction d'activation est ce qui permet aux réseaux d'apprendre des relations complexes · un rouage discret mais absolument essentiel.",
+  "definition_en": "A mathematical function applied to a neuron's output to introduce non-linearity into a network. Without it, a network, even deep, could only model simple relations. The activation function is what allows networks to learn complex relations · a discreet but absolutely essential cog.",
+  "exemple_fr": "Sans fonction d'activation, empiler mille couches ne servirait à rien : le tout resterait équivalent à une simple relation linéaire. C'est la non-linéarité introduite par l'activation qui permet au réseau de capturer des relations complexes · comme la frontière tortueuse entre un chat et un chien sur une image.",
+  "exemple_en": "Without an activation function, stacking a thousand layers would be useless: the whole would remain equivalent to a simple linear relation. It is the non-linearity introduced by activation that lets the network capture complex relations · like the tortuous boundary between a cat and a dog in an image.",
+  "regard_fr": "La fonction d'activation est un exemple de ces détails techniques invisibles dont tout dépend : sans ce petit ajout, l'apprentissage profond n'existerait pas. Elle rappelle que la puissance de l'IA repose sur un empilement d'astuces mathématiques précises · pas sur une magie insaisissable.",
+  "regard_en": "The activation function is an example of those invisible technical details on which everything depends: without this small addition, deep learning would not exist. It recalls that AI's power rests on a stack of precise mathematical tricks · not on an elusive magic.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "neurone-artificiel",
+    "reseau-neurones",
+    "couche-neurones",
+    "descente-gradient"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (fonction d'activation)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

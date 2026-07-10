@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Mécanisme d'attention",
+  "terme_en": "Attention mechanism",
+  "sous_titre_fr": "Attention mechanism",
+  "sous_titre_en": "Mécanisme d'attention",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Innovation clé de l'architecture transformer permettant à un modèle de pondérer dynamiquement l'importance des différents éléments d'une séquence pour interpréter chacun. L'attention permet de relier des mots distants d'une phrase et de gérer le contexte · c'est elle qui a rendu possible le bond de performance des modèles de langage.",
+  "definition_en": "A key innovation of the transformer architecture allowing a model to dynamically weigh the importance of the different elements of a sequence to interpret each. Attention links distant words in a sentence and handles context · it is what made the performance leap of language models possible.",
+  "exemple_fr": "Dans « la banque était fermée, il n'a pas pu retirer d'argent », le mécanisme d'attention relie « banque » à « argent » et « retirer », levant l'ambiguïté avec le sens « rive ». Cette capacité à peser dynamiquement le contexte est ce qui distingue les transformers des modèles antérieurs, incapables de gérer les dépendances lointaines.",
+  "exemple_en": "In \"the bank was closed, he couldn't withdraw money\", the attention mechanism links \"bank\" to \"money\" and \"withdraw\", resolving the ambiguity with the \"riverbank\" sense. This ability to dynamically weigh context is what distinguishes transformers from earlier models, unable to handle distant dependencies.",
+  "regard_fr": "Le mécanisme d'attention, décrit dans un article de 2017 au titre programmatique (« Attention is All You Need »), est la véritable étincelle de la révolution actuelle. Une idée d'ingénierie, publiée et partagée, a déclenché tout le reste. Cela rappelle que les grandes ruptures naissent souvent d'une intuition précise, pas d'un secret.",
+  "regard_en": "The attention mechanism, described in a 2017 paper with a programmatic title (\"Attention is All You Need\"), is the true spark of the current revolution. An engineering idea, published and shared, triggered all the rest. It recalls that great breakthroughs often arise from a precise intuition, not a secret.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "transformer",
+    "auto-attention",
+    "gpt",
+    "fenetre-contextuelle"
+  ],
+  "sources": [
+    {
+      "titre": "Vaswani et al. · Attention is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

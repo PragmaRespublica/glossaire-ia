@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Apprentissage profond",
+  "terme_en": "Deep learning",
+  "sous_titre_fr": "Deep learning (DL)",
+  "sous_titre_en": "Apprentissage profond",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Sous-domaine de l'apprentissage automatique fondé sur des réseaux de neurones à nombreuses couches (d'où « profond »). Capable d'apprendre des représentations de plus en plus abstraites, il a permis les percées récentes en vision, langage et génération. C'est la technologie derrière la plupart des IA impressionnantes d'aujourd'hui.",
+  "definition_en": "A subfield of machine learning based on neural networks with many layers (hence \"deep\"). Able to learn increasingly abstract representations, it enabled the recent breakthroughs in vision, language and generation. It is the technology behind most of today's impressive AIs.",
+  "exemple_fr": "Reconnaître un chat sur une photo semble trivial pour un humain, impossible à coder en règles. L'apprentissage profond y parvient : ses premières couches détectent des contours, les suivantes des formes, les dernières des concepts comme « oreille » ou « chat ». Cette hiérarchie de représentations apprises est sa force.",
+  "exemple_en": "Recognising a cat in a photo seems trivial for a human, impossible to code in rules. Deep learning achieves it: its first layers detect edges, the next shapes, the last concepts like \"ear\" or \"cat\". This hierarchy of learned representations is its strength.",
+  "regard_fr": "L'apprentissage profond a rendu l'IA spectaculaire · et opaque. Sa puissance vient de couches qui apprennent seules leurs représentations, mais personne ne les a explicitement conçues, d'où la difficulté à expliquer ses décisions. Profondeur et opacité vont de pair · c'est le prix de sa performance, et l'enjeu de l'interprétabilité.",
+  "regard_en": "Deep learning made AI spectacular · and opaque. Its power comes from layers that learn their representations on their own, but no one explicitly designed them, hence the difficulty explaining its decisions. Depth and opacity go together · it is the price of its performance, and the stakes of interpretability.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-automatique",
+    "reseau-neurones",
+    "transformer",
+    "interpretabilite"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · apprentissage profond",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

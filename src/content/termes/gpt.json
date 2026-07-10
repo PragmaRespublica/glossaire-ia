@@ -1,0 +1,38 @@
+{
+  "terme_fr": "GPT · transformeur génératif préentraîné",
+  "terme_en": "GPT (Generative Pre-trained Transformer)",
+  "sous_titre_fr": "Generative Pre-trained Transformer",
+  "sous_titre_en": "Generative Pre-trained Transformer",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Famille d'architectures de modèles de langage combinant trois idées : générative (produit du texte), préentraînée (apprend d'abord sur d'immenses corpus), et transformer (fondée sur le mécanisme d'attention). Le sigle GPT, popularisé par OpenAI, désigne aujourd'hui par extension toute une génération de grands modèles de langage.",
+  "definition_en": "A family of language model architectures combining three ideas: generative (produces text), pre-trained (learns first on immense corpora), and transformer (based on the attention mechanism). The acronym GPT, popularised by OpenAI, today refers by extension to a whole generation of large language models.",
+  "exemple_fr": "Le nom GPT décrit exactement son fonctionnement : il génère du texte, a été préentraîné sur d'énormes quantités de données, et repose sur l'architecture transformer. Décomposer le sigle, c'est déjà comprendre l'essentiel de la technologie · trois innovations combinées, pas une boîte magique.",
+  "exemple_en": "The name GPT describes exactly how it works: it generates text, was pre-trained on huge amounts of data, and rests on the transformer architecture. Decomposing the acronym is already understanding the essentials of the technology · three combined innovations, not a magic box.",
+  "regard_fr": "Derrière l'acronyme mystérieux GPT se cachent trois idées d'ingénierie précises et compréhensibles. Prendre le temps de les nommer démystifie l'outil : ce n'est pas une intelligence surgie de nulle part, mais l'assemblage réfléchi de techniques identifiables. Comprendre le sigle, c'est déjà reprendre un peu de pouvoir.",
+  "regard_en": "Behind the mysterious acronym GPT lie three precise, understandable engineering ideas. Taking the time to name them demystifies the tool: it is not an intelligence sprung from nowhere, but the thoughtful assembly of identifiable techniques. Understanding the acronym is already taking back some control.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "transformer",
+    "pre-entrainement",
+    "ia-generative",
+    "llm"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (transformeur génératif préentraîné)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

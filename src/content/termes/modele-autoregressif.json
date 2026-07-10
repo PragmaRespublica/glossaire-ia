@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Modèle autorégressif",
+  "terme_en": "Autoregressive model",
+  "sous_titre_fr": "Autoregressive model",
+  "sous_titre_en": "Modèle autorégressif",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Modèle qui génère une séquence élément par élément, chaque nouvel élément étant prédit à partir des précédents. Les modèles de langage sont autorégressifs : ils produisent un texte mot par mot (ou token par token), chacun conditionné par ce qui vient d'être écrit. Ce mécanisme explique leur façon si particulière de « dérouler » une réponse.",
+  "definition_en": "A model that generates a sequence element by element, each new element predicted from the previous ones. Language models are autoregressive: they produce text word by word (or token by token), each conditioned by what has just been written. This mechanism explains their peculiar way of \"unrolling\" an answer.",
+  "exemple_fr": "Quand un assistant écrit sa réponse mot après mot sous vos yeux, il ne « récite » pas un texte préparé : il prédit chaque token à partir des précédents, en temps réel. C'est le fonctionnement autorégressif. Comprendre cela éclaire pourquoi une petite erreur en début de réponse peut entraîner tout le reste dans une mauvaise direction.",
+  "exemple_en": "When an assistant writes its answer word after word before your eyes, it does not \"recite\" a prepared text: it predicts each token from the previous ones, in real time. That is autoregressive operation. Understanding this clarifies why a small error early in an answer can drag the rest in a wrong direction.",
+  "regard_fr": "Le caractère autorégressif des LLM a une conséquence pratique : le début d'une réponse conditionne toute la suite. C'est pourquoi les techniques comme la chaîne de pensée · qui structurent le début du raisonnement · améliorent tant la qualité. Comprendre le mécanisme, c'est mieux savoir comment guider le modèle.",
+  "regard_en": "The autoregressive nature of LLMs has a practical consequence: the start of an answer conditions all the rest. That is why techniques like chain-of-thought · which structure the start of the reasoning · improve quality so much. Understanding the mechanism means better knowing how to guide the model.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "llm",
+    "gpt",
+    "token",
+    "chaine-pensee"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (modèle autorégressif)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

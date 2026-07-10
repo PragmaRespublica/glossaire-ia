@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Couche de neurones",
+  "terme_en": "Neural network layer",
+  "sous_titre_fr": "Neural network layer",
+  "sous_titre_en": "Couche de neurones",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Ensemble de neurones traitant l'information au même niveau dans un réseau. L'information circule de couche en couche, de l'entrée à la sortie, chacune transformant les représentations de la précédente. Le nombre de couches définit la « profondeur » du réseau · d'où le terme apprentissage profond pour les réseaux à nombreuses couches.",
+  "definition_en": "A set of neurons processing information at the same level in a network. Information flows from layer to layer, from input to output, each transforming the previous one's representations. The number of layers defines the network's \"depth\" · hence the term deep learning for networks with many layers.",
+  "exemple_fr": "Dans un réseau de reconnaissance d'images, les premières couches détectent des contours simples, les couches intermédiaires des motifs, les dernières des objets entiers. Chaque couche s'appuie sur la précédente pour construire une abstraction plus élevée. Cette organisation en niveaux est le secret de la puissance des réseaux profonds.",
+  "exemple_en": "In an image recognition network, the first layers detect simple edges, the intermediate layers patterns, the last whole objects. Each layer builds on the previous to construct a higher abstraction. This organisation in levels is the secret of deep networks' power.",
+  "regard_fr": "La notion de couche donne une image concrète de ce qu'« apprend » un réseau profond : une hiérarchie d'abstractions, du plus simple au plus complexe. Comprendre cette architecture aide à saisir pourquoi ces modèles sont si puissants · et pourquoi leurs couches profondes restent difficiles à interpréter.",
+  "regard_en": "The notion of layer gives a concrete picture of what a deep network \"learns\": a hierarchy of abstractions, from simplest to most complex. Understanding this architecture helps grasp why these models are so powerful · and why their deep layers remain hard to interpret.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "reseau-neurones",
+    "neurone-artificiel",
+    "apprentissage-profond",
+    "espace-latent"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (couche de neurones)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

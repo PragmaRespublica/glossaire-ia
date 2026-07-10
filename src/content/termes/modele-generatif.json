@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Modèle génératif",
+  "terme_en": "Generative model",
+  "sous_titre_fr": "Generative model",
+  "sous_titre_en": "Modèle génératif",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Modèle capable de produire de nouvelles données ressemblant à celles sur lesquelles il a été entraîné : texte, image, son, code. Par opposition aux modèles discriminatifs, qui classent ou prédisent, les modèles génératifs créent. Ils sont le moteur de l'IA générative, des modèles de langage aux modèles de diffusion d'images.",
+  "definition_en": "A model able to produce new data resembling that on which it was trained: text, image, sound, code. As opposed to discriminative models, which classify or predict, generative models create. They are the engine of generative AI, from language models to image diffusion models.",
+  "exemple_fr": "Un modèle discriminatif répond « est-ce un chat ? » ; un modèle génératif répond « dessine-moi un chat ». Le premier trie le monde existant, le second en produit du nouveau. Cette distinction fondamentale éclaire ce que chaque type d'IA sait faire · et pourquoi la génération soulève des questions inédites de droit et d'authenticité.",
+  "exemple_en": "A discriminative model answers \"is this a cat?\"; a generative model answers \"draw me a cat\". The first sorts the existing world, the second produces new of it. This fundamental distinction clarifies what each type of AI can do · and why generation raises novel questions of law and authenticity.",
+  "regard_fr": "La bascule du discriminatif vers le génératif est la rupture des années 2020 : d'une IA qui analyse le monde à une IA qui le fabrique. Cette capacité de création est fascinante · et source de tous les débats actuels sur le faux, le droit d'auteur, la désinformation. Générer n'est pas anodin : c'est un pouvoir nouveau.",
+  "regard_en": "The shift from discriminative to generative is the 2020s breakthrough: from an AI that analyses the world to one that fabricates it. This creative capacity is fascinating · and the source of all current debates on fakery, copyright, disinformation. Generating is not innocuous: it is a new power.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "modele-discriminatif",
+    "ia-generative",
+    "modeles-diffusion",
+    "gan"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (modèle génératif)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

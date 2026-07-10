@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Auto-attention",
+  "terme_en": "Self-attention",
+  "sous_titre_fr": "Self-attention",
+  "sous_titre_en": "Auto-attention",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Forme particulière du mécanisme d'attention où chaque élément d'une séquence est mis en relation avec tous les autres éléments de la même séquence. L'auto-attention permet à un modèle de construire, pour chaque mot, une représentation enrichie par son contexte. C'est le cœur opérationnel de l'architecture transformer.",
+  "definition_en": "A particular form of the attention mechanism where each element of a sequence is related to all the other elements of the same sequence. Self-attention lets a model build, for each word, a representation enriched by its context. It is the operational heart of the transformer architecture.",
+  "exemple_fr": "Pour comprendre le mot « il » dans une phrase, l'auto-attention le relie à tous les autres mots pour trouver son antécédent. Chaque mot « regarde » ainsi tous les autres et ajuste son sens en conséquence. Cette mise en relation généralisée, calculée en parallèle, explique à la fois la puissance et le coût des transformers.",
+  "exemple_en": "To understand the word \"it\" in a sentence, self-attention links it to all the other words to find its antecedent. Each word thus \"looks at\" all the others and adjusts its meaning accordingly. This generalised relating, computed in parallel, explains both the power and the cost of transformers.",
+  "regard_fr": "L'auto-attention a un coût qui croît avec le carré de la longueur du texte · doubler le contexte quadruple le calcul. Cette limite mathématique explique pourquoi les fenêtres contextuelles très grandes restent coûteuses. Derrière chaque « progrès » de l'IA se cache un compromis technique qu'il est utile de connaître.",
+  "regard_en": "Self-attention has a cost that grows with the square of the text length · doubling the context quadruples the computation. This mathematical limit explains why very large context windows remain costly. Behind every AI \"advance\" lies a technical trade-off worth knowing.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "mecanisme-attention",
+    "transformer",
+    "fenetre-contextuelle",
+    "cache-kv"
+  ],
+  "sources": [
+    {
+      "titre": "Vaswani et al. · Attention is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
