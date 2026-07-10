@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Course mondiale à l'IA",
+  "terme_en": "Global AI race",
+  "sous_titre_fr": "Global AI race",
+  "sous_titre_en": "Course mondiale à l'IA",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Compétition intense entre grandes puissances (États-Unis, Chine, et dans une moindre mesure l'Europe) et entre entreprises pour dominer l'IA, perçue comme un enjeu de puissance économique et géopolitique majeur. Cette course accélère l'innovation · mais nourrit aussi une logique de vitesse qui peut reléguer sûreté, éthique et sobriété au second plan.",
+  "definition_en": "Intense competition between major powers (United States, China, and to a lesser extent Europe) and between companies to dominate AI, seen as a major economic and geopolitical power issue. This race accelerates innovation · but also feeds a logic of speed that can relegate safety, ethics and frugality to the background.",
+  "exemple_fr": "Dans la course à l'IA, les acteurs se pressent de sortir des modèles toujours plus puissants, parfois au détriment de l'évaluation de leurs risques. Cette précipitation, dictée par la compétition, illustre un danger : quand la vitesse prime sur la prudence, les garde-fous sautent. L'Europe peut choisir une autre voie · l'IA responsable.",
+  "exemple_en": "In the AI race, players rush to release ever-more-powerful models, sometimes at the expense of assessing their risks. This haste, dictated by competition, illustrates a danger: when speed prevails over caution, guardrails fall. Europe can choose another path · responsible AI.",
+  "regard_fr": "La rhétorique de la « course à l'IA » sert souvent à justifier l'abandon de toute prudence : « si on ne le fait pas, un autre le fera ». C'est un piège. L'Europe n'a pas à gagner la même course selon les mêmes règles : elle peut faire de la responsabilité et de la souveraineté sa différence · une course différente, pas perdue d'avance.",
+  "regard_en": "The rhetoric of the \"AI race\" often serves to justify abandoning all caution: \"if we don't do it, someone else will\". It is a trap. Europe does not have to win the same race by the same rules: it can make responsibility and sovereignty its difference · a different race, not lost in advance.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "bulle-ia",
+    "autonomie-strategique",
+    "alignement-ia",
+    "ia-washing"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses géopolitiques sur la compétition en IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

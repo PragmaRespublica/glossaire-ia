@@ -1,0 +1,37 @@
+{
+  "terme_fr": "MLOps",
+  "terme_en": "MLOps",
+  "sous_titre_fr": "MLOps",
+  "sous_titre_en": "MLOps",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Ensemble de pratiques industrialisant le cycle de vie des modèles de machine learning : entraînement, déploiement, surveillance, réentraînement. Inspiré du DevOps, le MLOps apporte rigueur et reproductibilité à des projets d'IA souvent artisanaux · une discipline indispensable pour passer du prototype à la production fiable et maintenable.",
+  "definition_en": "A set of practices industrialising the machine learning model lifecycle: training, deployment, monitoring, retraining. Inspired by DevOps, MLOps brings rigour and reproducibility to often artisanal AI projects · an indispensable discipline for moving from prototype to reliable, maintainable production.",
+  "exemple_fr": "Une équipe déploie un modèle qui se dégrade sans qu'on le remarque, faute de surveillance. Avec des pratiques MLOps · monitoring, versionnage, réentraînement automatisé · la dérive aurait été détectée et corrigée à temps. Le MLOps est ce qui distingue un projet d'IA qui tient dans la durée d'un prototype qui s'effondre en silence.",
+  "exemple_en": "A team deploys a model that degrades unnoticed, for lack of monitoring. With MLOps practices · monitoring, versioning, automated retraining · the drift would have been detected and fixed in time. MLOps is what distinguishes an AI project that lasts from a prototype that silently collapses.",
+  "regard_fr": "Le MLOps rappelle une vérité oubliée dans l'euphorie de l'IA : un modèle n'est pas un livrable, c'est un système vivant à maintenir. La plupart des projets d'IA échouent non à cause du modèle, mais du manque d'industrialisation. Investir dans le MLOps, c'est choisir la durabilité plutôt que le prototype éphémère.",
+  "regard_en": "MLOps recalls a truth forgotten in AI's euphoria: a model is not a deliverable, it is a living system to maintain. Most AI projects fail not because of the model, but the lack of industrialisation. Investing in MLOps means choosing durability over the ephemeral prototype.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "llmops",
+    "monitoring",
+    "versionnage-modeles",
+    "deploiement-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur les pratiques MLOps"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

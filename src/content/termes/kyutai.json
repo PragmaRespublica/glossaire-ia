@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Kyutai",
+  "terme_en": "Kyutai (French AI lab)",
+  "sous_titre_fr": "Kyutai",
+  "sous_titre_en": "Kyutai (French AI lab)",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Laboratoire de recherche en IA français à but non lucratif, soutenu par des mécènes privés, qui publie ses travaux et modèles en open source. Kyutai illustre une voie française de la recherche ouverte en IA · notamment sur les modèles vocaux temps réel · contribuant aux communs et à l'autonomie technologique européenne.",
+  "definition_en": "A French non-profit AI research lab, backed by private patrons, that publishes its work and models as open source. Kyutai illustrates a French path of open AI research · notably on real-time voice models · contributing to the commons and to European technological autonomy.",
+  "exemple_fr": "Kyutai a présenté des modèles vocaux conversationnels temps réel, publiés ouvertement pour que chacun puisse les étudier et les réutiliser. Cette recherche ouverte, à la française, nourrit un écosystème dont dépend l'autonomie européenne · une contribution aux communs qui contraste avec les laboratoires fermés des géants.",
+  "exemple_en": "Kyutai presented real-time conversational voice models, openly published so anyone can study and reuse them. This open research, French-style, nourishes an ecosystem on which European autonomy depends · a contribution to the commons that contrasts with the giants' closed labs.",
+  "regard_fr": "Kyutai incarne une conviction précieuse : la recherche en IA peut être ouverte, non lucrative et souveraine. Soutenir et faire connaître ces acteurs, c'est défendre un modèle alternatif à la course fermée et commerciale. La diversité des approches est une richesse · et la recherche ouverte, un bien commun à protéger.",
+  "regard_en": "Kyutai embodies a precious conviction: AI research can be open, non-profit and sovereign. Supporting and publicising these players means defending an alternative model to the closed, commercial race. The diversity of approaches is a richness · and open research, a common good to protect.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ecosysteme-ia-francais",
+    "open-source-ia",
+    "autonomie-strategique",
+    "synthese-vocale"
+  ],
+  "sources": [
+    {
+      "titre": "Kyutai",
+      "url": "https://kyutai.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

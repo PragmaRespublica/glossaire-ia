@@ -1,0 +1,219 @@
+{
+  "ecosysteme-ia-francais": {
+    "sous_titre_fr": "French AI ecosystem",
+    "sous_titre_en": "Écosystème IA français",
+    "definition_fr": "Ensemble des acteurs français de l'IA : laboratoires (Mistral, Kyutai), infrastructures (OVHcloud, Scaleway), talents (une école mathématique réputée), initiatives publiques (France 2030). Cet écosystème dynamique fait de la France l'un des rares pays capables de peser dans l'IA mondiale · un atout de souveraineté à connaître et à soutenir.",
+    "definition_en": "The set of French AI players: labs (Mistral, Kyutai), infrastructure (OVHcloud, Scaleway), talent (a renowned mathematical school), public initiatives (France 2030). This dynamic ecosystem makes France one of the few countries able to weigh in global AI · a sovereignty asset to know and support.",
+    "exemple_fr": "Une entreprise française qui veut déployer une IA souveraine dispose désormais d'une chaîne complète nationale : un modèle Mistral, hébergé chez OVHcloud, intégré par une SSII française. Il y a peu, c'était impensable. L'écosystème IA français permet aujourd'hui de bâtir de bout en bout sans dépendre des géants américains.",
+    "exemple_en": "A French company wanting to deploy sovereign AI now has a complete national chain: a Mistral model, hosted on OVHcloud, integrated by a French IT firm. Not long ago, this was unthinkable. The French AI ecosystem now allows building end to end without depending on the American giants.",
+    "regard_fr": "L'écosystème IA français est un atout stratégique trop peu valorisé par les Français eux-mêmes. Chaque fois qu'une organisation choisit un acteur national plutôt qu'un géant américain, elle renforce cette chaîne d'autonomie. La souveraineté n'est pas qu'une affaire d'État : elle se construit par les choix quotidiens de chaque acheteur.",
+    "regard_en": "The French AI ecosystem is a strategic asset too little valued by the French themselves. Every time an organisation chooses a national player over an American giant, it strengthens this chain of autonomy. Sovereignty is not just a state matter: it is built through the daily choices of every buyer.",
+    "termes_lies": [
+      "mistral-ai",
+      "ovhcloud",
+      "kyutai",
+      "autonomie-strategique"
+    ],
+    "sources": [
+      {
+        "titre": "France 2030 · volet IA",
+        "url": "https://www.strategie.gouv.fr/"
+      }
+    ]
+  },
+  "kyutai": {
+    "sous_titre_fr": "Kyutai",
+    "sous_titre_en": "Kyutai (French AI lab)",
+    "definition_fr": "Laboratoire de recherche en IA français à but non lucratif, soutenu par des mécènes privés, qui publie ses travaux et modèles en open source. Kyutai illustre une voie française de la recherche ouverte en IA · notamment sur les modèles vocaux temps réel · contribuant aux communs et à l'autonomie technologique européenne.",
+    "definition_en": "A French non-profit AI research lab, backed by private patrons, that publishes its work and models as open source. Kyutai illustrates a French path of open AI research · notably on real-time voice models · contributing to the commons and to European technological autonomy.",
+    "exemple_fr": "Kyutai a présenté des modèles vocaux conversationnels temps réel, publiés ouvertement pour que chacun puisse les étudier et les réutiliser. Cette recherche ouverte, à la française, nourrit un écosystème dont dépend l'autonomie européenne · une contribution aux communs qui contraste avec les laboratoires fermés des géants.",
+    "exemple_en": "Kyutai presented real-time conversational voice models, openly published so anyone can study and reuse them. This open research, French-style, nourishes an ecosystem on which European autonomy depends · a contribution to the commons that contrasts with the giants' closed labs.",
+    "regard_fr": "Kyutai incarne une conviction précieuse : la recherche en IA peut être ouverte, non lucrative et souveraine. Soutenir et faire connaître ces acteurs, c'est défendre un modèle alternatif à la course fermée et commerciale. La diversité des approches est une richesse · et la recherche ouverte, un bien commun à protéger.",
+    "regard_en": "Kyutai embodies a precious conviction: AI research can be open, non-profit and sovereign. Supporting and publicising these players means defending an alternative model to the closed, commercial race. The diversity of approaches is a richness · and open research, a common good to protect.",
+    "termes_lies": [
+      "ecosysteme-ia-francais",
+      "open-source-ia",
+      "autonomie-strategique",
+      "synthese-vocale"
+    ],
+    "sources": [
+      {
+        "titre": "Kyutai",
+        "url": "https://kyutai.org/"
+      }
+    ]
+  },
+  "albert": {
+    "sous_titre_fr": "Albert · l'IA de l'État français",
+    "sous_titre_en": "Albert (French state AI)",
+    "definition_fr": "Suite d'outils d'IA générative développée par et pour l'administration française (via la DINUM), fondée sur des modèles ouverts et une infrastructure souveraine. Albert illustre la volonté de l'État de se doter d'une IA maîtrisée pour ses agents · un exemple concret de souveraineté appliquée au service public.",
+    "definition_en": "A suite of generative AI tools developed by and for the French administration (via DINUM), based on open models and sovereign infrastructure. Albert illustrates the state's will to equip itself with controlled AI for its agents · a concrete example of sovereignty applied to public service.",
+    "exemple_fr": "Plutôt que d'équiper ses agents de ChatGPT, l'État français développe Albert : des outils d'IA fondés sur des modèles ouverts, hébergés en souveraineté, adaptés aux besoins de l'administration. Les données publiques et les questions des agents ne partent pas chez un acteur étranger. La souveraineté de l'État commence par ses propres outils.",
+    "exemple_en": "Rather than equipping its agents with ChatGPT, the French state develops Albert: AI tools based on open models, hosted sovereignly, adapted to the administration's needs. Public data and agents' questions do not go to a foreign player. State sovereignty starts with its own tools.",
+    "regard_fr": "Albert est un signal fort : l'État français refuse de confier son IA aux géants étrangers et construit la sienne, sur des communs ouverts. C'est un exemple à suivre pour toute organisation soucieuse de souveraineté · la preuve qu'une IA maîtrisée et publique n'est pas une utopie, mais un chantier déjà engagé.",
+    "regard_en": "Albert is a strong signal: the French state refuses to entrust its AI to foreign giants and builds its own, on open commons. It is an example to follow for any organisation concerned with sovereignty · proof that controlled, public AI is not a utopia, but an already-launched project.",
+    "termes_lies": [
+      "ia-souveraine",
+      "ecosysteme-ia-francais",
+      "open-weights",
+      "cloud-souverain"
+    ],
+    "sources": [
+      {
+        "titre": "DINUM · Albert",
+        "url": "https://www.numerique.gouv.fr/"
+      }
+    ]
+  },
+  "bloom": {
+    "sous_titre_fr": "BLOOM",
+    "sous_titre_en": "BLOOM",
+    "definition_fr": "Grand modèle de langage multilingue et ouvert, fruit d'une collaboration internationale de recherche coordonnée depuis la France (projet BigScience, autour de Hugging Face). BLOOM a démontré qu'un modèle de pointe pouvait être développé de façon ouverte, collaborative et transparente · un contre-modèle aux laboratoires fermés.",
+    "definition_en": "A large, open, multilingual language model, the fruit of an international research collaboration coordinated from France (the BigScience project, around Hugging Face). BLOOM demonstrated that a cutting-edge model could be developed openly, collaboratively and transparently · a counter-model to the closed labs.",
+    "exemple_fr": "BLOOM a été entraîné par des centaines de chercheurs du monde entier, avec une transparence totale sur ses données et sa méthode, sur un supercalculateur public français. Ce modèle prouve qu'une alternative ouverte et collaborative aux laboratoires privés fermés est possible · une démonstration précieuse pour la science et la souveraineté.",
+    "exemple_en": "BLOOM was trained by hundreds of researchers worldwide, with total transparency about its data and method, on a French public supercomputer. This model proves that an open, collaborative alternative to closed private labs is possible · a precious demonstration for science and sovereignty.",
+    "regard_fr": "BLOOM restera comme une preuve de concept majeure : oui, on peut développer un grand modèle de façon ouverte, transparente et internationale, sans les secrets des géants. Même si ses performances ont été dépassées, sa démarche reste un modèle. La transparence n'est pas un handicap · c'est une autre façon, féconde, de faire de l'IA.",
+    "regard_en": "BLOOM will remain a major proof of concept: yes, a large model can be developed openly, transparently and internationally, without the giants' secrets. Even if its performance has been surpassed, its approach remains a model. Transparency is not a handicap · it is another, fruitful way of doing AI.",
+    "termes_lies": [
+      "open-source-ia",
+      "eurohpc",
+      "modeles-multilingues",
+      "hugging-face"
+    ],
+    "sources": [
+      {
+        "titre": "BigScience · BLOOM",
+        "url": "https://huggingface.co/"
+      }
+    ]
+  },
+  "eurohpc": {
+    "sous_titre_fr": "Supercalculateurs européens (EuroHPC)",
+    "sous_titre_en": "European supercomputers (EuroHPC)",
+    "definition_fr": "Initiative européenne dotant l'Union de supercalculateurs de classe mondiale, mutualisés entre États membres. Ces machines · comme Jean Zay en France · fournissent la puissance de calcul nécessaire à l'entraînement de modèles d'IA souverains, sans dépendre des infrastructures américaines. Un pilier matériel de l'autonomie stratégique européenne.",
+    "definition_en": "A European initiative endowing the Union with world-class supercomputers, pooled between member states. These machines · like Jean Zay in France · provide the compute power needed to train sovereign AI models, without depending on American infrastructure. A hardware pillar of European strategic autonomy.",
+    "exemple_fr": "Le modèle ouvert BLOOM a été entraîné sur le supercalculateur public français Jean Zay, financé dans le cadre européen. Sans ces infrastructures publiques mutualisées, l'Europe dépendrait entièrement des fermes de calcul américaines pour entraîner ses modèles. EuroHPC donne une base matérielle concrète à la souveraineté.",
+    "exemple_en": "The open model BLOOM was trained on the French public supercomputer Jean Zay, funded within the European framework. Without these pooled public infrastructures, Europe would depend entirely on American compute farms to train its models. EuroHPC gives a concrete hardware base to sovereignty.",
+    "regard_fr": "EuroHPC rappelle que la souveraineté en IA a besoin de fer et de béton, pas seulement de logiciel : sans supercalculateurs publics, pas de modèles souverains. Ces investissements, peu visibles, sont pourtant décisifs. Soutenir l'infrastructure publique de calcul est un enjeu d'autonomie aussi stratégique que les modèles eux-mêmes.",
+    "regard_en": "EuroHPC recalls that AI sovereignty needs iron and concrete, not just software: without public supercomputers, no sovereign models. These investments, little visible, are nonetheless decisive. Supporting public compute infrastructure is a matter of autonomy as strategic as the models themselves.",
+    "termes_lies": [
+      "autonomie-strategique",
+      "gpu",
+      "bloom",
+      "chips-act"
+    ],
+    "sources": [
+      {
+        "titre": "EuroHPC Joint Undertaking",
+        "url": "https://eurohpc-ju.europa.eu/"
+      }
+    ]
+  },
+  "gaia-x": {
+    "sous_titre_fr": "Gaia-X",
+    "sous_titre_en": "Gaia-X",
+    "definition_fr": "Initiative européenne visant à bâtir un cadre de confiance pour un cloud et des données souverains, interopérables et respectueux des règles européennes. Ambitieux mais critiqué pour sa lenteur et l'entrée d'acteurs non européens, Gaia-X illustre à la fois l'ambition de souveraineté numérique de l'Europe et la difficulté de la concrétiser.",
+    "definition_en": "A European initiative aiming to build a trust framework for sovereign, interoperable cloud and data respecting European rules. Ambitious but criticised for its slowness and the entry of non-European players, Gaia-X illustrates both Europe's digital sovereignty ambition and the difficulty of realising it.",
+    "exemple_fr": "Gaia-X devait fédérer un cloud européen de confiance. Le projet a avancé, mais l'inclusion d'acteurs américains et sa complexité ont nourri les critiques. Il illustre une leçon : la souveraineté ne se décrète pas par des labels, elle se construit par des acteurs et des usages concrets · comme OVHcloud ou Scaleway déjà opérationnels.",
+    "exemple_en": "Gaia-X was to federate a trusted European cloud. The project advanced, but the inclusion of American players and its complexity fed criticism. It illustrates a lesson: sovereignty is not decreed through labels, it is built by concrete players and uses · like OVHcloud or Scaleway, already operational.",
+    "regard_fr": "Gaia-X enseigne que la souveraineté numérique ne se gagne pas par des structures et des labels, mais par des acteurs qui fonctionnent et des choix d'usage. Plutôt que d'attendre le grand projet fédérateur, mieux vaut soutenir dès maintenant les fournisseurs souverains qui existent. La souveraineté se pratique avant de se labelliser.",
+    "regard_en": "Gaia-X teaches that digital sovereignty is not won through structures and labels, but through players that work and usage choices. Rather than waiting for the great federating project, it is better to support the sovereign providers that already exist. Sovereignty is practised before it is labelled.",
+    "termes_lies": [
+      "cloud-souverain",
+      "souverainete-numerique",
+      "autonomie-strategique",
+      "interoperabilite"
+    ],
+    "sources": [
+      {
+        "titre": "Gaia-X",
+        "url": "https://gaia-x.eu/"
+      }
+    ]
+  },
+  "autonomie-strategique": {
+    "sous_titre_fr": "European strategic autonomy",
+    "sous_titre_en": "Autonomie stratégique européenne",
+    "definition_fr": "Capacité de l'Europe à agir et décider par elle-même dans les domaines critiques · dont le numérique et l'IA · sans dépendance excessive à des puissances extérieures. L'autonomie stratégique ne vise pas l'autarcie, mais la maîtrise des choix essentiels : infrastructures, modèles, puces, données. Un objectif géopolitique majeur du XXIe siècle.",
+    "definition_en": "Europe's ability to act and decide for itself in critical domains · including digital and AI · without excessive dependence on external powers. Strategic autonomy does not aim for autarky, but for control of essential choices: infrastructure, models, chips, data. A major geopolitical goal of the 21st century.",
+    "exemple_fr": "Quand un conflit géopolitique menace l'accès aux puces ou aux services cloud américains, l'Europe mesure sa dépendance. L'autonomie stratégique, c'est se donner les moyens de ne pas subir : soutenir Mistral, OVHcloud, EuroHPC, le Chips Act. Non pour se couper du monde, mais pour garder la maîtrise de ses choix critiques.",
+    "exemple_en": "When a geopolitical conflict threatens access to American chips or cloud services, Europe measures its dependence. Strategic autonomy means giving itself the means not to suffer: supporting Mistral, OVHcloud, EuroHPC, the Chips Act. Not to cut itself off from the world, but to keep control of its critical choices.",
+    "regard_fr": "L'autonomie stratégique est le cadre qui donne son sens à tous les efforts de souveraineté en IA. Il ne s'agit pas de nationalisme technologique, mais de résilience : ne pas dépendre entièrement d'acteurs qui peuvent, du jour au lendemain, changer les règles. C'est l'assurance-vie géopolitique de l'Europe numérique.",
+    "regard_en": "Strategic autonomy is the framework that gives meaning to all AI sovereignty efforts. It is not about technological nationalism, but resilience: not depending entirely on players who can, overnight, change the rules. It is the geopolitical life insurance of digital Europe.",
+    "termes_lies": [
+      "souverainete-numerique",
+      "chips-act",
+      "euro-stack",
+      "ia-souveraine"
+    ],
+    "sources": [
+      {
+        "titre": "Commission européenne · autonomie stratégique"
+      }
+    ]
+  },
+  "chips-act": {
+    "sous_titre_fr": "European Chips Act",
+    "sous_titre_en": "Règlement européen sur les semi-conducteurs",
+    "definition_fr": "Règlement européen visant à renforcer la production de semi-conducteurs sur le sol européen, pour réduire la dépendance critique aux fabricants asiatiques et américains. Les puces étant le nerf de l'IA, le Chips Act est un pilier de l'autonomie stratégique · s'attaquant au maillon matériel le plus difficile à reconquérir.",
+    "definition_en": "A European regulation aiming to strengthen semiconductor production on European soil, to reduce critical dependence on Asian and American manufacturers. Chips being the nerve of AI, the Chips Act is a pillar of strategic autonomy · tackling the hardware link most difficult to reclaim.",
+    "exemple_fr": "L'Europe conçoit peu de puces et n'en fabrique presque aucune de pointe · une vulnérabilité majeure pour son IA. Le Chips Act mobilise des dizaines de milliards pour inverser la tendance : usines, recherche, formation. C'est un effort de long terme, mais indispensable : sans puces souveraines, la souveraineté logicielle reste bancale.",
+    "exemple_en": "Europe designs few chips and manufactures almost no cutting-edge ones · a major vulnerability for its AI. The Chips Act mobilises tens of billions to reverse the trend: factories, research, training. It is a long-term effort, but indispensable: without sovereign chips, software sovereignty remains shaky.",
+    "regard_fr": "Le Chips Act s'attaque au maillon le plus dur de la souveraineté IA : le matériel. Reconquérir une capacité de fabrication de puces prend des années et des dizaines de milliards. Mais sans ce socle, tout le reste · modèles ouverts, cloud souverain · repose sur des fondations étrangères. La souveraineté commence dans le silicium.",
+    "regard_en": "The Chips Act tackles the hardest link of AI sovereignty: hardware. Reclaiming a chip manufacturing capacity takes years and tens of billions. But without this base, everything else · open models, sovereign cloud · rests on foreign foundations. Sovereignty starts in silicon.",
+    "termes_lies": [
+      "autonomie-strategique",
+      "nvidia",
+      "terres-rares",
+      "gpu"
+    ],
+    "sources": [
+      {
+        "titre": "Commission européenne · European Chips Act"
+      }
+    ]
+  },
+  "euro-stack": {
+    "sous_titre_fr": "EuroStack",
+    "sous_titre_en": "EuroStack",
+    "definition_fr": "Vision d'une pile technologique européenne complète et souveraine · des puces au cloud, des modèles aux applications · permettant à l'Europe de maîtriser toute sa chaîne numérique. L'EuroStack est un projet politique et industriel visant à réduire la dépendance à chaque étage de la technologie, dont l'IA est aujourd'hui le sommet.",
+    "definition_en": "A vision of a complete, sovereign European technology stack · from chips to cloud, from models to applications · allowing Europe to control its entire digital chain. EuroStack is a political and industrial project aiming to reduce dependence at every layer of technology, of which AI is today the summit.",
+    "exemple_fr": "L'idée d'EuroStack est simple à énoncer, difficile à réaliser : à chaque étage · puces, calcul, cloud, modèles, applications · disposer d'une option européenne crédible. Certains étages existent déjà (Mistral, OVHcloud) ; d'autres, comme les puces, restent à bâtir. C'est la feuille de route d'une souveraineté numérique complète.",
+    "exemple_en": "The EuroStack idea is simple to state, hard to realise: at every layer · chips, compute, cloud, models, applications · have a credible European option. Some layers already exist (Mistral, OVHcloud); others, like chips, remain to be built. It is the roadmap of a complete digital sovereignty.",
+    "regard_fr": "L'EuroStack donne une vision d'ensemble à ce qui apparaît sinon comme des efforts épars. La souveraineté ne se gagne pas à un seul étage, mais sur toute la pile. Comprendre cette architecture aide à situer chaque acteur · Mistral, OVHcloud, le Chips Act · dans un projet cohérent. La souveraineté est un système, pas une pièce isolée.",
+    "regard_en": "EuroStack gives an overall vision to what otherwise appears as scattered efforts. Sovereignty is not won at a single layer, but across the whole stack. Understanding this architecture helps situate each player · Mistral, OVHcloud, the Chips Act · in a coherent project. Sovereignty is a system, not an isolated piece.",
+    "termes_lies": [
+      "autonomie-strategique",
+      "souverainete-numerique",
+      "chips-act",
+      "ecosysteme-ia-francais"
+    ],
+    "sources": [
+      {
+        "titre": "Initiatives autour de l'EuroStack"
+      }
+    ]
+  },
+  "france-2030": {
+    "sous_titre_fr": "Plan France 2030 et IA",
+    "sous_titre_en": "France 2030 investment plan",
+    "definition_fr": "Plan d'investissement français massif dont une part importante est consacrée à l'intelligence artificielle : soutien aux laboratoires, aux infrastructures de calcul, à la formation et à l'écosystème. France 2030 illustre l'engagement public à faire de la France un acteur qui compte dans l'IA · un levier de souveraineté à l'échelle nationale.",
+    "definition_en": "A massive French investment plan of which a significant part is devoted to artificial intelligence: support for labs, compute infrastructure, training and the ecosystem. France 2030 illustrates the public commitment to making France a player that counts in AI · a lever of sovereignty at the national scale.",
+    "exemple_fr": "Grâce à France 2030, des supercalculateurs sont financés, des formations à l'IA soutenues, des jeunes pousses accompagnées. Cet investissement public crée les conditions d'un écosystème souverain que le marché seul ne produirait pas. La souveraineté en IA a un coût · et un plan comme France 2030 est le moyen de l'assumer collectivement.",
+    "exemple_en": "Thanks to France 2030, supercomputers are funded, AI training supported, start-ups accompanied. This public investment creates the conditions for a sovereign ecosystem the market alone would not produce. AI sovereignty has a cost · and a plan like France 2030 is the means to bear it collectively.",
+    "regard_fr": "France 2030 rappelle que la souveraineté en IA n'est pas qu'affaire de choix individuels d'achat : elle exige un investissement public de long terme dans les infrastructures, les talents et la recherche. Le marché seul, dominé par les géants américains, ne produirait jamais un écosystème souverain. La puissance publique est indispensable.",
+    "regard_en": "France 2030 recalls that AI sovereignty is not just about individual purchasing choices: it requires long-term public investment in infrastructure, talent and research. The market alone, dominated by the American giants, would never produce a sovereign ecosystem. Public power is indispensable.",
+    "termes_lies": [
+      "ecosysteme-ia-francais",
+      "eurohpc",
+      "autonomie-strategique",
+      "metiers-ia"
+    ],
+    "sources": [
+      {
+        "titre": "France 2030",
+        "url": "https://www.strategie.gouv.fr/"
+      }
+    ]
+  }
+}

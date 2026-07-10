@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Autonomie stratégique européenne",
+  "terme_en": "European strategic autonomy",
+  "sous_titre_fr": "European strategic autonomy",
+  "sous_titre_en": "Autonomie stratégique européenne",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Capacité de l'Europe à agir et décider par elle-même dans les domaines critiques · dont le numérique et l'IA · sans dépendance excessive à des puissances extérieures. L'autonomie stratégique ne vise pas l'autarcie, mais la maîtrise des choix essentiels : infrastructures, modèles, puces, données. Un objectif géopolitique majeur du XXIe siècle.",
+  "definition_en": "Europe's ability to act and decide for itself in critical domains · including digital and AI · without excessive dependence on external powers. Strategic autonomy does not aim for autarky, but for control of essential choices: infrastructure, models, chips, data. A major geopolitical goal of the 21st century.",
+  "exemple_fr": "Quand un conflit géopolitique menace l'accès aux puces ou aux services cloud américains, l'Europe mesure sa dépendance. L'autonomie stratégique, c'est se donner les moyens de ne pas subir : soutenir Mistral, OVHcloud, EuroHPC, le Chips Act. Non pour se couper du monde, mais pour garder la maîtrise de ses choix critiques.",
+  "exemple_en": "When a geopolitical conflict threatens access to American chips or cloud services, Europe measures its dependence. Strategic autonomy means giving itself the means not to suffer: supporting Mistral, OVHcloud, EuroHPC, the Chips Act. Not to cut itself off from the world, but to keep control of its critical choices.",
+  "regard_fr": "L'autonomie stratégique est le cadre qui donne son sens à tous les efforts de souveraineté en IA. Il ne s'agit pas de nationalisme technologique, mais de résilience : ne pas dépendre entièrement d'acteurs qui peuvent, du jour au lendemain, changer les règles. C'est l'assurance-vie géopolitique de l'Europe numérique.",
+  "regard_en": "Strategic autonomy is the framework that gives meaning to all AI sovereignty efforts. It is not about technological nationalism, but resilience: not depending entirely on players who can, overnight, change the rules. It is the geopolitical life insurance of digital Europe.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "souverainete-numerique",
+    "chips-act",
+    "euro-stack",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "Commission européenne · autonomie stratégique"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Chips Act européen",
+  "terme_en": "European Chips Act",
+  "sous_titre_fr": "European Chips Act",
+  "sous_titre_en": "Règlement européen sur les semi-conducteurs",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Règlement européen visant à renforcer la production de semi-conducteurs sur le sol européen, pour réduire la dépendance critique aux fabricants asiatiques et américains. Les puces étant le nerf de l'IA, le Chips Act est un pilier de l'autonomie stratégique · s'attaquant au maillon matériel le plus difficile à reconquérir.",
+  "definition_en": "A European regulation aiming to strengthen semiconductor production on European soil, to reduce critical dependence on Asian and American manufacturers. Chips being the nerve of AI, the Chips Act is a pillar of strategic autonomy · tackling the hardware link most difficult to reclaim.",
+  "exemple_fr": "L'Europe conçoit peu de puces et n'en fabrique presque aucune de pointe · une vulnérabilité majeure pour son IA. Le Chips Act mobilise des dizaines de milliards pour inverser la tendance : usines, recherche, formation. C'est un effort de long terme, mais indispensable : sans puces souveraines, la souveraineté logicielle reste bancale.",
+  "exemple_en": "Europe designs few chips and manufactures almost no cutting-edge ones · a major vulnerability for its AI. The Chips Act mobilises tens of billions to reverse the trend: factories, research, training. It is a long-term effort, but indispensable: without sovereign chips, software sovereignty remains shaky.",
+  "regard_fr": "Le Chips Act s'attaque au maillon le plus dur de la souveraineté IA : le matériel. Reconquérir une capacité de fabrication de puces prend des années et des dizaines de milliards. Mais sans ce socle, tout le reste · modèles ouverts, cloud souverain · repose sur des fondations étrangères. La souveraineté commence dans le silicium.",
+  "regard_en": "The Chips Act tackles the hardest link of AI sovereignty: hardware. Reclaiming a chip manufacturing capacity takes years and tens of billions. But without this base, everything else · open models, sovereign cloud · rests on foreign foundations. Sovereignty starts in silicon.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "autonomie-strategique",
+    "nvidia",
+    "terres-rares",
+    "gpu"
+  ],
+  "sources": [
+    {
+      "titre": "Commission européenne · European Chips Act"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

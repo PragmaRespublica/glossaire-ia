@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Bulle spéculative de l'IA",
+  "terme_en": "AI bubble",
+  "sous_titre_fr": "AI bubble",
+  "sous_titre_en": "Bulle spéculative de l'IA",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Crainte d'une survalorisation financière de l'IA, où les investissements et les valorisations dépasseraient largement les revenus et la valeur réelle créée · à l'image des bulles technologiques passées. Que la bulle existe ou non, la question invite à distinguer la valeur réelle de l'IA du battage spéculatif qui l'entoure.",
+  "definition_en": "The fear of a financial overvaluation of AI, where investments and valuations would far exceed the revenues and real value created · like past tech bubbles. Whether the bubble exists or not, the question invites distinguishing AI's real value from the speculative hype surrounding it.",
+  "exemple_fr": "Des sommes colossales sont investies dans l'IA, parfois sans modèle économique clair. Certains y voient une bulle prête à éclater, d'autres le début d'une transformation durable. Pour une entreprise, la leçon est la même : ne pas investir par peur de rater, mais par valeur réelle attendue. Le cas d'usage prime sur la mode.",
+  "exemple_en": "Colossal sums are invested in AI, sometimes with no clear business model. Some see a bubble ready to burst, others the start of a lasting transformation. For a company, the lesson is the same: invest not out of fear of missing out, but for real expected value. The use case prevails over fashion.",
+  "regard_fr": "Bulle ou pas, la sagesse est identique : résister au battage et raisonner par la valeur réelle. Beaucoup de projets d'IA lancés « pour ne pas rater le train » échouent faute d'un vrai besoin. Investir dans l'IA quand elle résout un problème mesurable, pas quand elle rassure sur sa modernité · c'est la meilleure protection contre toute bulle.",
+  "regard_en": "Bubble or not, the wisdom is identical: resist the hype and reason by real value. Many AI projects launched \"not to miss the train\" fail for lack of a real need. Invest in AI when it solves a measurable problem, not when it reassures about being modern · that is the best protection against any bubble.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "course-ia",
+    "ia-washing",
+    "roi-ia",
+    "cas-usage"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses financières sur les valorisations de l'IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "BLOOM",
+  "terme_en": "BLOOM",
+  "sous_titre_fr": "BLOOM",
+  "sous_titre_en": "BLOOM",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Grand modèle de langage multilingue et ouvert, fruit d'une collaboration internationale de recherche coordonnée depuis la France (projet BigScience, autour de Hugging Face). BLOOM a démontré qu'un modèle de pointe pouvait être développé de façon ouverte, collaborative et transparente · un contre-modèle aux laboratoires fermés.",
+  "definition_en": "A large, open, multilingual language model, the fruit of an international research collaboration coordinated from France (the BigScience project, around Hugging Face). BLOOM demonstrated that a cutting-edge model could be developed openly, collaboratively and transparently · a counter-model to the closed labs.",
+  "exemple_fr": "BLOOM a été entraîné par des centaines de chercheurs du monde entier, avec une transparence totale sur ses données et sa méthode, sur un supercalculateur public français. Ce modèle prouve qu'une alternative ouverte et collaborative aux laboratoires privés fermés est possible · une démonstration précieuse pour la science et la souveraineté.",
+  "exemple_en": "BLOOM was trained by hundreds of researchers worldwide, with total transparency about its data and method, on a French public supercomputer. This model proves that an open, collaborative alternative to closed private labs is possible · a precious demonstration for science and sovereignty.",
+  "regard_fr": "BLOOM restera comme une preuve de concept majeure : oui, on peut développer un grand modèle de façon ouverte, transparente et internationale, sans les secrets des géants. Même si ses performances ont été dépassées, sa démarche reste un modèle. La transparence n'est pas un handicap · c'est une autre façon, féconde, de faire de l'IA.",
+  "regard_en": "BLOOM will remain a major proof of concept: yes, a large model can be developed openly, transparently and internationally, without the giants' secrets. Even if its performance has been surpassed, its approach remains a model. Transparency is not a handicap · it is another, fruitful way of doing AI.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "open-source-ia",
+    "eurohpc",
+    "modeles-multilingues",
+    "hugging-face"
+  ],
+  "sources": [
+    {
+      "titre": "BigScience · BLOOM",
+      "url": "https://huggingface.co/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

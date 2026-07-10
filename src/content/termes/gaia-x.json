@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Gaia-X",
+  "terme_en": "Gaia-X",
+  "sous_titre_fr": "Gaia-X",
+  "sous_titre_en": "Gaia-X",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Initiative européenne visant à bâtir un cadre de confiance pour un cloud et des données souverains, interopérables et respectueux des règles européennes. Ambitieux mais critiqué pour sa lenteur et l'entrée d'acteurs non européens, Gaia-X illustre à la fois l'ambition de souveraineté numérique de l'Europe et la difficulté de la concrétiser.",
+  "definition_en": "A European initiative aiming to build a trust framework for sovereign, interoperable cloud and data respecting European rules. Ambitious but criticised for its slowness and the entry of non-European players, Gaia-X illustrates both Europe's digital sovereignty ambition and the difficulty of realising it.",
+  "exemple_fr": "Gaia-X devait fédérer un cloud européen de confiance. Le projet a avancé, mais l'inclusion d'acteurs américains et sa complexité ont nourri les critiques. Il illustre une leçon : la souveraineté ne se décrète pas par des labels, elle se construit par des acteurs et des usages concrets · comme OVHcloud ou Scaleway déjà opérationnels.",
+  "exemple_en": "Gaia-X was to federate a trusted European cloud. The project advanced, but the inclusion of American players and its complexity fed criticism. It illustrates a lesson: sovereignty is not decreed through labels, it is built by concrete players and uses · like OVHcloud or Scaleway, already operational.",
+  "regard_fr": "Gaia-X enseigne que la souveraineté numérique ne se gagne pas par des structures et des labels, mais par des acteurs qui fonctionnent et des choix d'usage. Plutôt que d'attendre le grand projet fédérateur, mieux vaut soutenir dès maintenant les fournisseurs souverains qui existent. La souveraineté se pratique avant de se labelliser.",
+  "regard_en": "Gaia-X teaches that digital sovereignty is not won through structures and labels, but through players that work and usage choices. Rather than waiting for the great federating project, it is better to support the sovereign providers that already exist. Sovereignty is practised before it is labelled.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "cloud-souverain",
+    "souverainete-numerique",
+    "autonomie-strategique",
+    "interoperabilite"
+  ],
+  "sources": [
+    {
+      "titre": "Gaia-X",
+      "url": "https://gaia-x.eu/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Sommets internationaux sur l'IA",
+  "terme_en": "International AI summits",
+  "sous_titre_fr": "International AI summits",
+  "sous_titre_en": "Sommets internationaux sur l'IA",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Rencontres internationales réunissant États, entreprises et société civile pour débattre de la gouvernance mondiale de l'IA · sûreté, régulation, coopération. Après Bletchley Park et Séoul, la France a accueilli en 2025 le Sommet pour l'action sur l'IA. Ces sommets tentent de forger une réponse collective à un défi qui dépasse les frontières.",
+  "definition_en": "International gatherings bringing together states, companies and civil society to debate the global governance of AI · safety, regulation, cooperation. After Bletchley Park and Seoul, France hosted the AI Action Summit in 2025. These summits attempt to forge a collective response to a challenge that transcends borders.",
+  "exemple_fr": "Le Sommet pour l'action sur l'IA de Paris a réuni dirigeants et experts du monde entier pour définir des principes communs. Ces rendez-vous, aux résultats parfois modestes, ont le mérite d'exister : l'IA étant mondiale, sa gouvernance ne peut être que collective. La France y joue un rôle actif, portant une voix européenne.",
+  "exemple_en": "The Paris AI Action Summit brought together leaders and experts from around the world to define common principles. These meetings, with sometimes modest results, have the merit of existing: AI being global, its governance can only be collective. France plays an active role there, carrying a European voice.",
+  "regard_fr": "Les sommets sur l'IA illustrent une tension de fond : l'IA est planétaire, mais la souveraineté est nationale ou régionale. Coopérer sur la sûreté tout en défendant son autonomie est un équilibre délicat. Ces rendez-vous méritent l'attention · c'est là que se dessinent, lentement, les règles mondiales de demain.",
+  "regard_en": "AI summits illustrate a fundamental tension: AI is planetary, but sovereignty is national or regional. Cooperating on safety while defending one's autonomy is a delicate balance. These meetings deserve attention · it is there that tomorrow's global rules are slowly drawn.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gouvernance-ia",
+    "ai-act",
+    "autonomie-strategique",
+    "alignement-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Sommet pour l'action sur l'IA (Paris, 2025)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

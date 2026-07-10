@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Nouveaux métiers de l'IA",
+  "terme_en": "AI jobs",
+  "sous_titre_fr": "AI jobs, nouveaux métiers",
+  "sous_titre_en": "AI jobs",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des professions nées ou transformées par l'IA : data scientist, ingénieur en machine learning, prompt engineer, éthicien de l'IA, AI product manager, mais aussi les métiers existants enrichis d'une dimension IA. Loin du seul récit de destruction d'emplois, l'IA crée aussi une demande forte de compétences nouvelles et hybrides.",
+  "definition_en": "The set of professions born or transformed by AI: data scientist, machine learning engineer, prompt engineer, AI ethicist, AI product manager, but also existing jobs enriched with an AI dimension. Far from the sole narrative of job destruction, AI also creates strong demand for new, hybrid skills.",
+  "exemple_fr": "Une entreprise découvre qu'elle a besoin de profils hybrides : des personnes comprenant à la fois le métier et l'IA, capables de faire le pont. Ces compétences sont rares et recherchées. Former ses équipes actuelles à cette hybridation est souvent plus efficace que de chercher des perles rares sur un marché tendu. La compétence se cultive.",
+  "exemple_en": "A company discovers it needs hybrid profiles: people understanding both the business and AI, able to bridge the two. These skills are rare and sought-after. Training current teams in this hybridisation is often more effective than hunting for rare gems in a tight market. Competence is cultivated.",
+  "regard_fr": "Les nouveaux métiers de l'IA rappellent que la révolution n'est pas que technologique, elle est humaine. Les compétences les plus précieuses ne sont pas purement techniques, mais hybrides : comprendre le métier ET l'IA. Investir dans la formation de ses propres équipes est souvent la meilleure stratégie · c'est le cœur de notre conviction.",
+  "regard_en": "AI's new jobs recall that the revolution is not only technological, it is human. The most precious skills are not purely technical, but hybrid: understanding the business AND AI. Investing in training your own teams is often the best strategy · it is the heart of our conviction.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-emploi",
+    "chief-ai-officer",
+    "acculturation-ia",
+    "conduite-changement"
+  ],
+  "sources": [
+    {
+      "titre": "France Stratégie · métiers et compétences de l'IA",
+      "url": "https://www.strategie.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Plan France 2030 et IA",
+  "terme_en": "France 2030 investment plan",
+  "sous_titre_fr": "Plan France 2030 et IA",
+  "sous_titre_en": "France 2030 investment plan",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Plan d'investissement français massif dont une part importante est consacrée à l'intelligence artificielle : soutien aux laboratoires, aux infrastructures de calcul, à la formation et à l'écosystème. France 2030 illustre l'engagement public à faire de la France un acteur qui compte dans l'IA · un levier de souveraineté à l'échelle nationale.",
+  "definition_en": "A massive French investment plan of which a significant part is devoted to artificial intelligence: support for labs, compute infrastructure, training and the ecosystem. France 2030 illustrates the public commitment to making France a player that counts in AI · a lever of sovereignty at the national scale.",
+  "exemple_fr": "Grâce à France 2030, des supercalculateurs sont financés, des formations à l'IA soutenues, des jeunes pousses accompagnées. Cet investissement public crée les conditions d'un écosystème souverain que le marché seul ne produirait pas. La souveraineté en IA a un coût · et un plan comme France 2030 est le moyen de l'assumer collectivement.",
+  "exemple_en": "Thanks to France 2030, supercomputers are funded, AI training supported, start-ups accompanied. This public investment creates the conditions for a sovereign ecosystem the market alone would not produce. AI sovereignty has a cost · and a plan like France 2030 is the means to bear it collectively.",
+  "regard_fr": "France 2030 rappelle que la souveraineté en IA n'est pas qu'affaire de choix individuels d'achat : elle exige un investissement public de long terme dans les infrastructures, les talents et la recherche. Le marché seul, dominé par les géants américains, ne produirait jamais un écosystème souverain. La puissance publique est indispensable.",
+  "regard_en": "France 2030 recalls that AI sovereignty is not just about individual purchasing choices: it requires long-term public investment in infrastructure, talent and research. The market alone, dominated by the American giants, would never produce a sovereign ecosystem. Public power is indispensable.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ecosysteme-ia-francais",
+    "eurohpc",
+    "autonomie-strategique",
+    "metiers-ia"
+  ],
+  "sources": [
+    {
+      "titre": "France 2030",
+      "url": "https://www.strategie.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

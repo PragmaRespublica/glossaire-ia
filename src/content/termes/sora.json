@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Sora (OpenAI)",
+  "terme_en": "Sora (OpenAI)",
+  "sous_titre_fr": "Sora (OpenAI)",
+  "sous_titre_en": "Sora (OpenAI)",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Modèle de génération de vidéo développé par OpenAI, capable de produire des séquences réalistes à partir d'une description textuelle. Sora illustre les progrès fulgurants de la vidéo générative · un potentiel créatif immense, mais aussi une accélération des risques d'hypertrucage et de désinformation, et un coût énergétique élevé.",
+  "definition_en": "A video generation model developed by OpenAI, able to produce realistic sequences from a text description. Sora illustrates the lightning progress of generative video · immense creative potential, but also an acceleration of deepfake and disinformation risks, and a high energy cost.",
+  "exemple_fr": "Avec Sora, produire une courte vidéo réaliste ne demande qu'une description textuelle. Prodigieux pour la création · mais la même facilité permet de fabriquer de fausses scènes crédibles. Sora incarne la promesse et la menace de la vidéo générative · et l'urgence des dispositifs de provenance pour distinguer le réel du fabriqué.",
+  "exemple_en": "With Sora, producing a short realistic video requires only a text description. Prodigious for creation · but the same ease allows fabricating credible fake scenes. Sora embodies the promise and the threat of generative video · and the urgency of provenance mechanisms to distinguish the real from the fabricated.",
+  "regard_fr": "Sora marque une étape vertigineuse : bientôt, toute vidéo pourra être fabriquée sur commande. Face à cela, s'émerveiller ne suffit pas · il faut préparer nos défenses collectives : provenance vérifiable, éducation à l'image, cadre légal. La technologie avance vite ; notre capacité à en gérer les effets doit suivre.",
+  "regard_en": "Sora marks a dizzying step: soon, any video can be fabricated on demand. Facing this, marvelling is not enough · we must prepare our collective defences: verifiable provenance, image literacy, legal framework. Technology advances fast; our ability to manage its effects must keep up.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "generation-video",
+    "deepfake",
+    "c2pa",
+    "desinformation-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OpenAI Sora"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

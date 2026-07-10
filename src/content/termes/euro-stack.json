@@ -1,0 +1,37 @@
+{
+  "terme_fr": "EuroStack",
+  "terme_en": "EuroStack",
+  "sous_titre_fr": "EuroStack",
+  "sous_titre_en": "EuroStack",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Vision d'une pile technologique européenne complète et souveraine · des puces au cloud, des modèles aux applications · permettant à l'Europe de maîtriser toute sa chaîne numérique. L'EuroStack est un projet politique et industriel visant à réduire la dépendance à chaque étage de la technologie, dont l'IA est aujourd'hui le sommet.",
+  "definition_en": "A vision of a complete, sovereign European technology stack · from chips to cloud, from models to applications · allowing Europe to control its entire digital chain. EuroStack is a political and industrial project aiming to reduce dependence at every layer of technology, of which AI is today the summit.",
+  "exemple_fr": "L'idée d'EuroStack est simple à énoncer, difficile à réaliser : à chaque étage · puces, calcul, cloud, modèles, applications · disposer d'une option européenne crédible. Certains étages existent déjà (Mistral, OVHcloud) ; d'autres, comme les puces, restent à bâtir. C'est la feuille de route d'une souveraineté numérique complète.",
+  "exemple_en": "The EuroStack idea is simple to state, hard to realise: at every layer · chips, compute, cloud, models, applications · have a credible European option. Some layers already exist (Mistral, OVHcloud); others, like chips, remain to be built. It is the roadmap of a complete digital sovereignty.",
+  "regard_fr": "L'EuroStack donne une vision d'ensemble à ce qui apparaît sinon comme des efforts épars. La souveraineté ne se gagne pas à un seul étage, mais sur toute la pile. Comprendre cette architecture aide à situer chaque acteur · Mistral, OVHcloud, le Chips Act · dans un projet cohérent. La souveraineté est un système, pas une pièce isolée.",
+  "regard_en": "EuroStack gives an overall vision to what otherwise appears as scattered efforts. Sovereignty is not won at a single layer, but across the whole stack. Understanding this architecture helps situate each player · Mistral, OVHcloud, the Chips Act · in a coherent project. Sovereignty is a system, not an isolated piece.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "autonomie-strategique",
+    "souverainete-numerique",
+    "chips-act",
+    "ecosysteme-ia-francais"
+  ],
+  "sources": [
+    {
+      "titre": "Initiatives autour de l'EuroStack"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

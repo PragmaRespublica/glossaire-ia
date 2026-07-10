@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Supercalculateurs européens (EuroHPC)",
+  "terme_en": "European supercomputers (EuroHPC)",
+  "sous_titre_fr": "Supercalculateurs européens (EuroHPC)",
+  "sous_titre_en": "European supercomputers (EuroHPC)",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Initiative européenne dotant l'Union de supercalculateurs de classe mondiale, mutualisés entre États membres. Ces machines · comme Jean Zay en France · fournissent la puissance de calcul nécessaire à l'entraînement de modèles d'IA souverains, sans dépendre des infrastructures américaines. Un pilier matériel de l'autonomie stratégique européenne.",
+  "definition_en": "A European initiative endowing the Union with world-class supercomputers, pooled between member states. These machines · like Jean Zay in France · provide the compute power needed to train sovereign AI models, without depending on American infrastructure. A hardware pillar of European strategic autonomy.",
+  "exemple_fr": "Le modèle ouvert BLOOM a été entraîné sur le supercalculateur public français Jean Zay, financé dans le cadre européen. Sans ces infrastructures publiques mutualisées, l'Europe dépendrait entièrement des fermes de calcul américaines pour entraîner ses modèles. EuroHPC donne une base matérielle concrète à la souveraineté.",
+  "exemple_en": "The open model BLOOM was trained on the French public supercomputer Jean Zay, funded within the European framework. Without these pooled public infrastructures, Europe would depend entirely on American compute farms to train its models. EuroHPC gives a concrete hardware base to sovereignty.",
+  "regard_fr": "EuroHPC rappelle que la souveraineté en IA a besoin de fer et de béton, pas seulement de logiciel : sans supercalculateurs publics, pas de modèles souverains. Ces investissements, peu visibles, sont pourtant décisifs. Soutenir l'infrastructure publique de calcul est un enjeu d'autonomie aussi stratégique que les modèles eux-mêmes.",
+  "regard_en": "EuroHPC recalls that AI sovereignty needs iron and concrete, not just software: without public supercomputers, no sovereign models. These investments, little visible, are nonetheless decisive. Supporting public compute infrastructure is a matter of autonomy as strategic as the models themselves.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "autonomie-strategique",
+    "gpu",
+    "bloom",
+    "chips-act"
+  ],
+  "sources": [
+    {
+      "titre": "EuroHPC Joint Undertaking",
+      "url": "https://eurohpc-ju.europa.eu/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

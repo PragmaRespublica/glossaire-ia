@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Perplexity",
+  "terme_en": "Perplexity",
+  "sous_titre_fr": "Perplexity",
+  "sous_titre_en": "Perplexity",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Moteur de recherche augmenté par IA qui répond directement aux questions en synthétisant plusieurs sources web, avec citations. Perplexity illustre la nouvelle génération de recherche générative · pratique et rapide, mais qui capte l'attention avant le clic, bouleverse l'économie des éditeurs et pose la question de la fiabilité des synthèses.",
+  "definition_en": "An AI-augmented search engine that directly answers questions by synthesising several web sources, with citations. Perplexity illustrates the new generation of generative search · handy and fast, but capturing attention before the click, upending publishers' economy and raising the question of synthesis reliability.",
+  "exemple_fr": "Un utilisateur pose une question à Perplexity et reçoit une synthèse sourcée en quelques secondes, au lieu d'explorer dix liens. Gain de temps réel · mais il ne visite plus les sites, et doit vérifier que la synthèse n'a pas déformé les sources. La commodité a un coût pour l'écosystème de l'information · et parfois pour l'exactitude.",
+  "exemple_en": "A user asks Perplexity a question and receives a sourced synthesis in seconds, instead of exploring ten links. A real time saving · but they no longer visit the sites, and must verify the synthesis has not distorted the sources. Convenience has a cost for the information ecosystem · and sometimes for accuracy.",
+  "regard_fr": "Perplexity et la recherche générative changent notre rapport à l'information : on reçoit des réponses au lieu de chercher des sources. Confortable · et risqué, car déléguer la synthèse, c'est déléguer une part du jugement. Gardez le réflexe de vérifier, surtout sur ce qui compte. La réponse la plus fluide n'est pas la plus vraie.",
+  "regard_en": "Perplexity and generative search change our relationship with information: we receive answers instead of seeking sources. Convenient · and risky, for delegating the synthesis means delegating part of the judgment. Keep the reflex to verify, especially on what matters. The most fluent answer is not the truest.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "recherche-ia",
+    "rag",
+    "verification-faits",
+    "slop"
+  ],
+  "sources": [
+    {
+      "titre": "Perplexity"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

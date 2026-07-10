@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Preuve de concept (POC)",
+  "terme_en": "Proof of Concept (POC)",
+  "sous_titre_fr": "Proof of Concept (POC)",
+  "sous_titre_en": "Preuve de concept",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Projet pilote de taille limitée visant à démontrer la faisabilité et la valeur d'un usage d'IA avant tout déploiement à grande échelle. Le POC réduit le risque · mais beaucoup de projets d'IA restent bloqués au stade du POC, faute d'avoir anticipé le passage à l'échelle. Un bon POC prépare la production, il ne s'y substitue pas.",
+  "definition_en": "A limited-scale pilot project aiming to demonstrate the feasibility and value of an AI use before any large-scale deployment. The POC reduces risk · but many AI projects stay stuck at the POC stage, for lack of anticipating scaling. A good POC prepares production, it does not replace it.",
+  "exemple_fr": "Une entreprise réussit un POC brillant en démo · puis échoue à le déployer, car les questions d'infrastructure, de gouvernance et d'adoption n'avaient pas été anticipées. C'est le « cimetière des POC » : des pilotes réussis qui ne passent jamais en production. Un bon POC pense dès le départ à l'après.",
+  "exemple_en": "A company succeeds with a brilliant POC in demo · then fails to deploy it, because infrastructure, governance and adoption questions had not been anticipated. It is the \"POC graveyard\": successful pilots that never reach production. A good POC thinks from the start about what comes after.",
+  "regard_fr": "Le POC est utile pour dérisquer · et dangereux quand il devient une fin en soi. La vraie question n'est pas « le POC marche-t-il ? » mais « comment passera-t-il à l'échelle ? ». Un POC qui ignore l'infrastructure, la gouvernance et l'adoption est un joli prototype voué au cimetière. Pensez production dès le pilote.",
+  "regard_en": "The POC is useful for de-risking · and dangerous when it becomes an end in itself. The real question is not \"does the POC work?\" but \"how will it scale?\". A POC that ignores infrastructure, governance and adoption is a pretty prototype destined for the graveyard. Think production from the pilot.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "deploiement-ia",
+    "roi-ia",
+    "cas-usage",
+    "build-vs-buy"
+  ],
+  "sources": [
+    {
+      "titre": "Méthodologies de gestion de projets IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

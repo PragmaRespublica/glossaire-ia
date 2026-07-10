@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Chief AI Officer",
+  "terme_en": "Chief AI Officer",
+  "sous_titre_fr": "Chief AI Officer (CAIO)",
+  "sous_titre_en": "Chief AI Officer",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Fonction de direction émergente, responsable de la stratégie IA d'une organisation : vision, gouvernance, priorisation des cas d'usage, conformité, conduite du changement. L'apparition du Chief AI Officer traduit la reconnaissance de l'IA comme enjeu stratégique transversal, méritant un pilotage au plus haut niveau · au-delà de la seule DSI.",
+  "definition_en": "An emerging executive function, responsible for an organisation's AI strategy: vision, governance, use-case prioritisation, compliance, change management. The appearance of the Chief AI Officer reflects the recognition of AI as a cross-cutting strategic issue, deserving top-level steering · beyond the IT department alone.",
+  "exemple_fr": "Une entreprise nomme un Chief AI Officer pour coordonner ses projets d'IA dispersés, cadrer la gouvernance et arbitrer les priorités. Résultat : moins de doublons, plus de cohérence, une conformité mieux gérée. La fonction n'est pas un gadget · elle répond à un besoin réel de pilotage transversal d'un sujet qui touche tous les métiers.",
+  "exemple_en": "A company appoints a Chief AI Officer to coordinate its scattered AI projects, frame governance and arbitrate priorities. The result: fewer duplicates, more coherence, better-managed compliance. The function is not a gadget · it answers a real need for cross-cutting steering of a topic that touches every business unit.",
+  "regard_fr": "L'émergence du Chief AI Officer signale une maturité : l'IA cesse d'être un sujet purement technique pour devenir un enjeu stratégique piloté au sommet. Mais attention au titre sans pouvoir réel. Ce qui compte n'est pas le poste, mais qu'une personne ait effectivement le mandat de coordonner, gouverner et arbitrer l'IA dans l'organisation.",
+  "regard_en": "The emergence of the Chief AI Officer signals maturity: AI ceases to be a purely technical topic to become a strategic issue steered at the top. But beware of the title without real power. What matters is not the position, but that a person actually has the mandate to coordinate, govern and arbitrate AI in the organisation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gouvernance-ia",
+    "metiers-ia",
+    "comite-ia",
+    "conduite-changement"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses sur les nouveaux rôles de l'IA en entreprise"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

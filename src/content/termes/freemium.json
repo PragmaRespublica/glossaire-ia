@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Modèle gratuit-payant (freemium)",
+  "terme_en": "Freemium",
+  "sous_titre_fr": "Gratuit-payant",
+  "sous_titre_en": "Freemium",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Modèle économique offrant un service de base gratuit pour attirer les utilisateurs, avec des fonctions avancées payantes. Omniprésent dans l'IA grand public, le modèle gratuit-payant a un coût caché : souvent, l'utilisateur gratuit « paie » avec ses données, qui peuvent servir à entraîner les modèles. La gratuité n'est jamais vraiment gratuite.",
+  "definition_en": "A business model offering a free basic service to attract users, with paid advanced features. Ubiquitous in consumer AI, the freemium model has a hidden cost: often, the free user \"pays\" with their data, which can serve to train the models. Free is never truly free.",
+  "exemple_fr": "Une version gratuite d'un assistant IA est séduisante · mais ses conditions précisent souvent que les conversations peuvent servir à entraîner les modèles. L'entreprise qui y saisit des données professionnelles « paie » sans le savoir avec son savoir-faire. Pour un usage professionnel, la version payante ou souveraine n'est pas un luxe, mais une précaution.",
+  "exemple_en": "A free version of an AI assistant is appealing · but its terms often specify that conversations can serve to train the models. The company entering professional data there \"pays\" unknowingly with its know-how. For professional use, the paid or sovereign version is not a luxury, but a precaution.",
+  "regard_fr": "Face à une IA gratuite, la question n'est pas « qu'est-ce que ça me coûte ? » mais « avec quoi est-ce que je paie ? ». Souvent, la réponse est : vos données. Pour un usage personnel anodin, c'est acceptable ; pour des données professionnelles, c'est un risque. « Si c'est gratuit, c'est vous le produit » vaut plus que jamais à l'ère de l'IA.",
+  "regard_en": "Facing a free AI, the question is not \"what does it cost me?\" but \"what am I paying with?\". Often, the answer is: your data. For a mundane personal use, that is acceptable; for professional data, it is a risk. \"If it's free, you're the product\" holds more than ever in the AI era.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "tarification-usage",
+    "donnees-personnelles",
+    "chatgpt",
+    "ia-fantome"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · gratuit-payant",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

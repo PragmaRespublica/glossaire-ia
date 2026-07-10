@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Cursor et les IDE IA",
+  "terme_en": "Cursor and AI IDEs",
+  "sous_titre_fr": "Cursor et les IDE IA",
+  "sous_titre_en": "Cursor and AI IDEs",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Environnement de développement (IDE) intégrant profondément l'IA générative pour assister les programmeurs : autocomplétion avancée, génération de fonctions, refactorisation, dialogue avec le code. Cursor et ses semblables transforment le métier de développeur · gains de productivité importants, mais nécessité de relire et de comprendre le code produit.",
+  "definition_en": "A development environment (IDE) deeply integrating generative AI to assist programmers: advanced autocompletion, function generation, refactoring, dialogue with the code. Cursor and its peers transform the developer's job · significant productivity gains, but the need to review and understand the produced code.",
+  "exemple_fr": "Un développeur décrit dans Cursor la fonctionnalité voulue ; l'IDE génère le code, propose des tests, explique ses choix. Sa productivité augmente nettement · mais il reste responsable de comprendre, valider et sécuriser ce qui est produit. L'IDE IA est un copilote surpuissant, pas un pilote automatique à qui déléguer sans contrôle.",
+  "exemple_en": "A developer describes in Cursor the desired feature; the IDE generates the code, proposes tests, explains its choices. Their productivity rises markedly · but they remain responsible for understanding, validating and securing what is produced. The AI IDE is a supercharged copilot, not an autopilot to delegate to without control.",
+  "regard_fr": "Les IDE IA comme Cursor décuplent la productivité des développeurs · et posent la question du maintien de la compétence. Un développeur qui ne comprend plus le code qu'il livre devient dépendant et vulnérable. La bonne posture : accélérer avec l'IA, sans cesser de comprendre. La vitesse ne doit jamais tuer la maîtrise.",
+  "regard_en": "AI IDEs like Cursor multiply developers' productivity · and raise the question of maintaining competence. A developer who no longer understands the code they ship becomes dependent and vulnerable. The right stance: accelerate with AI, without ceasing to understand. Speed must never kill mastery.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "generation-code",
+    "github-copilot",
+    "vibe-coding",
+    "deskilling"
+  ],
+  "sources": [
+    {
+      "titre": "Cursor",
+      "url": "https://cursor.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "GitHub Copilot",
+  "terme_en": "GitHub Copilot",
+  "sous_titre_fr": "GitHub Copilot",
+  "sous_titre_en": "GitHub Copilot",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Assistant de programmation développé par GitHub (Microsoft) et OpenAI, qui suggère du code en temps réel dans l'éditeur du développeur. Pionnier de la génération de code assistée, GitHub Copilot a popularisé cet usage · tout en soulevant des débats sur le droit d'auteur du code d'entraînement et la dépendance à un outil propriétaire.",
+  "definition_en": "A programming assistant developed by GitHub (Microsoft) and OpenAI, suggesting code in real time in the developer's editor. A pioneer of assisted code generation, GitHub Copilot popularised this use · while raising debates about the copyright of the training code and dependence on a proprietary tool.",
+  "exemple_fr": "GitHub Copilot suggère des lignes de code à mesure que le développeur écrit, accélérant nettement son travail. Mais son entraînement sur du code open source public a suscité des procès sur le respect des licences. Utiliser Copilot suppose d'en connaître les zones grises · et de vérifier que le code suggéré respecte les droits.",
+  "exemple_en": "GitHub Copilot suggests lines of code as the developer types, markedly speeding up their work. But its training on public open-source code sparked lawsuits over licence compliance. Using Copilot means knowing its grey areas · and verifying that the suggested code respects rights.",
+  "regard_fr": "GitHub Copilot a ouvert l'ère de la programmation assistée · avec ses promesses et ses zones d'ombre. La dépendance à un outil propriétaire, et les questions de licence sur le code appris, invitent à explorer aussi les alternatives ouvertes. Comme partout, l'enjeu est de profiter de l'outil sans s'y enfermer aveuglément.",
+  "regard_en": "GitHub Copilot opened the era of assisted programming · with its promises and grey zones. Dependence on a proprietary tool, and licence questions about the learned code, invite exploring open alternatives too. As everywhere, the challenge is to benefit from the tool without blindly locking into it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "generation-code",
+    "cursor",
+    "droits-auteur-ia",
+    "vibe-coding"
+  ],
+  "sources": [
+    {
+      "titre": "GitHub Copilot",
+      "url": "https://github.com/features/copilot"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

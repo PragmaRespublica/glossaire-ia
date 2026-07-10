@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Retour sur investissement IA",
+  "terme_en": "AI ROI",
+  "sous_titre_fr": "AI ROI, retour sur investissement",
+  "sous_titre_en": "AI return on investment",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Mesure de la valeur réellement créée par un projet d'IA rapportée à son coût total. Le retour sur investissement de l'IA est souvent surestimé dans les promesses et sous-mesuré dans les faits · beaucoup de projets ne calculent jamais leur ROI réel. L'exiger dès le cadrage distingue les projets utiles des expérimentations sans lendemain.",
+  "definition_en": "A measure of the value actually created by an AI project relative to its total cost. AI's return on investment is often overestimated in promises and under-measured in facts · many projects never calculate their real ROI. Demanding it from the scoping stage distinguishes useful projects from experiments with no future.",
+  "exemple_fr": "Une entreprise lance dix projets d'IA sans jamais mesurer leur retour. Une autre en lance trois, chacun avec un objectif chiffré et un suivi du ROI. La seconde investit mieux : elle sait ce qui marche, arrête ce qui échoue, et réinvestit dans ce qui rapporte. Mesurer le ROI transforme l'expérimentation en stratégie.",
+  "exemple_en": "A company launches ten AI projects without ever measuring their return. Another launches three, each with a quantified objective and ROI tracking. The second invests better: it knows what works, stops what fails, and reinvests in what pays. Measuring ROI turns experimentation into strategy.",
+  "regard_fr": "Le ROI est le grand absent de nombreux projets d'IA, lancés sur la foi de promesses jamais vérifiées. Exiger un objectif mesurable et un suivi dès le départ n'est pas de la défiance envers l'IA · c'est la condition d'un investissement adulte. Ce qui ne se mesure pas ne se pilote pas · et finit souvent en dépense pure.",
+  "regard_en": "ROI is the great absentee of many AI projects, launched on the faith of never-verified promises. Demanding a measurable objective and tracking from the start is not distrust of AI · it is the condition of an adult investment. What is not measured is not steered · and often ends as pure expense.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "cas-usage",
+    "poc",
+    "tco",
+    "adoption-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Études sur le retour sur investissement de l'IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

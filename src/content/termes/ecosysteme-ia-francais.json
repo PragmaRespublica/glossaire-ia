@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Écosystème IA français",
+  "terme_en": "French AI ecosystem",
+  "sous_titre_fr": "French AI ecosystem",
+  "sous_titre_en": "Écosystème IA français",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des acteurs français de l'IA : laboratoires (Mistral, Kyutai), infrastructures (OVHcloud, Scaleway), talents (une école mathématique réputée), initiatives publiques (France 2030). Cet écosystème dynamique fait de la France l'un des rares pays capables de peser dans l'IA mondiale · un atout de souveraineté à connaître et à soutenir.",
+  "definition_en": "The set of French AI players: labs (Mistral, Kyutai), infrastructure (OVHcloud, Scaleway), talent (a renowned mathematical school), public initiatives (France 2030). This dynamic ecosystem makes France one of the few countries able to weigh in global AI · a sovereignty asset to know and support.",
+  "exemple_fr": "Une entreprise française qui veut déployer une IA souveraine dispose désormais d'une chaîne complète nationale : un modèle Mistral, hébergé chez OVHcloud, intégré par une SSII française. Il y a peu, c'était impensable. L'écosystème IA français permet aujourd'hui de bâtir de bout en bout sans dépendre des géants américains.",
+  "exemple_en": "A French company wanting to deploy sovereign AI now has a complete national chain: a Mistral model, hosted on OVHcloud, integrated by a French IT firm. Not long ago, this was unthinkable. The French AI ecosystem now allows building end to end without depending on the American giants.",
+  "regard_fr": "L'écosystème IA français est un atout stratégique trop peu valorisé par les Français eux-mêmes. Chaque fois qu'une organisation choisit un acteur national plutôt qu'un géant américain, elle renforce cette chaîne d'autonomie. La souveraineté n'est pas qu'une affaire d'État : elle se construit par les choix quotidiens de chaque acheteur.",
+  "regard_en": "The French AI ecosystem is a strategic asset too little valued by the French themselves. Every time an organisation chooses a national player over an American giant, it strengthens this chain of autonomy. Sovereignty is not just a state matter: it is built through the daily choices of every buyer.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "mistral-ai",
+    "ovhcloud",
+    "kyutai",
+    "autonomie-strategique"
+  ],
+  "sources": [
+    {
+      "titre": "France 2030 · volet IA",
+      "url": "https://www.strategie.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

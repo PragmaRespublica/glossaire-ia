@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Licences open source (Apache 2.0, MIT)",
+  "terme_en": "Open-source licences",
+  "sous_titre_fr": "Open-source licences (Apache 2.0, MIT)",
+  "sous_titre_en": "Open-source licences",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Cadres juridiques régissant l'utilisation, la modification et la redistribution des logiciels et modèles open source. Les licences permissives (Apache 2.0, MIT) autorisent presque tout usage, y compris commercial ; d'autres sont plus restrictives. Lire la licence d'un modèle avant de l'utiliser est impératif · « open » ne signifie pas « libre de tout usage ».",
+  "definition_en": "Legal frameworks governing the use, modification and redistribution of open-source software and models. Permissive licences (Apache 2.0, MIT) authorise almost any use, including commercial; others are more restrictive. Reading a model's licence before using it is imperative · \"open\" does not mean \"free for any use\".",
+  "exemple_fr": "Une entreprise déploie un modèle « ouvert » sans lire sa licence · et découvre trop tard qu'elle interdit l'usage commercial au-delà d'un certain seuil. Le modèle Mistral sous Apache 2.0, lui, autorise tout. La différence de licence change radicalement ce qu'on a le droit de faire. Lire la licence n'est pas une formalité, c'est une nécessité juridique.",
+  "exemple_en": "A company deploys an \"open\" model without reading its licence · and discovers too late that it forbids commercial use beyond a certain threshold. The Mistral model under Apache 2.0, by contrast, authorises everything. The licence difference radically changes what one is allowed to do. Reading the licence is not a formality, it is a legal necessity.",
+  "regard_fr": "Les licences open source sont le socle juridique de la souveraineté par les communs : elles déterminent votre liberté réelle d'utiliser, modifier et maîtriser un modèle. Privilégier les licences permissives et les lire attentivement est un réflexe de base. La liberté technique n'a de valeur que si la licence la garantit.",
+  "regard_en": "Open-source licences are the legal foundation of sovereignty through the commons: they determine your real freedom to use, modify and control a model. Favouring permissive licences and reading them carefully is a basic reflex. Technical freedom is only worth something if the licence guarantees it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "open-source-ia",
+    "open-weights",
+    "interoperabilite",
+    "droits-auteur-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Open Source Initiative · licences approuvées"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

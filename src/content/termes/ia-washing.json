@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Écoblanchiment de l'IA (AI washing)",
+  "terme_en": "AI washing",
+  "sous_titre_fr": "AI washing",
+  "sous_titre_en": "Écoblanchiment de l'IA",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Pratique marketing consistant à exagérer ou inventer l'usage de l'IA dans un produit pour profiter de son attrait, sans réalité technique correspondante. À l'image du greenwashing, l'IA-washing trompe les clients et brouille l'évaluation des vraies innovations · une raison de plus d'exiger des preuves concrètes derrière chaque promesse d'IA.",
+  "definition_en": "A marketing practice of exaggerating or inventing the use of AI in a product to benefit from its appeal, without corresponding technical reality. Like greenwashing, AI washing deceives customers and blurs the assessment of real innovations · one more reason to demand concrete proof behind every AI promise.",
+  "exemple_fr": "Un logiciel se présente comme « propulsé par l'IA » alors qu'il applique de simples règles préprogrammées. Ce vernis marketing lui permet de se vendre plus cher. Face à toute promesse d'IA, la bonne question est concrète : quelle technique, pour quel résultat mesurable ? Si la réponse est floue, l'IA-washing n'est pas loin.",
+  "exemple_en": "A software presents itself as \"powered by AI\" when it applies simple pre-programmed rules. This marketing veneer lets it sell for more. Facing any AI promise, the right question is concrete: which technique, for what measurable result? If the answer is vague, AI washing is not far.",
+  "regard_fr": "L'IA-washing prospère sur le flou du terme « IA » et la crainte de passer pour dépassé. La parade est simple : exiger du concret. Un fournisseur incapable d'expliquer clairement ce que fait son IA et de le prouver vend probablement du vent. La lucidité sur le vocabulaire est la meilleure défense contre le marketing creux.",
+  "regard_en": "AI washing thrives on the vagueness of the term \"AI\" and the fear of seeming outdated. The countermeasure is simple: demand the concrete. A provider unable to clearly explain what its AI does and prove it is probably selling hot air. Lucidity about vocabulary is the best defence against hollow marketing.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "bulle-ia",
+    "intelligence-artificielle",
+    "ia-non-generative",
+    "roi-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses sur l'AI washing"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

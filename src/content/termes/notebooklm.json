@@ -1,0 +1,38 @@
+{
+  "terme_fr": "NotebookLM",
+  "terme_en": "NotebookLM",
+  "sous_titre_fr": "NotebookLM",
+  "sous_titre_en": "NotebookLM",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Outil de Google permettant de dialoguer avec ses propres documents : on téléverse des sources, et l'IA répond en s'appuyant uniquement sur elles, avec citations. NotebookLM illustre l'usage grand public du RAG · ancrer les réponses sur des sources fournies · popularisé notamment par sa fonction de génération de résumés audio.",
+  "definition_en": "A Google tool for dialoguing with one's own documents: you upload sources, and the AI answers relying solely on them, with citations. NotebookLM illustrates the consumer use of RAG · grounding answers on provided sources · popularised notably by its audio summary generation feature.",
+  "exemple_fr": "Un étudiant téléverse ses cours dans NotebookLM et interroge cette base : l'IA répond en citant ses documents, sans inventer. C'est un RAG grand public. Pratique pour réviser · mais pour des documents professionnels sensibles, l'outil restant hébergé chez Google, la question de la confidentialité des sources se pose comme ailleurs.",
+  "exemple_en": "A student uploads their courses into NotebookLM and queries this base: the AI answers citing their documents, without inventing. It is a consumer RAG. Handy for revising · but for sensitive professional documents, the tool remaining Google-hosted, the source confidentiality question arises as elsewhere.",
+  "regard_fr": "NotebookLM démocratise le RAG · une excellente porte d'entrée pour comprendre l'ancrage sur sources. Mais son usage grand public ne doit pas faire oublier que les documents téléversés partent chez Google. Pour découvrir le principe, c'est idéal · pour des données sensibles, une solution souveraine reste préférable.",
+  "regard_en": "NotebookLM democratises RAG · an excellent gateway to understanding source grounding. But its consumer use must not make people forget that uploaded documents go to Google. To discover the principle, it is ideal · for sensitive data, a sovereign solution remains preferable.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rag",
+    "ancrage",
+    "resume-automatique",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "NotebookLM",
+      "url": "https://notebooklm.google/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

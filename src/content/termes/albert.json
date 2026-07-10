@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Albert · l'IA de l'État français",
+  "terme_en": "Albert (French state AI)",
+  "sous_titre_fr": "Albert · l'IA de l'État français",
+  "sous_titre_en": "Albert (French state AI)",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Suite d'outils d'IA générative développée par et pour l'administration française (via la DINUM), fondée sur des modèles ouverts et une infrastructure souveraine. Albert illustre la volonté de l'État de se doter d'une IA maîtrisée pour ses agents · un exemple concret de souveraineté appliquée au service public.",
+  "definition_en": "A suite of generative AI tools developed by and for the French administration (via DINUM), based on open models and sovereign infrastructure. Albert illustrates the state's will to equip itself with controlled AI for its agents · a concrete example of sovereignty applied to public service.",
+  "exemple_fr": "Plutôt que d'équiper ses agents de ChatGPT, l'État français développe Albert : des outils d'IA fondés sur des modèles ouverts, hébergés en souveraineté, adaptés aux besoins de l'administration. Les données publiques et les questions des agents ne partent pas chez un acteur étranger. La souveraineté de l'État commence par ses propres outils.",
+  "exemple_en": "Rather than equipping its agents with ChatGPT, the French state develops Albert: AI tools based on open models, hosted sovereignly, adapted to the administration's needs. Public data and agents' questions do not go to a foreign player. State sovereignty starts with its own tools.",
+  "regard_fr": "Albert est un signal fort : l'État français refuse de confier son IA aux géants étrangers et construit la sienne, sur des communs ouverts. C'est un exemple à suivre pour toute organisation soucieuse de souveraineté · la preuve qu'une IA maîtrisée et publique n'est pas une utopie, mais un chantier déjà engagé.",
+  "regard_en": "Albert is a strong signal: the French state refuses to entrust its AI to foreign giants and builds its own, on open commons. It is an example to follow for any organisation concerned with sovereignty · proof that controlled, public AI is not a utopia, but an already-launched project.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-souveraine",
+    "ecosysteme-ia-francais",
+    "open-weights",
+    "cloud-souverain"
+  ],
+  "sources": [
+    {
+      "titre": "DINUM · Albert",
+      "url": "https://www.numerique.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

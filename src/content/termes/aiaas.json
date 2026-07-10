@@ -1,0 +1,38 @@
+{
+  "terme_fr": "IA en tant que service (AIaaS)",
+  "terme_en": "AI as a Service (AIaaS)",
+  "sous_titre_fr": "AI as a Service (AIaaS)",
+  "sous_titre_en": "IA en tant que service",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Modèle économique où l'IA est fournie à la demande via le cloud, sous forme d'API ou de services prêts à l'emploi, sans que le client ait à construire ni héberger les modèles. Pratique et rapide à adopter, l'AIaaS crée aussi une dépendance au fournisseur · un arbitrage classique entre facilité immédiate et souveraineté à long terme.",
+  "definition_en": "A business model where AI is provided on demand via the cloud, as APIs or ready-to-use services, without the client having to build or host the models. Convenient and quick to adopt, AIaaS also creates dependence on the provider · a classic trade-off between immediate ease and long-term sovereignty.",
+  "exemple_fr": "Une entreprise intègre en quelques jours une IA de transcription via une simple API AIaaS · rapide et sans infrastructure. Mais elle dépend désormais des prix, de la disponibilité et des conditions du fournisseur. L'AIaaS est idéal pour démarrer vite ; pour les usages stratégiques, la question de l'internalisation finit par se poser.",
+  "exemple_en": "A company integrates AI transcription in a few days via a simple AIaaS API · fast and infrastructure-free. But it now depends on the provider's prices, availability and terms. AIaaS is ideal for starting fast; for strategic uses, the question of internalisation eventually arises.",
+  "regard_fr": "L'AIaaS est le chemin le plus rapide vers l'IA · et la pente la plus glissante vers la dépendance. Pour tester et démarrer, c'est excellent. Mais pour les usages qui deviennent stratégiques, gardez à l'esprit l'arbitrage : la facilité du service loué contre la maîtrise de l'infrastructure possédée. Choisissez en conscience, pas par défaut.",
+  "regard_en": "AIaaS is the fastest path to AI · and the most slippery slope towards dependence. For testing and starting, it is excellent. But for uses that become strategic, keep in mind the trade-off: the ease of the rented service against the control of owned infrastructure. Choose consciously, not by default.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "tarification-usage",
+    "lock-in",
+    "build-vs-buy",
+    "llmops"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (IA en tant que service)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

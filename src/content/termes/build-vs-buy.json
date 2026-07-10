@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Développer ou acheter",
+  "terme_en": "Build vs buy",
+  "sous_titre_fr": "Développer ou acheter",
+  "sous_titre_en": "Build vs buy",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Arbitrage classique entre développer une solution d'IA en interne (build) ou adopter une solution existante du marché (buy). Le choix dépend du caractère stratégique de l'usage, des compétences disponibles, du coût total et de l'enjeu de souveraineté. Une décision structurante qu'il vaut mieux poser explicitement que subir par défaut.",
+  "definition_en": "A classic trade-off between developing an AI solution in-house (build) or adopting an existing market solution (buy). The choice depends on how strategic the use is, available skills, total cost and the sovereignty stake. A structuring decision better posed explicitly than suffered by default.",
+  "exemple_fr": "Pour un usage banal et non stratégique, acheter une solution du marché est souvent le bon choix · rapide et sans effort. Mais pour un usage cœur de métier, sur données sensibles, développer et maîtriser en interne peut valoir l'investissement · en indépendance et en souveraineté. Le bon arbitrage dépend de l'enjeu, jamais d'un principe unique.",
+  "exemple_en": "For a mundane, non-strategic use, buying a market solution is often the right choice · fast and effortless. But for a core-business use, on sensitive data, developing and controlling in-house can be worth the investment · in independence and sovereignty. The right trade-off depends on the stakes, never on a single principle.",
+  "regard_fr": "Le « build vs buy » est un arbitrage où la souveraineté doit peser autant que le coût immédiat. Acheter est plus rapide, mais crée une dépendance ; développer coûte plus, mais donne la maîtrise. La bonne question n'est pas « quel est le moins cher ? » mais « cet usage est-il assez stratégique pour justifier de le maîtriser ? ».",
+  "regard_en": "\"Build vs buy\" is a trade-off where sovereignty must weigh as much as immediate cost. Buying is faster, but creates dependence; building costs more, but gives control. The right question is not \"what is cheapest?\" but \"is this use strategic enough to justify controlling it?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "aiaas",
+    "lock-in",
+    "tco",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "Méthodologies d'arbitrage build vs buy"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

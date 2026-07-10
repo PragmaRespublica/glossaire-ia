@@ -1,0 +1,217 @@
+{
+  "cursor": {
+    "sous_titre_fr": "Cursor et les IDE IA",
+    "sous_titre_en": "Cursor and AI IDEs",
+    "definition_fr": "Environnement de développement (IDE) intégrant profondément l'IA générative pour assister les programmeurs : autocomplétion avancée, génération de fonctions, refactorisation, dialogue avec le code. Cursor et ses semblables transforment le métier de développeur · gains de productivité importants, mais nécessité de relire et de comprendre le code produit.",
+    "definition_en": "A development environment (IDE) deeply integrating generative AI to assist programmers: advanced autocompletion, function generation, refactoring, dialogue with the code. Cursor and its peers transform the developer's job · significant productivity gains, but the need to review and understand the produced code.",
+    "exemple_fr": "Un développeur décrit dans Cursor la fonctionnalité voulue ; l'IDE génère le code, propose des tests, explique ses choix. Sa productivité augmente nettement · mais il reste responsable de comprendre, valider et sécuriser ce qui est produit. L'IDE IA est un copilote surpuissant, pas un pilote automatique à qui déléguer sans contrôle.",
+    "exemple_en": "A developer describes in Cursor the desired feature; the IDE generates the code, proposes tests, explains its choices. Their productivity rises markedly · but they remain responsible for understanding, validating and securing what is produced. The AI IDE is a supercharged copilot, not an autopilot to delegate to without control.",
+    "regard_fr": "Les IDE IA comme Cursor décuplent la productivité des développeurs · et posent la question du maintien de la compétence. Un développeur qui ne comprend plus le code qu'il livre devient dépendant et vulnérable. La bonne posture : accélérer avec l'IA, sans cesser de comprendre. La vitesse ne doit jamais tuer la maîtrise.",
+    "regard_en": "AI IDEs like Cursor multiply developers' productivity · and raise the question of maintaining competence. A developer who no longer understands the code they ship becomes dependent and vulnerable. The right stance: accelerate with AI, without ceasing to understand. Speed must never kill mastery.",
+    "termes_lies": [
+      "generation-code",
+      "github-copilot",
+      "vibe-coding",
+      "deskilling"
+    ],
+    "sources": [
+      {
+        "titre": "Cursor",
+        "url": "https://cursor.com/"
+      }
+    ]
+  },
+  "github-copilot": {
+    "sous_titre_fr": "GitHub Copilot",
+    "sous_titre_en": "GitHub Copilot",
+    "definition_fr": "Assistant de programmation développé par GitHub (Microsoft) et OpenAI, qui suggère du code en temps réel dans l'éditeur du développeur. Pionnier de la génération de code assistée, GitHub Copilot a popularisé cet usage · tout en soulevant des débats sur le droit d'auteur du code d'entraînement et la dépendance à un outil propriétaire.",
+    "definition_en": "A programming assistant developed by GitHub (Microsoft) and OpenAI, suggesting code in real time in the developer's editor. A pioneer of assisted code generation, GitHub Copilot popularised this use · while raising debates about the copyright of the training code and dependence on a proprietary tool.",
+    "exemple_fr": "GitHub Copilot suggère des lignes de code à mesure que le développeur écrit, accélérant nettement son travail. Mais son entraînement sur du code open source public a suscité des procès sur le respect des licences. Utiliser Copilot suppose d'en connaître les zones grises · et de vérifier que le code suggéré respecte les droits.",
+    "exemple_en": "GitHub Copilot suggests lines of code as the developer types, markedly speeding up their work. But its training on public open-source code sparked lawsuits over licence compliance. Using Copilot means knowing its grey areas · and verifying that the suggested code respects rights.",
+    "regard_fr": "GitHub Copilot a ouvert l'ère de la programmation assistée · avec ses promesses et ses zones d'ombre. La dépendance à un outil propriétaire, et les questions de licence sur le code appris, invitent à explorer aussi les alternatives ouvertes. Comme partout, l'enjeu est de profiter de l'outil sans s'y enfermer aveuglément.",
+    "regard_en": "GitHub Copilot opened the era of assisted programming · with its promises and grey zones. Dependence on a proprietary tool, and licence questions about the learned code, invite exploring open alternatives too. As everywhere, the challenge is to benefit from the tool without blindly locking into it.",
+    "termes_lies": [
+      "generation-code",
+      "cursor",
+      "droits-auteur-ia",
+      "vibe-coding"
+    ],
+    "sources": [
+      {
+        "titre": "GitHub Copilot",
+        "url": "https://github.com/features/copilot"
+      }
+    ]
+  },
+  "perplexity": {
+    "sous_titre_fr": "Perplexity",
+    "sous_titre_en": "Perplexity",
+    "definition_fr": "Moteur de recherche augmenté par IA qui répond directement aux questions en synthétisant plusieurs sources web, avec citations. Perplexity illustre la nouvelle génération de recherche générative · pratique et rapide, mais qui capte l'attention avant le clic, bouleverse l'économie des éditeurs et pose la question de la fiabilité des synthèses.",
+    "definition_en": "An AI-augmented search engine that directly answers questions by synthesising several web sources, with citations. Perplexity illustrates the new generation of generative search · handy and fast, but capturing attention before the click, upending publishers' economy and raising the question of synthesis reliability.",
+    "exemple_fr": "Un utilisateur pose une question à Perplexity et reçoit une synthèse sourcée en quelques secondes, au lieu d'explorer dix liens. Gain de temps réel · mais il ne visite plus les sites, et doit vérifier que la synthèse n'a pas déformé les sources. La commodité a un coût pour l'écosystème de l'information · et parfois pour l'exactitude.",
+    "exemple_en": "A user asks Perplexity a question and receives a sourced synthesis in seconds, instead of exploring ten links. A real time saving · but they no longer visit the sites, and must verify the synthesis has not distorted the sources. Convenience has a cost for the information ecosystem · and sometimes for accuracy.",
+    "regard_fr": "Perplexity et la recherche générative changent notre rapport à l'information : on reçoit des réponses au lieu de chercher des sources. Confortable · et risqué, car déléguer la synthèse, c'est déléguer une part du jugement. Gardez le réflexe de vérifier, surtout sur ce qui compte. La réponse la plus fluide n'est pas la plus vraie.",
+    "regard_en": "Perplexity and generative search change our relationship with information: we receive answers instead of seeking sources. Convenient · and risky, for delegating the synthesis means delegating part of the judgment. Keep the reflex to verify, especially on what matters. The most fluent answer is not the truest.",
+    "termes_lies": [
+      "recherche-ia",
+      "rag",
+      "verification-faits",
+      "slop"
+    ],
+    "sources": [
+      {
+        "titre": "Perplexity"
+      }
+    ]
+  },
+  "notebooklm": {
+    "sous_titre_fr": "NotebookLM",
+    "sous_titre_en": "NotebookLM",
+    "definition_fr": "Outil de Google permettant de dialoguer avec ses propres documents : on téléverse des sources, et l'IA répond en s'appuyant uniquement sur elles, avec citations. NotebookLM illustre l'usage grand public du RAG · ancrer les réponses sur des sources fournies · popularisé notamment par sa fonction de génération de résumés audio.",
+    "definition_en": "A Google tool for dialoguing with one's own documents: you upload sources, and the AI answers relying solely on them, with citations. NotebookLM illustrates the consumer use of RAG · grounding answers on provided sources · popularised notably by its audio summary generation feature.",
+    "exemple_fr": "Un étudiant téléverse ses cours dans NotebookLM et interroge cette base : l'IA répond en citant ses documents, sans inventer. C'est un RAG grand public. Pratique pour réviser · mais pour des documents professionnels sensibles, l'outil restant hébergé chez Google, la question de la confidentialité des sources se pose comme ailleurs.",
+    "exemple_en": "A student uploads their courses into NotebookLM and queries this base: the AI answers citing their documents, without inventing. It is a consumer RAG. Handy for revising · but for sensitive professional documents, the tool remaining Google-hosted, the source confidentiality question arises as elsewhere.",
+    "regard_fr": "NotebookLM démocratise le RAG · une excellente porte d'entrée pour comprendre l'ancrage sur sources. Mais son usage grand public ne doit pas faire oublier que les documents téléversés partent chez Google. Pour découvrir le principe, c'est idéal · pour des données sensibles, une solution souveraine reste préférable.",
+    "regard_en": "NotebookLM democratises RAG · an excellent gateway to understanding source grounding. But its consumer use must not make people forget that uploaded documents go to Google. To discover the principle, it is ideal · for sensitive data, a sovereign solution remains preferable.",
+    "termes_lies": [
+      "rag",
+      "ancrage",
+      "resume-automatique",
+      "ia-souveraine"
+    ],
+    "sources": [
+      {
+        "titre": "NotebookLM",
+        "url": "https://notebooklm.google/"
+      }
+    ]
+  },
+  "sora": {
+    "sous_titre_fr": "Sora (OpenAI)",
+    "sous_titre_en": "Sora (OpenAI)",
+    "definition_fr": "Modèle de génération de vidéo développé par OpenAI, capable de produire des séquences réalistes à partir d'une description textuelle. Sora illustre les progrès fulgurants de la vidéo générative · un potentiel créatif immense, mais aussi une accélération des risques d'hypertrucage et de désinformation, et un coût énergétique élevé.",
+    "definition_en": "A video generation model developed by OpenAI, able to produce realistic sequences from a text description. Sora illustrates the lightning progress of generative video · immense creative potential, but also an acceleration of deepfake and disinformation risks, and a high energy cost.",
+    "exemple_fr": "Avec Sora, produire une courte vidéo réaliste ne demande qu'une description textuelle. Prodigieux pour la création · mais la même facilité permet de fabriquer de fausses scènes crédibles. Sora incarne la promesse et la menace de la vidéo générative · et l'urgence des dispositifs de provenance pour distinguer le réel du fabriqué.",
+    "exemple_en": "With Sora, producing a short realistic video requires only a text description. Prodigious for creation · but the same ease allows fabricating credible fake scenes. Sora embodies the promise and the threat of generative video · and the urgency of provenance mechanisms to distinguish the real from the fabricated.",
+    "regard_fr": "Sora marque une étape vertigineuse : bientôt, toute vidéo pourra être fabriquée sur commande. Face à cela, s'émerveiller ne suffit pas · il faut préparer nos défenses collectives : provenance vérifiable, éducation à l'image, cadre légal. La technologie avance vite ; notre capacité à en gérer les effets doit suivre.",
+    "regard_en": "Sora marks a dizzying step: soon, any video can be fabricated on demand. Facing this, marvelling is not enough · we must prepare our collective defences: verifiable provenance, image literacy, legal framework. Technology advances fast; our ability to manage its effects must keep up.",
+    "termes_lies": [
+      "generation-video",
+      "deepfake",
+      "c2pa",
+      "desinformation-ia"
+    ],
+    "sources": [
+      {
+        "titre": "OpenAI Sora"
+      }
+    ]
+  },
+  "mlops": {
+    "sous_titre_fr": "MLOps",
+    "sous_titre_en": "MLOps",
+    "definition_fr": "Ensemble de pratiques industrialisant le cycle de vie des modèles de machine learning : entraînement, déploiement, surveillance, réentraînement. Inspiré du DevOps, le MLOps apporte rigueur et reproductibilité à des projets d'IA souvent artisanaux · une discipline indispensable pour passer du prototype à la production fiable et maintenable.",
+    "definition_en": "A set of practices industrialising the machine learning model lifecycle: training, deployment, monitoring, retraining. Inspired by DevOps, MLOps brings rigour and reproducibility to often artisanal AI projects · an indispensable discipline for moving from prototype to reliable, maintainable production.",
+    "exemple_fr": "Une équipe déploie un modèle qui se dégrade sans qu'on le remarque, faute de surveillance. Avec des pratiques MLOps · monitoring, versionnage, réentraînement automatisé · la dérive aurait été détectée et corrigée à temps. Le MLOps est ce qui distingue un projet d'IA qui tient dans la durée d'un prototype qui s'effondre en silence.",
+    "exemple_en": "A team deploys a model that degrades unnoticed, for lack of monitoring. With MLOps practices · monitoring, versioning, automated retraining · the drift would have been detected and fixed in time. MLOps is what distinguishes an AI project that lasts from a prototype that silently collapses.",
+    "regard_fr": "Le MLOps rappelle une vérité oubliée dans l'euphorie de l'IA : un modèle n'est pas un livrable, c'est un système vivant à maintenir. La plupart des projets d'IA échouent non à cause du modèle, mais du manque d'industrialisation. Investir dans le MLOps, c'est choisir la durabilité plutôt que le prototype éphémère.",
+    "regard_en": "MLOps recalls a truth forgotten in AI's euphoria: a model is not a deliverable, it is a living system to maintain. Most AI projects fail not because of the model, but the lack of industrialisation. Investing in MLOps means choosing durability over the ephemeral prototype.",
+    "termes_lies": [
+      "llmops",
+      "monitoring",
+      "versionnage-modeles",
+      "deploiement-ia"
+    ],
+    "sources": [
+      {
+        "titre": "Documentation sur les pratiques MLOps"
+      }
+    ]
+  },
+  "llmops": {
+    "sous_titre_fr": "LLMOps",
+    "sous_titre_en": "LLMOps",
+    "definition_fr": "Déclinaison du MLOps spécifique aux grands modèles de langage : gestion des prompts, évaluation continue des réponses, surveillance des coûts et des hallucinations, orchestration des RAG et des agents. Le LLMOps répond aux défis propres des applications génératives · non déterministes, coûteuses et difficiles à évaluer.",
+    "definition_en": "A variant of MLOps specific to large language models: prompt management, continuous evaluation of responses, monitoring of costs and hallucinations, orchestration of RAGs and agents. LLMOps addresses the challenges specific to generative applications · non-deterministic, costly and hard to evaluate.",
+    "exemple_fr": "Une entreprise déploie un assistant génératif en production. Sans LLMOps, elle ne voit ni la dérive de qualité, ni l'envolée des coûts, ni les hallucinations. Avec des pratiques LLMOps · évaluation continue, suivi des coûts, gestion versionnée des prompts · elle pilote son assistant par la donnée plutôt que par l'intuition.",
+    "exemple_en": "A company deploys a generative assistant in production. Without LLMOps, it sees neither the quality drift, nor the cost surge, nor the hallucinations. With LLMOps practices · continuous evaluation, cost tracking, versioned prompt management · it steers its assistant by data rather than intuition.",
+    "regard_fr": "Le LLMOps est le chaînon manquant entre l'enthousiasme du prototype génératif et la fiabilité de la production. Déployer un LLM sans LLMOps, c'est piloter à l'aveugle un système coûteux et imprévisible. Cette discipline, encore jeune, sépare les projets qui tiennent de ceux qui dérivent · un investissement de maturité.",
+    "regard_en": "LLMOps is the missing link between the enthusiasm of the generative prototype and the reliability of production. Deploying a LLM without LLMOps means flying blind with a costly, unpredictable system. This discipline, still young, separates the projects that hold from those that drift · an investment in maturity.",
+    "termes_lies": [
+      "mlops",
+      "evaluation-llm",
+      "monitoring",
+      "taux-hallucination"
+    ],
+    "sources": [
+      {
+        "titre": "Documentation sur les pratiques LLMOps"
+      }
+    ]
+  },
+  "aiaas": {
+    "sous_titre_fr": "AI as a Service (AIaaS)",
+    "sous_titre_en": "IA en tant que service",
+    "definition_fr": "Modèle économique où l'IA est fournie à la demande via le cloud, sous forme d'API ou de services prêts à l'emploi, sans que le client ait à construire ni héberger les modèles. Pratique et rapide à adopter, l'AIaaS crée aussi une dépendance au fournisseur · un arbitrage classique entre facilité immédiate et souveraineté à long terme.",
+    "definition_en": "A business model where AI is provided on demand via the cloud, as APIs or ready-to-use services, without the client having to build or host the models. Convenient and quick to adopt, AIaaS also creates dependence on the provider · a classic trade-off between immediate ease and long-term sovereignty.",
+    "exemple_fr": "Une entreprise intègre en quelques jours une IA de transcription via une simple API AIaaS · rapide et sans infrastructure. Mais elle dépend désormais des prix, de la disponibilité et des conditions du fournisseur. L'AIaaS est idéal pour démarrer vite ; pour les usages stratégiques, la question de l'internalisation finit par se poser.",
+    "exemple_en": "A company integrates AI transcription in a few days via a simple AIaaS API · fast and infrastructure-free. But it now depends on the provider's prices, availability and terms. AIaaS is ideal for starting fast; for strategic uses, the question of internalisation eventually arises.",
+    "regard_fr": "L'AIaaS est le chemin le plus rapide vers l'IA · et la pente la plus glissante vers la dépendance. Pour tester et démarrer, c'est excellent. Mais pour les usages qui deviennent stratégiques, gardez à l'esprit l'arbitrage : la facilité du service loué contre la maîtrise de l'infrastructure possédée. Choisissez en conscience, pas par défaut.",
+    "regard_en": "AIaaS is the fastest path to AI · and the most slippery slope towards dependence. For testing and starting, it is excellent. But for uses that become strategic, keep in mind the trade-off: the ease of the rented service against the control of owned infrastructure. Choose consciously, not by default.",
+    "termes_lies": [
+      "tarification-usage",
+      "lock-in",
+      "build-vs-buy",
+      "llmops"
+    ],
+    "sources": [
+      {
+        "titre": "OQLF · Vitrine linguistique (IA en tant que service)",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+      }
+    ]
+  },
+  "tarification-usage": {
+    "sous_titre_fr": "API usage pricing",
+    "sous_titre_en": "Tarification à l'usage des API",
+    "definition_fr": "Modèle de facturation des API d'IA au prorata de la consommation, généralement en nombre de tokens traités (en entrée et en sortie). La tarification à l'usage est souple pour démarrer, mais peut réserver de mauvaises surprises à l'échelle · comprendre comment on est facturé est essentiel pour maîtriser ses coûts et arbitrer avec l'auto-hébergement.",
+    "definition_en": "A billing model for AI APIs proportional to consumption, generally in number of tokens processed (input and output). Usage-based pricing is flexible to start, but can hold nasty surprises at scale · understanding how you are billed is essential to control costs and arbitrate with self-hosting.",
+    "exemple_fr": "Une entreprise adopte une API facturée au token. À petite échelle, la facture est modeste. Mais en généralisant l'usage à toute l'organisation, elle explose. En calculant son TCO, elle réalise qu'auto-héberger un modèle ouvert reviendrait moins cher. La tarification à l'usage récompense les petits volumes, pénalise les grands.",
+    "exemple_en": "A company adopts a per-token billed API. At small scale, the bill is modest. But by generalising use across the organisation, it explodes. By calculating its TCO, it realises that self-hosting an open model would be cheaper. Usage-based pricing rewards small volumes, penalises large ones.",
+    "regard_fr": "La tarification à l'usage est séduisante au départ et piégeuse à l'échelle : ce qui coûte peu en test peut coûter cher en production généralisée. Le réflexe indispensable est de simuler son TCO sur 3 ans avant de s'engager · c'est souvent là que l'auto-hébergement souverain révèle son avantage économique, en plus de sa souveraineté.",
+    "regard_en": "Usage-based pricing is appealing at first and treacherous at scale: what costs little in testing can cost much in generalised production. The indispensable reflex is to simulate your 3-year TCO before committing · that is often where sovereign self-hosting reveals its economic advantage, on top of its sovereignty.",
+    "termes_lies": [
+      "token",
+      "tco",
+      "aiaas",
+      "roi-ia"
+    ],
+    "sources": [
+      {
+        "titre": "Documentation de tarification des API de LLM"
+      }
+    ]
+  },
+  "gpu-cloud": {
+    "sous_titre_fr": "GPU cloud",
+    "sous_titre_en": "Cloud GPU",
+    "definition_fr": "Offre cloud donnant accès à la demande à des processeurs graphiques (GPU) puissants pour entraîner ou exécuter des modèles d'IA, sans acheter le matériel. Le cloud GPU rend l'IA de pointe accessible sans investissement lourd · un levier d'autonomie quand il est proposé par des acteurs souverains comme Scaleway ou OVHcloud.",
+    "definition_en": "A cloud offering giving on-demand access to powerful graphics processors (GPUs) to train or run AI models, without buying the hardware. GPU cloud makes cutting-edge AI accessible without heavy investment · a lever of autonomy when offered by sovereign players like Scaleway or OVHcloud.",
+    "exemple_fr": "Une jeune pousse a besoin de GPU puissants pour entraîner son modèle, mais ne peut pas investir des centaines de milliers d'euros en matériel. Elle loue du cloud GPU chez un acteur européen : elle accède à la puissance nécessaire, à la demande, sur une infrastructure souveraine. Le cloud GPU démocratise l'accès au calcul intensif.",
+    "exemple_en": "A start-up needs powerful GPUs to train its model, but cannot invest hundreds of thousands of euros in hardware. It rents GPU cloud from a European player: it accesses the needed power, on demand, on sovereign infrastructure. GPU cloud democratises access to intensive compute.",
+    "regard_fr": "Le cloud GPU est un égalisateur d'accès à la puissance de calcul · à condition de choisir son fournisseur avec soin. Louer du GPU chez un acteur souverain plutôt qu'un hyperscaler américain, c'est accéder à la même puissance tout en gardant ses données et son autonomie. Le choix du fournisseur transforme un simple achat technique en décision stratégique.",
+    "regard_en": "GPU cloud is an equaliser of access to compute power · provided you choose your provider carefully. Renting GPUs from a sovereign player rather than an American hyperscaler means accessing the same power while keeping your data and autonomy. The choice of provider turns a mere technical purchase into a strategic decision.",
+    "termes_lies": [
+      "gpu",
+      "scaleway",
+      "ovhcloud",
+      "cloud-souverain"
+    ],
+    "sources": [
+      {
+        "titre": "Offres de cloud GPU (Scaleway, OVHcloud)",
+        "url": "https://www.scaleway.com/fr/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Cloud GPU",
+  "terme_en": "GPU cloud",
+  "sous_titre_fr": "GPU cloud",
+  "sous_titre_en": "Cloud GPU",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Offre cloud donnant accès à la demande à des processeurs graphiques (GPU) puissants pour entraîner ou exécuter des modèles d'IA, sans acheter le matériel. Le cloud GPU rend l'IA de pointe accessible sans investissement lourd · un levier d'autonomie quand il est proposé par des acteurs souverains comme Scaleway ou OVHcloud.",
+  "definition_en": "A cloud offering giving on-demand access to powerful graphics processors (GPUs) to train or run AI models, without buying the hardware. GPU cloud makes cutting-edge AI accessible without heavy investment · a lever of autonomy when offered by sovereign players like Scaleway or OVHcloud.",
+  "exemple_fr": "Une jeune pousse a besoin de GPU puissants pour entraîner son modèle, mais ne peut pas investir des centaines de milliers d'euros en matériel. Elle loue du cloud GPU chez un acteur européen : elle accède à la puissance nécessaire, à la demande, sur une infrastructure souveraine. Le cloud GPU démocratise l'accès au calcul intensif.",
+  "exemple_en": "A start-up needs powerful GPUs to train its model, but cannot invest hundreds of thousands of euros in hardware. It rents GPU cloud from a European player: it accesses the needed power, on demand, on sovereign infrastructure. GPU cloud democratises access to intensive compute.",
+  "regard_fr": "Le cloud GPU est un égalisateur d'accès à la puissance de calcul · à condition de choisir son fournisseur avec soin. Louer du GPU chez un acteur souverain plutôt qu'un hyperscaler américain, c'est accéder à la même puissance tout en gardant ses données et son autonomie. Le choix du fournisseur transforme un simple achat technique en décision stratégique.",
+  "regard_en": "GPU cloud is an equaliser of access to compute power · provided you choose your provider carefully. Renting GPUs from a sovereign player rather than an American hyperscaler means accessing the same power while keeping your data and autonomy. The choice of provider turns a mere technical purchase into a strategic decision.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gpu",
+    "scaleway",
+    "ovhcloud",
+    "cloud-souverain"
+  ],
+  "sources": [
+    {
+      "titre": "Offres de cloud GPU (Scaleway, OVHcloud)",
+      "url": "https://www.scaleway.com/fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

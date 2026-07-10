@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Tarification à l'usage des API",
+  "terme_en": "API usage pricing",
+  "sous_titre_fr": "API usage pricing",
+  "sous_titre_en": "Tarification à l'usage des API",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Modèle de facturation des API d'IA au prorata de la consommation, généralement en nombre de tokens traités (en entrée et en sortie). La tarification à l'usage est souple pour démarrer, mais peut réserver de mauvaises surprises à l'échelle · comprendre comment on est facturé est essentiel pour maîtriser ses coûts et arbitrer avec l'auto-hébergement.",
+  "definition_en": "A billing model for AI APIs proportional to consumption, generally in number of tokens processed (input and output). Usage-based pricing is flexible to start, but can hold nasty surprises at scale · understanding how you are billed is essential to control costs and arbitrate with self-hosting.",
+  "exemple_fr": "Une entreprise adopte une API facturée au token. À petite échelle, la facture est modeste. Mais en généralisant l'usage à toute l'organisation, elle explose. En calculant son TCO, elle réalise qu'auto-héberger un modèle ouvert reviendrait moins cher. La tarification à l'usage récompense les petits volumes, pénalise les grands.",
+  "exemple_en": "A company adopts a per-token billed API. At small scale, the bill is modest. But by generalising use across the organisation, it explodes. By calculating its TCO, it realises that self-hosting an open model would be cheaper. Usage-based pricing rewards small volumes, penalises large ones.",
+  "regard_fr": "La tarification à l'usage est séduisante au départ et piégeuse à l'échelle : ce qui coûte peu en test peut coûter cher en production généralisée. Le réflexe indispensable est de simuler son TCO sur 3 ans avant de s'engager · c'est souvent là que l'auto-hébergement souverain révèle son avantage économique, en plus de sa souveraineté.",
+  "regard_en": "Usage-based pricing is appealing at first and treacherous at scale: what costs little in testing can cost much in generalised production. The indispensable reflex is to simulate your 3-year TCO before committing · that is often where sovereign self-hosting reveals its economic advantage, on top of its sovereignty.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "token",
+    "tco",
+    "aiaas",
+    "roi-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation de tarification des API de LLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
