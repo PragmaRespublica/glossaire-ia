@@ -2,7 +2,7 @@
   "terme_fr": "MOOC",
   "terme_en": "MOOC",
   "sous_titre_fr": "Massive Open Online Course",
-  "sous_titre_en": "",
+  "sous_titre_en": "Massive Open Online Course",
   "axe": "economie",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Cours en ligne ouvert et massif, généralement gratuit ou peu coûteux, sans accompagnement individuel. Coursera, edX, OpenClassrooms en sont les principales plateformes. Excellent pour acquérir des notions, mais sans la profondeur d'une formation accompagnée et certifiante.",
-  "definition_en": "",
+  "definition_en": "A massive open online course, usually free or inexpensive, with no individual support. Coursera, edX and OpenClassrooms are the main platforms. Excellent for acquiring notions, but without the depth of a supported, certifying programme.",
   "exemple_fr": "Le MOOC \"DeepLearning.AI\" d'Andrew Ng a formé plus de 5 millions de personnes aux bases du machine learning. Excellent point de départ · mais sans coaching humain, sans projet d'entreprise, sans communauté de pairs : difficile d'en faire un levier business activable.",
-  "exemple_en": "",
+  "exemple_en": "Andrew Ng's \"DeepLearning.AI\" MOOC has taught the basics of machine learning to more than 5 million people. An excellent starting point · but without human coaching, a company project or a peer community, it is hard to turn into an actionable business lever.",
   "regard_fr": "Un MOOC vous donne des notions. Une formation accompagnée vous donne une méthode, des livrables, une certification et une communauté dans la durée. C'est la différence entre regarder et faire.",
-  "regard_en": "",
+  "regard_en": "A MOOC gives you notions. A supported training programme gives you a method, deliverables, a certification and a lasting community. It is the difference between watching and doing.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS n'est pas un MOOC : 50h structurées, 3 sessions de coaching humain, jury de certification",
-    "texte_en": "",
+    "texte_en": "FIARS is not a MOOC: 50 structured hours, 3 human coaching sessions, a certification jury",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

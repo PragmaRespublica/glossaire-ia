@@ -2,7 +2,7 @@
   "terme_fr": "CLOUD Act",
   "terme_en": "CLOUD Act",
   "sous_titre_fr": "Clarifying Lawful Overseas Use of Data Act",
-  "sous_titre_en": "",
+  "sous_titre_en": "Clarifying Lawful Overseas Use of Data Act",
   "axe": "reglementaire",
   "niveau": "intermediaire",
   "theme": "cadre-juridique",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Loi américaine adoptée en 2018 qui permet aux autorités américaines de réclamer des données stockées par des entreprises américaines, même si ces données sont physiquement hébergées à l'étranger. S'applique notamment à AWS, Microsoft Azure, Google Cloud · y compris quand leurs serveurs sont en France.",
-  "definition_en": "",
+  "definition_en": "An American law adopted in 2018 that allows US authorities to demand data stored by American companies, even when that data is physically hosted abroad. It applies in particular to AWS, Microsoft Azure and Google Cloud · including when their servers are in France.",
   "exemple_fr": "Une PME française héberge ses données dans Azure France. Le FBI peut obtenir un mandat américain obligeant Microsoft à transmettre ces données · sans en informer l'entreprise française et sans passer par la justice française. C'est précisément ce que le CLOUD Act autorise.",
-  "exemple_en": "",
+  "exemple_en": "A French SME hosts its data in Azure France. The FBI can obtain a US warrant compelling Microsoft to hand over that data · without informing the French company and without going through the French courts. That is precisely what the CLOUD Act allows.",
   "regard_fr": "Le CLOUD Act est le motif numéro un de la souveraineté technologique. Aucune clause contractuelle ne peut s'y opposer. La seule réponse est juridique : choisir une entreprise non soumise au droit américain.",
-  "regard_en": "",
+  "regard_en": "The CLOUD Act is the number one reason for technological sovereignty. No contractual clause can override it. The only answer is legal: choose a company not subject to American law.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos déploiements B2B sont conçus pour échapper structurellement au CLOUD Act",
-    "texte_en": "",
+    "texte_en": "Our B2B deployments are designed to be structurally beyond the reach of the CLOUD Act",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

@@ -2,7 +2,7 @@
   "terme_fr": "Multimodal",
   "terme_en": "Multimodal",
   "sous_titre_fr": "Modèles multimodaux",
-  "sous_titre_en": "",
+  "sous_titre_en": "Modèles multimodaux",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "architecture-modeles",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Modèle d'IA capable de traiter plusieurs types d'entrées (texte, image, son, vidéo) et parfois de produire plusieurs types de sorties. GPT-4o, Claude, Gemini sont nativement multimodaux pour le texte et l'image. Ouvre des cas d'usage nouveaux : analyse de captures d'écran, transcription audio, etc.",
-  "definition_en": "",
+  "definition_en": "An AI model capable of processing several types of input (text, image, sound, video) and sometimes producing several types of output. GPT-4o, Claude and Gemini are natively multimodal for text and images. This opens new use cases: screenshot analysis, audio transcription, and more.",
   "exemple_fr": "Un agent immobilier prend une photo d'un appartement avec son smartphone. Un LLM multimodal génère automatiquement la description, identifie les caractéristiques (parquet, hauteur sous plafond, exposition), et propose un argumentaire de vente. 5 minutes de travail au lieu de 30.",
-  "exemple_en": "",
+  "exemple_en": "An estate agent takes a photo of a flat with their smartphone. A multimodal LLM automatically generates the description, identifies the features (parquet flooring, ceiling height, orientation), and drafts a sales pitch. 5 minutes of work instead of 30.",
   "regard_fr": "Le multimodal multiplie les impacts énergétiques : une image en entrée équivaut à plusieurs milliers de tokens. À utiliser à bon escient · pas pour transcrire un texte qu'on aurait pu copier-coller.",
-  "regard_en": "",
+  "regard_en": "Multimodality multiplies energy impacts: one input image is equivalent to several thousand tokens. Use it wisely · not to transcribe a text you could have copied and pasted.",
   "schema": {
     "type": "none",
     "contenu": "",

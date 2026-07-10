@@ -2,7 +2,7 @@
   "terme_fr": "RGPD",
   "terme_en": "GDPR",
   "sous_titre_fr": "Règlement Général sur la Protection des Données",
-  "sous_titre_en": "",
+  "sous_titre_en": "General Data Protection Regulation",
   "axe": "reglementaire",
   "niveau": "fondamental",
   "theme": "cadre-juridique",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Règlement européen (UE 2016/679) en vigueur depuis 2018, qui encadre le traitement des données personnelles. Tout système d'IA qui traite des données identifiantes (noms, photos, données de connexion) doit respecter ses principes : licéité, minimisation, transparence, droits des personnes.",
-  "definition_en": "",
+  "definition_en": "The European regulation (EU 2016/679) in force since 2018, which governs the processing of personal data. Any AI system that processes identifying data (names, photos, connection data) must respect its principles: lawfulness, minimisation, transparency, individual rights.",
   "exemple_fr": "Une équipe RH veut alimenter un RAG avec les évaluations annuelles des collaborateurs. Le RGPD impose : information préalable des salariés, finalité explicite, durée de conservation définie, droit d'accès et de rectification. Sans ce travail, le RAG est illégal · quelles que soient ses performances.",
-  "exemple_en": "",
+  "exemple_en": "An HR team wants to feed a RAG with employees' annual reviews. The GDPR requires: informing staff in advance, an explicit purpose, a defined retention period, rights of access and rectification. Without this work, the RAG is illegal · whatever its performance.",
   "regard_fr": "RGPD et AI Act se complètent. Le RGPD régit le \"quoi\" des données traitées, l'AI Act le \"comment\" du système qui les traite. Avoir un DPO compétent qui comprend l'IA est incontournable.",
-  "regard_en": "",
+  "regard_en": "GDPR and the AI Act complement each other. The GDPR governs the \"what\" of the data processed, the AI Act the \"how\" of the system that processes it. Having a competent DPO who understands AI is indispensable.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS couvre RGPD et AI Act dans la Leçon 1 · vos obligations rendues concrètes",
-    "texte_en": "",
+    "texte_en": "FIARS covers GDPR and the AI Act in Lesson 1 · your obligations made concrete",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

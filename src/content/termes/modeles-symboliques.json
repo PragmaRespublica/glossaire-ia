@@ -2,7 +2,7 @@
   "terme_fr": "Modèles symboliques",
   "terme_en": "Symbolic AI",
   "sous_titre_fr": "Symbolic AI, IA symbolique",
-  "sous_titre_en": "",
+  "sous_titre_en": "IA symbolique",
   "axe": "fondamentaux",
   "niveau": "avance",
   "theme": "architecture-modeles",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Famille historique de l'IA qui repose sur la manipulation explicite de règles, de connaissances structurées (ontologies, graphes de connaissances) et de raisonnements logiques. Par opposition aux approches statistiques. Très utile dans des domaines où la traçabilité est requise.",
-  "definition_en": "",
+  "definition_en": "The historic family of AI, based on the explicit manipulation of rules, structured knowledge (ontologies, knowledge graphs) and logical reasoning. As opposed to statistical approaches. Very useful in domains where traceability is required.",
   "exemple_fr": "Le système expert d'une compagnie d'assurance santé applique 2 000 règles métier pour déterminer si un acte est remboursable. Chaque décision est traçable, auditable, et modifiable sans réentraînement. Un LLM ne pourrait pas garantir ce niveau de transparence.",
-  "exemple_en": "",
+  "exemple_en": "A health insurer's expert system applies 2,000 business rules to determine whether a procedure is reimbursable. Every decision is traceable, auditable, and modifiable without retraining. An LLM could not guarantee that level of transparency.",
   "regard_fr": "L'avenir de l'IA pourrait être hybride : combiner la puissance générative des LLM et la rigueur traçable de l'IA symbolique. Jocelyn Poncelet, notre CTO, est expert de cette approche neuro-symbolique.",
-  "regard_en": "",
+  "regard_en": "The future of AI may well be hybrid: combining the generative power of LLMs with the traceable rigour of symbolic AI. Jocelyn Poncelet, our CTO, is an expert in this neuro-symbolic approach.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Jocelyn Poncelet, CTO PragmaForma, maîtrise modèles symboliques et génératifs · visible dans FIARS",
-    "texte_en": "",
+    "texte_en": "Jocelyn Poncelet, PragmaForma's CTO, masters both symbolic and generative models · featured in FIARS",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

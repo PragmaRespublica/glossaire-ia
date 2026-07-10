@@ -2,7 +2,7 @@
   "terme_fr": "ACV · Analyse du Cycle de Vie",
   "terme_en": "Life Cycle Assessment (LCA)",
   "sous_titre_fr": "Life Cycle Assessment (LCA)",
-  "sous_titre_en": "",
+  "sous_titre_en": "Analyse du Cycle de Vie",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "impact-environnemental",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Méthode normée (ISO 14040 et 14044) qui évalue les impacts environnementaux d'un produit ou service tout au long de son cycle de vie · de l'extraction des matières premières à la fin de vie. Appliquée à l'IA, elle couvre la fabrication du matériel, l'entraînement du modèle, son inférence et son recyclage.",
-  "definition_en": "",
+  "definition_en": "A standardised method (ISO 14040 and 14044) that assesses the environmental impacts of a product or service across its entire life cycle · from raw material extraction to end of life. Applied to AI, it covers hardware manufacturing, model training, inference and recycling.",
   "exemple_fr": "L'entraînement de GPT-3 a émis environ 552 tonnes de CO₂eq, soit l'équivalent de 120 voitures pendant un an. Mais sur le cycle de vie complet, l'inférence (utilisation quotidienne) dépasse rapidement l'entraînement · 80 à 90% de l'impact total pour un modèle largement utilisé.",
-  "exemple_en": "",
+  "exemple_en": "Training GPT-3 emitted roughly 552 tonnes of CO₂eq, the equivalent of 120 cars over a year. But across the full life cycle, inference (daily use) quickly overtakes training · 80 to 90% of the total impact for a widely used model.",
   "regard_fr": "Communiquer la consommation d'un modèle uniquement à l'inférence est trompeur. Une ACV honnête intègre l'entraînement, l'infrastructure (GPU, refroidissement), et la fabrication du matériel.",
-  "regard_en": "",
+  "regard_en": "Reporting a model's consumption at inference only is misleading. An honest LCA includes training, infrastructure (GPUs, cooling), and hardware manufacturing.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Mesurer l'empreinte environnementale d'un outil IA est l'une des compétences activables de FIARS",
-    "texte_en": "",
+    "texte_en": "Measuring the environmental footprint of an AI tool is one of the actionable skills in FIARS",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

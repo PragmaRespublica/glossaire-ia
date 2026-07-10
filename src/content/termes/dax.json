@@ -2,7 +2,7 @@
   "terme_fr": "DAX",
   "terme_en": "DAX (Data Analysis Expressions)",
   "sous_titre_fr": "Data Analysis Expressions (Power BI)",
-  "sous_titre_en": "",
+  "sous_titre_en": "Data Analysis Expressions (Power BI)",
   "axe": "economie",
   "niveau": "intermediaire",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Langage de formules de Microsoft Power BI, utilisé pour créer des mesures et des colonnes calculées avancées. Permet de calculer des KPI complexes (croissance vs N-1, parts de marché, agrégations conditionnelles) à partir de modèles de données relationnels.",
-  "definition_en": "",
+  "definition_en": "The formula language of Microsoft Power BI, used to create measures and advanced calculated columns. It computes complex KPIs (year-on-year growth, market shares, conditional aggregations) from relational data models.",
   "exemple_fr": "Une formule DAX calcule la marge brute moyenne par région et par mois, en tenant compte des produits saisonniers et des promotions. Sans DAX, ce calcul nécessiterait des dizaines de feuilles Excel · avec DAX, une seule formule recalculée automatiquement.",
-  "exemple_en": "",
+  "exemple_en": "A DAX formula calculates average gross margin by region and by month, accounting for seasonal products and promotions. Without DAX, this calculation would take dozens of Excel sheets · with DAX, a single formula recalculated automatically.",
   "regard_fr": "DAX est puissant mais piège : ses subtilités (filter context, row context) sont source d'erreurs récurrentes. Une formation dédiée évite des mois d'autodidaxie inefficace.",
-  "regard_en": "",
+  "regard_en": "DAX is powerful but treacherous: its subtleties (filter context, row context) are a recurring source of errors. Dedicated training saves months of ineffective self-teaching.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Notre formation B2B \"Power BI · De la donnée à la décision\" couvre DAX sur 4 jours",
-    "texte_en": "",
+    "texte_en": "Our B2B training \"Power BI · From data to decision\" covers DAX over 4 days",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

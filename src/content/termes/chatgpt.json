@@ -2,7 +2,7 @@
   "terme_fr": "ChatGPT",
   "terme_en": "ChatGPT",
   "sous_titre_fr": "Conversational Pre-trained Transformer (OpenAI)",
-  "sous_titre_en": "",
+  "sous_titre_en": "Conversational Pre-trained Transformer (OpenAI)",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Application conversationnelle développée par OpenAI, lancée fin 2022, qui a popularisé les LLM auprès du grand public. Repose sur les modèles GPT et utilise l'apprentissage par renforcement avec retour humain (RLHF) pour produire des réponses utiles, sûres et alignées.",
-  "definition_en": "",
+  "definition_en": "A conversational application developed by OpenAI, launched in late 2022, which brought LLMs to the general public. Built on the GPT models and using reinforcement learning from human feedback (RLHF) to produce helpful, safe, aligned answers.",
   "exemple_fr": "Un commercial utilise ChatGPT (version gratuite) pour rédiger un email à un prospect. Sans précaution, le texte du prospect (incluant son nom, son entreprise, sa demande) est transmis à OpenAI aux États-Unis et peut être utilisé pour entraîner les futurs modèles. La version Enterprise et l'API rectifient ce comportement.",
-  "exemple_en": "",
+  "exemple_en": "A salesperson uses ChatGPT (free version) to draft an email to a prospect. Without precautions, the prospect's text (including their name, company and request) is sent to OpenAI in the United States and may be used to train future models. The Enterprise version and the API correct this behaviour.",
   "regard_fr": "ChatGPT grand public n'est pas une solution d'entreprise. Pour un usage professionnel, exigez ChatGPT Business ou Enterprise · ou mieux, choisissez une alternative souveraine comme Le Chat (Mistral).",
-  "regard_en": "",
+  "regard_en": "Consumer ChatGPT is not an enterprise solution. For professional use, insist on ChatGPT Business or Enterprise · or better, choose a sovereign alternative such as Le Chat (Mistral).",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "La formation FIARS couvre la maîtrise de ChatGPT et de ses alternatives souveraines",
-    "texte_en": "",
+    "texte_en": "The FIARS training covers mastering ChatGPT and its sovereign alternatives",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

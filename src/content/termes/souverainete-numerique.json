@@ -2,7 +2,7 @@
   "terme_fr": "Souveraineté numérique",
   "terme_en": "Digital sovereignty",
   "sous_titre_fr": "Digital sovereignty",
-  "sous_titre_en": "",
+  "sous_titre_en": "Souveraineté numérique",
   "axe": "souverainete",
   "niveau": "fondamental",
   "theme": "cadre-juridique",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Capacité d'un État, d'une organisation ou d'un individu à maîtriser ses choix technologiques, ses données, et ses infrastructures numériques sans dépendance critique vis-à-vis d'acteurs étrangers. Concerne autant le matériel que le logiciel, le cloud que les modèles d'IA.",
-  "definition_en": "",
+  "definition_en": "The capacity of a state, an organisation or an individual to control its technological choices, its data and its digital infrastructure without critical dependence on foreign players. It concerns hardware as much as software, the cloud as much as AI models.",
   "exemple_fr": "En 2020, AWS a coupé les services d'une entreprise française pour conformité au CLOUD Act, sans préavis. L'entreprise a perdu 3 jours d'activité, soit 800 000 € de CA. La souveraineté, c'est ce qui permet d'éviter ce scénario · ou de s'en relever rapidement.",
-  "exemple_en": "",
+  "exemple_en": "In 2020, AWS cut off a French company's services for CLOUD Act compliance, without notice. The company lost 3 days of business, i.e. €800,000 in revenue. Sovereignty is what lets you avoid this scenario · or recover from it quickly.",
   "regard_fr": "La souveraineté n'est pas une posture politique · c'est une décision opérationnelle. Quand 99% de vos données partent chez trois acteurs américains, vous n'avez plus de plan B en cas de hausse de prix, de panne ou de conflit géopolitique. La souveraineté, c'est l'optionnalité.",
-  "regard_en": "",
+  "regard_en": "Sovereignty is not a political posture · it is an operational decision. When 99% of your data sits with three American players, you have no plan B in case of price hikes, outages or geopolitical conflict. Sovereignty is optionality.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "La souveraineté est au cœur de la promesse FIARS et structure toutes nos offres B2B",
-    "texte_en": "",
+    "texte_en": "Sovereignty is at the heart of the FIARS promise and structures all our B2B offers",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

@@ -1,0 +1,162 @@
+{
+  "deploiement-ia": {
+    "sous_titre_en": "Putting an AI system into production",
+    "definition_en": "The operational rollout of an AI system in an organisation, after the prototype phase. It covers hosting infrastructure, integration with existing tools, user training, governance, continuous monitoring, and the update plan.",
+    "exemple_en": "An SME tested ChatGPT for 3 months. It decides to move to a structured deployment: Mistral hosted in-house, access via SSO, an AI charter, training for 80 employees, usage tracking by business unit. Duration: 8 weeks, with a 3-year TCO lower than ChatGPT Enterprise.",
+    "regard_en": "90% of AI projects never reach production. The main cause: jumping from prototype to deployment without a methodological framework. Anticipate infrastructure, governance and adoption questions from the POC phase onwards.",
+    "cta_texte_en": "Our \"Turnkey sovereign AI\" offer supports the full deployment cycle (from €7,500 excl. VAT)",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "distillation": {
+    "sous_titre_en": "Distillation de modèle",
+    "definition_en": "A technique in which a smaller model (the student) is trained to reproduce the outputs of a larger model (the teacher). The distilled model is faster, cheaper and less energy-hungry, at the cost of a slight loss in performance.",
+    "exemple_en": "Mistral 7B is partly a distillation of larger models. It fits on a single consumer GPU, consumes 10 to 50 times less than a GPT-4 · and remains perfectly suited to 90% of enterprise use cases (summarisation, classification, extraction).",
+    "regard_en": "Distillation is one of the most powerful levers for sobriety. No need to summon GPT-4 or Claude Opus to summarise an email. A small distilled model is more than enough for most everyday tasks.",
+    "cta_texte_en": "",
+    "cta_label_en": ""
+  },
+  "droits-auteur-ia": {
+    "sous_titre_en": "Copyright and related rights",
+    "definition_en": "The set of legal questions raised by the use of protected content to train AI models, and by the status of AI-generated works. European directive 2019/790 introduces a \"text and data mining\" exception for research, but allows rights holders to opt out.",
+    "exemple_en": "The New York Times is suing OpenAI for using its articles without authorisation to train GPT. Several similar lawsuits are under way worldwide. For organisations that want to fine-tune a model on their own data: no problem. For those using ChatGPT: legal liability remains unclear.",
+    "regard_en": "Copyright applied to AI is one of the most unstable regulatory work sites. Following the first court rulings is crucial for the creative and journalistic sectors. To limit risk: favour models trained on legally clear sources.",
+    "cta_texte_en": "",
+    "cta_label_en": ""
+  },
+  "dsi": {
+    "sous_titre_en": "IT department (CIO office)",
+    "definition_en": "The department responsible for an organisation's IT strategy, governance and operations. On AI matters, the IT department arbitrates infrastructure choices, supplier contracts and security policies, and plays a key role in applying the AI Act and the GDPR.",
+    "exemple_en": "Before deploying a sovereign RAG, the IT department assesses: technical feasibility (GPUs, storage), security (SSO integration, access rights), continuity (backups, recovery plan), TCO (total cost over 3 years). Without its go-ahead, no sustainable AI project is possible.",
+    "regard_en": "The best AI strategy is one co-built with the IT department from day one. A business initiative that bypasses IT usually fails when it is time to scale.",
+    "cta_texte_en": "Our managed hosting option is designed for organisations without an internal IT department",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "ecologits": {
+    "sous_titre_en": "Impact meter for LLMs",
+    "definition_en": "An open-source Python library developed by GenAI Impact that calculates the environmental footprint of LLM calls (energy, greenhouse gases, water, mineral resources). It integrates directly into code by replacing the official SDK imports.",
+    "exemple_en": "With Ecologits, a GPT-4o request producing 500 output tokens reveals: 1.7 Wh of energy, 1.2 g CO₂eq, 1.8 mL of water. Multiplied by 100 users and 50 requests a day, you get a tangible order of magnitude · and the basis for a rational trade-off.",
+    "regard_en": "Ecologits is currently the reference tool for measuring LLM impact in France. Integrate it from the prototyping stage to steer by data · not by intuition.",
+    "cta_texte_en": "Find Ecologits and the other footprint meters in our tools resources",
+    "cta_label_en": "See the tools →"
+  },
+  "embedding": {
+    "sous_titre_en": "Plongement vectoriel",
+    "definition_en": "A numerical representation of a text (word, sentence, document) as a vector of several hundred to several thousand dimensions. Two semantically close texts will have close embeddings in the vector space. It is the fundamental building block of RAG systems.",
+    "exemple_en": "In a legal RAG, the question \"What is the deadline for filing a complaint?\" is converted into an embedding, then compared with the embeddings of 10,000 legal articles. The 5 closest articles are retrieved and given to the LLM · which formulates an answer grounded in those sources.",
+    "regard_en": "The choice of embedding model determines the quality of your RAG more than the LLM itself. Sentence-Transformers (open source) or Mistral's models let you keep a sovereign architecture.",
+    "cta_texte_en": "Our B2B RAG deployments use sovereign embedding models by default",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "empreinte-carbone": {
+    "sous_titre_en": "Empreinte carbone",
+    "definition_en": "The quantity of greenhouse gases emitted to train and use an AI model, expressed in CO₂ equivalents. It depends on the model, the infrastructure, the energy mix of the hosting country and the efficiency of the data center.",
+    "exemple_en": "A GPT-4 request emits about 4 g CO₂eq in the United States (a heavily carbon-based electricity mix). The same request processed by Mistral hosted in France emits about 0.5 g CO₂eq · 8 times less, thanks to the largely nuclear and renewable French mix.",
+    "regard_en": "An LLM request in France emits 5 to 10 times less CO₂ than the same request in the United States. It is an often forgotten argument for sovereignty.",
+    "cta_texte_en": "Measuring and reducing the carbon footprint of your AI tools is one of the actionable skills in FIARS",
+    "cta_label_en": "See the training →"
+  },
+  "entrainement": {
+    "sous_titre_en": "A model's learning phase",
+    "definition_en": "The phase during which an AI model learns from a massive dataset. For an LLM, training means adjusting billions of parameters to minimise the error in predicting the next token. It is a very costly phase (compute, energy, time) that happens only once.",
+    "exemple_en": "Training GPT-4 reportedly required about 25,000 H100 GPUs for 90 days, at an estimated cost of 100 million dollars. By comparison, fine-tuning an existing model costs only a few thousand dollars · that difference in order of magnitude explains why few players train their own models.",
+    "regard_en": "You should never train an LLM from scratch. That is the business of Mistral, OpenAI, Anthropic, Meta. To adapt a model to your needs, the right lever is fine-tuning (or better still: RAG).",
+    "cta_texte_en": "FIARS distinguishes training, fine-tuning and RAG to help you choose",
+    "cta_label_en": "See the training →"
+  },
+  "ethique-ia": {
+    "sous_titre_en": "Éthique de l'IA",
+    "definition_en": "Reflection on the moral implications of developing and using AI. It covers in particular: fairness (bias, discrimination), transparency (explainability), accountability (who is answerable for an AI decision), respect for individuals (consent, privacy), and societal impact (employment, environment).",
+    "exemple_en": "A company tests an AI system to prioritise job applications. Ethics requires checking: does the model discriminate by origin, gender, age? Are candidates informed? Can a decision be contested? Without these answers, the system is technically operational but ethically questionable.",
+    "regard_en": "AI ethics does not oppose efficiency · it consolidates it. A biased system is a less reliable system, and therefore less economically effective. Ethics is a quality lever, not a constraint.",
+    "cta_texte_en": "The ORI-IA workshop provides a systematic way to address the ethical stakes of any AI project",
+    "cta_label_en": "See the training →"
+  },
+  "evaluation-llm": {
+    "sous_titre_en": "LLM Evaluation, Eval",
+    "definition_en": "A set of methods for measuring the quality of an LLM: relevance of answers, factual accuracy, compliance with the requested format, robustness to hostile prompts. It combines automated evaluations (benchmarks, metrics) and human evaluations (annotation, output comparison).",
+    "exemple_en": "Before putting a legal RAG into production, the team builds 500 test questions with their expected answers. Every model update is evaluated on this set: accuracy, correct source citation, absence of hallucinations. A 2% regression in accuracy blocks the deployment.",
+    "regard_en": "An LLM in production without continuous evaluation is an LLM drifting in silence. Evaluation must be systematic, automated and integrated into CI/CD · just like unit tests in software development.",
+    "cta_texte_en": "",
+    "cta_label_en": ""
+  },
+  "federated-learning": {
+    "sous_titre_en": "Apprentissage fédéré",
+    "definition_en": "A training approach in which the model is trained in a distributed way on data that stays with each participant. Only the model's parameters are shared, not the raw data. It pools learning without centralising sensitive data.",
+    "exemple_en": "Several hospitals want to train a radiology diagnosis model. Each keeps its patient images on site. Federated learning aggregates the learning without a single image leaving its home institution. An elegant answer to the GDPR.",
+    "regard_en": "Federated learning is under-used in Europe even though it offers an elegant answer to the GDPR. A path to sovereignty by construction, particularly suited to regulated sectors (healthcare, banking, defence).",
+    "cta_texte_en": "Our B2B deployments on sensitive data can include federated learning",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "fenetre-contextuelle": {
+    "sous_titre_en": "Fenêtre contextuelle",
+    "definition_en": "The maximum volume of text a language model can process at once, measured in tokens. Recent models offer windows ranging from 8,000 to 2 million tokens. The larger the window, the more context the model can take in · but the higher the cost and energy consumption.",
+    "exemple_en": "A 50-page contract represents about 30,000 tokens. A model with an 8,000-token window (like the historical GPT-3.5) cannot process that contract in one pass. Claude 3.5 (200,000 tokens) or Gemini 1.5 (2 million) can · at a higher cost.",
+    "regard_en": "A 1M-token window is not necessarily useful: \"lost in the middle\" means models often ignore information located in the centre of long contexts. A well-chunked RAG remains superior to a giant prompt.",
+    "cta_texte_en": "FIARS teaches you to arbitrate between extended windows and RAG depending on the use case",
+    "cta_label_en": "See the training →"
+  },
+  "fine-tuning": {
+    "sous_titre_en": "Affinage, ajustement supervisé",
+    "definition_en": "A technique that continues the training of an existing model on a specific dataset, to adapt it to a particular domain or style. More costly than RAG or prompting, but it durably teaches specific behaviours or knowledge.",
+    "exemple_en": "A law firm fine-tunes Mistral 7B on 50,000 anonymised contracts. The resulting model drafts standardised clauses in the house style, at a cost 100 times lower than a GPT-4 API · and all the data stays in-house.",
+    "regard_en": "In 80% of cases, a good RAG solves the problems people thought fine-tuning would solve · for 10% of the cost. Only fine-tune if RAG has failed.",
+    "cta_texte_en": "",
+    "cta_label_en": ""
+  },
+  "gemini": {
+    "sous_titre_en": "Google's AI assistant",
+    "definition_en": "A family of multimodal language models developed by Google DeepMind, launched in late 2023. Gemini is integrated into Google's tools (Workspace, Search, Android) and offers an exceptionally large context window (up to 2 million tokens on Gemini 1.5 Pro).",
+    "exemple_en": "A financial analyst feeds Gemini a 500-page annual report (200,000 tokens). In a single prompt, Gemini extracts the key KPIs, the risk areas mentioned, and the differences from the previous year. No RAG needed for this specific case.",
+    "regard_en": "Gemini is technically stunning, but its deep integration into Google Workspace raises data governance questions · always check the terms of use and opt-out options before an enterprise deployment.",
+    "cta_texte_en": "FIARS provides comparative mastery of Gemini, Claude, ChatGPT and Mistral",
+    "cta_label_en": "See the training →"
+  },
+  "gouvernance-ia": {
+    "sous_titre_en": "Gouvernance de l'IA",
+    "definition_en": "The set of structures, processes and rules that govern the use of AI in an organisation: AI committee, use-case register, validation process, roles (Chief AI Officer, AI Risk Officer), ethical review. AI governance is one of the pillars of the AI Act for high-risk systems.",
+    "exemple_en": "A mid-sized company sets up a quarterly AI committee with the DPO, the CISO, a business representative and the IT department. Every new AI use case goes through this committee with a standardised ORI-IA sheet. Six months later: 12 cases approved, 3 rejected, zero incidents.",
+    "regard_en": "Effective AI governance is not a talking-shop committee. It is a short, well-tooled process with traceable decisions. The ORI-IA workshop maps the essential minimum to get started.",
+    "cta_texte_en": "The ORI-IA workshop is included in FIARS and freely usable with your clients",
+    "cta_label_en": "See the training →"
+  },
+  "gpu": {
+    "sous_titre_en": "Graphics Processing Unit",
+    "definition_en": "A graphics processor originally designed for 3D rendering, now indispensable for AI thanks to its ability to run thousands of computations in parallel. NVIDIA largely dominates this market with its H100 and H200 cards, which cost between 25,000 and 40,000 dollars each.",
+    "exemple_en": "To run Mistral 7B in-house, a single NVIDIA A100 GPU (40 GB) is enough. Hosting Llama 70B takes a cluster of 4 A100 GPUs. The full training of GPT-4 reportedly mobilised about 25,000 H100 GPUs for several months.",
+    "regard_en": "NVIDIA's dominance of AI GPUs is a major geopolitical fragility for Europe. The alternatives (AMD MI300, Cerebras, Graphcore) are progressing but remain far behind the leader.",
+    "cta_texte_en": "FIARS lays out the GPU infrastructure stakes and the sovereign deployment options",
+    "cta_label_en": "See the training →"
+  },
+  "guardrails": {
+    "sous_titre_en": "Garde-fous, filtres de sécurité",
+    "definition_en": "Mechanisms added upstream or downstream of an LLM to block certain undesirable content or behaviour: forbidden topics, inappropriate language, data leaks, malicious prompts. They can be implemented as filters, as rules, or as another specialised AI model.",
+    "exemple_en": "A customer service chatbot automatically declines questions about competitors (output filter), blocks prompt injection attempts (input filter), and anonymises credit card numbers users may have typed by mistake (PII filtering). Three guardrails, three different stakes.",
+    "regard_en": "Guardrails are never perfect · a determined attacker can always get around them. Their role is to reduce the likelihood of accidental incidents, not to eliminate risk. Defence in depth remains essential.",
+    "cta_texte_en": "Our B2B deployments include guardrails tailored to your business context",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "hallucination": {
+    "sous_titre_en": "Confabulation",
+    "definition_en": "The phenomenon whereby a language model generates factually incorrect information delivered with confidence. Inherent to the statistical workings of LLMs, the risk of hallucination cannot be fully eliminated, only mitigated (RAG, source citation, verification).",
+    "exemple_en": "In 2023, an American lawyer submitted legal references generated by ChatGPT to a court · it turned out the model had invented six non-existent precedents. The judge's sanction: a fine and a note on the record. A hallucination can literally cost a career.",
+    "regard_en": "\"Hallucination\" is a misleading term: the model is not making a mistake, it is doing exactly what it was designed to do · predict the most probable next word. It has no access to the notion of truth.",
+    "cta_texte_en": "FIARS teaches you to design systems that mitigate hallucinations (RAG, sources, verification)",
+    "cta_label_en": "See the training →"
+  },
+  "hebergement-delegue": {
+    "sous_titre_en": "Hébergement délégué, infogérance",
+    "definition_en": "A model in which a provider manages the technical infrastructure (servers, GPUs, updates, monitoring) on behalf of a client, with no need for internal DevOps skills. It makes deploying sovereign AI possible without recruiting a dedicated technical team.",
+    "exemple_en": "A 50-person SME wants a sovereign RAG but has no IT department. PragmaForma deploys the infrastructure on OVHcloud, manages the monthly security updates, monitors availability 24/7, and guarantees intervention in case of incident. The SME pays €590 excl. VAT per month and focuses on its business.",
+    "regard_en": "Managed hosting democratises technical sovereignty. You no longer need an internal DevOps team to escape Big Tech · a trusted provider can take care of it.",
+    "cta_texte_en": "Our B2B managed hosting option covers infrastructure, updates and 24/7 monitoring",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "hugging-face": {
+    "sous_titre_en": "The open-source platform for AI",
+    "definition_en": "A Franco-American company founded in 2016 that hosts the largest open-source platform for AI models, datasets and tools. More than 1 million models are available for download, including Mistral, LLaMA and Stable Diffusion. It plays a structuring role in the global open-source ecosystem.",
+    "exemple_en": "To deploy a French text-classification model, a developer finds on Hugging Face: CamemBERT (French open source), an evaluation dataset, the integration code, and an interactive demo. Everything is free, modifiable, redistributable.",
+    "regard_en": "Hugging Face is one of the pillars of European AI sovereignty, even though the company is partly American. The more the open-source ecosystem it hosts is used, the more powerful and independent from Big Tech it will remain.",
+    "cta_texte_en": "Hugging Face is one of the key resources mentioned in our glossary and training programmes",
+    "cta_label_en": "Continue →"
+  }
+}

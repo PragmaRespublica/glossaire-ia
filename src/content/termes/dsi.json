@@ -2,7 +2,7 @@
   "terme_fr": "DSI",
   "terme_en": "CIO / IT department",
   "sous_titre_fr": "Direction des Systèmes d'Information",
-  "sous_titre_en": "",
+  "sous_titre_en": "IT department (CIO office)",
   "axe": "reglementaire",
   "niveau": "intermediaire",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Direction d'une organisation responsable de la stratégie, de la gouvernance et de l'exploitation des systèmes informatiques. En matière d'IA, la DSI arbitre les choix d'infrastructure, les contrats fournisseurs, les politiques de sécurité, et joue un rôle clé dans l'application de l'AI Act et du RGPD.",
-  "definition_en": "",
+  "definition_en": "The department responsible for an organisation's IT strategy, governance and operations. On AI matters, the IT department arbitrates infrastructure choices, supplier contracts and security policies, and plays a key role in applying the AI Act and the GDPR.",
   "exemple_fr": "Avant le déploiement d'un RAG souverain, la DSI évalue : faisabilité technique (GPU, stockage), sécurité (intégration SSO, gestion des droits), continuité (sauvegarde, plan de reprise), TCO (coût total sur 3 ans). Sans son go, aucun projet IA durable n'est possible.",
-  "exemple_en": "",
+  "exemple_en": "Before deploying a sovereign RAG, the IT department assesses: technical feasibility (GPUs, storage), security (SSO integration, access rights), continuity (backups, recovery plan), TCO (total cost over 3 years). Without its go-ahead, no sustainable AI project is possible.",
   "regard_fr": "La meilleure stratégie IA est celle co-construite avec la DSI dès le premier jour. Une initiative métier qui contourne la DSI échoue souvent au moment du passage à l'échelle.",
-  "regard_en": "",
+  "regard_en": "The best AI strategy is one co-built with the IT department from day one. A business initiative that bypasses IT usually fails when it is time to scale.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Notre option d'hébergement délégué est conçue pour les organisations sans DSI interne",
-    "texte_en": "",
+    "texte_en": "Our managed hosting option is designed for organisations without an internal IT department",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

@@ -2,7 +2,7 @@
   "terme_fr": "Vibe coding",
   "terme_en": "Vibe coding",
   "sous_titre_fr": "Programmation assistée par IA générative",
-  "sous_titre_en": "",
+  "sous_titre_en": "AI-assisted programming",
   "axe": "economie",
   "niveau": "intermediaire",
   "theme": "prompting-usage",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Pratique consistant à produire du code logiciel en décrivant l'intention en langage naturel à un LLM (Claude, ChatGPT, Cursor), plutôt qu'en écrivant la syntaxe ligne à ligne. Permet à des non-développeurs de prototyper des outils · ou à des développeurs d'accélérer leur productivité par 3 à 5.",
-  "definition_en": "",
+  "definition_en": "The practice of producing software code by describing the intent in natural language to an LLM (Claude, ChatGPT, Cursor), rather than writing the syntax line by line. It lets non-developers prototype tools · or developers multiply their productivity by 3 to 5.",
   "exemple_fr": "Une chef de projet, sans formation développeur, \"vibe code\" en 2 heures un mini outil interne de suivi de tickets : \"crée-moi une page web avec un formulaire pour ajouter des tâches, une liste qui les affiche, un bouton pour les marquer terminées\". Claude produit le code, elle le déploie. Avant l'IA générative, c'était irréaliste.",
-  "exemple_en": "",
+  "exemple_en": "A project manager with no developer training \"vibe codes\" a small internal ticket-tracking tool in 2 hours: \"build me a web page with a form to add tasks, a list that displays them, a button to mark them done\". Claude produces the code, she deploys it. Before generative AI, this was unrealistic.",
   "regard_fr": "Le vibe coding professionnel ne consiste pas à se passer de développeurs, mais à élargir le cercle de ceux qui peuvent prototyper. Pour la production, la revue par un développeur reste indispensable · un LLM peut produire du code qui fonctionne mais qui n'est ni sécurisé, ni maintenable.",
-  "regard_en": "",
+  "regard_en": "Professional vibe coding is not about doing without developers, but about widening the circle of those who can prototype. For production, review by a developer remains essential · an LLM can produce code that works but is neither secure nor maintainable.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "\"Apprendre le vibe coding professionnel en B2B\" est une compétence-clé de FIARS",
-    "texte_en": "",
+    "texte_en": "\"Learning professional vibe coding in B2B\" is a key skill in FIARS",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

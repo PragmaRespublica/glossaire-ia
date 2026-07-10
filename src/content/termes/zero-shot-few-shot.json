@@ -2,7 +2,7 @@
   "terme_fr": "Zero-shot / Few-shot",
   "terme_en": "Zero-shot / few-shot",
   "sous_titre_fr": "Apprentissage sans / avec quelques exemples",
-  "sous_titre_en": "",
+  "sous_titre_en": "Learning with zero / a few examples",
   "axe": "fondamentaux",
   "niveau": "avance",
   "theme": "prompting-usage",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Capacité d'un LLM à réaliser une tâche sans (zero-shot) ou avec quelques exemples (few-shot) fournis dans le prompt, sans réentraînement. C'est l'une des capacités émergentes les plus puissantes des LLM modernes · qui rend souvent le fine-tuning inutile.",
-  "definition_en": "",
+  "definition_en": "An LLM's ability to perform a task with no examples (zero-shot) or just a few examples (few-shot) provided in the prompt, without retraining. It is one of the most powerful emergent capabilities of modern LLMs · and often makes fine-tuning unnecessary.",
   "exemple_fr": "Pour classifier les emails entrants par catégorie, plutôt que de fine-tuner un modèle, on fournit dans le prompt 3-5 exemples annotés (\"voici un email type catégorie A : ..., voici un email type catégorie B : ...\"). Le LLM généralise et classifie les nouveaux emails avec une précision comparable au fine-tuning · pour 1/100ème du coût.",
-  "exemple_en": "",
+  "exemple_en": "To classify incoming emails by category, instead of fine-tuning a model, you provide 3-5 annotated examples in the prompt (\"here is a typical category A email: …, here is a typical category B email: …\"). The LLM generalises and classifies new emails with accuracy comparable to fine-tuning · for 1/100th of the cost.",
   "regard_fr": "Avant de lancer un projet de fine-tuning, testez d'abord en few-shot : 3 à 5 exemples bien choisis dans votre prompt résolvent souvent le problème pour 1/100ème du coût et de l'effort.",
-  "regard_en": "",
+  "regard_en": "Before launching a fine-tuning project, test few-shot first: 3 to 5 well-chosen examples in your prompt often solve the problem for 1/100th of the cost and effort.",
   "schema": {
     "type": "none",
     "contenu": "",

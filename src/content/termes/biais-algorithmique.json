@@ -2,7 +2,7 @@
   "terme_fr": "Biais algorithmique",
   "terme_en": "Algorithmic bias",
   "sous_titre_fr": "Bias, biais des modèles",
-  "sous_titre_en": "",
+  "sous_titre_en": "Bias, model bias",
   "axe": "responsabilite",
   "niveau": "fondamental",
   "theme": "evaluation-qualite",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Distorsion systématique dans les résultats d'un système d'IA, qui peut désavantager certaines populations ou produire des sorties non représentatives. Les biais peuvent provenir des données d'entraînement, du choix des variables, ou de la manière dont le modèle est optimisé.",
-  "definition_en": "",
+  "definition_en": "A systematic distortion in the outputs of an AI system that can disadvantage certain populations or produce unrepresentative results. Bias can stem from the training data, the choice of variables, or the way the model is optimised.",
   "exemple_fr": "Demandez à un générateur d'images \"un PDG en réunion\" : la grande majorité des images générées montrent des hommes blancs en costume. Ce biais reflète la sur-représentation de cette image dans les données d'entraînement scrapées du web · et risque d'amplifier des stéréotypes.",
-  "exemple_en": "",
+  "exemple_en": "Ask an image generator for \"a CEO in a meeting\": the vast majority of generated images show white men in suits. This bias reflects the over-representation of that image in training data scraped from the web · and risks amplifying stereotypes.",
   "regard_fr": "L'expression \"biais algorithmique\" euphémise un problème humain : ce sont les données et les choix de conception qui portent le biais. Le dataset CrowS-Pairs en français permet de mesurer ces biais sur les LLM.",
-  "regard_en": "",
+  "regard_en": "The phrase \"algorithmic bias\" euphemises a human problem: it is the data and the design choices that carry the bias. The French CrowS-Pairs dataset makes it possible to measure these biases in LLMs.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "La détection et correction des biais est l'une des compétences activables de la Leçon 2 de FIARS",
-    "texte_en": "",
+    "texte_en": "Detecting and correcting bias is one of the actionable skills in Lesson 2 of FIARS",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

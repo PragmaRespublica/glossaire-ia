@@ -2,7 +2,7 @@
   "terme_fr": "Power BI",
   "terme_en": "Power BI",
   "sous_titre_fr": "Plateforme de Business Intelligence Microsoft",
-  "sous_titre_en": "",
+  "sous_titre_en": "Microsoft's Business Intelligence platform",
   "axe": "economie",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Outil de visualisation et d'analyse de données développé par Microsoft. Permet de connecter des sources hétérogènes (Excel, bases SQL, ERP), de modéliser les relations, et de créer des tableaux de bord interactifs. Largement adopté en entreprise grâce à sa proximité avec l'écosystème Microsoft 365.",
-  "definition_en": "",
+  "definition_en": "A data visualisation and analysis tool developed by Microsoft. It connects heterogeneous sources (Excel, SQL databases, ERPs), models the relationships, and builds interactive dashboards. Widely adopted in companies thanks to its proximity to the Microsoft 365 ecosystem.",
   "exemple_fr": "Une direction commerciale connecte Power BI à son CRM et son ERP. En quelques jours, elle dispose d'un tableau de bord croisant pipeline, facturation, satisfaction client. Décisions plus rapides, conflits de chiffres entre directions résolus, gain de temps en COMEX : ~3h par mois.",
-  "exemple_en": "",
+  "exemple_en": "A sales department connects Power BI to its CRM and ERP. Within days, it has a dashboard crossing pipeline, invoicing and customer satisfaction. Faster decisions, figures disputes between departments resolved, time saved in executive meetings: ~3 hours a month.",
   "regard_fr": "Power BI est puissant, mais ses subtilités (modélisation, DAX, performance) sont sources d'erreurs récurrentes. Une formation structurée évite des mois d'autodidaxie inefficace · et des tableaux de bord faux.",
-  "regard_en": "",
+  "regard_en": "Power BI is powerful, but its subtleties (modelling, DAX, performance) are a recurring source of errors. Structured training avoids months of ineffective self-teaching · and wrong dashboards.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Notre formation B2B \"Power BI · De la donnée à la décision\" (4 jours) rend vos équipes opérationnelles",
-    "texte_en": "",
+    "texte_en": "Our B2B training \"Power BI · From data to decision\" (4 days) makes your teams operational",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

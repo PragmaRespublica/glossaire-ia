@@ -2,7 +2,7 @@
   "terme_fr": "Fine-tuning",
   "terme_en": "Fine-tuning",
   "sous_titre_fr": "Affinage, ajustement supervisé",
-  "sous_titre_en": "",
+  "sous_titre_en": "Affinage, ajustement supervisé",
   "axe": "fondamentaux",
   "niveau": "intermediaire",
   "theme": "entrainement-apprentissage",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Technique consistant à poursuivre l'entraînement d'un modèle pré-existant sur un jeu de données spécifique, pour l'adapter à un domaine ou un style particulier. Plus coûteux que le RAG ou le prompting, mais permet d'enseigner durablement des comportements ou des connaissances spécifiques.",
-  "definition_en": "",
+  "definition_en": "A technique that continues the training of an existing model on a specific dataset, to adapt it to a particular domain or style. More costly than RAG or prompting, but it durably teaches specific behaviours or knowledge.",
   "exemple_fr": "Un cabinet d'avocats fine-tune Mistral 7B sur 50 000 contrats anonymisés. Le modèle obtenu rédige des clauses standardisées en respectant le style maison, avec un coût 100 fois inférieur à une API GPT-4 · et toutes les données restent en interne.",
-  "exemple_en": "",
+  "exemple_en": "A law firm fine-tunes Mistral 7B on 50,000 anonymised contracts. The resulting model drafts standardised clauses in the house style, at a cost 100 times lower than a GPT-4 API · and all the data stays in-house.",
   "regard_fr": "Dans 80% des cas, un bon RAG résout les problèmes qu'on pensait pouvoir résoudre par fine-tuning · pour 10% du coût. Ne fine-tunez que si le RAG a échoué.",
-  "regard_en": "",
+  "regard_en": "In 80% of cases, a good RAG solves the problems people thought fine-tuning would solve · for 10% of the cost. Only fine-tune if RAG has failed.",
   "schema": {
     "type": "none",
     "contenu": "",

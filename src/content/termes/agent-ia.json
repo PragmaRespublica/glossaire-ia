@@ -2,7 +2,7 @@
   "terme_fr": "Agent IA",
   "terme_en": "AI agent",
   "sous_titre_fr": "IA agentique",
-  "sous_titre_en": "",
+  "sous_titre_en": "Agentic AI",
   "axe": "fondamentaux",
   "niveau": "avance",
   "theme": "rag-agents",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Un agent IA est un système qui utilise un modèle de langage pour planifier et exécuter des actions de manière autonome, en s'appuyant sur des outils externes (recherche web, API, code, bases de données). Contrairement à un simple assistant, un agent peut décomposer un objectif, agir, observer le résultat et itérer.",
-  "definition_en": "",
+  "definition_en": "An AI agent is a system that uses a language model to plan and carry out actions autonomously, relying on external tools (web search, APIs, code, databases). Unlike a simple assistant, an agent can break down a goal, act, observe the result and iterate.",
   "exemple_fr": "Un agent de veille réglementaire reçoit l'instruction \"synthétise les nouveautés CSRD de la semaine\". Il consulte EUR-Lex, télécharge les documents pertinents, en extrait les points clés via un LLM, vérifie les sources, puis produit une note structurée · le tout sans intervention humaine intermédiaire.",
-  "exemple_en": "",
+  "exemple_en": "A regulatory-watch agent receives the instruction \"summarise this week's CSRD updates\". It consults EUR-Lex, downloads the relevant documents, extracts the key points with an LLM, checks the sources, then produces a structured note · all without human intervention in between.",
   "regard_fr": "L'agentique multiplie les appels au modèle · donc les coûts énergétiques et financiers · par 5 à 50 pour une même tâche. Instrumenter ces systèmes est indispensable pour éviter la dérive incontrôlée des coûts et des impacts.",
-  "regard_en": "",
+  "regard_en": "Agentic AI multiplies calls to the model · and therefore energy and financial costs · by 5 to 50 for the same task. Instrumenting these systems is essential to avoid uncontrolled drift in costs and impacts.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "La Leçon 3 de FIARS est intégralement consacrée à l'IA agentique : conception, déploiement, gouvernance",
-    "texte_en": "",
+    "texte_en": "Lesson 3 of FIARS is entirely devoted to agentic AI: design, deployment, governance",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

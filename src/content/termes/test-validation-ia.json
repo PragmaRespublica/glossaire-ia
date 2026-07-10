@@ -2,7 +2,7 @@
   "terme_fr": "Test & validation IA",
   "terme_en": "AI testing & validation",
   "sous_titre_fr": "QA d'un système IA",
-  "sous_titre_en": "",
+  "sous_titre_en": "QA for AI systems",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "evaluation-qualite",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Ensemble de pratiques pour vérifier qu'un système d'IA fonctionne comme attendu avant et pendant son usage : tests unitaires sur les composants techniques, tests d'intégration sur les flux, tests d'acceptation utilisateur, tests de non-régression à chaque évolution.",
-  "definition_en": "",
+  "definition_en": "A set of practices to verify that an AI system works as expected before and during use: unit tests on technical components, integration tests on flows, user acceptance tests, non-regression tests at every change.",
   "exemple_fr": "Avant la mise en production d'un agent IA RH, l'équipe constitue 200 scénarios tests (questions piégeuses, cas limites, prompts hostiles). Chacun est rejoué automatiquement à chaque mise à jour. Une régression de comportement déclenche une alerte avant que des utilisateurs ne la rencontrent.",
-  "exemple_en": "",
+  "exemple_en": "Before putting an HR AI agent into production, the team builds 200 test scenarios (tricky questions, edge cases, hostile prompts). Each is replayed automatically at every update. A behavioural regression triggers an alert before users ever encounter it.",
   "regard_fr": "Les pratiques de QA logicielle sont sous-appliquées à l'IA · par méconnaissance, et parce que les sorties non déterministes compliquent la chose. C'est pourtant indispensable pour des systèmes IA en production : tester systématiquement protège votre marque et vos utilisateurs.",
-  "regard_en": "",
+  "regard_en": "Software QA practices are under-applied to AI · out of unfamiliarity, and because non-deterministic outputs complicate things. Yet they are essential for AI systems in production: systematic testing protects your brand and your users.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos déploiements B2B incluent un cadre de test adapté à votre criticité métier",
-    "texte_en": "",
+    "texte_en": "Our B2B deployments include a test framework adapted to how critical your business is",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

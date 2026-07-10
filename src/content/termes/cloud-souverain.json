@@ -2,7 +2,7 @@
   "terme_fr": "Cloud souverain",
   "terme_en": "Sovereign cloud",
   "sous_titre_fr": "Sovereign cloud",
-  "sous_titre_en": "",
+  "sous_titre_en": "Cloud souverain",
   "axe": "souverainete",
   "niveau": "intermediaire",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Infrastructure cloud opérée par une entité européenne, sur le territoire européen, et non soumise au droit extraterritorial américain. En France : OVHcloud, Scaleway, Outscale, Numspot. Le label SecNumCloud de l'ANSSI atteste un haut niveau d'exigence.",
-  "definition_en": "",
+  "definition_en": "Cloud infrastructure operated by a European entity, on European territory, and not subject to extraterritorial American law. In France: OVHcloud, Scaleway, Outscale, Numspot. The SecNumCloud label from ANSSI attests to a high level of requirements.",
   "exemple_fr": "Une mutuelle santé doit héberger les données médicales de ses adhérents. Choisir OVHcloud (souverain, certifié HDS) plutôt qu'AWS France n'est pas équivalent juridiquement : le second reste soumis au CLOUD Act, même avec ses serveurs en France.",
-  "exemple_en": "",
+  "exemple_en": "A health insurer must host its members' medical data. Choosing OVHcloud (sovereign, HDS-certified) rather than AWS France is not legally equivalent: the latter remains subject to the CLOUD Act, even with its servers in France.",
   "regard_fr": "\"Cloud européen\" et \"cloud souverain\" ne sont pas synonymes. Microsoft Azure hébergé en France reste soumis au droit américain. La souveraineté se joue sur trois plans : juridique, opérationnel, technique.",
-  "regard_en": "",
+  "regard_en": "\"European cloud\" and \"sovereign cloud\" are not synonyms. Microsoft Azure hosted in France remains subject to American law. Sovereignty plays out on three levels: legal, operational, technical.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos déploiements B2B utilisent par défaut des infrastructures cloud souveraines",
-    "texte_en": "",
+    "texte_en": "Our B2B deployments use sovereign cloud infrastructure by default",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

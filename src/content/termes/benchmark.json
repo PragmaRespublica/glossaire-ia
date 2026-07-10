@@ -2,7 +2,7 @@
   "terme_fr": "Benchmark",
   "terme_en": "Benchmark",
   "sous_titre_fr": "Évaluation comparative",
-  "sous_titre_en": "",
+  "sous_titre_en": "Comparative evaluation",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "evaluation-qualite",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Jeu de tests standardisés permettant de comparer les performances de différents modèles d'IA sur des tâches précises : MMLU (culture générale), HumanEval (code), GPQA (raisonnement scientifique), GSM8K (mathématiques). Permet de classer les modèles, mais avec des limites importantes.",
-  "definition_en": "",
+  "definition_en": "A set of standardised tests for comparing the performance of different AI models on specific tasks: MMLU (general knowledge), HumanEval (code), GPQA (scientific reasoning), GSM8K (mathematics). Useful for ranking models, but with significant limitations.",
   "exemple_fr": "Mistral Large obtient 81% sur MMLU, GPT-4 environ 86%. En apparence, GPT-4 gagne. Mais sur des tâches de résumé en français ou de raisonnement juridique européen, Mistral peut surperformer · preuve qu'un benchmark générique ne dit pas tout du cas d'usage réel.",
-  "exemple_en": "",
+  "exemple_en": "Mistral Large scores 81% on MMLU, GPT-4 around 86%. On the surface, GPT-4 wins. But on French summarisation or European legal reasoning tasks, Mistral can outperform it · proof that a generic benchmark never tells the whole story of your real use case.",
   "regard_fr": "Méfiez-vous des benchmarks : ils sont souvent contaminés (présents dans les données d'entraînement) et ne reflètent jamais votre cas d'usage spécifique. Le seul benchmark qui compte, c'est le vôtre.",
-  "regard_en": "",
+  "regard_en": "Be wary of benchmarks: they are often contaminated (present in the training data) and never reflect your specific use case. The only benchmark that matters is your own.",
   "schema": {
     "type": "none",
     "contenu": "",

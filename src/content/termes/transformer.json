@@ -2,7 +2,7 @@
   "terme_fr": "Transformer",
   "terme_en": "Transformer",
   "sous_titre_fr": "Architecture transformer",
-  "sous_titre_en": "",
+  "sous_titre_en": "Architecture transformer",
   "axe": "fondamentaux",
   "niveau": "avance",
   "theme": "architecture-modeles",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Architecture de réseau de neurones introduite par Google en 2017 (\"Attention is All You Need\"), qui est à la base de tous les LLM modernes. Son innovation clé est le mécanisme d'attention, qui permet au modèle de pondérer dynamiquement l'importance des différents éléments du contexte.",
-  "definition_en": "",
+  "definition_en": "A neural network architecture introduced by Google in 2017 (\"Attention is All You Need\"), which underpins all modern LLMs. Its key innovation is the attention mechanism, which lets the model dynamically weigh the importance of the different elements of the context.",
   "exemple_fr": "Dans la phrase \"L'avocat de la défense plaide pour son client\", le transformer apprend à associer \"avocat\" à \"défense\" et \"client\" plutôt qu'au fruit. Cette capacité de désambiguïsation par le contexte est ce qui rend les LLM si puissants.",
-  "exemple_en": "",
+  "exemple_en": "In the sentence \"The defence counsel pleads for his client\", the transformer learns to associate \"counsel\" with \"defence\" and \"client\" rather than with advice. This ability to disambiguate through context is what makes LLMs so powerful.",
   "regard_fr": "Toute la révolution de l'IA générative repose sur cette architecture publiée en 2017. Comprendre ses principes (sans les maths) aide à anticiper ses limites : coût quadratique avec la longueur du contexte.",
-  "regard_en": "",
+  "regard_en": "The entire generative AI revolution rests on this architecture published in 2017. Understanding its principles (without the maths) helps you anticipate its limits: quadratic cost with context length.",
   "schema": {
     "type": "none",
     "contenu": "",

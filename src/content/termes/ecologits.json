@@ -2,7 +2,7 @@
   "terme_fr": "Ecologits",
   "terme_en": "EcoLogits",
   "sous_titre_fr": "Compteur d'impact des LLM",
-  "sous_titre_en": "",
+  "sous_titre_en": "Impact meter for LLMs",
   "axe": "responsabilite",
   "niveau": "fondamental",
   "theme": "impact-environnemental",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Bibliothèque Python open source développée par GenAI Impact, qui calcule l'empreinte environnementale des appels à des LLM (énergie, gaz à effet de serre, eau, ressources minérales). Elle s'intègre directement dans le code en remplaçant les imports des SDK officiels.",
-  "definition_en": "",
+  "definition_en": "An open-source Python library developed by GenAI Impact that calculates the environmental footprint of LLM calls (energy, greenhouse gases, water, mineral resources). It integrates directly into code by replacing the official SDK imports.",
   "exemple_fr": "Avec Ecologits, une requête à GPT-4o de 500 tokens en sortie révèle : 1,7 Wh d'énergie, 1,2 g CO₂eq, 1,8 mL d'eau. Multiplié par 100 utilisateurs et 50 requêtes par jour, on obtient un ordre de grandeur tangible · et la base d'un arbitrage rationnel.",
-  "exemple_en": "",
+  "exemple_en": "With Ecologits, a GPT-4o request producing 500 output tokens reveals: 1.7 Wh of energy, 1.2 g CO₂eq, 1.8 mL of water. Multiplied by 100 users and 50 requests a day, you get a tangible order of magnitude · and the basis for a rational trade-off.",
   "regard_fr": "Ecologits est aujourd'hui l'outil de référence pour mesurer l'impact des LLM en France. À intégrer dès le prototypage pour piloter par la donnée · pas par l'intuition.",
-  "regard_en": "",
+  "regard_en": "Ecologits is currently the reference tool for measuring LLM impact in France. Integrate it from the prototyping stage to steer by data · not by intuition.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Retrouvez Ecologits et les autres compteurs d'empreinte dans nos ressources outils",
-    "texte_en": "",
+    "texte_en": "Find Ecologits and the other footprint meters in our tools resources",
     "label_fr": "Voir les outils →",
-    "label_en": "",
+    "label_en": "See the tools →",
     "url": "/ressources/outils"
   },
   "statut": "a_relire"

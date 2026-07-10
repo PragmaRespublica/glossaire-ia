@@ -2,7 +2,7 @@
   "terme_fr": "Évaluation des LLM",
   "terme_en": "LLM evaluation",
   "sous_titre_fr": "LLM Evaluation, Eval",
-  "sous_titre_en": "",
+  "sous_titre_en": "LLM Evaluation, Eval",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "evaluation-qualite",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Ensemble de méthodes pour mesurer la qualité d'un LLM : pertinence des réponses, exactitude factuelle, conformité au format demandé, robustesse aux prompts hostiles. Combine évaluations automatisées (benchmarks, métriques) et évaluations humaines (annotation, comparaison de sorties).",
-  "definition_en": "",
+  "definition_en": "A set of methods for measuring the quality of an LLM: relevance of answers, factual accuracy, compliance with the requested format, robustness to hostile prompts. It combines automated evaluations (benchmarks, metrics) and human evaluations (annotation, output comparison).",
   "exemple_fr": "Avant de mettre en production un RAG juridique, l'équipe constitue 500 questions tests avec leurs réponses attendues. Chaque mise à jour du modèle est évaluée sur ce jeu : accuracy, citation correcte des sources, absence d'hallucinations. Une régression de 2% sur l'accuracy bloque le déploiement.",
-  "exemple_en": "",
+  "exemple_en": "Before putting a legal RAG into production, the team builds 500 test questions with their expected answers. Every model update is evaluated on this set: accuracy, correct source citation, absence of hallucinations. A 2% regression in accuracy blocks the deployment.",
   "regard_fr": "Un LLM en production sans évaluation continue est un LLM qui dérive en silence. L'évaluation doit être systématique, automatisée et intégrée au CI/CD · au même titre que les tests unitaires en développement logiciel.",
-  "regard_en": "",
+  "regard_en": "An LLM in production without continuous evaluation is an LLM drifting in silence. Evaluation must be systematic, automated and integrated into CI/CD · just like unit tests in software development.",
   "schema": {
     "type": "none",
     "contenu": "",

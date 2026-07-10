@@ -2,7 +2,7 @@
   "terme_fr": "Éthique de l'IA",
   "terme_en": "AI ethics",
   "sous_titre_fr": "AI Ethics",
-  "sous_titre_en": "",
+  "sous_titre_en": "Éthique de l'IA",
   "axe": "responsabilite",
   "niveau": "fondamental",
   "theme": "cadre-juridique",
@@ -11,11 +11,11 @@
     "ori"
   ],
   "definition_fr": "Réflexion sur les implications morales du développement et de l'usage de l'IA. Concerne notamment : équité (biais, discrimination), transparence (explicabilité), responsabilité (qui est imputable d'une décision IA), respect des personnes (consentement, vie privée), impact sociétal (emploi, environnement).",
-  "definition_en": "",
+  "definition_en": "Reflection on the moral implications of developing and using AI. It covers in particular: fairness (bias, discrimination), transparency (explainability), accountability (who is answerable for an AI decision), respect for individuals (consent, privacy), and societal impact (employment, environment).",
   "exemple_fr": "Une entreprise teste un système d'IA pour prioriser ses candidatures. L'éthique impose de vérifier : le modèle discrimine-t-il selon l'origine, le genre, l'âge ? Les candidats sont-ils informés ? Une décision peut-elle être contestée ? Sans ces réponses, le système est techniquement opérationnel mais éthiquement contestable.",
-  "exemple_en": "",
+  "exemple_en": "A company tests an AI system to prioritise job applications. Ethics requires checking: does the model discriminate by origin, gender, age? Are candidates informed? Can a decision be contested? Without these answers, the system is technically operational but ethically questionable.",
   "regard_fr": "L'éthique de l'IA ne s'oppose pas à l'efficacité · elle la consolide. Un système biaisé est un système moins fiable, donc moins performant économiquement. L'éthique est un levier qualité, pas une contrainte.",
-  "regard_en": "",
+  "regard_en": "AI ethics does not oppose efficiency · it consolidates it. A biased system is a less reliable system, and therefore less economically effective. Ethics is a quality lever, not a constraint.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "L'atelier ORI-IA permet d'aborder systématiquement les enjeux éthiques de tout projet IA",
-    "texte_en": "",
+    "texte_en": "The ORI-IA workshop provides a systematic way to address the ethical stakes of any AI project",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

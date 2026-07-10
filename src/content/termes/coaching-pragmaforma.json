@@ -2,7 +2,7 @@
   "terme_fr": "Coaching IA",
   "terme_en": "PragmaForma coaching",
   "sous_titre_fr": "Accompagnement individualisé",
-  "sous_titre_en": "",
+  "sous_titre_en": "Personalised guidance",
   "axe": "economie",
   "niveau": "intermediaire",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Accompagnement personnalisé d'un apprenant ou d'une équipe par un expert, en complément des contenus pédagogiques. Permet de débloquer des situations spécifiques, d'adapter les concepts à un contexte métier, et de répondre à des questions précises qu'aucun cours générique ne traite.",
-  "definition_en": "",
+  "definition_en": "Personalised support for a learner or a team by an expert, complementing the learning content. It unblocks specific situations, adapts concepts to a business context, and answers precise questions that no generic course addresses.",
   "exemple_fr": "Pendant son coaching FIARS, un participant demande comment intégrer un RAG à son intranet SharePoint. L'expert montre, en direct, comment connecter LangChain à SharePoint via API Graph · un cas concret qui ne figurerait dans aucun support générique.",
-  "exemple_en": "",
+  "exemple_en": "During their FIARS coaching, a participant asks how to integrate a RAG with their SharePoint intranet. The expert shows, live, how to connect LangChain to SharePoint via the Graph API · a concrete case that would never appear in generic material.",
   "regard_fr": "Le coaching est ce qui fait la différence entre \"savoir\" et \"savoir-faire\". Trois sessions de coaching humain valent souvent mieux que vingt heures de vidéo asynchrone.",
-  "regard_en": "",
+  "regard_en": "Coaching is what makes the difference between \"knowing\" and \"knowing how\". Three sessions of human coaching are often worth more than twenty hours of asynchronous video.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS inclut 3 sessions de coaching avec un expert technique · réponse en moins de 24h",
-    "texte_en": "",
+    "texte_en": "FIARS includes 3 coaching sessions with a technical expert · answers within 24 hours",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

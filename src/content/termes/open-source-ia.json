@@ -2,7 +2,7 @@
   "terme_fr": "Open source (IA)",
   "terme_en": "Open-source AI",
   "sous_titre_fr": "Open weights, modèles ouverts",
-  "sous_titre_en": "",
+  "sous_titre_en": "Open weights, modèles ouverts",
   "axe": "souverainete",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Modèle d'IA dont les poids (paramètres entraînés) sont publiquement disponibles et peuvent être téléchargés, modifiés et déployés librement, sous une licence permissive. À distinguer du \"fully open source\" qui inclurait aussi les données d'entraînement et le code complet.",
-  "definition_en": "",
+  "definition_en": "An AI model whose weights (trained parameters) are publicly available and can be freely downloaded, modified and deployed under a permissive licence. To be distinguished from \"fully open source\", which would also include the training data and the complete code.",
   "exemple_fr": "Mistral 7B est sous licence Apache 2.0 : usage commercial libre, modifications autorisées, redistribution permise. À l'opposé, LLaMA 3 a une licence custom qui interdit l'usage commercial au-delà de 700 millions d'utilisateurs actifs mensuels. Lire la licence avant de coder est non négociable.",
-  "exemple_en": "",
+  "exemple_en": "Mistral 7B is under the Apache 2.0 licence: free commercial use, modifications allowed, redistribution permitted. By contrast, LLaMA 3 has a custom licence that forbids commercial use beyond 700 million monthly active users. Reading the licence before coding is non-negotiable.",
   "regard_fr": "Tous les \"open\" ne se valent pas. Pour du vrai open source, regardez Mistral, Falcon, Qwen ou DeepSeek sous licence Apache 2.0 ou MIT. La licence est la première chose à vérifier.",
-  "regard_en": "",
+  "regard_en": "Not all \"open\" is equal. For genuine open source, look at Mistral, Falcon, Qwen or DeepSeek under Apache 2.0 or MIT licences. The licence is the first thing to check.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "Distinguer outils propriétaires et souverains est une compétence-clé de FIARS",
-    "texte_en": "",
+    "texte_en": "Distinguishing proprietary from sovereign tools is a key skill in FIARS",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

@@ -2,7 +2,7 @@
   "terme_fr": "Inférence",
   "terme_en": "Inference",
   "sous_titre_fr": "Inference",
-  "sous_titre_en": "",
+  "sous_titre_en": "Inférence",
   "axe": "fondamentaux",
   "niveau": "intermediaire",
   "theme": "architecture-modeles",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Phase d'utilisation d'un modèle déjà entraîné : on lui fournit une entrée (prompt) et il produit une sortie. Par opposition à la phase d'entraînement (très coûteuse, ponctuelle), l'inférence est répétée des millions de fois et représente l'essentiel des coûts opérationnels de l'IA.",
-  "definition_en": "",
+  "definition_en": "The phase in which an already trained model is used: it is given an input (a prompt) and produces an output. Unlike the training phase (very costly, one-off), inference is repeated millions of times and accounts for the bulk of AI's operational costs.",
   "exemple_fr": "L'entraînement de GPT-4 a coûté environ 100 millions de dollars. Ses inférences quotidiennes (centaines de millions de requêtes) coûtent à OpenAI plusieurs millions de dollars par jour. C'est l'inférence qu'il faut optimiser, pas l'entraînement.",
-  "exemple_en": "",
+  "exemple_en": "Training GPT-4 cost about 100 million dollars. Its daily inferences (hundreds of millions of requests) cost OpenAI several million dollars a day. It is inference you need to optimise, not training.",
   "regard_fr": "Sur 3 ans d'usage, 90% des coûts d'un système IA sont en inférence. Choisir un modèle moins gros peut diviser par 10 vos coûts opérationnels · pour une perte de qualité souvent négligeable.",
-  "regard_en": "",
+  "regard_en": "Over 3 years of use, 90% of an AI system's costs are inference. Choosing a smaller model can divide your operating costs by 10 · for a loss of quality that is often negligible.",
   "schema": {
     "type": "none",
     "contenu": "",

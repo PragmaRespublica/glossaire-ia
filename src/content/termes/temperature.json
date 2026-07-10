@@ -2,7 +2,7 @@
   "terme_fr": "Température",
   "terme_en": "Temperature",
   "sous_titre_fr": "Temperature parameter",
-  "sous_titre_en": "",
+  "sous_titre_en": "Paramètre de température",
   "axe": "fondamentaux",
   "niveau": "intermediaire",
   "theme": "prompting-usage",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Paramètre d'un LLM qui contrôle l'aléa de ses sorties. À température 0, le modèle prend systématiquement le token le plus probable (déterministe). À température élevée (0.8-1), il échantillonne plus librement (créatif). Pour des tâches de référence ou de conformité : température basse impérative.",
-  "definition_en": "",
+  "definition_en": "An LLM parameter that controls the randomness of its outputs. At temperature 0, the model systematically picks the most probable token (deterministic). At high temperature (0.8-1), it samples more freely (creative). For reference or compliance tasks: low temperature is imperative.",
   "exemple_fr": "Pour extraire les montants d'une facture : température 0 (résultat reproductible). Pour générer 3 titres marketing alternatifs : température 0.8 (créativité). Pour un chatbot SAV qui doit toujours répondre la même chose à la même question : température 0.1.",
-  "exemple_en": "",
+  "exemple_en": "To extract the amounts from an invoice: temperature 0 (reproducible result). To generate 3 alternative marketing headlines: temperature 0.8 (creativity). For a customer service chatbot that must always give the same answer to the same question: temperature 0.1.",
   "regard_fr": "La température n'est pas un curseur \"intelligence\". Une température élevée n'est pas plus créative · elle est plus aléatoire. Pour la plupart des cas en entreprise, température 0 ou 0.1 est préférable.",
-  "regard_en": "",
+  "regard_en": "Temperature is not an \"intelligence\" dial. A high temperature is not more creative · it is more random. For most enterprise cases, temperature 0 or 0.1 is preferable.",
   "schema": {
     "type": "none",
     "contenu": "",

@@ -2,7 +2,7 @@
   "terme_fr": "Claude",
   "terme_en": "Claude",
   "sous_titre_fr": "Assistant conversationnel d'Anthropic",
-  "sous_titre_en": "",
+  "sous_titre_en": "Anthropic's conversational assistant",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Famille de modèles de langage développés par Anthropic, une entreprise américaine fondée en 2021 par d'anciens cadres d'OpenAI. Claude se distingue par sa méthodologie \"Constitutional AI\" qui vise à produire des réponses utiles, inoffensives et honnêtes. Disponible via une interface chat (claude.ai) et une API.",
-  "definition_en": "",
+  "definition_en": "A family of language models developed by Anthropic, an American company founded in 2021 by former OpenAI executives. Claude stands out for its \"Constitutional AI\" methodology, which aims to produce helpful, harmless and honest answers. Available through a chat interface (claude.ai) and an API.",
   "exemple_fr": "Un consultant utilise Claude pour analyser un long contrat de 80 pages. La fenêtre contextuelle étendue de Claude (200 000 tokens) permet de traiter l'intégralité du document en un seul prompt · là où d'autres modèles obligeraient à découper le contrat en plusieurs passes.",
-  "exemple_en": "",
+  "exemple_en": "A consultant uses Claude to analyse a long 80-page contract. Claude's extended context window (200,000 tokens) makes it possible to process the entire document in a single prompt · where other models would force you to split the contract into several passes.",
   "regard_fr": "Claude est techniquement excellent mais reste hébergé sur infrastructure américaine (AWS principalement). Pour un usage professionnel sur données sensibles, comparer son TCO et sa souveraineté avec Mistral est indispensable.",
-  "regard_en": "",
+  "regard_en": "Claude is technically excellent but remains hosted on American infrastructure (mainly AWS). For professional use on sensitive data, comparing its TCO and sovereignty with Mistral is essential.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS compare les principaux LLM (Claude, ChatGPT, Gemini, Mistral) pour vous aider à choisir",
-    "texte_en": "",
+    "texte_en": "FIARS compares the leading LLMs (Claude, ChatGPT, Gemini, Mistral) to help you choose",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

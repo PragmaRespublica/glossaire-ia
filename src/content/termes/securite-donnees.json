@@ -2,7 +2,7 @@
   "terme_fr": "Sécurité des données",
   "terme_en": "Data security",
   "sous_titre_fr": "Data security",
-  "sous_titre_en": "",
+  "sous_titre_en": "Sécurité des données",
   "axe": "economie",
   "niveau": "intermediaire",
   "theme": "securite",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Ensemble des mesures techniques et organisationnelles pour protéger les données d'une organisation contre les accès non autorisés, les fuites, les altérations. En contexte IA, cela inclut le chiffrement des prompts, la gestion fine des droits d'accès au RAG, et la non-utilisation des données par le fournisseur de LLM.",
-  "definition_en": "",
+  "definition_en": "The set of technical and organisational measures that protect an organisation's data against unauthorised access, leaks and tampering. In an AI context, this includes encrypting prompts, fine-grained access rights on the RAG, and ensuring the LLM provider does not use your data.",
   "exemple_fr": "Une banque déploie Copilot pour ses 5 000 collaborateurs. Sans configuration adéquate, un chargé de clientèle peut requêter \"donne-moi la liste des dossiers prêts hypothécaires du chargé X\" · et obtenir des informations qu'il ne devrait pas voir. La sécurité IA passe par la maîtrise fine des permissions.",
-  "exemple_en": "",
+  "exemple_en": "A bank rolls out Copilot to its 5,000 employees. Without proper configuration, an account manager can ask \"give me the list of mortgage files handled by advisor X\" · and obtain information they should never see. AI security relies on fine-grained control of permissions.",
   "regard_fr": "L'IA générative introduit de nouvelles surfaces d'attaque : prompts qui contournent les permissions, RAG qui agrège des données qui n'auraient jamais dû se croiser, modèles propriétaires qui retiennent vos données pour entraînement. La sécurité doit être pensée nativement, pas en patch.",
-  "regard_en": "",
+  "regard_en": "Generative AI introduces new attack surfaces: prompts that bypass permissions, RAGs that aggregate data that should never have met, proprietary models that retain your data for training. Security must be designed in natively, not patched on.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Notre formation Copilot B2B aborde la sécurité des données dans le Jour 2",
-    "texte_en": "",
+    "texte_en": "Our B2B Copilot training addresses data security on Day 2",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

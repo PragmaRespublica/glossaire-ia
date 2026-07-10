@@ -2,7 +2,7 @@
   "terme_fr": "Webinaire",
   "terme_en": "Webinar",
   "sous_titre_fr": "Séminaire en ligne",
-  "sous_titre_en": "",
+  "sous_titre_en": "Online seminar",
   "axe": "economie",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -11,11 +11,11 @@
     "fiars"
   ],
   "definition_fr": "Conférence ou session pédagogique en direct sur internet, généralement avec une partie présentation et un temps de questions-réponses. Format efficace pour transmettre des concepts à un grand nombre de personnes, créer un moment d'échange, et qualifier des leads dans une démarche de formation continue.",
-  "definition_en": "",
+  "definition_en": "A live online conference or teaching session, usually with a presentation part and a question-and-answer period. An effective format for conveying concepts to a large audience, creating a moment of exchange, and qualifying leads in a continuing-education approach.",
   "exemple_fr": "Le webinaire \"Comment prompter de manière responsable et souveraine\" du 21 mai 2026, animé par Pierre Montel, réunit en 30 minutes : 10 min sur les enjeux RSE, 10 min de démonstration technique, 10 min d'analyse économique. Un format dense, qui donne envie d'aller plus loin.",
-  "exemple_en": "",
+  "exemple_en": "The webinar \"How to prompt responsibly and sovereignly\" of 21 May 2026, hosted by Pierre Montel, packs into 30 minutes: 10 min on CSR stakes, 10 min of technical demonstration, 10 min of economic analysis. A dense format that makes you want to go further.",
   "regard_fr": "Un bon webinaire ne vend pas · il fait découvrir. Notre série de webinaires gratuits illustre cette conviction : on transmet d'abord, on convertit ensuite.",
-  "regard_en": "",
+  "regard_en": "A good webinar does not sell · it lets people discover. Our series of free webinars illustrates this conviction: we share first, we convert afterwards.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "Découvrez notre série de 6 webinaires gratuits (mai-juin 2026)",
-    "texte_en": "",
+    "texte_en": "Discover our series of 6 free webinars (May-June 2026)",
     "label_fr": "Voir les webinaires →",
-    "label_en": "",
+    "label_en": "See the webinars →",
     "url": "/ressources/webinaires"
   },
   "statut": "a_relire"

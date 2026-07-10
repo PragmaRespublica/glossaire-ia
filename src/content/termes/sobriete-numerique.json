@@ -2,7 +2,7 @@
   "terme_fr": "Sobriété numérique",
   "terme_en": "Digital sobriety",
   "sous_titre_fr": "Digital sobriety",
-  "sous_titre_en": "",
+  "sous_titre_en": "Sobriété numérique",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "impact-environnemental",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Démarche consistant à réduire l'empreinte environnementale du numérique en interrogeant la pertinence des usages, en privilégiant les solutions légères, en allongeant la durée de vie du matériel. Appliquée à l'IA : choisir le bon modèle pour le bon cas, éviter la surconsommation.",
-  "definition_en": "",
+  "definition_en": "An approach that reduces the environmental footprint of digital technology by questioning the relevance of each use, favouring lightweight solutions and extending hardware lifespan. Applied to AI: choosing the right model for the right case and avoiding overconsumption.",
   "exemple_fr": "Avant d'invoquer GPT-4 (coûteux et énergivore) pour résumer un email, demandez-vous : Mistral 7B local ne suffirait-il pas ? Une fonction de résumé classique (TextRank, BERT) ne ferait-elle pas le job ? La sobriété, c'est commencer par questionner.",
-  "exemple_en": "",
+  "exemple_en": "Before summoning GPT-4 (costly and energy-hungry) to summarise an email, ask yourself: would a local Mistral 7B not be enough? Would a classic summarisation function (TextRank, BERT) not do the job? Sobriety starts with questioning.",
   "regard_fr": "La sobriété IA ne consiste pas à renoncer à l'IA, mais à l'utiliser à bon escient. La première question avant tout projet : \"Avons-nous besoin d'IA, et si oui, quel modèle minimal suffit ?\"",
-  "regard_en": "",
+  "regard_en": "AI sobriety is not about giving up AI, but about using it wisely. The first question before any project: \"Do we need AI, and if so, what minimal model is enough?\"",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS pose la sobriété comme principe transversal · pas comme module isolé",
-    "texte_en": "",
+    "texte_en": "FIARS treats sobriety as a cross-cutting principle · not an isolated module",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

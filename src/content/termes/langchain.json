@@ -2,7 +2,7 @@
   "terme_fr": "LangChain",
   "terme_en": "LangChain",
   "sous_titre_fr": "Framework d'orchestration LLM",
-  "sous_titre_en": "",
+  "sous_titre_en": "LLM orchestration framework",
   "axe": "fondamentaux",
   "niveau": "intermediaire",
   "theme": "rag-agents",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Bibliothèque open source qui simplifie le développement d'applications IA en orchestrant LLM, vector stores, outils externes et logique métier. Permet de basculer facilement d'un fournisseur de LLM à un autre (OpenAI → Mistral → Anthropic) sans réécrire toute l'application.",
-  "definition_en": "",
+  "definition_en": "An open-source library that simplifies AI application development by orchestrating LLMs, vector stores, external tools and business logic. It makes it easy to switch from one LLM provider to another (OpenAI → Mistral → Anthropic) without rewriting the whole application.",
   "exemple_fr": "Une application de support client construite avec LangChain peut, par configuration : appeler GPT-4 pour les questions complexes, Mistral 7B pour le tri initial, un RAG souverain pour les politiques internes. Changer cette orchestration prend quelques heures, pas quelques mois.",
-  "exemple_en": "",
+  "exemple_en": "A customer support application built with LangChain can, by configuration: call GPT-4 for complex questions, Mistral 7B for initial triage, and a sovereign RAG for internal policies. Changing this orchestration takes a few hours, not a few months.",
   "regard_fr": "LangChain est l'un des outils clés du \"zéro lock-in\". En abstrayant l'appel au LLM, il préserve votre liberté de changer de fournisseur. Investir dans LangChain (ou des frameworks équivalents) dès le début protège votre optionnalité.",
-  "regard_en": "",
+  "regard_en": "LangChain is one of the key tools of \"zero lock-in\". By abstracting the LLM call, it preserves your freedom to change provider. Investing in LangChain (or equivalent frameworks) from the start protects your optionality.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos déploiements B2B reposent sur LangChain ou équivalents pour préserver votre indépendance",
-    "texte_en": "",
+    "texte_en": "Our B2B deployments rely on LangChain or equivalents to preserve your independence",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

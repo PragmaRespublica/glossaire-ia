@@ -2,7 +2,7 @@
   "terme_fr": "ORI-IA",
   "terme_en": "ORI-IA workshop",
   "sous_titre_fr": "Opportunités, Risques, Impacts de l'IA",
-  "sous_titre_en": "",
+  "sous_titre_en": "Opportunities, Risks, Impacts of AI",
   "axe": "economie",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -11,11 +11,11 @@
     "fiars"
   ],
   "definition_fr": "Méthode open source développée par PragmaForma pour cartographier un projet d'IA selon trois axes : Opportunités créées, Risques engendrés, Impacts (sociaux, environnementaux, organisationnels). Conçue comme un atelier collaboratif de 2 à 4 heures.",
-  "definition_en": "",
+  "definition_en": "An open-source method developed by PragmaForma to map an AI project along three axes: Opportunities created, Risks incurred, Impacts (social, environmental, organisational). Designed as a collaborative workshop of 2 to 4 hours.",
   "exemple_fr": "Une DRH veut déployer un outil IA de tri de CV. L'atelier ORI-IA fait émerger : opportunité \"gain de 5h/semaine recrutement\", risque \"biais sur l'origine ethnique des candidats\", impact \"modification du métier des recruteurs\". Résultat : décision éclairée, charte écrite, parcours d'adaptation prévu.",
-  "exemple_en": "",
+  "exemple_en": "An HR director wants to deploy an AI CV-screening tool. The ORI-IA workshop brings out: the opportunity \"5 hours a week saved on recruitment\", the risk \"bias against candidates' ethnic origin\", the impact \"changes to the recruiter's job\". The result: an informed decision, a written charter, an adaptation path planned.",
   "regard_fr": "ORI-IA est librement réutilisable, y compris en contexte commercial chez vos clients. C'est notre contribution au commun. Le webinaire du 23 juin présente la méthode avec un cas concret.",
-  "regard_en": "",
+  "regard_en": "ORI-IA is freely reusable, including commercially with your clients. It is our contribution to the commons. The webinar of 23 June presents the method with a real case.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "L'atelier ORI-IA est inclus dans FIARS, avec droits d'animation chez vos clients",
-    "texte_en": "",
+    "texte_en": "The ORI-IA workshop is included in FIARS, with facilitation rights at your clients'",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

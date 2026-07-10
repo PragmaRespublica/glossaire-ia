@@ -2,7 +2,7 @@
   "terme_fr": "Distillation",
   "terme_en": "Distillation",
   "sous_titre_fr": "Model distillation",
-  "sous_titre_en": "",
+  "sous_titre_en": "Distillation de modèle",
   "axe": "responsabilite",
   "niveau": "avance",
   "theme": "entrainement-apprentissage",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Technique consistant à entraîner un modèle plus petit (l'élève) à reproduire les sorties d'un modèle plus grand (le maître). Le modèle distillé est plus rapide, moins coûteux et moins énergivore, au prix d'une légère perte de performance.",
-  "definition_en": "",
+  "definition_en": "A technique in which a smaller model (the student) is trained to reproduce the outputs of a larger model (the teacher). The distilled model is faster, cheaper and less energy-hungry, at the cost of a slight loss in performance.",
   "exemple_fr": "Mistral 7B est en partie une distillation de modèles plus grands. Il tient sur un seul GPU grand public, consomme 10 à 50 fois moins qu'un GPT-4 · et reste parfaitement adapté à 90% des cas d'usage en entreprise (résumé, classification, extraction).",
-  "exemple_en": "",
+  "exemple_en": "Mistral 7B is partly a distillation of larger models. It fits on a single consumer GPU, consumes 10 to 50 times less than a GPT-4 · and remains perfectly suited to 90% of enterprise use cases (summarisation, classification, extraction).",
   "regard_fr": "La distillation est l'un des leviers de sobriété les plus puissants. Pas besoin d'invoquer GPT-4 ou Claude Opus pour résumer un email. Un petit modèle distillé suffit largement pour la plupart des tâches courantes.",
-  "regard_en": "",
+  "regard_en": "Distillation is one of the most powerful levers for sobriety. No need to summon GPT-4 or Claude Opus to summarise an email. A small distilled model is more than enough for most everyday tasks.",
   "schema": {
     "type": "none",
     "contenu": "",

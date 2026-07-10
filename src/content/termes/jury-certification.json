@@ -2,7 +2,7 @@
   "terme_fr": "Jury de certification",
   "terme_en": "Certification jury",
   "sous_titre_fr": "Soutenance, évaluation finale",
-  "sous_titre_en": "",
+  "sous_titre_en": "Final assessment panel",
   "axe": "economie",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Évaluation finale d'une formation certifiante, conduite par un panel d'experts indépendants. Permet de valider que l'apprenant a effectivement acquis les compétences visées · par opposition à une simple validation par QCM. C'est la garantie d'une certification qui vaut quelque chose sur le marché.",
-  "definition_en": "",
+  "definition_en": "The final assessment of a certifying training programme, conducted by a panel of independent experts. It validates that the learner has actually acquired the targeted skills · as opposed to a simple multiple-choice check. It is the guarantee of a certification that is worth something on the market.",
   "exemple_fr": "À l'issue de FIARS, chaque participant présente devant un jury : un cas concret de diagnostic ORI-IA réalisé dans son organisation, sa charte IA, et son architecture RAG. 30 minutes de présentation, 15 minutes de questions. Une certification qui se mérite.",
-  "exemple_en": "",
+  "exemple_en": "At the end of FIARS, each participant presents to a jury: a real ORI-IA diagnostic carried out in their organisation, their AI charter, and their RAG architecture. A 30-minute presentation, 15 minutes of questions. A certification that has to be earned.",
   "regard_fr": "Un jury de fin de formation n'est pas un examen. C'est une opportunité de structurer ce qu'on a appris, de l'éprouver face à des experts, et de repartir avec un livrable concret. C'est aussi ce qui distingue une formation certifiante d'un MOOC.",
-  "regard_en": "",
+  "regard_en": "An end-of-training jury is not an exam. It is an opportunity to structure what you have learned, test it against experts, and leave with a concrete deliverable. It is also what separates a certifying training programme from a MOOC.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS se conclut par une présentation devant jury · pour valider une compétence réelle",
-    "texte_en": "",
+    "texte_en": "FIARS concludes with a presentation before a jury · to validate a real skill",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

@@ -2,7 +2,7 @@
   "terme_fr": "IA générative",
   "terme_en": "Generative AI",
   "sous_titre_fr": "Generative AI, GenAI",
-  "sous_titre_en": "",
+  "sous_titre_en": "IA générative, GenAI",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "architecture-modeles",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Famille de systèmes d'IA capables de générer du contenu original · texte, image, son, vidéo, code · à partir d'instructions en langage naturel. Repose principalement sur deux familles techniques : les modèles de langage (LLM) pour le texte, et les modèles de diffusion pour les images.",
-  "definition_en": "",
+  "definition_en": "A family of AI systems capable of generating original content · text, images, sound, video, code · from natural language instructions. It rests mainly on two technical families: language models (LLMs) for text, and diffusion models for images.",
   "exemple_fr": "Pour générer une vidéo promotionnelle, on combine plusieurs IA génératives : ChatGPT pour le script, Midjourney pour les visuels, ElevenLabs pour la voix off, Runway pour l'animation. Quatre IA génératives, quatre familles techniques différentes · coordonnées par un humain.",
-  "exemple_en": "",
+  "exemple_en": "To produce a promotional video, several generative AIs are combined: ChatGPT for the script, Midjourney for the visuals, ElevenLabs for the voice-over, Runway for the animation. Four generative AIs, four different technical families · coordinated by a human.",
   "regard_fr": "L'IA générative n'est qu'une partie de l'IA. L'IA non générative (classification, détection, prévision) reste massivement utilisée et souvent plus pertinente. Méfiez-vous des solutions qui mettent du LLM partout.",
-  "regard_en": "",
+  "regard_en": "Generative AI is only one part of AI. Non-generative AI (classification, detection, forecasting) remains massively used and is often more relevant. Beware of solutions that put an LLM everywhere.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "La Leçon 1 de FIARS distingue IA générative et non générative · fondamental pour bien arbitrer",
-    "texte_en": "",
+    "texte_en": "Lesson 1 of FIARS distinguishes generative from non-generative AI · fundamental for sound decisions",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

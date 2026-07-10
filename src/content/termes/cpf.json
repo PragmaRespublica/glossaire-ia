@@ -2,7 +2,7 @@
   "terme_fr": "CPF / OPCO",
   "terme_en": "CPF (French personal training account)",
   "sous_titre_fr": "Financement de la formation professionnelle",
-  "sous_titre_en": "",
+  "sous_titre_en": "French professional training funding",
   "axe": "reglementaire",
   "niveau": "fondamental",
   "theme": "cadre-juridique",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Le Compte Personnel de Formation (CPF) permet à tout actif de financer une formation certifiée éligible. Les OPCO (Opérateurs de Compétences) gèrent les contributions formation des entreprises et financent les formations de leurs salariés.",
-  "definition_en": "",
+  "definition_en": "The Compte Personnel de Formation (CPF) allows any French worker to fund an eligible certified training programme. The OPCOs (skills operators) manage companies' training contributions and fund training for their employees.",
   "exemple_fr": "Un consultant freelance souhaite financer FIARS via son CPF. Il vérifie son solde sur moncompteformation.gouv.fr, valide l'éligibilité de la formation, et procède à l'inscription. Le règlement est pris en charge directement par la Caisse des Dépôts.",
-  "exemple_en": "",
+  "exemple_en": "A freelance consultant wants to fund FIARS through their CPF. They check their balance on moncompteformation.gouv.fr, confirm the programme's eligibility, and register. Payment is handled directly by the Caisse des Dépôts.",
   "regard_fr": "Le paysage du financement formation est complexe et change régulièrement. Plutôt que de naviguer seul, contactez-nous directement · nous vous aiguillerons vers l'option la plus adaptée à votre situation.",
-  "regard_en": "",
+  "regard_en": "The training-funding landscape is complex and changes regularly. Rather than navigating it alone, contact us directly · we will point you to the option best suited to your situation.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Pour explorer le financement de FIARS, contactez-nous au 06 48 55 33 57",
-    "texte_en": "",
+    "texte_en": "To explore funding options for FIARS, call us on +33 6 48 55 33 57",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

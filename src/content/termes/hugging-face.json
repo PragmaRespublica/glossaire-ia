@@ -2,7 +2,7 @@
   "terme_fr": "Hugging Face",
   "terme_en": "Hugging Face",
   "sous_titre_fr": "Plateforme open source pour l'IA",
-  "sous_titre_en": "",
+  "sous_titre_en": "The open-source platform for AI",
   "axe": "souverainete",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Entreprise franco-américaine fondée en 2016, qui héberge la plus grande plateforme open source de modèles d'IA, datasets et outils. Plus d'1 million de modèles disponibles en téléchargement, dont Mistral, LLaMA, Stable Diffusion. Joue un rôle structurant dans l'écosystème open source mondial.",
-  "definition_en": "",
+  "definition_en": "A Franco-American company founded in 2016 that hosts the largest open-source platform for AI models, datasets and tools. More than 1 million models are available for download, including Mistral, LLaMA and Stable Diffusion. It plays a structuring role in the global open-source ecosystem.",
   "exemple_fr": "Pour déployer un modèle de classification de texte en français, un développeur trouve sur Hugging Face : CamemBERT (open source français), un dataset d'évaluation, le code d'intégration, et une démo interactive. Tout est gratuit, modifiable, redistribuable.",
-  "exemple_en": "",
+  "exemple_en": "To deploy a French text-classification model, a developer finds on Hugging Face: CamemBERT (French open source), an evaluation dataset, the integration code, and an interactive demo. Everything is free, modifiable, redistributable.",
   "regard_fr": "Hugging Face est l'un des piliers de la souveraineté IA européenne, même si l'entreprise est en partie américaine. Plus l'écosystème open source qu'elle héberge sera utilisé, plus il restera puissant et indépendant des Big Tech.",
-  "regard_en": "",
+  "regard_en": "Hugging Face is one of the pillars of European AI sovereignty, even though the company is partly American. The more the open-source ecosystem it hosts is used, the more powerful and independent from Big Tech it will remain.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Hugging Face est l'une des ressources clés mentionnées dans notre glossaire et nos formations",
-    "texte_en": "",
+    "texte_en": "Hugging Face is one of the key resources mentioned in our glossary and training programmes",
     "label_fr": "Continuer →",
-    "label_en": "",
+    "label_en": "Continue →",
     "url": "/ressources/glossaire"
   },
   "statut": "a_relire"

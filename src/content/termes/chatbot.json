@@ -2,7 +2,7 @@
   "terme_fr": "Chatbot",
   "terme_en": "Chatbot",
   "sous_titre_fr": "Agent conversationnel",
-  "sous_titre_en": "",
+  "sous_titre_en": "Conversational agent",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "prompting-usage",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Interface conversationnelle permettant d'interagir avec un système informatique par le langage naturel. Les chatbots modernes (ChatGPT, Claude, Gemini, Le Chat) reposent sur des modèles de langage de grande taille, et se distinguent des chatbots à règles utilisés depuis les années 1960.",
-  "definition_en": "",
+  "definition_en": "A conversational interface for interacting with a computer system in natural language. Modern chatbots (ChatGPT, Claude, Gemini, Le Chat) are built on large language models, unlike the rule-based chatbots in use since the 1960s.",
   "exemple_fr": "Un chatbot SAV à base de règles ne sait répondre qu'aux questions exactes anticipées par ses concepteurs. Un chatbot LLM peut reformuler, comprendre l'intention, gérer les ambiguïtés · mais peut aussi halluciner. Le choix dépend du niveau de criticité du domaine.",
-  "exemple_en": "",
+  "exemple_en": "A rule-based customer service chatbot can only answer the exact questions its designers anticipated. An LLM chatbot can rephrase, understand intent, handle ambiguity · but can also hallucinate. The choice depends on how critical the domain is.",
   "regard_fr": "Un chatbot grand public n'est pas une solution d'entreprise. Vos prompts peuvent entraîner les modèles, vos données peuvent transiter hors UE. Pour un usage professionnel, exigez les versions Business/Enterprise · ou choisissez une alternative souveraine.",
-  "regard_en": "",
+  "regard_en": "A consumer chatbot is not an enterprise solution. Your prompts may train the models, your data may transit outside the EU. For professional use, insist on Business/Enterprise versions · or choose a sovereign alternative.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS forme à la maîtrise des chatbots professionnels et souverains",
-    "texte_en": "",
+    "texte_en": "FIARS trains you to master professional and sovereign chatbots",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

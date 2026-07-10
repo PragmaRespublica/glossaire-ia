@@ -2,7 +2,7 @@
   "terme_fr": "TCO",
   "terme_en": "TCO (Total Cost of Ownership)",
   "sous_titre_fr": "Total Cost of Ownership · Coût total de possession",
-  "sous_titre_en": "",
+  "sous_titre_en": "Coût total de possession",
   "axe": "economie",
   "niveau": "intermediaire",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Méthode d'évaluation des coûts incluant non seulement l'achat ou l'abonnement, mais aussi l'intégration, la formation, la maintenance, la sortie. Appliqué à l'IA : coût des API + infrastructure + sécurisation + gouvernance + désengagement. Le TCO révèle souvent que les solutions \"moins chères\" ne le sont pas.",
-  "definition_en": "",
+  "definition_en": "A cost-assessment method that includes not only purchase or subscription, but also integration, training, maintenance and exit. Applied to AI: API costs + infrastructure + security + governance + disengagement. TCO often reveals that the \"cheaper\" solutions are not.",
   "exemple_fr": "ChatGPT Enterprise à 60$/utilisateur/mois × 200 utilisateurs × 36 mois = 432 000 $. Alternative : Mistral en interne + infrastructure OVH + accompagnement PragmaForma sur 3 ans = ~250 000 €. À usage équivalent, le TCO favorise la souveraineté sur 3 ans.",
-  "exemple_en": "",
+  "exemple_en": "ChatGPT Enterprise at $60/user/month × 200 users × 36 months = $432,000. The alternative: Mistral in-house + OVH infrastructure + PragmaForma support over 3 years = ~€250,000. At equivalent usage, TCO favours sovereignty over 3 years.",
   "regard_fr": "Un abonnement à 60$/mois/utilisateur paraît compétitif. Mais quand vous intégrez les coûts de gouvernance, de formation et de désengagement potentiel · la solution souveraine devient souvent compétitive en TCO sur 3 ans.",
-  "regard_en": "",
+  "regard_en": "A $60/month/user subscription looks competitive. But once you factor in the costs of governance, training and potential disengagement · the sovereign solution often becomes competitive on a 3-year TCO.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos devis B2B incluent une simulation TCO sur 3 ans pour vous aider à arbitrer",
-    "texte_en": "",
+    "texte_en": "Our B2B quotes include a 3-year TCO simulation to help you decide",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

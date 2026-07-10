@@ -25,7 +25,8 @@ const regard = (lang === 'fr' ? d.regard_fr : d.regard_en) || d.regard_fr;
   data-level={d.niveau}
   data-theme={d.theme}
   data-page={d.pages_liees.join(' ')}
-  data-name={terme.toLowerCase()}
+  data-slug={entry.id}
+  data-search={`${terme} ${aka} ${d.terme_fr} ${d.terme_en}`.toLowerCase()}
 >
   <div class="term-head">
     <h3><a href={url}>{terme}</a></h3>

@@ -2,7 +2,7 @@
   "terme_fr": "OpenRAG",
   "terme_en": "OpenRAG",
   "sous_titre_fr": "Plateforme RAG souveraine open source",
-  "sous_titre_en": "",
+  "sous_titre_en": "Sovereign open-source RAG platform",
   "axe": "souverainete",
   "niveau": "intermediaire",
   "theme": "rag-agents",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Plateforme open source de déploiement RAG, conçue pour permettre aux organisations de connecter leurs documents internes à un LLM souverain · sans envoyer leurs données à un acteur tiers. Couvre l'indexation, l'orchestration et l'interface d'interrogation.",
-  "definition_en": "",
+  "definition_en": "An open-source RAG deployment platform, designed to let organisations connect their internal documents to a sovereign LLM · without sending their data to a third party. It covers indexing, orchestration and the query interface.",
   "exemple_fr": "Une ETI industrielle déploie OpenRAG sur ses 15 000 fiches techniques, manuels qualité et procédures ISO. Ses ingénieurs interrogent désormais cette base en langage naturel, avec citation des sources · au lieu de fouiller des dossiers SharePoint pendant des heures.",
-  "exemple_en": "",
+  "exemple_en": "An industrial mid-cap deploys OpenRAG over its 15,000 technical sheets, quality manuals and ISO procedures. Its engineers now query this base in natural language, with sources cited · instead of digging through SharePoint folders for hours.",
   "regard_fr": "OpenRAG illustre une philosophie : on n'a pas besoin de SaaS américain pour déployer un RAG performant. L'écosystème open source européen est suffisamment mature pour offrir une alternative crédible.",
-  "regard_en": "",
+  "regard_en": "OpenRAG illustrates a philosophy: you do not need American SaaS to deploy a high-performing RAG. The European open-source ecosystem is mature enough to offer a credible alternative.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Notre offre \"Mise en place RAG\" déploie OpenRAG sur votre infrastructure (à partir de 3 500 € HT)",
-    "texte_en": "",
+    "texte_en": "Our \"RAG set-up\" offer deploys OpenRAG on your infrastructure (from €3,500 excl. VAT)",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

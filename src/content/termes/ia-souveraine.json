@@ -2,7 +2,7 @@
   "terme_fr": "IA souveraine",
   "terme_en": "Sovereign AI",
   "sous_titre_fr": "Sovereign AI",
-  "sous_titre_en": "",
+  "sous_titre_en": "IA souveraine",
   "axe": "souverainete",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Système d'IA conçu pour préserver la maîtrise des données, des modèles et de l'infrastructure par l'organisation utilisatrice ou son pays. Implique généralement : modèle open source ou européen, hébergement souverain, code et données contrôlés localement, indépendance vis-à-vis des Big Tech.",
-  "definition_en": "",
+  "definition_en": "An AI system designed to keep control of data, models and infrastructure in the hands of the user organisation or its country. It generally implies: an open-source or European model, sovereign hosting, locally controlled code and data, and independence from Big Tech.",
   "exemple_fr": "Une collectivité territoriale veut un assistant IA pour ses agents. Choix souverain : Mistral Large hébergé chez OVHcloud, RAG sur la base documentaire interne (gérée par la DSI), interface développée par une SSII française, gouvernance assurée en interne. Aucun byte ne sort du territoire européen.",
-  "exemple_en": "",
+  "exemple_en": "A local authority wants an AI assistant for its agents. The sovereign choice: Mistral Large hosted on OVHcloud, a RAG over the internal document base (managed by the IT department), an interface built by a French IT services firm, governance handled in-house. Not a single byte leaves European territory.",
   "regard_fr": "L'IA souveraine n'est pas un slogan politique. C'est un choix opérationnel : optionnalité face aux ruptures de service, conformité juridique, indépendance économique. Et c'est techniquement faisable dès aujourd'hui.",
-  "regard_en": "",
+  "regard_en": "Sovereign AI is not a political slogan. It is an operational choice: optionality in the face of service disruptions, legal compliance, economic independence. And it is technically feasible today.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "Notre offre \"IA souveraine clé en main\" déploie une IA privée maîtrisée de A à Z (à partir de 7 500 € HT)",
-    "texte_en": "",
+    "texte_en": "Our \"Turnkey sovereign AI\" offer deploys a private AI you control from A to Z (from €7,500 excl. VAT)",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

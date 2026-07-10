@@ -2,7 +2,7 @@
   "terme_fr": "Scraping",
   "terme_en": "Web scraping",
   "sous_titre_fr": "Extraction automatisée de données web",
-  "sous_titre_en": "",
+  "sous_titre_en": "Automated web data extraction",
   "axe": "reglementaire",
   "niveau": "intermediaire",
   "theme": "donnees",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Technique d'extraction automatisée de contenus depuis des sites web, souvent à grande échelle. Les LLM modernes sont massivement entraînés sur du contenu scrapé du web (CommonCrawl, sites publics). Soulève des questions juridiques (CGU, droits d'auteur) et techniques (charge serveur, captchas).",
-  "definition_en": "",
+  "definition_en": "A technique for automatically extracting content from websites, often at scale. Modern LLMs are massively trained on scraped web content (CommonCrawl, public sites). It raises legal questions (terms of use, copyright) and technical ones (server load, captchas).",
   "exemple_fr": "OpenAI a entraîné GPT-4 sur des centaines de téraoctets de contenu web scrapé, sans autorisation explicite des éditeurs. Une partie significative de Wikipedia, Reddit, Stack Overflow, et de la presse en ligne s'y trouve. C'est précisément ce qui alimente les procès actuels contre les acteurs IA.",
-  "exemple_en": "",
+  "exemple_en": "OpenAI trained GPT-4 on hundreds of terabytes of scraped web content, without publishers' explicit authorisation. A significant share of Wikipedia, Reddit, Stack Overflow and the online press is in there. This is precisely what fuels the current lawsuits against AI players.",
   "regard_fr": "Le scraping est l'angle mort éthique de l'IA générative actuelle. Les modèles \"open\" qui se réclament de la transparence ne publient quasiment jamais leurs données d'entraînement · parce que cette transparence pourrait les exposer juridiquement. À garder en tête quand on choisit un modèle.",
-  "regard_en": "",
+  "regard_en": "Scraping is the ethical blind spot of today's generative AI. \"Open\" models that claim transparency almost never publish their training data · because that transparency could expose them legally. Keep this in mind when choosing a model.",
   "schema": {
     "type": "none",
     "contenu": "",

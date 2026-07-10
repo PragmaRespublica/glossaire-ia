@@ -2,7 +2,7 @@
   "terme_fr": "API",
   "terme_en": "API",
   "sous_titre_fr": "Application Programming Interface",
-  "sous_titre_en": "",
+  "sous_titre_en": "Application Programming Interface",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Interface technique qui permet à deux logiciels de communiquer entre eux. Dans le monde de l'IA générative, les API d'OpenAI, Anthropic, Mistral ou Cohere permettent à un développeur d'envoyer des prompts à un modèle et de récupérer ses réponses · sans utiliser l'interface chat.",
-  "definition_en": "",
+  "definition_en": "A technical interface that allows two pieces of software to communicate. In the world of generative AI, the APIs of OpenAI, Anthropic, Mistral or Cohere let a developer send prompts to a model and retrieve its answers · without using the chat interface.",
   "exemple_fr": "Quand un agent IA développé par PragmaForma analyse les documents internes d'un client, il appelle l'API d'un LLM souverain (par exemple Mistral Large) plutôt que ChatGPT, garantissant que les données ne transitent pas par des serveurs américains.",
-  "exemple_en": "",
+  "exemple_en": "When an AI agent built by PragmaForma analyses a client's internal documents, it calls the API of a sovereign LLM (Mistral Large, for instance) rather than ChatGPT, guaranteeing that the data does not pass through American servers.",
   "regard_fr": "Le choix de l'API est un choix de souveraineté. Connecter votre application à l'API OpenAI, c'est accepter que vos prompts (et donc une partie de votre savoir) transitent par les États-Unis.",
-  "regard_en": "",
+  "regard_en": "Choosing an API is a sovereignty decision. Connecting your application to the OpenAI API means accepting that your prompts (and thus part of your know-how) transit through the United States.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos offres B2B incluent le déploiement de LLM via API souveraine, hébergé chez vous ou sur infrastructure européenne",
-    "texte_en": "",
+    "texte_en": "Our B2B offers include deploying LLMs through a sovereign API, hosted on your premises or on European infrastructure",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

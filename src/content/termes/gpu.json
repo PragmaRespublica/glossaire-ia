@@ -2,7 +2,7 @@
   "terme_fr": "GPU",
   "terme_en": "GPU",
   "sous_titre_fr": "Graphics Processing Unit",
-  "sous_titre_en": "",
+  "sous_titre_en": "Graphics Processing Unit",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "architecture-modeles",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Processeur graphique initialement conçu pour le rendu 3D, mais devenu indispensable pour l'IA grâce à sa capacité à exécuter des milliers de calculs en parallèle. NVIDIA domine largement ce marché avec ses cartes H100 et H200, qui coûtent entre 25 000 et 40 000 dollars pièce.",
-  "definition_en": "",
+  "definition_en": "A graphics processor originally designed for 3D rendering, now indispensable for AI thanks to its ability to run thousands of computations in parallel. NVIDIA largely dominates this market with its H100 and H200 cards, which cost between 25,000 and 40,000 dollars each.",
   "exemple_fr": "Pour faire tourner Mistral 7B en interne, un seul GPU NVIDIA A100 (40 Go) suffit. Pour héberger Llama 70B, il faut un cluster de 4 GPU A100. L'entraînement complet de GPT-4 aurait mobilisé environ 25 000 GPU H100 pendant plusieurs mois.",
-  "exemple_en": "",
+  "exemple_en": "To run Mistral 7B in-house, a single NVIDIA A100 GPU (40 GB) is enough. Hosting Llama 70B takes a cluster of 4 A100 GPUs. The full training of GPT-4 reportedly mobilised about 25,000 H100 GPUs for several months.",
   "regard_fr": "La domination de NVIDIA sur les GPU IA est un point de fragilité géopolitique majeur pour l'Europe. Les alternatives (AMD MI300, Cerebras, Graphcore) progressent mais restent loin du leader.",
-  "regard_en": "",
+  "regard_en": "NVIDIA's dominance of AI GPUs is a major geopolitical fragility for Europe. The alternatives (AMD MI300, Cerebras, Graphcore) are progressing but remain far behind the leader.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS expose les enjeux d'infrastructure GPU et les options souveraines de déploiement",
-    "texte_en": "",
+    "texte_en": "FIARS lays out the GPU infrastructure stakes and the sovereign deployment options",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

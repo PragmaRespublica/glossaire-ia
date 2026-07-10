@@ -2,7 +2,7 @@
   "terme_fr": "Monitoring IA",
   "terme_en": "Monitoring & observability",
   "sous_titre_fr": "Observabilité des systèmes IA",
-  "sous_titre_en": "",
+  "sous_titre_en": "Observability of AI systems",
   "axe": "souverainete",
   "niveau": "intermediaire",
   "theme": "evaluation-qualite",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Surveillance continue d'un système d'IA en production : performance, disponibilité, dérive du modèle, anomalies, coûts d'inférence, consommation énergétique. Indispensable pour détecter rapidement les incidents et maintenir la qualité dans le temps.",
-  "definition_en": "",
+  "definition_en": "Continuous monitoring of an AI system in production: performance, availability, model drift, anomalies, inference costs, energy consumption. Essential for detecting incidents quickly and maintaining quality over time.",
   "exemple_fr": "Un RAG en production voit sa qualité de réponse se dégrader progressivement. Le monitoring révèle que 30% des documents ingérés depuis 3 mois sont mal chunkés, causant des hallucinations. Sans monitoring, le problème aurait été découvert par les utilisateurs · au prix de la confiance.",
-  "exemple_en": "",
+  "exemple_en": "A RAG in production sees its answer quality gradually degrade. Monitoring reveals that 30% of the documents ingested over 3 months were badly chunked, causing hallucinations. Without monitoring, users would have discovered the problem · at the cost of their trust.",
   "regard_fr": "Un système IA non monitoré est un système qui dérive en silence. La mise en place du monitoring doit faire partie du déploiement initial, pas être ajoutée a posteriori.",
-  "regard_en": "",
+  "regard_en": "An unmonitored AI system is a system drifting in silence. Setting up monitoring must be part of the initial deployment, not added after the fact.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Notre hébergement délégué B2B inclut le monitoring 24/7 par défaut",
-    "texte_en": "",
+    "texte_en": "Our B2B managed hosting includes 24/7 monitoring by default",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

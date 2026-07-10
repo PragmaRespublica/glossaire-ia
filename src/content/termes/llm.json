@@ -2,7 +2,7 @@
   "terme_fr": "LLM",
   "terme_en": "Large Language Model (LLM)",
   "sous_titre_fr": "Large Language Model · Modèle de langage de grande taille",
-  "sous_titre_en": "",
+  "sous_titre_en": "Modèle de langage de grande taille",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "architecture-modeles",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Réseau de neurones entraîné sur d'immenses corpus de texte pour prédire le prochain token étant donné un contexte. Les LLM modernes (GPT, Claude, Mistral, LLaMA) ont plusieurs dizaines à centaines de milliards de paramètres et démontrent des capacités émergentes de raisonnement et de génération.",
-  "definition_en": "",
+  "definition_en": "A neural network trained on immense text corpora to predict the next token given a context. Modern LLMs (GPT, Claude, Mistral, LLaMA) have tens to hundreds of billions of parameters and demonstrate emergent reasoning and generation capabilities.",
   "exemple_fr": "GPT-4 a 1 700 milliards de paramètres, Mistral 7B en a 7 milliards. Pourtant, Mistral 7B suffit largement pour résumer un email, classifier un ticket support, ou extraire des entités d'un texte. Choisir la bonne taille de LLM, c'est la première décision de sobriété.",
-  "exemple_en": "",
+  "exemple_en": "GPT-4 has 1,700 billion parameters, Mistral 7B has 7 billion. Yet Mistral 7B is more than enough to summarise an email, classify a support ticket, or extract entities from a text. Choosing the right LLM size is the first sobriety decision.",
   "regard_fr": "Un LLM n'est pas une base de connaissances, c'est une machine statistique. Il \"sait\" ce qui est probable dans ses données d'entraînement · pas ce qui est vrai aujourd'hui. Pour la précision factuelle, couplez-le à un RAG.",
-  "regard_en": "",
+  "regard_en": "An LLM is not a knowledge base, it is a statistical machine. It \"knows\" what is probable in its training data · not what is true today. For factual accuracy, pair it with a RAG.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS pose les fondamentaux des LLM dans la Leçon 1, sans formules mathématiques",
-    "texte_en": "",
+    "texte_en": "FIARS lays down the fundamentals of LLMs in Lesson 1, with no mathematical formulas",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

@@ -1,0 +1,162 @@
+{
+  "ia-generative": {
+    "sous_titre_en": "IA générative, GenAI",
+    "definition_en": "A family of AI systems capable of generating original content · text, images, sound, video, code · from natural language instructions. It rests mainly on two technical families: language models (LLMs) for text, and diffusion models for images.",
+    "exemple_en": "To produce a promotional video, several generative AIs are combined: ChatGPT for the script, Midjourney for the visuals, ElevenLabs for the voice-over, Runway for the animation. Four generative AIs, four different technical families · coordinated by a human.",
+    "regard_en": "Generative AI is only one part of AI. Non-generative AI (classification, detection, forecasting) remains massively used and is often more relevant. Beware of solutions that put an LLM everywhere.",
+    "cta_texte_en": "Lesson 1 of FIARS distinguishes generative from non-generative AI · fundamental for sound decisions",
+    "cta_label_en": "See the training →"
+  },
+  "ia-non-generative": {
+    "sous_titre_en": "Classic machine learning, predictive AI",
+    "definition_en": "A family of AI systems that predict, classify or detect · without generating new content. It covers regression, classification, clustering and anomaly detection. It often relies on smaller, faster models that consume far less energy than LLMs.",
+    "exemple_en": "To detect fraudulent transactions, a bank uses a Random Forest trained on 10 years of data. The model runs on a standard CPU, processes 10,000 transactions per second, and reaches 98% accuracy · with no need for an LLM.",
+    "regard_en": "Before deploying an LLM, ask yourself: would a classic model not be enough? The media pressure around GenAI makes people forget that 80% of enterprise AI problems are better solved with classic machine learning.",
+    "cta_texte_en": "FIARS lays the foundations of generative and non-generative AI · to choose lucidly",
+    "cta_label_en": "See the training →"
+  },
+  "ia-souveraine": {
+    "sous_titre_en": "IA souveraine",
+    "definition_en": "An AI system designed to keep control of data, models and infrastructure in the hands of the user organisation or its country. It generally implies: an open-source or European model, sovereign hosting, locally controlled code and data, and independence from Big Tech.",
+    "exemple_en": "A local authority wants an AI assistant for its agents. The sovereign choice: Mistral Large hosted on OVHcloud, a RAG over the internal document base (managed by the IT department), an interface built by a French IT services firm, governance handled in-house. Not a single byte leaves European territory.",
+    "regard_en": "Sovereign AI is not a political slogan. It is an operational choice: optionality in the face of service disruptions, legal compliance, economic independence. And it is technically feasible today.",
+    "cta_texte_en": "Our \"Turnkey sovereign AI\" offer deploys a private AI you control from A to Z (from €7,500 excl. VAT)",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "inference": {
+    "sous_titre_en": "Inférence",
+    "definition_en": "The phase in which an already trained model is used: it is given an input (a prompt) and produces an output. Unlike the training phase (very costly, one-off), inference is repeated millions of times and accounts for the bulk of AI's operational costs.",
+    "exemple_en": "Training GPT-4 cost about 100 million dollars. Its daily inferences (hundreds of millions of requests) cost OpenAI several million dollars a day. It is inference you need to optimise, not training.",
+    "regard_en": "Over 3 years of use, 90% of an AI system's costs are inference. Choosing a smaller model can divide your operating costs by 10 · for a loss of quality that is often negligible.",
+    "cta_texte_en": "",
+    "cta_label_en": ""
+  },
+  "jury-certification": {
+    "sous_titre_en": "Final assessment panel",
+    "definition_en": "The final assessment of a certifying training programme, conducted by a panel of independent experts. It validates that the learner has actually acquired the targeted skills · as opposed to a simple multiple-choice check. It is the guarantee of a certification that is worth something on the market.",
+    "exemple_en": "At the end of FIARS, each participant presents to a jury: a real ORI-IA diagnostic carried out in their organisation, their AI charter, and their RAG architecture. A 30-minute presentation, 15 minutes of questions. A certification that has to be earned.",
+    "regard_en": "An end-of-training jury is not an exam. It is an opportunity to structure what you have learned, test it against experts, and leave with a concrete deliverable. It is also what separates a certifying training programme from a MOOC.",
+    "cta_texte_en": "FIARS concludes with a presentation before a jury · to validate a real skill",
+    "cta_label_en": "See the training →"
+  },
+  "langchain": {
+    "sous_titre_en": "LLM orchestration framework",
+    "definition_en": "An open-source library that simplifies AI application development by orchestrating LLMs, vector stores, external tools and business logic. It makes it easy to switch from one LLM provider to another (OpenAI → Mistral → Anthropic) without rewriting the whole application.",
+    "exemple_en": "A customer support application built with LangChain can, by configuration: call GPT-4 for complex questions, Mistral 7B for initial triage, and a sovereign RAG for internal policies. Changing this orchestration takes a few hours, not a few months.",
+    "regard_en": "LangChain is one of the key tools of \"zero lock-in\". By abstracting the LLM call, it preserves your freedom to change provider. Investing in LangChain (or equivalent frameworks) from the start protects your optionality.",
+    "cta_texte_en": "Our B2B deployments rely on LangChain or equivalents to preserve your independence",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "llama": {
+    "sous_titre_en": "Large Language Model Meta AI",
+    "definition_en": "A family of open-weights language models developed by Meta (Facebook), launched in 2023. LLaMA 2, LLaMA 3 and their variants (8B, 70B, 405B) are free for commercial use (under conditions) and can be deployed on your own infrastructure.",
+    "exemple_en": "A mid-sized company deploys LLaMA 3 70B on an OVHcloud server with 4 A100 GPUs. Monthly infrastructure cost: ~€3,000. Compared with a ChatGPT Enterprise subscription for 200 users (~€12,000/month), the savings are massive · and the data stays in-house.",
+    "regard_en": "LLaMA is not truly open source: its licence forbids certain large-scale commercial uses. For genuine European open source, prefer Mistral. Always check the licence terms before deploying.",
+    "cta_texte_en": "Our B2B deployments integrate Mistral, LLaMA or other models depending on the use case",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "llm": {
+    "sous_titre_en": "Modèle de langage de grande taille",
+    "definition_en": "A neural network trained on immense text corpora to predict the next token given a context. Modern LLMs (GPT, Claude, Mistral, LLaMA) have tens to hundreds of billions of parameters and demonstrate emergent reasoning and generation capabilities.",
+    "exemple_en": "GPT-4 has 1,700 billion parameters, Mistral 7B has 7 billion. Yet Mistral 7B is more than enough to summarise an email, classify a support ticket, or extract entities from a text. Choosing the right LLM size is the first sobriety decision.",
+    "regard_en": "An LLM is not a knowledge base, it is a statistical machine. It \"knows\" what is probable in its training data · not what is true today. For factual accuracy, pair it with a RAG.",
+    "cta_texte_en": "FIARS lays down the fundamentals of LLMs in Lesson 1, with no mathematical formulas",
+    "cta_label_en": "See the training →"
+  },
+  "lock-in": {
+    "sous_titre_en": "Dépendance fournisseur",
+    "definition_en": "A situation in which an organisation becomes so dependent on a supplier that switching becomes economically or technically prohibitive. In AI, lock-in plays out through proprietary APIs, provider-specific prompt formats, and data stored in the supplier's cloud.",
+    "exemple_en": "An organisation has built 50 prompts specifically optimised for GPT-4, embedded in 30 internal workflows. Moving to Mistral means rewriting and retesting everything · six person-months of work. Without a decoupled architecture (LiteLLM, LangChain), the lock-in is irreversible.",
+    "regard_en": "Measure your \"switching time\": how many person-days to move from OpenAI to Mistral? If the answer is more than 5 days, you are locked in. A \"zero lock-in\" design relies on abstractions and a portable prompt format.",
+    "cta_texte_en": "Our B2B deployments are architected \"zero lock-in\" by default",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "mistral-ai": {
+    "sous_titre_en": "The French champion of open models",
+    "definition_en": "A French company founded in 2023 that publishes language models competitive with the American leaders. Several models are available as open weights (Mistral 7B, Mixtral, Mistral Small), enabling sovereign deployment on European infrastructure. Mistral Large remains proprietary.",
+    "exemple_en": "BNP Paribas deployed Mistral in-house to process sensitive client emails · without any data transiting through the United States. The model is hosted on French infrastructure, compliant with ACPR requirements on banking data protection.",
+    "regard_en": "Mistral is not \"the French ChatGPT\" · it is a different approach, rooted in open source and technical sovereignty. Not all their models are open: Mistral Large remains proprietary. Always check the licence before deploying.",
+    "cta_texte_en": "Mistral is one of the models FIARS teaches you to master and that our B2B offers deploy",
+    "cta_label_en": "See the training →"
+  },
+  "modeles-diffusion": {
+    "sous_titre_en": "Modèles de diffusion",
+    "definition_en": "A family of generative models that produce images (or video, audio) by starting from random noise and progressively \"denoising\" it according to a prompt. Stable Diffusion, DALL-E, Midjourney and FLUX rest on this approach. Very energy-hungry in both training and inference.",
+    "exemple_en": "Generating a high-resolution image with Midjourney consumes about 10 times more energy than a GPT-4 text request. Multiply by 10 iterations to get the desired visual, and by 100 users: the impact of massive image-generation use is not anecdotal.",
+    "regard_en": "Diffusion models also raise copyright questions (training on protected works without consent). Watch this space: regulatory developments and the first court rulings.",
+    "cta_texte_en": "",
+    "cta_label_en": ""
+  },
+  "modeles-symboliques": {
+    "sous_titre_en": "IA symbolique",
+    "definition_en": "The historic family of AI, based on the explicit manipulation of rules, structured knowledge (ontologies, knowledge graphs) and logical reasoning. As opposed to statistical approaches. Very useful in domains where traceability is required.",
+    "exemple_en": "A health insurer's expert system applies 2,000 business rules to determine whether a procedure is reimbursable. Every decision is traceable, auditable, and modifiable without retraining. An LLM could not guarantee that level of transparency.",
+    "regard_en": "The future of AI may well be hybrid: combining the generative power of LLMs with the traceable rigour of symbolic AI. Jocelyn Poncelet, our CTO, is an expert in this neuro-symbolic approach.",
+    "cta_texte_en": "Jocelyn Poncelet, PragmaForma's CTO, masters both symbolic and generative models · featured in FIARS",
+    "cta_label_en": "See the training →"
+  },
+  "monitoring": {
+    "sous_titre_en": "Observability of AI systems",
+    "definition_en": "Continuous monitoring of an AI system in production: performance, availability, model drift, anomalies, inference costs, energy consumption. Essential for detecting incidents quickly and maintaining quality over time.",
+    "exemple_en": "A RAG in production sees its answer quality gradually degrade. Monitoring reveals that 30% of the documents ingested over 3 months were badly chunked, causing hallucinations. Without monitoring, users would have discovered the problem · at the cost of their trust.",
+    "regard_en": "An unmonitored AI system is a system drifting in silence. Setting up monitoring must be part of the initial deployment, not added after the fact.",
+    "cta_texte_en": "Our B2B managed hosting includes 24/7 monitoring by default",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "mooc": {
+    "sous_titre_en": "Massive Open Online Course",
+    "definition_en": "A massive open online course, usually free or inexpensive, with no individual support. Coursera, edX and OpenClassrooms are the main platforms. Excellent for acquiring notions, but without the depth of a supported, certifying programme.",
+    "exemple_en": "Andrew Ng's \"DeepLearning.AI\" MOOC has taught the basics of machine learning to more than 5 million people. An excellent starting point · but without human coaching, a company project or a peer community, it is hard to turn into an actionable business lever.",
+    "regard_en": "A MOOC gives you notions. A supported training programme gives you a method, deliverables, a certification and a lasting community. It is the difference between watching and doing.",
+    "cta_texte_en": "FIARS is not a MOOC: 50 structured hours, 3 human coaching sessions, a certification jury",
+    "cta_label_en": "See the training →"
+  },
+  "multimodal": {
+    "sous_titre_en": "Modèles multimodaux",
+    "definition_en": "An AI model capable of processing several types of input (text, image, sound, video) and sometimes producing several types of output. GPT-4o, Claude and Gemini are natively multimodal for text and images. This opens new use cases: screenshot analysis, audio transcription, and more.",
+    "exemple_en": "An estate agent takes a photo of a flat with their smartphone. A multimodal LLM automatically generates the description, identifies the features (parquet flooring, ceiling height, orientation), and drafts a sales pitch. 5 minutes of work instead of 30.",
+    "regard_en": "Multimodality multiplies energy impacts: one input image is equivalent to several thousand tokens. Use it wisely · not to transcribe a text you could have copied and pasted.",
+    "cta_texte_en": "",
+    "cta_label_en": ""
+  },
+  "open-source-ia": {
+    "sous_titre_en": "Open weights, modèles ouverts",
+    "definition_en": "An AI model whose weights (trained parameters) are publicly available and can be freely downloaded, modified and deployed under a permissive licence. To be distinguished from \"fully open source\", which would also include the training data and the complete code.",
+    "exemple_en": "Mistral 7B is under the Apache 2.0 licence: free commercial use, modifications allowed, redistribution permitted. By contrast, LLaMA 3 has a custom licence that forbids commercial use beyond 700 million monthly active users. Reading the licence before coding is non-negotiable.",
+    "regard_en": "Not all \"open\" is equal. For genuine open source, look at Mistral, Falcon, Qwen or DeepSeek under Apache 2.0 or MIT licences. The licence is the first thing to check.",
+    "cta_texte_en": "Distinguishing proprietary from sovereign tools is a key skill in FIARS",
+    "cta_label_en": "See the training →"
+  },
+  "openrag": {
+    "sous_titre_en": "Sovereign open-source RAG platform",
+    "definition_en": "An open-source RAG deployment platform, designed to let organisations connect their internal documents to a sovereign LLM · without sending their data to a third party. It covers indexing, orchestration and the query interface.",
+    "exemple_en": "An industrial mid-cap deploys OpenRAG over its 15,000 technical sheets, quality manuals and ISO procedures. Its engineers now query this base in natural language, with sources cited · instead of digging through SharePoint folders for hours.",
+    "regard_en": "OpenRAG illustrates a philosophy: you do not need American SaaS to deploy a high-performing RAG. The European open-source ecosystem is mature enough to offer a credible alternative.",
+    "cta_texte_en": "Our \"RAG set-up\" offer deploys OpenRAG on your infrastructure (from €3,500 excl. VAT)",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "ori-ia": {
+    "sous_titre_en": "Opportunities, Risks, Impacts of AI",
+    "definition_en": "An open-source method developed by PragmaForma to map an AI project along three axes: Opportunities created, Risks incurred, Impacts (social, environmental, organisational). Designed as a collaborative workshop of 2 to 4 hours.",
+    "exemple_en": "An HR director wants to deploy an AI CV-screening tool. The ORI-IA workshop brings out: the opportunity \"5 hours a week saved on recruitment\", the risk \"bias against candidates' ethnic origin\", the impact \"changes to the recruiter's job\". The result: an informed decision, a written charter, an adaptation path planned.",
+    "regard_en": "ORI-IA is freely reusable, including commercially with your clients. It is our contribution to the commons. The webinar of 23 June presents the method with a real case.",
+    "cta_texte_en": "The ORI-IA workshop is included in FIARS, with facilitation rights at your clients'",
+    "cta_label_en": "See the training →"
+  },
+  "outils-proprietaires": {
+    "sous_titre_en": "Closed source, modèles propriétaires",
+    "definition_en": "Software or AI models whose code and/or weights are not publicly accessible, and whose use is subject to a commercial licence. GPT-4, Claude, Gemini and Mistral Large are proprietary. Advantage: often superior performance. Drawback: complete dependence on the supplier.",
+    "exemple_en": "An organisation uses GPT-4 via the API. OpenAI can, at any time: raise its prices (already done several times), change the model's behaviour (already done), withdraw a version (already done), or terminate the contract. The organisation has no technical recourse · that is the price of proprietary.",
+    "regard_en": "Proprietary tools are not bad in themselves. But they create an asymmetry of power: the supplier decides, you comply. A hybrid strategy (proprietary for critical tasks, open source for resilience) protects your optionality.",
+    "cta_texte_en": "Understanding what proprietary and sovereign tools can each bring you is a promise of FIARS",
+    "cta_label_en": "See the training →"
+  },
+  "power-bi": {
+    "sous_titre_en": "Microsoft's Business Intelligence platform",
+    "definition_en": "A data visualisation and analysis tool developed by Microsoft. It connects heterogeneous sources (Excel, SQL databases, ERPs), models the relationships, and builds interactive dashboards. Widely adopted in companies thanks to its proximity to the Microsoft 365 ecosystem.",
+    "exemple_en": "A sales department connects Power BI to its CRM and ERP. Within days, it has a dashboard crossing pipeline, invoicing and customer satisfaction. Faster decisions, figures disputes between departments resolved, time saved in executive meetings: ~3 hours a month.",
+    "regard_en": "Power BI is powerful, but its subtleties (modelling, DAX, performance) are a recurring source of errors. Structured training avoids months of ineffective self-teaching · and wrong dashboards.",
+    "cta_texte_en": "Our B2B training \"Power BI · From data to decision\" (4 days) makes your teams operational",
+    "cta_label_en": "See the B2B offers →"
+  }
+}

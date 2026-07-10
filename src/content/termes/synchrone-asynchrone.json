@@ -2,7 +2,7 @@
   "terme_fr": "Synchrone / Asynchrone",
   "terme_en": "Synchronous / asynchronous",
   "sous_titre_fr": "Modalités pédagogiques",
-  "sous_titre_en": "",
+  "sous_titre_en": "Learning formats",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Deux modalités pédagogiques complémentaires. Synchrone : tous les participants sont présents en même temps (webinaire, classe virtuelle, atelier). Asynchrone : chacun avance à son rythme (vidéos, lectures, exercices auto-corrigés). Une formation moderne combine les deux.",
-  "definition_en": "",
+  "definition_en": "Two complementary learning formats. Synchronous: all participants are present at the same time (webinar, virtual classroom, workshop). Asynchronous: everyone progresses at their own pace (videos, readings, self-corrected exercises). A modern training programme combines both.",
   "exemple_fr": "FIARS = 40h asynchrone (vidéos, lectures, projets) + 10h synchrone (webinaires, coaching, jury). Vous progressez à votre rythme sur le fond, mais les moments synchrones structurent, ressourcent et créent la communauté. Sans synchrone : risque d'abandon. Sans asynchrone : pas de flexibilité.",
-  "exemple_en": "",
+  "exemple_en": "FIARS = 40 hours asynchronous (videos, readings, projects) + 10 hours synchronous (webinars, coaching, jury). You progress at your own pace on the substance, while the synchronous moments structure, energise and build the community. Without synchronous: risk of dropping out. Without asynchronous: no flexibility.",
   "regard_fr": "L'erreur classique : 100% asynchrone (MOOC) ou 100% synchrone (séminaire intensif). Le bon équilibre dépend de la cible · pour des professionnels en activité, 70-80% asynchrone est la juste mesure.",
-  "regard_en": "",
+  "regard_en": "The classic mistake: 100% asynchronous (MOOC) or 100% synchronous (intensive seminar). The right balance depends on the audience · for working professionals, 70-80% asynchronous is the right measure.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS combine 40h async + 10h sync pour s'adapter à votre emploi du temps",
-    "texte_en": "",
+    "texte_en": "FIARS combines 40h async + 10h sync to fit your schedule",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

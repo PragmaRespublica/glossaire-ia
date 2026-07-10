@@ -2,7 +2,7 @@
   "terme_fr": "LLaMA",
   "terme_en": "Llama",
   "sous_titre_fr": "Large Language Model Meta AI",
-  "sous_titre_en": "",
+  "sous_titre_en": "Large Language Model Meta AI",
   "axe": "souverainete",
   "niveau": "intermediaire",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Famille de modèles de langage open weights développés par Meta (Facebook), lancée en 2023. LLaMA 2, LLaMA 3 et leurs déclinaisons (8B, 70B, 405B) sont gratuits à utiliser commercialement (sous conditions) et peuvent être déployés sur infrastructure propre.",
-  "definition_en": "",
+  "definition_en": "A family of open-weights language models developed by Meta (Facebook), launched in 2023. LLaMA 2, LLaMA 3 and their variants (8B, 70B, 405B) are free for commercial use (under conditions) and can be deployed on your own infrastructure.",
   "exemple_fr": "Une ETI déploie LLaMA 3 70B sur un serveur OVHcloud équipé de 4 GPU A100. Coût mensuel d'infrastructure : ~3 000 €. Comparé à un abonnement ChatGPT Enterprise pour 200 utilisateurs (~12 000 €/mois), l'économie est massive · et les données restent en interne.",
-  "exemple_en": "",
+  "exemple_en": "A mid-sized company deploys LLaMA 3 70B on an OVHcloud server with 4 A100 GPUs. Monthly infrastructure cost: ~€3,000. Compared with a ChatGPT Enterprise subscription for 200 users (~€12,000/month), the savings are massive · and the data stays in-house.",
   "regard_fr": "LLaMA n'est pas vraiment open source : sa licence interdit certains usages commerciaux à grande échelle. Pour du vrai open source européen, préférez Mistral. Vérifiez toujours les termes de licence avant déploiement.",
-  "regard_en": "",
+  "regard_en": "LLaMA is not truly open source: its licence forbids certain large-scale commercial uses. For genuine European open source, prefer Mistral. Always check the licence terms before deploying.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos déploiements B2B intègrent au choix Mistral, LLaMA ou d'autres modèles selon le cas d'usage",
-    "texte_en": "",
+    "texte_en": "Our B2B deployments integrate Mistral, LLaMA or other models depending on the use case",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

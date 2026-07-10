@@ -2,7 +2,7 @@
   "terme_fr": "Data center",
   "terme_en": "Data center",
   "sous_titre_fr": "Centre de données",
-  "sous_titre_en": "",
+  "sous_titre_en": "Centre de données",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "impact-environnemental",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Infrastructure physique hébergeant les serveurs qui exécutent les calculs d'entraînement et d'inférence de l'IA. Un grand data center moderne peut consommer plusieurs centaines de mégawatts. Sa performance environnementale se mesure notamment par le PUE (Power Usage Effectiveness).",
-  "definition_en": "",
+  "definition_en": "The physical infrastructure hosting the servers that run AI training and inference workloads. A large modern data center can consume several hundred megawatts. Its environmental performance is measured notably by PUE (Power Usage Effectiveness).",
   "exemple_fr": "Le data center de Microsoft à Marseille consomme environ 60 MW. Pour comparaison, c'est l'équivalent de la consommation électrique d'une ville comme Aubervilliers. L'IA générative pousse ces consommations vers des niveaux inédits.",
-  "exemple_en": "",
+  "exemple_en": "Microsoft's data center in Marseille consumes about 60 MW. For comparison, that is the electricity consumption of a city like Aubervilliers. Generative AI is pushing this consumption to unprecedented levels.",
   "regard_fr": "L'AIE prévoit un doublement de la consommation mondiale d'électricité des data centers d'ici 2030, principalement à cause de l'IA. La question de leur localisation et de leur mix énergétique devient centrale.",
-  "regard_en": "",
+  "regard_en": "The IEA forecasts that global data center electricity consumption will double by 2030, mainly because of AI. The question of where they are located and their energy mix is becoming central.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS traite des impacts environnementaux de l'IA dans la Leçon 1",
-    "texte_en": "",
+    "texte_en": "FIARS covers the environmental impacts of AI in Lesson 1",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

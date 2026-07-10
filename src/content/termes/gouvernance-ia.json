@@ -2,7 +2,7 @@
   "terme_fr": "Gouvernance IA",
   "terme_en": "AI governance",
   "sous_titre_fr": "AI Governance",
-  "sous_titre_en": "",
+  "sous_titre_en": "Gouvernance de l'IA",
   "axe": "economie",
   "niveau": "intermediaire",
   "theme": "cadre-juridique",
@@ -11,11 +11,11 @@
     "fiars"
   ],
   "definition_fr": "Ensemble des structures, processus et règles qui encadrent l'usage de l'IA dans une organisation : comité IA, registre des cas d'usage, processus de validation, rôles (Chief AI Officer, AI Risk Officer), revue éthique. La gouvernance IA est l'un des piliers de l'AI Act pour les systèmes à haut risque.",
-  "definition_en": "",
+  "definition_en": "The set of structures, processes and rules that govern the use of AI in an organisation: AI committee, use-case register, validation process, roles (Chief AI Officer, AI Risk Officer), ethical review. AI governance is one of the pillars of the AI Act for high-risk systems.",
   "exemple_fr": "Une ETI met en place un comité IA trimestriel composé du DPO, du RSSI, d'un représentant métier et de la DSI. Tout nouveau cas d'usage IA passe par ce comité avec une fiche standardisée ORI-IA. Six mois plus tard : 12 cas validés, 3 refusés, zéro incident.",
-  "exemple_en": "",
+  "exemple_en": "A mid-sized company sets up a quarterly AI committee with the DPO, the CISO, a business representative and the IT department. Every new AI use case goes through this committee with a standardised ORI-IA sheet. Six months later: 12 cases approved, 3 rejected, zero incidents.",
   "regard_fr": "Une gouvernance IA efficace n'est pas un comité Théodule. C'est un processus court, outillé, avec des décisions traçables. L'atelier ORI-IA cartographie le minimum vital pour démarrer.",
-  "regard_en": "",
+  "regard_en": "Effective AI governance is not a talking-shop committee. It is a short, well-tooled process with traceable decisions. The ORI-IA workshop maps the essential minimum to get started.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "L'atelier ORI-IA est inclus dans FIARS et utilisable librement chez vos clients",
-    "texte_en": "",
+    "texte_en": "The ORI-IA workshop is included in FIARS and freely usable with your clients",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

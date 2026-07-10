@@ -2,7 +2,7 @@
   "terme_fr": "Entraînement (training)",
   "terme_en": "Training",
   "sous_titre_fr": "Phase d'apprentissage d'un modèle",
-  "sous_titre_en": "",
+  "sous_titre_en": "A model's learning phase",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "entrainement-apprentissage",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Phase pendant laquelle un modèle d'IA apprend à partir d'un jeu de données massif. Pour un LLM, l'entraînement consiste à ajuster des milliards de paramètres pour minimiser l'erreur de prédiction du prochain token. C'est une phase très coûteuse (calcul, énergie, temps) qui ne se fait qu'une fois.",
-  "definition_en": "",
+  "definition_en": "The phase during which an AI model learns from a massive dataset. For an LLM, training means adjusting billions of parameters to minimise the error in predicting the next token. It is a very costly phase (compute, energy, time) that happens only once.",
   "exemple_fr": "L'entraînement de GPT-4 aurait nécessité environ 25 000 GPU H100 pendant 90 jours, pour un coût estimé à 100 millions de dollars. À côté, fine-tuner un modèle existant ne coûte que quelques milliers de dollars · la différence d'ordre de grandeur explique pourquoi peu d'acteurs entraînent leurs propres modèles.",
-  "exemple_en": "",
+  "exemple_en": "Training GPT-4 reportedly required about 25,000 H100 GPUs for 90 days, at an estimated cost of 100 million dollars. By comparison, fine-tuning an existing model costs only a few thousand dollars · that difference in order of magnitude explains why few players train their own models.",
   "regard_fr": "Vous ne devriez jamais entraîner un LLM depuis zéro. C'est l'affaire de Mistral, OpenAI, Anthropic, Meta. Pour adapter un modèle à vos besoins, le bon levier est le fine-tuning (ou mieux : le RAG).",
-  "regard_en": "",
+  "regard_en": "You should never train an LLM from scratch. That is the business of Mistral, OpenAI, Anthropic, Meta. To adapt a model to your needs, the right lever is fine-tuning (or better still: RAG).",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS distingue entraînement, fine-tuning et RAG pour vous aider à choisir",
-    "texte_en": "",
+    "texte_en": "FIARS distinguishes training, fine-tuning and RAG to help you choose",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

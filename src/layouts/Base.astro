@@ -31,6 +31,7 @@ const altLang: Lang = lang === 'fr' ? 'en' : 'fr';
       rel="stylesheet"
     />
     <meta name="generator" content={Astro.generator} />
+    <meta name="app-base" content={base} />
   </head>
   <body>
     <a href="#contenu" class="skip-link">{t(lang, 'a11y.skip')}</a>

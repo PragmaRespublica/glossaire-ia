@@ -2,7 +2,7 @@
   "terme_fr": "Prompt",
   "terme_en": "Prompt",
   "sous_titre_fr": "Instruction, requête",
-  "sous_titre_en": "",
+  "sous_titre_en": "Instruction, requête",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "prompting-usage",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Texte d'instruction fourni à un modèle de langage pour orienter sa réponse. Un bon prompt précise le rôle, la tâche, le format attendu, le contexte, les contraintes. L'art du prompting (prompt engineering) consiste à maximiser la qualité des sorties pour un coût minimal.",
-  "definition_en": "",
+  "definition_en": "The instruction text given to a language model to steer its answer. A good prompt specifies the role, the task, the expected format, the context and the constraints. The art of prompting (prompt engineering) is about maximising output quality at minimal cost.",
   "exemple_fr": "\"Rédige un email\" : prompt faible. \"Tu es un commercial B2B. Rédige un email de relance à un prospect rencontré il y a 2 semaines lors du salon X, qui a montré de l'intérêt pour notre offre cloud. Ton professionnel, 80 mots maximum, CTA clair pour un appel de 15 min\" : prompt efficace.",
-  "exemple_en": "",
+  "exemple_en": "\"Write an email\": a weak prompt. \"You are a B2B salesperson. Write a follow-up email to a prospect met 2 weeks ago at trade show X, who showed interest in our cloud offer. Professional tone, 80 words maximum, clear CTA for a 15-minute call\": an effective prompt.",
   "regard_fr": "Un prompt court et précis vaut mieux qu'un prompt long et bavard. Chaque token compte · en coût comme en énergie. Apprendre à prompter sobrement, c'est aussi un acte de responsabilité numérique.",
-  "regard_en": "",
+  "regard_en": "A short, precise prompt beats a long, chatty one. Every token counts · in cost as in energy. Learning to prompt frugally is also an act of digital responsibility.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS et nos formations Copilot B2B couvrent le prompting professionnel",
-    "texte_en": "",
+    "texte_en": "FIARS and our B2B Copilot training programmes cover professional prompting",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

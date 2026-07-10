@@ -2,7 +2,7 @@
   "terme_fr": "Déploiement IA",
   "terme_en": "AI deployment",
   "sous_titre_fr": "Mise en production d'un système IA",
-  "sous_titre_en": "",
+  "sous_titre_en": "Putting an AI system into production",
   "axe": "souverainete",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Mise en service opérationnelle d'un système d'IA dans une organisation, après la phase de prototype. Comprend l'infrastructure d'hébergement, l'intégration avec les outils existants, la formation des utilisateurs, la gouvernance, le monitoring continu, et le plan de mise à jour.",
-  "definition_en": "",
+  "definition_en": "The operational rollout of an AI system in an organisation, after the prototype phase. It covers hosting infrastructure, integration with existing tools, user training, governance, continuous monitoring, and the update plan.",
   "exemple_fr": "Une PME a testé ChatGPT pendant 3 mois. Elle décide de passer à un déploiement structuré : Mistral hébergé en interne, accès via SSO, charte IA, formation de 80 collaborateurs, suivi de l'usage par direction métier. Durée : 8 semaines, coût TCO 3 ans inférieur à ChatGPT Enterprise.",
-  "exemple_en": "",
+  "exemple_en": "An SME tested ChatGPT for 3 months. It decides to move to a structured deployment: Mistral hosted in-house, access via SSO, an AI charter, training for 80 employees, usage tracking by business unit. Duration: 8 weeks, with a 3-year TCO lower than ChatGPT Enterprise.",
   "regard_fr": "90% des projets IA n'atteignent jamais la production. La cause principale : un saut entre prototype et déploiement sans cadre méthodologique. Anticipez les questions d'infra, de gouvernance et d'adoption dès la phase de POC.",
-  "regard_en": "",
+  "regard_en": "90% of AI projects never reach production. The main cause: jumping from prototype to deployment without a methodological framework. Anticipate infrastructure, governance and adoption questions from the POC phase onwards.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Notre offre \"IA souveraine clé en main\" accompagne tout le cycle de déploiement (à partir de 7 500 € HT)",
-    "texte_en": "",
+    "texte_en": "Our \"Turnkey sovereign AI\" offer supports the full deployment cycle (from €7,500 excl. VAT)",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

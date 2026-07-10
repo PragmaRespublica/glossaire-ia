@@ -2,7 +2,7 @@
   "terme_fr": "Gemini",
   "terme_en": "Gemini",
   "sous_titre_fr": "Assistant IA de Google",
-  "sous_titre_en": "",
+  "sous_titre_en": "Google's AI assistant",
   "axe": "fondamentaux",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Famille de modèles de langage multimodaux développés par Google DeepMind, lancée fin 2023. Gemini est intégré aux outils Google (Workspace, Search, Android) et propose une fenêtre contextuelle exceptionnellement large (jusqu'à 2 millions de tokens sur Gemini 1.5 Pro).",
-  "definition_en": "",
+  "definition_en": "A family of multimodal language models developed by Google DeepMind, launched in late 2023. Gemini is integrated into Google's tools (Workspace, Search, Android) and offers an exceptionally large context window (up to 2 million tokens on Gemini 1.5 Pro).",
   "exemple_fr": "Un analyste financier soumet à Gemini un rapport annuel de 500 pages (200 000 tokens). Gemini extrait, en un seul prompt, les KPI clés, les zones de risque mentionnées, et les écarts avec l'année précédente. Pas besoin de RAG pour ce cas précis.",
-  "exemple_en": "",
+  "exemple_en": "A financial analyst feeds Gemini a 500-page annual report (200,000 tokens). In a single prompt, Gemini extracts the key KPIs, the risk areas mentioned, and the differences from the previous year. No RAG needed for this specific case.",
   "regard_fr": "Gemini est techniquement bluffant mais son intégration profonde dans Google Workspace pose des questions de gouvernance des données · vérifiez toujours les conditions d'usage et les options d'opt-out avant déploiement entreprise.",
-  "regard_en": "",
+  "regard_en": "Gemini is technically stunning, but its deep integration into Google Workspace raises data governance questions · always check the terms of use and opt-out options before an enterprise deployment.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS forme à la maîtrise comparative de Gemini, Claude, ChatGPT et Mistral",
-    "texte_en": "",
+    "texte_en": "FIARS provides comparative mastery of Gemini, Claude, ChatGPT and Mistral",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

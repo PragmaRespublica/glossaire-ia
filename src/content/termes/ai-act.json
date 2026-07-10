@@ -2,7 +2,7 @@
   "terme_fr": "AI Act",
   "terme_en": "AI Act",
   "sous_titre_fr": "Règlement européen sur l'intelligence artificielle",
-  "sous_titre_en": "",
+  "sous_titre_en": "European regulation on artificial intelligence",
   "axe": "reglementaire",
   "niveau": "fondamental",
   "theme": "cadre-juridique",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Le règlement européen sur l'intelligence artificielle (Règlement UE 2024/1689) est le premier cadre juridique complet au monde pour encadrer l'IA. Adopté en 2024, il classe les systèmes d'IA selon quatre niveaux de risque (inacceptable, élevé, limité, minimal) et impose des obligations proportionnées. Son application s'étale de 2025 à 2027.",
-  "definition_en": "",
+  "definition_en": "The European regulation on artificial intelligence (Regulation EU 2024/1689) is the world's first comprehensive legal framework for AI. Adopted in 2024, it classifies AI systems into four risk levels (unacceptable, high, limited, minimal) and imposes proportionate obligations. Its application is phased from 2025 to 2027.",
   "exemple_fr": "Un système de tri automatisé de CV est classé \"haut risque\" par l'AI Act : il doit faire l'objet d'une documentation technique, d'une supervision humaine et d'une analyse d'impact sur les droits fondamentaux. Un chatbot d'aide à la navigation sur un site, lui, relève du \"risque limité\" · seule la transparence sur sa nature d'IA est exigée.",
-  "exemple_en": "",
+  "exemple_en": "An automated CV-screening system is classified \"high risk\" under the AI Act: it requires technical documentation, human oversight and a fundamental rights impact assessment. A website navigation chatbot, on the other hand, falls under \"limited risk\" · only transparency about its AI nature is required.",
   "regard_fr": "L'AI Act n'est pas une contrainte administrative à traiter en fin de projet. C'est un cadre structurant qui doit infuser dès la conception. Connaître sa classification de risque conditionne tout : documentation, gouvernance, audits.",
-  "regard_en": "",
+  "regard_en": "The AI Act is not an administrative constraint to deal with at the end of a project. It is a structuring framework that must inform design from day one. Knowing your risk classification conditions everything: documentation, governance, audits.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "La formation FIARS consacre une partie de la Leçon 1 à l'AI Act et à son application concrète",
-    "texte_en": "",
+    "texte_en": "The FIARS training devotes part of Lesson 1 to the AI Act and its practical application",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

@@ -2,7 +2,7 @@
   "terme_fr": "RLHF",
   "terme_en": "RLHF",
   "sous_titre_fr": "Reinforcement Learning from Human Feedback",
-  "sous_titre_en": "",
+  "sous_titre_en": "Reinforcement Learning from Human Feedback",
   "axe": "fondamentaux",
   "niveau": "avance",
   "theme": "entrainement-apprentissage",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Technique d'entraînement post-pré-entraînement, qui aligne le comportement d'un LLM sur les préférences humaines. Des annotateurs comparent plusieurs sorties du modèle pour la même question, et leurs préférences servent à entraîner un modèle de récompense qui guide ensuite l'apprentissage par renforcement.",
-  "definition_en": "",
+  "definition_en": "A post-pre-training technique that aligns an LLM's behaviour with human preferences. Annotators compare several model outputs for the same question, and their preferences train a reward model that then guides reinforcement learning.",
   "exemple_fr": "ChatGPT (à partir de GPT-3.5) est devenu utilisable grâce au RLHF. Avant RLHF, GPT-3 donnait des réponses techniquement correctes mais souvent inappropriées (verbeuses, hors-sujet, parfois choquantes). Après RLHF, le modèle est aligné sur ce que les humains préfèrent vraiment lire.",
-  "exemple_en": "",
+  "exemple_en": "ChatGPT (from GPT-3.5 onwards) became usable thanks to RLHF. Before RLHF, GPT-3 gave technically correct but often inappropriate answers (verbose, off-topic, sometimes shocking). After RLHF, the model is aligned with what humans actually prefer to read.",
   "regard_fr": "Le RLHF est aussi un vecteur de biais : les modèles reflètent les préférences des annotateurs (majoritairement américains et anglophones). Un LLM entraîné par RLHF aux États-Unis aura des angles morts culturels pour un usage français.",
-  "regard_en": "",
+  "regard_en": "RLHF is also a vector of bias: models reflect the preferences of the annotators (mostly American and English-speaking). An LLM trained with RLHF in the United States will have cultural blind spots for French use.",
   "schema": {
     "type": "none",
     "contenu": "",

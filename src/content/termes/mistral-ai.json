@@ -2,7 +2,7 @@
   "terme_fr": "Mistral AI",
   "terme_en": "Mistral AI",
   "sous_titre_fr": "Acteur français des modèles ouverts",
-  "sous_titre_en": "",
+  "sous_titre_en": "The French champion of open models",
   "axe": "souverainete",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Entreprise française fondée en 2023, qui publie des modèles de langage compétitifs avec les leaders américains. Plusieurs modèles sont disponibles en open weights (Mistral 7B, Mixtral, Mistral Small), ce qui permet un déploiement souverain sur infrastructure européenne. Mistral Large reste propriétaire.",
-  "definition_en": "",
+  "definition_en": "A French company founded in 2023 that publishes language models competitive with the American leaders. Several models are available as open weights (Mistral 7B, Mixtral, Mistral Small), enabling sovereign deployment on European infrastructure. Mistral Large remains proprietary.",
   "exemple_fr": "BNP Paribas a déployé Mistral en interne pour traiter les emails clients sensibles · sans qu'aucune donnée ne transite par les États-Unis. Le modèle est hébergé sur infrastructure française, conforme aux exigences ACPR sur la protection des données bancaires.",
-  "exemple_en": "",
+  "exemple_en": "BNP Paribas deployed Mistral in-house to process sensitive client emails · without any data transiting through the United States. The model is hosted on French infrastructure, compliant with ACPR requirements on banking data protection.",
   "regard_fr": "Mistral n'est pas \"le ChatGPT français\" · c'est une autre approche, ancrée dans l'open source et la souveraineté technique. Tous leurs modèles ne sont pas open : Mistral Large reste propriétaire. Vérifiez toujours la licence avant déploiement.",
-  "regard_en": "",
+  "regard_en": "Mistral is not \"the French ChatGPT\" · it is a different approach, rooted in open source and technical sovereignty. Not all their models are open: Mistral Large remains proprietary. Always check the licence before deploying.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "Mistral est l'un des modèles que FIARS apprend à maîtriser et que nos offres B2B déploient",
-    "texte_en": "",
+    "texte_en": "Mistral is one of the models FIARS teaches you to master and that our B2B offers deploy",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

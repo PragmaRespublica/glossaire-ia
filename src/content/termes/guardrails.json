@@ -2,7 +2,7 @@
   "terme_fr": "Guardrails",
   "terme_en": "Guardrails",
   "sous_titre_fr": "Garde-fous, filtres de sécurité",
-  "sous_titre_en": "",
+  "sous_titre_en": "Garde-fous, filtres de sécurité",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "securite",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Mécanismes ajoutés en amont ou en aval d'un LLM pour bloquer certains contenus ou comportements indésirables : sujets interdits, langage inapproprié, fuites de données, prompts malveillants. Peuvent être implémentés par filtre, par règle, ou par un autre modèle d'IA spécialisé.",
-  "definition_en": "",
+  "definition_en": "Mechanisms added upstream or downstream of an LLM to block certain undesirable content or behaviour: forbidden topics, inappropriate language, data leaks, malicious prompts. They can be implemented as filters, as rules, or as another specialised AI model.",
   "exemple_fr": "Un chatbot service client refuse automatiquement de répondre aux questions sur la concurrence (filtre sortie), bloque les tentatives de prompt injection (filtre entrée), et anonymise les numéros de carte bancaire que des utilisateurs auraient saisis par mégarde (PII filtering). Trois guardrails, trois enjeux.",
-  "exemple_en": "",
+  "exemple_en": "A customer service chatbot automatically declines questions about competitors (output filter), blocks prompt injection attempts (input filter), and anonymises credit card numbers users may have typed by mistake (PII filtering). Three guardrails, three different stakes.",
   "regard_fr": "Les guardrails ne sont jamais parfaits · ils peuvent toujours être contournés par un attaquant déterminé. Leur rôle est de réduire la probabilité d'incidents accidentels, pas d'éliminer le risque. La défense en profondeur reste indispensable.",
-  "regard_en": "",
+  "regard_en": "Guardrails are never perfect · a determined attacker can always get around them. Their role is to reduce the likelihood of accidental incidents, not to eliminate risk. Defence in depth remains essential.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos déploiements B2B intègrent des guardrails adaptés à votre contexte métier",
-    "texte_en": "",
+    "texte_en": "Our B2B deployments include guardrails tailored to your business context",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"

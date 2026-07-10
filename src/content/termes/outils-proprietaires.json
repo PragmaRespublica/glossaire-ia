@@ -2,7 +2,7 @@
   "terme_fr": "Outils propriétaires",
   "terme_en": "Proprietary tools",
   "sous_titre_fr": "Closed source, modèles propriétaires",
-  "sous_titre_en": "",
+  "sous_titre_en": "Closed source, modèles propriétaires",
   "axe": "economie",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -11,11 +11,11 @@
     "b2b"
   ],
   "definition_fr": "Logiciels ou modèles d'IA dont le code et/ou les poids ne sont pas publiquement accessibles, et dont l'usage est conditionné à une licence commerciale. GPT-4, Claude, Gemini, Mistral Large sont propriétaires. Avantage : performance souvent supérieure. Inconvénient : dépendance complète au fournisseur.",
-  "definition_en": "",
+  "definition_en": "Software or AI models whose code and/or weights are not publicly accessible, and whose use is subject to a commercial licence. GPT-4, Claude, Gemini and Mistral Large are proprietary. Advantage: often superior performance. Drawback: complete dependence on the supplier.",
   "exemple_fr": "Une organisation utilise GPT-4 via API. OpenAI peut, à tout moment : augmenter ses prix (déjà fait plusieurs fois), modifier le comportement du modèle (déjà fait), retirer une version (déjà fait), ou résilier le contrat. L'organisation n'a aucun recours technique · c'est le prix du propriétaire.",
-  "exemple_en": "",
+  "exemple_en": "An organisation uses GPT-4 via the API. OpenAI can, at any time: raise its prices (already done several times), change the model's behaviour (already done), withdraw a version (already done), or terminate the contract. The organisation has no technical recourse · that is the price of proprietary.",
   "regard_fr": "Outils propriétaires ne sont pas mauvais en soi. Mais ils créent une asymétrie de pouvoir : le fournisseur décide, vous subissez. Une stratégie hybride (propriétaire pour les tâches critiques, open source pour la résilience) protège votre optionnalité.",
-  "regard_en": "",
+  "regard_en": "Proprietary tools are not bad in themselves. But they create an asymmetry of power: the supplier decides, you comply. A hybrid strategy (proprietary for critical tasks, open source for resilience) protects your optionality.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "Distinguer ce que les outils propriétaires et souverains peuvent vous apporter est une promesse de FIARS",
-    "texte_en": "",
+    "texte_en": "Understanding what proprietary and sovereign tools can each bring you is a promise of FIARS",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

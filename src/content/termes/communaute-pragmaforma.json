@@ -2,7 +2,7 @@
   "terme_fr": "Communauté",
   "terme_en": "PragmaForma community",
   "sous_titre_fr": "Réseau professionnel d'apprenants",
-  "sous_titre_en": "",
+  "sous_titre_en": "Professional network of learners",
   "axe": "economie",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Réseau de pairs (anciens et présents apprenants, formateurs, experts invités) qui échangent autour d'un domaine de compétence. La communauté est un espace de mise à jour continue, de partage de cas concrets, d'entraide opérationnelle · bien au-delà de la durée formelle de la formation.",
-  "definition_en": "",
+  "definition_en": "A network of peers (past and current learners, trainers, guest experts) who exchange around a field of expertise. The community is a space for continuous updating, sharing real cases and operational mutual aid · well beyond the formal duration of the training.",
   "exemple_fr": "Six mois après FIARS, un participant rencontre un cas inédit : déployer un RAG sur des données médicales. Il poste la question dans la communauté PragmaForma. Trois pairs partagent leur retour d'expérience similaire, un formateur ajoute une référence à un cas client. Réponse complète en moins de 24h.",
-  "exemple_en": "",
+  "exemple_en": "Six months after FIARS, a participant faces a new case: deploying a RAG on medical data. They post the question in the PragmaForma community. Three peers share similar experience, a trainer adds a reference to a client case. A complete answer in under 24 hours.",
   "regard_fr": "La communauté est ce qui fait qu'une formation continue à produire de la valeur après son achèvement. Sans communauté, vos acquis se dégradent. Avec elle, vous restez à jour sans effort supplémentaire.",
-  "regard_en": "",
+  "regard_en": "The community is what keeps a training programme producing value after it ends. Without a community, your skills degrade. With one, you stay current with no extra effort.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS inclut l'accès à vie à la communauté PragmaForma · pairs, formateurs, experts invités",
-    "texte_en": "",
+    "texte_en": "FIARS includes lifetime access to the PragmaForma community · peers, trainers, guest experts",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

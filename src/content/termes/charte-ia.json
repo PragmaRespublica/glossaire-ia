@@ -2,7 +2,7 @@
   "terme_fr": "Charte IA",
   "terme_en": "AI charter",
   "sous_titre_fr": "Politique d'usage de l'IA",
-  "sous_titre_en": "",
+  "sous_titre_en": "AI usage policy",
   "axe": "economie",
   "niveau": "intermediaire",
   "theme": "cadre-juridique",
@@ -11,11 +11,11 @@
     "ori"
   ],
   "definition_fr": "Document encadrant l'usage de l'IA dans une organisation. Une bonne charte IA précise les usages autorisés et interdits, les outils approuvés, les règles de protection des données, les responsabilités, et les processus de validation des nouveaux cas d'usage.",
-  "definition_en": "",
+  "definition_en": "A document governing the use of AI within an organisation. A good AI charter specifies authorised and prohibited uses, approved tools, data protection rules, responsibilities, and the validation process for new use cases.",
   "exemple_fr": "La charte IA d'une banque autorise ChatGPT pour résumer des articles publics, interdit toute saisie de données client dans ChatGPT, recommande Mistral souverain pour traiter des emails internes, et exige une revue Comité IA pour tout nouveau cas d'usage impliquant des décisions automatisées.",
-  "exemple_en": "",
+  "exemple_en": "A bank's AI charter authorises ChatGPT for summarising public articles, prohibits entering any client data into ChatGPT, recommends sovereign Mistral for processing internal emails, and requires AI Committee review for any new use case involving automated decisions.",
   "regard_fr": "Une charte qui se contente d'interdire est une charte morte. Une charte vivante autorise explicitement, encadre les exceptions et désigne des référents accessibles. C'est l'un des livrables clés de notre formation FIARS.",
-  "regard_en": "",
+  "regard_en": "A charter that merely prohibits is a dead charter. A living charter explicitly authorises, frames exceptions and appoints accessible points of contact. It is one of the key deliverables of our FIARS training.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -33,9 +33,9 @@
   ],
   "cta": {
     "texte_fr": "FIARS inclut la rédaction de votre propre charte IA, intégrée à l'atelier ORI-IA",
-    "texte_en": "",
+    "texte_en": "FIARS includes drafting your own AI charter, integrated into the ORI-IA workshop",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

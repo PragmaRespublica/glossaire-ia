@@ -2,7 +2,7 @@
   "terme_fr": "Big Tech",
   "terme_en": "Big Tech",
   "sous_titre_fr": "GAFAM, hyperscalers",
-  "sous_titre_en": "",
+  "sous_titre_en": "GAFAM, hyperscalers",
   "axe": "souverainete",
   "niveau": "fondamental",
   "theme": "ecosysteme-outils",
@@ -10,11 +10,11 @@
     "fiars"
   ],
   "definition_fr": "Désigne les très grandes entreprises technologiques américaines (Google, Apple, Meta, Amazon, Microsoft) qui dominent les marchés du cloud et de l'IA. Trois d'entre elles (AWS, Azure, Google Cloud) concentrent environ 65% du marché mondial du cloud, créant une situation de dépendance critique pour les organisations européennes.",
-  "definition_en": "",
+  "definition_en": "Refers to the very large American technology companies (Google, Apple, Meta, Amazon, Microsoft) that dominate the cloud and AI markets. Three of them (AWS, Azure, Google Cloud) hold about 65% of the global cloud market, creating a critical dependency for European organisations.",
   "exemple_fr": "Microsoft Azure héberge OpenAI. Quand vous utilisez ChatGPT Enterprise, vos données passent par l'infrastructure Microsoft soumise au CLOUD Act américain. Migrer vers un LLM hébergé sur OVHcloud ou Scaleway change radicalement le profil juridique de votre déploiement.",
-  "exemple_en": "",
+  "exemple_en": "Microsoft Azure hosts OpenAI. When you use ChatGPT Enterprise, your data passes through Microsoft infrastructure subject to the American CLOUD Act. Migrating to an LLM hosted on OVHcloud or Scaleway radically changes the legal profile of your deployment.",
   "regard_fr": "\"Indépendance vis-à-vis des Big Tech\" n'est pas un slogan. C'est une capacité opérationnelle à choisir, comparer et changer de fournisseur. Tant que vous ne l'avez pas, vous n'êtes pas en position de négocier.",
-  "regard_en": "",
+  "regard_en": "\"Independence from Big Tech\" is not a slogan. It is an operational capacity to choose, compare and switch providers. Until you have it, you are in no position to negotiate.",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "L'indépendance vis-à-vis des Big Tech est l'un des piliers structurants de la formation FIARS",
-    "texte_en": "",
+    "texte_en": "Independence from Big Tech is one of the structuring pillars of the FIARS training",
     "label_fr": "Voir la formation →",
-    "label_en": "",
+    "label_en": "See the training →",
     "url": "/"
   },
   "statut": "a_relire"

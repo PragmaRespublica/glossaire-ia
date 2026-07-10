@@ -1,0 +1,255 @@
+---
+import {
+  AXE_LABELS,
+  NIVEAU_LABELS,
+  THEME_LABELS,
+  PAGE_LIEE_LABELS,
+  t,
+  type Lang,
+} from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  /** Lettres réellement présentes dans la liste (index A-Z). */
+  lettres: string[];
+}
+
+const { lang, lettres } = Astro.props;
+const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+---
+
+<div class="filters-wrap">
+  <div class="container">
+    <div class="filters">
+      <div class="filter-row">
+        <label class="filter-label" for="search">{t(lang, 'hero.eyebrow')}</label>
+        <input
+          type="text"
+          id="search"
+          class="search-input"
+          placeholder={t(lang, 'search.placeholder')}
+          autocomplete="off"
+        />
+      </div>
+      <div class="filter-row" data-filter-group="axis">
+        <span class="filter-label" id="label-axe">{t(lang, 'filter.axe')}</span>
+        <button class="filter-btn active" data-value="all">{t(lang, 'filter.all')}</button>
+        {
+          Object.entries(AXE_LABELS).map(([key, v]) => (
+            <button class="filter-btn" data-value={key}>
+              {v[lang]}
+            </button>
+          ))
+        }
+      </div>
+      <div class="filter-row" data-filter-group="level">
+        <span class="filter-label" id="label-niveau">{t(lang, 'filter.niveau')}</span>
+        <button class="filter-btn active" data-value="all">{t(lang, 'filter.all')}</button>
+        {
+          Object.entries(NIVEAU_LABELS).map(([key, v]) => (
+            <button class="filter-btn" data-value={key}>
+              {v[lang]}
+            </button>
+          ))
+        }
+      </div>
+      <div class="filter-row" data-filter-group="theme">
+        <span class="filter-label" id="label-theme">{t(lang, 'filter.theme')}</span>
+        <button class="filter-btn active" data-value="all">{t(lang, 'filter.all')}</button>
+        {
+          Object.entries(THEME_LABELS).map(([key, v]) => (
+            <button class="filter-btn" data-value={key}>
+              {v[lang]}
+            </button>
+          ))
+        }
+      </div>
+      <div class="filter-row" data-filter-group="page">
+        <span class="filter-label" id="label-page">{t(lang, 'filter.page')}</span>
+        <button class="filter-btn active" data-value="all">{t(lang, 'filter.toutes')}</button>
+        {
+          Object.entries(PAGE_LIEE_LABELS).map(([key, v]) => (
+            <button class="filter-btn" data-value={key}>
+              {v[lang]}
+            </button>
+          ))
+        }
+      </div>
+      <nav class="filter-row az-row" aria-label={t(lang, 'az.label')}>
+        <span class="filter-label">A-Z</span>
+        {
+          ALPHABET.map((l) =>
+            lettres.includes(l) ? (
+              <a class="az-link" href={`#lettre-${l}`}>
+                {l}
+              </a>
+            ) : (
+              <span class="az-link az-off" aria-hidden="true">
+                {l}
+              </span>
+            )
+          )
+        }
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="fulltext" id="fulltext" hidden>
+    <h2 class="block-label">{t(lang, 'search.fulltext')}</h2>
+    <ul class="media-list" id="fulltext-results"></ul>
+  </div>
+</div>
+
+<style>
+  .az-row {
+    gap: 2px;
+  }
+
+  .az-link {
+    font-size: 13px;
+    padding: 4px 7px;
+    border-radius: 4px;
+    color: var(--cream);
+    transition: color 0.2s, background 0.2s;
+  }
+
+  a.az-link:hover {
+    background: var(--orange);
+    color: var(--charcoal);
+  }
+
+  .az-off {
+    color: var(--text-muted);
+    opacity: 0.45;
+  }
+
+  .fulltext {
+    margin-top: 24px;
+    padding: 16px 20px;
+    background: var(--charcoal-soft);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+  }
+</style>
+
+<script>
+  // Filtrage combiné : recherche (nom + plein texte Pagefind) × axe × niveau × thème × page.
+  const state: Record<string, string> = { axis: 'all', level: 'all', theme: 'all', page: 'all' };
+  let query = '';
+  let pagefindMatches: Set<string> | null = null; // slugs retenus par Pagefind
+
+  const lang = document.documentElement.lang;
+  const terms = [...document.querySelectorAll<HTMLElement>('article.term')];
+  const dividers = [...document.querySelectorAll<HTMLElement>('.letter-divider')];
+  const count = document.getElementById('term-count');
+  const empty = document.getElementById('empty-state');
+  const fulltext = document.getElementById('fulltext')!;
+  const fulltextResults = document.getElementById('fulltext-results')!;
+
+  // Pagefind : index construit au build · silencieusement absent en dev sans build préalable.
+  let pagefind: any = null;
+  async function loadPagefind() {
+    if (pagefind !== null) return pagefind;
+    try {
+      const base = (document.querySelector('meta[name="app-base"]') as HTMLMetaElement).content;
+      pagefind = await import(/* @vite-ignore */ `${base}/pagefind/pagefind.js`);
+      await pagefind.options({ baseUrl: `${base}/` });
+    } catch {
+      pagefind = false;
+    }
+    return pagefind;
+  }
+
+  function applique() {
+    let visibles = 0;
+    for (const el of terms) {
+      const okAxis = state.axis === 'all' || el.dataset.axis === state.axis;
+      const okLevel = state.level === 'all' || el.dataset.level === state.level;
+      const okTheme = state.theme === 'all' || el.dataset.theme === state.theme;
+      const okPage = state.page === 'all' || (el.dataset.page ?? '').split(' ').includes(state.page);
+      const enNom = !query || (el.dataset.search ?? '').includes(query);
+      const enTexte = pagefindMatches !== null && pagefindMatches.has(el.dataset.slug ?? '');
+      const okQuery = !query || enNom || enTexte;
+      const visible = okAxis && okLevel && okTheme && okPage && okQuery;
+      el.classList.toggle('hidden', !visible);
+      if (visible) visibles++;
+    }
+    // Un diviseur de lettre reste visible s'il subsiste un terme visible dans sa section.
+    for (const div of dividers) {
+      let sib = div.nextElementSibling;
+      let garde = false;
+      while (sib && !sib.classList.contains('letter-divider')) {
+        if (sib.classList.contains('term') && !sib.classList.contains('hidden')) {
+          garde = true;
+          break;
+        }
+        sib = sib.nextElementSibling;
+      }
+      div.style.display = garde ? '' : 'none';
+    }
+    if (count) count.textContent = String(visibles);
+    if (empty) empty.classList.toggle('visible', visibles === 0);
+  }
+
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  document.getElementById('search')?.addEventListener('input', (e) => {
+    query = (e.target as HTMLInputElement).value.trim().toLowerCase();
+    clearTimeout(timer);
+    timer = setTimeout(async () => {
+      pagefindMatches = null;
+      fulltext.hidden = true;
+      if (query.length > 2) {
+        const pf = await loadPagefind();
+        if (pf) {
+          const res = await pf.search(query);
+          const top = await Promise.all(res.results.slice(0, 12).map((r: any) => r.data()));
+          const matches = new Set<string>();
+          fulltextResults.innerHTML = '';
+          for (const d of top) {
+            const m = d.url.match(new RegExp(`/${lang}/terme/([^/]+)/?`));
+            if (!m) continue; // ne retenir que les fiches de la langue courante
+            matches.add(m[1]);
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = d.url;
+            a.textContent = d.meta?.title ?? m[1];
+            const span = document.createElement('span');
+            span.className = 'media-meta';
+            span.textContent = ' · ' + (d.excerpt ?? '').replace(/<[^>]+>/g, '').slice(0, 120) + '…';
+            li.append(a, span);
+            fulltextResults.append(li);
+          }
+          pagefindMatches = matches;
+          fulltext.hidden = matches.size === 0;
+        }
+      }
+      applique();
+    }, 150);
+  });
+
+  for (const row of document.querySelectorAll<HTMLElement>('[data-filter-group]')) {
+    const group = row.dataset.filterGroup!;
+    row.addEventListener('click', (e) => {
+      const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.filter-btn');
+      if (!btn) return;
+      state[group] = btn.dataset.value!;
+      row.querySelectorAll('.filter-btn').forEach((b) => b.classList.toggle('active', b === btn));
+      applique();
+    });
+  }
+
+  document.getElementById('reset-filters')?.addEventListener('click', () => {
+    for (const row of document.querySelectorAll<HTMLElement>('[data-filter-group]')) {
+      state[row.dataset.filterGroup!] = 'all';
+      row.querySelectorAll('.filter-btn').forEach((b, i) => b.classList.toggle('active', i === 0));
+    }
+    const input = document.getElementById('search') as HTMLInputElement;
+    input.value = '';
+    query = '';
+    pagefindMatches = null;
+    fulltext.hidden = true;
+    applique();
+  });
+</script>

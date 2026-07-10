@@ -1,0 +1,162 @@
+{
+  "acv": {
+    "sous_titre_en": "Analyse du Cycle de Vie",
+    "definition_en": "A standardised method (ISO 14040 and 14044) that assesses the environmental impacts of a product or service across its entire life cycle · from raw material extraction to end of life. Applied to AI, it covers hardware manufacturing, model training, inference and recycling.",
+    "exemple_en": "Training GPT-3 emitted roughly 552 tonnes of CO₂eq, the equivalent of 120 cars over a year. But across the full life cycle, inference (daily use) quickly overtakes training · 80 to 90% of the total impact for a widely used model.",
+    "regard_en": "Reporting a model's consumption at inference only is misleading. An honest LCA includes training, infrastructure (GPUs, cooling), and hardware manufacturing.",
+    "cta_texte_en": "Measuring the environmental footprint of an AI tool is one of the actionable skills in FIARS",
+    "cta_label_en": "See the training →"
+  },
+  "agent-ia": {
+    "sous_titre_en": "Agentic AI",
+    "definition_en": "An AI agent is a system that uses a language model to plan and carry out actions autonomously, relying on external tools (web search, APIs, code, databases). Unlike a simple assistant, an agent can break down a goal, act, observe the result and iterate.",
+    "exemple_en": "A regulatory-watch agent receives the instruction \"summarise this week's CSRD updates\". It consults EUR-Lex, downloads the relevant documents, extracts the key points with an LLM, checks the sources, then produces a structured note · all without human intervention in between.",
+    "regard_en": "Agentic AI multiplies calls to the model · and therefore energy and financial costs · by 5 to 50 for the same task. Instrumenting these systems is essential to avoid uncontrolled drift in costs and impacts.",
+    "cta_texte_en": "Lesson 3 of FIARS is entirely devoted to agentic AI: design, deployment, governance",
+    "cta_label_en": "See the training →"
+  },
+  "ai-act": {
+    "sous_titre_en": "European regulation on artificial intelligence",
+    "definition_en": "The European regulation on artificial intelligence (Regulation EU 2024/1689) is the world's first comprehensive legal framework for AI. Adopted in 2024, it classifies AI systems into four risk levels (unacceptable, high, limited, minimal) and imposes proportionate obligations. Its application is phased from 2025 to 2027.",
+    "exemple_en": "An automated CV-screening system is classified \"high risk\" under the AI Act: it requires technical documentation, human oversight and a fundamental rights impact assessment. A website navigation chatbot, on the other hand, falls under \"limited risk\" · only transparency about its AI nature is required.",
+    "regard_en": "The AI Act is not an administrative constraint to deal with at the end of a project. It is a structuring framework that must inform design from day one. Knowing your risk classification conditions everything: documentation, governance, audits.",
+    "cta_texte_en": "The FIARS training devotes part of Lesson 1 to the AI Act and its practical application",
+    "cta_label_en": "See the training →"
+  },
+  "api": {
+    "sous_titre_en": "Application Programming Interface",
+    "definition_en": "A technical interface that allows two pieces of software to communicate. In the world of generative AI, the APIs of OpenAI, Anthropic, Mistral or Cohere let a developer send prompts to a model and retrieve its answers · without using the chat interface.",
+    "exemple_en": "When an AI agent built by PragmaForma analyses a client's internal documents, it calls the API of a sovereign LLM (Mistral Large, for instance) rather than ChatGPT, guaranteeing that the data does not pass through American servers.",
+    "regard_en": "Choosing an API is a sovereignty decision. Connecting your application to the OpenAI API means accepting that your prompts (and thus part of your know-how) transit through the United States.",
+    "cta_texte_en": "Our B2B offers include deploying LLMs through a sovereign API, hosted on your premises or on European infrastructure",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "audit-documentaire": {
+    "sous_titre_en": "Mapping internal sources",
+    "definition_en": "A prerequisite step before deploying a RAG system: inventorying an organisation's internal documentary sources (SharePoint, Drive, wikis, ERP, CRM), assessing their quality, freshness and sensitivity, and deciding which to include in the AI knowledge base.",
+    "exemple_en": "Before connecting a RAG to your SharePoint, the audit reveals that 30% of documents are obsolete, 15% contain non-anonymised personal data, and 5% are duplicates. Without this audit, the RAG returns contradictory answers and leaks confidential information.",
+    "regard_en": "\"Garbage in, garbage out\" still holds in the RAG era. An AI system is never better than the data it indexes. A document audit costs less than a failed deployment.",
+    "cta_texte_en": "Our B2B offers include a document and AI governance audit ahead of deployment (€750 excl. VAT)",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "benchmark": {
+    "sous_titre_en": "Comparative evaluation",
+    "definition_en": "A set of standardised tests for comparing the performance of different AI models on specific tasks: MMLU (general knowledge), HumanEval (code), GPQA (scientific reasoning), GSM8K (mathematics). Useful for ranking models, but with significant limitations.",
+    "exemple_en": "Mistral Large scores 81% on MMLU, GPT-4 around 86%. On the surface, GPT-4 wins. But on French summarisation or European legal reasoning tasks, Mistral can outperform it · proof that a generic benchmark never tells the whole story of your real use case.",
+    "regard_en": "Be wary of benchmarks: they are often contaminated (present in the training data) and never reflect your specific use case. The only benchmark that matters is your own.",
+    "cta_texte_en": "",
+    "cta_label_en": ""
+  },
+  "biais-algorithmique": {
+    "sous_titre_en": "Bias, model bias",
+    "definition_en": "A systematic distortion in the outputs of an AI system that can disadvantage certain populations or produce unrepresentative results. Bias can stem from the training data, the choice of variables, or the way the model is optimised.",
+    "exemple_en": "Ask an image generator for \"a CEO in a meeting\": the vast majority of generated images show white men in suits. This bias reflects the over-representation of that image in training data scraped from the web · and risks amplifying stereotypes.",
+    "regard_en": "The phrase \"algorithmic bias\" euphemises a human problem: it is the data and the design choices that carry the bias. The French CrowS-Pairs dataset makes it possible to measure these biases in LLMs.",
+    "cta_texte_en": "Detecting and correcting bias is one of the actionable skills in Lesson 2 of FIARS",
+    "cta_label_en": "See the training →"
+  },
+  "big-tech": {
+    "sous_titre_en": "GAFAM, hyperscalers",
+    "definition_en": "Refers to the very large American technology companies (Google, Apple, Meta, Amazon, Microsoft) that dominate the cloud and AI markets. Three of them (AWS, Azure, Google Cloud) hold about 65% of the global cloud market, creating a critical dependency for European organisations.",
+    "exemple_en": "Microsoft Azure hosts OpenAI. When you use ChatGPT Enterprise, your data passes through Microsoft infrastructure subject to the American CLOUD Act. Migrating to an LLM hosted on OVHcloud or Scaleway radically changes the legal profile of your deployment.",
+    "regard_en": "\"Independence from Big Tech\" is not a slogan. It is an operational capacity to choose, compare and switch providers. Until you have it, you are in no position to negotiate.",
+    "cta_texte_en": "Independence from Big Tech is one of the structuring pillars of the FIARS training",
+    "cta_label_en": "See the training →"
+  },
+  "charte-ia": {
+    "sous_titre_en": "AI usage policy",
+    "definition_en": "A document governing the use of AI within an organisation. A good AI charter specifies authorised and prohibited uses, approved tools, data protection rules, responsibilities, and the validation process for new use cases.",
+    "exemple_en": "A bank's AI charter authorises ChatGPT for summarising public articles, prohibits entering any client data into ChatGPT, recommends sovereign Mistral for processing internal emails, and requires AI Committee review for any new use case involving automated decisions.",
+    "regard_en": "A charter that merely prohibits is a dead charter. A living charter explicitly authorises, frames exceptions and appoints accessible points of contact. It is one of the key deliverables of our FIARS training.",
+    "cta_texte_en": "FIARS includes drafting your own AI charter, integrated into the ORI-IA workshop",
+    "cta_label_en": "See the training →"
+  },
+  "chatbot": {
+    "sous_titre_en": "Conversational agent",
+    "definition_en": "A conversational interface for interacting with a computer system in natural language. Modern chatbots (ChatGPT, Claude, Gemini, Le Chat) are built on large language models, unlike the rule-based chatbots in use since the 1960s.",
+    "exemple_en": "A rule-based customer service chatbot can only answer the exact questions its designers anticipated. An LLM chatbot can rephrase, understand intent, handle ambiguity · but can also hallucinate. The choice depends on how critical the domain is.",
+    "regard_en": "A consumer chatbot is not an enterprise solution. Your prompts may train the models, your data may transit outside the EU. For professional use, insist on Business/Enterprise versions · or choose a sovereign alternative.",
+    "cta_texte_en": "FIARS trains you to master professional and sovereign chatbots",
+    "cta_label_en": "See the training →"
+  },
+  "chatgpt": {
+    "sous_titre_en": "Conversational Pre-trained Transformer (OpenAI)",
+    "definition_en": "A conversational application developed by OpenAI, launched in late 2022, which brought LLMs to the general public. Built on the GPT models and using reinforcement learning from human feedback (RLHF) to produce helpful, safe, aligned answers.",
+    "exemple_en": "A salesperson uses ChatGPT (free version) to draft an email to a prospect. Without precautions, the prospect's text (including their name, company and request) is sent to OpenAI in the United States and may be used to train future models. The Enterprise version and the API correct this behaviour.",
+    "regard_en": "Consumer ChatGPT is not an enterprise solution. For professional use, insist on ChatGPT Business or Enterprise · or better, choose a sovereign alternative such as Le Chat (Mistral).",
+    "cta_texte_en": "The FIARS training covers mastering ChatGPT and its sovereign alternatives",
+    "cta_label_en": "See the training →"
+  },
+  "claude": {
+    "sous_titre_en": "Anthropic's conversational assistant",
+    "definition_en": "A family of language models developed by Anthropic, an American company founded in 2021 by former OpenAI executives. Claude stands out for its \"Constitutional AI\" methodology, which aims to produce helpful, harmless and honest answers. Available through a chat interface (claude.ai) and an API.",
+    "exemple_en": "A consultant uses Claude to analyse a long 80-page contract. Claude's extended context window (200,000 tokens) makes it possible to process the entire document in a single prompt · where other models would force you to split the contract into several passes.",
+    "regard_en": "Claude is technically excellent but remains hosted on American infrastructure (mainly AWS). For professional use on sensitive data, comparing its TCO and sovereignty with Mistral is essential.",
+    "cta_texte_en": "FIARS compares the leading LLMs (Claude, ChatGPT, Gemini, Mistral) to help you choose",
+    "cta_label_en": "See the training →"
+  },
+  "cloud-act": {
+    "sous_titre_en": "Clarifying Lawful Overseas Use of Data Act",
+    "definition_en": "An American law adopted in 2018 that allows US authorities to demand data stored by American companies, even when that data is physically hosted abroad. It applies in particular to AWS, Microsoft Azure and Google Cloud · including when their servers are in France.",
+    "exemple_en": "A French SME hosts its data in Azure France. The FBI can obtain a US warrant compelling Microsoft to hand over that data · without informing the French company and without going through the French courts. That is precisely what the CLOUD Act allows.",
+    "regard_en": "The CLOUD Act is the number one reason for technological sovereignty. No contractual clause can override it. The only answer is legal: choose a company not subject to American law.",
+    "cta_texte_en": "Our B2B deployments are designed to be structurally beyond the reach of the CLOUD Act",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "cloud-souverain": {
+    "sous_titre_en": "Cloud souverain",
+    "definition_en": "Cloud infrastructure operated by a European entity, on European territory, and not subject to extraterritorial American law. In France: OVHcloud, Scaleway, Outscale, Numspot. The SecNumCloud label from ANSSI attests to a high level of requirements.",
+    "exemple_en": "A health insurer must host its members' medical data. Choosing OVHcloud (sovereign, HDS-certified) rather than AWS France is not legally equivalent: the latter remains subject to the CLOUD Act, even with its servers in France.",
+    "regard_en": "\"European cloud\" and \"sovereign cloud\" are not synonyms. Microsoft Azure hosted in France remains subject to American law. Sovereignty plays out on three levels: legal, operational, technical.",
+    "cta_texte_en": "Our B2B deployments use sovereign cloud infrastructure by default",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "coaching-pragmaforma": {
+    "sous_titre_en": "Personalised guidance",
+    "definition_en": "Personalised support for a learner or a team by an expert, complementing the learning content. It unblocks specific situations, adapts concepts to a business context, and answers precise questions that no generic course addresses.",
+    "exemple_en": "During their FIARS coaching, a participant asks how to integrate a RAG with their SharePoint intranet. The expert shows, live, how to connect LangChain to SharePoint via the Graph API · a concrete case that would never appear in generic material.",
+    "regard_en": "Coaching is what makes the difference between \"knowing\" and \"knowing how\". Three sessions of human coaching are often worth more than twenty hours of asynchronous video.",
+    "cta_texte_en": "FIARS includes 3 coaching sessions with a technical expert · answers within 24 hours",
+    "cta_label_en": "See the training →"
+  },
+  "communaute-pragmaforma": {
+    "sous_titre_en": "Professional network of learners",
+    "definition_en": "A network of peers (past and current learners, trainers, guest experts) who exchange around a field of expertise. The community is a space for continuous updating, sharing real cases and operational mutual aid · well beyond the formal duration of the training.",
+    "exemple_en": "Six months after FIARS, a participant faces a new case: deploying a RAG on medical data. They post the question in the PragmaForma community. Three peers share similar experience, a trainer adds a reference to a client case. A complete answer in under 24 hours.",
+    "regard_en": "The community is what keeps a training programme producing value after it ends. Without a community, your skills degrade. With one, you stay current with no extra effort.",
+    "cta_texte_en": "FIARS includes lifetime access to the PragmaForma community · peers, trainers, guest experts",
+    "cta_label_en": "See the training →"
+  },
+  "copilot": {
+    "sous_titre_en": "Microsoft 365 Copilot",
+    "definition_en": "An AI assistant built into the Microsoft 365 suite (Word, Excel, Outlook, Teams, PowerPoint). Built on OpenAI's models. It generates content, automates tasks and summarises meetings · directly inside everyday tools.",
+    "exemple_en": "During a Teams meeting, Copilot transcribes, identifies speakers, extracts decisions and action items, then generates minutes sent automatically to participants. Time saved: 30 to 45 minutes per meeting.",
+    "regard_en": "Copilot is powerful · but it is an open door onto your organisation's data for Microsoft. Governance, permission settings and user training are crucial before any deployment at scale.",
+    "cta_texte_en": "Our B2B training \"Microsoft Copilot · Effective onboarding\" gets your teams up to speed in 2 days",
+    "cta_label_en": "See the B2B offers →"
+  },
+  "cpf": {
+    "sous_titre_en": "French professional training funding",
+    "definition_en": "The Compte Personnel de Formation (CPF) allows any French worker to fund an eligible certified training programme. The OPCOs (skills operators) manage companies' training contributions and fund training for their employees.",
+    "exemple_en": "A freelance consultant wants to fund FIARS through their CPF. They check their balance on moncompteformation.gouv.fr, confirm the programme's eligibility, and register. Payment is handled directly by the Caisse des Dépôts.",
+    "regard_en": "The training-funding landscape is complex and changes regularly. Rather than navigating it alone, contact us directly · we will point you to the option best suited to your situation.",
+    "cta_texte_en": "To explore funding options for FIARS, call us on +33 6 48 55 33 57",
+    "cta_label_en": "See the training →"
+  },
+  "data-center": {
+    "sous_titre_en": "Centre de données",
+    "definition_en": "The physical infrastructure hosting the servers that run AI training and inference workloads. A large modern data center can consume several hundred megawatts. Its environmental performance is measured notably by PUE (Power Usage Effectiveness).",
+    "exemple_en": "Microsoft's data center in Marseille consumes about 60 MW. For comparison, that is the electricity consumption of a city like Aubervilliers. Generative AI is pushing this consumption to unprecedented levels.",
+    "regard_en": "The IEA forecasts that global data center electricity consumption will double by 2030, mainly because of AI. The question of where they are located and their energy mix is becoming central.",
+    "cta_texte_en": "FIARS covers the environmental impacts of AI in Lesson 1",
+    "cta_label_en": "See the training →"
+  },
+  "dax": {
+    "sous_titre_en": "Data Analysis Expressions (Power BI)",
+    "definition_en": "The formula language of Microsoft Power BI, used to create measures and advanced calculated columns. It computes complex KPIs (year-on-year growth, market shares, conditional aggregations) from relational data models.",
+    "exemple_en": "A DAX formula calculates average gross margin by region and by month, accounting for seasonal products and promotions. Without DAX, this calculation would take dozens of Excel sheets · with DAX, a single formula recalculated automatically.",
+    "regard_en": "DAX is powerful but treacherous: its subtleties (filter context, row context) are a recurring source of errors. Dedicated training saves months of ineffective self-teaching.",
+    "cta_texte_en": "Our B2B training \"Power BI · From data to decision\" covers DAX over 4 days",
+    "cta_label_en": "See the B2B offers →"
+  }
+}

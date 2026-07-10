@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import TermCard from '../../components/TermCard.astro';
+import FilterBar from '../../components/FilterBar.astro';
 import { t, LANGS, type Lang } from '../../i18n/ui';
 
 export function getStaticPaths() {
@@ -25,6 +26,8 @@ function initial(entry: (typeof sorted)[number]): string {
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '');
 }
+
+const lettres = [...new Set(sorted.map(initial))];
 ---
 
 <Base
@@ -41,17 +44,19 @@ function initial(entry: (typeof sorted)[number]): string {
     </div>
   </section>
 
+  <FilterBar lang={lang} lettres={lettres} />
+
   <section class="glossary">
     <div class="container">
       <div class="glossary-count">
-        <strong>{sorted.length}</strong>{' '}{t(lang, 'count.terms')}
+        <strong id="term-count">{sorted.length}</strong>{' '}{t(lang, 'count.terms')}
       </div>
-      <div class="term-list">
+      <div class="term-list" id="term-list">
         {
           sorted.map((entry, i) => (
             <>
               {(i === 0 || initial(entry) !== initial(sorted[i - 1])) && (
-                <div class="letter-divider" aria-hidden="true">
+                <div class="letter-divider" id={`lettre-${initial(entry)}`}>
                   {initial(entry)}
                 </div>
               )}
@@ -60,6 +65,36 @@ function initial(entry: (typeof sorted)[number]): string {
           ))
         }
       </div>
+      <div class="empty-state" id="empty-state">
+        <h3>{t(lang, 'search.empty.title')}</h3>
+        <p>{t(lang, 'search.empty.body')}</p>
+        <button class="filter-btn" id="reset-filters" style="margin-top: 18px;">
+          {t(lang, 'search.reset')}
+        </button>
+      </div>
     </div>
   </section>
 </Base>
+
+<style>
+  .empty-state {
+    text-align: center;
+    padding: 80px 0;
+    color: var(--muted);
+    display: none;
+  }
+
+  .empty-state.visible {
+    display: block;
+  }
+
+  .empty-state h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: var(--cream);
+  }
+
+  .letter-divider {
+    scroll-margin-top: 90px;
+  }
+</style>

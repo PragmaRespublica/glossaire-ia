@@ -2,7 +2,7 @@
   "terme_fr": "PUE",
   "terme_en": "PUE (Power Usage Effectiveness)",
   "sous_titre_fr": "Power Usage Effectiveness",
-  "sous_titre_en": "",
+  "sous_titre_en": "Power Usage Effectiveness",
   "axe": "responsabilite",
   "niveau": "avance",
   "theme": "impact-environnemental",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Indicateur d'efficacité énergétique d'un data center, calculé comme le ratio entre l'énergie totale consommée et l'énergie utilisée par le matériel informatique. Un PUE de 1,0 serait parfait (toute l'énergie va à l'informatique). Les meilleurs data centers atteignent 1,1-1,2 ; la moyenne mondiale est autour de 1,5.",
-  "definition_en": "",
+  "definition_en": "An energy-efficiency indicator for data centers, calculated as the ratio between total energy consumed and the energy used by the IT equipment. A PUE of 1.0 would be perfect (all energy goes to computing). The best data centers reach 1.1-1.2; the global average is around 1.5.",
   "exemple_fr": "Un data center avec un PUE de 1,5 consomme 1,5 kWh pour faire fonctionner 1 kWh de serveurs · soit 33% d'énergie \"perdue\" en refroidissement, éclairage, onduleurs. À l'échelle mondiale, optimiser le PUE est un levier majeur de sobriété numérique.",
-  "exemple_en": "",
+  "exemple_en": "A data center with a PUE of 1.5 consumes 1.5 kWh to run 1 kWh of servers · 33% of the energy is \"lost\" to cooling, lighting and UPS systems. At global scale, optimising PUE is a major lever for digital sobriety.",
   "regard_fr": "Le PUE est un indicateur partiel : il ne dit rien de l'origine de l'électricité (charbon ou nucléaire), ni des consommations en eau, ni de la fabrication du matériel. À combiner avec d'autres indicateurs pour une vraie ACV.",
-  "regard_en": "",
+  "regard_en": "PUE is a partial indicator: it says nothing about where the electricity comes from (coal or nuclear), about water consumption, or about hardware manufacturing. Combine it with other indicators for a genuine LCA.",
   "schema": {
     "type": "none",
     "contenu": "",

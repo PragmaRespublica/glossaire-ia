@@ -2,7 +2,7 @@
   "terme_fr": "Droits d'auteur & IA",
   "terme_en": "AI & copyright",
   "sous_titre_fr": "Copyright, droits voisins",
-  "sous_titre_en": "",
+  "sous_titre_en": "Copyright and related rights",
   "axe": "reglementaire",
   "niveau": "intermediaire",
   "theme": "cadre-juridique",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Ensemble des questions juridiques liées à l'usage de contenus protégés pour entraîner des modèles d'IA, et au statut des œuvres générées par IA. La directive européenne 2019/790 introduit une exception de \"text and data mining\" pour la recherche, mais autorise l'opt-out pour les ayants droit.",
-  "definition_en": "",
+  "definition_en": "The set of legal questions raised by the use of protected content to train AI models, and by the status of AI-generated works. European directive 2019/790 introduces a \"text and data mining\" exception for research, but allows rights holders to opt out.",
   "exemple_fr": "Le New York Times poursuit OpenAI pour avoir utilisé ses articles sans autorisation dans l'entraînement de GPT. Plusieurs procès similaires sont en cours mondialement. Pour les organisations qui veulent fine-tuner un modèle sur leurs propres données : aucun problème. Pour celles qui utilisent ChatGPT : la responsabilité juridique reste floue.",
-  "exemple_en": "",
+  "exemple_en": "The New York Times is suing OpenAI for using its articles without authorisation to train GPT. Several similar lawsuits are under way worldwide. For organisations that want to fine-tune a model on their own data: no problem. For those using ChatGPT: legal liability remains unclear.",
   "regard_fr": "Le droit d'auteur appliqué à l'IA est l'un des chantiers réglementaires les plus instables. Suivre les premières jurisprudences est crucial pour les secteurs créatifs et journalistiques. Pour limiter le risque : privilégier des modèles entraînés sur des sources légalement claires.",
-  "regard_en": "",
+  "regard_en": "Copyright applied to AI is one of the most unstable regulatory work sites. Following the first court rulings is crucial for the creative and journalistic sectors. To limit risk: favour models trained on legally clear sources.",
   "schema": {
     "type": "none",
     "contenu": "",

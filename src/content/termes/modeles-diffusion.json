@@ -2,7 +2,7 @@
   "terme_fr": "Modèles de diffusion",
   "terme_en": "Diffusion models",
   "sous_titre_fr": "Diffusion models",
-  "sous_titre_en": "",
+  "sous_titre_en": "Modèles de diffusion",
   "axe": "responsabilite",
   "niveau": "intermediaire",
   "theme": "architecture-modeles",
@@ -10,11 +10,11 @@
     "ressources"
   ],
   "definition_fr": "Famille de modèles génératifs qui produisent des images (ou vidéos, audio) en partant d'un bruit aléatoire et en le \"débruitant\" progressivement selon un prompt. Stable Diffusion, DALL-E, Midjourney, FLUX reposent sur cette approche. Très énergivores à l'entraînement et à l'inférence.",
-  "definition_en": "",
+  "definition_en": "A family of generative models that produce images (or video, audio) by starting from random noise and progressively \"denoising\" it according to a prompt. Stable Diffusion, DALL-E, Midjourney and FLUX rest on this approach. Very energy-hungry in both training and inference.",
   "exemple_fr": "Générer une image haute résolution avec Midjourney consomme environ 10 fois plus d'énergie qu'une requête textuelle GPT-4. Multipliez par 10 itérations pour obtenir le visuel souhaité, et par 100 utilisateurs : l'impact d'un usage massif d'IA générative d'image n'est pas anecdotique.",
-  "exemple_en": "",
+  "exemple_en": "Generating a high-resolution image with Midjourney consumes about 10 times more energy than a GPT-4 text request. Multiply by 10 iterations to get the desired visual, and by 100 users: the impact of massive image-generation use is not anecdotal.",
   "regard_fr": "Les modèles de diffusion soulèvent aussi des questions de droits d'auteur (entraînement sur des œuvres protégées sans consentement). À surveiller : les évolutions réglementaires et les premières jurisprudences.",
-  "regard_en": "",
+  "regard_en": "Diffusion models also raise copyright questions (training on protected works without consent). Watch this space: regulatory developments and the first court rulings.",
   "schema": {
     "type": "none",
     "contenu": "",

@@ -2,7 +2,7 @@
   "terme_fr": "Federated learning",
   "terme_en": "Federated learning",
   "sous_titre_fr": "Apprentissage fédéré",
-  "sous_titre_en": "",
+  "sous_titre_en": "Apprentissage fédéré",
   "axe": "souverainete",
   "niveau": "avance",
   "theme": "entrainement-apprentissage",
@@ -10,11 +10,11 @@
     "b2b"
   ],
   "definition_fr": "Approche d'entraînement où le modèle est entraîné de manière distribuée sur des données qui restent chez chaque participant. Seuls les paramètres du modèle sont partagés, pas les données brutes. Permet de mutualiser l'apprentissage sans centraliser les données sensibles.",
-  "definition_en": "",
+  "definition_en": "A training approach in which the model is trained in a distributed way on data that stays with each participant. Only the model's parameters are shared, not the raw data. It pools learning without centralising sensitive data.",
   "exemple_fr": "Plusieurs hôpitaux veulent entraîner un modèle de diagnostic radiologique. Chacun garde ses images patients en local. Le federated learning permet d'agréger les apprentissages sans qu'aucune image ne quitte son établissement d'origine. Une réponse élégante au RGPD.",
-  "exemple_en": "",
+  "exemple_en": "Several hospitals want to train a radiology diagnosis model. Each keeps its patient images on site. Federated learning aggregates the learning without a single image leaving its home institution. An elegant answer to the GDPR.",
   "regard_fr": "Le federated learning est sous-exploité en Europe alors qu'il offre une réponse élégante au RGPD. Une voie de souveraineté par construction, particulièrement adaptée aux secteurs régulés (santé, banque, défense).",
-  "regard_en": "",
+  "regard_en": "Federated learning is under-used in Europe even though it offers an elegant answer to the GDPR. A path to sovereignty by construction, particularly suited to regulated sectors (healthcare, banking, defence).",
   "schema": {
     "type": "none",
     "contenu": "",
@@ -32,9 +32,9 @@
   ],
   "cta": {
     "texte_fr": "Nos déploiements B2B sur données sensibles peuvent intégrer du federated learning",
-    "texte_en": "",
+    "texte_en": "Our B2B deployments on sensitive data can include federated learning",
     "label_fr": "Voir les offres B2B →",
-    "label_en": "",
+    "label_en": "See the B2B offers →",
     "url": "/"
   },
   "statut": "a_relire"
