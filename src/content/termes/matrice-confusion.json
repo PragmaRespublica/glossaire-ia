@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Matrice de confusion",
+  "terme_en": "Confusion matrix",
+  "sous_titre_fr": "Confusion matrix",
+  "sous_titre_en": "Matrice de confusion",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Tableau croisant les prédictions d'un modèle de classification avec la réalité, faisant apparaître les vrais positifs, vrais négatifs, faux positifs et faux négatifs. C'est l'outil de base pour comprendre précisément où et comment un modèle se trompe · bien plus informatif qu'un simple score global de précision.",
+  "definition_en": "A table crossing a classification model's predictions with reality, showing true positives, true negatives, false positives and false negatives. It is the basic tool for understanding precisely where and how a model errs · far more informative than a mere global accuracy score.",
+  "exemple_fr": "Un modèle affiche 95 % de précision globale · rassurant. Sa matrice de confusion révèle pourtant qu'il rate systématiquement une catégorie rare mais critique. Le score global masquait le problème ; la matrice l'a exposé. C'est en regardant la structure des erreurs qu'on comprend vraiment un modèle.",
+  "exemple_en": "A model shows 95% overall accuracy · reassuring. Yet its confusion matrix reveals it systematically misses a rare but critical category. The global score masked the problem; the matrix exposed it. It is by looking at the structure of errors that one truly understands a model.",
+  "regard_fr": "La matrice de confusion est l'antidote au chiffre unique trompeur. Un score global peut cacher une catastrophe sur une catégorie critique. Exiger la matrice de confusion, c'est refuser de se contenter d'un « ça marche à 95 % » qui ne dit pas où logent les 5 % d'erreurs.",
+  "regard_en": "The confusion matrix is the antidote to the misleading single figure. A global score can hide a catastrophe on a critical category. Demanding the confusion matrix means refusing to settle for a \"95% accurate\" that does not say where the 5% of errors lie.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "precision-rappel",
+    "faux-positifs",
+    "evaluation-llm",
+    "classification"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

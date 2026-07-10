@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Transparence des algorithmes",
+  "terme_en": "Algorithmic transparency",
+  "sous_titre_fr": "Algorithmic transparency",
+  "sous_titre_en": "Transparence des algorithmes",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Principe imposant de rendre compréhensibles la logique, les critères et les effets d'un système algorithmique auprès des personnes concernées et des régulateurs. En France, elle est notamment exigée des administrations pour leurs décisions individuelles automatisées. C'est un pilier de la confiance démocratique dans l'IA publique.",
+  "definition_en": "A principle requiring the logic, criteria and effects of an algorithmic system to be made understandable to the people concerned and to regulators. In France, it is notably required of public administrations for their automated individual decisions. It is a pillar of democratic trust in public AI.",
+  "exemple_fr": "Une administration utilise un algorithme pour attribuer des places en crèche. La transparence l'oblige à publier les critères et leur pondération. Les familles comprennent la logique, peuvent la contester si elle est injuste, et le débat démocratique devient possible. L'opacité, elle, nourrit la défiance.",
+  "exemple_en": "An administration uses an algorithm to allocate nursery places. Transparency requires it to publish the criteria and their weighting. Families understand the logic, can contest it if unfair, and democratic debate becomes possible. Opacity, by contrast, feeds distrust.",
+  "regard_fr": "La transparence des algorithmes est à l'IA publique ce que la publicité des débats est à la justice : une condition de légitimité. Un algorithme qui décide du sort des citoyens sans que ses règles soient connues n'a pas sa place dans une démocratie · aussi performant soit-il.",
+  "regard_en": "Algorithmic transparency is to public AI what open proceedings are to justice: a condition of legitimacy. An algorithm deciding citizens' fate without its rules being known has no place in a democracy · however performant.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "boite-noire",
+    "explicabilite",
+    "dsa-dma",
+    "decision-automatisee"
+  ],
+  "sources": [
+    {
+      "titre": "Loi pour une République numérique (2016)"
+    },
+    {
+      "titre": "CNIL · transparence des algorithmes",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Bulle de filtre",
+  "terme_en": "Filter bubble",
+  "sous_titre_fr": "Filter bubble",
+  "sous_titre_en": "Bulle de filtre",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Phénomène par lequel les algorithmes de personnalisation enferment progressivement un utilisateur dans un univers d'informations conformes à ses opinions et goûts, le coupant de la diversité des points de vue. Nourrie par les systèmes de recommandation, la bulle de filtre appauvrit le débat et renforce les polarisations.",
+  "definition_en": "The phenomenon whereby personalisation algorithms gradually enclose a user in a universe of information conforming to their opinions and tastes, cutting them off from the diversity of viewpoints. Fed by recommender systems, the filter bubble impoverishes debate and reinforces polarisation.",
+  "exemple_fr": "Deux personnes tapent la même requête dans un moteur ou un réseau social personnalisé et obtiennent des résultats radicalement différents, chacun confortant ses opinions. Sans le savoir, elles vivent dans deux réalités informationnelles distinctes. Le DSA impose désormais aux grandes plateformes d'offrir une option non personnalisée.",
+  "exemple_en": "Two people type the same query into a personalised search engine or social network and get radically different results, each confirming their opinions. Without knowing it, they live in two distinct informational realities. The DSA now requires large platforms to offer a non-personalised option.",
+  "regard_fr": "La bulle de filtre est le prix caché de la personnalisation : plus l'algorithme vous « comprend », plus il vous enferme. Reconquérir la diversité de ses sources d'information est devenu un acte volontaire · l'algorithme, laissé à lui-même, tend toujours vers l'entre-soi confortable.",
+  "regard_en": "The filter bubble is the hidden price of personalisation: the more the algorithm \"understands\" you, the more it encloses you. Reclaiming diversity in your information sources has become a deliberate act · the algorithm, left to itself, always tends towards comfortable self-confinement.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "systeme-recommandation",
+    "dsa-dma",
+    "desinformation-ia",
+    "ethique-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Eli Pariser · The Filter Bubble"
+    },
+    {
+      "titre": "CNIL · Glossaire IA (bulle de filtre)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

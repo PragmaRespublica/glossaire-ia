@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Évaluation humaine",
+  "terme_en": "Human evaluation",
+  "sous_titre_fr": "Human evaluation",
+  "sous_titre_en": "Évaluation humaine",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Évaluation d'un système d'IA par des personnes qui jugent la qualité, la pertinence ou la sûreté de ses sorties selon des grilles définies. Plus lente et coûteuse que l'évaluation automatique, elle reste irremplaçable pour capter ce que les métriques ratent : la nuance, l'utilité réelle, l'adéquation au contexte.",
+  "definition_en": "The evaluation of an AI system by people who judge the quality, relevance or safety of its outputs against defined rubrics. Slower and costlier than automatic evaluation, it remains irreplaceable for capturing what metrics miss: nuance, real usefulness, contextual fit.",
+  "exemple_fr": "Une équipe hésite entre deux versions d'un assistant. Les benchmarks les départagent à peine. Elle organise une évaluation humaine sur des cas réels : des utilisateurs métiers notent les réponses. Le verdict est net · une version est nettement plus utile au quotidien. Seul l'humain pouvait trancher cette nuance.",
+  "exemple_en": "A team hesitates between two versions of an assistant. Benchmarks barely separate them. It organises a human evaluation on real cases: business users rate the answers. The verdict is clear · one version is markedly more useful day to day. Only humans could settle this nuance.",
+  "regard_fr": "L'évaluation humaine est chère, lente · et irremplaçable. Aucune métrique ne saisit encore l'utilité perçue aussi bien qu'un utilisateur métier. Réservez-la aux décisions qui comptent, mais ne l'abandonnez jamais totalement au profit de scores automatiques rassurants et trompeurs.",
+  "regard_en": "Human evaluation is expensive, slow · and irreplaceable. No metric yet captures perceived usefulness as well as a business user. Reserve it for the decisions that matter, but never abandon it entirely for reassuring, misleading automatic scores.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "llm-juge",
+    "arene-llm",
+    "evaluation-llm",
+    "verite-terrain"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

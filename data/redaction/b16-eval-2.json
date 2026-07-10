@@ -1,0 +1,122 @@
+{
+  "rouge-bleu": {
+    "sous_titre_fr": "ROUGE and BLEU metrics",
+    "sous_titre_en": "Métriques ROUGE et BLEU",
+    "definition_fr": "Métriques automatiques historiques pour évaluer les textes générés : BLEU pour la traduction, ROUGE pour le résumé. Elles comparent le texte produit à une ou plusieurs références humaines en mesurant les recouvrements de mots. Simples et rapides, elles capturent mal le sens et la fluidité · d'où le recours croissant à l'évaluation par LLM ou par humains.",
+    "definition_en": "Historical automatic metrics for evaluating generated text: BLEU for translation, ROUGE for summarisation. They compare the produced text to one or more human references by measuring word overlaps. Simple and fast, they poorly capture meaning and fluency · hence the growing recourse to LLM or human evaluation.",
+    "exemple_fr": "Un résumé généré est excellent mais reformule tout avec d'autres mots. Son score ROUGE est faible · car il partage peu de mots avec la référence · alors que sa qualité est supérieure. La métrique pénalise la vraie reformulation. Un bon score n'est ni nécessaire ni suffisant pour un bon texte.",
+    "exemple_en": "A generated summary is excellent but rephrases everything in other words. Its ROUGE score is low · because it shares few words with the reference · while its quality is superior. The metric penalises genuine rephrasing. A good score is neither necessary nor sufficient for a good text.",
+    "regard_fr": "ROUGE et BLEU mesurent la ressemblance lexicale, pas la qualité. Elles restent utiles pour un suivi rapide et reproductible, mais ne vous y fiez jamais seules pour juger un texte génératif. Le sens échappe au comptage de mots · comme toujours en langage.",
+    "regard_en": "ROUGE and BLEU measure lexical similarity, not quality. They remain useful for quick, reproducible tracking, but never rely on them alone to judge generative text. Meaning escapes word-counting · as always with language.",
+    "termes_lies": ["evaluation-llm", "resume-automatique", "traduction-automatique", "llm-juge"],
+    "sources": [{"titre": "Papineni et al. · BLEU"}, {"titre": "Lin · ROUGE"}]
+  },
+  "verite-terrain": {
+    "sous_titre_fr": "Ground truth, la réponse de référence",
+    "sous_titre_en": "The reference answer",
+    "definition_fr": "Données de référence considérées comme exactes, servant d'étalon pour entraîner et évaluer un modèle : la bonne étiquette, la bonne réponse, le bon diagnostic. La qualité de la vérité terrain plafonne celle du modèle · si les références sont erronées ou biaisées, le modèle apprend et reproduit ces erreurs.",
+    "definition_en": "Reference data considered accurate, serving as a yardstick to train and evaluate a model: the right label, the right answer, the right diagnosis. The quality of the ground truth caps the model's · if the references are erroneous or biased, the model learns and reproduces those errors.",
+    "exemple_fr": "Une équipe évalue un modèle de diagnostic contre une vérité terrain établie par un seul médecin. Or ce médecin se trompe parfois. Le modèle qui « échoue » sur ces cas était peut-être plus juste. La vérité terrain n'est pas la vérité absolue · sa constitution mérite autant de soin que le modèle lui-même.",
+    "exemple_en": "A team evaluates a diagnosis model against a ground truth established by a single doctor. But that doctor is sometimes wrong. The model that \"fails\" on those cases may have been more accurate. Ground truth is not absolute truth · its construction deserves as much care as the model itself.",
+    "regard_fr": "La vérité terrain est le juge de tout modèle · et personne ne juge le juge. Une vérité terrain bâclée invalide silencieusement toute évaluation. Avant de faire confiance à un score, demandez : qui a établi la référence, comment, et est-elle vraiment fiable ?",
+    "regard_en": "Ground truth is the judge of every model · and no one judges the judge. A sloppy ground truth silently invalidates any evaluation. Before trusting a score, ask: who established the reference, how, and is it really reliable?",
+    "termes_lies": ["etiquetage-donnees", "jeu-donnees", "evaluation-humaine", "qualite-donnees"],
+    "sources": [{"titre": "Google · Machine Learning Glossary (ground truth)", "url": "https://developers.google.com/machine-learning/glossary"}]
+  },
+  "score-confiance": {
+    "sous_titre_fr": "Confidence score",
+    "sous_titre_en": "Score de confiance",
+    "definition_fr": "Valeur numérique exprimant à quel point un modèle est sûr de sa prédiction. Précieux pour trier les cas à revoir par un humain, il est piégeux avec les LLM : un modèle peut être très confiant tout en se trompant. La confiance affichée n'est pas la fiabilité réelle · un modèle bien calibré fait coïncider les deux.",
+    "definition_en": "A numeric value expressing how sure a model is of its prediction. Valuable for triaging cases to be reviewed by a human, it is tricky with LLMs: a model can be very confident while being wrong. Displayed confidence is not real reliability · a well-calibrated model makes the two coincide.",
+    "exemple_fr": "Un système de tri de documents ne route vers un humain que les cas où son score de confiance est bas. Efficace · à condition que le modèle soit bien calibré. Un modèle trop sûr de lui laisse passer des erreurs avec un score élevé. La calibration du score est aussi importante que le score lui-même.",
+    "exemple_en": "A document sorting system routes to a human only the cases where its confidence score is low. Effective · provided the model is well calibrated. An overconfident model lets errors through with a high score. Score calibration is as important as the score itself.",
+    "regard_fr": "Un LLM qui affirme avec assurance une information fausse est le danger le plus insidieux de l'IA. Le score de confiance ne dit pas la vérité, il dit l'assurance. Ne confondez jamais les deux · et méfiez-vous des modèles qui ne doutent jamais.",
+    "regard_en": "An LLM asserting false information with confidence is AI's most insidious danger. The confidence score does not tell truth, it tells assurance. Never confuse the two · and beware of models that never doubt.",
+    "termes_lies": ["hallucination", "faux-positifs", "humain-dans-la-boucle", "robustesse"],
+    "sources": [{"titre": "Google · Machine Learning Glossary (calibration)", "url": "https://developers.google.com/machine-learning/glossary"}]
+  },
+  "explicabilite": {
+    "sous_titre_fr": "Explainability (XAI)",
+    "sous_titre_en": "Explicabilité",
+    "definition_fr": "Capacité à fournir des explications compréhensibles sur le résultat d'un système d'IA : pourquoi ce crédit a-t-il été refusé ? quels éléments ont pesé ? L'explicabilité est exigée par le RGPD et l'AI Act pour de nombreuses décisions, et elle est la condition d'une supervision humaine réelle · on ne peut contester ce qu'on ne comprend pas.",
+    "definition_en": "The ability to provide understandable explanations of an AI system's result: why was this loan refused? which elements weighed? Explainability is required by the GDPR and the AI Act for many decisions, and it is the condition of genuine human oversight · one cannot contest what one does not understand.",
+    "exemple_fr": "Une banque doit pouvoir expliquer à un client refusé les principaux motifs de la décision. Un modèle « boîte noire » l'en empêche. En choisissant un modèle explicable ou en ajoutant des outils d'explication, elle rend la décision contestable · donc conforme, et plus juste.",
+    "exemple_en": "A bank must be able to explain to a refused customer the main reasons for the decision. A \"black box\" model prevents this. By choosing an explainable model or adding explanation tools, it makes the decision contestable · therefore compliant, and fairer.",
+    "regard_fr": "L'explicabilité n'est pas un raffinement académique : c'est la condition du droit de contester une décision. Une IA qui décide sans pouvoir s'expliquer transfère un pouvoir sans contrepoids. Exiger l'explicabilité, c'est défendre la place de l'humain dans la boucle.",
+    "regard_en": "Explainability is not an academic refinement: it is the condition of the right to contest a decision. An AI that decides without being able to explain itself transfers power without a counterweight. Demanding explainability means defending the human's place in the loop.",
+    "termes_lies": ["interpretabilite", "boite-noire", "decision-automatisee", "supervision-humaine"],
+    "sources": [{"titre": "CNIL · Glossaire IA (explicabilité)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "interpretabilite": {
+    "sous_titre_fr": "Interpretability, comprendre l'intérieur",
+    "sous_titre_en": "Understanding the inside",
+    "definition_fr": "Capacité à comprendre le fonctionnement interne d'un modèle : quels mécanismes, quelles représentations, quels calculs produisent ses résultats. Plus exigeante que l'explicabilité (qui justifie un résultat), l'interprétabilité ouvre la boîte noire. C'est un champ de recherche crucial pour la sûreté des modèles les plus puissants.",
+    "definition_en": "The ability to understand a model's internal workings: which mechanisms, representations and computations produce its results. More demanding than explainability (which justifies a result), interpretability opens the black box. It is a crucial research field for the safety of the most powerful models.",
+    "exemple_fr": "Des chercheurs parviennent à identifier, dans un grand modèle, les « neurones » associés à un concept précis · et à les activer ou les désactiver. Cette interprétabilité mécaniste, encore balbutiante, laisse entrevoir un futur où l'on pourra auditer et corriger un modèle de l'intérieur, plutôt que de le traiter en boîte close.",
+    "exemple_en": "Researchers manage to identify, in a large model, the \"neurons\" associated with a specific concept · and to activate or deactivate them. This mechanistic interpretability, still nascent, hints at a future where a model can be audited and corrected from the inside, rather than treated as a closed box.",
+    "regard_fr": "L'interprétabilité est peut-être la clé de l'IA de confiance à long terme : tant qu'on ne comprend pas ce qui se passe à l'intérieur des grands modèles, on les pilote à l'aveugle. C'est un domaine de recherche à suivre · il conditionne notre capacité à faire confiance aux modèles les plus puissants.",
+    "regard_en": "Interpretability may be the key to long-term trustworthy AI: as long as we do not understand what happens inside large models, we steer them blind. It is a research field to watch · it conditions our ability to trust the most powerful models.",
+    "termes_lies": ["explicabilite", "boite-noire", "alignement-ia", "red-teaming"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (interprétabilité)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "boite-noire": {
+    "sous_titre_fr": "Black box effect",
+    "sous_titre_en": "Effet boîte noire",
+    "definition_fr": "Situation où un système d'IA produit des résultats sans qu'on puisse comprendre ni retracer le raisonnement qui y mène. Caractéristique des réseaux de neurones profonds, l'effet boîte noire pose un problème de confiance, de responsabilité et de conformité · comment défendre une décision qu'on ne peut pas expliquer ?",
+    "definition_en": "A situation where an AI system produces results without one being able to understand or trace the reasoning leading to them. Characteristic of deep neural networks, the black box effect poses a problem of trust, accountability and compliance · how to defend a decision one cannot explain?",
+    "exemple_fr": "Un modèle refuse une demande sans que personne ne puisse dire pourquoi. Face à une réclamation, l'entreprise est démunie : elle ne peut ni justifier ni corriger. La boîte noire, tolérable pour recommander un film, devient inacceptable pour décider d'un crédit, d'un emploi ou d'un soin.",
+    "exemple_en": "A model refuses a request without anyone being able to say why. Facing a complaint, the company is helpless: it can neither justify nor correct. The black box, tolerable for recommending a film, becomes unacceptable for deciding on a loan, a job or a treatment.",
+    "regard_fr": "Toutes les décisions ne réclament pas la même transparence : recommander une série n'engage rien, refuser un crédit engage une vie. L'acceptabilité de la boîte noire dépend entièrement de l'enjeu. La question n'est pas « est-ce explicable ? » mais « à quel point doit-ce l'être ici ? ».",
+    "regard_en": "Not all decisions demand the same transparency: recommending a show commits nothing, refusing a loan affects a life. The acceptability of the black box depends entirely on the stakes. The question is not \"is it explainable?\" but \"how explainable must it be here?\".",
+    "termes_lies": ["explicabilite", "interpretabilite", "transparence-algorithmes", "decision-automatisee"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (effet boîte noire)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "transparence-algorithmes": {
+    "sous_titre_fr": "Algorithmic transparency",
+    "sous_titre_en": "Transparence des algorithmes",
+    "definition_fr": "Principe imposant de rendre compréhensibles la logique, les critères et les effets d'un système algorithmique auprès des personnes concernées et des régulateurs. En France, elle est notamment exigée des administrations pour leurs décisions individuelles automatisées. C'est un pilier de la confiance démocratique dans l'IA publique.",
+    "definition_en": "A principle requiring the logic, criteria and effects of an algorithmic system to be made understandable to the people concerned and to regulators. In France, it is notably required of public administrations for their automated individual decisions. It is a pillar of democratic trust in public AI.",
+    "exemple_fr": "Une administration utilise un algorithme pour attribuer des places en crèche. La transparence l'oblige à publier les critères et leur pondération. Les familles comprennent la logique, peuvent la contester si elle est injuste, et le débat démocratique devient possible. L'opacité, elle, nourrit la défiance.",
+    "exemple_en": "An administration uses an algorithm to allocate nursery places. Transparency requires it to publish the criteria and their weighting. Families understand the logic, can contest it if unfair, and democratic debate becomes possible. Opacity, by contrast, feeds distrust.",
+    "regard_fr": "La transparence des algorithmes est à l'IA publique ce que la publicité des débats est à la justice : une condition de légitimité. Un algorithme qui décide du sort des citoyens sans que ses règles soient connues n'a pas sa place dans une démocratie · aussi performant soit-il.",
+    "regard_en": "Algorithmic transparency is to public AI what open proceedings are to justice: a condition of legitimacy. An algorithm deciding citizens' fate without its rules being known has no place in a democracy · however performant.",
+    "termes_lies": ["boite-noire", "explicabilite", "dsa-dma", "decision-automatisee"],
+    "sources": [{"titre": "Loi pour une République numérique (2016)"}, {"titre": "CNIL · transparence des algorithmes", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "robustesse": {
+    "sous_titre_fr": "Robustness",
+    "sous_titre_en": "Robustesse",
+    "definition_fr": "Capacité d'un système d'IA à maintenir ses performances face à des conditions imprévues : données bruitées, entrées inhabituelles, tentatives de manipulation. L'AI Act en fait une exigence pour les systèmes à haut risque. Un modèle robuste ne s'effondre pas au premier cas de figure qui sort de son entraînement.",
+    "definition_en": "An AI system's ability to maintain its performance under unforeseen conditions: noisy data, unusual inputs, manipulation attempts. The AI Act makes it a requirement for high-risk systems. A robust model does not collapse at the first case falling outside its training.",
+    "exemple_fr": "Un modèle de lecture de plaques d'immatriculation fonctionne parfaitement en test, puis échoue en conditions réelles : pluie, angle, saleté. Il manquait de robustesse. Le rendre robuste suppose de l'entraîner et de le tester sur la diversité réelle du terrain, pas sur des images de laboratoire idéalisées.",
+    "exemple_en": "A licence-plate reading model works perfectly in testing, then fails in real conditions: rain, angle, dirt. It lacked robustness. Making it robust means training and testing it on the real diversity of the field, not on idealised laboratory images.",
+    "regard_fr": "La robustesse est la différence entre un modèle qui brille en démo et un modèle qui tient en production. Le monde réel est bruité, hostile, imprévu · un modèle qui ne l'a pas rencontré à l'entraînement le découvrira douloureusement en service. Testez sur le réel, pas sur l'idéal.",
+    "regard_en": "Robustness is the difference between a model that shines in demos and one that holds in production. The real world is noisy, hostile, unforeseen · a model that has not met it in training will discover it painfully in service. Test on the real, not the ideal.",
+    "termes_lies": ["attaque-adverse", "derive-donnees", "systeme-haut-risque", "generalisation"],
+    "sources": [{"titre": "CNIL · Glossaire IA (robustesse)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "derive-modele": {
+    "sous_titre_fr": "Model drift",
+    "sous_titre_en": "Dérive du modèle",
+    "definition_fr": "Dégradation progressive des performances d'un modèle en production, à mesure que le monde évolue et s'éloigne des conditions de son entraînement. Silencieuse et inévitable, la dérive du modèle impose un suivi continu : un modèle déployé et oublié se dégrade sans prévenir, jusqu'à devenir contre-productif.",
+    "definition_en": "The gradual degradation of a model's performance in production, as the world evolves and moves away from its training conditions. Silent and inevitable, model drift requires continuous monitoring: a model deployed and forgotten degrades without warning, until it becomes counterproductive.",
+    "exemple_fr": "Un modèle de détection de fraude entraîné en 2024 devient de moins en moins efficace en 2026 : les fraudeurs ont changé de méthodes. Sans monitoring, la dérive serait passée inaperçue jusqu'à un incident majeur. Détectée à temps, elle déclenche un réentraînement. Un modèle n'est jamais fini · il vit et se dégrade.",
+    "exemple_en": "A fraud detection model trained in 2024 becomes less and less effective in 2026: fraudsters have changed methods. Without monitoring, the drift would have gone unnoticed until a major incident. Detected in time, it triggers retraining. A model is never finished · it lives and degrades.",
+    "regard_fr": "La dérive du modèle tue le fantasme du « déployer et oublier ». Un modèle en production est un organisme vivant qui vieillit avec le monde. Sans surveillance, il dérive en silence · et le jour où l'on s'en aperçoit, les mauvaises décisions se comptent déjà par milliers.",
+    "regard_en": "Model drift kills the \"deploy and forget\" fantasy. A model in production is a living organism that ages with the world. Without monitoring, it drifts in silence · and by the time you notice, the bad decisions already number in the thousands.",
+    "termes_lies": ["derive-donnees", "monitoring", "derive-modele", "robustesse"],
+    "sources": [{"titre": "CNIL · Glossaire IA (dérive du modèle)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "derive-donnees": {
+    "sous_titre_fr": "Data drift",
+    "sous_titre_en": "Dérive des données",
+    "definition_fr": "Évolution progressive des caractéristiques des données entrant dans un modèle en production, qui s'écartent de celles de l'entraînement. Cause fréquente de dérive du modèle, la dérive des données se détecte en surveillant la distribution des entrées · un décalage statistique alerte avant même que les performances ne chutent.",
+    "definition_en": "The gradual evolution of the characteristics of data entering a model in production, moving away from those of training. A frequent cause of model drift, data drift is detected by monitoring the input distribution · a statistical shift alerts before performance even drops.",
+    "exemple_fr": "Un modèle de recommandation reçoit soudain une clientèle plus jeune après une campagne marketing. La distribution des entrées a changé · c'est une dérive des données. En la détectant tôt, l'équipe anticipe la baisse de pertinence et réagit avant que les utilisateurs ne s'en plaignent. Surveiller les entrées, c'est prévenir plutôt que guérir.",
+    "exemple_en": "A recommendation model suddenly receives a younger clientele after a marketing campaign. The input distribution has changed · this is data drift. By detecting it early, the team anticipates the relevance drop and reacts before users complain. Monitoring inputs means preventing rather than curing.",
+    "regard_fr": "La dérive des données est le signal avancé de la dérive du modèle : surveiller les entrées permet d'anticiper la chute des performances. C'est le tableau de bord de vitalité d'un système IA. Le négliger, c'est piloter sans instruments · jusqu'au crash.",
+    "regard_en": "Data drift is the early signal of model drift: monitoring inputs allows anticipating the performance drop. It is the vitality dashboard of an AI system. Neglecting it means flying without instruments · until the crash.",
+    "termes_lies": ["derive-modele", "monitoring", "qualite-donnees", "robustesse"],
+    "sources": [{"titre": "CNIL · Glossaire IA (dérive des données)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  }
+}

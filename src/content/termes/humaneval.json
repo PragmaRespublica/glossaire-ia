@@ -1,0 +1,37 @@
+{
+  "terme_fr": "HumanEval",
+  "terme_en": "HumanEval",
+  "sous_titre_fr": "Le benchmark de génération de code",
+  "sous_titre_en": "The code-generation benchmark",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Benchmark évaluant la capacité d'un modèle à générer du code correct : à partir d'une description, le modèle doit produire une fonction qui passe une série de tests automatiques. C'est l'une des références pour comparer les modèles sur la programmation, aux côtés de suites plus récentes et plus réalistes comme SWE-bench.",
+  "definition_en": "A benchmark evaluating a model's ability to generate correct code: from a description, the model must produce a function that passes a series of automatic tests. It is one of the references for comparing models on programming, alongside newer, more realistic suites like SWE-bench.",
+  "exemple_fr": "Un modèle affiche un excellent score HumanEval et semble parfait pour assister vos développeurs. Mais HumanEval teste des fonctions isolées et simples · loin de la complexité d'un vrai projet. Le bon score est un indice, pas une garantie. Testez sur votre propre base de code avant de conclure.",
+  "exemple_en": "A model shows an excellent HumanEval score and seems perfect for assisting your developers. But HumanEval tests isolated, simple functions · far from the complexity of a real project. The good score is a hint, not a guarantee. Test on your own codebase before concluding.",
+  "regard_fr": "HumanEval a rendu service en donnant un premier étalon du code généré, mais il vieillit : les vrais défis de la programmation sont dans l'intégration, pas dans les fonctions isolées. Regardez plutôt les benchmarks qui reproduisent des tâches réelles · et testez sur votre contexte.",
+  "regard_en": "HumanEval served by giving a first yardstick of generated code, but it is ageing: the real challenges of programming are in integration, not isolated functions. Look rather at benchmarks reproducing real tasks · and test on your context.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "benchmark",
+    "swe-bench",
+    "generation-code",
+    "vibe-coding"
+  ],
+  "sources": [
+    {
+      "titre": "Chen et al. · Evaluating Large Language Models Trained on Code"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

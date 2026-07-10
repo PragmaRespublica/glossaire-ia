@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Interprétabilité",
+  "terme_en": "Interpretability",
+  "sous_titre_fr": "Interpretability, comprendre l'intérieur",
+  "sous_titre_en": "Understanding the inside",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Capacité à comprendre le fonctionnement interne d'un modèle : quels mécanismes, quelles représentations, quels calculs produisent ses résultats. Plus exigeante que l'explicabilité (qui justifie un résultat), l'interprétabilité ouvre la boîte noire. C'est un champ de recherche crucial pour la sûreté des modèles les plus puissants.",
+  "definition_en": "The ability to understand a model's internal workings: which mechanisms, representations and computations produce its results. More demanding than explainability (which justifies a result), interpretability opens the black box. It is a crucial research field for the safety of the most powerful models.",
+  "exemple_fr": "Des chercheurs parviennent à identifier, dans un grand modèle, les « neurones » associés à un concept précis · et à les activer ou les désactiver. Cette interprétabilité mécaniste, encore balbutiante, laisse entrevoir un futur où l'on pourra auditer et corriger un modèle de l'intérieur, plutôt que de le traiter en boîte close.",
+  "exemple_en": "Researchers manage to identify, in a large model, the \"neurons\" associated with a specific concept · and to activate or deactivate them. This mechanistic interpretability, still nascent, hints at a future where a model can be audited and corrected from the inside, rather than treated as a closed box.",
+  "regard_fr": "L'interprétabilité est peut-être la clé de l'IA de confiance à long terme : tant qu'on ne comprend pas ce qui se passe à l'intérieur des grands modèles, on les pilote à l'aveugle. C'est un domaine de recherche à suivre · il conditionne notre capacité à faire confiance aux modèles les plus puissants.",
+  "regard_en": "Interpretability may be the key to long-term trustworthy AI: as long as we do not understand what happens inside large models, we steer them blind. It is a research field to watch · it conditions our ability to trust the most powerful models.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "explicabilite",
+    "boite-noire",
+    "alignement-ia",
+    "red-teaming"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (interprétabilité)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

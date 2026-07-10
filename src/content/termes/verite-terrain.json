@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Vérité terrain",
+  "terme_en": "Ground truth",
+  "sous_titre_fr": "Ground truth, la réponse de référence",
+  "sous_titre_en": "The reference answer",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Données de référence considérées comme exactes, servant d'étalon pour entraîner et évaluer un modèle : la bonne étiquette, la bonne réponse, le bon diagnostic. La qualité de la vérité terrain plafonne celle du modèle · si les références sont erronées ou biaisées, le modèle apprend et reproduit ces erreurs.",
+  "definition_en": "Reference data considered accurate, serving as a yardstick to train and evaluate a model: the right label, the right answer, the right diagnosis. The quality of the ground truth caps the model's · if the references are erroneous or biased, the model learns and reproduces those errors.",
+  "exemple_fr": "Une équipe évalue un modèle de diagnostic contre une vérité terrain établie par un seul médecin. Or ce médecin se trompe parfois. Le modèle qui « échoue » sur ces cas était peut-être plus juste. La vérité terrain n'est pas la vérité absolue · sa constitution mérite autant de soin que le modèle lui-même.",
+  "exemple_en": "A team evaluates a diagnosis model against a ground truth established by a single doctor. But that doctor is sometimes wrong. The model that \"fails\" on those cases may have been more accurate. Ground truth is not absolute truth · its construction deserves as much care as the model itself.",
+  "regard_fr": "La vérité terrain est le juge de tout modèle · et personne ne juge le juge. Une vérité terrain bâclée invalide silencieusement toute évaluation. Avant de faire confiance à un score, demandez : qui a établi la référence, comment, et est-elle vraiment fiable ?",
+  "regard_en": "Ground truth is the judge of every model · and no one judges the judge. A sloppy ground truth silently invalidates any evaluation. Before trusting a score, ask: who established the reference, how, and is it really reliable?",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "etiquetage-donnees",
+    "jeu-donnees",
+    "evaluation-humaine",
+    "qualite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (ground truth)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

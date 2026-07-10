@@ -1,0 +1,37 @@
+{
+  "terme_fr": "LLM juge",
+  "terme_en": "LLM-as-a-judge",
+  "sous_titre_fr": "Quand une IA évalue une autre IA",
+  "sous_titre_en": "When AI evaluates AI",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Méthode consistant à utiliser un LLM pour évaluer automatiquement les réponses d'un autre modèle selon des critères définis : pertinence, exactitude, respect des consignes. Elle permet d'évaluer à grande échelle et à faible coût, là où l'évaluation humaine serait trop lente · au prix de biais propres qu'il faut connaître et contrôler.",
+  "definition_en": "A method using an LLM to automatically evaluate another model's responses against defined criteria: relevance, accuracy, adherence to instructions. It enables large-scale, low-cost evaluation, where human evaluation would be too slow · at the price of specific biases to know and control.",
+  "exemple_fr": "Une équipe doit évaluer 10 000 réponses de son assistant. L'évaluation humaine coûterait des semaines. Elle utilise un LLM juge, calibré sur un échantillon annoté par des humains. Le juge trie rapidement le gros du volume ; les humains ne relisent que les cas litigieux. Le coût d'évaluation est divisé par dix.",
+  "exemple_en": "A team must evaluate 10,000 of its assistant's responses. Human evaluation would cost weeks. It uses an LLM judge, calibrated on a human-annotated sample. The judge quickly sorts the bulk; humans only review the borderline cases. The evaluation cost is divided by ten.",
+  "regard_fr": "Le LLM juge est puissant et piégeux : un modèle a tendance à préférer les réponses qui lui ressemblent, ou les plus longues. Ne l'utilisez jamais sans le calibrer sur un échantillon humain · sinon vous automatisez un biais au lieu de mesurer une qualité.",
+  "regard_en": "The LLM judge is powerful and tricky: a model tends to prefer answers resembling its own, or the longest ones. Never use it without calibrating on a human sample · otherwise you automate a bias instead of measuring quality.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "evaluation-llm",
+    "evaluation-humaine",
+    "complaisance-ia",
+    "evaluation-agents"
+  ],
+  "sources": [
+    {
+      "titre": "Zheng et al. · Judging LLM-as-a-Judge"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

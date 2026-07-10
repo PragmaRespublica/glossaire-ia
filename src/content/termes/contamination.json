@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Contamination des données d'évaluation",
+  "terme_en": "Benchmark contamination",
+  "sous_titre_fr": "Quand le modèle a vu les réponses",
+  "sous_titre_en": "When the model has seen the answers",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Situation où les données servant à évaluer un modèle se retrouvent, par accident, dans ses données d'entraînement. Le modèle « connaît » alors les réponses du test et affiche un score gonflé qui ne reflète pas sa vraie capacité. La contamination des benchmarks est un fléau silencieux qui fausse les comparaisons entre modèles.",
+  "definition_en": "A situation where the data used to evaluate a model ends up, by accident, in its training data. The model then \"knows\" the test answers and shows an inflated score that does not reflect its real ability. Benchmark contamination is a silent scourge that skews model comparisons.",
+  "exemple_fr": "Un nouveau modèle affiche des scores records sur les benchmarks publics. Enthousiasme · jusqu'à ce qu'une analyse montre que ces benchmarks figuraient dans ses données d'entraînement scrapées du web. Le modèle récitait ses réponses. Sur des tests inédits, ses performances chutent. La contamination avait tout faussé.",
+  "exemple_en": "A new model shows record scores on public benchmarks. Enthusiasm · until an analysis shows these benchmarks were in its web-scraped training data. The model was reciting its answers. On fresh tests, its performance drops. Contamination had skewed everything.",
+  "regard_fr": "La contamination des benchmarks explique pourquoi tant de modèles brillent aux tests et déçoivent à l'usage. C'est la raison la plus solide de ne jamais choisir un modèle sur ses scores publics seuls · et de toujours l'éprouver sur vos propres données, que lui n'a jamais vues.",
+  "regard_en": "Benchmark contamination explains why so many models shine on tests and disappoint in use. It is the strongest reason never to choose a model on its public scores alone · and always to test it on your own data, which it has never seen.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "benchmark",
+    "mmlu",
+    "jeu-donnees",
+    "evaluation-llm"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur la contamination des benchmarks LLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "GPQA",
+  "terme_en": "GPQA",
+  "sous_titre_fr": "Le benchmark de raisonnement scientifique",
+  "sous_titre_en": "The scientific-reasoning benchmark",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Benchmark composé de questions scientifiques de niveau doctorat, conçues pour être « à l'épreuve de Google » · un expert d'un autre domaine ne peut y répondre même avec accès au web. Il évalue le raisonnement profond plutôt que la mémorisation, et sert à distinguer les modèles les plus avancés.",
+  "definition_en": "A benchmark of PhD-level scientific questions, designed to be \"Google-proof\" · an expert from another field cannot answer them even with web access. It evaluates deep reasoning rather than memorisation, and serves to distinguish the most advanced models.",
+  "exemple_fr": "Sur GPQA, l'écart entre un modèle de raisonnement récent et un modèle standard se creuse nettement · là où MMLU les départage à peine. C'est ce type de benchmark exigeant qui révèle les vraies capacités de raisonnement, utiles pour des tâches d'analyse complexe.",
+  "exemple_en": "On GPQA, the gap between a recent reasoning model and a standard model widens clearly · where MMLU barely separates them. It is this kind of demanding benchmark that reveals true reasoning capabilities, useful for complex analysis tasks.",
+  "regard_fr": "GPQA illustre la fuite en avant des benchmarks : à mesure que les modèles saturent les tests faciles, il faut en concevoir de plus durs. Utile pour la recherche, mais gardez la mesure · vos cas d'usage professionnels exigent rarement un raisonnement de niveau doctorat.",
+  "regard_en": "GPQA illustrates the benchmark arms race: as models saturate easy tests, harder ones must be designed. Useful for research, but keep perspective · your professional use cases rarely demand PhD-level reasoning.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "benchmark",
+    "mmlu",
+    "modele-raisonnement",
+    "raisonnement-etendu"
+  ],
+  "sources": [
+    {
+      "titre": "Rein et al. · GPQA: A Graduate-Level Google-Proof Q&A Benchmark"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

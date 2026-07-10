@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Explicabilité",
+  "terme_en": "Explainability",
+  "sous_titre_fr": "Explainability (XAI)",
+  "sous_titre_en": "Explicabilité",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Capacité à fournir des explications compréhensibles sur le résultat d'un système d'IA : pourquoi ce crédit a-t-il été refusé ? quels éléments ont pesé ? L'explicabilité est exigée par le RGPD et l'AI Act pour de nombreuses décisions, et elle est la condition d'une supervision humaine réelle · on ne peut contester ce qu'on ne comprend pas.",
+  "definition_en": "The ability to provide understandable explanations of an AI system's result: why was this loan refused? which elements weighed? Explainability is required by the GDPR and the AI Act for many decisions, and it is the condition of genuine human oversight · one cannot contest what one does not understand.",
+  "exemple_fr": "Une banque doit pouvoir expliquer à un client refusé les principaux motifs de la décision. Un modèle « boîte noire » l'en empêche. En choisissant un modèle explicable ou en ajoutant des outils d'explication, elle rend la décision contestable · donc conforme, et plus juste.",
+  "exemple_en": "A bank must be able to explain to a refused customer the main reasons for the decision. A \"black box\" model prevents this. By choosing an explainable model or adding explanation tools, it makes the decision contestable · therefore compliant, and fairer.",
+  "regard_fr": "L'explicabilité n'est pas un raffinement académique : c'est la condition du droit de contester une décision. Une IA qui décide sans pouvoir s'expliquer transfère un pouvoir sans contrepoids. Exiger l'explicabilité, c'est défendre la place de l'humain dans la boucle.",
+  "regard_en": "Explainability is not an academic refinement: it is the condition of the right to contest a decision. An AI that decides without being able to explain itself transfers power without a counterweight. Demanding explainability means defending the human's place in the loop.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "interpretabilite",
+    "boite-noire",
+    "decision-automatisee",
+    "supervision-humaine"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (explicabilité)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

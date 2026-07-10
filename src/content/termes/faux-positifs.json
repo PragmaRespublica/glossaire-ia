@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Faux positifs et faux négatifs",
+  "terme_en": "False positives and negatives",
+  "sous_titre_fr": "False positives and false negatives",
+  "sous_titre_en": "Faux positifs et faux négatifs",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Les deux types d'erreurs d'un système de décision. Un faux positif signale à tort (une alarme qui sonne sans feu) ; un faux négatif rate un cas réel (un feu que l'alarme ignore). Leurs conséquences sont rarement symétriques · comprendre lequel coûte le plus cher est le point de départ de toute évaluation sérieuse.",
+  "definition_en": "The two types of errors of a decision system. A false positive flags wrongly (an alarm that rings with no fire); a false negative misses a real case (a fire the alarm ignores). Their consequences are rarely symmetric · understanding which costs more is the starting point of any serious evaluation.",
+  "exemple_fr": "Un dépistage médical par IA : un faux négatif (rater une maladie) peut être fatal, un faux positif (fausse alerte) génère un examen supplémentaire, anxiogène mais rattrapable. On réglera donc le système pour minimiser les faux négatifs, quitte à multiplier les faux positifs. L'inverse serait éthiquement inacceptable.",
+  "exemple_en": "AI medical screening: a false negative (missing a disease) can be fatal, a false positive (false alarm) triggers an additional test, anxiety-inducing but recoverable. So the system is tuned to minimise false negatives, even at the cost of more false positives. The reverse would be ethically unacceptable.",
+  "regard_fr": "Derrière chaque système d'IA de décision se cache un arbitrage moral entre deux erreurs. Le régler sans se demander « quelle erreur est la moins grave ici ? » revient à laisser une valeur implicite décider à votre place. Rendez cet arbitrage explicite · c'est un acte de responsabilité.",
+  "regard_en": "Behind every AI decision system lies a moral trade-off between two errors. Tuning it without asking \"which error is less serious here?\" means letting an implicit value decide for you. Make this trade-off explicit · it is an act of responsibility.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "precision-rappel",
+    "matrice-confusion",
+    "ethique-ia",
+    "score-confiance"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

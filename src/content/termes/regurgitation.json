@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Régurgitation",
+  "terme_en": "Regurgitation",
+  "sous_titre_fr": "Quand le modèle recopie son entraînement",
+  "sous_titre_en": "When the model copies its training",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Phénomène par lequel un modèle reproduit mot pour mot des passages de ses données d'entraînement : un article, du code, une image mémorisés. La régurgitation pose des problèmes de droit d'auteur (reproduction d'œuvres protégées) et de vie privée (restitution de données personnelles mémorisées).",
+  "definition_en": "The phenomenon whereby a model reproduces word for word passages from its training data: a memorised article, code or image. Regurgitation raises copyright problems (reproduction of protected works) and privacy problems (restitution of memorised personal data).",
+  "exemple_fr": "Un utilisateur demande à un générateur d'images un personnage célèbre et obtient une image quasi identique à une œuvre protégée du jeu d'entraînement. Le modèle n'a pas « créé » · il a régurgité. Pour l'entreprise qui utilise cette image, le risque de contrefaçon est réel. La régurgitation transforme un outil créatif en piège juridique.",
+  "exemple_en": "A user asks an image generator for a famous character and gets an image nearly identical to a protected work from the training set. The model did not \"create\" · it regurgitated. For the company using this image, the infringement risk is real. Regurgitation turns a creative tool into a legal trap.",
+  "regard_fr": "La régurgitation rappelle qu'un modèle génératif n'invente pas toujours : parfois, il recopie. Pour tout usage commercial de contenus générés, cette possibilité impose une vérification. La créativité de l'IA a une face cachée · la reproduction non consentie de ce qu'elle a absorbé.",
+  "regard_en": "Regurgitation recalls that a generative model does not always invent: sometimes, it copies. For any commercial use of generated content, this possibility requires verification. AI's creativity has a hidden face · the non-consensual reproduction of what it absorbed.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "droits-auteur-ia",
+    "fuite-informations",
+    "donnees-entrainement",
+    "statut-oeuvres-ia"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · mémorisation et régurgitation des modèles",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

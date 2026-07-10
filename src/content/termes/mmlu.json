@@ -1,0 +1,37 @@
+{
+  "terme_fr": "MMLU",
+  "terme_en": "MMLU",
+  "sous_titre_fr": "Le benchmark de culture générale des LLM",
+  "sous_titre_en": "The general-knowledge benchmark for LLMs",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Benchmark évaluant les connaissances d'un modèle sur 57 matières · droit, médecine, histoire, mathématiques · sous forme de questions à choix multiples. Longtemps la référence pour comparer les LLM, il est aujourd'hui critiqué : les meilleurs modèles le saturent, et sa présence dans les données d'entraînement fausse les scores.",
+  "definition_en": "A benchmark evaluating a model's knowledge across 57 subjects · law, medicine, history, mathematics · in multiple-choice form. Long the reference for comparing LLMs, it is now criticised: the best models saturate it, and its presence in training data skews the scores.",
+  "exemple_fr": "Un fournisseur annonce que son modèle atteint 88 % sur MMLU. Impressionnant en apparence · mais un concurrent à 86 % peut être meilleur sur votre cas d'usage réel. Le score MMLU dit quelque chose de la culture générale du modèle, presque rien de sa capacité à traiter vos contrats ou vos emails.",
+  "exemple_en": "A vendor announces its model reaches 88% on MMLU. Impressive on the surface · but a competitor at 86% may be better on your real use case. The MMLU score says something about the model's general knowledge, almost nothing about its ability to handle your contracts or emails.",
+  "regard_fr": "MMLU est le benchmark que tout le monde cite et que personne ne devrait sur-interpréter. Un bon score de culture générale ne présage pas de la performance sur VOTRE tâche. Le seul benchmark qui compte reste celui que vous construisez sur vos propres données.",
+  "regard_en": "MMLU is the benchmark everyone cites and no one should over-interpret. A good general-knowledge score does not predict performance on YOUR task. The only benchmark that matters remains the one you build on your own data.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "benchmark",
+    "contamination",
+    "gpqa",
+    "evaluation-llm"
+  ],
+  "sources": [
+    {
+      "titre": "Hendrycks et al. · Measuring Massive Multitask Language Understanding"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

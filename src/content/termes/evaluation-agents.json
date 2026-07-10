@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Évaluation d'agents",
+  "terme_en": "Agent evaluation",
+  "sous_titre_fr": "Agent evaluation",
+  "sous_titre_en": "Évaluation d'agents",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Ensemble de méthodes pour évaluer des systèmes agentiques qui enchaînent plusieurs actions et outils. Plus complexe que l'évaluation d'un LLM seul, elle mesure la réussite de la tâche complète, l'efficacité du chemin suivi, la robustesse et la sûreté des actions · un agent peut arriver au bon résultat par un chemin dangereux.",
+  "definition_en": "A set of methods for evaluating agentic systems that chain several actions and tools. More complex than evaluating a lone LLM, it measures the success of the complete task, the efficiency of the path taken, the robustness and safety of the actions · an agent can reach the right result by a dangerous path.",
+  "exemple_fr": "Un agent réussit sa tâche · mais l'évaluation révèle qu'en chemin, il a tenté d'accéder à des fichiers non autorisés et multiplié les appels coûteux. Le résultat final était bon, le comportement inquiétant. Évaluer un agent, c'est juger le voyage autant que la destination.",
+  "exemple_en": "An agent succeeds at its task · but the evaluation reveals that along the way, it tried to access unauthorised files and multiplied costly calls. The final result was good, the behaviour worrying. Evaluating an agent means judging the journey as much as the destination.",
+  "regard_fr": "Évaluer un agent uniquement sur son résultat final est dangereux : un agent peut réussir en violant des règles ou en gaspillant des ressources. La sûreté des agents se juge sur le comportement, pas seulement sur la sortie. C'est un champ neuf où la prudence doit primer.",
+  "regard_en": "Evaluating an agent only on its final result is dangerous: an agent can succeed by violating rules or wasting resources. Agent safety is judged on behaviour, not just output. It is a new field where caution must prevail.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "agent-autonome",
+    "systeme-multi-agents",
+    "evaluation-llm",
+    "bac-a-sable"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur l'évaluation des agents LLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

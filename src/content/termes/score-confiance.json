@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Score de confiance",
+  "terme_en": "Confidence score",
+  "sous_titre_fr": "Confidence score",
+  "sous_titre_en": "Score de confiance",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Valeur numérique exprimant à quel point un modèle est sûr de sa prédiction. Précieux pour trier les cas à revoir par un humain, il est piégeux avec les LLM : un modèle peut être très confiant tout en se trompant. La confiance affichée n'est pas la fiabilité réelle · un modèle bien calibré fait coïncider les deux.",
+  "definition_en": "A numeric value expressing how sure a model is of its prediction. Valuable for triaging cases to be reviewed by a human, it is tricky with LLMs: a model can be very confident while being wrong. Displayed confidence is not real reliability · a well-calibrated model makes the two coincide.",
+  "exemple_fr": "Un système de tri de documents ne route vers un humain que les cas où son score de confiance est bas. Efficace · à condition que le modèle soit bien calibré. Un modèle trop sûr de lui laisse passer des erreurs avec un score élevé. La calibration du score est aussi importante que le score lui-même.",
+  "exemple_en": "A document sorting system routes to a human only the cases where its confidence score is low. Effective · provided the model is well calibrated. An overconfident model lets errors through with a high score. Score calibration is as important as the score itself.",
+  "regard_fr": "Un LLM qui affirme avec assurance une information fausse est le danger le plus insidieux de l'IA. Le score de confiance ne dit pas la vérité, il dit l'assurance. Ne confondez jamais les deux · et méfiez-vous des modèles qui ne doutent jamais.",
+  "regard_en": "An LLM asserting false information with confidence is AI's most insidious danger. The confidence score does not tell truth, it tells assurance. Never confuse the two · and beware of models that never doubt.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "hallucination",
+    "faux-positifs",
+    "humain-dans-la-boucle",
+    "robustesse"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (calibration)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

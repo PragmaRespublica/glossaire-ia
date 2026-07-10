@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Perplexité (métrique)",
+  "terme_en": "Perplexity (metric)",
+  "sous_titre_fr": "Perplexity, la surprise du modèle",
+  "sous_titre_en": "The model's surprise",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Métrique mesurant à quel point un modèle de langage est « surpris » par un texte : plus la perplexité est basse, mieux le modèle prédit la suite. Utile pour comparer des modèles pendant l'entraînement, elle ne mesure pas la qualité perçue des réponses · un modèle peu perplexe peut rester inexact ou inutile.",
+  "definition_en": "A metric measuring how much a language model is \"surprised\" by a text: the lower the perplexity, the better the model predicts what comes next. Useful for comparing models during training, it does not measure the perceived quality of answers · a low-perplexity model can still be inaccurate or useless.",
+  "exemple_fr": "Deux versions d'un modèle ont des perplexités proches, mais l'une produit des réponses nettement plus utiles. La perplexité mesure une compétence statistique de prédiction, pas l'utilité réelle. C'est un bon indicateur d'entraînement, un mauvais critère de choix pour un usage métier.",
+  "exemple_en": "Two versions of a model have close perplexities, but one produces markedly more useful answers. Perplexity measures a statistical prediction skill, not real usefulness. It is a good training indicator, a poor selection criterion for a business use.",
+  "regard_fr": "La perplexité est un outil d'ingénieur, pas un argument de vente. Un fournisseur qui vante une « perplexité basse » vous parle de tuyauterie, pas de valeur. Pour choisir, revenez toujours à la question qui compte : le modèle résout-il bien VOTRE tâche ?",
+  "regard_en": "Perplexity is an engineer's tool, not a sales argument. A vendor touting \"low perplexity\" is talking plumbing, not value. To choose, always return to the question that matters: does the model solve YOUR task well?",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "evaluation-llm",
+    "entrainement",
+    "benchmark",
+    "llm"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (perplexity)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

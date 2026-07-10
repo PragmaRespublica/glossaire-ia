@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Métriques ROUGE et BLEU",
+  "terme_en": "ROUGE and BLEU metrics",
+  "sous_titre_fr": "ROUGE and BLEU metrics",
+  "sous_titre_en": "Métriques ROUGE et BLEU",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Métriques automatiques historiques pour évaluer les textes générés : BLEU pour la traduction, ROUGE pour le résumé. Elles comparent le texte produit à une ou plusieurs références humaines en mesurant les recouvrements de mots. Simples et rapides, elles capturent mal le sens et la fluidité · d'où le recours croissant à l'évaluation par LLM ou par humains.",
+  "definition_en": "Historical automatic metrics for evaluating generated text: BLEU for translation, ROUGE for summarisation. They compare the produced text to one or more human references by measuring word overlaps. Simple and fast, they poorly capture meaning and fluency · hence the growing recourse to LLM or human evaluation.",
+  "exemple_fr": "Un résumé généré est excellent mais reformule tout avec d'autres mots. Son score ROUGE est faible · car il partage peu de mots avec la référence · alors que sa qualité est supérieure. La métrique pénalise la vraie reformulation. Un bon score n'est ni nécessaire ni suffisant pour un bon texte.",
+  "exemple_en": "A generated summary is excellent but rephrases everything in other words. Its ROUGE score is low · because it shares few words with the reference · while its quality is superior. The metric penalises genuine rephrasing. A good score is neither necessary nor sufficient for a good text.",
+  "regard_fr": "ROUGE et BLEU mesurent la ressemblance lexicale, pas la qualité. Elles restent utiles pour un suivi rapide et reproductible, mais ne vous y fiez jamais seules pour juger un texte génératif. Le sens échappe au comptage de mots · comme toujours en langage.",
+  "regard_en": "ROUGE and BLEU measure lexical similarity, not quality. They remain useful for quick, reproducible tracking, but never rely on them alone to judge generative text. Meaning escapes word-counting · as always with language.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "evaluation-llm",
+    "resume-automatique",
+    "traduction-automatique",
+    "llm-juge"
+  ],
+  "sources": [
+    {
+      "titre": "Papineni et al. · BLEU"
+    },
+    {
+      "titre": "Lin · ROUGE"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

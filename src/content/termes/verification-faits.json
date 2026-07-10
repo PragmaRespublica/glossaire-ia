@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Vérification des faits et IA",
+  "terme_en": "AI fact-checking",
+  "sous_titre_fr": "AI fact-checking",
+  "sous_titre_en": "Vérification des faits assistée par IA",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Usage de l'IA pour aider à vérifier la véracité d'affirmations : recherche de sources, recoupement, détection d'incohérences, identification de contenus déjà démentis. À double tranchant · l'IA peut autant produire de la désinformation que la combattre · elle reste un assistant du vérificateur humain, jamais son remplaçant.",
+  "definition_en": "The use of AI to help verify the truthfulness of claims: source-finding, cross-referencing, inconsistency detection, identification of already-debunked content. Double-edged · AI can produce disinformation as much as fight it · it remains an assistant to the human fact-checker, never a replacement.",
+  "exemple_fr": "Une rédaction utilise un outil d'IA pour accélérer la vérification : il retrouve les sources originales, repère les citations tronquées, signale les images déjà identifiées comme truquées. Le journaliste garde la décision finale. L'IA a démultiplié sa capacité de vérification, pas remplacé son jugement.",
+  "exemple_en": "A newsroom uses an AI tool to speed up verification: it finds original sources, spots truncated quotes, flags images already identified as fake. The journalist keeps the final decision. AI multiplied their verification capacity, not replaced their judgment.",
+  "regard_fr": "Utiliser l'IA pour vérifier ce que l'IA a pu fabriquer résume l'ironie de notre époque. L'outil est utile mais jamais autonome : un LLM peut halluciner une vérification comme il hallucine le reste. Le fait-checking assisté par IA garde l'humain au centre · c'est sa condition de validité.",
+  "regard_en": "Using AI to verify what AI may have fabricated sums up the irony of our era. The tool is useful but never autonomous: an LLM can hallucinate a verification as it hallucinates the rest. AI-assisted fact-checking keeps the human at the centre · that is its condition of validity.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "desinformation-ia",
+    "hallucination",
+    "rag",
+    "humain-dans-la-boucle"
+  ],
+  "sources": [
+    {
+      "titre": "Réseaux de fact-checking (IFCN)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

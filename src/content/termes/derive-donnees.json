@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Dérive des données",
+  "terme_en": "Data drift",
+  "sous_titre_fr": "Data drift",
+  "sous_titre_en": "Dérive des données",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Évolution progressive des caractéristiques des données entrant dans un modèle en production, qui s'écartent de celles de l'entraînement. Cause fréquente de dérive du modèle, la dérive des données se détecte en surveillant la distribution des entrées · un décalage statistique alerte avant même que les performances ne chutent.",
+  "definition_en": "The gradual evolution of the characteristics of data entering a model in production, moving away from those of training. A frequent cause of model drift, data drift is detected by monitoring the input distribution · a statistical shift alerts before performance even drops.",
+  "exemple_fr": "Un modèle de recommandation reçoit soudain une clientèle plus jeune après une campagne marketing. La distribution des entrées a changé · c'est une dérive des données. En la détectant tôt, l'équipe anticipe la baisse de pertinence et réagit avant que les utilisateurs ne s'en plaignent. Surveiller les entrées, c'est prévenir plutôt que guérir.",
+  "exemple_en": "A recommendation model suddenly receives a younger clientele after a marketing campaign. The input distribution has changed · this is data drift. By detecting it early, the team anticipates the relevance drop and reacts before users complain. Monitoring inputs means preventing rather than curing.",
+  "regard_fr": "La dérive des données est le signal avancé de la dérive du modèle : surveiller les entrées permet d'anticiper la chute des performances. C'est le tableau de bord de vitalité d'un système IA. Le négliger, c'est piloter sans instruments · jusqu'au crash.",
+  "regard_en": "Data drift is the early signal of model drift: monitoring inputs allows anticipating the performance drop. It is the vitality dashboard of an AI system. Neglecting it means flying without instruments · until the crash.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "derive-modele",
+    "monitoring",
+    "qualite-donnees",
+    "robustesse"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (dérive des données)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

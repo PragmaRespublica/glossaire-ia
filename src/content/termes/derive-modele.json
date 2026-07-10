@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Dérive du modèle",
+  "terme_en": "Model drift",
+  "sous_titre_fr": "Model drift",
+  "sous_titre_en": "Dérive du modèle",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Dégradation progressive des performances d'un modèle en production, à mesure que le monde évolue et s'éloigne des conditions de son entraînement. Silencieuse et inévitable, la dérive du modèle impose un suivi continu : un modèle déployé et oublié se dégrade sans prévenir, jusqu'à devenir contre-productif.",
+  "definition_en": "The gradual degradation of a model's performance in production, as the world evolves and moves away from its training conditions. Silent and inevitable, model drift requires continuous monitoring: a model deployed and forgotten degrades without warning, until it becomes counterproductive.",
+  "exemple_fr": "Un modèle de détection de fraude entraîné en 2024 devient de moins en moins efficace en 2026 : les fraudeurs ont changé de méthodes. Sans monitoring, la dérive serait passée inaperçue jusqu'à un incident majeur. Détectée à temps, elle déclenche un réentraînement. Un modèle n'est jamais fini · il vit et se dégrade.",
+  "exemple_en": "A fraud detection model trained in 2024 becomes less and less effective in 2026: fraudsters have changed methods. Without monitoring, the drift would have gone unnoticed until a major incident. Detected in time, it triggers retraining. A model is never finished · it lives and degrades.",
+  "regard_fr": "La dérive du modèle tue le fantasme du « déployer et oublier ». Un modèle en production est un organisme vivant qui vieillit avec le monde. Sans surveillance, il dérive en silence · et le jour où l'on s'en aperçoit, les mauvaises décisions se comptent déjà par milliers.",
+  "regard_en": "Model drift kills the \"deploy and forget\" fantasy. A model in production is a living organism that ages with the world. Without monitoring, it drifts in silence · and by the time you notice, the bad decisions already number in the thousands.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "derive-donnees",
+    "monitoring",
+    "derive-modele",
+    "robustesse"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (dérive du modèle)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

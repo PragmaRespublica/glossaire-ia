@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Désinformation générée par IA",
+  "terme_en": "AI-generated disinformation",
+  "sous_titre_fr": "AI-generated disinformation",
+  "sous_titre_en": "Désinformation générée par IA",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Production et diffusion à grande échelle de fausses informations à l'aide de l'IA générative : faux articles, images et vidéos truquées, faux comptes coordonnés. L'IA abaisse drastiquement le coût de la désinformation et en élève le réalisme, posant un défi inédit aux démocraties, aux médias et aux plateformes.",
+  "definition_en": "The large-scale production and spread of false information using generative AI: fake articles, doctored images and videos, coordinated fake accounts. AI drastically lowers the cost of disinformation and raises its realism, posing a novel challenge to democracies, media and platforms.",
+  "exemple_fr": "Avant une élection, des milliers de faux comptes relaient des images et vidéos générées par IA d'un événement qui n'a jamais eu lieu. Le réalisme trompe une partie du public avant que le démenti n'arrive. La rapidité et le volume, rendus possibles par l'IA, saturent les capacités de vérification humaine.",
+  "exemple_en": "Before an election, thousands of fake accounts relay AI-generated images and videos of an event that never happened. The realism deceives part of the public before the denial arrives. The speed and volume, made possible by AI, saturate human verification capacities.",
+  "regard_fr": "La désinformation par IA ne crée pas un problème nouveau, elle change son échelle · et l'échelle change tout. La réponse n'est pas seulement technique (détection, provenance) mais civique : l'esprit critique redevient une compétence de survie démocratique. C'est aussi une mission d'éducation.",
+  "regard_en": "AI disinformation does not create a new problem, it changes its scale · and scale changes everything. The response is not only technical (detection, provenance) but civic: critical thinking becomes a democratic survival skill again. It is also an educational mission.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "deepfake",
+    "c2pa",
+    "verification-faits",
+    "detection-contenu-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Rapport du Forum économique mondial sur les risques globaux (désinformation)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

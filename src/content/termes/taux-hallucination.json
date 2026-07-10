@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Taux d'hallucination",
+  "terme_en": "Hallucination rate",
+  "sous_titre_fr": "Hallucination rate",
+  "sous_titre_en": "Taux d'hallucination",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Proportion de réponses d'un modèle contenant des informations factuellement fausses présentées comme vraies. Mesurable sur un jeu de questions à réponses vérifiables, c'est un indicateur clé de fiabilité · surtout pour les usages où une erreur factuelle a des conséquences graves. Le RAG et la citation des sources le réduisent notablement.",
+  "definition_en": "The proportion of a model's responses containing factually false information presented as true. Measurable on a set of questions with verifiable answers, it is a key reliability indicator · especially for uses where a factual error has serious consequences. RAG and source citation notably reduce it.",
+  "exemple_fr": "Une équipe compare deux configurations de son assistant juridique : le modèle seul affiche 12 % d'hallucinations sur des questions de droit ; le même modèle couplé à un RAG avec citation des sources tombe à 2 %. Le taux d'hallucination a guidé une décision d'architecture décisive.",
+  "exemple_en": "A team compares two configurations of its legal assistant: the model alone shows 12% hallucinations on legal questions; the same model coupled with a RAG with source citation drops to 2%. The hallucination rate guided a decisive architecture decision.",
+  "regard_fr": "Le taux d'hallucination devrait figurer dans tout cahier des charges d'IA sur données critiques · au même titre qu'un taux de panne pour une machine. Un fournisseur incapable de vous le donner sur VOTRE cas d'usage vous demande un acte de foi, pas un achat éclairé.",
+  "regard_en": "The hallucination rate should appear in every AI specification on critical data · like a failure rate for a machine. A vendor unable to give it to you for YOUR use case is asking for an act of faith, not an informed purchase.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "hallucination",
+    "rag",
+    "evaluation-llm",
+    "verification-faits"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (hallucination d'IA)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

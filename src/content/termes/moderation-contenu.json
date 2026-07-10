@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Modération de contenu par IA",
+  "terme_en": "AI content moderation",
+  "sous_titre_fr": "AI content moderation",
+  "sous_titre_en": "Modération de contenu par IA",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Usage de l'IA pour filtrer automatiquement les contenus indésirables ou illicites à grande échelle : haine, violence, désinformation, contenus interdits. Indispensable au vu des volumes, elle reste imparfaite · elle sur-bloque (faux positifs) et sous-détecte (faux négatifs), et soulève des questions de liberté d'expression et de contexte culturel.",
+  "definition_en": "The use of AI to automatically filter unwanted or illicit content at scale: hate, violence, disinformation, prohibited content. Indispensable given the volumes, it remains imperfect · it over-blocks (false positives) and under-detects (false negatives), and raises questions of free expression and cultural context.",
+  "exemple_fr": "Une plateforme modère des millions de messages par jour. Une IA fait le premier tri, mais elle censure parfois un usage légitime (humour, citation, contexte médical) et laisse passer des contournements subtils. Les cas ambigus remontent à des modérateurs humains · l'IA trie le volume, l'humain juge la nuance.",
+  "exemple_en": "A platform moderates millions of messages a day. An AI does the first sorting, but it sometimes censors legitimate use (humour, quotation, medical context) and lets subtle circumventions through. Ambiguous cases go to human moderators · the AI sorts the volume, the human judges the nuance.",
+  "regard_fr": "La modération par IA est un compromis permanent entre laisser passer le pire et censurer le légitime. Aucun réglage n'est parfait, et le contexte culturel échappe largement aux modèles. Déléguer entièrement ce jugement à une IA, c'est confier à une machine des arbitrages profondément humains.",
+  "regard_en": "AI moderation is a permanent compromise between letting the worst through and censoring the legitimate. No setting is perfect, and cultural context largely escapes models. Fully delegating this judgment to an AI means entrusting deeply human trade-offs to a machine.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "desinformation-ia",
+    "guardrails",
+    "travailleurs-clic",
+    "faux-positifs"
+  ],
+  "sources": [
+    {
+      "titre": "DSA · obligations de modération",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

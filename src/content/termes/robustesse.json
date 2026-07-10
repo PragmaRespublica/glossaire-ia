@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Robustesse",
+  "terme_en": "Robustness",
+  "sous_titre_fr": "Robustness",
+  "sous_titre_en": "Robustesse",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Capacité d'un système d'IA à maintenir ses performances face à des conditions imprévues : données bruitées, entrées inhabituelles, tentatives de manipulation. L'AI Act en fait une exigence pour les systèmes à haut risque. Un modèle robuste ne s'effondre pas au premier cas de figure qui sort de son entraînement.",
+  "definition_en": "An AI system's ability to maintain its performance under unforeseen conditions: noisy data, unusual inputs, manipulation attempts. The AI Act makes it a requirement for high-risk systems. A robust model does not collapse at the first case falling outside its training.",
+  "exemple_fr": "Un modèle de lecture de plaques d'immatriculation fonctionne parfaitement en test, puis échoue en conditions réelles : pluie, angle, saleté. Il manquait de robustesse. Le rendre robuste suppose de l'entraîner et de le tester sur la diversité réelle du terrain, pas sur des images de laboratoire idéalisées.",
+  "exemple_en": "A licence-plate reading model works perfectly in testing, then fails in real conditions: rain, angle, dirt. It lacked robustness. Making it robust means training and testing it on the real diversity of the field, not on idealised laboratory images.",
+  "regard_fr": "La robustesse est la différence entre un modèle qui brille en démo et un modèle qui tient en production. Le monde réel est bruité, hostile, imprévu · un modèle qui ne l'a pas rencontré à l'entraînement le découvrira douloureusement en service. Testez sur le réel, pas sur l'idéal.",
+  "regard_en": "Robustness is the difference between a model that shines in demos and one that holds in production. The real world is noisy, hostile, unforeseen · a model that has not met it in training will discover it painfully in service. Test on the real, not the ideal.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "attaque-adverse",
+    "derive-donnees",
+    "systeme-haut-risque",
+    "generalisation"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (robustesse)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Effet boîte noire",
+  "terme_en": "Black box effect",
+  "sous_titre_fr": "Black box effect",
+  "sous_titre_en": "Effet boîte noire",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Situation où un système d'IA produit des résultats sans qu'on puisse comprendre ni retracer le raisonnement qui y mène. Caractéristique des réseaux de neurones profonds, l'effet boîte noire pose un problème de confiance, de responsabilité et de conformité · comment défendre une décision qu'on ne peut pas expliquer ?",
+  "definition_en": "A situation where an AI system produces results without one being able to understand or trace the reasoning leading to them. Characteristic of deep neural networks, the black box effect poses a problem of trust, accountability and compliance · how to defend a decision one cannot explain?",
+  "exemple_fr": "Un modèle refuse une demande sans que personne ne puisse dire pourquoi. Face à une réclamation, l'entreprise est démunie : elle ne peut ni justifier ni corriger. La boîte noire, tolérable pour recommander un film, devient inacceptable pour décider d'un crédit, d'un emploi ou d'un soin.",
+  "exemple_en": "A model refuses a request without anyone being able to say why. Facing a complaint, the company is helpless: it can neither justify nor correct. The black box, tolerable for recommending a film, becomes unacceptable for deciding on a loan, a job or a treatment.",
+  "regard_fr": "Toutes les décisions ne réclament pas la même transparence : recommander une série n'engage rien, refuser un crédit engage une vie. L'acceptabilité de la boîte noire dépend entièrement de l'enjeu. La question n'est pas « est-ce explicable ? » mais « à quel point doit-ce l'être ici ? ».",
+  "regard_en": "Not all decisions demand the same transparency: recommending a show commits nothing, refusing a loan affects a life. The acceptability of the black box depends entirely on the stakes. The question is not \"is it explainable?\" but \"how explainable must it be here?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "explicabilite",
+    "interpretabilite",
+    "transparence-algorithmes",
+    "decision-automatisee"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (effet boîte noire)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

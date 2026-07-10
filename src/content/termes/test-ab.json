@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Test A/B",
+  "terme_en": "A/B testing",
+  "sous_titre_fr": "A/B testing",
+  "sous_titre_en": "Test A/B",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Méthode consistant à comparer deux versions (A et B) d'un système auprès d'utilisateurs réels, en mesurant laquelle produit les meilleurs résultats sur un indicateur défini. Appliqué à l'IA, le test A/B permet de valider en conditions réelles qu'un nouveau modèle ou un nouveau prompt améliore vraiment l'expérience · pas seulement les scores de labo.",
+  "definition_en": "A method comparing two versions (A and B) of a system with real users, measuring which produces the best results on a defined indicator. Applied to AI, A/B testing validates in real conditions that a new model or prompt truly improves the experience · not just lab scores.",
+  "exemple_fr": "Une équipe pense avoir amélioré son assistant. Plutôt que de se fier à son intuition, elle déploie l'ancienne version à la moitié des utilisateurs, la nouvelle à l'autre, et mesure la satisfaction réelle. Surprise : l'ancienne version gagne. Le test A/B a évité de dégrader le service au nom d'un « progrès » illusoire.",
+  "exemple_en": "A team thinks it has improved its assistant. Rather than trusting intuition, it deploys the old version to half the users, the new one to the other, and measures real satisfaction. Surprise: the old version wins. The A/B test avoided degrading the service in the name of illusory \"progress\".",
+  "regard_fr": "Le test A/B est le juge de paix contre les fausses certitudes : ce qui semble meilleur en réunion ne l'est pas toujours pour l'utilisateur. En IA comme ailleurs, mesurer sur le réel bat toujours l'intuition des experts. Testez avant de déployer largement · l'humilité a un excellent retour sur investissement.",
+  "regard_en": "A/B testing is the arbiter against false certainties: what seems better in a meeting is not always better for the user. In AI as elsewhere, measuring on the real always beats expert intuition. Test before deploying widely · humility has an excellent return on investment.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "evaluation-humaine",
+    "monitoring",
+    "adoption-ia",
+    "roi-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (A/B testing)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Précision et rappel",
+  "terme_en": "Precision and recall",
+  "sous_titre_fr": "Precision and recall",
+  "sous_titre_en": "Précision et rappel",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Deux métriques complémentaires évaluant un modèle de classification. La précision mesure la proportion de prédictions positives qui sont correctes ; le rappel, la proportion de cas positifs réels que le modèle a détectés. Améliorer l'une dégrade souvent l'autre · le bon équilibre dépend entièrement de l'enjeu métier.",
+  "definition_en": "Two complementary metrics evaluating a classification model. Precision measures the proportion of positive predictions that are correct; recall, the proportion of real positive cases the model detected. Improving one often degrades the other · the right balance depends entirely on the business stakes.",
+  "exemple_fr": "Un modèle détecte des fraudes. Priorité au rappel · ne rater aucune fraude · quitte à générer de fausses alertes (précision moindre). Pour un filtre anti-spam, l'inverse : mieux vaut laisser passer un spam que bloquer un email légitime. La même métrique brute cache des arbitrages métier opposés.",
+  "exemple_en": "A model detects fraud. Priority to recall · miss no fraud · even at the cost of false alerts (lower precision). For a spam filter, the reverse: better to let a spam through than block a legitimate email. The same raw metric hides opposite business trade-offs.",
+  "regard_fr": "Un score global de « précision » sans contexte ne veut rien dire. La vraie question est : que coûte une erreur, et de quel type ? Rater une fraude ou bloquer un client n'ont pas le même prix. Choisir entre précision et rappel est une décision métier, pas technique.",
+  "regard_en": "A global \"accuracy\" score without context means nothing. The real question is: what does an error cost, and of what type? Missing a fraud or blocking a customer do not have the same price. Choosing between precision and recall is a business decision, not a technical one.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "faux-positifs",
+    "matrice-confusion",
+    "evaluation-llm",
+    "classification"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (precision, recall)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Audit algorithmique",
+  "terme_en": "Algorithmic audit",
+  "sous_titre_fr": "Algorithmic audit",
+  "sous_titre_en": "Audit algorithmique",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Examen méthodique d'un système d'IA pour vérifier sa conformité, sa performance, son équité et l'absence de biais. Mené en interne ou par un tiers indépendant, l'audit algorithmique produit un rapport documenté · il devient un outil central de conformité à l'AI Act et de confiance vis-à-vis des clients et régulateurs.",
+  "definition_en": "A methodical examination of an AI system to verify its compliance, performance, fairness and absence of bias. Conducted internally or by an independent third party, the algorithmic audit produces a documented report · it becomes a central tool of AI Act compliance and of trust with clients and regulators.",
+  "exemple_fr": "Avant de déployer un outil de tri de CV, une entreprise le soumet à un audit algorithmique indépendant. L'audit révèle un biais défavorisant certains parcours atypiques et propose des correctifs. Corrigé et documenté, l'outil devient défendable · l'audit a transformé un risque juridique en preuve de diligence.",
+  "exemple_en": "Before deploying a CV screening tool, a company submits it to an independent algorithmic audit. The audit reveals a bias disadvantaging certain atypical backgrounds and proposes fixes. Corrected and documented, the tool becomes defensible · the audit turned a legal risk into proof of diligence.",
+  "regard_fr": "L'audit algorithmique fait pour l'IA ce que l'audit comptable a fait pour la finance : instaurer un tiers de confiance. Le demander avant qu'un régulateur ou un journaliste ne le fasse, c'est choisir de découvrir ses failles en privé plutôt qu'en public.",
+  "regard_en": "The algorithmic audit does for AI what financial auditing did for finance: establish a trusted third party. Requesting one before a regulator or a journalist does means choosing to discover your flaws in private rather than in public.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "equite-algorithmique",
+    "conformite-ia",
+    "biais-algorithmique",
+    "certification-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (audit algorithmique)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

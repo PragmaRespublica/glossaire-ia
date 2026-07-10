@@ -1,0 +1,37 @@
+{
+  "terme_fr": "SWE-bench",
+  "terme_en": "SWE-bench",
+  "sous_titre_fr": "Le benchmark des vrais problèmes logiciels",
+  "sous_titre_en": "The real-software-problem benchmark",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Benchmark évaluant la capacité d'un modèle à résoudre de vrais problèmes issus de projets open source : à partir d'un rapport de bug réel, le modèle doit produire un correctif qui passe les tests du projet. Bien plus réaliste que les benchmarks de fonctions isolées, il est devenu la référence pour les agents de codage.",
+  "definition_en": "A benchmark evaluating a model's ability to solve real problems from open-source projects: from a real bug report, the model must produce a fix that passes the project's tests. Far more realistic than isolated-function benchmarks, it has become the reference for coding agents.",
+  "exemple_fr": "Pour choisir un assistant de développement, une équipe regarde les scores SWE-bench plutôt que HumanEval : ils reflètent la capacité à travailler sur du vrai code, avec son contexte et sa complexité. Un modèle qui résout 40 % des tickets réels est plus parlant qu'un modèle parfait sur des exercices scolaires.",
+  "exemple_en": "To choose a development assistant, a team looks at SWE-bench scores rather than HumanEval: they reflect the ability to work on real code, with its context and complexity. A model that solves 40% of real tickets is more telling than one perfect on textbook exercises.",
+  "regard_fr": "SWE-bench marque la maturité des benchmarks de code : on ne teste plus des exercices, mais des problèmes réels. C'est la bonne direction · évaluer les modèles sur ce qui ressemble au travail réel. Mais même là, votre code a ses spécificités : le test ultime reste chez vous.",
+  "regard_en": "SWE-bench marks the maturity of code benchmarks: no longer testing exercises, but real problems. That is the right direction · evaluating models on what resembles real work. But even there, your code has its specifics: the ultimate test remains at home.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "humaneval",
+    "benchmark",
+    "generation-code",
+    "agent-autonome"
+  ],
+  "sources": [
+    {
+      "titre": "Jimenez et al. · SWE-bench"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

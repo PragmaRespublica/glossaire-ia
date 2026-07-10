@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Arène de comparaison (LMArena)",
+  "terme_en": "LLM Arena",
+  "sous_titre_fr": "Le classement par votes humains",
+  "sous_titre_en": "The human-vote ranking",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Méthode d'évaluation où des humains comparent deux réponses de modèles anonymes à une même question et votent pour la meilleure, produisant un classement par appariements (type Elo). Popularisée par LMArena, elle capte les préférences réelles des utilisateurs, là où les benchmarks automatiques mesurent des compétences abstraites.",
+  "definition_en": "An evaluation method where humans compare two anonymous models' answers to the same question and vote for the best, producing a pairwise (Elo-style) ranking. Popularised by LMArena, it captures real user preferences, where automatic benchmarks measure abstract skills.",
+  "exemple_fr": "Deux modèles ont des scores de benchmark identiques, mais l'un domine nettement l'arène des votes humains. La raison : ses réponses sont mieux formulées, plus utiles, plus agréables. L'arène capte cette qualité perçue que les tests automatiques ratent · un complément précieux, pas un substitut.",
+  "exemple_en": "Two models have identical benchmark scores, but one clearly dominates the human-vote arena. The reason: its answers are better phrased, more useful, more pleasant. The arena captures this perceived quality that automatic tests miss · a valuable complement, not a substitute.",
+  "regard_fr": "L'arène par votes humains rappelle une évidence oubliée : ce qui compte, c'est l'utilité perçue, pas le score abstrait. Mais elle a ses biais · les votants privilégient les réponses longues et flatteuses. Croisez arène et benchmarks, sans absolutiser ni l'un ni l'autre.",
+  "regard_en": "The human-vote arena recalls a forgotten truth: what matters is perceived usefulness, not the abstract score. But it has its biases · voters favour long, flattering answers. Cross the arena with benchmarks, without absolutising either.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "benchmark",
+    "evaluation-humaine",
+    "evaluation-llm",
+    "complaisance-ia"
+  ],
+  "sources": [
+    {
+      "titre": "LMArena (anciennement Chatbot Arena)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Équité algorithmique",
+  "terme_en": "Algorithmic fairness",
+  "sous_titre_fr": "Algorithmic fairness",
+  "sous_titre_en": "Équité algorithmique",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [],
+  "definition_fr": "Objectif consistant à ce qu'un système d'IA ne produise pas de discriminations injustifiées entre groupes de personnes. L'équité n'a pas de définition unique · plusieurs critères mathématiques existent, parfois incompatibles entre eux. Choisir une définition d'équité est donc un acte à la fois technique et politique.",
+  "definition_en": "The goal that an AI system not produce unjustified discrimination between groups of people. Fairness has no single definition · several mathematical criteria exist, sometimes mutually incompatible. Choosing a fairness definition is therefore both a technical and a political act.",
+  "exemple_fr": "Un modèle de scoring peut être « équitable » selon un critère (même taux d'acceptation par groupe) et « inéquitable » selon un autre (même taux d'erreur par groupe) · les deux ne peuvent être satisfaits simultanément. L'équipe doit trancher explicitement quel critère prime, en fonction du contexte et des valeurs en jeu.",
+  "exemple_en": "A scoring model can be \"fair\" by one criterion (same acceptance rate per group) and \"unfair\" by another (same error rate per group) · both cannot be satisfied simultaneously. The team must explicitly decide which criterion prevails, according to the context and the values at stake.",
+  "regard_fr": "L'équité algorithmique n'est pas un réglage technique qu'on active, mais un choix de société qu'on assume. Il n'existe pas d'équité « objective » · seulement des définitions concurrentes. Prétendre qu'un algorithme est « neutre » est déjà un choix politique masqué.",
+  "regard_en": "Algorithmic fairness is not a technical setting you switch on, but a societal choice you own. There is no \"objective\" fairness · only competing definitions. Claiming an algorithm is \"neutral\" is already a masked political choice.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "biais-algorithmique",
+    "ethique-ia",
+    "audit-algorithmique",
+    "echantillonnage"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (équité en intelligence artificielle)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
