@@ -1,0 +1,41 @@
+{
+  "terme_fr": "MOOC",
+  "terme_en": "MOOC",
+  "sous_titre_fr": "Massive Open Online Course",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Cours en ligne ouvert et massif, généralement gratuit ou peu coûteux, sans accompagnement individuel. Coursera, edX, OpenClassrooms en sont les principales plateformes. Excellent pour acquérir des notions, mais sans la profondeur d'une formation accompagnée et certifiante.",
+  "definition_en": "",
+  "exemple_fr": "Le MOOC \"DeepLearning.AI\" d'Andrew Ng a formé plus de 5 millions de personnes aux bases du machine learning. Excellent point de départ · mais sans coaching humain, sans projet d'entreprise, sans communauté de pairs : difficile d'en faire un levier business activable.",
+  "exemple_en": "",
+  "regard_fr": "Un MOOC vous donne des notions. Une formation accompagnée vous donne une méthode, des livrables, une certification et une communauté dans la durée. C'est la différence entre regarder et faire.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Class Central",
+      "url": "https://www.classcentral.com/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS n'est pas un MOOC : 50h structurées, 3 sessions de coaching humain, jury de certification",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

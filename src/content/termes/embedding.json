@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Embedding",
+  "terme_en": "Embedding",
+  "sous_titre_fr": "Plongement vectoriel",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Représentation numérique d'un texte (mot, phrase, document) sous forme de vecteur de plusieurs centaines à plusieurs milliers de dimensions. Deux textes sémantiquement proches auront des embeddings proches dans l'espace vectoriel. C'est la brique fondamentale des systèmes RAG.",
+  "definition_en": "",
+  "exemple_fr": "Dans un RAG juridique, la question \"Quel est le délai pour porter plainte ?\" est convertie en embedding, puis comparée aux embeddings de 10 000 articles de code. Les 5 articles les plus proches sont récupérés et fournis au LLM · qui formule une réponse appuyée sur ces sources.",
+  "exemple_en": "",
+  "regard_fr": "Le choix du modèle d'embedding détermine la qualité de votre RAG plus que le LLM lui-même. Sentence-Transformers (open source) ou les modèles Mistral permettent de rester en architecture souveraine.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Hugging Face · Embeddings",
+      "url": "https://huggingface.co/blog/getting-started-with-embeddings"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements RAG B2B utilisent des modèles d'embedding souverains par défaut",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

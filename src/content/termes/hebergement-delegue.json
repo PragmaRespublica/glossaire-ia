@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Hébergement délégué",
+  "terme_en": "Managed hosting",
+  "sous_titre_fr": "Managed hosting, infogérance",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Modèle où un prestataire gère l'infrastructure technique (serveurs, GPU, mises à jour, monitoring) pour le compte d'un client, sans que celui-ci ait besoin de compétences DevOps internes. Permet de déployer une IA souveraine sans recruter une équipe technique dédiée.",
+  "definition_en": "",
+  "exemple_fr": "Une PME de 50 personnes veut un RAG souverain mais n'a pas de DSI. PragmaForma déploie l'infrastructure chez OVHcloud, gère les mises à jour mensuelles de sécurité, surveille la disponibilité 24/7, et garantit une intervention en cas d'incident. La PME paie 590 € HT/mois et se concentre sur son métier.",
+  "exemple_en": "",
+  "regard_fr": "L'hébergement délégué démocratise la souveraineté technique. Plus besoin d'avoir une équipe DevOps interne pour échapper aux Big Tech · un prestataire de confiance peut s'en charger.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "OVHcloud · Managed Services",
+      "url": "https://www.ovhcloud.com/fr/managed-services/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre option d'hébergement délégué B2B couvre infrastructure, mises à jour et monitoring 24/7",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

@@ -1,0 +1,62 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { AXE_LABELS, NIVEAU_LABELS, THEME_LABELS, t, type Lang } from '../i18n/ui';
+
+interface Props {
+  entry: CollectionEntry<'termes'>;
+  lang: Lang;
+}
+
+const { entry, lang } = Astro.props;
+const d = entry.data;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const url = `${base}/${lang}/terme/${entry.id}/`;
+
+const terme = lang === 'fr' ? d.terme_fr : d.terme_en;
+const aka = lang === 'fr' ? d.sous_titre_fr || d.terme_en : d.sous_titre_en || d.terme_fr;
+const definition = (lang === 'fr' ? d.definition_fr : d.definition_en) || d.definition_fr;
+const exemple = (lang === 'fr' ? d.exemple_fr : d.exemple_en) || d.exemple_fr;
+const regard = (lang === 'fr' ? d.regard_fr : d.regard_en) || d.regard_fr;
+---
+
+<article
+  class="term"
+  data-axis={d.axe}
+  data-level={d.niveau}
+  data-theme={d.theme}
+  data-page={d.pages_liees.join(' ')}
+  data-name={terme.toLowerCase()}
+>
+  <div class="term-head">
+    <h3><a href={url}>{terme}</a></h3>
+    <p class="term-aka">{aka}</p>
+    <div class="term-tags">
+      <span class={`term-tag ${AXE_LABELS[d.axe].css}`}>{AXE_LABELS[d.axe][lang]}</span>
+      <span class="term-tag term-level">{NIVEAU_LABELS[d.niveau][lang]}</span>
+      <span class="term-tag term-theme">{THEME_LABELS[d.theme][lang]}</span>
+    </div>
+  </div>
+  <div class="term-body">
+    <p>{definition}</p>
+    {
+      exemple && (
+        <div class="example">
+          <div class="example-label">{t(lang, 'block.example')}</div>
+          <p>{exemple}</p>
+        </div>
+      )
+    }
+    {
+      regard && (
+        <div class="pragma-note">
+          <div class="pragma-note-label">{t(lang, 'block.regard')}</div>
+          <p>{regard}</p>
+        </div>
+      )
+    }
+    <a href={url} class="related-page">
+      <span class="related-page-text">{terme}</span>
+      <span class="related-page-link">{lang === 'fr' ? 'Voir la fiche →' : 'View entry →'}</span>
+    </a>
+  </div>
+</article>

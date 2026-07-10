@@ -1,0 +1,41 @@
+{
+  "terme_fr": "CLOUD Act",
+  "terme_en": "CLOUD Act",
+  "sous_titre_fr": "Clarifying Lawful Overseas Use of Data Act",
+  "sous_titre_en": "",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Loi américaine adoptée en 2018 qui permet aux autorités américaines de réclamer des données stockées par des entreprises américaines, même si ces données sont physiquement hébergées à l'étranger. S'applique notamment à AWS, Microsoft Azure, Google Cloud · y compris quand leurs serveurs sont en France.",
+  "definition_en": "",
+  "exemple_fr": "Une PME française héberge ses données dans Azure France. Le FBI peut obtenir un mandat américain obligeant Microsoft à transmettre ces données · sans en informer l'entreprise française et sans passer par la justice française. C'est précisément ce que le CLOUD Act autorise.",
+  "exemple_en": "",
+  "regard_fr": "Le CLOUD Act est le motif numéro un de la souveraineté technologique. Aucune clause contractuelle ne peut s'y opposer. La seule réponse est juridique : choisir une entreprise non soumise au droit américain.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "US Department of Justice · CLOUD Act",
+      "url": "https://www.justice.gov/criminal/criminal-oia/cloud-act-resources"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements B2B sont conçus pour échapper structurellement au CLOUD Act",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Mistral AI",
+  "terme_en": "Mistral AI",
+  "sous_titre_fr": "Acteur français des modèles ouverts",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Entreprise française fondée en 2023, qui publie des modèles de langage compétitifs avec les leaders américains. Plusieurs modèles sont disponibles en open weights (Mistral 7B, Mixtral, Mistral Small), ce qui permet un déploiement souverain sur infrastructure européenne. Mistral Large reste propriétaire.",
+  "definition_en": "",
+  "exemple_fr": "BNP Paribas a déployé Mistral en interne pour traiter les emails clients sensibles · sans qu'aucune donnée ne transite par les États-Unis. Le modèle est hébergé sur infrastructure française, conforme aux exigences ACPR sur la protection des données bancaires.",
+  "exemple_en": "",
+  "regard_fr": "Mistral n'est pas \"le ChatGPT français\" · c'est une autre approche, ancrée dans l'open source et la souveraineté technique. Tous leurs modèles ne sont pas open : Mistral Large reste propriétaire. Vérifiez toujours la licence avant déploiement.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Mistral AI",
+      "url": "https://mistral.ai/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Mistral est l'un des modèles que FIARS apprend à maîtriser et que nos offres B2B déploient",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

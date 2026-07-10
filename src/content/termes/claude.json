@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Claude",
+  "terme_en": "Claude",
+  "sous_titre_fr": "Assistant conversationnel d'Anthropic",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Famille de modèles de langage développés par Anthropic, une entreprise américaine fondée en 2021 par d'anciens cadres d'OpenAI. Claude se distingue par sa méthodologie \"Constitutional AI\" qui vise à produire des réponses utiles, inoffensives et honnêtes. Disponible via une interface chat (claude.ai) et une API.",
+  "definition_en": "",
+  "exemple_fr": "Un consultant utilise Claude pour analyser un long contrat de 80 pages. La fenêtre contextuelle étendue de Claude (200 000 tokens) permet de traiter l'intégralité du document en un seul prompt · là où d'autres modèles obligeraient à découper le contrat en plusieurs passes.",
+  "exemple_en": "",
+  "regard_fr": "Claude est techniquement excellent mais reste hébergé sur infrastructure américaine (AWS principalement). Pour un usage professionnel sur données sensibles, comparer son TCO et sa souveraineté avec Mistral est indispensable.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Anthropic",
+      "url": "https://www.anthropic.com/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS compare les principaux LLM (Claude, ChatGPT, Gemini, Mistral) pour vous aider à choisir",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

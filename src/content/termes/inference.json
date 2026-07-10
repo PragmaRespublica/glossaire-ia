@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Inférence",
+  "terme_en": "Inference",
+  "sous_titre_fr": "Inference",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Phase d'utilisation d'un modèle déjà entraîné : on lui fournit une entrée (prompt) et il produit une sortie. Par opposition à la phase d'entraînement (très coûteuse, ponctuelle), l'inférence est répétée des millions de fois et représente l'essentiel des coûts opérationnels de l'IA.",
+  "definition_en": "",
+  "exemple_fr": "L'entraînement de GPT-4 a coûté environ 100 millions de dollars. Ses inférences quotidiennes (centaines de millions de requêtes) coûtent à OpenAI plusieurs millions de dollars par jour. C'est l'inférence qu'il faut optimiser, pas l'entraînement.",
+  "exemple_en": "",
+  "regard_fr": "Sur 3 ans d'usage, 90% des coûts d'un système IA sont en inférence. Choisir un modèle moins gros peut diviser par 10 vos coûts opérationnels · pour une perte de qualité souvent négligeable.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "distillation",
+    "fine-tuning",
+    "tco"
+  ],
+  "sources": [
+    {
+      "titre": "Stojkovic et al. · LLM Inference",
+      "url": "https://arxiv.org/abs/2310.03003"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

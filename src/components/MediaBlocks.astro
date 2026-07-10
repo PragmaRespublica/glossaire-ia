@@ -1,0 +1,52 @@
+---
+import { t, type Lang } from '../i18n/ui';
+import type { Terme } from '../../src/content.config';
+
+interface Props {
+  video: Terme['video'];
+  articles: Terme['articles'];
+  lang: Lang;
+}
+
+const { video, articles, lang } = Astro.props;
+---
+
+{
+  video && (
+    <section class="schema-block">
+      <h2 class="block-label">{t(lang, 'block.video')}</h2>
+      <ul class="media-list">
+        <li>
+          <a href={video.url} target="_blank" rel="noopener">
+            {video.titre}
+          </a>
+          <span class="media-meta">
+            {' '}
+            · {video.source} · {video.langue.toUpperCase()}
+          </span>
+        </li>
+      </ul>
+    </section>
+  )
+}
+
+{
+  articles.length > 0 && (
+    <section class="schema-block">
+      <h2 class="block-label">{t(lang, 'block.articles')}</h2>
+      <ul class="media-list">
+        {articles.map((a) => (
+          <li>
+            <a href={a.url} target="_blank" rel="noopener">
+              {a.titre}
+            </a>
+            <span class="media-meta">
+              {' '}
+              · {a.source} · {a.langue.toUpperCase()}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}

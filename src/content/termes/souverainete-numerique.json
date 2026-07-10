@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Souveraineté numérique",
+  "terme_en": "Digital sovereignty",
+  "sous_titre_fr": "Digital sovereignty",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Capacité d'un État, d'une organisation ou d'un individu à maîtriser ses choix technologiques, ses données, et ses infrastructures numériques sans dépendance critique vis-à-vis d'acteurs étrangers. Concerne autant le matériel que le logiciel, le cloud que les modèles d'IA.",
+  "definition_en": "",
+  "exemple_fr": "En 2020, AWS a coupé les services d'une entreprise française pour conformité au CLOUD Act, sans préavis. L'entreprise a perdu 3 jours d'activité, soit 800 000 € de CA. La souveraineté, c'est ce qui permet d'éviter ce scénario · ou de s'en relever rapidement.",
+  "exemple_en": "",
+  "regard_fr": "La souveraineté n'est pas une posture politique · c'est une décision opérationnelle. Quand 99% de vos données partent chez trois acteurs américains, vous n'avez plus de plan B en cas de hausse de prix, de panne ou de conflit géopolitique. La souveraineté, c'est l'optionnalité.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "DGE · Souveraineté numérique",
+      "url": "https://www.entreprises.gouv.fr/fr/numerique/enjeux/la-souverainete-numerique"
+    }
+  ],
+  "cta": {
+    "texte_fr": "La souveraineté est au cœur de la promesse FIARS et structure toutes nos offres B2B",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

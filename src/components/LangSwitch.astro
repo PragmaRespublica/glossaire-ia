@@ -1,0 +1,31 @@
+---
+import { t, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  altPath: string;
+}
+
+const { lang, altPath } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<nav class="lang-switch" aria-label={t(lang, 'a11y.langSwitch')}>
+  {
+    lang === 'fr' ? (
+      <>
+        <span aria-current="true">FR</span>
+        <a href={`${base}${altPath}`} lang="en" hreflang="en">
+          EN
+        </a>
+      </>
+    ) : (
+      <>
+        <a href={`${base}${altPath}`} lang="fr" hreflang="fr">
+          FR
+        </a>
+        <span aria-current="true">EN</span>
+      </>
+    )
+  }
+</nav>

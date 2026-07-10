@@ -1,0 +1,41 @@
+{
+  "terme_fr": "RGPD",
+  "terme_en": "GDPR",
+  "sous_titre_fr": "Règlement Général sur la Protection des Données",
+  "sous_titre_en": "",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Règlement européen (UE 2016/679) en vigueur depuis 2018, qui encadre le traitement des données personnelles. Tout système d'IA qui traite des données identifiantes (noms, photos, données de connexion) doit respecter ses principes : licéité, minimisation, transparence, droits des personnes.",
+  "definition_en": "",
+  "exemple_fr": "Une équipe RH veut alimenter un RAG avec les évaluations annuelles des collaborateurs. Le RGPD impose : information préalable des salariés, finalité explicite, durée de conservation définie, droit d'accès et de rectification. Sans ce travail, le RAG est illégal · quelles que soient ses performances.",
+  "exemple_en": "",
+  "regard_fr": "RGPD et AI Act se complètent. Le RGPD régit le \"quoi\" des données traitées, l'AI Act le \"comment\" du système qui les traite. Avoir un DPO compétent qui comprend l'IA est incontournable.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CNIL · RGPD",
+      "url": "https://www.cnil.fr/fr/reglement-europeen-protection-donnees"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS couvre RGPD et AI Act dans la Leçon 1 · vos obligations rendues concrètes",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

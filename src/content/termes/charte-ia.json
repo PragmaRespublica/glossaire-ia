@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Charte IA",
+  "terme_en": "AI charter",
+  "sous_titre_fr": "Politique d'usage de l'IA",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [
+    "fiars",
+    "ori"
+  ],
+  "definition_fr": "Document encadrant l'usage de l'IA dans une organisation. Une bonne charte IA précise les usages autorisés et interdits, les outils approuvés, les règles de protection des données, les responsabilités, et les processus de validation des nouveaux cas d'usage.",
+  "definition_en": "",
+  "exemple_fr": "La charte IA d'une banque autorise ChatGPT pour résumer des articles publics, interdit toute saisie de données client dans ChatGPT, recommande Mistral souverain pour traiter des emails internes, et exige une revue Comité IA pour tout nouveau cas d'usage impliquant des décisions automatisées.",
+  "exemple_en": "",
+  "regard_fr": "Une charte qui se contente d'interdire est une charte morte. Une charte vivante autorise explicitement, encadre les exceptions et désigne des référents accessibles. C'est l'un des livrables clés de notre formation FIARS.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CNIL · IA et données personnelles",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS inclut la rédaction de votre propre charte IA, intégrée à l'atelier ORI-IA",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Coaching IA",
+  "terme_en": "PragmaForma coaching",
+  "sous_titre_fr": "Accompagnement individualisé",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Accompagnement personnalisé d'un apprenant ou d'une équipe par un expert, en complément des contenus pédagogiques. Permet de débloquer des situations spécifiques, d'adapter les concepts à un contexte métier, et de répondre à des questions précises qu'aucun cours générique ne traite.",
+  "definition_en": "",
+  "exemple_fr": "Pendant son coaching FIARS, un participant demande comment intégrer un RAG à son intranet SharePoint. L'expert montre, en direct, comment connecter LangChain à SharePoint via API Graph · un cas concret qui ne figurerait dans aucun support générique.",
+  "exemple_en": "",
+  "regard_fr": "Le coaching est ce qui fait la différence entre \"savoir\" et \"savoir-faire\". Trois sessions de coaching humain valent souvent mieux que vingt heures de vidéo asynchrone.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CNCP · Certification des compétences",
+      "url": "https://www.cncp.fr/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS inclut 3 sessions de coaching avec un expert technique · réponse en moins de 24h",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

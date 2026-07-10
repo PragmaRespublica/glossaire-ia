@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Vector store",
+  "terme_en": "Vector store",
+  "sous_titre_fr": "Base de données vectorielle",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Base de données spécialisée dans le stockage et la recherche d'embeddings. Permet de retrouver rapidement les documents sémantiquement proches d'une requête. Solutions open source : Qdrant, Weaviate, Milvus. Solutions SaaS : Pinecone (cloud américain).",
+  "definition_en": "",
+  "exemple_fr": "Un RAG indexant 100 000 documents nécessite une base vectorielle pour retrouver en millisecondes les 5 documents les plus pertinents à une requête. Qdrant (open source, déployé localement) répond à ce besoin sans envoyer un seul embedding à un acteur tiers.",
+  "exemple_en": "",
+  "regard_fr": "Privilégiez les vector stores open source self-hostable (Qdrant, Weaviate) pour rester souverain. Pinecone est techniquement excellent mais c'est un service cloud américain · vos embeddings (qui peuvent révéler beaucoup de vos données) y transitent.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Qdrant · Open Source Vector DB",
+      "url": "https://qdrant.tech/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements RAG B2B utilisent Qdrant ou équivalent open source européen",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

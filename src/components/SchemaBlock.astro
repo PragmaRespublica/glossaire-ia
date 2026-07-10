@@ -1,0 +1,62 @@
+---
+import { t, type Lang } from '../i18n/ui';
+import type { Terme } from '../../src/content.config';
+
+interface Props {
+  schema: Terme['schema'];
+  lang: Lang;
+}
+
+const { schema, lang } = Astro.props;
+const alt = lang === 'fr' ? schema.alt_fr : schema.alt_en;
+---
+
+{
+  schema.type !== 'none' && schema.contenu && (
+    <figure class="schema-block">
+      <figcaption class="block-label">{t(lang, 'block.schema')}</figcaption>
+      {schema.type === 'mermaid' ? (
+        <div class="mermaid-src" role="img" aria-label={alt} data-mermaid={schema.contenu} />
+      ) : (
+        <div role="img" aria-label={alt} set:html={schema.contenu} />
+      )}
+      <p class="media-meta">{alt}</p>
+    </figure>
+  )
+}
+
+{
+  schema.type === 'mermaid' && schema.contenu && (
+    <script>
+      // Rendu Mermaid côté client, bundle local (aucun CDN) ·
+      // chargé uniquement sur les pages qui portent un schéma.
+      const nodes = document.querySelectorAll<HTMLElement>('.mermaid-src');
+      if (nodes.length > 0) {
+        const { default: mermaid } = await import('mermaid');
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: 'dark',
+          themeVariables: {
+            darkMode: true,
+            background: '#222323',
+            primaryColor: '#1e3b33',
+            primaryTextColor: '#f0ebe2',
+            primaryBorderColor: '#296d5a',
+            lineColor: '#b8b2a6',
+            fontFamily: 'Inter, system-ui, sans-serif',
+          },
+        });
+        let i = 0;
+        for (const node of nodes) {
+          const src = node.dataset.mermaid ?? '';
+          try {
+            const { svg } = await mermaid.render(`schema-${i++}`, src);
+            node.innerHTML = svg;
+          } catch {
+            node.textContent = node.getAttribute('aria-label') ?? '';
+          }
+        }
+      }
+    </script>
+  )
+}

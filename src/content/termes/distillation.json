@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Distillation",
+  "terme_en": "Distillation",
+  "sous_titre_fr": "Model distillation",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Technique consistant à entraîner un modèle plus petit (l'élève) à reproduire les sorties d'un modèle plus grand (le maître). Le modèle distillé est plus rapide, moins coûteux et moins énergivore, au prix d'une légère perte de performance.",
+  "definition_en": "",
+  "exemple_fr": "Mistral 7B est en partie une distillation de modèles plus grands. Il tient sur un seul GPU grand public, consomme 10 à 50 fois moins qu'un GPT-4 · et reste parfaitement adapté à 90% des cas d'usage en entreprise (résumé, classification, extraction).",
+  "exemple_en": "",
+  "regard_fr": "La distillation est l'un des leviers de sobriété les plus puissants. Pas besoin d'invoquer GPT-4 ou Claude Opus pour résumer un email. Un petit modèle distillé suffit largement pour la plupart des tâches courantes.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "fine-tuning",
+    "llm",
+    "sobriete-numerique"
+  ],
+  "sources": [
+    {
+      "titre": "Hinton et al. · Distilling Knowledge",
+      "url": "https://arxiv.org/abs/1503.02531"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

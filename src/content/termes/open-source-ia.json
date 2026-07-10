@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Open source (IA)",
+  "terme_en": "Open-source AI",
+  "sous_titre_fr": "Open weights, modèles ouverts",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Modèle d'IA dont les poids (paramètres entraînés) sont publiquement disponibles et peuvent être téléchargés, modifiés et déployés librement, sous une licence permissive. À distinguer du \"fully open source\" qui inclurait aussi les données d'entraînement et le code complet.",
+  "definition_en": "",
+  "exemple_fr": "Mistral 7B est sous licence Apache 2.0 : usage commercial libre, modifications autorisées, redistribution permise. À l'opposé, LLaMA 3 a une licence custom qui interdit l'usage commercial au-delà de 700 millions d'utilisateurs actifs mensuels. Lire la licence avant de coder est non négociable.",
+  "exemple_en": "",
+  "regard_fr": "Tous les \"open\" ne se valent pas. Pour du vrai open source, regardez Mistral, Falcon, Qwen ou DeepSeek sous licence Apache 2.0 ou MIT. La licence est la première chose à vérifier.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Open Source Initiative · OSAID",
+      "url": "https://opensource.org/ai"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Distinguer outils propriétaires et souverains est une compétence-clé de FIARS",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

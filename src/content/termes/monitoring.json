@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Monitoring IA",
+  "terme_en": "Monitoring & observability",
+  "sous_titre_fr": "Observabilité des systèmes IA",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Surveillance continue d'un système d'IA en production : performance, disponibilité, dérive du modèle, anomalies, coûts d'inférence, consommation énergétique. Indispensable pour détecter rapidement les incidents et maintenir la qualité dans le temps.",
+  "definition_en": "",
+  "exemple_fr": "Un RAG en production voit sa qualité de réponse se dégrader progressivement. Le monitoring révèle que 30% des documents ingérés depuis 3 mois sont mal chunkés, causant des hallucinations. Sans monitoring, le problème aurait été découvert par les utilisateurs · au prix de la confiance.",
+  "exemple_en": "",
+  "regard_fr": "Un système IA non monitoré est un système qui dérive en silence. La mise en place du monitoring doit faire partie du déploiement initial, pas être ajoutée a posteriori.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "OWASP · LLM Top 10",
+      "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre hébergement délégué B2B inclut le monitoring 24/7 par défaut",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

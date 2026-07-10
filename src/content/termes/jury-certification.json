@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Jury de certification",
+  "terme_en": "Certification jury",
+  "sous_titre_fr": "Soutenance, évaluation finale",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Évaluation finale d'une formation certifiante, conduite par un panel d'experts indépendants. Permet de valider que l'apprenant a effectivement acquis les compétences visées · par opposition à une simple validation par QCM. C'est la garantie d'une certification qui vaut quelque chose sur le marché.",
+  "definition_en": "",
+  "exemple_fr": "À l'issue de FIARS, chaque participant présente devant un jury : un cas concret de diagnostic ORI-IA réalisé dans son organisation, sa charte IA, et son architecture RAG. 30 minutes de présentation, 15 minutes de questions. Une certification qui se mérite.",
+  "exemple_en": "",
+  "regard_fr": "Un jury de fin de formation n'est pas un examen. C'est une opportunité de structurer ce qu'on a appris, de l'éprouver face à des experts, et de repartir avec un livrable concret. C'est aussi ce qui distingue une formation certifiante d'un MOOC.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "France Compétences",
+      "url": "https://www.francecompetences.fr/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS se conclut par une présentation devant jury · pour valider une compétence réelle",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

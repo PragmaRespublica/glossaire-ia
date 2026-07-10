@@ -1,0 +1,41 @@
+{
+  "terme_fr": "OpenRAG",
+  "terme_en": "OpenRAG",
+  "sous_titre_fr": "Plateforme RAG souveraine open source",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Plateforme open source de déploiement RAG, conçue pour permettre aux organisations de connecter leurs documents internes à un LLM souverain · sans envoyer leurs données à un acteur tiers. Couvre l'indexation, l'orchestration et l'interface d'interrogation.",
+  "definition_en": "",
+  "exemple_fr": "Une ETI industrielle déploie OpenRAG sur ses 15 000 fiches techniques, manuels qualité et procédures ISO. Ses ingénieurs interrogent désormais cette base en langage naturel, avec citation des sources · au lieu de fouiller des dossiers SharePoint pendant des heures.",
+  "exemple_en": "",
+  "regard_fr": "OpenRAG illustre une philosophie : on n'a pas besoin de SaaS américain pour déployer un RAG performant. L'écosystème open source européen est suffisamment mature pour offrir une alternative crédible.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "GitHub · Projets RAG open source",
+      "url": "https://github.com/topics/rag"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre offre \"Mise en place RAG\" déploie OpenRAG sur votre infrastructure (à partir de 3 500 € HT)",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

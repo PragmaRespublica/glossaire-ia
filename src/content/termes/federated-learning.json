@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Federated learning",
+  "terme_en": "Federated learning",
+  "sous_titre_fr": "Apprentissage fédéré",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Approche d'entraînement où le modèle est entraîné de manière distribuée sur des données qui restent chez chaque participant. Seuls les paramètres du modèle sont partagés, pas les données brutes. Permet de mutualiser l'apprentissage sans centraliser les données sensibles.",
+  "definition_en": "",
+  "exemple_fr": "Plusieurs hôpitaux veulent entraîner un modèle de diagnostic radiologique. Chacun garde ses images patients en local. Le federated learning permet d'agréger les apprentissages sans qu'aucune image ne quitte son établissement d'origine. Une réponse élégante au RGPD.",
+  "exemple_en": "",
+  "regard_fr": "Le federated learning est sous-exploité en Europe alors qu'il offre une réponse élégante au RGPD. Une voie de souveraineté par construction, particulièrement adaptée aux secteurs régulés (santé, banque, défense).",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Google Research · Federated Learning",
+      "url": "https://research.google/blog/federated-learning-collaborative-machine-learning-without-centralized-training-data/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements B2B sur données sensibles peuvent intégrer du federated learning",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

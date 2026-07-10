@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Zero-shot / Few-shot",
+  "terme_en": "Zero-shot / few-shot",
+  "sous_titre_fr": "Apprentissage sans / avec quelques exemples",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "prompting-usage",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Capacité d'un LLM à réaliser une tâche sans (zero-shot) ou avec quelques exemples (few-shot) fournis dans le prompt, sans réentraînement. C'est l'une des capacités émergentes les plus puissantes des LLM modernes · qui rend souvent le fine-tuning inutile.",
+  "definition_en": "",
+  "exemple_fr": "Pour classifier les emails entrants par catégorie, plutôt que de fine-tuner un modèle, on fournit dans le prompt 3-5 exemples annotés (\"voici un email type catégorie A : ..., voici un email type catégorie B : ...\"). Le LLM généralise et classifie les nouveaux emails avec une précision comparable au fine-tuning · pour 1/100ème du coût.",
+  "exemple_en": "",
+  "regard_fr": "Avant de lancer un projet de fine-tuning, testez d'abord en few-shot : 3 à 5 exemples bien choisis dans votre prompt résolvent souvent le problème pour 1/100ème du coût et de l'effort.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "fine-tuning",
+    "llm",
+    "prompt"
+  ],
+  "sources": [
+    {
+      "titre": "Brown et al. · Few-Shot Learners",
+      "url": "https://arxiv.org/abs/2005.14165"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

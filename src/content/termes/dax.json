@@ -1,0 +1,41 @@
+{
+  "terme_fr": "DAX",
+  "terme_en": "DAX (Data Analysis Expressions)",
+  "sous_titre_fr": "Data Analysis Expressions (Power BI)",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Langage de formules de Microsoft Power BI, utilisé pour créer des mesures et des colonnes calculées avancées. Permet de calculer des KPI complexes (croissance vs N-1, parts de marché, agrégations conditionnelles) à partir de modèles de données relationnels.",
+  "definition_en": "",
+  "exemple_fr": "Une formule DAX calcule la marge brute moyenne par région et par mois, en tenant compte des produits saisonniers et des promotions. Sans DAX, ce calcul nécessiterait des dizaines de feuilles Excel · avec DAX, une seule formule recalculée automatiquement.",
+  "exemple_en": "",
+  "regard_fr": "DAX est puissant mais piège : ses subtilités (filter context, row context) sont source d'erreurs récurrentes. Une formation dédiée évite des mois d'autodidaxie inefficace.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Microsoft Learn · DAX",
+      "url": "https://learn.microsoft.com/dax/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre formation B2B \"Power BI · De la donnée à la décision\" couvre DAX sur 4 jours",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

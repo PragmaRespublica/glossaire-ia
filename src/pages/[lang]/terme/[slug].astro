@@ -1,0 +1,171 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import SchemaBlock from '../../../components/SchemaBlock.astro';
+import MediaBlocks from '../../../components/MediaBlocks.astro';
+import {
+  AXE_LABELS,
+  NIVEAU_LABELS,
+  THEME_LABELS,
+  t,
+  LANGS,
+  type Lang,
+} from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const termes = await getCollection('termes');
+  return LANGS.flatMap((lang) =>
+    termes.map((entry) => ({ params: { lang, slug: entry.id }, props: { entry } }))
+  );
+}
+
+const { entry } = Astro.props;
+const lang = Astro.params.lang as Lang;
+const d = entry.data;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const terme = lang === 'fr' ? d.terme_fr : d.terme_en;
+const aka = lang === 'fr' ? d.sous_titre_fr || d.terme_en : d.sous_titre_en || d.terme_fr;
+const definition = (lang === 'fr' ? d.definition_fr : d.definition_en) || d.definition_fr;
+const exemple = (lang === 'fr' ? d.exemple_fr : d.exemple_en) || d.exemple_fr;
+const regard = (lang === 'fr' ? d.regard_fr : d.regard_en) || d.regard_fr;
+
+const ctaTexte = d.cta ? (lang === 'fr' ? d.cta.texte_fr : d.cta.texte_en) || d.cta.texte_fr : '';
+const ctaLabel = d.cta ? (lang === 'fr' ? d.cta.label_fr : d.cta.label_en) || d.cta.label_fr : '';
+const ctaUrl = d.cta
+  ? d.cta.url.startsWith('/')
+    ? `https://pragmaforma.com${d.cta.url}`
+    : d.cta.url
+  : '';
+
+const lies = (
+  await Promise.all(d.termes_lies.map((slug) => getEntry('termes', slug)))
+).filter((e) => e !== undefined);
+---
+
+<Base
+  lang={lang}
+  title={`${terme} · ${t(lang, 'site.title')}`}
+  description={definition.slice(0, 155)}
+  altPath={`/${lang === 'fr' ? 'en' : 'fr'}/terme/${entry.id}/`}
+>
+  <article class="container fiche" data-pagefind-body>
+    <header class="fiche-head">
+      <p class="hero-eyebrow">{t(lang, 'hero.eyebrow')}</p>
+      <h1>{terme}</h1>
+      <p class="term-aka">{aka}</p>
+      <div class="term-tags">
+        <span class={`term-tag ${AXE_LABELS[d.axe].css}`} data-pagefind-filter="axe">
+          {AXE_LABELS[d.axe][lang]}
+        </span>
+        <span class="term-tag term-level" data-pagefind-filter="niveau">
+          {NIVEAU_LABELS[d.niveau][lang]}
+        </span>
+        <span class="term-tag term-theme" data-pagefind-filter="theme">
+          {THEME_LABELS[d.theme][lang]}
+        </span>
+      </div>
+    </header>
+
+    <div class="term-body">
+      <p>{definition}</p>
+
+      {
+        exemple && (
+          <div class="example">
+            <div class="example-label">{t(lang, 'block.example')}</div>
+            <p>{exemple}</p>
+          </div>
+        )
+      }
+
+      {
+        regard && (
+          <div class="pragma-note">
+            <div class="pragma-note-label">{t(lang, 'block.regard')}</div>
+            <p>{regard}</p>
+          </div>
+        )
+      }
+
+      <SchemaBlock schema={d.schema} lang={lang} />
+      <MediaBlocks video={d.video} articles={d.articles} lang={lang} />
+
+      {
+        d.cta && (
+          <a href={ctaUrl} class="related-page">
+            <span class="related-page-text">{ctaTexte}</span>
+            <span class="related-page-link">{ctaLabel}</span>
+          </a>
+        )
+      }
+
+      {
+        lies.length > 0 && (
+          <nav class="related-terms-wrap" aria-label={t(lang, 'block.related')}>
+            <h2 class="block-label" style="margin-top: 24px;">
+              {t(lang, 'block.related')}
+            </h2>
+            <div class="related-terms">
+              {lies.map((e) => (
+                <a href={`${base}/${lang}/terme/${e.id}/`}>
+                  {lang === 'fr' ? e.data.terme_fr : e.data.terme_en}
+                </a>
+              ))}
+            </div>
+          </nav>
+        )
+      }
+
+      {
+        d.sources.length > 0 && (
+          <div class="source">
+            {t(lang, 'block.sources')}{' '}
+            {d.sources.map((s, i) => (
+              <>
+                {i > 0 && ' · '}
+                {s.url ? (
+                  <a href={s.url} target="_blank" rel="noopener">
+                    {s.titre}
+                  </a>
+                ) : (
+                  s.titre
+                )}
+                {s.licence && <span class="media-meta"> ({s.licence})</span>}
+              </>
+            ))}
+          </div>
+        )
+      }
+    </div>
+  </article>
+</Base>
+
+<style>
+  .fiche {
+    padding: 70px 32px 100px;
+    max-width: 820px;
+  }
+
+  .fiche-head h1 {
+    font-size: clamp(34px, 5vw, 52px);
+    margin: 18px 0 10px;
+    color: var(--cream);
+  }
+
+  .fiche-head .term-aka {
+    font-size: 16px;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 16px;
+  }
+
+  .fiche .term-body {
+    margin-top: 36px;
+  }
+
+  .fiche .term-body > p:first-child {
+    font-size: 18px;
+    line-height: 1.65;
+  }
+</style>

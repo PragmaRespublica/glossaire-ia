@@ -1,0 +1,39 @@
+{
+  "terme_fr": "PUE",
+  "terme_en": "PUE (Power Usage Effectiveness)",
+  "sous_titre_fr": "Power Usage Effectiveness",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "impact-environnemental",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Indicateur d'efficacité énergétique d'un data center, calculé comme le ratio entre l'énergie totale consommée et l'énergie utilisée par le matériel informatique. Un PUE de 1,0 serait parfait (toute l'énergie va à l'informatique). Les meilleurs data centers atteignent 1,1-1,2 ; la moyenne mondiale est autour de 1,5.",
+  "definition_en": "",
+  "exemple_fr": "Un data center avec un PUE de 1,5 consomme 1,5 kWh pour faire fonctionner 1 kWh de serveurs · soit 33% d'énergie \"perdue\" en refroidissement, éclairage, onduleurs. À l'échelle mondiale, optimiser le PUE est un levier majeur de sobriété numérique.",
+  "exemple_en": "",
+  "regard_fr": "Le PUE est un indicateur partiel : il ne dit rien de l'origine de l'électricité (charbon ou nucléaire), ni des consommations en eau, ni de la fabrication du matériel. À combiner avec d'autres indicateurs pour une vraie ACV.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "acv",
+    "data-center",
+    "sobriete-numerique"
+  ],
+  "sources": [
+    {
+      "titre": "The Green Grid · PUE Standard",
+      "url": "https://www.thegreengrid.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

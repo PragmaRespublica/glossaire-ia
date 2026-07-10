@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Vibe coding",
+  "terme_en": "Vibe coding",
+  "sous_titre_fr": "Programmation assistée par IA générative",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Pratique consistant à produire du code logiciel en décrivant l'intention en langage naturel à un LLM (Claude, ChatGPT, Cursor), plutôt qu'en écrivant la syntaxe ligne à ligne. Permet à des non-développeurs de prototyper des outils · ou à des développeurs d'accélérer leur productivité par 3 à 5.",
+  "definition_en": "",
+  "exemple_fr": "Une chef de projet, sans formation développeur, \"vibe code\" en 2 heures un mini outil interne de suivi de tickets : \"crée-moi une page web avec un formulaire pour ajouter des tâches, une liste qui les affiche, un bouton pour les marquer terminées\". Claude produit le code, elle le déploie. Avant l'IA générative, c'était irréaliste.",
+  "exemple_en": "",
+  "regard_fr": "Le vibe coding professionnel ne consiste pas à se passer de développeurs, mais à élargir le cercle de ceux qui peuvent prototyper. Pour la production, la revue par un développeur reste indispensable · un LLM peut produire du code qui fonctionne mais qui n'est ni sécurisé, ni maintenable.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Anthropic · Claude Code",
+      "url": "https://www.anthropic.com/news/claude-code"
+    }
+  ],
+  "cta": {
+    "texte_fr": "\"Apprendre le vibe coding professionnel en B2B\" est une compétence-clé de FIARS",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

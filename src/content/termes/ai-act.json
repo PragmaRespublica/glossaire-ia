@@ -1,0 +1,42 @@
+{
+  "terme_fr": "AI Act",
+  "terme_en": "AI Act",
+  "sous_titre_fr": "Règlement européen sur l'intelligence artificielle",
+  "sous_titre_en": "",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Le règlement européen sur l'intelligence artificielle (Règlement UE 2024/1689) est le premier cadre juridique complet au monde pour encadrer l'IA. Adopté en 2024, il classe les systèmes d'IA selon quatre niveaux de risque (inacceptable, élevé, limité, minimal) et impose des obligations proportionnées. Son application s'étale de 2025 à 2027.",
+  "definition_en": "",
+  "exemple_fr": "Un système de tri automatisé de CV est classé \"haut risque\" par l'AI Act : il doit faire l'objet d'une documentation technique, d'une supervision humaine et d'une analyse d'impact sur les droits fondamentaux. Un chatbot d'aide à la navigation sur un site, lui, relève du \"risque limité\" · seule la transparence sur sa nature d'IA est exigée.",
+  "exemple_en": "",
+  "regard_fr": "L'AI Act n'est pas une contrainte administrative à traiter en fin de projet. C'est un cadre structurant qui doit infuser dès la conception. Connaître sa classification de risque conditionne tout : documentation, gouvernance, audits.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "EUR-Lex · Règlement (UE) 2024/1689",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": {
+    "texte_fr": "La formation FIARS consacre une partie de la Leçon 1 à l'AI Act et à son application concrète",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

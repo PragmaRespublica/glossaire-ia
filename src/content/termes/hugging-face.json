@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Hugging Face",
+  "terme_en": "Hugging Face",
+  "sous_titre_fr": "Plateforme open source pour l'IA",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Entreprise franco-américaine fondée en 2016, qui héberge la plus grande plateforme open source de modèles d'IA, datasets et outils. Plus d'1 million de modèles disponibles en téléchargement, dont Mistral, LLaMA, Stable Diffusion. Joue un rôle structurant dans l'écosystème open source mondial.",
+  "definition_en": "",
+  "exemple_fr": "Pour déployer un modèle de classification de texte en français, un développeur trouve sur Hugging Face : CamemBERT (open source français), un dataset d'évaluation, le code d'intégration, et une démo interactive. Tout est gratuit, modifiable, redistribuable.",
+  "exemple_en": "",
+  "regard_fr": "Hugging Face est l'un des piliers de la souveraineté IA européenne, même si l'entreprise est en partie américaine. Plus l'écosystème open source qu'elle héberge sera utilisé, plus il restera puissant et indépendant des Big Tech.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Hugging Face",
+      "url": "https://huggingface.co/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Hugging Face est l'une des ressources clés mentionnées dans notre glossaire et nos formations",
+    "texte_en": "",
+    "label_fr": "Continuer →",
+    "label_en": "",
+    "url": "/ressources/glossaire"
+  },
+  "statut": "a_relire"
+}

@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Sécurité des données",
+  "terme_en": "Data security",
+  "sous_titre_fr": "Data security",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Ensemble des mesures techniques et organisationnelles pour protéger les données d'une organisation contre les accès non autorisés, les fuites, les altérations. En contexte IA, cela inclut le chiffrement des prompts, la gestion fine des droits d'accès au RAG, et la non-utilisation des données par le fournisseur de LLM.",
+  "definition_en": "",
+  "exemple_fr": "Une banque déploie Copilot pour ses 5 000 collaborateurs. Sans configuration adéquate, un chargé de clientèle peut requêter \"donne-moi la liste des dossiers prêts hypothécaires du chargé X\" · et obtenir des informations qu'il ne devrait pas voir. La sécurité IA passe par la maîtrise fine des permissions.",
+  "exemple_en": "",
+  "regard_fr": "L'IA générative introduit de nouvelles surfaces d'attaque : prompts qui contournent les permissions, RAG qui agrège des données qui n'auraient jamais dû se croiser, modèles propriétaires qui retiennent vos données pour entraînement. La sécurité doit être pensée nativement, pas en patch.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "ANSSI · Cybersécurité",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre formation Copilot B2B aborde la sécurité des données dans le Jour 2",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

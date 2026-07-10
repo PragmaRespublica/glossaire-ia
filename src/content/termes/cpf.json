@@ -1,0 +1,41 @@
+{
+  "terme_fr": "CPF / OPCO",
+  "terme_en": "CPF (French personal training account)",
+  "sous_titre_fr": "Financement de la formation professionnelle",
+  "sous_titre_en": "",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Le Compte Personnel de Formation (CPF) permet à tout actif de financer une formation certifiée éligible. Les OPCO (Opérateurs de Compétences) gèrent les contributions formation des entreprises et financent les formations de leurs salariés.",
+  "definition_en": "",
+  "exemple_fr": "Un consultant freelance souhaite financer FIARS via son CPF. Il vérifie son solde sur moncompteformation.gouv.fr, valide l'éligibilité de la formation, et procède à l'inscription. Le règlement est pris en charge directement par la Caisse des Dépôts.",
+  "exemple_en": "",
+  "regard_fr": "Le paysage du financement formation est complexe et change régulièrement. Plutôt que de naviguer seul, contactez-nous directement · nous vous aiguillerons vers l'option la plus adaptée à votre situation.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Mon Compte Formation",
+      "url": "https://www.moncompteformation.gouv.fr/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Pour explorer le financement de FIARS, contactez-nous au 06 48 55 33 57",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

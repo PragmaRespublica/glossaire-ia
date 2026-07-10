@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Cloud souverain",
+  "terme_en": "Sovereign cloud",
+  "sous_titre_fr": "Sovereign cloud",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Infrastructure cloud opérée par une entité européenne, sur le territoire européen, et non soumise au droit extraterritorial américain. En France : OVHcloud, Scaleway, Outscale, Numspot. Le label SecNumCloud de l'ANSSI atteste un haut niveau d'exigence.",
+  "definition_en": "",
+  "exemple_fr": "Une mutuelle santé doit héberger les données médicales de ses adhérents. Choisir OVHcloud (souverain, certifié HDS) plutôt qu'AWS France n'est pas équivalent juridiquement : le second reste soumis au CLOUD Act, même avec ses serveurs en France.",
+  "exemple_en": "",
+  "regard_fr": "\"Cloud européen\" et \"cloud souverain\" ne sont pas synonymes. Microsoft Azure hébergé en France reste soumis au droit américain. La souveraineté se joue sur trois plans : juridique, opérationnel, technique.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "ANSSI · SecNumCloud",
+      "url": "https://cyber.gouv.fr/secnumcloud-pour-les-fournisseurs-de-services-cloud"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements B2B utilisent par défaut des infrastructures cloud souveraines",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

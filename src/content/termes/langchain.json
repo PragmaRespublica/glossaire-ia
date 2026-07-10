@@ -1,0 +1,41 @@
+{
+  "terme_fr": "LangChain",
+  "terme_en": "LangChain",
+  "sous_titre_fr": "Framework d'orchestration LLM",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Bibliothèque open source qui simplifie le développement d'applications IA en orchestrant LLM, vector stores, outils externes et logique métier. Permet de basculer facilement d'un fournisseur de LLM à un autre (OpenAI → Mistral → Anthropic) sans réécrire toute l'application.",
+  "definition_en": "",
+  "exemple_fr": "Une application de support client construite avec LangChain peut, par configuration : appeler GPT-4 pour les questions complexes, Mistral 7B pour le tri initial, un RAG souverain pour les politiques internes. Changer cette orchestration prend quelques heures, pas quelques mois.",
+  "exemple_en": "",
+  "regard_fr": "LangChain est l'un des outils clés du \"zéro lock-in\". En abstrayant l'appel au LLM, il préserve votre liberté de changer de fournisseur. Investir dans LangChain (ou des frameworks équivalents) dès le début protège votre optionnalité.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "LangChain",
+      "url": "https://www.langchain.com/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements B2B reposent sur LangChain ou équivalents pour préserver votre indépendance",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

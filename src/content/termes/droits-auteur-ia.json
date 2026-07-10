@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Droits d'auteur & IA",
+  "terme_en": "AI & copyright",
+  "sous_titre_fr": "Copyright, droits voisins",
+  "sous_titre_en": "",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Ensemble des questions juridiques liées à l'usage de contenus protégés pour entraîner des modèles d'IA, et au statut des œuvres générées par IA. La directive européenne 2019/790 introduit une exception de \"text and data mining\" pour la recherche, mais autorise l'opt-out pour les ayants droit.",
+  "definition_en": "",
+  "exemple_fr": "Le New York Times poursuit OpenAI pour avoir utilisé ses articles sans autorisation dans l'entraînement de GPT. Plusieurs procès similaires sont en cours mondialement. Pour les organisations qui veulent fine-tuner un modèle sur leurs propres données : aucun problème. Pour celles qui utilisent ChatGPT : la responsabilité juridique reste floue.",
+  "exemple_en": "",
+  "regard_fr": "Le droit d'auteur appliqué à l'IA est l'un des chantiers réglementaires les plus instables. Suivre les premières jurisprudences est crucial pour les secteurs créatifs et journalistiques. Pour limiter le risque : privilégier des modèles entraînés sur des sources légalement claires.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "ori-ia",
+    "rgpd"
+  ],
+  "sources": [
+    {
+      "titre": "Directive UE 2019/790",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/790/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Audit documentaire",
+  "terme_en": "Document audit",
+  "sous_titre_fr": "Cartographie des sources internes",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Démarche préalable au déploiement d'un système RAG : inventorier les sources documentaires internes d'une organisation (SharePoint, Drive, wikis, ERP, CRM), évaluer leur qualité, leur fraîcheur, leur sensibilité, et décider lesquelles intégrer dans la base de connaissance IA.",
+  "definition_en": "",
+  "exemple_fr": "Avant de connecter un RAG à votre SharePoint, l'audit révèle que 30% des documents sont obsolètes, 15% contiennent des données personnelles non anonymisées, et 5% sont en double. Sans cet audit, le RAG renvoie des réponses contradictoires et fuit des informations confidentielles.",
+  "exemple_en": "",
+  "regard_fr": "\"Garbage in, garbage out\" reste vrai à l'ère du RAG. Un système d'IA n'est jamais meilleur que les données qu'il indexe. L'audit documentaire coûte moins cher qu'un échec de déploiement.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CNIL · Guide IA et données",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/guide-ia"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos offres B2B proposent un audit documentaire et de gouvernance IA en amont du déploiement (750 € HT)",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

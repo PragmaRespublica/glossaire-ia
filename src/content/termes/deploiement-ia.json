@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Déploiement IA",
+  "terme_en": "AI deployment",
+  "sous_titre_fr": "Mise en production d'un système IA",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Mise en service opérationnelle d'un système d'IA dans une organisation, après la phase de prototype. Comprend l'infrastructure d'hébergement, l'intégration avec les outils existants, la formation des utilisateurs, la gouvernance, le monitoring continu, et le plan de mise à jour.",
+  "definition_en": "",
+  "exemple_fr": "Une PME a testé ChatGPT pendant 3 mois. Elle décide de passer à un déploiement structuré : Mistral hébergé en interne, accès via SSO, charte IA, formation de 80 collaborateurs, suivi de l'usage par direction métier. Durée : 8 semaines, coût TCO 3 ans inférieur à ChatGPT Enterprise.",
+  "exemple_en": "",
+  "regard_fr": "90% des projets IA n'atteignent jamais la production. La cause principale : un saut entre prototype et déploiement sans cadre méthodologique. Anticipez les questions d'infra, de gouvernance et d'adoption dès la phase de POC.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Gartner · GenAI POC Abandonment",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre offre \"IA souveraine clé en main\" accompagne tout le cycle de déploiement (à partir de 7 500 € HT)",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

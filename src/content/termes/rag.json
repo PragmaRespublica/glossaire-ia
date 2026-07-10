@@ -1,0 +1,66 @@
+{
+  "terme_fr": "RAG",
+  "terme_en": "RAG (Retrieval-Augmented Generation)",
+  "sous_titre_fr": "Retrieval-Augmented Generation",
+  "sous_titre_en": "Génération augmentée par récupération",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "rag-agents",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Architecture qui combine un moteur de recherche (retrieval) et un modèle génératif. Plutôt que de demander au LLM de répondre depuis sa mémoire, on lui fournit en contexte les documents pertinents extraits d'une base de connaissances. Permet de répondre sur des données privées et de citer ses sources.",
+  "definition_en": "An architecture that combines a search engine (retrieval) with a generative model. Rather than asking the LLM to answer from memory, it is given the relevant documents extracted from a knowledge base as context. This makes it possible to answer questions about private data and to cite sources.",
+  "exemple_fr": "Un cabinet de conseil indexe 15 ans de livrables clients dans un RAG souverain. Un nouveau consultant interroge \"Quelles sont nos méthodologies sur la transformation digitale dans le secteur bancaire ?\". Le RAG ressort les 5 livrables les plus pertinents, le LLM synthétise · avec citation des sources.",
+  "exemple_en": "A consulting firm indexes 15 years of client deliverables in a sovereign RAG. A new consultant asks \"What are our methodologies for digital transformation in the banking sector?\". The RAG surfaces the 5 most relevant deliverables and the LLM writes a synthesis · with sources cited.",
+  "regard_fr": "Le RAG est l'architecture de souveraineté par excellence : vos données restent chez vous, indexées dans votre vector store. Seul le prompt transite vers le LLM. Avec un modèle souverain en local, vous n'envoyez plus rien dehors.",
+  "regard_en": "RAG is the sovereignty architecture par excellence: your data stays with you, indexed in your own vector store. Only the prompt travels to the LLM. With a sovereign model running locally, nothing leaves your walls at all.",
+  "schema": {
+    "type": "mermaid",
+    "contenu": "flowchart LR\n  subgraph P[\"Préparation\"]\n    D[\"Documents internes\"] --> I[\"Indexation\"] --> V[(\"Base vectorielle\")]\n  end\n  subgraph U[\"Usage\"]\n    Q[\"Question\"] --> R[\"Recherche\"]\n    V --> R\n    R --> C[\"Contexte + question\"] --> L[\"LLM\"] --> S[\"Réponse sourcée\"]\n  end",
+    "alt_fr": "Schéma du fonctionnement d'un RAG : les documents internes sont indexés dans une base vectorielle · à chaque question, une recherche extrait les passages pertinents, qui sont fournis avec la question au LLM, lequel produit une réponse sourcée.",
+    "alt_en": "Diagram of how RAG works: internal documents are indexed into a vector store · for each question, a search retrieves the relevant passages, which are provided along with the question to the LLM, which produces a sourced answer."
+  },
+  "video": {
+    "titre": "What is Retrieval-Augmented Generation (RAG)?",
+    "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M",
+    "source": "IBM Technology",
+    "langue": "en"
+  },
+  "articles": [
+    {
+      "titre": "La génération augmentée de récupération, qu'est-ce que c'est ?",
+      "url": "https://www.redhat.com/fr/topics/ai/what-is-retrieval-augmented-generation",
+      "source": "Red Hat",
+      "langue": "fr"
+    },
+    {
+      "titre": "What Is Retrieval-Augmented Generation aka RAG",
+      "url": "https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/",
+      "source": "NVIDIA Blog",
+      "langue": "en"
+    }
+  ],
+  "termes_lies": [
+    "embedding",
+    "vector-store",
+    "llm",
+    "openrag",
+    "fine-tuning"
+  ],
+  "sources": [
+    {
+      "titre": "Lewis et al. · Original RAG Paper",
+      "url": "https://arxiv.org/abs/2005.11401"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS apprend à construire un RAG en webinaire tutoré. Nos offres B2B le déploient clé en main.",
+    "texte_en": "FIARS teaches you how to build a RAG in a tutored webinar. Our B2B offers deploy it turnkey.",
+    "label_fr": "Voir la formation →",
+    "label_en": "See the training →",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

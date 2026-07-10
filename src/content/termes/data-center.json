@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Data center",
+  "terme_en": "Data center",
+  "sous_titre_fr": "Centre de données",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Infrastructure physique hébergeant les serveurs qui exécutent les calculs d'entraînement et d'inférence de l'IA. Un grand data center moderne peut consommer plusieurs centaines de mégawatts. Sa performance environnementale se mesure notamment par le PUE (Power Usage Effectiveness).",
+  "definition_en": "",
+  "exemple_fr": "Le data center de Microsoft à Marseille consomme environ 60 MW. Pour comparaison, c'est l'équivalent de la consommation électrique d'une ville comme Aubervilliers. L'IA générative pousse ces consommations vers des niveaux inédits.",
+  "exemple_en": "",
+  "regard_fr": "L'AIE prévoit un doublement de la consommation mondiale d'électricité des data centers d'ici 2030, principalement à cause de l'IA. La question de leur localisation et de leur mix énergétique devient centrale.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "IEA · Electricity 2024",
+      "url": "https://www.iea.org/reports/electricity-2024"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS traite des impacts environnementaux de l'IA dans la Leçon 1",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Outils propriétaires",
+  "terme_en": "Proprietary tools",
+  "sous_titre_fr": "Closed source, modèles propriétaires",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Logiciels ou modèles d'IA dont le code et/ou les poids ne sont pas publiquement accessibles, et dont l'usage est conditionné à une licence commerciale. GPT-4, Claude, Gemini, Mistral Large sont propriétaires. Avantage : performance souvent supérieure. Inconvénient : dépendance complète au fournisseur.",
+  "definition_en": "",
+  "exemple_fr": "Une organisation utilise GPT-4 via API. OpenAI peut, à tout moment : augmenter ses prix (déjà fait plusieurs fois), modifier le comportement du modèle (déjà fait), retirer une version (déjà fait), ou résilier le contrat. L'organisation n'a aucun recours technique · c'est le prix du propriétaire.",
+  "exemple_en": "",
+  "regard_fr": "Outils propriétaires ne sont pas mauvais en soi. Mais ils créent une asymétrie de pouvoir : le fournisseur décide, vous subissez. Une stratégie hybride (propriétaire pour les tâches critiques, open source pour la résilience) protège votre optionnalité.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CIGREF · Stratégies multi-cloud",
+      "url": "https://www.cigref.fr/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Distinguer ce que les outils propriétaires et souverains peuvent vous apporter est une promesse de FIARS",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

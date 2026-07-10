@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Biais algorithmique",
+  "terme_en": "Algorithmic bias",
+  "sous_titre_fr": "Bias, biais des modèles",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Distorsion systématique dans les résultats d'un système d'IA, qui peut désavantager certaines populations ou produire des sorties non représentatives. Les biais peuvent provenir des données d'entraînement, du choix des variables, ou de la manière dont le modèle est optimisé.",
+  "definition_en": "",
+  "exemple_fr": "Demandez à un générateur d'images \"un PDG en réunion\" : la grande majorité des images générées montrent des hommes blancs en costume. Ce biais reflète la sur-représentation de cette image dans les données d'entraînement scrapées du web · et risque d'amplifier des stéréotypes.",
+  "exemple_en": "",
+  "regard_fr": "L'expression \"biais algorithmique\" euphémise un problème humain : ce sont les données et les choix de conception qui portent le biais. Le dataset CrowS-Pairs en français permet de mesurer ces biais sur les LLM.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "NIST · AI Bias Report",
+      "url": "https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights"
+    }
+  ],
+  "cta": {
+    "texte_fr": "La détection et correction des biais est l'une des compétences activables de la Leçon 2 de FIARS",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Agent IA",
+  "terme_en": "AI agent",
+  "sous_titre_fr": "IA agentique",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Un agent IA est un système qui utilise un modèle de langage pour planifier et exécuter des actions de manière autonome, en s'appuyant sur des outils externes (recherche web, API, code, bases de données). Contrairement à un simple assistant, un agent peut décomposer un objectif, agir, observer le résultat et itérer.",
+  "definition_en": "",
+  "exemple_fr": "Un agent de veille réglementaire reçoit l'instruction \"synthétise les nouveautés CSRD de la semaine\". Il consulte EUR-Lex, télécharge les documents pertinents, en extrait les points clés via un LLM, vérifie les sources, puis produit une note structurée · le tout sans intervention humaine intermédiaire.",
+  "exemple_en": "",
+  "regard_fr": "L'agentique multiplie les appels au modèle · donc les coûts énergétiques et financiers · par 5 à 50 pour une même tâche. Instrumenter ces systèmes est indispensable pour éviter la dérive incontrôlée des coûts et des impacts.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Anthropic · Building Effective Agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents"
+    }
+  ],
+  "cta": {
+    "texte_fr": "La Leçon 3 de FIARS est intégralement consacrée à l'IA agentique : conception, déploiement, gouvernance",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

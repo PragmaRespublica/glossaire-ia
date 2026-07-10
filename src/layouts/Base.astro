@@ -1,0 +1,58 @@
+---
+import '../styles/global.css';
+import { t, type Lang } from '../i18n/ui';
+import LangSwitch from '../components/LangSwitch.astro';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  /** Chemin de la même page dans l'autre langue (pour hreflang + sélecteur). */
+  altPath: string;
+}
+
+const { lang, title, description, altPath } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const altLang: Lang = lang === 'fr' ? 'en' : 'fr';
+---
+
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
+    <link rel="alternate" hreflang={altLang} href={`${base}${altPath}`} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <a href="#contenu" class="skip-link">{t(lang, 'a11y.skip')}</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href={`${base}/${lang}/`} class="logo">Pragma<span>Forma</span></a>
+        <nav class="header-nav" aria-label="Navigation">
+          <a href="https://pragmaforma.com/" class="nav-back">{t(lang, 'nav.back')}</a>
+          <LangSwitch lang={lang} altPath={altPath} />
+        </nav>
+      </div>
+    </header>
+    <main id="contenu">
+      <slot />
+    </main>
+    <footer>
+      <div class="container footer-inner">
+        <div>{t(lang, 'footer.copyright')}</div>
+        <div class="footer-links">
+          <a href="https://pragmaforma.com/">pragmaforma.com</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

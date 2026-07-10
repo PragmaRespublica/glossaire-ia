@@ -1,0 +1,41 @@
+{
+  "terme_fr": "ACV · Analyse du Cycle de Vie",
+  "terme_en": "Life Cycle Assessment (LCA)",
+  "sous_titre_fr": "Life Cycle Assessment (LCA)",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "impact-environnemental",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Méthode normée (ISO 14040 et 14044) qui évalue les impacts environnementaux d'un produit ou service tout au long de son cycle de vie · de l'extraction des matières premières à la fin de vie. Appliquée à l'IA, elle couvre la fabrication du matériel, l'entraînement du modèle, son inférence et son recyclage.",
+  "definition_en": "",
+  "exemple_fr": "L'entraînement de GPT-3 a émis environ 552 tonnes de CO₂eq, soit l'équivalent de 120 voitures pendant un an. Mais sur le cycle de vie complet, l'inférence (utilisation quotidienne) dépasse rapidement l'entraînement · 80 à 90% de l'impact total pour un modèle largement utilisé.",
+  "exemple_en": "",
+  "regard_fr": "Communiquer la consommation d'un modèle uniquement à l'inférence est trompeur. Une ACV honnête intègre l'entraînement, l'infrastructure (GPU, refroidissement), et la fabrication du matériel.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "ISO 14040:2006",
+      "url": "https://www.iso.org/standard/37456.html"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Mesurer l'empreinte environnementale d'un outil IA est l'une des compétences activables de FIARS",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

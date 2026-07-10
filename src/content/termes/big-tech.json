@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Big Tech",
+  "terme_en": "Big Tech",
+  "sous_titre_fr": "GAFAM, hyperscalers",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Désigne les très grandes entreprises technologiques américaines (Google, Apple, Meta, Amazon, Microsoft) qui dominent les marchés du cloud et de l'IA. Trois d'entre elles (AWS, Azure, Google Cloud) concentrent environ 65% du marché mondial du cloud, créant une situation de dépendance critique pour les organisations européennes.",
+  "definition_en": "",
+  "exemple_fr": "Microsoft Azure héberge OpenAI. Quand vous utilisez ChatGPT Enterprise, vos données passent par l'infrastructure Microsoft soumise au CLOUD Act américain. Migrer vers un LLM hébergé sur OVHcloud ou Scaleway change radicalement le profil juridique de votre déploiement.",
+  "exemple_en": "",
+  "regard_fr": "\"Indépendance vis-à-vis des Big Tech\" n'est pas un slogan. C'est une capacité opérationnelle à choisir, comparer et changer de fournisseur. Tant que vous ne l'avez pas, vous n'êtes pas en position de négocier.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Synergy Research · Cloud Market Share",
+      "url": "https://www.synergyresearchgroup.com/research/cloud-market-share"
+    }
+  ],
+  "cta": {
+    "texte_fr": "L'indépendance vis-à-vis des Big Tech est l'un des piliers structurants de la formation FIARS",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

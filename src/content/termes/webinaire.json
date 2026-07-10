@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Webinaire",
+  "terme_en": "Webinar",
+  "sous_titre_fr": "Séminaire en ligne",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "ressources",
+    "fiars"
+  ],
+  "definition_fr": "Conférence ou session pédagogique en direct sur internet, généralement avec une partie présentation et un temps de questions-réponses. Format efficace pour transmettre des concepts à un grand nombre de personnes, créer un moment d'échange, et qualifier des leads dans une démarche de formation continue.",
+  "definition_en": "",
+  "exemple_fr": "Le webinaire \"Comment prompter de manière responsable et souveraine\" du 21 mai 2026, animé par Pierre Montel, réunit en 30 minutes : 10 min sur les enjeux RSE, 10 min de démonstration technique, 10 min d'analyse économique. Un format dense, qui donne envie d'aller plus loin.",
+  "exemple_en": "",
+  "regard_fr": "Un bon webinaire ne vend pas · il fait découvrir. Notre série de webinaires gratuits illustre cette conviction : on transmet d'abord, on convertit ensuite.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "PragmaForma · Webinaires",
+      "url": "https://pragmaforma.com/ressources/webinaires"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Découvrez notre série de 6 webinaires gratuits (mai-juin 2026)",
+    "texte_en": "",
+    "label_fr": "Voir les webinaires →",
+    "label_en": "",
+    "url": "/ressources/webinaires"
+  },
+  "statut": "a_relire"
+}

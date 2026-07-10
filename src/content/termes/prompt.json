@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Prompt",
+  "terme_en": "Prompt",
+  "sous_titre_fr": "Instruction, requête",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Texte d'instruction fourni à un modèle de langage pour orienter sa réponse. Un bon prompt précise le rôle, la tâche, le format attendu, le contexte, les contraintes. L'art du prompting (prompt engineering) consiste à maximiser la qualité des sorties pour un coût minimal.",
+  "definition_en": "",
+  "exemple_fr": "\"Rédige un email\" : prompt faible. \"Tu es un commercial B2B. Rédige un email de relance à un prospect rencontré il y a 2 semaines lors du salon X, qui a montré de l'intérêt pour notre offre cloud. Ton professionnel, 80 mots maximum, CTA clair pour un appel de 15 min\" : prompt efficace.",
+  "exemple_en": "",
+  "regard_fr": "Un prompt court et précis vaut mieux qu'un prompt long et bavard. Chaque token compte · en coût comme en énergie. Apprendre à prompter sobrement, c'est aussi un acte de responsabilité numérique.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Prompt Engineering Guide",
+      "url": "https://www.promptingguide.ai/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS et nos formations Copilot B2B couvrent le prompting professionnel",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

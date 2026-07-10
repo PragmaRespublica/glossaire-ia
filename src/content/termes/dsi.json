@@ -1,0 +1,41 @@
+{
+  "terme_fr": "DSI",
+  "terme_en": "CIO / IT department",
+  "sous_titre_fr": "Direction des Systèmes d'Information",
+  "sous_titre_en": "",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Direction d'une organisation responsable de la stratégie, de la gouvernance et de l'exploitation des systèmes informatiques. En matière d'IA, la DSI arbitre les choix d'infrastructure, les contrats fournisseurs, les politiques de sécurité, et joue un rôle clé dans l'application de l'AI Act et du RGPD.",
+  "definition_en": "",
+  "exemple_fr": "Avant le déploiement d'un RAG souverain, la DSI évalue : faisabilité technique (GPU, stockage), sécurité (intégration SSO, gestion des droits), continuité (sauvegarde, plan de reprise), TCO (coût total sur 3 ans). Sans son go, aucun projet IA durable n'est possible.",
+  "exemple_en": "",
+  "regard_fr": "La meilleure stratégie IA est celle co-construite avec la DSI dès le premier jour. Une initiative métier qui contourne la DSI échoue souvent au moment du passage à l'échelle.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CIGREF · Réseau des DSI",
+      "url": "https://www.cigref.fr/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre option d'hébergement délégué est conçue pour les organisations sans DSI interne",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

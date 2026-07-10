@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Transformer",
+  "terme_en": "Transformer",
+  "sous_titre_fr": "Architecture transformer",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Architecture de réseau de neurones introduite par Google en 2017 (\"Attention is All You Need\"), qui est à la base de tous les LLM modernes. Son innovation clé est le mécanisme d'attention, qui permet au modèle de pondérer dynamiquement l'importance des différents éléments du contexte.",
+  "definition_en": "",
+  "exemple_fr": "Dans la phrase \"L'avocat de la défense plaide pour son client\", le transformer apprend à associer \"avocat\" à \"défense\" et \"client\" plutôt qu'au fruit. Cette capacité de désambiguïsation par le contexte est ce qui rend les LLM si puissants.",
+  "exemple_en": "",
+  "regard_fr": "Toute la révolution de l'IA générative repose sur cette architecture publiée en 2017. Comprendre ses principes (sans les maths) aide à anticiper ses limites : coût quadratique avec la longueur du contexte.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "fenetre-contextuelle",
+    "llm",
+    "token"
+  ],
+  "sources": [
+    {
+      "titre": "Vaswani et al. · Attention is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

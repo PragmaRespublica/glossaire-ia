@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Modèles symboliques",
+  "terme_en": "Symbolic AI",
+  "sous_titre_fr": "Symbolic AI, IA symbolique",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Famille historique de l'IA qui repose sur la manipulation explicite de règles, de connaissances structurées (ontologies, graphes de connaissances) et de raisonnements logiques. Par opposition aux approches statistiques. Très utile dans des domaines où la traçabilité est requise.",
+  "definition_en": "",
+  "exemple_fr": "Le système expert d'une compagnie d'assurance santé applique 2 000 règles métier pour déterminer si un acte est remboursable. Chaque décision est traçable, auditable, et modifiable sans réentraînement. Un LLM ne pourrait pas garantir ce niveau de transparence.",
+  "exemple_en": "",
+  "regard_fr": "L'avenir de l'IA pourrait être hybride : combiner la puissance générative des LLM et la rigueur traçable de l'IA symbolique. Jocelyn Poncelet, notre CTO, est expert de cette approche neuro-symbolique.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Stanford · Logic and AI",
+      "url": "https://plato.stanford.edu/entries/logic-ai/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Jocelyn Poncelet, CTO PragmaForma, maîtrise modèles symboliques et génératifs · visible dans FIARS",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

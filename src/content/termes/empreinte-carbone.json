@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Empreinte carbone de l'IA",
+  "terme_en": "Carbon footprint",
+  "sous_titre_fr": "Carbon footprint, impact carbone",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "impact-environnemental",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Quantité de gaz à effet de serre émise pour entraîner et utiliser un modèle d'IA, exprimée en équivalents CO₂. Elle dépend du modèle, de l'infrastructure, du mix énergétique du pays d'hébergement et de l'efficacité du data center.",
+  "definition_en": "",
+  "exemple_fr": "Une requête à GPT-4 émet environ 4 g CO₂eq aux États-Unis (mix électrique fortement carboné). La même requête traitée par Mistral hébergé en France émet environ 0,5 g CO₂eq · soit 8 fois moins, grâce au mix électrique français largement nucléaire et renouvelable.",
+  "exemple_en": "",
+  "regard_fr": "Une requête à un LLM en France émet 5 à 10 fois moins de CO₂ que la même requête aux États-Unis. C'est un argument souvent oublié de la souveraineté.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "GenAI Impact",
+      "url": "https://genai-impact.org/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Mesurer et réduire l'empreinte carbone de vos outils IA fait partie des compétences activables de FIARS",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

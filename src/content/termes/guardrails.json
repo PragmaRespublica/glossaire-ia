@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Guardrails",
+  "terme_en": "Guardrails",
+  "sous_titre_fr": "Garde-fous, filtres de sécurité",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "securite",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Mécanismes ajoutés en amont ou en aval d'un LLM pour bloquer certains contenus ou comportements indésirables : sujets interdits, langage inapproprié, fuites de données, prompts malveillants. Peuvent être implémentés par filtre, par règle, ou par un autre modèle d'IA spécialisé.",
+  "definition_en": "",
+  "exemple_fr": "Un chatbot service client refuse automatiquement de répondre aux questions sur la concurrence (filtre sortie), bloque les tentatives de prompt injection (filtre entrée), et anonymise les numéros de carte bancaire que des utilisateurs auraient saisis par mégarde (PII filtering). Trois guardrails, trois enjeux.",
+  "exemple_en": "",
+  "regard_fr": "Les guardrails ne sont jamais parfaits · ils peuvent toujours être contournés par un attaquant déterminé. Leur rôle est de réduire la probabilité d'incidents accidentels, pas d'éliminer le risque. La défense en profondeur reste indispensable.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Guardrails AI",
+      "url": "https://github.com/guardrails-ai/guardrails"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements B2B intègrent des guardrails adaptés à votre contexte métier",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

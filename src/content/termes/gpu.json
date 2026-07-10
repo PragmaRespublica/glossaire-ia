@@ -1,0 +1,41 @@
+{
+  "terme_fr": "GPU",
+  "terme_en": "GPU",
+  "sous_titre_fr": "Graphics Processing Unit",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Processeur graphique initialement conçu pour le rendu 3D, mais devenu indispensable pour l'IA grâce à sa capacité à exécuter des milliers de calculs en parallèle. NVIDIA domine largement ce marché avec ses cartes H100 et H200, qui coûtent entre 25 000 et 40 000 dollars pièce.",
+  "definition_en": "",
+  "exemple_fr": "Pour faire tourner Mistral 7B en interne, un seul GPU NVIDIA A100 (40 Go) suffit. Pour héberger Llama 70B, il faut un cluster de 4 GPU A100. L'entraînement complet de GPT-4 aurait mobilisé environ 25 000 GPU H100 pendant plusieurs mois.",
+  "exemple_en": "",
+  "regard_fr": "La domination de NVIDIA sur les GPU IA est un point de fragilité géopolitique majeur pour l'Europe. Les alternatives (AMD MI300, Cerebras, Graphcore) progressent mais restent loin du leader.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "NVIDIA · H100",
+      "url": "https://www.nvidia.com/en-us/data-center/h100/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS expose les enjeux d'infrastructure GPU et les options souveraines de déploiement",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

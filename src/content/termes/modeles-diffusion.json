@@ -1,0 +1,39 @@
+{
+  "terme_fr": "Modèles de diffusion",
+  "terme_en": "Diffusion models",
+  "sous_titre_fr": "Diffusion models",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Famille de modèles génératifs qui produisent des images (ou vidéos, audio) en partant d'un bruit aléatoire et en le \"débruitant\" progressivement selon un prompt. Stable Diffusion, DALL-E, Midjourney, FLUX reposent sur cette approche. Très énergivores à l'entraînement et à l'inférence.",
+  "definition_en": "",
+  "exemple_fr": "Générer une image haute résolution avec Midjourney consomme environ 10 fois plus d'énergie qu'une requête textuelle GPT-4. Multipliez par 10 itérations pour obtenir le visuel souhaité, et par 100 utilisateurs : l'impact d'un usage massif d'IA générative d'image n'est pas anecdotique.",
+  "exemple_en": "",
+  "regard_fr": "Les modèles de diffusion soulèvent aussi des questions de droits d'auteur (entraînement sur des œuvres protégées sans consentement). À surveiller : les évolutions réglementaires et les premières jurisprudences.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "empreinte-carbone",
+    "ia-generative"
+  ],
+  "sources": [
+    {
+      "titre": "Ho et al. · Diffusion Models",
+      "url": "https://arxiv.org/abs/2006.11239"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

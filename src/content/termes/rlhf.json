@@ -1,0 +1,39 @@
+{
+  "terme_fr": "RLHF",
+  "terme_en": "RLHF",
+  "sous_titre_fr": "Reinforcement Learning from Human Feedback",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "entrainement-apprentissage",
+  "pages_liees": [
+    "ressources"
+  ],
+  "definition_fr": "Technique d'entraînement post-pré-entraînement, qui aligne le comportement d'un LLM sur les préférences humaines. Des annotateurs comparent plusieurs sorties du modèle pour la même question, et leurs préférences servent à entraîner un modèle de récompense qui guide ensuite l'apprentissage par renforcement.",
+  "definition_en": "",
+  "exemple_fr": "ChatGPT (à partir de GPT-3.5) est devenu utilisable grâce au RLHF. Avant RLHF, GPT-3 donnait des réponses techniquement correctes mais souvent inappropriées (verbeuses, hors-sujet, parfois choquantes). Après RLHF, le modèle est aligné sur ce que les humains préfèrent vraiment lire.",
+  "exemple_en": "",
+  "regard_fr": "Le RLHF est aussi un vecteur de biais : les modèles reflètent les préférences des annotateurs (majoritairement américains et anglophones). Un LLM entraîné par RLHF aux États-Unis aura des angles morts culturels pour un usage français.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "entrainement",
+    "fine-tuning",
+    "llm"
+  ],
+  "sources": [
+    {
+      "titre": "Ouyang et al. · InstructGPT/RLHF",
+      "url": "https://arxiv.org/abs/2203.02155"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Lock-in",
+  "terme_en": "Vendor lock-in",
+  "sous_titre_fr": "Dépendance fournisseur, vendor lock-in",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Situation dans laquelle une organisation devient dépendante d'un fournisseur au point que changer devient économiquement ou techniquement prohibitif. Dans l'IA, le lock-in se joue sur les API propriétaires, les formats de prompt spécifiques, les données stockées dans le cloud du fournisseur.",
+  "definition_en": "",
+  "exemple_fr": "Une organisation a développé 50 prompts spécifiquement optimisés pour GPT-4, intégrés dans 30 workflows internes. Passer à Mistral nécessite de tout réécrire et retester · soit 6 mois-homme de travail. Sans architecture découplée (LiteLLM, LangChain), le lock-in est irréversible.",
+  "exemple_en": "",
+  "regard_fr": "Mesurez votre \"switching time\" : combien de jours-homme pour passer d'OpenAI à Mistral ? Si la réponse est supérieure à 5 jours, vous êtes en situation de lock-in. Un design \"zéro lock-in\" passe par des abstractions et un format de prompt portable.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CIGREF · Cloud de confiance",
+      "url": "https://www.cigref.fr/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements B2B sont architecturés \"zéro lock-in\" par défaut",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

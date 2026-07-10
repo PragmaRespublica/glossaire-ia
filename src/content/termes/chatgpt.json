@@ -1,0 +1,41 @@
+{
+  "terme_fr": "ChatGPT",
+  "terme_en": "ChatGPT",
+  "sous_titre_fr": "Conversational Pre-trained Transformer (OpenAI)",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Application conversationnelle développée par OpenAI, lancée fin 2022, qui a popularisé les LLM auprès du grand public. Repose sur les modèles GPT et utilise l'apprentissage par renforcement avec retour humain (RLHF) pour produire des réponses utiles, sûres et alignées.",
+  "definition_en": "",
+  "exemple_fr": "Un commercial utilise ChatGPT (version gratuite) pour rédiger un email à un prospect. Sans précaution, le texte du prospect (incluant son nom, son entreprise, sa demande) est transmis à OpenAI aux États-Unis et peut être utilisé pour entraîner les futurs modèles. La version Enterprise et l'API rectifient ce comportement.",
+  "exemple_en": "",
+  "regard_fr": "ChatGPT grand public n'est pas une solution d'entreprise. Pour un usage professionnel, exigez ChatGPT Business ou Enterprise · ou mieux, choisissez une alternative souveraine comme Le Chat (Mistral).",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "OpenAI · ChatGPT",
+      "url": "https://openai.com/chatgpt"
+    }
+  ],
+  "cta": {
+    "texte_fr": "La formation FIARS couvre la maîtrise de ChatGPT et de ses alternatives souveraines",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

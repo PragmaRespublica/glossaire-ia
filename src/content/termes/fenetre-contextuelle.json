@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Fenêtre contextuelle",
+  "terme_en": "Context window",
+  "sous_titre_fr": "Context window",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Volume maximal de texte qu'un modèle de langage peut traiter en une seule fois, mesuré en tokens. Les modèles récents proposent des fenêtres allant de 8 000 à 2 millions de tokens. Plus la fenêtre est large, plus le modèle peut intégrer de contexte · mais plus le coût et la consommation énergétique augmentent.",
+  "definition_en": "",
+  "exemple_fr": "Un contrat de 50 pages représente environ 30 000 tokens. Un modèle avec une fenêtre de 8 000 tokens (comme GPT-3.5 historique) ne peut pas traiter ce contrat en une fois. Claude 3.5 (200 000 tokens) ou Gemini 1.5 (2 millions) le peuvent · au prix d'un coût plus élevé.",
+  "exemple_en": "",
+  "regard_fr": "Une fenêtre de 1M de tokens n'est pas forcément utile : la \"perte au milieu\" (lost in the middle) fait que les modèles ignorent souvent les informations situées au centre des longs contextes. Un RAG bien chunké reste supérieur à un prompt géant.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Liu et al. · Lost in the Middle",
+      "url": "https://arxiv.org/abs/2307.03172"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS apprend à arbitrer entre fenêtre étendue et RAG selon le cas d'usage",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

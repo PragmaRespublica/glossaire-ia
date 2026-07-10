@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Chatbot",
+  "terme_en": "Chatbot",
+  "sous_titre_fr": "Agent conversationnel",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Interface conversationnelle permettant d'interagir avec un système informatique par le langage naturel. Les chatbots modernes (ChatGPT, Claude, Gemini, Le Chat) reposent sur des modèles de langage de grande taille, et se distinguent des chatbots à règles utilisés depuis les années 1960.",
+  "definition_en": "",
+  "exemple_fr": "Un chatbot SAV à base de règles ne sait répondre qu'aux questions exactes anticipées par ses concepteurs. Un chatbot LLM peut reformuler, comprendre l'intention, gérer les ambiguïtés · mais peut aussi halluciner. Le choix dépend du niveau de criticité du domaine.",
+  "exemple_en": "",
+  "regard_fr": "Un chatbot grand public n'est pas une solution d'entreprise. Vos prompts peuvent entraîner les modèles, vos données peuvent transiter hors UE. Pour un usage professionnel, exigez les versions Business/Enterprise · ou choisissez une alternative souveraine.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CNIL · Chatbot",
+      "url": "https://www.cnil.fr/fr/definition/chatbot"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS forme à la maîtrise des chatbots professionnels et souverains",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

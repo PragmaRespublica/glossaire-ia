@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import TermCard from '../../components/TermCard.astro';
+import { t, LANGS, type Lang } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+const termes = await getCollection('termes');
+
+const sorted = termes.sort((a, b) => {
+  const ta = (lang === 'fr' ? a.data.terme_fr : a.data.terme_en).toLowerCase();
+  const tb = (lang === 'fr' ? b.data.terme_fr : b.data.terme_en).toLowerCase();
+  return ta.localeCompare(tb, lang);
+});
+
+function initial(entry: (typeof sorted)[number]): string {
+  const nom = lang === 'fr' ? entry.data.terme_fr : entry.data.terme_en;
+  return nom
+    .charAt(0)
+    .toUpperCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '');
+}
+---
+
+<Base
+  lang={lang}
+  title={t(lang, 'site.title')}
+  description={t(lang, 'hero.lede').slice(0, 155)}
+  altPath={`/${lang === 'fr' ? 'en' : 'fr'}/`}
+>
+  <section class="hero">
+    <div class="container">
+      <span class="hero-eyebrow">{t(lang, 'hero.eyebrow')} · {sorted.length} {lang === 'fr' ? 'définitions' : 'definitions'}</span>
+      <h1>{t(lang, 'hero.title.before')}<em>{t(lang, 'hero.title.em')}</em></h1>
+      <p class="hero-lede">{t(lang, 'hero.lede')}</p>
+    </div>
+  </section>
+
+  <section class="glossary">
+    <div class="container">
+      <div class="glossary-count">
+        <strong>{sorted.length}</strong>{' '}{t(lang, 'count.terms')}
+      </div>
+      <div class="term-list">
+        {
+          sorted.map((entry, i) => (
+            <>
+              {(i === 0 || initial(entry) !== initial(sorted[i - 1])) && (
+                <div class="letter-divider" aria-hidden="true">
+                  {initial(entry)}
+                </div>
+              )}
+              <TermCard entry={entry} lang={lang} />
+            </>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

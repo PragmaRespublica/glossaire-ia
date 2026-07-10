@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Test & validation IA",
+  "terme_en": "AI testing & validation",
+  "sous_titre_fr": "QA d'un système IA",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "evaluation-qualite",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Ensemble de pratiques pour vérifier qu'un système d'IA fonctionne comme attendu avant et pendant son usage : tests unitaires sur les composants techniques, tests d'intégration sur les flux, tests d'acceptation utilisateur, tests de non-régression à chaque évolution.",
+  "definition_en": "",
+  "exemple_fr": "Avant la mise en production d'un agent IA RH, l'équipe constitue 200 scénarios tests (questions piégeuses, cas limites, prompts hostiles). Chacun est rejoué automatiquement à chaque mise à jour. Une régression de comportement déclenche une alerte avant que des utilisateurs ne la rencontrent.",
+  "exemple_en": "",
+  "regard_fr": "Les pratiques de QA logicielle sont sous-appliquées à l'IA · par méconnaissance, et parce que les sorties non déterministes compliquent la chose. C'est pourtant indispensable pour des systèmes IA en production : tester systématiquement protège votre marque et vos utilisateurs.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "OWASP · LLM Top 10",
+      "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements B2B incluent un cadre de test adapté à votre criticité métier",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Power BI",
+  "terme_en": "Power BI",
+  "sous_titre_fr": "Plateforme de Business Intelligence Microsoft",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Outil de visualisation et d'analyse de données développé par Microsoft. Permet de connecter des sources hétérogènes (Excel, bases SQL, ERP), de modéliser les relations, et de créer des tableaux de bord interactifs. Largement adopté en entreprise grâce à sa proximité avec l'écosystème Microsoft 365.",
+  "definition_en": "",
+  "exemple_fr": "Une direction commerciale connecte Power BI à son CRM et son ERP. En quelques jours, elle dispose d'un tableau de bord croisant pipeline, facturation, satisfaction client. Décisions plus rapides, conflits de chiffres entre directions résolus, gain de temps en COMEX : ~3h par mois.",
+  "exemple_en": "",
+  "regard_fr": "Power BI est puissant, mais ses subtilités (modélisation, DAX, performance) sont sources d'erreurs récurrentes. Une formation structurée évite des mois d'autodidaxie inefficace · et des tableaux de bord faux.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Microsoft Power BI",
+      "url": "https://powerbi.microsoft.com/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre formation B2B \"Power BI · De la donnée à la décision\" (4 jours) rend vos équipes opérationnelles",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

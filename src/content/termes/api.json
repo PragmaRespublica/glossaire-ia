@@ -1,0 +1,41 @@
+{
+  "terme_fr": "API",
+  "terme_en": "API",
+  "sous_titre_fr": "Application Programming Interface",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Interface technique qui permet à deux logiciels de communiquer entre eux. Dans le monde de l'IA générative, les API d'OpenAI, Anthropic, Mistral ou Cohere permettent à un développeur d'envoyer des prompts à un modèle et de récupérer ses réponses · sans utiliser l'interface chat.",
+  "definition_en": "",
+  "exemple_fr": "Quand un agent IA développé par PragmaForma analyse les documents internes d'un client, il appelle l'API d'un LLM souverain (par exemple Mistral Large) plutôt que ChatGPT, garantissant que les données ne transitent pas par des serveurs américains.",
+  "exemple_en": "",
+  "regard_fr": "Le choix de l'API est un choix de souveraineté. Connecter votre application à l'API OpenAI, c'est accepter que vos prompts (et donc une partie de votre savoir) transitent par les États-Unis.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CNIL · Définition API",
+      "url": "https://www.cnil.fr/fr/definition/interface-de-programmation-applicative-api"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos offres B2B incluent le déploiement de LLM via API souveraine, hébergé chez vous ou sur infrastructure européenne",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

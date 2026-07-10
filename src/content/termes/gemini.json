@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Gemini",
+  "terme_en": "Gemini",
+  "sous_titre_fr": "Assistant IA de Google",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Famille de modèles de langage multimodaux développés par Google DeepMind, lancée fin 2023. Gemini est intégré aux outils Google (Workspace, Search, Android) et propose une fenêtre contextuelle exceptionnellement large (jusqu'à 2 millions de tokens sur Gemini 1.5 Pro).",
+  "definition_en": "",
+  "exemple_fr": "Un analyste financier soumet à Gemini un rapport annuel de 500 pages (200 000 tokens). Gemini extrait, en un seul prompt, les KPI clés, les zones de risque mentionnées, et les écarts avec l'année précédente. Pas besoin de RAG pour ce cas précis.",
+  "exemple_en": "",
+  "regard_fr": "Gemini est techniquement bluffant mais son intégration profonde dans Google Workspace pose des questions de gouvernance des données · vérifiez toujours les conditions d'usage et les options d'opt-out avant déploiement entreprise.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Google DeepMind · Gemini",
+      "url": "https://deepmind.google/technologies/gemini/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS forme à la maîtrise comparative de Gemini, Claude, ChatGPT et Mistral",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

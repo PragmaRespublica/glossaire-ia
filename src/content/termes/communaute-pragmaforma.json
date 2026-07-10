@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Communauté",
+  "terme_en": "PragmaForma community",
+  "sous_titre_fr": "Réseau professionnel d'apprenants",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Réseau de pairs (anciens et présents apprenants, formateurs, experts invités) qui échangent autour d'un domaine de compétence. La communauté est un espace de mise à jour continue, de partage de cas concrets, d'entraide opérationnelle · bien au-delà de la durée formelle de la formation.",
+  "definition_en": "",
+  "exemple_fr": "Six mois après FIARS, un participant rencontre un cas inédit : déployer un RAG sur des données médicales. Il poste la question dans la communauté PragmaForma. Trois pairs partagent leur retour d'expérience similaire, un formateur ajoute une référence à un cas client. Réponse complète en moins de 24h.",
+  "exemple_en": "",
+  "regard_fr": "La communauté est ce qui fait qu'une formation continue à produire de la valeur après son achèvement. Sans communauté, vos acquis se dégradent. Avec elle, vous restez à jour sans effort supplémentaire.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "CIGREF · Communautés de pratique",
+      "url": "https://www.cigref.fr/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS inclut l'accès à vie à la communauté PragmaForma · pairs, formateurs, experts invités",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

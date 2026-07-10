@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Copilot (Microsoft)",
+  "terme_en": "Copilot",
+  "sous_titre_fr": "Microsoft 365 Copilot",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Assistant IA intégré à la suite Microsoft 365 (Word, Excel, Outlook, Teams, PowerPoint). Repose sur les modèles d'OpenAI. Permet de générer des contenus, automatiser des tâches, résumer des réunions · directement dans les outils du quotidien.",
+  "definition_en": "",
+  "exemple_fr": "Lors d'une réunion Teams, Copilot transcrit, identifie les locuteurs, extrait les décisions et les actions à faire, puis génère un compte-rendu envoyé automatiquement aux participants. Gain de temps : 30 à 45 minutes par réunion.",
+  "exemple_en": "",
+  "regard_fr": "Copilot est puissant · mais c'est une porte ouverte sur les données de votre organisation pour Microsoft. La gouvernance, le paramétrage des permissions et la formation des utilisateurs sont cruciaux avant tout déploiement à l'échelle.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Microsoft 365 Copilot",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/copilot"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre formation B2B \"Microsoft Copilot · Prise en main efficace\" forme vos équipes en 2 jours",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

@@ -1,0 +1,42 @@
+{
+  "terme_fr": "IA souveraine",
+  "terme_en": "Sovereign AI",
+  "sous_titre_fr": "Sovereign AI",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "fiars",
+    "b2b"
+  ],
+  "definition_fr": "Système d'IA conçu pour préserver la maîtrise des données, des modèles et de l'infrastructure par l'organisation utilisatrice ou son pays. Implique généralement : modèle open source ou européen, hébergement souverain, code et données contrôlés localement, indépendance vis-à-vis des Big Tech.",
+  "definition_en": "",
+  "exemple_fr": "Une collectivité territoriale veut un assistant IA pour ses agents. Choix souverain : Mistral Large hébergé chez OVHcloud, RAG sur la base documentaire interne (gérée par la DSI), interface développée par une SSII française, gouvernance assurée en interne. Aucun byte ne sort du territoire européen.",
+  "exemple_en": "",
+  "regard_fr": "L'IA souveraine n'est pas un slogan politique. C'est un choix opérationnel : optionnalité face aux ruptures de service, conformité juridique, indépendance économique. Et c'est techniquement faisable dès aujourd'hui.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "DGE · Souveraineté numérique",
+      "url": "https://www.entreprises.gouv.fr/fr/numerique/enjeux/la-souverainete-numerique"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Notre offre \"IA souveraine clé en main\" déploie une IA privée maîtrisée de A à Z (à partir de 7 500 € HT)",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

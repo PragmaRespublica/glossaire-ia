@@ -1,0 +1,41 @@
+{
+  "terme_fr": "LLaMA",
+  "terme_en": "Llama",
+  "sous_titre_fr": "Large Language Model Meta AI",
+  "sous_titre_en": "",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "b2b"
+  ],
+  "definition_fr": "Famille de modèles de langage open weights développés par Meta (Facebook), lancée en 2023. LLaMA 2, LLaMA 3 et leurs déclinaisons (8B, 70B, 405B) sont gratuits à utiliser commercialement (sous conditions) et peuvent être déployés sur infrastructure propre.",
+  "definition_en": "",
+  "exemple_fr": "Une ETI déploie LLaMA 3 70B sur un serveur OVHcloud équipé de 4 GPU A100. Coût mensuel d'infrastructure : ~3 000 €. Comparé à un abonnement ChatGPT Enterprise pour 200 utilisateurs (~12 000 €/mois), l'économie est massive · et les données restent en interne.",
+  "exemple_en": "",
+  "regard_fr": "LLaMA n'est pas vraiment open source : sa licence interdit certains usages commerciaux à grande échelle. Pour du vrai open source européen, préférez Mistral. Vérifiez toujours les termes de licence avant déploiement.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Meta · LLaMA",
+      "url": "https://llama.meta.com/"
+    }
+  ],
+  "cta": {
+    "texte_fr": "Nos déploiements B2B intègrent au choix Mistral, LLaMA ou d'autres modèles selon le cas d'usage",
+    "texte_en": "",
+    "label_fr": "Voir les offres B2B →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

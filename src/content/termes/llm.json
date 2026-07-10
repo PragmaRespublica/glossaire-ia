@@ -1,0 +1,41 @@
+{
+  "terme_fr": "LLM",
+  "terme_en": "Large Language Model (LLM)",
+  "sous_titre_fr": "Large Language Model · Modèle de langage de grande taille",
+  "sous_titre_en": "",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Réseau de neurones entraîné sur d'immenses corpus de texte pour prédire le prochain token étant donné un contexte. Les LLM modernes (GPT, Claude, Mistral, LLaMA) ont plusieurs dizaines à centaines de milliards de paramètres et démontrent des capacités émergentes de raisonnement et de génération.",
+  "definition_en": "",
+  "exemple_fr": "GPT-4 a 1 700 milliards de paramètres, Mistral 7B en a 7 milliards. Pourtant, Mistral 7B suffit largement pour résumer un email, classifier un ticket support, ou extraire des entités d'un texte. Choisir la bonne taille de LLM, c'est la première décision de sobriété.",
+  "exemple_en": "",
+  "regard_fr": "Un LLM n'est pas une base de connaissances, c'est une machine statistique. Il \"sait\" ce qui est probable dans ses données d'entraînement · pas ce qui est vrai aujourd'hui. Pour la précision factuelle, couplez-le à un RAG.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Zhao et al. · LLM Survey",
+      "url": "https://arxiv.org/abs/2303.18223"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS pose les fondamentaux des LLM dans la Leçon 1, sans formules mathématiques",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

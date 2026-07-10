@@ -1,0 +1,47 @@
+/* ==========================================================================
+   PragmaForma · Design tokens
+   Extraits de https://pragmaforma.com/style.css et glossaire.html.
+   Les variables --rule, --muted et --axis-* n'étaient pas définies sur le
+   site d'origine : elles sont fixées ici à partir des couleurs rgba() du
+   CSS du glossaire, pour un rendu identique et déterministe.
+   ========================================================================== */
+
+:root {
+  /* Fonds */
+  --charcoal: #1a1b1c;
+  --charcoal-soft: #222323;
+  --ink: #0d0e0e;
+
+  /* Marque */
+  --orange: #f65009;
+  --orange-soft: #fa6a2c;
+  --orange-light: rgba(246, 80, 9, 0.08);
+  --green-deep: #1e3b33;
+  --green-mid: #296d5a;
+  --green-light: #4a8d76;
+  --sage: #7f9349;
+  --gold: #c9a671;
+
+  /* Texte */
+  --cream: #e5e7eb;
+  --text-primary: #f0ebe2;
+  --text-secondary: #b8b2a6;
+  --text-muted: #7d7870;
+  --muted: var(--text-secondary);
+
+  /* Filets et bordures */
+  --border-subtle: rgba(240, 235, 226, 0.08);
+  --border-medium: rgba(240, 235, 226, 0.16);
+  --rule: var(--border-medium);
+
+  /* Couleurs des axes (déduites des fonds rgba du glossaire) */
+  --axis-fond: #8b9eff;
+  --axis-resp: #4fc3a1;
+  --axis-souv: #f65009;
+  --axis-reg: #e8b84f;
+  --axis-eco: #c57fe5;
+
+  /* Typographie · site actuel : Inter (titres et corps) + DM Sans */
+  --font-heading: 'Inter', 'DM Sans', system-ui, sans-serif;
+  --font-body: 'Inter', 'DM Sans', system-ui, sans-serif;
+}

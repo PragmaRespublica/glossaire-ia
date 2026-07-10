@@ -1,0 +1,42 @@
+{
+  "terme_fr": "Gouvernance IA",
+  "terme_en": "AI governance",
+  "sous_titre_fr": "AI Governance",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [
+    "ori",
+    "fiars"
+  ],
+  "definition_fr": "Ensemble des structures, processus et règles qui encadrent l'usage de l'IA dans une organisation : comité IA, registre des cas d'usage, processus de validation, rôles (Chief AI Officer, AI Risk Officer), revue éthique. La gouvernance IA est l'un des piliers de l'AI Act pour les systèmes à haut risque.",
+  "definition_en": "",
+  "exemple_fr": "Une ETI met en place un comité IA trimestriel composé du DPO, du RSSI, d'un représentant métier et de la DSI. Tout nouveau cas d'usage IA passe par ce comité avec une fiche standardisée ORI-IA. Six mois plus tard : 12 cas validés, 3 refusés, zéro incident.",
+  "exemple_en": "",
+  "regard_fr": "Une gouvernance IA efficace n'est pas un comité Théodule. C'est un processus court, outillé, avec des décisions traçables. L'atelier ORI-IA cartographie le minimum vital pour démarrer.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "ISO/IEC 42001:2023",
+      "url": "https://www.iso.org/standard/81230.html"
+    }
+  ],
+  "cta": {
+    "texte_fr": "L'atelier ORI-IA est inclus dans FIARS et utilisable librement chez vos clients",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

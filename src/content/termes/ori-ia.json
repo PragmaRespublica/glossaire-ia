@@ -1,0 +1,42 @@
+{
+  "terme_fr": "ORI-IA",
+  "terme_en": "ORI-IA workshop",
+  "sous_titre_fr": "Opportunités, Risques, Impacts de l'IA",
+  "sous_titre_en": "",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [
+    "ori",
+    "fiars"
+  ],
+  "definition_fr": "Méthode open source développée par PragmaForma pour cartographier un projet d'IA selon trois axes : Opportunités créées, Risques engendrés, Impacts (sociaux, environnementaux, organisationnels). Conçue comme un atelier collaboratif de 2 à 4 heures.",
+  "definition_en": "",
+  "exemple_fr": "Une DRH veut déployer un outil IA de tri de CV. L'atelier ORI-IA fait émerger : opportunité \"gain de 5h/semaine recrutement\", risque \"biais sur l'origine ethnique des candidats\", impact \"modification du métier des recruteurs\". Résultat : décision éclairée, charte écrite, parcours d'adaptation prévu.",
+  "exemple_en": "",
+  "regard_fr": "ORI-IA est librement réutilisable, y compris en contexte commercial chez vos clients. C'est notre contribution au commun. Le webinaire du 23 juin présente la méthode avec un cas concret.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "PragmaForma · Atelier ORI-IA",
+      "url": "https://pragmaforma.com/ressources/outils"
+    }
+  ],
+  "cta": {
+    "texte_fr": "L'atelier ORI-IA est inclus dans FIARS, avec droits d'animation chez vos clients",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}

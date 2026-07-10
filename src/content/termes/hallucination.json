@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Hallucination",
+  "terme_en": "Hallucination",
+  "sous_titre_fr": "Confabulation",
+  "sous_titre_en": "",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "evaluation-qualite",
+  "pages_liees": [
+    "fiars"
+  ],
+  "definition_fr": "Phénomène par lequel un modèle de langage génère une information factuellement incorrecte mais présentée avec assurance. Inhérent au fonctionnement statistique des LLM, le risque d'hallucination ne peut être éliminé totalement, seulement atténué (RAG, citation des sources, vérification).",
+  "definition_en": "",
+  "exemple_fr": "En 2023, un avocat américain a soumis au tribunal des références juridiques générées par ChatGPT · qui s'est révélé avoir inventé six jurisprudences inexistantes. Sanction du juge : amende et inscription au dossier. L'hallucination peut littéralement coûter une carrière.",
+  "exemple_en": "",
+  "regard_fr": "\"Hallucination\" est un terme trompeur : le modèle ne se trompe pas, il fait exactement ce pour quoi il est conçu · prédire le prochain mot le plus probable. Il n'a pas accès à la notion de vérité.",
+  "regard_en": "",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [],
+  "sources": [
+    {
+      "titre": "Huang et al. · Hallucination Survey",
+      "url": "https://arxiv.org/abs/2311.05232"
+    }
+  ],
+  "cta": {
+    "texte_fr": "FIARS apprend à concevoir des systèmes qui atténuent les hallucinations (RAG, sources, vérification)",
+    "texte_en": "",
+    "label_fr": "Voir la formation →",
+    "label_en": "",
+    "url": "/"
+  },
+  "statut": "a_relire"
+}
