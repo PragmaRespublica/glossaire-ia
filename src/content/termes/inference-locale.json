@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Inférence locale (on-device)",
+  "terme_en": "Local inference",
+  "sous_titre_fr": "Local inference, on-device AI",
+  "sous_titre_en": "Inférence locale",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Exécution d'un modèle d'IA directement sur le matériel de l'utilisateur ou de l'organisation · ordinateur, serveur interne, téléphone · plutôt que sur des serveurs distants. L'inférence locale garantit que les données ne quittent pas l'appareil · un atout majeur de confidentialité, de souveraineté et parfois de rapidité.",
+  "definition_en": "Running an AI model directly on the user's or organisation's hardware · computer, internal server, phone · rather than on remote servers. Local inference guarantees that data does not leave the device · a major advantage in confidentiality, sovereignty and sometimes speed.",
+  "exemple_fr": "Un cabinet médical fait tourner un modèle localement sur son propre serveur pour analyser des dossiers : aucune donnée patient ne transite par internet. Confidentialité maximale, conformité facilitée, indépendance vis-à-vis des API. Grâce aux petits modèles et à la quantification, cette inférence locale est désormais à la portée de tous.",
+  "exemple_en": "A medical practice runs a model locally on its own server to analyse records: no patient data transits the internet. Maximum confidentiality, eased compliance, independence from APIs. Thanks to small models and quantization, this local inference is now within everyone's reach.",
+  "regard_fr": "L'inférence locale est la réponse la plus radicale aux questions de souveraineté et de confidentialité : ce qui ne sort pas ne peut pas fuir. Longtemps réservée à quelques-uns, elle se démocratise grâce aux petits modèles. Pour les données sensibles, elle devrait être le premier réflexe, pas le dernier recours.",
+  "regard_en": "Local inference is the most radical answer to sovereignty and confidentiality questions: what does not leave cannot leak. Long reserved for a few, it is democratising thanks to small models. For sensitive data, it should be the first reflex, not the last resort.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "slm",
+    "quantification",
+    "ia-souveraine",
+    "edge-computing"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation Ollama · inférence locale",
+      "url": "https://ollama.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Logits et probabilités de sortie",
+  "terme_en": "Logits",
+  "sous_titre_fr": "Logits, scores bruts de sortie",
+  "sous_titre_en": "Raw output scores",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Valeurs numériques brutes produites par un modèle avant leur conversion en probabilités. Les logits indiquent la « préférence » relative du modèle pour chaque sortie possible ; une fonction les transforme ensuite en probabilités interprétables. Manipuler les logits permet de contrôler finement la génération · température, filtrage, contraintes.",
+  "definition_en": "The raw numeric values a model produces before their conversion into probabilities. Logits indicate the model's relative \"preference\" for each possible output; a function then transforms them into interpretable probabilities. Manipulating logits allows fine control of generation · temperature, filtering, constraints.",
+  "exemple_fr": "Pour forcer un modèle à répondre uniquement par « oui » ou « non », on peut agir sur les logits pour interdire tout autre token. De même, la température ajuste les logits avant de tirer le prochain mot. Ces réglages de bas niveau, invisibles pour l'utilisateur courant, sont des leviers puissants pour le développeur.",
+  "exemple_en": "To force a model to answer only \"yes\" or \"no\", one can act on the logits to forbid any other token. Likewise, temperature adjusts the logits before drawing the next word. These low-level settings, invisible to the everyday user, are powerful levers for the developer.",
+  "regard_fr": "Les logits rappellent qu'un LLM ne « choisit » pas un mot : il produit une distribution de préférences numériques, dans laquelle on pioche. Comprendre ce mécanisme démystifie la génération · il n'y a ni intention ni volonté derrière une réponse, seulement des scores et un tirage. La lucidité passe par ces détails.",
+  "regard_en": "Logits recall that a LLM does not \"choose\" a word: it produces a distribution of numeric preferences, from which one draws. Understanding this mechanism demystifies generation · there is neither intention nor will behind an answer, only scores and a draw. Lucidity passes through these details.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "temperature",
+    "top-p",
+    "token",
+    "modele-autoregressif"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (logits)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

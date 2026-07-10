@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Assistant vocal",
+  "terme_en": "Voice assistant",
+  "sous_titre_fr": "Voice assistant",
+  "sous_titre_en": "Assistant vocal",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Interface permettant d'interagir avec un système par la voix : poser des questions, donner des commandes, obtenir des réponses parlées. Des assistants domestiques aux agents vocaux professionnels, ils combinent reconnaissance de la parole, traitement du langage et synthèse vocale · avec des enjeux de vie privée liés à l'écoute permanente.",
+  "definition_en": "An interface for interacting with a system by voice: asking questions, giving commands, getting spoken answers. From home assistants to professional voice agents, they combine speech recognition, language processing and voice synthesis · with privacy stakes linked to always-on listening.",
+  "exemple_fr": "Un assistant vocal domestique répond aux questions et pilote des objets connectés · pratique. Mais pour détecter son mot d'activation, il écoute en permanence, ce qui soulève des questions sur ce qui est capté, transmis et conservé. La commodité de la voix a un coût potentiel en vie privée qu'il faut évaluer.",
+  "exemple_en": "A home voice assistant answers questions and controls connected devices · handy. But to detect its wake word, it listens permanently, raising questions about what is captured, transmitted and retained. The convenience of voice has a potential privacy cost to be assessed.",
+  "regard_fr": "L'assistant vocal incarne le compromis de l'IA du quotidien : un service réel contre une part d'intimité. Avant d'installer un micro toujours à l'écoute chez soi ou au bureau, il vaut la peine de se demander où vont les données. La commodité ne doit pas faire oublier la question, simple mais essentielle : qui écoute ?",
+  "regard_en": "The voice assistant embodies the compromise of everyday AI: a real service against a share of intimacy. Before installing an always-listening microphone at home or in the office, it is worth asking where the data goes. Convenience must not make us forget the simple but essential question: who is listening?",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "reconnaissance-parole",
+    "synthese-vocale",
+    "agents-vocaux",
+    "donnees-personnelles"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (assistant vocal personnel)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

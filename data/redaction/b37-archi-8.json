@@ -1,0 +1,174 @@
+{
+  "robotique-ia": {
+    "sous_titre_fr": "Robotics and embodied AI",
+    "sous_titre_en": "Robotique et IA incarnée",
+    "definition_fr": "Intégration de l'IA dans des robots capables de percevoir et d'agir dans le monde physique. L'IA incarnée · qui apprend en interagissant avec son environnement · est considérée par certains comme une voie vers une intelligence plus robuste, ancrée dans l'expérience du réel plutôt que dans le seul traitement du langage.",
+    "definition_en": "The integration of AI into robots able to perceive and act in the physical world. Embodied AI · which learns by interacting with its environment · is seen by some as a path towards more robust intelligence, grounded in the experience of the real rather than in language processing alone.",
+    "exemple_fr": "Un robot d'entrepôt apprend à saisir des objets de formes variées en s'exerçant, échec après échec, jusqu'à maîtriser le geste. Cette IA incarnée acquiert un savoir-faire physique qu'aucun texte ne pourrait lui transmettre. Elle rappelle qu'une part de l'intelligence naît de l'action dans le monde, pas seulement des données.",
+    "exemple_en": "A warehouse robot learns to grasp objects of varied shapes by practising, failure after failure, until it masters the gesture. This embodied AI acquires a physical know-how no text could transmit. It recalls that part of intelligence is born from action in the world, not just from data.",
+    "regard_fr": "La robotique rappelle une évidence que l'ère des LLM tend à effacer : penser n'est pas tout, agir dans le monde physique est un défi immense. Une IA qui manipule le langage avec brio peut être incapable de saisir un verre. Cette humilité face au réel est un bon garde-fou contre les fantasmes d'omnipotence de l'IA.",
+    "regard_en": "Robotics recalls an obvious fact the LLM era tends to erase: thinking is not everything, acting in the physical world is an immense challenge. An AI that manipulates language brilliantly can be unable to grasp a glass. This humility before the real is a good guardrail against fantasies of AI omnipotence.",
+    "termes_lies": [
+      "modeles-monde",
+      "apprentissage-renforcement",
+      "vision-ordinateur",
+      "multimodal"
+    ],
+    "sources": [
+      {
+        "titre": "Recherches sur l'IA incarnée (embodied AI)"
+      }
+    ]
+  },
+  "informatique-affective": {
+    "sous_titre_fr": "Affective computing",
+    "sous_titre_en": "Informatique affective",
+    "definition_fr": "Champ visant à doter les machines de la capacité de détecter, interpréter et simuler des émotions humaines. Scientifiquement fragile · l'expression n'est pas un indicateur fiable de l'état intérieur · et éthiquement sensible, l'informatique affective est en partie encadrée ou interdite par l'AI Act, notamment au travail et à l'école.",
+    "definition_en": "A field aiming to endow machines with the ability to detect, interpret and simulate human emotions. Scientifically fragile · expression is not a reliable indicator of inner state · and ethically sensitive, affective computing is partly framed or banned by the AI Act, notably at work and school.",
+    "exemple_fr": "Un logiciel prétend mesurer l'engagement d'élèves à leur expression faciale pendant un cours. Outre son interdiction dans ce contexte, il repose sur une base scientifique douteuse : un visage neutre ne signifie pas l'ennui. L'informatique affective vend une lecture des âmes que la science ne valide pas · une illusion technologique.",
+    "exemple_en": "Software claims to measure students' engagement from their facial expression during a class. Beyond its ban in this context, it rests on a dubious scientific basis: a neutral face does not mean boredom. Affective computing sells a reading of souls that science does not validate · a technological illusion.",
+    "regard_fr": "L'informatique affective est un domaine à regarder avec une double méfiance : scientifique (peut-on vraiment lire les émotions ?) et éthique (le devrait-on ?). Méfiez-vous des outils promettant de mesurer les sentiments · ils habillent de technologie une prétention que ni la science ni le respect des personnes ne justifient.",
+    "regard_en": "Affective computing is a field to view with double wariness: scientific (can emotions really be read?) and ethical (should they be?). Beware of tools promising to measure feelings · they dress in technology a claim that neither science nor respect for people justifies.",
+    "termes_lies": [
+      "reconnaissance-emotions",
+      "ia-compagnon",
+      "pratiques-interdites",
+      "ethique-ia"
+    ],
+    "sources": [
+      {
+        "titre": "FranceTerme · informatique affective",
+        "url": "https://www.culture.fr/franceterme"
+      }
+    ]
+  },
+  "informatique-quantique": {
+    "sous_titre_fr": "Quantum computing and AI",
+    "sous_titre_en": "Informatique quantique et IA",
+    "definition_fr": "Paradigme de calcul exploitant les propriétés de la physique quantique pour effectuer certains calculs hors de portée des ordinateurs classiques. Encore expérimentale, l'informatique quantique pourrait à terme accélérer certains problèmes d'IA · mais elle relève aujourd'hui davantage de la recherche et de la prospective que de l'usage courant.",
+    "definition_en": "A computing paradigm exploiting the properties of quantum physics to perform certain calculations beyond the reach of classical computers. Still experimental, quantum computing could eventually accelerate certain AI problems · but today it belongs more to research and foresight than to everyday use.",
+    "exemple_fr": "Des laboratoires explorent comment l'informatique quantique pourrait accélérer l'entraînement de certains modèles ou résoudre des problèmes d'optimisation complexes. Les promesses sont réelles mais lointaines · aucune application pratique à l'échelle n'existe encore. C'est un domaine d'anticipation, pas de déploiement immédiat.",
+    "exemple_en": "Labs explore how quantum computing could accelerate the training of certain models or solve complex optimisation problems. The promises are real but distant · no practical application at scale exists yet. It is a field of anticipation, not immediate deployment.",
+    "regard_fr": "L'informatique quantique appliquée à l'IA est un sujet où il faut distinguer l'enthousiasme des faits : les promesses sont grandes, les applications concrètes encore rares. Méfiez-vous des discours qui mêlent « quantique » et « IA » pour impressionner. La souveraineté quantique est un enjeu réel · mais de long terme, pas de demain.",
+    "regard_en": "Quantum computing applied to AI is a topic where enthusiasm must be distinguished from facts: the promises are great, the concrete applications still rare. Beware of narratives mixing \"quantum\" and \"AI\" to impress. Quantum sovereignty is a real issue · but a long-term one, not tomorrow's.",
+    "termes_lies": [
+      "gpu",
+      "lois-echelle",
+      "chiffrement",
+      "autonomie-strategique"
+    ],
+    "sources": [
+      {
+        "titre": "FranceTerme · ordinateur quantique",
+        "url": "https://www.culture.fr/franceterme"
+      }
+    ]
+  },
+  "neuromorphique": {
+    "sous_titre_fr": "Neuromorphic computing",
+    "sous_titre_en": "Informatique neuromorphique",
+    "definition_fr": "Approche matérielle concevant des puces inspirées du fonctionnement du cerveau, où calcul et mémoire sont intégrés, pour exécuter l'IA avec une efficacité énergétique bien supérieure aux processeurs classiques. Encore émergente, l'informatique neuromorphique est une piste prometteuse pour une IA plus sobre, notamment embarquée.",
+    "definition_en": "A hardware approach designing chips inspired by how the brain works, where computation and memory are integrated, to run AI with far greater energy efficiency than classic processors. Still emerging, neuromorphic computing is a promising path towards more frugal AI, notably embedded.",
+    "exemple_fr": "Une puce neuromorphique peut exécuter certaines tâches d'IA en consommant mille fois moins d'énergie qu'un processeur classique · en imitant la façon dont les neurones biologiques ne s'activent que lorsque c'est nécessaire. Pour l'IA embarquée à très faible consommation, c'est une voie d'avenir, encore largement en recherche.",
+    "exemple_en": "A neuromorphic chip can run certain AI tasks consuming a thousand times less energy than a classic processor · by imitating how biological neurons only fire when necessary. For very-low-power embedded AI, it is a path forward, still largely in research.",
+    "regard_fr": "L'informatique neuromorphique porte un espoir précieux à l'heure où la consommation de l'IA explose : et si l'efficacité énergétique du cerveau inspirait des puces mille fois plus sobres ? C'est une piste à suivre pour qui se soucie de l'impact environnemental · la sobriété matérielle est aussi importante que la sobriété d'usage.",
+    "regard_en": "Neuromorphic computing carries a precious hope as AI's consumption soars: what if the brain's energy efficiency inspired chips a thousand times more frugal? It is a path to watch for whoever cares about environmental impact · hardware frugality matters as much as usage frugality.",
+    "termes_lies": [
+      "ia-embarquee",
+      "consommation-electrique",
+      "ia-frugale",
+      "gpu"
+    ],
+    "sources": [
+      {
+        "titre": "FranceTerme · neuromorphique",
+        "url": "https://www.culture.fr/franceterme"
+      }
+    ]
+  },
+  "tpu": {
+    "sous_titre_fr": "Tensor Processing Unit",
+    "sous_titre_en": "Tensor Processing Unit",
+    "definition_fr": "Processeur conçu spécifiquement par Google pour accélérer les calculs d'IA, alternative aux GPU de NVIDIA. Optimisé pour les opérations matricielles des réseaux de neurones, le TPU illustre la spécialisation croissante du matériel d'IA · et l'enjeu géopolitique de la maîtrise de ces puces, dominée par quelques acteurs américains et asiatiques.",
+    "definition_en": "A processor designed specifically by Google to accelerate AI computations, an alternative to NVIDIA's GPUs. Optimised for the matrix operations of neural networks, the TPU illustrates the growing specialisation of AI hardware · and the geopolitical stake of controlling these chips, dominated by a few American and Asian players.",
+    "exemple_fr": "Pour entraîner ses modèles, Google utilise ses propres TPU plutôt que de dépendre entièrement de NVIDIA. Cette maîtrise du matériel est un avantage stratégique. À l'échelle d'un continent, la dépendance de l'Europe aux puces conçues et fabriquées ailleurs est l'un des maillons les plus fragiles de sa souveraineté sur l'IA.",
+    "exemple_en": "To train its models, Google uses its own TPUs rather than depending entirely on NVIDIA. This hardware control is a strategic advantage. At a continental scale, Europe's dependence on chips designed and made elsewhere is one of the most fragile links of its AI sovereignty.",
+    "regard_fr": "Le TPU rappelle que la souveraineté sur l'IA commence dans le silicium. Concevoir ses propres puces, comme le fait Google, confère une indépendance majeure. L'Europe, largement dépendante des puces étrangères, mesure là un talon d'Achille · d'où l'importance d'initiatives comme le Chips Act pour tenter de le combler.",
+    "regard_en": "The TPU recalls that AI sovereignty starts in silicon. Designing your own chips, as Google does, confers major independence. Europe, largely dependent on foreign chips, has here an Achilles' heel · hence the importance of initiatives like the Chips Act to try to close it.",
+    "termes_lies": [
+      "gpu",
+      "nvidia",
+      "chips-act",
+      "autonomie-strategique"
+    ],
+    "sources": [
+      {
+        "titre": "Documentation sur les accélérateurs d'IA"
+      }
+    ]
+  },
+  "cache-kv": {
+    "sous_titre_fr": "KV cache",
+    "sous_titre_en": "Cache clés-valeurs",
+    "definition_fr": "Mécanisme d'optimisation qui mémorise les calculs intermédiaires d'un modèle de langage pendant la génération, pour éviter de tout recalculer à chaque nouveau token. Le cache KV accélère fortement l'inférence · mais consomme de la mémoire proportionnellement à la longueur du contexte, ce qui limite en pratique les très longues conversations.",
+    "definition_en": "An optimisation mechanism that memorises a language model's intermediate computations during generation, to avoid recomputing everything at each new token. The KV cache strongly speeds up inference · but consumes memory proportionally to the context length, which in practice limits very long conversations.",
+    "exemple_fr": "Quand un assistant génère une longue réponse, le cache KV lui évite de retraiter tout le contexte à chaque mot · d'où sa rapidité. Mais sur un très long échange, ce cache gonfle et sature la mémoire du serveur. C'est l'une des raisons techniques pour lesquelles les très longs contextes restent coûteux à servir.",
+    "exemple_en": "When an assistant generates a long answer, the KV cache spares it from reprocessing the whole context at each word · hence its speed. But on a very long exchange, this cache swells and saturates the server's memory. It is one of the technical reasons why very long contexts remain costly to serve.",
+    "regard_fr": "Le cache KV est un rouage invisible qui explique bien des comportements concrets : la vitesse de génération, mais aussi le coût croissant des longs contextes. Comprendre ces contraintes techniques aide à faire des choix éclairés · par exemple préférer un RAG bien découpé à un contexte géant, plus coûteux qu'il n'en a l'air.",
+    "regard_en": "The KV cache is an invisible cog explaining many concrete behaviours: generation speed, but also the growing cost of long contexts. Understanding these technical constraints helps make informed choices · for example preferring a well-chunked RAG to a giant context, costlier than it seems.",
+    "termes_lies": [
+      "inference",
+      "auto-attention",
+      "fenetre-contextuelle",
+      "latence"
+    ],
+    "sources": [
+      {
+        "titre": "Documentation technique sur l'inférence des LLM"
+      }
+    ]
+  },
+  "decodage-speculatif": {
+    "sous_titre_fr": "Speculative decoding",
+    "sous_titre_en": "Décodage spéculatif",
+    "definition_fr": "Technique accélérant la génération d'un grand modèle en lui faisant vérifier des propositions produites rapidement par un petit modèle « brouillon ». Le grand modèle valide plusieurs tokens d'un coup au lieu de les produire un à un. Le décodage spéculatif réduit la latence sans changer la qualité · une optimisation astucieuse et transparente pour l'utilisateur.",
+    "definition_en": "A technique accelerating a large model's generation by having it verify proposals rapidly produced by a small \"draft\" model. The large model validates several tokens at once instead of producing them one by one. Speculative decoding reduces latency without changing quality · a clever optimisation transparent to the user.",
+    "exemple_fr": "Un petit modèle rapide propose les prochains mots probables ; le grand modèle les vérifie en bloc et corrige au besoin. Résultat : une génération nettement plus rapide, pour une qualité identique à celle du grand modèle seul. L'utilisateur ne voit que la vitesse · l'astuce technique reste invisible mais bien réelle.",
+    "exemple_en": "A small fast model proposes the probable next words; the large model verifies them in a block and corrects if needed. The result: markedly faster generation, for quality identical to the large model alone. The user only sees the speed · the technical trick stays invisible but very real.",
+    "regard_fr": "Le décodage spéculatif illustre une tendance saine de l'IA : gagner en efficacité par l'ingéniosité plutôt que par la seule force brute. Ces optimisations · faire coopérer petit et grand modèle · réduisent coûts et consommation sans sacrifier la qualité. L'avenir sobre de l'IA passe autant par ces astuces que par les gros modèles.",
+    "regard_en": "Speculative decoding illustrates a healthy AI trend: gaining efficiency through ingenuity rather than brute force alone. These optimisations · making small and large models cooperate · reduce cost and consumption without sacrificing quality. AI's frugal future depends as much on these tricks as on big models.",
+    "termes_lies": [
+      "inference",
+      "latence",
+      "slm",
+      "ia-frugale"
+    ],
+    "sources": [
+      {
+        "titre": "OQLF · Vitrine linguistique (décodage spéculatif)",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+      }
+    ]
+  },
+  "traitement-par-lots": {
+    "sous_titre_fr": "Batch processing",
+    "sous_titre_en": "Traitement par lots",
+    "definition_fr": "Regroupement de plusieurs requêtes pour les traiter ensemble plutôt qu'une à une, afin d'optimiser l'usage du matériel. Pour l'inférence d'IA, le traitement par lots améliore fortement le débit et réduit le coût par requête · un levier d'efficience essentiel pour servir de nombreux utilisateurs sans multiplier les serveurs.",
+    "definition_en": "Grouping several requests to process them together rather than one by one, to optimise hardware use. For AI inference, batch processing strongly improves throughput and reduces cost per request · an essential efficiency lever to serve many users without multiplying servers.",
+    "exemple_fr": "Une plateforme reçoit des milliers de requêtes IA par minute. En les regroupant par lots pour les traiter ensemble sur ses GPU, elle multiplie son débit et divise son coût par requête. Sans traitement par lots, il faudrait bien plus de matériel · donc plus de dépenses et plus d'impact environnemental pour le même service.",
+    "exemple_en": "A platform receives thousands of AI requests a minute. By grouping them into batches to process together on its GPUs, it multiplies its throughput and divides its cost per request. Without batching, far more hardware would be needed · thus more spending and more environmental impact for the same service.",
+    "regard_fr": "Le traitement par lots est un levier discret de sobriété et d'économie : mieux utiliser le matériel qu'on a plutôt que d'en ajouter. Ces optimisations d'infrastructure, invisibles pour l'utilisateur, comptent autant que le choix du modèle dans le coût réel et l'empreinte d'un service d'IA. L'efficience se joue à tous les étages.",
+    "regard_en": "Batch processing is a discreet lever of frugality and economy: making better use of the hardware you have rather than adding more. These infrastructure optimisations, invisible to the user, matter as much as the choice of model in the real cost and footprint of an AI service. Efficiency plays out at every level.",
+    "termes_lies": [
+      "inference",
+      "serveur-inference",
+      "gpu",
+      "tarification-usage"
+    ],
+    "sources": [
+      {
+        "titre": "Documentation technique sur l'inférence par lots"
+      }
+    ]
+  }
+}

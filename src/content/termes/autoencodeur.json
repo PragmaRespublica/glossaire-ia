@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Autoencodeur",
+  "terme_en": "Autoencoder",
+  "sous_titre_fr": "Autoencoder",
+  "sous_titre_en": "Autoencodeur",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Réseau de neurones qui apprend à compresser des données en une représentation compacte (encodage) puis à les reconstruire (décodage). En forçant l'information à passer par un goulot, l'autoencodeur extrait l'essentiel des données. Utilisé pour la réduction de dimension, la détection d'anomalies et comme brique de modèles génératifs.",
+  "definition_en": "A neural network that learns to compress data into a compact representation (encoding) then reconstruct it (decoding). By forcing information through a bottleneck, the autoencoder extracts the essence of the data. Used for dimensionality reduction, anomaly detection and as a building block of generative models.",
+  "exemple_fr": "Un autoencodeur entraîné sur des machines en bon fonctionnement reconstruit fidèlement leurs signaux normaux. Face à un signal anormal · panne naissante · il échoue à le reconstruire correctement : l'écart signale l'anomalie. L'autoencodeur détecte ainsi le nouveau en apprenant seulement le normal. Une élégante ruse d'ingénierie.",
+  "exemple_en": "An autoencoder trained on well-functioning machines faithfully reconstructs their normal signals. Facing an abnormal signal · an emerging breakdown · it fails to reconstruct it correctly: the gap signals the anomaly. The autoencoder thus detects the new by learning only the normal. An elegant engineering trick.",
+  "regard_fr": "L'autoencodeur illustre une idée profonde : apprendre à reconstruire, c'est apprendre à comprendre. Ce qu'un système peut recréer, il l'a en un sens saisi ; ce qu'il rate, il ne le connaît pas. Cette logique · comprendre par la reconstruction · irrigue une bonne partie de l'IA moderne, bien au-delà de l'autoencodeur lui-même.",
+  "regard_en": "The autoencoder illustrates a deep idea: learning to reconstruct is learning to understand. What a system can recreate, it has in a sense grasped; what it misses, it does not know. This logic · understanding through reconstruction · runs through much of modern AI, well beyond the autoencoder itself.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "espace-latent",
+    "reduction-dimension",
+    "detection-anomalies",
+    "encodeur-decodeur"
+  ],
+  "sources": [
+    {
+      "titre": "Littérature sur les autoencodeurs"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

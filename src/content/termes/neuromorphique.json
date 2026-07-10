@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Informatique neuromorphique",
+  "terme_en": "Neuromorphic computing",
+  "sous_titre_fr": "Neuromorphic computing",
+  "sous_titre_en": "Informatique neuromorphique",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Approche matérielle concevant des puces inspirées du fonctionnement du cerveau, où calcul et mémoire sont intégrés, pour exécuter l'IA avec une efficacité énergétique bien supérieure aux processeurs classiques. Encore émergente, l'informatique neuromorphique est une piste prometteuse pour une IA plus sobre, notamment embarquée.",
+  "definition_en": "A hardware approach designing chips inspired by how the brain works, where computation and memory are integrated, to run AI with far greater energy efficiency than classic processors. Still emerging, neuromorphic computing is a promising path towards more frugal AI, notably embedded.",
+  "exemple_fr": "Une puce neuromorphique peut exécuter certaines tâches d'IA en consommant mille fois moins d'énergie qu'un processeur classique · en imitant la façon dont les neurones biologiques ne s'activent que lorsque c'est nécessaire. Pour l'IA embarquée à très faible consommation, c'est une voie d'avenir, encore largement en recherche.",
+  "exemple_en": "A neuromorphic chip can run certain AI tasks consuming a thousand times less energy than a classic processor · by imitating how biological neurons only fire when necessary. For very-low-power embedded AI, it is a path forward, still largely in research.",
+  "regard_fr": "L'informatique neuromorphique porte un espoir précieux à l'heure où la consommation de l'IA explose : et si l'efficacité énergétique du cerveau inspirait des puces mille fois plus sobres ? C'est une piste à suivre pour qui se soucie de l'impact environnemental · la sobriété matérielle est aussi importante que la sobriété d'usage.",
+  "regard_en": "Neuromorphic computing carries a precious hope as AI's consumption soars: what if the brain's energy efficiency inspired chips a thousand times more frugal? It is a path to watch for whoever cares about environmental impact · hardware frugality matters as much as usage frugality.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-embarquee",
+    "consommation-electrique",
+    "ia-frugale",
+    "gpu"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · neuromorphique",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

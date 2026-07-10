@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Petit modèle de langage (SLM)",
+  "terme_en": "Small Language Model (SLM)",
+  "sous_titre_fr": "Small Language Model (SLM)",
+  "sous_titre_en": "Petit modèle de langage",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Modèle de langage de taille réduite (de quelques centaines de millions à quelques milliards de paramètres), conçu pour être rapide, sobre et déployable sur du matériel modeste, y compris localement. Les petits modèles suffisent à la plupart des tâches courantes en entreprise · un pilier de l'IA frugale et souveraine.",
+  "definition_en": "A reduced-size language model (from a few hundred million to a few billion parameters), designed to be fast, frugal and deployable on modest hardware, including locally. Small models suffice for most everyday enterprise tasks · a pillar of frugal and sovereign AI.",
+  "exemple_fr": "Pour classer des tickets, extraire des données ou résumer des emails, un petit modèle de quelques milliards de paramètres, tournant sur un serveur interne, fait aussi bien qu'un géant · pour une fraction du coût et sans envoyer de données dehors. Le réflexe « toujours le plus gros modèle » est un gaspillage fréquent.",
+  "exemple_en": "To classify tickets, extract data or summarise emails, a small model of a few billion parameters, running on an internal server, does as well as a giant · for a fraction of the cost and without sending data out. The \"always the biggest model\" reflex is a frequent waste.",
+  "regard_fr": "Les petits modèles sont l'arme secrète de la souveraineté et de la sobriété : assez puissants pour l'essentiel, assez légers pour tourner chez vous. La vraie compétence n'est pas d'accéder au plus gros modèle, mais de choisir le plus petit qui suffit. C'est là que se logent les économies · et l'indépendance.",
+  "regard_en": "Small models are the secret weapon of sovereignty and frugality: powerful enough for the essentials, light enough to run at home. The real skill is not accessing the biggest model, but choosing the smallest that suffices. That is where the savings lie · and independence.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "parametres",
+    "ia-frugale",
+    "inference-locale",
+    "distillation"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (petit modèle de langage)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

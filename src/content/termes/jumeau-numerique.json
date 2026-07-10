@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Jumeau numérique",
+  "terme_en": "Digital twin",
+  "sous_titre_fr": "Digital twin",
+  "sous_titre_en": "Jumeau numérique",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Réplique numérique d'un objet, d'un système ou d'un processus physique, alimentée en données réelles, permettant de le simuler, de l'analyser et d'anticiper son comportement. Couplé à l'IA, le jumeau numérique optimise la maintenance, teste des scénarios sans risque et éclaire les décisions · de l'usine à la ville, en passant par le corps humain.",
+  "definition_en": "A digital replica of a physical object, system or process, fed with real data, allowing it to be simulated, analysed and its behaviour anticipated. Coupled with AI, the digital twin optimises maintenance, tests scenarios risk-free and informs decisions · from the factory to the city, including the human body.",
+  "exemple_fr": "Un industriel crée le jumeau numérique d'une ligne de production. Avant de modifier la vraie ligne, il teste ses changements sur le jumeau, alimenté par les données réelles des machines. Il anticipe les problèmes, optimise les réglages, évite des arrêts coûteux. Le jumeau permet d'expérimenter sans risque sur le réel.",
+  "exemple_en": "A manufacturer creates the digital twin of a production line. Before modifying the real line, they test their changes on the twin, fed by the machines' real data. They anticipate problems, optimise settings, avoid costly stoppages. The twin allows experimenting risk-free on the real.",
+  "regard_fr": "Le jumeau numérique illustre une IA utile et concrète, loin des chatbots : simuler pour mieux décider. Sa valeur dépend de la qualité des données qui l'alimentent · un jumeau nourri de données fausses simule un monde faux. Comme toujours, la puissance de l'outil ne vaut que par la rigueur de ce qu'on lui donne.",
+  "regard_en": "The digital twin illustrates a useful, concrete AI, far from chatbots: simulating to decide better. Its value depends on the quality of the data feeding it · a twin fed false data simulates a false world. As always, the tool's power is only worth the rigour of what is given to it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-industrie",
+    "ia-non-generative",
+    "modeles-monde",
+    "qualite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · jumeau numérique",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

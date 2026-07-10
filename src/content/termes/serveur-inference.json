@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Serveur d'inférence",
+  "terme_en": "Inference server",
+  "sous_titre_fr": "Inference server",
+  "sous_titre_en": "Serveur d'inférence",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Logiciel spécialisé optimisant l'exécution d'un modèle d'IA en production : il gère les requêtes, le traitement par lots, la mémoire et le débit pour servir efficacement de nombreux utilisateurs. Des serveurs d'inférence comme vLLM sont la brique technique qui permet de déployer un modèle ouvert de façon performante et souveraine.",
+  "definition_en": "Specialised software optimising the execution of an AI model in production: it manages requests, batching, memory and throughput to efficiently serve many users. Inference servers like vLLM are the technical brick that allows deploying an open model performantly and sovereignly.",
+  "exemple_fr": "Une entreprise déploie un modèle ouvert pour 500 collaborateurs. Sans serveur d'inférence optimisé, le modèle serait lent et coûteux. Avec vLLM, les requêtes sont regroupées et traitées efficacement : le modèle sert tout le monde de façon fluide, sur une infrastructure maîtrisée. Le serveur d'inférence rend la souveraineté opérationnelle.",
+  "exemple_en": "A company deploys an open model for 500 employees. Without an optimised inference server, the model would be slow and costly. With vLLM, requests are batched and processed efficiently: the model serves everyone smoothly, on controlled infrastructure. The inference server makes sovereignty operational.",
+  "regard_fr": "Le serveur d'inférence est le maillon technique discret qui rend la souveraineté réaliste : sans lui, héberger son propre modèle serait inefficace. Ces outils open source · vLLM et ses semblables · sont des communs précieux. Ils prouvent qu'une IA performante et maîtrisée en interne n'est pas un rêve, mais une ingénierie disponible.",
+  "regard_en": "The inference server is the discreet technical link that makes sovereignty realistic: without it, hosting your own model would be inefficient. These open-source tools · vLLM and its peers · are precious commons. They prove that performant, internally controlled AI is not a dream, but available engineering.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "vllm",
+    "inference",
+    "gpu",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation vLLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Espace latent",
+  "terme_en": "Latent space",
+  "sous_titre_fr": "Latent space",
+  "sous_titre_en": "Espace latent",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Représentation abstraite et compacte dans laquelle un modèle encode les caractéristiques essentielles des données, sous forme de vecteurs. Dans l'espace latent, les proximités reflètent des similarités de sens ou de contenu. C'est l'espace où « pense » un modèle génératif · manipuler ce lieu invisible permet de contrôler ce qu'il produit.",
+  "definition_en": "An abstract, compact representation in which a model encodes the essential features of data, as vectors. In the latent space, proximities reflect similarities of meaning or content. It is the space where a generative model \"thinks\" · manipulating this invisible place allows controlling what it produces.",
+  "exemple_fr": "Dans l'espace latent d'un générateur d'images, on peut se « déplacer » entre le vecteur d'un visage souriant et celui d'un visage neutre, et générer tous les intermédiaires. L'espace latent capture ainsi des variations continues et signifiantes · sourire, âge, orientation · qu'aucune règle explicite n'a définies.",
+  "exemple_en": "In an image generator's latent space, one can \"move\" between the vector of a smiling face and that of a neutral one, and generate all the intermediates. The latent space thus captures continuous, meaningful variations · smile, age, orientation · that no explicit rule defined.",
+  "regard_fr": "L'espace latent est le lieu le plus mystérieux et fascinant de l'IA générative : une géographie abstraite où le sens devient géométrie. Le comprendre, même intuitivement, aide à saisir comment un modèle « organise » ce qu'il a appris · et pourquoi ses productions ont cette étrange cohérence, sans qu'on lui ait rien dicté.",
+  "regard_en": "The latent space is the most mysterious and fascinating place of generative AI: an abstract geography where meaning becomes geometry. Understanding it, even intuitively, helps grasp how a model \"organises\" what it has learned · and why its productions have that strange coherence, without anything being dictated to it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "embedding",
+    "autoencodeur",
+    "modele-generatif",
+    "reduction-dimension"
+  ],
+  "sources": [
+    {
+      "titre": "Littérature sur les représentations latentes"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

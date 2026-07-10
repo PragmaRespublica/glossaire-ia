@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Génération d'images par IA",
+  "terme_en": "AI image generation",
+  "sous_titre_fr": "AI image generation",
+  "sous_titre_en": "Génération d'images par IA",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Production d'images originales par une IA à partir d'une description textuelle (prompt) ou d'autres entrées. Portée par les modèles de diffusion (Midjourney, Stable Diffusion, DALL-E), elle transforme les métiers créatifs · gain de productivité majeur, mais questions aiguës de droit d'auteur, d'authenticité et d'impact sur les créateurs.",
+  "definition_en": "The production of original images by an AI from a text description (prompt) or other inputs. Driven by diffusion models (Midjourney, Stable Diffusion, DALL-E), it transforms creative jobs · a major productivity gain, but sharp questions of copyright, authenticity and impact on creators.",
+  "exemple_fr": "Une agence produit des dizaines de visuels de campagne en une après-midi, là où il fallait des jours. Gain spectaculaire. Mais elle doit vérifier que les images ne reproduisent pas d'œuvres protégées, et se demander ce que devient le travail de ses illustrateurs. La génération d'images libère du temps · et bouscule tout un écosystème.",
+  "exemple_en": "An agency produces dozens of campaign visuals in an afternoon, where it took days. A spectacular gain. But it must verify the images do not reproduce protected works, and ask what becomes of its illustrators' work. Image generation frees time · and shakes up a whole ecosystem.",
+  "regard_fr": "La génération d'images est l'un des usages où l'IA impressionne le plus · et interroge le plus. Derrière la facilité de produire se cachent des œuvres d'artistes qui ont nourri les modèles, souvent sans consentement. Utiliser ces outils avec lucidité, c'est aussi se soucier de la chaîne humaine qui les a rendus possibles.",
+  "regard_en": "Image generation is one of the uses where AI most impresses · and most raises questions. Behind the ease of producing lie artists' works that fed the models, often without consent. Using these tools lucidly also means caring about the human chain that made them possible.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "modeles-diffusion",
+    "droits-auteur-ia",
+    "prompt-negatif",
+    "deepfake"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · génération automatique d'image",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,195 @@
+{
+  "gan": {
+    "sous_titre_fr": "Generative Adversarial Network (GAN)",
+    "sous_titre_en": "Réseau antagoniste génératif",
+    "definition_fr": "Architecture générative où deux réseaux s'affrontent : un générateur produit des données, un discriminateur tente de distinguer le vrai du faux. Par cette compétition, le générateur s'améliore jusqu'à produire des données très réalistes. Les GAN ont marqué l'essor de la génération d'images · avant d'être largement supplantés par les modèles de diffusion.",
+    "definition_en": "A generative architecture where two networks compete: a generator produces data, a discriminator tries to distinguish real from fake. Through this competition, the generator improves until it produces very realistic data. GANs marked the rise of image generation · before being largely superseded by diffusion models.",
+    "exemple_fr": "Les premiers visages synthétiques hyperréalistes · ces « personnes qui n'existent pas » · sont nés des GAN. Le générateur apprenait à tromper le discriminateur, jusqu'à produire des visages indiscernables de vraies photos. Cette course entre faussaire et expert illustre de façon frappante le principe de l'apprentissage antagoniste.",
+    "exemple_en": "The first hyper-realistic synthetic faces · those \"people who don't exist\" · were born from GANs. The generator learned to fool the discriminator, until producing faces indistinguishable from real photos. This race between forger and expert strikingly illustrates the principle of adversarial learning.",
+    "regard_fr": "Les GAN ont été la première démonstration spectaculaire que l'IA pouvait fabriquer du réel convaincant · et donc du faux. Ils ont ouvert l'ère des hypertrucages autant que celle de la création assistée. Toute technologie générative porte cette dualité dès l'origine : créer et tromper sont les deux faces d'un même pouvoir.",
+    "regard_en": "GANs were the first spectacular demonstration that AI could fabricate convincing reality · and therefore fakery. They opened the era of deepfakes as much as that of assisted creation. Every generative technology carries this duality from the start: creating and deceiving are two faces of the same power.",
+    "termes_lies": [
+      "modeles-diffusion",
+      "modele-generatif",
+      "deepfake",
+      "espace-latent"
+    ],
+    "sources": [
+      {
+        "titre": "Goodfellow et al. · Generative Adversarial Networks"
+      }
+    ]
+  },
+  "autoencodeur": {
+    "sous_titre_fr": "Autoencoder",
+    "sous_titre_en": "Autoencodeur",
+    "definition_fr": "Réseau de neurones qui apprend à compresser des données en une représentation compacte (encodage) puis à les reconstruire (décodage). En forçant l'information à passer par un goulot, l'autoencodeur extrait l'essentiel des données. Utilisé pour la réduction de dimension, la détection d'anomalies et comme brique de modèles génératifs.",
+    "definition_en": "A neural network that learns to compress data into a compact representation (encoding) then reconstruct it (decoding). By forcing information through a bottleneck, the autoencoder extracts the essence of the data. Used for dimensionality reduction, anomaly detection and as a building block of generative models.",
+    "exemple_fr": "Un autoencodeur entraîné sur des machines en bon fonctionnement reconstruit fidèlement leurs signaux normaux. Face à un signal anormal · panne naissante · il échoue à le reconstruire correctement : l'écart signale l'anomalie. L'autoencodeur détecte ainsi le nouveau en apprenant seulement le normal. Une élégante ruse d'ingénierie.",
+    "exemple_en": "An autoencoder trained on well-functioning machines faithfully reconstructs their normal signals. Facing an abnormal signal · an emerging breakdown · it fails to reconstruct it correctly: the gap signals the anomaly. The autoencoder thus detects the new by learning only the normal. An elegant engineering trick.",
+    "regard_fr": "L'autoencodeur illustre une idée profonde : apprendre à reconstruire, c'est apprendre à comprendre. Ce qu'un système peut recréer, il l'a en un sens saisi ; ce qu'il rate, il ne le connaît pas. Cette logique · comprendre par la reconstruction · irrigue une bonne partie de l'IA moderne, bien au-delà de l'autoencodeur lui-même.",
+    "regard_en": "The autoencoder illustrates a deep idea: learning to reconstruct is learning to understand. What a system can recreate, it has in a sense grasped; what it misses, it does not know. This logic · understanding through reconstruction · runs through much of modern AI, well beyond the autoencoder itself.",
+    "termes_lies": [
+      "espace-latent",
+      "reduction-dimension",
+      "detection-anomalies",
+      "encodeur-decodeur"
+    ],
+    "sources": [
+      {
+        "titre": "Littérature sur les autoencodeurs"
+      }
+    ]
+  },
+  "espace-latent": {
+    "sous_titre_fr": "Latent space",
+    "sous_titre_en": "Espace latent",
+    "definition_fr": "Représentation abstraite et compacte dans laquelle un modèle encode les caractéristiques essentielles des données, sous forme de vecteurs. Dans l'espace latent, les proximités reflètent des similarités de sens ou de contenu. C'est l'espace où « pense » un modèle génératif · manipuler ce lieu invisible permet de contrôler ce qu'il produit.",
+    "definition_en": "An abstract, compact representation in which a model encodes the essential features of data, as vectors. In the latent space, proximities reflect similarities of meaning or content. It is the space where a generative model \"thinks\" · manipulating this invisible place allows controlling what it produces.",
+    "exemple_fr": "Dans l'espace latent d'un générateur d'images, on peut se « déplacer » entre le vecteur d'un visage souriant et celui d'un visage neutre, et générer tous les intermédiaires. L'espace latent capture ainsi des variations continues et signifiantes · sourire, âge, orientation · qu'aucune règle explicite n'a définies.",
+    "exemple_en": "In an image generator's latent space, one can \"move\" between the vector of a smiling face and that of a neutral one, and generate all the intermediates. The latent space thus captures continuous, meaningful variations · smile, age, orientation · that no explicit rule defined.",
+    "regard_fr": "L'espace latent est le lieu le plus mystérieux et fascinant de l'IA générative : une géographie abstraite où le sens devient géométrie. Le comprendre, même intuitivement, aide à saisir comment un modèle « organise » ce qu'il a appris · et pourquoi ses productions ont cette étrange cohérence, sans qu'on lui ait rien dicté.",
+    "regard_en": "The latent space is the most mysterious and fascinating place of generative AI: an abstract geography where meaning becomes geometry. Understanding it, even intuitively, helps grasp how a model \"organises\" what it has learned · and why its productions have that strange coherence, without anything being dictated to it.",
+    "termes_lies": [
+      "embedding",
+      "autoencodeur",
+      "modele-generatif",
+      "reduction-dimension"
+    ],
+    "sources": [
+      {
+        "titre": "Littérature sur les représentations latentes"
+      }
+    ]
+  },
+  "encodeur-decodeur": {
+    "sous_titre_fr": "Encoder-decoder",
+    "sous_titre_en": "Encodeur-décodeur",
+    "definition_fr": "Architecture en deux parties : un encodeur transforme l'entrée en une représentation interne, un décodeur produit la sortie à partir de cette représentation. Naturelle pour les tâches de transformation · traduction, résumé, transcription · elle sépare la compréhension de l'entrée de la génération de la sortie. Une structure fondatrice de nombreux modèles.",
+    "definition_en": "A two-part architecture: an encoder transforms the input into an internal representation, a decoder produces the output from this representation. Natural for transformation tasks · translation, summarisation, transcription · it separates understanding the input from generating the output. A founding structure of many models.",
+    "exemple_fr": "Pour traduire du français vers l'anglais, l'encodeur « lit » et comprend la phrase française en la condensant en une représentation de sens, puis le décodeur « écrit » la phrase anglaise à partir de ce sens. Cette séparation lecture/écriture, propre, est la base historique de la traduction automatique neuronale moderne.",
+    "exemple_en": "To translate from French to English, the encoder \"reads\" and understands the French sentence by condensing it into a meaning representation, then the decoder \"writes\" the English sentence from this meaning. This clean reading/writing separation is the historical basis of modern neural machine translation.",
+    "regard_fr": "L'architecture encodeur-décodeur incarne une intuition élégante : comprendre puis produire sont deux étapes distinctes. Cette séparation, longtemps dominante, éclaire encore le fonctionnement de nombreux systèmes. La connaître aide à comprendre pourquoi certaines tâches · comme la traduction · ont structuré l'histoire de l'IA du langage.",
+    "regard_en": "The encoder-decoder architecture embodies an elegant intuition: understanding then producing are two distinct steps. This separation, long dominant, still illuminates how many systems work. Knowing it helps understand why certain tasks · like translation · structured the history of language AI.",
+    "termes_lies": [
+      "transformer",
+      "traduction-automatique",
+      "autoencodeur",
+      "nlp"
+    ],
+    "sources": [
+      {
+        "titre": "Littérature sur les architectures seq2seq"
+      }
+    ]
+  },
+  "reseau-convolutif": {
+    "sous_titre_fr": "Convolutional Neural Network (CNN)",
+    "sous_titre_en": "Réseau de neurones convolutif",
+    "definition_fr": "Architecture de réseau spécialisée dans le traitement d'images, qui applique des filtres balayant l'image pour détecter des motifs locaux (contours, textures, formes). Les réseaux convolutifs ont dominé la vision par ordinateur pendant une décennie et restent très utilisés · efficaces et sobres pour de nombreuses tâches visuelles.",
+    "definition_en": "A network architecture specialised in image processing, applying filters that sweep the image to detect local patterns (edges, textures, shapes). Convolutional networks dominated computer vision for a decade and remain widely used · efficient and frugal for many visual tasks.",
+    "exemple_fr": "Un réseau convolutif de contrôle qualité inspecte des images de pièces : ses filtres détectent d'abord des contours, puis des motifs, enfin des défauts caractéristiques. Léger et rapide, il tourne sur du matériel modeste. Pour beaucoup de tâches de vision, il reste préférable à des modèles génératifs bien plus lourds.",
+    "exemple_en": "A quality-control convolutional network inspects images of parts: its filters first detect edges, then patterns, finally characteristic defects. Light and fast, it runs on modest hardware. For many vision tasks, it remains preferable to far heavier generative models.",
+    "regard_fr": "Le réseau convolutif rappelle qu'en IA, la bonne architecture pour un problème vaut mieux qu'un modèle géant généraliste. Pour de nombreuses tâches de vision, un CNN sobre et spécialisé bat un grand modèle multimodal · plus rapide, moins cher, plus facile à déployer localement. La spécialisation reste une vertu.",
+    "regard_en": "The convolutional network recalls that in AI, the right architecture for a problem beats a giant generalist model. For many vision tasks, a frugal, specialised CNN beats a large multimodal model · faster, cheaper, easier to deploy locally. Specialisation remains a virtue.",
+    "termes_lies": [
+      "vision-ordinateur",
+      "reseau-neurones",
+      "apprentissage-profond",
+      "ia-frugale"
+    ],
+    "sources": [
+      {
+        "titre": "OQLF · Vitrine linguistique (réseau de neurones convolutif)",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+      }
+    ]
+  },
+  "reseau-recurrent": {
+    "sous_titre_fr": "Recurrent Neural Network (RNN)",
+    "sous_titre_en": "Réseau de neurones récurrent",
+    "definition_fr": "Architecture conçue pour traiter des séquences (texte, séries temporelles, parole) en conservant une mémoire des éléments précédents. Longtemps la référence pour le langage, les réseaux récurrents peinaient sur les longues dépendances · un problème que les transformers ont résolu, les reléguant en partie au second plan.",
+    "definition_en": "An architecture designed to process sequences (text, time series, speech) by keeping a memory of previous elements. Long the reference for language, recurrent networks struggled with long dependencies · a problem transformers solved, partly relegating them to the background.",
+    "exemple_fr": "Avant les transformers, les réseaux récurrents traitaient le langage mot après mot en gardant une mémoire · mais oubliaient le début d'une longue phrase avant d'en atteindre la fin. Cette limite sur les longues dépendances a motivé l'invention de l'attention. L'histoire des RNN éclaire pourquoi les transformers ont tout changé.",
+    "exemple_en": "Before transformers, recurrent networks processed language word after word while keeping a memory · but forgot the start of a long sentence before reaching its end. This limit on long dependencies motivated the invention of attention. The history of RNNs illuminates why transformers changed everything.",
+    "regard_fr": "Le déclin des réseaux récurrents face aux transformers illustre le rythme brutal de l'IA : une architecture dominante peut être supplantée en quelques années. Cela invite à la prudence face à tout ce qui semble définitivement acquis · en IA, l'état de l'art d'aujourd'hui sera peut-être la note de bas de page de demain.",
+    "regard_en": "The decline of recurrent networks against transformers illustrates AI's brutal pace: a dominant architecture can be supplanted in a few years. This invites caution towards anything that seems definitively settled · in AI, today's state of the art may be tomorrow's footnote.",
+    "termes_lies": [
+      "transformer",
+      "reseau-neurones",
+      "nlp",
+      "mecanisme-attention"
+    ],
+    "sources": [
+      {
+        "titre": "OQLF · Vitrine linguistique (réseau de neurones récurrent)",
+        "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+      }
+    ]
+  },
+  "generation-images": {
+    "sous_titre_fr": "AI image generation",
+    "sous_titre_en": "Génération d'images par IA",
+    "definition_fr": "Production d'images originales par une IA à partir d'une description textuelle (prompt) ou d'autres entrées. Portée par les modèles de diffusion (Midjourney, Stable Diffusion, DALL-E), elle transforme les métiers créatifs · gain de productivité majeur, mais questions aiguës de droit d'auteur, d'authenticité et d'impact sur les créateurs.",
+    "definition_en": "The production of original images by an AI from a text description (prompt) or other inputs. Driven by diffusion models (Midjourney, Stable Diffusion, DALL-E), it transforms creative jobs · a major productivity gain, but sharp questions of copyright, authenticity and impact on creators.",
+    "exemple_fr": "Une agence produit des dizaines de visuels de campagne en une après-midi, là où il fallait des jours. Gain spectaculaire. Mais elle doit vérifier que les images ne reproduisent pas d'œuvres protégées, et se demander ce que devient le travail de ses illustrateurs. La génération d'images libère du temps · et bouscule tout un écosystème.",
+    "exemple_en": "An agency produces dozens of campaign visuals in an afternoon, where it took days. A spectacular gain. But it must verify the images do not reproduce protected works, and ask what becomes of its illustrators' work. Image generation frees time · and shakes up a whole ecosystem.",
+    "regard_fr": "La génération d'images est l'un des usages où l'IA impressionne le plus · et interroge le plus. Derrière la facilité de produire se cachent des œuvres d'artistes qui ont nourri les modèles, souvent sans consentement. Utiliser ces outils avec lucidité, c'est aussi se soucier de la chaîne humaine qui les a rendus possibles.",
+    "regard_en": "Image generation is one of the uses where AI most impresses · and most raises questions. Behind the ease of producing lie artists' works that fed the models, often without consent. Using these tools lucidly also means caring about the human chain that made them possible.",
+    "termes_lies": [
+      "modeles-diffusion",
+      "droits-auteur-ia",
+      "prompt-negatif",
+      "deepfake"
+    ],
+    "sources": [
+      {
+        "titre": "FranceTerme · génération automatique d'image",
+        "url": "https://www.culture.fr/franceterme"
+      }
+    ]
+  },
+  "generation-video": {
+    "sous_titre_fr": "AI video generation",
+    "sous_titre_en": "Génération de vidéo par IA",
+    "definition_fr": "Production de séquences vidéo par une IA à partir d'un texte, d'une image ou d'autres entrées. Domaine en progression fulgurante (Sora et concurrents), la génération de vidéo ouvre des possibilités créatives immenses · mais décuple les enjeux d'hypertrucage, de désinformation et de consommation énergétique, la vidéo étant très coûteuse à générer.",
+    "definition_en": "The production of video sequences by an AI from text, an image or other inputs. A field progressing at lightning speed (Sora and competitors), video generation opens immense creative possibilities · but multiplies the stakes of deepfakes, disinformation and energy consumption, video being very costly to generate.",
+    "exemple_fr": "Une entreprise génère une vidéo promotionnelle à partir d'un simple script, sans tournage. Économie considérable. Mais la même technologie permet de fabriquer de faux discours d'une personnalité, indiscernables du vrai. La génération de vidéo est un outil créatif puissant · et l'arme la plus inquiétante de la désinformation.",
+    "exemple_en": "A company generates a promotional video from a simple script, without filming. A considerable saving. But the same technology allows fabricating false speeches by a public figure, indistinguishable from the real. Video generation is a powerful creative tool · and disinformation's most worrying weapon.",
+    "regard_fr": "La génération de vidéo pousse à l'extrême la question de la confiance : bientôt, aucune image animée ne pourra être crue sur sa seule apparence. C'est un basculement civilisationnel. Les technologies de provenance (C2PA) et l'esprit critique ne sont plus des options · ils deviennent les conditions d'un rapport sain à l'information.",
+    "regard_en": "Video generation pushes the trust question to the extreme: soon, no moving image can be believed on its appearance alone. It is a civilisational shift. Provenance technologies (C2PA) and critical thinking are no longer options · they become the conditions of a healthy relationship with information.",
+    "termes_lies": [
+      "generation-images",
+      "deepfake",
+      "c2pa",
+      "consommation-electrique"
+    ],
+    "sources": [
+      {
+        "titre": "Documentation des modèles de génération vidéo"
+      }
+    ]
+  },
+  "generation-audio": {
+    "sous_titre_fr": "AI audio and music generation",
+    "sous_titre_en": "Génération audio et musicale",
+    "definition_fr": "Production de sons, de voix et de musique par une IA à partir de descriptions ou d'exemples. De la synthèse vocale expressive à la composition musicale complète, elle transforme les industries du son · avec les mêmes tensions qu'ailleurs : opportunités créatives, questions de droit d'auteur, et impact sur les métiers artistiques.",
+    "definition_en": "The production of sounds, voices and music by an AI from descriptions or examples. From expressive voice synthesis to complete musical composition, it transforms the sound industries · with the same tensions as elsewhere: creative opportunities, copyright questions, and impact on artistic professions.",
+    "exemple_fr": "Un créateur de podcast génère une musique d'habillage sur mesure et une voix de synthèse pour ses intros, sans studio ni musicien. Gain de temps et de coût réel. Mais des morceaux générés dans le style d'artistes existants soulèvent la question du droit · et de la juste rémunération de ceux dont l'œuvre a nourri les modèles.",
+    "exemple_en": "A podcast creator generates custom background music and a synthetic voice for their intros, without a studio or musician. Real time and cost savings. But tracks generated in the style of existing artists raise the question of rights · and of fair remuneration for those whose work fed the models.",
+    "regard_fr": "La génération audio démocratise la création sonore · une chance pour les créateurs indépendants. Mais elle rejoue la tension centrale de l'IA générative : ce qui libère les uns peut spolier les autres. Un usage responsable suppose de rester attentif à la provenance et aux droits des artistes dont les modèles s'inspirent.",
+    "regard_en": "Audio generation democratises sound creation · a boon for independent creators. But it replays generative AI's central tension: what frees some can despoil others. Responsible use means staying attentive to provenance and to the rights of the artists the models draw on.",
+    "termes_lies": [
+      "synthese-vocale",
+      "clonage-vocal",
+      "droits-auteur-ia",
+      "multimodal"
+    ],
+    "sources": [
+      {
+        "titre": "FranceTerme · génération automatique d'audio",
+        "url": "https://www.culture.fr/franceterme"
+      }
+    ]
+  }
+}

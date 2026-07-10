@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Synthèse vocale",
+  "terme_en": "Text-to-speech",
+  "sous_titre_fr": "Text-to-speech (TTS)",
+  "sous_titre_en": "Synthèse vocale",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technologie convertissant du texte en parole. Les voix de synthèse modernes sont devenues remarquablement naturelles et expressives · au point qu'on peut les confondre avec des voix humaines. Précieuse pour l'accessibilité et les assistants vocaux, elle pose aussi la question du clonage vocal et de la transparence.",
+  "definition_en": "Technology converting text into speech. Modern synthetic voices have become remarkably natural and expressive · to the point of being mistaken for human voices. Precious for accessibility and voice assistants, it also raises the question of voice cloning and transparency.",
+  "exemple_fr": "Une personne malvoyante fait lire ses documents par une synthèse vocale naturelle et agréable · un gain d'autonomie majeur. Mais la même technologie, capable d'imiter n'importe quelle voix, peut servir à des fraudes. Le progrès de la synthèse vocale est réel et utile · il impose aussi de nouvelles vigilances.",
+  "exemple_en": "A visually impaired person has their documents read by a natural, pleasant voice synthesis · a major gain in autonomy. But the same technology, able to imitate any voice, can serve frauds. The progress of voice synthesis is real and useful · it also demands new vigilance.",
+  "regard_fr": "La synthèse vocale illustre à merveille la dualité de l'IA : elle rend le monde plus accessible aux uns, plus manipulable par les autres. Célébrer ses bienfaits (accessibilité) sans nier ses risques (fraude, clonage) est la posture juste · ni technophobie, ni angélisme, mais lucidité sur l'usage.",
+  "regard_en": "Voice synthesis perfectly illustrates AI's duality: it makes the world more accessible to some, more manipulable by others. Celebrating its benefits (accessibility) without denying its risks (fraud, cloning) is the right stance · neither technophobia nor naivety, but lucidity about use.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "reconnaissance-parole",
+    "clonage-vocal",
+    "ia-accessibilite",
+    "generation-audio"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (synthèse vocale de texte)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

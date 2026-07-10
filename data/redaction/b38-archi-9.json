@@ -1,0 +1,86 @@
+{
+  "logits": {
+    "sous_titre_fr": "Logits, scores bruts de sortie",
+    "sous_titre_en": "Raw output scores",
+    "definition_fr": "Valeurs numériques brutes produites par un modèle avant leur conversion en probabilités. Les logits indiquent la « préférence » relative du modèle pour chaque sortie possible ; une fonction les transforme ensuite en probabilités interprétables. Manipuler les logits permet de contrôler finement la génération · température, filtrage, contraintes.",
+    "definition_en": "The raw numeric values a model produces before their conversion into probabilities. Logits indicate the model's relative \"preference\" for each possible output; a function then transforms them into interpretable probabilities. Manipulating logits allows fine control of generation · temperature, filtering, constraints.",
+    "exemple_fr": "Pour forcer un modèle à répondre uniquement par « oui » ou « non », on peut agir sur les logits pour interdire tout autre token. De même, la température ajuste les logits avant de tirer le prochain mot. Ces réglages de bas niveau, invisibles pour l'utilisateur courant, sont des leviers puissants pour le développeur.",
+    "exemple_en": "To force a model to answer only \"yes\" or \"no\", one can act on the logits to forbid any other token. Likewise, temperature adjusts the logits before drawing the next word. These low-level settings, invisible to the everyday user, are powerful levers for the developer.",
+    "regard_fr": "Les logits rappellent qu'un LLM ne « choisit » pas un mot : il produit une distribution de préférences numériques, dans laquelle on pioche. Comprendre ce mécanisme démystifie la génération · il n'y a ni intention ni volonté derrière une réponse, seulement des scores et un tirage. La lucidité passe par ces détails.",
+    "regard_en": "Logits recall that a LLM does not \"choose\" a word: it produces a distribution of numeric preferences, from which one draws. Understanding this mechanism demystifies generation · there is neither intention nor will behind an answer, only scores and a draw. Lucidity passes through these details.",
+    "termes_lies": ["temperature", "top-p", "token", "modele-autoregressif"],
+    "sources": [{"titre": "Google · Machine Learning Glossary (logits)", "url": "https://developers.google.com/machine-learning/glossary"}]
+  },
+  "top-p": {
+    "sous_titre_fr": "Top-p, échantillonnage par noyau",
+    "sous_titre_en": "Nucleus sampling",
+    "definition_fr": "Paramètre de génération contrôlant la diversité des sorties d'un modèle : au lieu de considérer tous les mots possibles, il ne retient que les plus probables dont la probabilité cumulée atteint un seuil p. Un top-p bas rend le modèle prévisible et factuel ; un top-p élevé, plus créatif et varié. Un réglage complémentaire de la température.",
+    "definition_en": "A generation parameter controlling the diversity of a model's outputs: instead of considering all possible words, it keeps only the most probable whose cumulative probability reaches a threshold p. A low top-p makes the model predictable and factual; a high top-p, more creative and varied. A setting complementary to temperature.",
+    "exemple_fr": "Pour extraire des données factuelles, on règle un top-p bas : le modèle reste sur les mots les plus sûrs, sans fantaisie. Pour générer des idées créatives, on relève le top-p : le modèle ose des choix plus variés. Ces réglages, comme la température, adaptent le comportement du modèle à l'enjeu de la tâche.",
+    "exemple_en": "To extract factual data, one sets a low top-p: the model stays on the safest words, without fancy. To generate creative ideas, one raises top-p: the model dares more varied choices. These settings, like temperature, adapt the model's behaviour to the stakes of the task.",
+    "regard_fr": "Le top-p et la température sont les deux volants qui règlent le compromis entre fiabilité et créativité d'un modèle. Trop souvent laissés par défaut, ils méritent d'être maîtrisés : pour une tâche factuelle, brider la diversité réduit les hallucinations. Ces réglages sont un levier de fiabilité gratuit et sous-utilisé.",
+    "regard_en": "Top-p and temperature are the two dials that set the trade-off between a model's reliability and creativity. Too often left at default, they deserve to be mastered: for a factual task, curbing diversity reduces hallucinations. These settings are a free, underused reliability lever.",
+    "termes_lies": ["temperature", "logits", "hallucination", "token"],
+    "sources": [{"titre": "Documentation des API de LLM (top-p, nucleus sampling)"}]
+  },
+  "model-card": {
+    "sous_titre_fr": "Model card, notice de modèle",
+    "sous_titre_en": "Notice de modèle",
+    "definition_fr": "Document standardisé décrivant un modèle d'IA : ses capacités, ses limites, ses données d'entraînement, ses usages recommandés et déconseillés, ses biais connus, ses performances. La notice de modèle est un outil clé de transparence et de conformité · elle permet aux utilisateurs de choisir un modèle en connaissance de cause.",
+    "definition_en": "A standardised document describing an AI model: its capabilities, limits, training data, recommended and discouraged uses, known biases, performance. The model card is a key transparency and compliance tool · it lets users choose a model with full knowledge.",
+    "exemple_fr": "Avant d'intégrer un modèle, une équipe consulte sa notice : elle y apprend qu'il est peu fiable en français juridique et qu'il a été entraîné sur des données jusqu'à une certaine date. Ces informations évitent un mauvais choix. Un modèle sans notice claire devrait éveiller la méfiance · l'opacité n'est jamais bon signe.",
+    "exemple_en": "Before integrating a model, a team consults its card: they learn it is unreliable in French legal matters and was trained on data up to a certain date. This information avoids a bad choice. A model without a clear card should arouse suspicion · opacity is never a good sign.",
+    "regard_fr": "La notice de modèle est à l'IA ce que l'étiquette est à un produit : un minimum de transparence dû à l'utilisateur. L'exiger systématiquement, c'est refuser la boîte noire commerciale. Un fournisseur qui documente honnêtement capacités ET limites mérite plus de confiance que celui qui ne vante que les performances.",
+    "regard_en": "The model card is to AI what the label is to a product: a minimum of transparency owed to the user. Systematically demanding it means refusing the commercial black box. A provider that honestly documents capabilities AND limits deserves more trust than one that only touts performance.",
+    "termes_lies": ["gpai", "conformite-ia", "transparence-algorithmes", "biais-algorithmique"],
+    "sources": [{"titre": "FranceTerme · notice de modèle préentraîné", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "ontologie": {
+    "sous_titre_fr": "Ontology",
+    "sous_titre_en": "Ontologie",
+    "definition_fr": "Représentation formelle et structurée des concepts d'un domaine et des relations entre eux. Issue de l'IA symbolique, l'ontologie organise la connaissance de façon explicite et interrogeable · à la base des graphes de connaissances et du web sémantique. Elle apporte à l'IA une rigueur et une traçabilité que les modèles statistiques n'offrent pas.",
+    "definition_en": "A formal, structured representation of a domain's concepts and the relations between them. Stemming from symbolic AI, the ontology organises knowledge explicitly and queryably · at the base of knowledge graphs and the semantic web. It brings AI a rigour and traceability that statistical models do not offer.",
+    "exemple_fr": "Une entreprise pharmaceutique modélise dans une ontologie les relations entre molécules, maladies et traitements. Une question complexe · « quelles molécules agissent sur cette cible sans interagir avec ce traitement ? » · se résout par un raisonnement traçable sur l'ontologie, là où un LLM risquerait d'inventer. La rigueur du symbolique complète la souplesse du génératif.",
+    "exemple_en": "A pharmaceutical company models in an ontology the relations between molecules, diseases and treatments. A complex question · \"which molecules act on this target without interacting with this treatment?\" · is solved by traceable reasoning over the ontology, where a LLM might invent. The rigour of the symbolic complements the flexibility of the generative.",
+    "regard_fr": "L'ontologie rappelle qu'avant l'IA statistique, l'IA structurait explicitement le savoir · et que cette approche garde une vertu irremplaçable : la traçabilité. Pour les domaines où l'exactitude prime, marier ontologies et modèles génératifs est une voie d'avenir. Le neuro-symbolique n'est pas un retour en arrière, mais une synthèse.",
+    "regard_en": "The ontology recalls that before statistical AI, AI structured knowledge explicitly · and that this approach retains an irreplaceable virtue: traceability. For domains where accuracy prevails, marrying ontologies and generative models is a path forward. Neuro-symbolic is not a step back, but a synthesis.",
+    "termes_lies": ["graphe-connaissances", "web-semantique", "modeles-symboliques", "systeme-expert"],
+    "sources": [{"titre": "FranceTerme · ontologie informatique", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "web-semantique": {
+    "sous_titre_fr": "Semantic web",
+    "sous_titre_en": "Web sémantique",
+    "definition_fr": "Vision d'un web où l'information est structurée pour être comprise et traitée par les machines, grâce à des données liées et des ontologies. Antérieur à l'essor des LLM, le web sémantique reste une infrastructure de connaissance précieuse · les données structurées qu'il promeut sont une matière première de qualité pour une IA fiable et traçable.",
+    "definition_en": "A vision of a web where information is structured to be understood and processed by machines, thanks to linked data and ontologies. Predating the rise of LLMs, the semantic web remains a precious knowledge infrastructure · the structured data it promotes is a quality raw material for reliable, traceable AI.",
+    "exemple_fr": "Grâce aux données structurées du web sémantique, un moteur peut répondre directement « quelle est la capitale de tel pays ? » à partir de faits liés et vérifiables, plutôt que d'un texte à interpréter. Ces données structurées et sourcées sont un socle idéal pour ancrer une IA · fiables, traçables, interrogeables.",
+    "exemple_en": "Thanks to the semantic web's structured data, an engine can directly answer \"what is the capital of such a country?\" from linked, verifiable facts, rather than from text to interpret. This structured, sourced data is an ideal foundation for grounding an AI · reliable, traceable, queryable.",
+    "regard_fr": "Le web sémantique, souvent éclipsé par l'IA générative, garde une pertinence forte : il offre exactement ce qui manque aux LLM · des données structurées, liées et vérifiables. L'avenir d'une IA de confiance passera sans doute par la réconciliation du statistique et du structuré, du génératif et du sémantique.",
+    "regard_en": "The semantic web, often eclipsed by generative AI, retains strong relevance: it offers exactly what LLMs lack · structured, linked, verifiable data. The future of trustworthy AI will likely pass through the reconciliation of the statistical and the structured, the generative and the semantic.",
+    "termes_lies": ["ontologie", "graphe-connaissances", "donnees-fair", "graph-rag"],
+    "sources": [{"titre": "FranceTerme · toile sémantique", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "singularite": {
+    "sous_titre_fr": "Technological singularity",
+    "sous_titre_en": "Singularité technologique",
+    "definition_fr": "Hypothèse d'un point futur où l'IA, capable de s'améliorer elle-même, déclencherait une explosion d'intelligence échappant au contrôle et à la compréhension humaine. Concept spéculatif et débattu, la singularité relève autant de la philosophie et de la science-fiction que de la science · aucune preuve n'établit qu'elle soit proche ni même possible.",
+    "definition_en": "The hypothesis of a future point where AI, able to improve itself, would trigger an intelligence explosion escaping human control and understanding. A speculative and debated concept, the singularity belongs as much to philosophy and science fiction as to science · no evidence establishes it is near or even possible.",
+    "exemple_fr": "Certains dirigeants technologiques agitent la perspective d'une singularité proche · pour lever des fonds ou peser sur la régulation. D'autres chercheurs la jugent hautement spéculative. Face à ce terme, la prudence s'impose : distinguer les capacités réelles et mesurables de l'IA des projections vertigineuses est un exercice de lucidité.",
+    "exemple_en": "Some tech leaders wave the prospect of a near singularity · to raise funds or influence regulation. Other researchers judge it highly speculative. Facing this term, caution is required: distinguishing AI's real, measurable capabilities from dizzying projections is an exercise in lucidity.",
+    "regard_fr": "La singularité est un puissant récit · qui sert autant à fasciner qu'à détourner l'attention des enjeux présents et concrets de l'IA. Se focaliser sur une apocalypse ou un paradis hypothétiques fait oublier les vraies questions d'aujourd'hui : biais, souveraineté, impact, emploi. Le présent mérite plus d'attention que la prophétie.",
+    "regard_en": "The singularity is a powerful narrative · serving as much to fascinate as to divert attention from AI's present, concrete issues. Focusing on a hypothetical apocalypse or paradise makes people forget today's real questions: bias, sovereignty, impact, employment. The present deserves more attention than prophecy.",
+    "termes_lies": ["superintelligence", "agi", "hiver-ia", "alignement-ia"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (singularité technologique)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "superintelligence": {
+    "sous_titre_fr": "Superintelligence",
+    "sous_titre_en": "Superintelligence artificielle",
+    "definition_fr": "Hypothétique intelligence artificielle qui dépasserait très largement les capacités humaines dans tous les domaines. Objet central des débats sur les risques existentiels de l'IA, la superintelligence n'existe pas et sa possibilité même divise les experts · entre ceux qui la jugent imminente et inquiétante, et ceux qui la tiennent pour spéculative.",
+    "definition_en": "A hypothetical artificial intelligence that would vastly exceed human capabilities in all domains. A central object of debates on AI's existential risks, superintelligence does not exist and its very possibility divides experts · between those who judge it imminent and worrying, and those who consider it speculative.",
+    "exemple_fr": "Le débat sur la superintelligence oppose des visions radicalement différentes : pour les uns, il faut s'y préparer d'urgence ; pour les autres, c'est une distraction par rapport aux risques réels et présents. Ces désaccords entre experts eux-mêmes invitent à la prudence · nul ne sait, et l'assurance affichée cache souvent des intérêts.",
+    "exemple_en": "The debate on superintelligence pits radically different visions: for some, it must be urgently prepared for; for others, it is a distraction from real, present risks. These disagreements among experts themselves invite caution · no one knows, and displayed confidence often hides interests.",
+    "regard_fr": "La superintelligence est un concept où le vertige spéculatif se mêle aux stratégies d'influence. Sans nier la légitimité de la recherche sur la sûreté, gardons la mesure : les risques concrets et documentés de l'IA d'aujourd'hui · biais, désinformation, concentration de pouvoir · méritent au moins autant d'attention que ses futurs hypothétiques.",
+    "regard_en": "Superintelligence is a concept where speculative vertigo mixes with influence strategies. Without denying the legitimacy of safety research, let us keep perspective: AI's concrete, documented risks today · bias, disinformation, concentration of power · deserve at least as much attention as its hypothetical futures.",
+    "termes_lies": ["singularite", "agi", "alignement-ia", "ia-faible-forte"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (superintelligence artificielle)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  }
+}

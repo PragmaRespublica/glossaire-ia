@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Traitement par lots (batch)",
+  "terme_en": "Batch processing",
+  "sous_titre_fr": "Batch processing",
+  "sous_titre_en": "Traitement par lots",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Regroupement de plusieurs requêtes pour les traiter ensemble plutôt qu'une à une, afin d'optimiser l'usage du matériel. Pour l'inférence d'IA, le traitement par lots améliore fortement le débit et réduit le coût par requête · un levier d'efficience essentiel pour servir de nombreux utilisateurs sans multiplier les serveurs.",
+  "definition_en": "Grouping several requests to process them together rather than one by one, to optimise hardware use. For AI inference, batch processing strongly improves throughput and reduces cost per request · an essential efficiency lever to serve many users without multiplying servers.",
+  "exemple_fr": "Une plateforme reçoit des milliers de requêtes IA par minute. En les regroupant par lots pour les traiter ensemble sur ses GPU, elle multiplie son débit et divise son coût par requête. Sans traitement par lots, il faudrait bien plus de matériel · donc plus de dépenses et plus d'impact environnemental pour le même service.",
+  "exemple_en": "A platform receives thousands of AI requests a minute. By grouping them into batches to process together on its GPUs, it multiplies its throughput and divides its cost per request. Without batching, far more hardware would be needed · thus more spending and more environmental impact for the same service.",
+  "regard_fr": "Le traitement par lots est un levier discret de sobriété et d'économie : mieux utiliser le matériel qu'on a plutôt que d'en ajouter. Ces optimisations d'infrastructure, invisibles pour l'utilisateur, comptent autant que le choix du modèle dans le coût réel et l'empreinte d'un service d'IA. L'efficience se joue à tous les étages.",
+  "regard_en": "Batch processing is a discreet lever of frugality and economy: making better use of the hardware you have rather than adding more. These infrastructure optimisations, invisible to the user, matter as much as the choice of model in the real cost and footprint of an AI service. Efficiency plays out at every level.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "inference",
+    "serveur-inference",
+    "gpu",
+    "tarification-usage"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation technique sur l'inférence par lots"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

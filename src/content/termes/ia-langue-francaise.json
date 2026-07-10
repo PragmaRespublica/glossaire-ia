@@ -1,0 +1,38 @@
+{
+  "terme_fr": "IA et langue française",
+  "terme_en": "AI and the French language",
+  "sous_titre_fr": "AI and the French language",
+  "sous_titre_en": "IA et langue française",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des enjeux liés à la place du français dans l'IA : qualité des modèles en français, représentation dans les corpus, coût en tokens, préservation des nuances et des références culturelles. La sous-représentation du français dans les données d'entraînement en fait un enjeu de souveraineté linguistique et culturelle, pas seulement technique.",
+  "definition_en": "The set of issues around French's place in AI: model quality in French, representation in corpora, token cost, preservation of nuances and cultural references. French's under-representation in training data makes it a matter of linguistic and cultural sovereignty, not just a technical one.",
+  "exemple_fr": "Un même texte coûte plus de tokens en français qu'en anglais, et les modèles maîtrisent souvent moins bien nos subtilités et nos références. Des acteurs comme Mistral, entraînant sur du français de qualité, réduisent cet écart. Choisir un modèle qui respecte le français, c'est défendre une langue autant qu'optimiser un usage.",
+  "exemple_en": "The same text costs more tokens in French than in English, and models often master our subtleties and references less well. Players like Mistral, training on quality French, reduce this gap. Choosing a model that respects French means defending a language as much as optimising a use.",
+  "regard_fr": "L'IA se joue aussi sur le terrain de la langue : une IA majoritairement anglophone impose insensiblement ses cadres de pensée. Défendre une IA de qualité en français n'est pas du chauvinisme · c'est préserver une diversité de visions du monde. La langue façonne la pensée, et l'IA façonne désormais la langue.",
+  "regard_en": "AI also plays out on the terrain of language: a mostly English-speaking AI imperceptibly imposes its frames of thought. Defending quality AI in French is not chauvinism · it preserves a diversity of worldviews. Language shapes thought, and AI now shapes language.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "modeles-multilingues",
+    "corpus-entrainement",
+    "token",
+    "souverainete-numerique"
+  ],
+  "sources": [
+    {
+      "titre": "Travaux sur la place du français dans l'IA (OQLF, FranceTerme)",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

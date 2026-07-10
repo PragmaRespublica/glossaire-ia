@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Cache KV",
+  "terme_en": "KV cache",
+  "sous_titre_fr": "KV cache",
+  "sous_titre_en": "Cache clés-valeurs",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Mécanisme d'optimisation qui mémorise les calculs intermédiaires d'un modèle de langage pendant la génération, pour éviter de tout recalculer à chaque nouveau token. Le cache KV accélère fortement l'inférence · mais consomme de la mémoire proportionnellement à la longueur du contexte, ce qui limite en pratique les très longues conversations.",
+  "definition_en": "An optimisation mechanism that memorises a language model's intermediate computations during generation, to avoid recomputing everything at each new token. The KV cache strongly speeds up inference · but consumes memory proportionally to the context length, which in practice limits very long conversations.",
+  "exemple_fr": "Quand un assistant génère une longue réponse, le cache KV lui évite de retraiter tout le contexte à chaque mot · d'où sa rapidité. Mais sur un très long échange, ce cache gonfle et sature la mémoire du serveur. C'est l'une des raisons techniques pour lesquelles les très longs contextes restent coûteux à servir.",
+  "exemple_en": "When an assistant generates a long answer, the KV cache spares it from reprocessing the whole context at each word · hence its speed. But on a very long exchange, this cache swells and saturates the server's memory. It is one of the technical reasons why very long contexts remain costly to serve.",
+  "regard_fr": "Le cache KV est un rouage invisible qui explique bien des comportements concrets : la vitesse de génération, mais aussi le coût croissant des longs contextes. Comprendre ces contraintes techniques aide à faire des choix éclairés · par exemple préférer un RAG bien découpé à un contexte géant, plus coûteux qu'il n'en a l'air.",
+  "regard_en": "The KV cache is an invisible cog explaining many concrete behaviours: generation speed, but also the growing cost of long contexts. Understanding these technical constraints helps make informed choices · for example preferring a well-chunked RAG to a giant context, costlier than it seems.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "inference",
+    "auto-attention",
+    "fenetre-contextuelle",
+    "latence"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation technique sur l'inférence des LLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

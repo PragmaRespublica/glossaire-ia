@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Quantification de modèle",
+  "terme_en": "Model quantization",
+  "sous_titre_fr": "Model quantization",
+  "sous_titre_en": "Quantification de modèle",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technique réduisant la précision numérique des paramètres d'un modèle (par exemple de 16 à 4 bits) pour le rendre plus léger et plus rapide, avec une perte de qualité souvent minime. La quantification permet de faire tourner de grands modèles sur du matériel modeste · un levier clé pour l'inférence locale et l'IA frugale.",
+  "definition_en": "A technique reducing the numeric precision of a model's parameters (for example from 16 to 4 bits) to make it lighter and faster, with an often minimal quality loss. Quantization allows running large models on modest hardware · a key lever for local inference and frugal AI.",
+  "exemple_fr": "Un modèle trop lourd pour un serveur interne devient exécutable une fois quantifié : ses paramètres, stockés plus grossièrement, occupent quatre fois moins de mémoire. La qualité baisse à peine, mais le modèle tient désormais sur du matériel abordable. La quantification démocratise l'accès aux modèles performants.",
+  "exemple_en": "A model too heavy for an internal server becomes runnable once quantized: its parameters, stored more coarsely, take four times less memory. Quality barely drops, but the model now fits on affordable hardware. Quantization democratises access to performant models.",
+  "regard_fr": "La quantification est un des grands égalisateurs de l'IA : elle met des modèles puissants à la portée de qui n'a pas de fermes de GPU. Couplée aux poids ouverts et aux petits modèles, elle dessine une voie concrète vers une IA maîtrisée et hébergée localement · loin de la seule dépendance aux API des géants.",
+  "regard_en": "Quantization is one of AI's great equalisers: it puts powerful models within reach of those without GPU farms. Coupled with open weights and small models, it sketches a concrete path to controlled, locally hosted AI · far from sole dependence on the giants' APIs.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "elagage",
+    "distillation",
+    "inference-locale",
+    "ia-frugale"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur la quantification des modèles"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

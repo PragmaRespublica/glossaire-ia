@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Réseau antagoniste génératif (GAN)",
+  "terme_en": "Generative Adversarial Network (GAN)",
+  "sous_titre_fr": "Generative Adversarial Network (GAN)",
+  "sous_titre_en": "Réseau antagoniste génératif",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Architecture générative où deux réseaux s'affrontent : un générateur produit des données, un discriminateur tente de distinguer le vrai du faux. Par cette compétition, le générateur s'améliore jusqu'à produire des données très réalistes. Les GAN ont marqué l'essor de la génération d'images · avant d'être largement supplantés par les modèles de diffusion.",
+  "definition_en": "A generative architecture where two networks compete: a generator produces data, a discriminator tries to distinguish real from fake. Through this competition, the generator improves until it produces very realistic data. GANs marked the rise of image generation · before being largely superseded by diffusion models.",
+  "exemple_fr": "Les premiers visages synthétiques hyperréalistes · ces « personnes qui n'existent pas » · sont nés des GAN. Le générateur apprenait à tromper le discriminateur, jusqu'à produire des visages indiscernables de vraies photos. Cette course entre faussaire et expert illustre de façon frappante le principe de l'apprentissage antagoniste.",
+  "exemple_en": "The first hyper-realistic synthetic faces · those \"people who don't exist\" · were born from GANs. The generator learned to fool the discriminator, until producing faces indistinguishable from real photos. This race between forger and expert strikingly illustrates the principle of adversarial learning.",
+  "regard_fr": "Les GAN ont été la première démonstration spectaculaire que l'IA pouvait fabriquer du réel convaincant · et donc du faux. Ils ont ouvert l'ère des hypertrucages autant que celle de la création assistée. Toute technologie générative porte cette dualité dès l'origine : créer et tromper sont les deux faces d'un même pouvoir.",
+  "regard_en": "GANs were the first spectacular demonstration that AI could fabricate convincing reality · and therefore fakery. They opened the era of deepfakes as much as that of assisted creation. Every generative technology carries this duality from the start: creating and deceiving are two faces of the same power.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "modeles-diffusion",
+    "modele-generatif",
+    "deepfake",
+    "espace-latent"
+  ],
+  "sources": [
+    {
+      "titre": "Goodfellow et al. · Generative Adversarial Networks"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

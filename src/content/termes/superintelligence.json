@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Superintelligence",
+  "terme_en": "Superintelligence",
+  "sous_titre_fr": "Superintelligence",
+  "sous_titre_en": "Superintelligence artificielle",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Hypothétique intelligence artificielle qui dépasserait très largement les capacités humaines dans tous les domaines. Objet central des débats sur les risques existentiels de l'IA, la superintelligence n'existe pas et sa possibilité même divise les experts · entre ceux qui la jugent imminente et inquiétante, et ceux qui la tiennent pour spéculative.",
+  "definition_en": "A hypothetical artificial intelligence that would vastly exceed human capabilities in all domains. A central object of debates on AI's existential risks, superintelligence does not exist and its very possibility divides experts · between those who judge it imminent and worrying, and those who consider it speculative.",
+  "exemple_fr": "Le débat sur la superintelligence oppose des visions radicalement différentes : pour les uns, il faut s'y préparer d'urgence ; pour les autres, c'est une distraction par rapport aux risques réels et présents. Ces désaccords entre experts eux-mêmes invitent à la prudence · nul ne sait, et l'assurance affichée cache souvent des intérêts.",
+  "exemple_en": "The debate on superintelligence pits radically different visions: for some, it must be urgently prepared for; for others, it is a distraction from real, present risks. These disagreements among experts themselves invite caution · no one knows, and displayed confidence often hides interests.",
+  "regard_fr": "La superintelligence est un concept où le vertige spéculatif se mêle aux stratégies d'influence. Sans nier la légitimité de la recherche sur la sûreté, gardons la mesure : les risques concrets et documentés de l'IA d'aujourd'hui · biais, désinformation, concentration de pouvoir · méritent au moins autant d'attention que ses futurs hypothétiques.",
+  "regard_en": "Superintelligence is a concept where speculative vertigo mixes with influence strategies. Without denying the legitimacy of safety research, let us keep perspective: AI's concrete, documented risks today · bias, disinformation, concentration of power · deserve at least as much attention as its hypothetical futures.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "singularite",
+    "agi",
+    "alignement-ia",
+    "ia-faible-forte"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (superintelligence artificielle)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

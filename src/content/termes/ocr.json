@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Reconnaissance optique de caractères (OCR)",
+  "terme_en": "Optical Character Recognition (OCR)",
+  "sous_titre_fr": "Optical Character Recognition (OCR)",
+  "sous_titre_en": "Reconnaissance optique de caractères",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technologie convertissant en texte éditable le contenu d'images ou de documents scannés. Ancienne mais devenue très performante avec l'IA, l'OCR est la première étape indispensable pour exploiter des documents papier ou des PDF non structurés · notamment pour alimenter un RAG ou automatiser un traitement documentaire.",
+  "definition_en": "Technology converting the content of images or scanned documents into editable text. Old but now very effective with AI, OCR is the indispensable first step to exploit paper documents or unstructured PDFs · notably to feed a RAG or automate document processing.",
+  "exemple_fr": "Une entreprise veut interroger par IA vingt ans d'archives papier numérisées. Impossible sans OCR : il faut d'abord transformer ces images de pages en texte exploitable. La qualité de l'OCR conditionne tout le reste · un OCR défaillant sur des documents anciens produira un RAG qui hallucine sur des données mal lues.",
+  "exemple_en": "A company wants to query with AI twenty years of scanned paper archives. Impossible without OCR: these page images must first be turned into usable text. The OCR quality conditions everything else · a faulty OCR on old documents will produce a RAG that hallucinates on misread data.",
+  "regard_fr": "L'OCR est un rouage humble et décisif : sans lui, le patrimoine documentaire papier reste hors de portée de l'IA. On l'oublie souvent dans les projets, jusqu'à découvrir que la qualité des réponses dépend d'abord de la qualité de la lecture des documents sources. Le maillon le plus discret est parfois le plus critique.",
+  "regard_en": "OCR is a humble and decisive cog: without it, paper document heritage stays out of AI's reach. It is often forgotten in projects, until one discovers that answer quality depends first on the reading quality of source documents. The most discreet link is sometimes the most critical.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "idp",
+    "pipeline-ingestion",
+    "vision-ordinateur",
+    "donnees-structurees"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (reconnaissance optique de caractères)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

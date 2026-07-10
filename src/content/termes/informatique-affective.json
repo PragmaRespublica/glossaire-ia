@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Informatique affective",
+  "terme_en": "Affective computing",
+  "sous_titre_fr": "Affective computing",
+  "sous_titre_en": "Informatique affective",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Champ visant à doter les machines de la capacité de détecter, interpréter et simuler des émotions humaines. Scientifiquement fragile · l'expression n'est pas un indicateur fiable de l'état intérieur · et éthiquement sensible, l'informatique affective est en partie encadrée ou interdite par l'AI Act, notamment au travail et à l'école.",
+  "definition_en": "A field aiming to endow machines with the ability to detect, interpret and simulate human emotions. Scientifically fragile · expression is not a reliable indicator of inner state · and ethically sensitive, affective computing is partly framed or banned by the AI Act, notably at work and school.",
+  "exemple_fr": "Un logiciel prétend mesurer l'engagement d'élèves à leur expression faciale pendant un cours. Outre son interdiction dans ce contexte, il repose sur une base scientifique douteuse : un visage neutre ne signifie pas l'ennui. L'informatique affective vend une lecture des âmes que la science ne valide pas · une illusion technologique.",
+  "exemple_en": "Software claims to measure students' engagement from their facial expression during a class. Beyond its ban in this context, it rests on a dubious scientific basis: a neutral face does not mean boredom. Affective computing sells a reading of souls that science does not validate · a technological illusion.",
+  "regard_fr": "L'informatique affective est un domaine à regarder avec une double méfiance : scientifique (peut-on vraiment lire les émotions ?) et éthique (le devrait-on ?). Méfiez-vous des outils promettant de mesurer les sentiments · ils habillent de technologie une prétention que ni la science ni le respect des personnes ne justifient.",
+  "regard_en": "Affective computing is a field to view with double wariness: scientific (can emotions really be read?) and ethical (should they be?). Beware of tools promising to measure feelings · they dress in technology a claim that neither science nor respect for people justifies.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "reconnaissance-emotions",
+    "ia-compagnon",
+    "pratiques-interdites",
+    "ethique-ia"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · informatique affective",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

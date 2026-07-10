@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Hypertrucage (deepfake)",
+  "terme_en": "Deepfake",
+  "sous_titre_fr": "Hypertrucage, infox vidéo",
+  "sous_titre_en": "Deepfake",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Contenu · vidéo, image, audio · dans lequel l'IA remplace ou fabrique de façon réaliste le visage ou la voix d'une personne, lui faisant dire ou faire ce qu'elle n'a jamais fait. L'hypertrucage est le symbole le plus inquiétant des dérives de l'IA générative · usurpation, désinformation, atteinte à la réputation et à la dignité.",
+  "definition_en": "Content · video, image, audio · in which AI realistically replaces or fabricates a person's face or voice, making them say or do what they never did. The deepfake is the most worrying symbol of generative AI's excesses · impersonation, disinformation, damage to reputation and dignity.",
+  "exemple_fr": "Une fausse vidéo d'un dirigeant annonçant une fausse nouvelle circule et fait chuter une action avant d'être démentie. Ou une personne voit son visage détourné dans un contenu dégradant. L'hypertrucage transforme l'image et la voix · jadis preuves · en armes. La confiance dans le témoignage visuel en sort durablement ébranlée.",
+  "exemple_en": "A fake video of an executive announcing false news circulates and sends a stock plummeting before being debunked. Or a person sees their face hijacked in degrading content. The deepfake turns image and voice · once proof · into weapons. Trust in visual testimony emerges lastingly shaken.",
+  "regard_fr": "L'hypertrucage marque la fin d'une ère où voir, c'était croire. Face à cette rupture, la réponse est triple : technique (provenance, détection), juridique (l'AI Act impose le marquage), et humaine (esprit critique). Aucune n'est suffisante seule. La vigilance devient une compétence citoyenne de base à l'ère de l'image fabriquée.",
+  "regard_en": "The deepfake marks the end of an era when seeing was believing. Facing this break, the response is threefold: technical (provenance, detection), legal (the AI Act requires marking), and human (critical thinking). None is sufficient alone. Vigilance becomes a basic civic skill in the era of the fabricated image.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "generation-video",
+    "fraude-ia",
+    "c2pa",
+    "desinformation-ia"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · infox vidéo (deep fake)",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

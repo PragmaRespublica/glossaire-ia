@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Réseau de neurones récurrent (RNN)",
+  "terme_en": "Recurrent Neural Network (RNN)",
+  "sous_titre_fr": "Recurrent Neural Network (RNN)",
+  "sous_titre_en": "Réseau de neurones récurrent",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Architecture conçue pour traiter des séquences (texte, séries temporelles, parole) en conservant une mémoire des éléments précédents. Longtemps la référence pour le langage, les réseaux récurrents peinaient sur les longues dépendances · un problème que les transformers ont résolu, les reléguant en partie au second plan.",
+  "definition_en": "An architecture designed to process sequences (text, time series, speech) by keeping a memory of previous elements. Long the reference for language, recurrent networks struggled with long dependencies · a problem transformers solved, partly relegating them to the background.",
+  "exemple_fr": "Avant les transformers, les réseaux récurrents traitaient le langage mot après mot en gardant une mémoire · mais oubliaient le début d'une longue phrase avant d'en atteindre la fin. Cette limite sur les longues dépendances a motivé l'invention de l'attention. L'histoire des RNN éclaire pourquoi les transformers ont tout changé.",
+  "exemple_en": "Before transformers, recurrent networks processed language word after word while keeping a memory · but forgot the start of a long sentence before reaching its end. This limit on long dependencies motivated the invention of attention. The history of RNNs illuminates why transformers changed everything.",
+  "regard_fr": "Le déclin des réseaux récurrents face aux transformers illustre le rythme brutal de l'IA : une architecture dominante peut être supplantée en quelques années. Cela invite à la prudence face à tout ce qui semble définitivement acquis · en IA, l'état de l'art d'aujourd'hui sera peut-être la note de bas de page de demain.",
+  "regard_en": "The decline of recurrent networks against transformers illustrates AI's brutal pace: a dominant architecture can be supplanted in a few years. This invites caution towards anything that seems definitively settled · in AI, today's state of the art may be tomorrow's footnote.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "transformer",
+    "reseau-neurones",
+    "nlp",
+    "mecanisme-attention"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (réseau de neurones récurrent)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

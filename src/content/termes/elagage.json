@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Élagage de modèle",
+  "terme_en": "Model pruning",
+  "sous_titre_fr": "Model pruning",
+  "sous_titre_en": "Élagage de modèle",
+  "axe": "responsabilite",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technique supprimant les paramètres ou connexions d'un modèle jugés peu utiles, pour l'alléger sans dégrader significativement sa performance. Comme on élague un arbre, on retire le superflu pour garder l'essentiel. L'élagage réduit la taille, le coût et la consommation d'un modèle · un levier de sobriété complémentaire de la quantification.",
+  "definition_en": "A technique removing a model's parameters or connections deemed of little use, to lighten it without significantly degrading its performance. As one prunes a tree, the superfluous is removed to keep the essential. Pruning reduces a model's size, cost and consumption · a frugality lever complementary to quantization.",
+  "exemple_fr": "Après entraînement, on constate qu'une grande partie des connexions d'un modèle contribuent à peine à ses résultats. L'élagage les supprime : le modèle devient plus léger et plus rapide, pour une performance quasi identique. Comme souvent, moins mais mieux · retirer le superflu améliore l'efficience sans sacrifier l'utile.",
+  "exemple_en": "After training, one finds that much of a model's connections barely contribute to its results. Pruning removes them: the model becomes lighter and faster, for near-identical performance. As often, less but better · removing the superfluous improves efficiency without sacrificing the useful.",
+  "regard_fr": "L'élagage incarne une philosophie de sobriété appliquée à l'IA : tout ce qui est gros n'est pas utile, et alléger peut améliorer. Ces techniques de réduction · élagage, quantification, distillation · sont trop peu connues face à la course à la taille. Elles sont pourtant la voie d'une IA plus responsable et plus accessible.",
+  "regard_en": "Pruning embodies a philosophy of frugality applied to AI: not everything big is useful, and lightening can improve. These reduction techniques · pruning, quantization, distillation · are too little known against the race for size. They are yet the path to more responsible and more accessible AI.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "quantification",
+    "distillation",
+    "ia-frugale",
+    "parametres"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (élagage)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

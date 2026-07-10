@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Génération de vidéo par IA",
+  "terme_en": "AI video generation",
+  "sous_titre_fr": "AI video generation",
+  "sous_titre_en": "Génération de vidéo par IA",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Production de séquences vidéo par une IA à partir d'un texte, d'une image ou d'autres entrées. Domaine en progression fulgurante (Sora et concurrents), la génération de vidéo ouvre des possibilités créatives immenses · mais décuple les enjeux d'hypertrucage, de désinformation et de consommation énergétique, la vidéo étant très coûteuse à générer.",
+  "definition_en": "The production of video sequences by an AI from text, an image or other inputs. A field progressing at lightning speed (Sora and competitors), video generation opens immense creative possibilities · but multiplies the stakes of deepfakes, disinformation and energy consumption, video being very costly to generate.",
+  "exemple_fr": "Une entreprise génère une vidéo promotionnelle à partir d'un simple script, sans tournage. Économie considérable. Mais la même technologie permet de fabriquer de faux discours d'une personnalité, indiscernables du vrai. La génération de vidéo est un outil créatif puissant · et l'arme la plus inquiétante de la désinformation.",
+  "exemple_en": "A company generates a promotional video from a simple script, without filming. A considerable saving. But the same technology allows fabricating false speeches by a public figure, indistinguishable from the real. Video generation is a powerful creative tool · and disinformation's most worrying weapon.",
+  "regard_fr": "La génération de vidéo pousse à l'extrême la question de la confiance : bientôt, aucune image animée ne pourra être crue sur sa seule apparence. C'est un basculement civilisationnel. Les technologies de provenance (C2PA) et l'esprit critique ne sont plus des options · ils deviennent les conditions d'un rapport sain à l'information.",
+  "regard_en": "Video generation pushes the trust question to the extreme: soon, no moving image can be believed on its appearance alone. It is a civilisational shift. Provenance technologies (C2PA) and critical thinking are no longer options · they become the conditions of a healthy relationship with information.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "generation-images",
+    "deepfake",
+    "c2pa",
+    "consommation-electrique"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des modèles de génération vidéo"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

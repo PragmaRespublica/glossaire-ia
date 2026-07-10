@@ -1,0 +1,37 @@
+{
+  "terme_fr": "TPU · Tensor Processing Unit",
+  "terme_en": "TPU (Tensor Processing Unit)",
+  "sous_titre_fr": "Tensor Processing Unit",
+  "sous_titre_en": "Tensor Processing Unit",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Processeur conçu spécifiquement par Google pour accélérer les calculs d'IA, alternative aux GPU de NVIDIA. Optimisé pour les opérations matricielles des réseaux de neurones, le TPU illustre la spécialisation croissante du matériel d'IA · et l'enjeu géopolitique de la maîtrise de ces puces, dominée par quelques acteurs américains et asiatiques.",
+  "definition_en": "A processor designed specifically by Google to accelerate AI computations, an alternative to NVIDIA's GPUs. Optimised for the matrix operations of neural networks, the TPU illustrates the growing specialisation of AI hardware · and the geopolitical stake of controlling these chips, dominated by a few American and Asian players.",
+  "exemple_fr": "Pour entraîner ses modèles, Google utilise ses propres TPU plutôt que de dépendre entièrement de NVIDIA. Cette maîtrise du matériel est un avantage stratégique. À l'échelle d'un continent, la dépendance de l'Europe aux puces conçues et fabriquées ailleurs est l'un des maillons les plus fragiles de sa souveraineté sur l'IA.",
+  "exemple_en": "To train its models, Google uses its own TPUs rather than depending entirely on NVIDIA. This hardware control is a strategic advantage. At a continental scale, Europe's dependence on chips designed and made elsewhere is one of the most fragile links of its AI sovereignty.",
+  "regard_fr": "Le TPU rappelle que la souveraineté sur l'IA commence dans le silicium. Concevoir ses propres puces, comme le fait Google, confère une indépendance majeure. L'Europe, largement dépendante des puces étrangères, mesure là un talon d'Achille · d'où l'importance d'initiatives comme le Chips Act pour tenter de le combler.",
+  "regard_en": "The TPU recalls that AI sovereignty starts in silicon. Designing your own chips, as Google does, confers major independence. Europe, largely dependent on foreign chips, has here an Achilles' heel · hence the importance of initiatives like the Chips Act to try to close it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gpu",
+    "nvidia",
+    "chips-act",
+    "autonomie-strategique"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur les accélérateurs d'IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

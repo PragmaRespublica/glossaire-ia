@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Reconnaissance automatique de la parole",
+  "terme_en": "Automatic speech recognition",
+  "sous_titre_fr": "Automatic speech recognition (ASR)",
+  "sous_titre_en": "Reconnaissance automatique de la parole",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technologie convertissant la parole en texte. Longtemps limitée, elle atteint aujourd'hui une précision remarquable, y compris en français et sur des voix variées. Elle sous-tend la transcription, les assistants vocaux et l'accessibilité · avec des enjeux de vie privée dès lors qu'on enregistre et analyse la voix des personnes.",
+  "definition_en": "Technology converting speech into text. Long limited, it now reaches remarkable accuracy, including in French and on varied voices. It underpins transcription, voice assistants and accessibility · with privacy stakes as soon as people's voices are recorded and analysed.",
+  "exemple_fr": "Une réunion est transcrite en direct par reconnaissance de la parole, rendant le contenu accessible aux personnes sourdes et exploitable après coup. Bénéfice réel · à condition d'avoir informé et recueilli le consentement des participants, car la voix est une donnée personnelle. L'utilité technique ne dispense jamais du cadre.",
+  "exemple_en": "A meeting is transcribed live by speech recognition, making the content accessible to deaf people and usable afterwards. A real benefit · provided participants have been informed and consented, since the voice is personal data. Technical usefulness never exempts from the framework.",
+  "regard_fr": "La reconnaissance de la parole est une aubaine pour l'accessibilité · et un risque pour la vie privée. La même technologie qui inclut les personnes sourdes peut surveiller les conversations. Comme souvent, la ligne de partage n'est pas dans l'outil mais dans l'usage, le consentement et le cadre qu'on lui donne.",
+  "regard_en": "Speech recognition is a boon for accessibility · and a privacy risk. The same technology that includes deaf people can surveil conversations. As often, the dividing line is not in the tool but in the use, the consent and the framework given to it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "synthese-vocale",
+    "nlp",
+    "transcription-reunions",
+    "ia-accessibilite"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (reconnaissance automatique de la parole)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

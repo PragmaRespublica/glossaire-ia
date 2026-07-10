@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Notice de modèle (model card)",
+  "terme_en": "Model card",
+  "sous_titre_fr": "Model card, notice de modèle",
+  "sous_titre_en": "Notice de modèle",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Document standardisé décrivant un modèle d'IA : ses capacités, ses limites, ses données d'entraînement, ses usages recommandés et déconseillés, ses biais connus, ses performances. La notice de modèle est un outil clé de transparence et de conformité · elle permet aux utilisateurs de choisir un modèle en connaissance de cause.",
+  "definition_en": "A standardised document describing an AI model: its capabilities, limits, training data, recommended and discouraged uses, known biases, performance. The model card is a key transparency and compliance tool · it lets users choose a model with full knowledge.",
+  "exemple_fr": "Avant d'intégrer un modèle, une équipe consulte sa notice : elle y apprend qu'il est peu fiable en français juridique et qu'il a été entraîné sur des données jusqu'à une certaine date. Ces informations évitent un mauvais choix. Un modèle sans notice claire devrait éveiller la méfiance · l'opacité n'est jamais bon signe.",
+  "exemple_en": "Before integrating a model, a team consults its card: they learn it is unreliable in French legal matters and was trained on data up to a certain date. This information avoids a bad choice. A model without a clear card should arouse suspicion · opacity is never a good sign.",
+  "regard_fr": "La notice de modèle est à l'IA ce que l'étiquette est à un produit : un minimum de transparence dû à l'utilisateur. L'exiger systématiquement, c'est refuser la boîte noire commerciale. Un fournisseur qui documente honnêtement capacités ET limites mérite plus de confiance que celui qui ne vante que les performances.",
+  "regard_en": "The model card is to AI what the label is to a product: a minimum of transparency owed to the user. Systematically demanding it means refusing the commercial black box. A provider that honestly documents capabilities AND limits deserves more trust than one that only touts performance.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gpai",
+    "conformite-ia",
+    "transparence-algorithmes",
+    "biais-algorithmique"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · notice de modèle préentraîné",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

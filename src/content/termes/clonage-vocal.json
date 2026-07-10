@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Clonage vocal",
+  "terme_en": "Voice cloning",
+  "sous_titre_fr": "Voice cloning",
+  "sous_titre_en": "Clonage vocal",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technique reproduisant la voix d'une personne précise à partir de quelques secondes d'enregistrement, capable de lui faire « dire » n'importe quoi. Utile pour le doublage ou l'accessibilité, le clonage vocal est aussi un vecteur de fraude majeur · usurpation d'identité vocale, arnaques au dirigeant · qui impose consentement et transparence.",
+  "definition_en": "A technique reproducing a specific person's voice from a few seconds of recording, able to make them \"say\" anything. Useful for dubbing or accessibility, voice cloning is also a major fraud vector · vocal identity theft, CEO scams · which requires consent and transparency.",
+  "exemple_fr": "Un escroc clone la voix d'un dirigeant à partir d'une interview publique et appelle le comptable pour ordonner un virement urgent. La voix est parfaite, l'urgence crédible. Sans procédure de vérification hors canal, la fraude réussit. Le clonage vocal a rendu obsolète la confiance dans une voix familière au téléphone.",
+  "exemple_en": "A scammer clones an executive's voice from a public interview and calls the accountant to order an urgent transfer. The voice is perfect, the urgency credible. Without an out-of-channel verification procedure, the fraud succeeds. Voice cloning has made trust in a familiar voice on the phone obsolete.",
+  "regard_fr": "Le clonage vocal enterre une évidence millénaire : reconnaître une voix ne prouve plus rien. Cette rupture appelle de nouveaux réflexes · vérifier toute demande sensible par un second canal, quelle que soit la voix. Former ses équipes à ce nouveau risque est aujourd'hui une nécessité, pas une précaution excessive.",
+  "regard_en": "Voice cloning buries a millennia-old certainty: recognising a voice no longer proves anything. This break calls for new reflexes · verifying any sensitive request through a second channel, whatever the voice. Training your teams on this new risk is now a necessity, not an excessive precaution.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "synthese-vocale",
+    "fraude-ia",
+    "deepfake",
+    "c2pa"
+  ],
+  "sources": [
+    {
+      "titre": "ANSSI · panorama de la menace (usurpation)",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Réseau de neurones convolutif (CNN)",
+  "terme_en": "Convolutional Neural Network (CNN)",
+  "sous_titre_fr": "Convolutional Neural Network (CNN)",
+  "sous_titre_en": "Réseau de neurones convolutif",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Architecture de réseau spécialisée dans le traitement d'images, qui applique des filtres balayant l'image pour détecter des motifs locaux (contours, textures, formes). Les réseaux convolutifs ont dominé la vision par ordinateur pendant une décennie et restent très utilisés · efficaces et sobres pour de nombreuses tâches visuelles.",
+  "definition_en": "A network architecture specialised in image processing, applying filters that sweep the image to detect local patterns (edges, textures, shapes). Convolutional networks dominated computer vision for a decade and remain widely used · efficient and frugal for many visual tasks.",
+  "exemple_fr": "Un réseau convolutif de contrôle qualité inspecte des images de pièces : ses filtres détectent d'abord des contours, puis des motifs, enfin des défauts caractéristiques. Léger et rapide, il tourne sur du matériel modeste. Pour beaucoup de tâches de vision, il reste préférable à des modèles génératifs bien plus lourds.",
+  "exemple_en": "A quality-control convolutional network inspects images of parts: its filters first detect edges, then patterns, finally characteristic defects. Light and fast, it runs on modest hardware. For many vision tasks, it remains preferable to far heavier generative models.",
+  "regard_fr": "Le réseau convolutif rappelle qu'en IA, la bonne architecture pour un problème vaut mieux qu'un modèle géant généraliste. Pour de nombreuses tâches de vision, un CNN sobre et spécialisé bat un grand modèle multimodal · plus rapide, moins cher, plus facile à déployer localement. La spécialisation reste une vertu.",
+  "regard_en": "The convolutional network recalls that in AI, the right architecture for a problem beats a giant generalist model. For many vision tasks, a frugal, specialised CNN beats a large multimodal model · faster, cheaper, easier to deploy locally. Specialisation remains a virtue.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "vision-ordinateur",
+    "reseau-neurones",
+    "apprentissage-profond",
+    "ia-frugale"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (réseau de neurones convolutif)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

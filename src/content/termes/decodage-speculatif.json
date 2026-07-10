@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Décodage spéculatif",
+  "terme_en": "Speculative decoding",
+  "sous_titre_fr": "Speculative decoding",
+  "sous_titre_en": "Décodage spéculatif",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technique accélérant la génération d'un grand modèle en lui faisant vérifier des propositions produites rapidement par un petit modèle « brouillon ». Le grand modèle valide plusieurs tokens d'un coup au lieu de les produire un à un. Le décodage spéculatif réduit la latence sans changer la qualité · une optimisation astucieuse et transparente pour l'utilisateur.",
+  "definition_en": "A technique accelerating a large model's generation by having it verify proposals rapidly produced by a small \"draft\" model. The large model validates several tokens at once instead of producing them one by one. Speculative decoding reduces latency without changing quality · a clever optimisation transparent to the user.",
+  "exemple_fr": "Un petit modèle rapide propose les prochains mots probables ; le grand modèle les vérifie en bloc et corrige au besoin. Résultat : une génération nettement plus rapide, pour une qualité identique à celle du grand modèle seul. L'utilisateur ne voit que la vitesse · l'astuce technique reste invisible mais bien réelle.",
+  "exemple_en": "A small fast model proposes the probable next words; the large model verifies them in a block and corrects if needed. The result: markedly faster generation, for quality identical to the large model alone. The user only sees the speed · the technical trick stays invisible but very real.",
+  "regard_fr": "Le décodage spéculatif illustre une tendance saine de l'IA : gagner en efficacité par l'ingéniosité plutôt que par la seule force brute. Ces optimisations · faire coopérer petit et grand modèle · réduisent coûts et consommation sans sacrifier la qualité. L'avenir sobre de l'IA passe autant par ces astuces que par les gros modèles.",
+  "regard_en": "Speculative decoding illustrates a healthy AI trend: gaining efficiency through ingenuity rather than brute force alone. These optimisations · making small and large models cooperate · reduce cost and consumption without sacrificing quality. AI's frugal future depends as much on these tricks as on big models.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "inference",
+    "latence",
+    "slm",
+    "ia-frugale"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (décodage spéculatif)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

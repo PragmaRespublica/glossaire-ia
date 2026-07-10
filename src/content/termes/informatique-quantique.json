@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Informatique quantique et IA",
+  "terme_en": "Quantum computing and AI",
+  "sous_titre_fr": "Quantum computing and AI",
+  "sous_titre_en": "Informatique quantique et IA",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Paradigme de calcul exploitant les propriétés de la physique quantique pour effectuer certains calculs hors de portée des ordinateurs classiques. Encore expérimentale, l'informatique quantique pourrait à terme accélérer certains problèmes d'IA · mais elle relève aujourd'hui davantage de la recherche et de la prospective que de l'usage courant.",
+  "definition_en": "A computing paradigm exploiting the properties of quantum physics to perform certain calculations beyond the reach of classical computers. Still experimental, quantum computing could eventually accelerate certain AI problems · but today it belongs more to research and foresight than to everyday use.",
+  "exemple_fr": "Des laboratoires explorent comment l'informatique quantique pourrait accélérer l'entraînement de certains modèles ou résoudre des problèmes d'optimisation complexes. Les promesses sont réelles mais lointaines · aucune application pratique à l'échelle n'existe encore. C'est un domaine d'anticipation, pas de déploiement immédiat.",
+  "exemple_en": "Labs explore how quantum computing could accelerate the training of certain models or solve complex optimisation problems. The promises are real but distant · no practical application at scale exists yet. It is a field of anticipation, not immediate deployment.",
+  "regard_fr": "L'informatique quantique appliquée à l'IA est un sujet où il faut distinguer l'enthousiasme des faits : les promesses sont grandes, les applications concrètes encore rares. Méfiez-vous des discours qui mêlent « quantique » et « IA » pour impressionner. La souveraineté quantique est un enjeu réel · mais de long terme, pas de demain.",
+  "regard_en": "Quantum computing applied to AI is a topic where enthusiasm must be distinguished from facts: the promises are great, the concrete applications still rare. Beware of narratives mixing \"quantum\" and \"AI\" to impress. Quantum sovereignty is a real issue · but a long-term one, not tomorrow's.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gpu",
+    "lois-echelle",
+    "chiffrement",
+    "autonomie-strategique"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · ordinateur quantique",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

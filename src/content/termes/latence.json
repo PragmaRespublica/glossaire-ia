@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Latence",
+  "terme_en": "Latency",
+  "sous_titre_fr": "Latency",
+  "sous_titre_en": "Latence",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Délai entre l'envoi d'une requête à un modèle et la réception de sa réponse. Critique pour l'expérience utilisateur et certains usages temps réel (agents vocaux, assistance en direct), la latence dépend du modèle, de l'infrastructure et de la distance aux serveurs · un critère de choix souvent sous-estimé face à la seule qualité.",
+  "definition_en": "The delay between sending a request to a model and receiving its answer. Critical for user experience and some real-time uses (voice agents, live assistance), latency depends on the model, the infrastructure and the distance to servers · a selection criterion often underestimated against quality alone.",
+  "exemple_fr": "Un agent vocal doit répondre en une fraction de seconde pour paraître naturel. Un modèle très performant mais lent rendrait la conversation pénible. Ici, un modèle plus petit et plus rapide, hébergé au plus près, l'emporte. La latence rappelle qu'en IA, le meilleur modèle n'est pas toujours le plus puissant, mais le mieux adapté.",
+  "exemple_en": "A voice agent must answer in a fraction of a second to seem natural. A very performant but slow model would make the conversation painful. Here, a smaller, faster model, hosted nearby, wins. Latency recalls that in AI, the best model is not always the most powerful, but the most fitting.",
+  "regard_fr": "La latence est le critère que la course à la performance fait oublier · jusqu'à ce que les utilisateurs abandonnent un outil trop lent. Héberger un modèle près de ses utilisateurs, choisir la bonne taille, optimiser l'infrastructure : autant de décisions où la souveraineté (hébergement local) rejoint l'efficacité (faible latence).",
+  "regard_en": "Latency is the criterion the performance race makes people forget · until users abandon a too-slow tool. Hosting a model near its users, choosing the right size, optimising the infrastructure: decisions where sovereignty (local hosting) meets efficiency (low latency).",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "inference",
+    "serveur-inference",
+    "inference-locale",
+    "modele-raisonnement"
+  ],
+  "sources": [
+    {
+      "titre": "Google Cloud · Generative AI Glossary (latency)",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

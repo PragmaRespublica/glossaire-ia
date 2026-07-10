@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Informatique en périphérie (edge computing)",
+  "terme_en": "Edge computing",
+  "sous_titre_fr": "Informatique en périphérie",
+  "sous_titre_en": "Edge computing",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Approche consistant à traiter les données au plus près de leur source · sur l'appareil ou une passerelle locale · plutôt que dans un cloud distant. Appliqué à l'IA, l'edge computing permet une inférence rapide, sobre en bande passante et respectueuse de la vie privée, les données n'ayant pas à remonter vers des serveurs centralisés.",
+  "definition_en": "An approach of processing data as close as possible to its source · on the device or a local gateway · rather than in a remote cloud. Applied to AI, edge computing enables fast inference, frugal in bandwidth and privacy-respecting, since data does not have to travel to centralised servers.",
+  "exemple_fr": "Une caméra industrielle analyse les défauts directement sur place grâce à un modèle embarqué, sans envoyer les images au cloud. Réponse instantanée, aucune donnée sensible ne quitte l'usine, bande passante économisée. L'edge computing est souvent la meilleure réponse quand rapidité et confidentialité comptent autant que la puissance.",
+  "exemple_en": "An industrial camera analyses defects directly on site thanks to an embedded model, without sending images to the cloud. Instant response, no sensitive data leaves the factory, bandwidth saved. Edge computing is often the best answer when speed and confidentiality matter as much as power.",
+  "regard_fr": "L'edge computing incarne une vision décentralisée de l'IA, à rebours du tout-cloud : traiter localement ce qui peut l'être. Cette approche sert la souveraineté (les données restent sur place), la sobriété (moins de transferts) et la résilience (moins de dépendance au réseau). Un contrepoint sain à la centralisation.",
+  "regard_en": "Edge computing embodies a decentralised vision of AI, against the all-cloud: processing locally what can be. This approach serves sovereignty (data stays on site), frugality (fewer transfers) and resilience (less network dependence). A healthy counterpoint to centralisation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "inference-locale",
+    "ia-embarquee",
+    "souverainete-donnees",
+    "ia-frugale"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · informatique en périphérie",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

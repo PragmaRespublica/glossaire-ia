@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Ontologie",
+  "terme_en": "Ontology",
+  "sous_titre_fr": "Ontology",
+  "sous_titre_en": "Ontologie",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Représentation formelle et structurée des concepts d'un domaine et des relations entre eux. Issue de l'IA symbolique, l'ontologie organise la connaissance de façon explicite et interrogeable · à la base des graphes de connaissances et du web sémantique. Elle apporte à l'IA une rigueur et une traçabilité que les modèles statistiques n'offrent pas.",
+  "definition_en": "A formal, structured representation of a domain's concepts and the relations between them. Stemming from symbolic AI, the ontology organises knowledge explicitly and queryably · at the base of knowledge graphs and the semantic web. It brings AI a rigour and traceability that statistical models do not offer.",
+  "exemple_fr": "Une entreprise pharmaceutique modélise dans une ontologie les relations entre molécules, maladies et traitements. Une question complexe · « quelles molécules agissent sur cette cible sans interagir avec ce traitement ? » · se résout par un raisonnement traçable sur l'ontologie, là où un LLM risquerait d'inventer. La rigueur du symbolique complète la souplesse du génératif.",
+  "exemple_en": "A pharmaceutical company models in an ontology the relations between molecules, diseases and treatments. A complex question · \"which molecules act on this target without interacting with this treatment?\" · is solved by traceable reasoning over the ontology, where a LLM might invent. The rigour of the symbolic complements the flexibility of the generative.",
+  "regard_fr": "L'ontologie rappelle qu'avant l'IA statistique, l'IA structurait explicitement le savoir · et que cette approche garde une vertu irremplaçable : la traçabilité. Pour les domaines où l'exactitude prime, marier ontologies et modèles génératifs est une voie d'avenir. Le neuro-symbolique n'est pas un retour en arrière, mais une synthèse.",
+  "regard_en": "The ontology recalls that before statistical AI, AI structured knowledge explicitly · and that this approach retains an irreplaceable virtue: traceability. For domains where accuracy prevails, marrying ontologies and generative models is a path forward. Neuro-symbolic is not a step back, but a synthesis.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "graphe-connaissances",
+    "web-semantique",
+    "modeles-symboliques",
+    "systeme-expert"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · ontologie informatique",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Singularité technologique",
+  "terme_en": "Technological singularity",
+  "sous_titre_fr": "Technological singularity",
+  "sous_titre_en": "Singularité technologique",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Hypothèse d'un point futur où l'IA, capable de s'améliorer elle-même, déclencherait une explosion d'intelligence échappant au contrôle et à la compréhension humaine. Concept spéculatif et débattu, la singularité relève autant de la philosophie et de la science-fiction que de la science · aucune preuve n'établit qu'elle soit proche ni même possible.",
+  "definition_en": "The hypothesis of a future point where AI, able to improve itself, would trigger an intelligence explosion escaping human control and understanding. A speculative and debated concept, the singularity belongs as much to philosophy and science fiction as to science · no evidence establishes it is near or even possible.",
+  "exemple_fr": "Certains dirigeants technologiques agitent la perspective d'une singularité proche · pour lever des fonds ou peser sur la régulation. D'autres chercheurs la jugent hautement spéculative. Face à ce terme, la prudence s'impose : distinguer les capacités réelles et mesurables de l'IA des projections vertigineuses est un exercice de lucidité.",
+  "exemple_en": "Some tech leaders wave the prospect of a near singularity · to raise funds or influence regulation. Other researchers judge it highly speculative. Facing this term, caution is required: distinguishing AI's real, measurable capabilities from dizzying projections is an exercise in lucidity.",
+  "regard_fr": "La singularité est un puissant récit · qui sert autant à fasciner qu'à détourner l'attention des enjeux présents et concrets de l'IA. Se focaliser sur une apocalypse ou un paradis hypothétiques fait oublier les vraies questions d'aujourd'hui : biais, souveraineté, impact, emploi. Le présent mérite plus d'attention que la prophétie.",
+  "regard_en": "The singularity is a powerful narrative · serving as much to fascinate as to divert attention from AI's present, concrete issues. Focusing on a hypothetical apocalypse or paradise makes people forget today's real questions: bias, sovereignty, impact, employment. The present deserves more attention than prophecy.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "superintelligence",
+    "agi",
+    "hiver-ia",
+    "alignement-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (singularité technologique)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

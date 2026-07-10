@@ -1,0 +1,110 @@
+{
+  "reconnaissance-parole": {
+    "sous_titre_fr": "Automatic speech recognition (ASR)",
+    "sous_titre_en": "Reconnaissance automatique de la parole",
+    "definition_fr": "Technologie convertissant la parole en texte. Longtemps limitée, elle atteint aujourd'hui une précision remarquable, y compris en français et sur des voix variées. Elle sous-tend la transcription, les assistants vocaux et l'accessibilité · avec des enjeux de vie privée dès lors qu'on enregistre et analyse la voix des personnes.",
+    "definition_en": "Technology converting speech into text. Long limited, it now reaches remarkable accuracy, including in French and on varied voices. It underpins transcription, voice assistants and accessibility · with privacy stakes as soon as people's voices are recorded and analysed.",
+    "exemple_fr": "Une réunion est transcrite en direct par reconnaissance de la parole, rendant le contenu accessible aux personnes sourdes et exploitable après coup. Bénéfice réel · à condition d'avoir informé et recueilli le consentement des participants, car la voix est une donnée personnelle. L'utilité technique ne dispense jamais du cadre.",
+    "exemple_en": "A meeting is transcribed live by speech recognition, making the content accessible to deaf people and usable afterwards. A real benefit · provided participants have been informed and consented, since the voice is personal data. Technical usefulness never exempts from the framework.",
+    "regard_fr": "La reconnaissance de la parole est une aubaine pour l'accessibilité · et un risque pour la vie privée. La même technologie qui inclut les personnes sourdes peut surveiller les conversations. Comme souvent, la ligne de partage n'est pas dans l'outil mais dans l'usage, le consentement et le cadre qu'on lui donne.",
+    "regard_en": "Speech recognition is a boon for accessibility · and a privacy risk. The same technology that includes deaf people can surveil conversations. As often, the dividing line is not in the tool but in the use, the consent and the framework given to it.",
+    "termes_lies": ["synthese-vocale", "nlp", "transcription-reunions", "ia-accessibilite"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (reconnaissance automatique de la parole)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "synthese-vocale": {
+    "sous_titre_fr": "Text-to-speech (TTS)",
+    "sous_titre_en": "Synthèse vocale",
+    "definition_fr": "Technologie convertissant du texte en parole. Les voix de synthèse modernes sont devenues remarquablement naturelles et expressives · au point qu'on peut les confondre avec des voix humaines. Précieuse pour l'accessibilité et les assistants vocaux, elle pose aussi la question du clonage vocal et de la transparence.",
+    "definition_en": "Technology converting text into speech. Modern synthetic voices have become remarkably natural and expressive · to the point of being mistaken for human voices. Precious for accessibility and voice assistants, it also raises the question of voice cloning and transparency.",
+    "exemple_fr": "Une personne malvoyante fait lire ses documents par une synthèse vocale naturelle et agréable · un gain d'autonomie majeur. Mais la même technologie, capable d'imiter n'importe quelle voix, peut servir à des fraudes. Le progrès de la synthèse vocale est réel et utile · il impose aussi de nouvelles vigilances.",
+    "exemple_en": "A visually impaired person has their documents read by a natural, pleasant voice synthesis · a major gain in autonomy. But the same technology, able to imitate any voice, can serve frauds. The progress of voice synthesis is real and useful · it also demands new vigilance.",
+    "regard_fr": "La synthèse vocale illustre à merveille la dualité de l'IA : elle rend le monde plus accessible aux uns, plus manipulable par les autres. Célébrer ses bienfaits (accessibilité) sans nier ses risques (fraude, clonage) est la posture juste · ni technophobie, ni angélisme, mais lucidité sur l'usage.",
+    "regard_en": "Voice synthesis perfectly illustrates AI's duality: it makes the world more accessible to some, more manipulable by others. Celebrating its benefits (accessibility) without denying its risks (fraud, cloning) is the right stance · neither technophobia nor naivety, but lucidity about use.",
+    "termes_lies": ["reconnaissance-parole", "clonage-vocal", "ia-accessibilite", "generation-audio"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (synthèse vocale de texte)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "clonage-vocal": {
+    "sous_titre_fr": "Voice cloning",
+    "sous_titre_en": "Clonage vocal",
+    "definition_fr": "Technique reproduisant la voix d'une personne précise à partir de quelques secondes d'enregistrement, capable de lui faire « dire » n'importe quoi. Utile pour le doublage ou l'accessibilité, le clonage vocal est aussi un vecteur de fraude majeur · usurpation d'identité vocale, arnaques au dirigeant · qui impose consentement et transparence.",
+    "definition_en": "A technique reproducing a specific person's voice from a few seconds of recording, able to make them \"say\" anything. Useful for dubbing or accessibility, voice cloning is also a major fraud vector · vocal identity theft, CEO scams · which requires consent and transparency.",
+    "exemple_fr": "Un escroc clone la voix d'un dirigeant à partir d'une interview publique et appelle le comptable pour ordonner un virement urgent. La voix est parfaite, l'urgence crédible. Sans procédure de vérification hors canal, la fraude réussit. Le clonage vocal a rendu obsolète la confiance dans une voix familière au téléphone.",
+    "exemple_en": "A scammer clones an executive's voice from a public interview and calls the accountant to order an urgent transfer. The voice is perfect, the urgency credible. Without an out-of-channel verification procedure, the fraud succeeds. Voice cloning has made trust in a familiar voice on the phone obsolete.",
+    "regard_fr": "Le clonage vocal enterre une évidence millénaire : reconnaître une voix ne prouve plus rien. Cette rupture appelle de nouveaux réflexes · vérifier toute demande sensible par un second canal, quelle que soit la voix. Former ses équipes à ce nouveau risque est aujourd'hui une nécessité, pas une précaution excessive.",
+    "regard_en": "Voice cloning buries a millennia-old certainty: recognising a voice no longer proves anything. This break calls for new reflexes · verifying any sensitive request through a second channel, whatever the voice. Training your teams on this new risk is now a necessity, not an excessive precaution.",
+    "termes_lies": ["synthese-vocale", "fraude-ia", "deepfake", "c2pa"],
+    "sources": [{"titre": "ANSSI · panorama de la menace (usurpation)", "url": "https://cyber.gouv.fr/"}]
+  },
+  "ocr": {
+    "sous_titre_fr": "Optical Character Recognition (OCR)",
+    "sous_titre_en": "Reconnaissance optique de caractères",
+    "definition_fr": "Technologie convertissant en texte éditable le contenu d'images ou de documents scannés. Ancienne mais devenue très performante avec l'IA, l'OCR est la première étape indispensable pour exploiter des documents papier ou des PDF non structurés · notamment pour alimenter un RAG ou automatiser un traitement documentaire.",
+    "definition_en": "Technology converting the content of images or scanned documents into editable text. Old but now very effective with AI, OCR is the indispensable first step to exploit paper documents or unstructured PDFs · notably to feed a RAG or automate document processing.",
+    "exemple_fr": "Une entreprise veut interroger par IA vingt ans d'archives papier numérisées. Impossible sans OCR : il faut d'abord transformer ces images de pages en texte exploitable. La qualité de l'OCR conditionne tout le reste · un OCR défaillant sur des documents anciens produira un RAG qui hallucine sur des données mal lues.",
+    "exemple_en": "A company wants to query with AI twenty years of scanned paper archives. Impossible without OCR: these page images must first be turned into usable text. The OCR quality conditions everything else · a faulty OCR on old documents will produce a RAG that hallucinates on misread data.",
+    "regard_fr": "L'OCR est un rouage humble et décisif : sans lui, le patrimoine documentaire papier reste hors de portée de l'IA. On l'oublie souvent dans les projets, jusqu'à découvrir que la qualité des réponses dépend d'abord de la qualité de la lecture des documents sources. Le maillon le plus discret est parfois le plus critique.",
+    "regard_en": "OCR is a humble and decisive cog: without it, paper document heritage stays out of AI's reach. It is often forgotten in projects, until one discovers that answer quality depends first on the reading quality of source documents. The most discreet link is sometimes the most critical.",
+    "termes_lies": ["idp", "pipeline-ingestion", "vision-ordinateur", "donnees-structurees"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (reconnaissance optique de caractères)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "traduction-automatique": {
+    "sous_titre_fr": "Neural machine translation",
+    "sous_titre_en": "Traduction automatique neuronale",
+    "definition_fr": "Traduction de textes d'une langue à l'autre par des modèles neuronaux, qui a atteint une qualité proche de l'humain sur de nombreuses paires de langues. Elle abolit des barrières linguistiques · mais reste faillible sur les nuances, le contexte culturel et les domaines spécialisés, où la relecture humaine demeure nécessaire.",
+    "definition_en": "The translation of texts from one language to another by neural models, which has reached near-human quality on many language pairs. It abolishes linguistic barriers · but remains fallible on nuances, cultural context and specialised domains, where human review remains necessary.",
+    "exemple_fr": "Une PME traduit instantanément sa documentation en dix langues pour l'export · un accès aux marchés impensable il y a peu. Mais pour ses contrats et sa communication de marque, elle fait relire par des traducteurs humains : une nuance juridique ou culturelle mal rendue peut coûter cher. L'IA dégrossit, l'humain finalise.",
+    "exemple_en": "An SME instantly translates its documentation into ten languages for export · market access unthinkable not long ago. But for its contracts and brand communication, it has human translators review: a poorly rendered legal or cultural nuance can be costly. AI roughs out, the human finalises.",
+    "regard_fr": "La traduction automatique est l'un des plus beaux succès de l'IA · et un piège pour qui la croit infaillible. Elle excelle sur le courant, trébuche sur le subtil et le culturel. Savoir quand lui faire confiance et quand faire relire est une compétence en soi · la fluidité d'une traduction n'est pas une garantie d'exactitude.",
+    "regard_en": "Machine translation is one of AI's finest successes · and a trap for those who believe it infallible. It excels at the ordinary, stumbles on the subtle and cultural. Knowing when to trust it and when to have it reviewed is a skill in itself · a translation's fluency is not a guarantee of accuracy.",
+    "termes_lies": ["nlp", "encodeur-decodeur", "modeles-multilingues", "ia-langue-francaise"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (traduction automatique)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "modeles-multilingues": {
+    "sous_titre_fr": "Multilingual models",
+    "sous_titre_en": "Modèles multilingues",
+    "definition_fr": "Modèles entraînés sur plusieurs langues, capables de comprendre et générer dans chacune, et parfois de transférer des compétences d'une langue à l'autre. Leur qualité varie fortement selon la représentation de chaque langue dans les données · l'anglais domine, et les langues moins présentes sont souvent moins bien servies.",
+    "definition_en": "Models trained on several languages, able to understand and generate in each, and sometimes to transfer skills from one language to another. Their quality varies greatly according to each language's representation in the data · English dominates, and less-present languages are often less well served.",
+    "exemple_fr": "Un modèle multilingue comprend une question posée en français et peut répondre en anglais ou en espagnol. Pratique · mais sa maîtrise du français reste souvent inférieure à celle de l'anglais, faute de données aussi abondantes. D'où l'intérêt de modèles spécifiquement entraînés et optimisés pour le français.",
+    "exemple_en": "A multilingual model understands a question asked in French and can answer in English or Spanish. Handy · but its command of French often remains inferior to English, for lack of equally abundant data. Hence the value of models specifically trained and optimised for French.",
+    "regard_fr": "Les modèles multilingues portent une inégalité invisible : toutes les langues n'y sont pas égales. Cette domination de l'anglais n'est pas neutre · elle façonne les références et les nuances. Soutenir des modèles qui traitent le français avec le même soin que l'anglais est un enjeu de souveraineté culturelle et linguistique.",
+    "regard_en": "Multilingual models carry an invisible inequality: not all languages are equal in them. This dominance of English is not neutral · it shapes references and nuances. Supporting models that treat French with the same care as English is a matter of cultural and linguistic sovereignty.",
+    "termes_lies": ["ia-langue-francaise", "corpus-entrainement", "traduction-automatique", "token"],
+    "sources": [{"titre": "Recherches sur les modèles multilingues"}]
+  },
+  "ia-langue-francaise": {
+    "sous_titre_fr": "AI and the French language",
+    "sous_titre_en": "IA et langue française",
+    "definition_fr": "Ensemble des enjeux liés à la place du français dans l'IA : qualité des modèles en français, représentation dans les corpus, coût en tokens, préservation des nuances et des références culturelles. La sous-représentation du français dans les données d'entraînement en fait un enjeu de souveraineté linguistique et culturelle, pas seulement technique.",
+    "definition_en": "The set of issues around French's place in AI: model quality in French, representation in corpora, token cost, preservation of nuances and cultural references. French's under-representation in training data makes it a matter of linguistic and cultural sovereignty, not just a technical one.",
+    "exemple_fr": "Un même texte coûte plus de tokens en français qu'en anglais, et les modèles maîtrisent souvent moins bien nos subtilités et nos références. Des acteurs comme Mistral, entraînant sur du français de qualité, réduisent cet écart. Choisir un modèle qui respecte le français, c'est défendre une langue autant qu'optimiser un usage.",
+    "exemple_en": "The same text costs more tokens in French than in English, and models often master our subtleties and references less well. Players like Mistral, training on quality French, reduce this gap. Choosing a model that respects French means defending a language as much as optimising a use.",
+    "regard_fr": "L'IA se joue aussi sur le terrain de la langue : une IA majoritairement anglophone impose insensiblement ses cadres de pensée. Défendre une IA de qualité en français n'est pas du chauvinisme · c'est préserver une diversité de visions du monde. La langue façonne la pensée, et l'IA façonne désormais la langue.",
+    "regard_en": "AI also plays out on the terrain of language: a mostly English-speaking AI imperceptibly imposes its frames of thought. Defending quality AI in French is not chauvinism · it preserves a diversity of worldviews. Language shapes thought, and AI now shapes language.",
+    "termes_lies": ["modeles-multilingues", "corpus-entrainement", "token", "souverainete-numerique"],
+    "sources": [{"titre": "Travaux sur la place du français dans l'IA (OQLF, FranceTerme)", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "assistant-vocal": {
+    "sous_titre_fr": "Voice assistant",
+    "sous_titre_en": "Assistant vocal",
+    "definition_fr": "Interface permettant d'interagir avec un système par la voix : poser des questions, donner des commandes, obtenir des réponses parlées. Des assistants domestiques aux agents vocaux professionnels, ils combinent reconnaissance de la parole, traitement du langage et synthèse vocale · avec des enjeux de vie privée liés à l'écoute permanente.",
+    "definition_en": "An interface for interacting with a system by voice: asking questions, giving commands, getting spoken answers. From home assistants to professional voice agents, they combine speech recognition, language processing and voice synthesis · with privacy stakes linked to always-on listening.",
+    "exemple_fr": "Un assistant vocal domestique répond aux questions et pilote des objets connectés · pratique. Mais pour détecter son mot d'activation, il écoute en permanence, ce qui soulève des questions sur ce qui est capté, transmis et conservé. La commodité de la voix a un coût potentiel en vie privée qu'il faut évaluer.",
+    "exemple_en": "A home voice assistant answers questions and controls connected devices · handy. But to detect its wake word, it listens permanently, raising questions about what is captured, transmitted and retained. The convenience of voice has a potential privacy cost to be assessed.",
+    "regard_fr": "L'assistant vocal incarne le compromis de l'IA du quotidien : un service réel contre une part d'intimité. Avant d'installer un micro toujours à l'écoute chez soi ou au bureau, il vaut la peine de se demander où vont les données. La commodité ne doit pas faire oublier la question, simple mais essentielle : qui écoute ?",
+    "regard_en": "The voice assistant embodies the compromise of everyday AI: a real service against a share of intimacy. Before installing an always-listening microphone at home or in the office, it is worth asking where the data goes. Convenience must not make us forget the simple but essential question: who is listening?",
+    "termes_lies": ["reconnaissance-parole", "synthese-vocale", "agents-vocaux", "donnees-personnelles"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (assistant vocal personnel)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "deepfake": {
+    "sous_titre_fr": "Hypertrucage, infox vidéo",
+    "sous_titre_en": "Deepfake",
+    "definition_fr": "Contenu · vidéo, image, audio · dans lequel l'IA remplace ou fabrique de façon réaliste le visage ou la voix d'une personne, lui faisant dire ou faire ce qu'elle n'a jamais fait. L'hypertrucage est le symbole le plus inquiétant des dérives de l'IA générative · usurpation, désinformation, atteinte à la réputation et à la dignité.",
+    "definition_en": "Content · video, image, audio · in which AI realistically replaces or fabricates a person's face or voice, making them say or do what they never did. The deepfake is the most worrying symbol of generative AI's excesses · impersonation, disinformation, damage to reputation and dignity.",
+    "exemple_fr": "Une fausse vidéo d'un dirigeant annonçant une fausse nouvelle circule et fait chuter une action avant d'être démentie. Ou une personne voit son visage détourné dans un contenu dégradant. L'hypertrucage transforme l'image et la voix · jadis preuves · en armes. La confiance dans le témoignage visuel en sort durablement ébranlée.",
+    "exemple_en": "A fake video of an executive announcing false news circulates and sends a stock plummeting before being debunked. Or a person sees their face hijacked in degrading content. The deepfake turns image and voice · once proof · into weapons. Trust in visual testimony emerges lastingly shaken.",
+    "regard_fr": "L'hypertrucage marque la fin d'une ère où voir, c'était croire. Face à cette rupture, la réponse est triple : technique (provenance, détection), juridique (l'AI Act impose le marquage), et humaine (esprit critique). Aucune n'est suffisante seule. La vigilance devient une compétence citoyenne de base à l'ère de l'image fabriquée.",
+    "regard_en": "The deepfake marks the end of an era when seeing was believing. Facing this break, the response is threefold: technical (provenance, detection), legal (the AI Act requires marking), and human (critical thinking). None is sufficient alone. Vigilance becomes a basic civic skill in the era of the fabricated image.",
+    "termes_lies": ["generation-video", "fraude-ia", "c2pa", "desinformation-ia"],
+    "sources": [{"titre": "FranceTerme · infox vidéo (deep fake)", "url": "https://www.culture.fr/franceterme"}]
+  }
+}

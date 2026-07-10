@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Web sémantique",
+  "terme_en": "Semantic web",
+  "sous_titre_fr": "Semantic web",
+  "sous_titre_en": "Web sémantique",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Vision d'un web où l'information est structurée pour être comprise et traitée par les machines, grâce à des données liées et des ontologies. Antérieur à l'essor des LLM, le web sémantique reste une infrastructure de connaissance précieuse · les données structurées qu'il promeut sont une matière première de qualité pour une IA fiable et traçable.",
+  "definition_en": "A vision of a web where information is structured to be understood and processed by machines, thanks to linked data and ontologies. Predating the rise of LLMs, the semantic web remains a precious knowledge infrastructure · the structured data it promotes is a quality raw material for reliable, traceable AI.",
+  "exemple_fr": "Grâce aux données structurées du web sémantique, un moteur peut répondre directement « quelle est la capitale de tel pays ? » à partir de faits liés et vérifiables, plutôt que d'un texte à interpréter. Ces données structurées et sourcées sont un socle idéal pour ancrer une IA · fiables, traçables, interrogeables.",
+  "exemple_en": "Thanks to the semantic web's structured data, an engine can directly answer \"what is the capital of such a country?\" from linked, verifiable facts, rather than from text to interpret. This structured, sourced data is an ideal foundation for grounding an AI · reliable, traceable, queryable.",
+  "regard_fr": "Le web sémantique, souvent éclipsé par l'IA générative, garde une pertinence forte : il offre exactement ce qui manque aux LLM · des données structurées, liées et vérifiables. L'avenir d'une IA de confiance passera sans doute par la réconciliation du statistique et du structuré, du génératif et du sémantique.",
+  "regard_en": "The semantic web, often eclipsed by generative AI, retains strong relevance: it offers exactly what LLMs lack · structured, linked, verifiable data. The future of trustworthy AI will likely pass through the reconciliation of the statistical and the structured, the generative and the semantic.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ontologie",
+    "graphe-connaissances",
+    "donnees-fair",
+    "graph-rag"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · toile sémantique",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

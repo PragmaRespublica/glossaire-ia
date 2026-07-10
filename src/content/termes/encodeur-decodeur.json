@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Encodeur-décodeur",
+  "terme_en": "Encoder-decoder",
+  "sous_titre_fr": "Encoder-decoder",
+  "sous_titre_en": "Encodeur-décodeur",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Architecture en deux parties : un encodeur transforme l'entrée en une représentation interne, un décodeur produit la sortie à partir de cette représentation. Naturelle pour les tâches de transformation · traduction, résumé, transcription · elle sépare la compréhension de l'entrée de la génération de la sortie. Une structure fondatrice de nombreux modèles.",
+  "definition_en": "A two-part architecture: an encoder transforms the input into an internal representation, a decoder produces the output from this representation. Natural for transformation tasks · translation, summarisation, transcription · it separates understanding the input from generating the output. A founding structure of many models.",
+  "exemple_fr": "Pour traduire du français vers l'anglais, l'encodeur « lit » et comprend la phrase française en la condensant en une représentation de sens, puis le décodeur « écrit » la phrase anglaise à partir de ce sens. Cette séparation lecture/écriture, propre, est la base historique de la traduction automatique neuronale moderne.",
+  "exemple_en": "To translate from French to English, the encoder \"reads\" and understands the French sentence by condensing it into a meaning representation, then the decoder \"writes\" the English sentence from this meaning. This clean reading/writing separation is the historical basis of modern neural machine translation.",
+  "regard_fr": "L'architecture encodeur-décodeur incarne une intuition élégante : comprendre puis produire sont deux étapes distinctes. Cette séparation, longtemps dominante, éclaire encore le fonctionnement de nombreux systèmes. La connaître aide à comprendre pourquoi certaines tâches · comme la traduction · ont structuré l'histoire de l'IA du langage.",
+  "regard_en": "The encoder-decoder architecture embodies an elegant intuition: understanding then producing are two distinct steps. This separation, long dominant, still illuminates how many systems work. Knowing it helps understand why certain tasks · like translation · structured the history of language AI.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "transformer",
+    "traduction-automatique",
+    "autoencodeur",
+    "nlp"
+  ],
+  "sources": [
+    {
+      "titre": "Littérature sur les architectures seq2seq"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

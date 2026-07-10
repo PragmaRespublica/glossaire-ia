@@ -1,0 +1,122 @@
+{
+  "slm": {
+    "sous_titre_fr": "Small Language Model (SLM)",
+    "sous_titre_en": "Petit modèle de langage",
+    "definition_fr": "Modèle de langage de taille réduite (de quelques centaines de millions à quelques milliards de paramètres), conçu pour être rapide, sobre et déployable sur du matériel modeste, y compris localement. Les petits modèles suffisent à la plupart des tâches courantes en entreprise · un pilier de l'IA frugale et souveraine.",
+    "definition_en": "A reduced-size language model (from a few hundred million to a few billion parameters), designed to be fast, frugal and deployable on modest hardware, including locally. Small models suffice for most everyday enterprise tasks · a pillar of frugal and sovereign AI.",
+    "exemple_fr": "Pour classer des tickets, extraire des données ou résumer des emails, un petit modèle de quelques milliards de paramètres, tournant sur un serveur interne, fait aussi bien qu'un géant · pour une fraction du coût et sans envoyer de données dehors. Le réflexe « toujours le plus gros modèle » est un gaspillage fréquent.",
+    "exemple_en": "To classify tickets, extract data or summarise emails, a small model of a few billion parameters, running on an internal server, does as well as a giant · for a fraction of the cost and without sending data out. The \"always the biggest model\" reflex is a frequent waste.",
+    "regard_fr": "Les petits modèles sont l'arme secrète de la souveraineté et de la sobriété : assez puissants pour l'essentiel, assez légers pour tourner chez vous. La vraie compétence n'est pas d'accéder au plus gros modèle, mais de choisir le plus petit qui suffit. C'est là que se logent les économies · et l'indépendance.",
+    "regard_en": "Small models are the secret weapon of sovereignty and frugality: powerful enough for the essentials, light enough to run at home. The real skill is not accessing the biggest model, but choosing the smallest that suffices. That is where the savings lie · and independence.",
+    "termes_lies": ["parametres", "ia-frugale", "inference-locale", "distillation"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (petit modèle de langage)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "open-weights": {
+    "sous_titre_fr": "Open-weights model",
+    "sous_titre_en": "Modèle à poids ouverts",
+    "definition_fr": "Modèle dont les poids sont publiquement disponibles au téléchargement, permettant de l'exécuter, de l'étudier et de l'adapter sur sa propre infrastructure. À distinguer du « pleinement open source » (qui inclurait données et code d'entraînement), le modèle à poids ouverts est la clé technique de la souveraineté sur un modèle d'IA.",
+    "definition_en": "A model whose weights are publicly available for download, allowing it to be run, studied and adapted on one's own infrastructure. To be distinguished from \"fully open source\" (which would include training data and code), the open-weights model is the technical key to sovereignty over an AI model.",
+    "exemple_fr": "Une entreprise télécharge les poids d'un modèle ouvert, le déploie sur ses serveurs et l'adapte à son métier · sans jamais dépendre d'une API ni envoyer ses données dehors. À l'inverse, un modèle à poids fermés ne s'utilise qu'à travers son fournisseur. Les poids ouverts changent radicalement le rapport de dépendance.",
+    "exemple_en": "A company downloads an open model's weights, deploys it on its servers and adapts it to its business · without ever depending on an API or sending its data out. Conversely, a closed-weights model can only be used through its provider. Open weights radically change the dependency relationship.",
+    "regard_fr": "Le débat « ouvert contre fermé » est le cœur politique de l'IA. Les modèles à poids ouverts sont la condition d'une IA que l'on peut auditer, héberger et maîtriser. Pour l'Europe, les soutenir n'est pas une préférence technique mais une nécessité stratégique · sans eux, pas de souveraineté réelle sur l'IA.",
+    "regard_en": "The \"open versus closed\" debate is AI's political core. Open-weights models are the condition of an AI that can be audited, hosted and controlled. For Europe, supporting them is not a technical preference but a strategic necessity · without them, no real AI sovereignty.",
+    "termes_lies": ["poids-modele", "open-source-ia", "ia-souveraine", "licences-open-source"],
+    "sources": [{"titre": "Documentation des modèles à poids ouverts", "url": "https://huggingface.co/"}]
+  },
+  "quantification": {
+    "sous_titre_fr": "Model quantization",
+    "sous_titre_en": "Quantification de modèle",
+    "definition_fr": "Technique réduisant la précision numérique des paramètres d'un modèle (par exemple de 16 à 4 bits) pour le rendre plus léger et plus rapide, avec une perte de qualité souvent minime. La quantification permet de faire tourner de grands modèles sur du matériel modeste · un levier clé pour l'inférence locale et l'IA frugale.",
+    "definition_en": "A technique reducing the numeric precision of a model's parameters (for example from 16 to 4 bits) to make it lighter and faster, with an often minimal quality loss. Quantization allows running large models on modest hardware · a key lever for local inference and frugal AI.",
+    "exemple_fr": "Un modèle trop lourd pour un serveur interne devient exécutable une fois quantifié : ses paramètres, stockés plus grossièrement, occupent quatre fois moins de mémoire. La qualité baisse à peine, mais le modèle tient désormais sur du matériel abordable. La quantification démocratise l'accès aux modèles performants.",
+    "exemple_en": "A model too heavy for an internal server becomes runnable once quantized: its parameters, stored more coarsely, take four times less memory. Quality barely drops, but the model now fits on affordable hardware. Quantization democratises access to performant models.",
+    "regard_fr": "La quantification est un des grands égalisateurs de l'IA : elle met des modèles puissants à la portée de qui n'a pas de fermes de GPU. Couplée aux poids ouverts et aux petits modèles, elle dessine une voie concrète vers une IA maîtrisée et hébergée localement · loin de la seule dépendance aux API des géants.",
+    "regard_en": "Quantization is one of AI's great equalisers: it puts powerful models within reach of those without GPU farms. Coupled with open weights and small models, it sketches a concrete path to controlled, locally hosted AI · far from sole dependence on the giants' APIs.",
+    "termes_lies": ["elagage", "distillation", "inference-locale", "ia-frugale"],
+    "sources": [{"titre": "Documentation sur la quantification des modèles"}]
+  },
+  "elagage": {
+    "sous_titre_fr": "Model pruning",
+    "sous_titre_en": "Élagage de modèle",
+    "definition_fr": "Technique supprimant les paramètres ou connexions d'un modèle jugés peu utiles, pour l'alléger sans dégrader significativement sa performance. Comme on élague un arbre, on retire le superflu pour garder l'essentiel. L'élagage réduit la taille, le coût et la consommation d'un modèle · un levier de sobriété complémentaire de la quantification.",
+    "definition_en": "A technique removing a model's parameters or connections deemed of little use, to lighten it without significantly degrading its performance. As one prunes a tree, the superfluous is removed to keep the essential. Pruning reduces a model's size, cost and consumption · a frugality lever complementary to quantization.",
+    "exemple_fr": "Après entraînement, on constate qu'une grande partie des connexions d'un modèle contribuent à peine à ses résultats. L'élagage les supprime : le modèle devient plus léger et plus rapide, pour une performance quasi identique. Comme souvent, moins mais mieux · retirer le superflu améliore l'efficience sans sacrifier l'utile.",
+    "exemple_en": "After training, one finds that much of a model's connections barely contribute to its results. Pruning removes them: the model becomes lighter and faster, for near-identical performance. As often, less but better · removing the superfluous improves efficiency without sacrificing the useful.",
+    "regard_fr": "L'élagage incarne une philosophie de sobriété appliquée à l'IA : tout ce qui est gros n'est pas utile, et alléger peut améliorer. Ces techniques de réduction · élagage, quantification, distillation · sont trop peu connues face à la course à la taille. Elles sont pourtant la voie d'une IA plus responsable et plus accessible.",
+    "regard_en": "Pruning embodies a philosophy of frugality applied to AI: not everything big is useful, and lightening can improve. These reduction techniques · pruning, quantization, distillation · are too little known against the race for size. They are yet the path to more responsible and more accessible AI.",
+    "termes_lies": ["quantification", "distillation", "ia-frugale", "parametres"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (élagage)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "inference-locale": {
+    "sous_titre_fr": "Local inference, on-device AI",
+    "sous_titre_en": "Inférence locale",
+    "definition_fr": "Exécution d'un modèle d'IA directement sur le matériel de l'utilisateur ou de l'organisation · ordinateur, serveur interne, téléphone · plutôt que sur des serveurs distants. L'inférence locale garantit que les données ne quittent pas l'appareil · un atout majeur de confidentialité, de souveraineté et parfois de rapidité.",
+    "definition_en": "Running an AI model directly on the user's or organisation's hardware · computer, internal server, phone · rather than on remote servers. Local inference guarantees that data does not leave the device · a major advantage in confidentiality, sovereignty and sometimes speed.",
+    "exemple_fr": "Un cabinet médical fait tourner un modèle localement sur son propre serveur pour analyser des dossiers : aucune donnée patient ne transite par internet. Confidentialité maximale, conformité facilitée, indépendance vis-à-vis des API. Grâce aux petits modèles et à la quantification, cette inférence locale est désormais à la portée de tous.",
+    "exemple_en": "A medical practice runs a model locally on its own server to analyse records: no patient data transits the internet. Maximum confidentiality, eased compliance, independence from APIs. Thanks to small models and quantization, this local inference is now within everyone's reach.",
+    "regard_fr": "L'inférence locale est la réponse la plus radicale aux questions de souveraineté et de confidentialité : ce qui ne sort pas ne peut pas fuir. Longtemps réservée à quelques-uns, elle se démocratise grâce aux petits modèles. Pour les données sensibles, elle devrait être le premier réflexe, pas le dernier recours.",
+    "regard_en": "Local inference is the most radical answer to sovereignty and confidentiality questions: what does not leave cannot leak. Long reserved for a few, it is democratising thanks to small models. For sensitive data, it should be the first reflex, not the last resort.",
+    "termes_lies": ["slm", "quantification", "ia-souveraine", "edge-computing"],
+    "sources": [{"titre": "Documentation Ollama · inférence locale", "url": "https://ollama.com/"}]
+  },
+  "serveur-inference": {
+    "sous_titre_fr": "Inference server",
+    "sous_titre_en": "Serveur d'inférence",
+    "definition_fr": "Logiciel spécialisé optimisant l'exécution d'un modèle d'IA en production : il gère les requêtes, le traitement par lots, la mémoire et le débit pour servir efficacement de nombreux utilisateurs. Des serveurs d'inférence comme vLLM sont la brique technique qui permet de déployer un modèle ouvert de façon performante et souveraine.",
+    "definition_en": "Specialised software optimising the execution of an AI model in production: it manages requests, batching, memory and throughput to efficiently serve many users. Inference servers like vLLM are the technical brick that allows deploying an open model performantly and sovereignly.",
+    "exemple_fr": "Une entreprise déploie un modèle ouvert pour 500 collaborateurs. Sans serveur d'inférence optimisé, le modèle serait lent et coûteux. Avec vLLM, les requêtes sont regroupées et traitées efficacement : le modèle sert tout le monde de façon fluide, sur une infrastructure maîtrisée. Le serveur d'inférence rend la souveraineté opérationnelle.",
+    "exemple_en": "A company deploys an open model for 500 employees. Without an optimised inference server, the model would be slow and costly. With vLLM, requests are batched and processed efficiently: the model serves everyone smoothly, on controlled infrastructure. The inference server makes sovereignty operational.",
+    "regard_fr": "Le serveur d'inférence est le maillon technique discret qui rend la souveraineté réaliste : sans lui, héberger son propre modèle serait inefficace. Ces outils open source · vLLM et ses semblables · sont des communs précieux. Ils prouvent qu'une IA performante et maîtrisée en interne n'est pas un rêve, mais une ingénierie disponible.",
+    "regard_en": "The inference server is the discreet technical link that makes sovereignty realistic: without it, hosting your own model would be inefficient. These open-source tools · vLLM and its peers · are precious commons. They prove that performant, internally controlled AI is not a dream, but available engineering.",
+    "termes_lies": ["vllm", "inference", "gpu", "ia-souveraine"],
+    "sources": [{"titre": "Documentation vLLM"}]
+  },
+  "latence": {
+    "sous_titre_fr": "Latency",
+    "sous_titre_en": "Latence",
+    "definition_fr": "Délai entre l'envoi d'une requête à un modèle et la réception de sa réponse. Critique pour l'expérience utilisateur et certains usages temps réel (agents vocaux, assistance en direct), la latence dépend du modèle, de l'infrastructure et de la distance aux serveurs · un critère de choix souvent sous-estimé face à la seule qualité.",
+    "definition_en": "The delay between sending a request to a model and receiving its answer. Critical for user experience and some real-time uses (voice agents, live assistance), latency depends on the model, the infrastructure and the distance to servers · a selection criterion often underestimated against quality alone.",
+    "exemple_fr": "Un agent vocal doit répondre en une fraction de seconde pour paraître naturel. Un modèle très performant mais lent rendrait la conversation pénible. Ici, un modèle plus petit et plus rapide, hébergé au plus près, l'emporte. La latence rappelle qu'en IA, le meilleur modèle n'est pas toujours le plus puissant, mais le mieux adapté.",
+    "exemple_en": "A voice agent must answer in a fraction of a second to seem natural. A very performant but slow model would make the conversation painful. Here, a smaller, faster model, hosted nearby, wins. Latency recalls that in AI, the best model is not always the most powerful, but the most fitting.",
+    "regard_fr": "La latence est le critère que la course à la performance fait oublier · jusqu'à ce que les utilisateurs abandonnent un outil trop lent. Héberger un modèle près de ses utilisateurs, choisir la bonne taille, optimiser l'infrastructure : autant de décisions où la souveraineté (hébergement local) rejoint l'efficacité (faible latence).",
+    "regard_en": "Latency is the criterion the performance race makes people forget · until users abandon a too-slow tool. Hosting a model near its users, choosing the right size, optimising the infrastructure: decisions where sovereignty (local hosting) meets efficiency (low latency).",
+    "termes_lies": ["inference", "serveur-inference", "inference-locale", "modele-raisonnement"],
+    "sources": [{"titre": "Google Cloud · Generative AI Glossary (latency)", "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"}]
+  },
+  "edge-computing": {
+    "sous_titre_fr": "Informatique en périphérie",
+    "sous_titre_en": "Edge computing",
+    "definition_fr": "Approche consistant à traiter les données au plus près de leur source · sur l'appareil ou une passerelle locale · plutôt que dans un cloud distant. Appliqué à l'IA, l'edge computing permet une inférence rapide, sobre en bande passante et respectueuse de la vie privée, les données n'ayant pas à remonter vers des serveurs centralisés.",
+    "definition_en": "An approach of processing data as close as possible to its source · on the device or a local gateway · rather than in a remote cloud. Applied to AI, edge computing enables fast inference, frugal in bandwidth and privacy-respecting, since data does not have to travel to centralised servers.",
+    "exemple_fr": "Une caméra industrielle analyse les défauts directement sur place grâce à un modèle embarqué, sans envoyer les images au cloud. Réponse instantanée, aucune donnée sensible ne quitte l'usine, bande passante économisée. L'edge computing est souvent la meilleure réponse quand rapidité et confidentialité comptent autant que la puissance.",
+    "exemple_en": "An industrial camera analyses defects directly on site thanks to an embedded model, without sending images to the cloud. Instant response, no sensitive data leaves the factory, bandwidth saved. Edge computing is often the best answer when speed and confidentiality matter as much as power.",
+    "regard_fr": "L'edge computing incarne une vision décentralisée de l'IA, à rebours du tout-cloud : traiter localement ce qui peut l'être. Cette approche sert la souveraineté (les données restent sur place), la sobriété (moins de transferts) et la résilience (moins de dépendance au réseau). Un contrepoint sain à la centralisation.",
+    "regard_en": "Edge computing embodies a decentralised vision of AI, against the all-cloud: processing locally what can be. This approach serves sovereignty (data stays on site), frugality (fewer transfers) and resilience (less network dependence). A healthy counterpoint to centralisation.",
+    "termes_lies": ["inference-locale", "ia-embarquee", "souverainete-donnees", "ia-frugale"],
+    "sources": [{"titre": "FranceTerme · informatique en périphérie", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "ia-embarquee": {
+    "sous_titre_fr": "Embedded AI",
+    "sous_titre_en": "IA embarquée",
+    "definition_fr": "IA intégrée directement dans un appareil ou un objet · téléphone, voiture, capteur, machine · pour y fonctionner de façon autonome, sans connexion permanente au cloud. L'IA embarquée exige des modèles très optimisés (petits, quantifiés) et ouvre des usages où réactivité, autonomie et confidentialité priment sur la puissance brute.",
+    "definition_en": "AI integrated directly into a device or object · phone, car, sensor, machine · to operate autonomously there, without a permanent cloud connection. Embedded AI requires highly optimised models (small, quantized) and opens uses where responsiveness, autonomy and confidentiality prevail over raw power.",
+    "exemple_fr": "Un appareil auditif intelligent filtre le bruit et amplifie la parole grâce à une IA embarquée, sans aucune connexion. Tout se passe dans l'objet, en temps réel, sans fuite de données. L'IA embarquée est le domaine où sobriété et optimisation ne sont pas des options mais des contraintes de conception fondatrices.",
+    "exemple_en": "A smart hearing aid filters noise and amplifies speech thanks to embedded AI, without any connection. Everything happens in the object, in real time, with no data leakage. Embedded AI is the domain where frugality and optimisation are not options but founding design constraints.",
+    "regard_fr": "L'IA embarquée impose une discipline salutaire : faire beaucoup avec peu. Ses contraintes · mémoire, énergie, absence de cloud · sont un laboratoire de sobriété dont toute l'IA pourrait s'inspirer. Elle prouve qu'on peut concevoir une IA utile sans centres de données géants · une leçon qui dépasse son cas d'usage.",
+    "regard_en": "Embedded AI imposes a salutary discipline: doing a lot with little. Its constraints · memory, energy, no cloud · are a laboratory of frugality all of AI could draw on. It proves that useful AI can be designed without giant data centers · a lesson that goes beyond its use case.",
+    "termes_lies": ["edge-computing", "inference-locale", "slm", "quantification"],
+    "sources": [{"titre": "FranceTerme · intelligence artificielle embarquée", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "jumeau-numerique": {
+    "sous_titre_fr": "Digital twin",
+    "sous_titre_en": "Jumeau numérique",
+    "definition_fr": "Réplique numérique d'un objet, d'un système ou d'un processus physique, alimentée en données réelles, permettant de le simuler, de l'analyser et d'anticiper son comportement. Couplé à l'IA, le jumeau numérique optimise la maintenance, teste des scénarios sans risque et éclaire les décisions · de l'usine à la ville, en passant par le corps humain.",
+    "definition_en": "A digital replica of a physical object, system or process, fed with real data, allowing it to be simulated, analysed and its behaviour anticipated. Coupled with AI, the digital twin optimises maintenance, tests scenarios risk-free and informs decisions · from the factory to the city, including the human body.",
+    "exemple_fr": "Un industriel crée le jumeau numérique d'une ligne de production. Avant de modifier la vraie ligne, il teste ses changements sur le jumeau, alimenté par les données réelles des machines. Il anticipe les problèmes, optimise les réglages, évite des arrêts coûteux. Le jumeau permet d'expérimenter sans risque sur le réel.",
+    "exemple_en": "A manufacturer creates the digital twin of a production line. Before modifying the real line, they test their changes on the twin, fed by the machines' real data. They anticipate problems, optimise settings, avoid costly stoppages. The twin allows experimenting risk-free on the real.",
+    "regard_fr": "Le jumeau numérique illustre une IA utile et concrète, loin des chatbots : simuler pour mieux décider. Sa valeur dépend de la qualité des données qui l'alimentent · un jumeau nourri de données fausses simule un monde faux. Comme toujours, la puissance de l'outil ne vaut que par la rigueur de ce qu'on lui donne.",
+    "regard_en": "The digital twin illustrates a useful, concrete AI, far from chatbots: simulating to decide better. Its value depends on the quality of the data feeding it · a twin fed false data simulates a false world. As always, the tool's power is only worth the rigour of what is given to it.",
+    "termes_lies": ["ia-industrie", "ia-non-generative", "modeles-monde", "qualite-donnees"],
+    "sources": [{"titre": "FranceTerme · jumeau numérique", "url": "https://www.culture.fr/franceterme"}]
+  }
+}

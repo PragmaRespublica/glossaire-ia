@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Modèles multilingues",
+  "terme_en": "Multilingual models",
+  "sous_titre_fr": "Multilingual models",
+  "sous_titre_en": "Modèles multilingues",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Modèles entraînés sur plusieurs langues, capables de comprendre et générer dans chacune, et parfois de transférer des compétences d'une langue à l'autre. Leur qualité varie fortement selon la représentation de chaque langue dans les données · l'anglais domine, et les langues moins présentes sont souvent moins bien servies.",
+  "definition_en": "Models trained on several languages, able to understand and generate in each, and sometimes to transfer skills from one language to another. Their quality varies greatly according to each language's representation in the data · English dominates, and less-present languages are often less well served.",
+  "exemple_fr": "Un modèle multilingue comprend une question posée en français et peut répondre en anglais ou en espagnol. Pratique · mais sa maîtrise du français reste souvent inférieure à celle de l'anglais, faute de données aussi abondantes. D'où l'intérêt de modèles spécifiquement entraînés et optimisés pour le français.",
+  "exemple_en": "A multilingual model understands a question asked in French and can answer in English or Spanish. Handy · but its command of French often remains inferior to English, for lack of equally abundant data. Hence the value of models specifically trained and optimised for French.",
+  "regard_fr": "Les modèles multilingues portent une inégalité invisible : toutes les langues n'y sont pas égales. Cette domination de l'anglais n'est pas neutre · elle façonne les références et les nuances. Soutenir des modèles qui traitent le français avec le même soin que l'anglais est un enjeu de souveraineté culturelle et linguistique.",
+  "regard_en": "Multilingual models carry an invisible inequality: not all languages are equal in them. This dominance of English is not neutral · it shapes references and nuances. Supporting models that treat French with the same care as English is a matter of cultural and linguistic sovereignty.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-langue-francaise",
+    "corpus-entrainement",
+    "traduction-automatique",
+    "token"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur les modèles multilingues"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

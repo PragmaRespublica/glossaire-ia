@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Top-p · échantillonnage noyau",
+  "terme_en": "Top-p (nucleus sampling)",
+  "sous_titre_fr": "Top-p, échantillonnage par noyau",
+  "sous_titre_en": "Nucleus sampling",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Paramètre de génération contrôlant la diversité des sorties d'un modèle : au lieu de considérer tous les mots possibles, il ne retient que les plus probables dont la probabilité cumulée atteint un seuil p. Un top-p bas rend le modèle prévisible et factuel ; un top-p élevé, plus créatif et varié. Un réglage complémentaire de la température.",
+  "definition_en": "A generation parameter controlling the diversity of a model's outputs: instead of considering all possible words, it keeps only the most probable whose cumulative probability reaches a threshold p. A low top-p makes the model predictable and factual; a high top-p, more creative and varied. A setting complementary to temperature.",
+  "exemple_fr": "Pour extraire des données factuelles, on règle un top-p bas : le modèle reste sur les mots les plus sûrs, sans fantaisie. Pour générer des idées créatives, on relève le top-p : le modèle ose des choix plus variés. Ces réglages, comme la température, adaptent le comportement du modèle à l'enjeu de la tâche.",
+  "exemple_en": "To extract factual data, one sets a low top-p: the model stays on the safest words, without fancy. To generate creative ideas, one raises top-p: the model dares more varied choices. These settings, like temperature, adapt the model's behaviour to the stakes of the task.",
+  "regard_fr": "Le top-p et la température sont les deux volants qui règlent le compromis entre fiabilité et créativité d'un modèle. Trop souvent laissés par défaut, ils méritent d'être maîtrisés : pour une tâche factuelle, brider la diversité réduit les hallucinations. Ces réglages sont un levier de fiabilité gratuit et sous-utilisé.",
+  "regard_en": "Top-p and temperature are the two dials that set the trade-off between a model's reliability and creativity. Too often left at default, they deserve to be mastered: for a factual task, curbing diversity reduces hallucinations. These settings are a free, underused reliability lever.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "temperature",
+    "logits",
+    "hallucination",
+    "token"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des API de LLM (top-p, nucleus sampling)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

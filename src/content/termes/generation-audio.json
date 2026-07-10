@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Génération audio et musicale",
+  "terme_en": "AI audio and music generation",
+  "sous_titre_fr": "AI audio and music generation",
+  "sous_titre_en": "Génération audio et musicale",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Production de sons, de voix et de musique par une IA à partir de descriptions ou d'exemples. De la synthèse vocale expressive à la composition musicale complète, elle transforme les industries du son · avec les mêmes tensions qu'ailleurs : opportunités créatives, questions de droit d'auteur, et impact sur les métiers artistiques.",
+  "definition_en": "The production of sounds, voices and music by an AI from descriptions or examples. From expressive voice synthesis to complete musical composition, it transforms the sound industries · with the same tensions as elsewhere: creative opportunities, copyright questions, and impact on artistic professions.",
+  "exemple_fr": "Un créateur de podcast génère une musique d'habillage sur mesure et une voix de synthèse pour ses intros, sans studio ni musicien. Gain de temps et de coût réel. Mais des morceaux générés dans le style d'artistes existants soulèvent la question du droit · et de la juste rémunération de ceux dont l'œuvre a nourri les modèles.",
+  "exemple_en": "A podcast creator generates custom background music and a synthetic voice for their intros, without a studio or musician. Real time and cost savings. But tracks generated in the style of existing artists raise the question of rights · and of fair remuneration for those whose work fed the models.",
+  "regard_fr": "La génération audio démocratise la création sonore · une chance pour les créateurs indépendants. Mais elle rejoue la tension centrale de l'IA générative : ce qui libère les uns peut spolier les autres. Un usage responsable suppose de rester attentif à la provenance et aux droits des artistes dont les modèles s'inspirent.",
+  "regard_en": "Audio generation democratises sound creation · a boon for independent creators. But it replays generative AI's central tension: what frees some can despoil others. Responsible use means staying attentive to provenance and to the rights of the artists the models draw on.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "synthese-vocale",
+    "clonage-vocal",
+    "droits-auteur-ia",
+    "multimodal"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · génération automatique d'audio",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

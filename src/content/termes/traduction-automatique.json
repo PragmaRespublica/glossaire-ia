@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Traduction automatique neuronale",
+  "terme_en": "Neural machine translation",
+  "sous_titre_fr": "Neural machine translation",
+  "sous_titre_en": "Traduction automatique neuronale",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Traduction de textes d'une langue à l'autre par des modèles neuronaux, qui a atteint une qualité proche de l'humain sur de nombreuses paires de langues. Elle abolit des barrières linguistiques · mais reste faillible sur les nuances, le contexte culturel et les domaines spécialisés, où la relecture humaine demeure nécessaire.",
+  "definition_en": "The translation of texts from one language to another by neural models, which has reached near-human quality on many language pairs. It abolishes linguistic barriers · but remains fallible on nuances, cultural context and specialised domains, where human review remains necessary.",
+  "exemple_fr": "Une PME traduit instantanément sa documentation en dix langues pour l'export · un accès aux marchés impensable il y a peu. Mais pour ses contrats et sa communication de marque, elle fait relire par des traducteurs humains : une nuance juridique ou culturelle mal rendue peut coûter cher. L'IA dégrossit, l'humain finalise.",
+  "exemple_en": "An SME instantly translates its documentation into ten languages for export · market access unthinkable not long ago. But for its contracts and brand communication, it has human translators review: a poorly rendered legal or cultural nuance can be costly. AI roughs out, the human finalises.",
+  "regard_fr": "La traduction automatique est l'un des plus beaux succès de l'IA · et un piège pour qui la croit infaillible. Elle excelle sur le courant, trébuche sur le subtil et le culturel. Savoir quand lui faire confiance et quand faire relire est une compétence en soi · la fluidité d'une traduction n'est pas une garantie d'exactitude.",
+  "regard_en": "Machine translation is one of AI's finest successes · and a trap for those who believe it infallible. It excels at the ordinary, stumbles on the subtle and cultural. Knowing when to trust it and when to have it reviewed is a skill in itself · a translation's fluency is not a guarantee of accuracy.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "nlp",
+    "encodeur-decodeur",
+    "modeles-multilingues",
+    "ia-langue-francaise"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (traduction automatique)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

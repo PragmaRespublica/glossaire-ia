@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Modèle à poids ouverts",
+  "terme_en": "Open-weights model",
+  "sous_titre_fr": "Open-weights model",
+  "sous_titre_en": "Modèle à poids ouverts",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Modèle dont les poids sont publiquement disponibles au téléchargement, permettant de l'exécuter, de l'étudier et de l'adapter sur sa propre infrastructure. À distinguer du « pleinement open source » (qui inclurait données et code d'entraînement), le modèle à poids ouverts est la clé technique de la souveraineté sur un modèle d'IA.",
+  "definition_en": "A model whose weights are publicly available for download, allowing it to be run, studied and adapted on one's own infrastructure. To be distinguished from \"fully open source\" (which would include training data and code), the open-weights model is the technical key to sovereignty over an AI model.",
+  "exemple_fr": "Une entreprise télécharge les poids d'un modèle ouvert, le déploie sur ses serveurs et l'adapte à son métier · sans jamais dépendre d'une API ni envoyer ses données dehors. À l'inverse, un modèle à poids fermés ne s'utilise qu'à travers son fournisseur. Les poids ouverts changent radicalement le rapport de dépendance.",
+  "exemple_en": "A company downloads an open model's weights, deploys it on its servers and adapts it to its business · without ever depending on an API or sending its data out. Conversely, a closed-weights model can only be used through its provider. Open weights radically change the dependency relationship.",
+  "regard_fr": "Le débat « ouvert contre fermé » est le cœur politique de l'IA. Les modèles à poids ouverts sont la condition d'une IA que l'on peut auditer, héberger et maîtriser. Pour l'Europe, les soutenir n'est pas une préférence technique mais une nécessité stratégique · sans eux, pas de souveraineté réelle sur l'IA.",
+  "regard_en": "The \"open versus closed\" debate is AI's political core. Open-weights models are the condition of an AI that can be audited, hosted and controlled. For Europe, supporting them is not a technical preference but a strategic necessity · without them, no real AI sovereignty.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "poids-modele",
+    "open-source-ia",
+    "ia-souveraine",
+    "licences-open-source"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des modèles à poids ouverts",
+      "url": "https://huggingface.co/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

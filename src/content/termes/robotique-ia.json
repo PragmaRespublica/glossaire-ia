@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Robotique et IA incarnée",
+  "terme_en": "Robotics and embodied AI",
+  "sous_titre_fr": "Robotics and embodied AI",
+  "sous_titre_en": "Robotique et IA incarnée",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Intégration de l'IA dans des robots capables de percevoir et d'agir dans le monde physique. L'IA incarnée · qui apprend en interagissant avec son environnement · est considérée par certains comme une voie vers une intelligence plus robuste, ancrée dans l'expérience du réel plutôt que dans le seul traitement du langage.",
+  "definition_en": "The integration of AI into robots able to perceive and act in the physical world. Embodied AI · which learns by interacting with its environment · is seen by some as a path towards more robust intelligence, grounded in the experience of the real rather than in language processing alone.",
+  "exemple_fr": "Un robot d'entrepôt apprend à saisir des objets de formes variées en s'exerçant, échec après échec, jusqu'à maîtriser le geste. Cette IA incarnée acquiert un savoir-faire physique qu'aucun texte ne pourrait lui transmettre. Elle rappelle qu'une part de l'intelligence naît de l'action dans le monde, pas seulement des données.",
+  "exemple_en": "A warehouse robot learns to grasp objects of varied shapes by practising, failure after failure, until it masters the gesture. This embodied AI acquires a physical know-how no text could transmit. It recalls that part of intelligence is born from action in the world, not just from data.",
+  "regard_fr": "La robotique rappelle une évidence que l'ère des LLM tend à effacer : penser n'est pas tout, agir dans le monde physique est un défi immense. Une IA qui manipule le langage avec brio peut être incapable de saisir un verre. Cette humilité face au réel est un bon garde-fou contre les fantasmes d'omnipotence de l'IA.",
+  "regard_en": "Robotics recalls an obvious fact the LLM era tends to erase: thinking is not everything, acting in the physical world is an immense challenge. An AI that manipulates language brilliantly can be unable to grasp a glass. This humility before the real is a good guardrail against fantasies of AI omnipotence.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "modeles-monde",
+    "apprentissage-renforcement",
+    "vision-ordinateur",
+    "multimodal"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur l'IA incarnée (embodied AI)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

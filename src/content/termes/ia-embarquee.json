@@ -1,0 +1,38 @@
+{
+  "terme_fr": "IA embarquée",
+  "terme_en": "Embedded AI",
+  "sous_titre_fr": "Embedded AI",
+  "sous_titre_en": "IA embarquée",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "IA intégrée directement dans un appareil ou un objet · téléphone, voiture, capteur, machine · pour y fonctionner de façon autonome, sans connexion permanente au cloud. L'IA embarquée exige des modèles très optimisés (petits, quantifiés) et ouvre des usages où réactivité, autonomie et confidentialité priment sur la puissance brute.",
+  "definition_en": "AI integrated directly into a device or object · phone, car, sensor, machine · to operate autonomously there, without a permanent cloud connection. Embedded AI requires highly optimised models (small, quantized) and opens uses where responsiveness, autonomy and confidentiality prevail over raw power.",
+  "exemple_fr": "Un appareil auditif intelligent filtre le bruit et amplifie la parole grâce à une IA embarquée, sans aucune connexion. Tout se passe dans l'objet, en temps réel, sans fuite de données. L'IA embarquée est le domaine où sobriété et optimisation ne sont pas des options mais des contraintes de conception fondatrices.",
+  "exemple_en": "A smart hearing aid filters noise and amplifies speech thanks to embedded AI, without any connection. Everything happens in the object, in real time, with no data leakage. Embedded AI is the domain where frugality and optimisation are not options but founding design constraints.",
+  "regard_fr": "L'IA embarquée impose une discipline salutaire : faire beaucoup avec peu. Ses contraintes · mémoire, énergie, absence de cloud · sont un laboratoire de sobriété dont toute l'IA pourrait s'inspirer. Elle prouve qu'on peut concevoir une IA utile sans centres de données géants · une leçon qui dépasse son cas d'usage.",
+  "regard_en": "Embedded AI imposes a salutary discipline: doing a lot with little. Its constraints · memory, energy, no cloud · are a laboratory of frugality all of AI could draw on. It proves that useful AI can be designed without giant data centers · a lesson that goes beyond its use case.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "edge-computing",
+    "inference-locale",
+    "slm",
+    "quantification"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · intelligence artificielle embarquée",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
