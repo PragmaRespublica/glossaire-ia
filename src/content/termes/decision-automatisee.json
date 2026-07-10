@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Décision entièrement automatisée",
+  "terme_en": "Automated decision-making (GDPR art. 22)",
+  "sous_titre_fr": "Le droit à une intervention humaine",
+  "sous_titre_en": "The right to human intervention",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "L'article 22 du RGPD encadre les décisions produisant des effets juridiques ou significatifs prises sans intervention humaine. La personne a le droit de ne pas y être soumise, d'obtenir une explication et une révision humaine. Un scoring de crédit ou un tri de candidatures entièrement automatisé tombe directement sous ce régime.",
+  "definition_en": "Article 22 of the GDPR frames decisions producing legal or significant effects made without human intervention. The person has the right not to be subject to them, to obtain an explanation and a human review. Fully automated credit scoring or application screening falls directly under this regime.",
+  "exemple_fr": "Une banque refuse un crédit sur la seule base d'un score algorithmique. Le client peut exiger une intervention humaine réelle · pas un tampon automatique · et une explication des motifs. La banque doit donc concevoir un processus où un humain peut effectivement revoir et infirmer la décision de la machine.",
+  "exemple_en": "A bank refuses a loan on the sole basis of an algorithmic score. The customer can demand genuine human intervention · not an automatic rubber stamp · and an explanation of the reasons. The bank must therefore design a process where a human can actually review and overturn the machine's decision.",
+  "regard_fr": "La « supervision humaine » n'a de valeur que si l'humain peut vraiment comprendre et contredire la machine. Un humain qui valide sans pouvoir juger n'est qu'un alibi juridique · et l'AI Act comme le RGPD sanctionnent cette supervision de façade.",
+  "regard_en": "\"Human oversight\" only has value if the human can truly understand and contradict the machine. A human who validates without being able to judge is merely a legal alibi · and both the AI Act and the GDPR sanction this facade oversight.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "supervision-humaine",
+    "explicabilite",
+    "humain-dans-la-boucle"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 22",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

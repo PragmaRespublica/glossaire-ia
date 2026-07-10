@@ -1,0 +1,110 @@
+{
+  "acculturation-ia": {
+    "sous_titre_fr": "AI literacy, maîtrise de l'IA",
+    "sous_titre_en": "AI literacy",
+    "definition_fr": "Niveau de compréhension de l'IA permettant à une personne d'en faire un usage éclairé, critique et responsable. L'AI Act en fait une obligation : depuis février 2025, les organisations doivent garantir un niveau suffisant de maîtrise de l'IA à leur personnel amené à l'utiliser ou à la superviser.",
+    "definition_en": "The level of understanding of AI enabling a person to use it in an informed, critical and responsible way. The AI Act makes it an obligation: since February 2025, organisations must ensure a sufficient level of AI literacy for staff called to use or supervise it.",
+    "exemple_fr": "Une entreprise déploie des assistants IA à grande échelle. Pour respecter l'obligation d'acculturation, elle forme ses équipes non seulement à l'outil, mais aux notions clés : hallucination, biais, confidentialité, limites. Résultat : moins d'usages naïfs, moins de fuites, plus de valeur. La formation n'est plus une option, c'est la loi.",
+    "exemple_en": "A company deploys AI assistants at scale. To meet the literacy obligation, it trains its teams not only on the tool, but on key notions: hallucination, bias, confidentiality, limits. The result: fewer naive uses, fewer leaks, more value. Training is no longer optional, it is the law.",
+    "regard_fr": "L'acculturation à l'IA est passée du statut de bonne pratique à celui d'obligation légale · et c'est heureux. Un collaborateur qui comprend ce qu'est une hallucination protège l'entreprise mieux que n'importe quel garde-fou technique. Former, c'est le premier acte de conformité.",
+    "regard_en": "AI literacy has moved from good practice to legal obligation · and rightly so. An employee who understands what a hallucination is protects the company better than any technical guardrail. Training is the first act of compliance.",
+    "termes_lies": ["ai-act", "charte-ia", "conformite-ia", "hallucination"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 4", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "c2pa": {
+    "sous_titre_fr": "La norme de provenance des contenus",
+    "sous_titre_en": "The content provenance standard",
+    "definition_fr": "Standard technique ouvert (porté par la Coalition for Content Provenance and Authenticity) attachant à un fichier des métadonnées signées cryptographiquement décrivant son origine et son historique de modifications · notamment s'il a été généré ou retouché par IA. C'est une brique clé de la lutte contre la désinformation et de la transparence exigée par l'AI Act.",
+    "definition_en": "An open technical standard (led by the Coalition for Content Provenance and Authenticity) attaching to a file cryptographically signed metadata describing its origin and edit history · notably whether it was generated or edited by AI. It is a key building block against disinformation and for the transparency required by the AI Act.",
+    "exemple_fr": "Un média équipe ses appareils photo et sa chaîne éditoriale du standard C2PA. Chaque image publiée porte une preuve de provenance vérifiable : prise de vue authentique ou génération IA, retouches successives. Face à un hypertrucage, la présence · ou l'absence · de ces métadonnées devient un indice de confiance.",
+    "exemple_en": "A media outlet equips its cameras and editorial chain with the C2PA standard. Every published image carries verifiable provenance proof: authentic shot or AI generation, successive edits. Facing a deepfake, the presence · or absence · of this metadata becomes a trust signal.",
+    "regard_fr": "C2PA ne prouve pas qu'un contenu est vrai, mais il en trace l'origine · ce qui est déjà décisif. Dans un monde où tout peut être généré, la provenance vérifiable devient la nouvelle valeur. Un standard à connaître pour quiconque produit ou vérifie des contenus.",
+    "regard_en": "C2PA does not prove content is true, but it traces its origin · which is already decisive. In a world where everything can be generated, verifiable provenance becomes the new value. A standard to know for anyone producing or verifying content.",
+    "termes_lies": ["filigrane-ia", "deepfake", "desinformation-ia", "detection-contenu-ia"],
+    "sources": [{"titre": "C2PA · Content Provenance and Authenticity", "url": "https://c2pa.org/"}]
+  },
+  "filigrane-ia": {
+    "sous_titre_fr": "Watermarking, marquage des contenus IA",
+    "sous_titre_en": "AI watermarking",
+    "definition_fr": "Technique consistant à insérer dans un contenu généré par IA une marque · visible ou imperceptible · signalant son origine artificielle. L'AI Act impose que les contenus synthétiques soient marqués de manière lisible par machine. Le filigrane reste imparfait (contournable, fragile aux modifications) mais constitue une première ligne de transparence.",
+    "definition_en": "A technique for inserting into AI-generated content a mark · visible or imperceptible · signalling its artificial origin. The AI Act requires synthetic content to be marked in a machine-readable way. Watermarking remains imperfect (bypassable, fragile to modifications) but constitutes a first line of transparency.",
+    "exemple_fr": "Un générateur d'images intègre un filigrane invisible dans chaque création. Une plateforme sociale peut alors détecter automatiquement les images synthétiques et les étiqueter. Mais un recadrage ou une recompression peut effacer la marque · d'où l'intérêt de combiner filigrane et métadonnées de provenance C2PA.",
+    "exemple_en": "An image generator embeds an invisible watermark in every creation. A social platform can then automatically detect synthetic images and label them. But a crop or recompression can erase the mark · hence the value of combining watermarking with C2PA provenance metadata.",
+    "regard_fr": "Le filigrane est nécessaire mais fragile : aucune marque n'est indélébile. La transparence sur les contenus IA ne reposera pas sur une technique unique, mais sur une combinaison · filigrane, provenance, détection. Ne promettez pas l'infaillibilité, construisez des couches.",
+    "regard_en": "Watermarking is necessary but fragile: no mark is indelible. Transparency on AI content will not rest on a single technique, but on a combination · watermarking, provenance, detection. Do not promise infallibility, build layers.",
+    "termes_lies": ["c2pa", "contenu-genere", "detection-contenu-ia", "deepfake"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 50", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "hds": {
+    "sous_titre_fr": "Hébergement de données de santé",
+    "sous_titre_en": "French health data hosting certification",
+    "definition_fr": "Certification française obligatoire pour tout hébergeur de données de santé à caractère personnel. Elle impose des exigences de sécurité, de traçabilité et de confidentialité renforcées. Tout projet d'IA en santé · RAG médical, aide au diagnostic, analyse de dossiers · doit s'appuyer sur une infrastructure certifiée HDS.",
+    "definition_en": "A mandatory French certification for any host of personal health data. It imposes reinforced security, traceability and confidentiality requirements. Any health AI project · medical RAG, diagnosis support, record analysis · must rest on HDS-certified infrastructure.",
+    "exemple_fr": "Une clinique veut un assistant IA interrogeant les dossiers patients. Le cahier des charges est sans appel : hébergement certifié HDS, exclusivement. Cela oriente vers des acteurs français ou européens qualifiés, et écarte les offres non certifiées, aussi performantes soient-elles. En santé, la certification prime sur la performance.",
+    "exemple_en": "A clinic wants an AI assistant querying patient records. The specification is uncompromising: HDS-certified hosting, exclusively. This points to qualified French or European players, and rules out non-certified offerings, however performant. In healthcare, certification prevails over performance.",
+    "regard_fr": "En santé, la certification HDS n'est pas négociable · elle est le préalable de tout. Pour un projet d'IA médicale, commencez par la question de l'hébergement : elle détermine bien plus la faisabilité que le choix du modèle. Le cadre d'abord, la technologie ensuite.",
+    "regard_en": "In healthcare, HDS certification is not negotiable · it is the prerequisite of everything. For a medical AI project, start with the hosting question: it determines feasibility far more than the choice of model. Framework first, technology second.",
+    "termes_lies": ["donnees-sensibles", "cloud-souverain", "ia-sante", "secnumcloud"],
+    "sources": [{"titre": "Code de la santé publique · certification HDS"}, {"titre": "Agence du Numérique en Santé"}]
+  },
+  "identification-biometrique": {
+    "sous_titre_fr": "Biometric identification",
+    "sous_titre_en": "Identification biométrique",
+    "definition_fr": "Reconnaissance d'une personne à partir de caractéristiques physiques ou comportementales : visage, empreinte, voix, iris, démarche. L'AI Act encadre strictement ces systèmes, interdisant certains usages (identification biométrique à distance en temps réel dans l'espace public, sauf exceptions) et classant les autres à haut risque.",
+    "definition_en": "The recognition of a person from physical or behavioural characteristics: face, fingerprint, voice, iris, gait. The AI Act strictly frames these systems, banning certain uses (real-time remote biometric identification in public spaces, save for exceptions) and classifying the others as high-risk.",
+    "exemple_fr": "Une entreprise envisage l'accès à ses locaux par reconnaissance faciale. Elle découvre que ce traitement biométrique est soumis à des règles strictes : nécessité démontrée, alternative non biométrique offerte, analyse d'impact, consultation de la CNIL. Un badge classique, moins intrusif, s'avère souvent la solution proportionnée.",
+    "exemple_en": "A company considers access to its premises by facial recognition. It discovers that this biometric processing is subject to strict rules: demonstrated necessity, a non-biometric alternative offered, impact assessment, CNIL consultation. A classic badge, less intrusive, often proves the proportionate solution.",
+    "regard_fr": "La biométrie séduit par sa fluidité, mais elle touche à ce qu'il y a de plus intime · le corps comme mot de passe. La question n'est jamais « peut-on le faire ? » mais « est-ce nécessaire et proportionné ? ». Le plus souvent, une solution moins intrusive suffit.",
+    "regard_en": "Biometrics seduce with their fluidity, but they touch the most intimate thing · the body as password. The question is never \"can we do it?\" but \"is it necessary and proportionate?\". More often than not, a less intrusive solution suffices.",
+    "termes_lies": ["reconnaissance-faciale", "pratiques-interdites", "donnees-sensibles", "systeme-haut-risque"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 5 et annexe III", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "reconnaissance-faciale": {
+    "sous_titre_fr": "Facial recognition",
+    "sous_titre_en": "Reconnaissance faciale",
+    "definition_fr": "Technologie d'identification ou de vérification d'une personne à partir de son visage. On distingue l'authentification (comparer un visage à un seul, avec consentement, ex. déverrouiller un téléphone) de l'identification en masse (chercher un visage dans une foule), cette dernière étant très largement encadrée ou interdite dans l'espace public européen.",
+    "definition_en": "A technology for identifying or verifying a person from their face. One distinguishes authentication (comparing a face to a single one, with consent, e.g. unlocking a phone) from mass identification (searching for a face in a crowd), the latter being very largely framed or banned in European public spaces.",
+    "exemple_fr": "Déverrouiller son smartphone par le visage (authentification locale, consentie, sans base centralisée) et scanner une foule pour identifier des individus (surveillance de masse) sont deux mondes juridiques opposés, bien que reposant sur la même brique technique. L'AI Act encadre le second avec une sévérité que le premier ne connaît pas.",
+    "exemple_en": "Unlocking your smartphone by face (local, consented authentication, no centralised database) and scanning a crowd to identify individuals (mass surveillance) are two opposed legal worlds, though resting on the same technical brick. The AI Act frames the second with a severity the first does not face.",
+    "regard_fr": "La reconnaissance faciale n'est ni bonne ni mauvaise en soi : tout dépend de l'usage, du consentement et de la centralisation. Confondre le déverrouillage d'un téléphone et la surveillance de masse, c'est s'interdire de penser · l'analyse au cas par cas est la seule voie sérieuse.",
+    "regard_en": "Facial recognition is neither good nor bad in itself: everything depends on the use, consent and centralisation. Confusing phone unlocking with mass surveillance means refusing to think · case-by-case analysis is the only serious path.",
+    "termes_lies": ["identification-biometrique", "vision-ordinateur", "pratiques-interdites", "police-predictive"],
+    "sources": [{"titre": "CNIL · reconnaissance faciale", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "notation-sociale": {
+    "sous_titre_fr": "Social scoring",
+    "sous_titre_en": "Notation sociale",
+    "definition_fr": "Système attribuant aux individus une note globale fondée sur leur comportement ou leurs caractéristiques, conditionnant leur accès à des services ou des droits. L'AI Act interdit la notation sociale généralisée par les autorités publiques et certains usages privés, y voyant une atteinte fondamentale à la dignité et à l'égalité.",
+    "definition_en": "A system assigning individuals a global score based on their behaviour or characteristics, conditioning their access to services or rights. The AI Act bans generalised social scoring by public authorities and certain private uses, seeing it as a fundamental attack on dignity and equality.",
+    "exemple_fr": "Un système notant les citoyens selon un composite de comportements (paiements, réseaux sociaux, déplacements) pour moduler leurs droits relève de la pratique interdite. Même à but « vertueux », il crée une surveillance totale et une discrimination systémique. L'Europe a tranché : ce modèle est incompatible avec ses valeurs.",
+    "exemple_en": "A system scoring citizens by a composite of behaviours (payments, social media, movements) to modulate their rights falls under prohibited practice. Even for a \"virtuous\" purpose, it creates total surveillance and systemic discrimination. Europe has ruled: this model is incompatible with its values.",
+    "regard_fr": "L'interdiction de la notation sociale est l'une des lignes rouges les plus claires de l'AI Act · et l'une des plus révélatrices du projet européen. Elle rappelle qu'une capacité technique n'est jamais une justification suffisante : certaines choses ne se font pas, même si elles se peuvent.",
+    "regard_en": "The ban on social scoring is one of the clearest red lines of the AI Act · and one of the most revealing of the European project. It recalls that a technical capability is never sufficient justification: some things are not done, even if they can be.",
+    "termes_lies": ["pratiques-interdites", "ai-act", "ethique-ia", "equite-algorithmique"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 5", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "police-predictive": {
+    "sous_titre_fr": "Predictive policing",
+    "sous_titre_en": "Police prédictive",
+    "definition_fr": "Usage de l'IA pour anticiper où et par qui des infractions pourraient être commises, à partir de données historiques. Fortement critiquée pour ses biais · elle reproduit et amplifie les discriminations présentes dans les données de police · elle est en partie interdite par l'AI Act, notamment la prédiction du risque qu'une personne commette une infraction.",
+    "definition_en": "The use of AI to anticipate where and by whom offences might be committed, from historical data. Strongly criticised for its biases · it reproduces and amplifies the discriminations present in police data · it is partly banned by the AI Act, notably predicting the risk that a person will commit an offence.",
+    "exemple_fr": "Un système entraîné sur des données de police historiques recommande de patrouiller davantage dans certains quartiers. Mais ces quartiers étaient déjà surveillés · donc surreprésentés dans les données. Le système crée une boucle : plus de patrouilles, plus d'interpellations, données encore plus biaisées. La prédiction devient une prophétie autoréalisatrice.",
+    "exemple_en": "A system trained on historical police data recommends patrolling certain neighbourhoods more. But these neighbourhoods were already surveilled · thus over-represented in the data. The system creates a loop: more patrols, more stops, even more biased data. The prediction becomes a self-fulfilling prophecy.",
+    "regard_fr": "La police prédictive est le cas d'école du biais qui s'auto-entretient : le modèle apprend les préjugés du passé et les projette dans l'avenir en les aggravant. C'est l'illustration la plus nette que l'objectivité apparente d'un algorithme peut masquer une injustice systémique.",
+    "regard_en": "Predictive policing is the textbook case of self-reinforcing bias: the model learns the prejudices of the past and projects them into the future, worsening them. It is the clearest illustration that an algorithm's apparent objectivity can mask systemic injustice.",
+    "termes_lies": ["biais-algorithmique", "equite-algorithmique", "pratiques-interdites", "notation-sociale"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 5", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "reconnaissance-emotions": {
+    "sous_titre_fr": "Emotion recognition",
+    "sous_titre_en": "Reconnaissance des émotions",
+    "definition_fr": "Systèmes prétendant déduire les émotions d'une personne à partir de son visage, sa voix ou son comportement. Scientifiquement contestés (l'expression n'est pas un indicateur fiable de l'état intérieur), ils sont interdits par l'AI Act dans les lieux de travail et les établissements d'enseignement, et classés à haut risque ailleurs.",
+    "definition_en": "Systems claiming to infer a person's emotions from their face, voice or behaviour. Scientifically contested (expression is not a reliable indicator of inner state), they are banned by the AI Act in workplaces and educational institutions, and classified as high-risk elsewhere.",
+    "exemple_fr": "Un éditeur propose un outil analysant les émotions des candidats pendant un entretien vidéo pour « objectiver » le recrutement. Outre son interdiction dans ce contexte, l'outil repose sur une base scientifique fragile : rien ne prouve qu'un froncement de sourcils traduise un état mental précis. Fausse science et illégalité se cumulent.",
+    "exemple_en": "A vendor offers a tool analysing candidates' emotions during a video interview to \"objectify\" recruitment. Beyond its ban in this context, the tool rests on a fragile scientific basis: nothing proves a frown reflects a specific mental state. Junk science and illegality combine.",
+    "regard_fr": "La reconnaissance des émotions cumule deux problèmes : elle est souvent illégale, et scientifiquement douteuse. Méfiez-vous des outils qui promettent de lire les âmes dans les visages · ils vendent une objectivité qui n'existe pas, avec les habits de la technologie.",
+    "regard_en": "Emotion recognition combines two problems: it is often illegal, and scientifically dubious. Beware of tools promising to read souls in faces · they sell an objectivity that does not exist, dressed in the clothes of technology.",
+    "termes_lies": ["pratiques-interdites", "informatique-affective", "biais-algorithmique", "systeme-haut-risque"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 5", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  }
+}

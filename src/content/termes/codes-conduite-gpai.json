@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Codes de bonnes pratiques GPAI",
+  "terme_en": "GPAI codes of practice",
+  "sous_titre_fr": "GPAI codes of practice",
+  "sous_titre_en": "Codes de bonnes pratiques pour les modèles à usage général",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Documents élaborés sous l'égide du Bureau européen de l'IA pour préciser comment les fournisseurs de modèles à usage général respectent leurs obligations : transparence, droit d'auteur, sûreté et sécurité pour les modèles à risque systémique. Y adhérer est un moyen privilégié de démontrer sa conformité avant l'adoption de normes formelles.",
+  "definition_en": "Documents developed under the aegis of the European AI Office to specify how general-purpose model providers meet their obligations: transparency, copyright, safety and security for systemic-risk models. Adhering to them is a preferred way to demonstrate compliance before formal standards are adopted.",
+  "exemple_fr": "Un fournisseur de modèle de fondation adhère au code de bonnes pratiques GPAI : il publie un résumé de ses données d'entraînement, documente ses mesures de sûreté, met en place une politique de droit d'auteur. Cette adhésion volontaire lui offre une présomption de bonne foi face au Bureau européen de l'IA.",
+  "exemple_en": "A foundation model provider adheres to the GPAI code of practice: it publishes a summary of its training data, documents its safety measures, sets up a copyright policy. This voluntary adherence gives it a presumption of good faith before the European AI Office.",
+  "regard_fr": "Les codes de bonnes pratiques sont le droit souple qui précède le droit dur : y adhérer tôt, c'est prendre de l'avance et peser sur l'interprétation des règles. Pour un fournisseur de modèle, c'est un investissement de crédibilité, pas une contrainte de plus.",
+  "regard_en": "Codes of practice are the soft law that precedes hard law: adhering early means getting ahead and influencing the interpretation of the rules. For a model provider, it is a credibility investment, not one more constraint.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gpai",
+    "bureau-ia",
+    "ai-act",
+    "droits-auteur-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Commission européenne · GPAI Code of Practice"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

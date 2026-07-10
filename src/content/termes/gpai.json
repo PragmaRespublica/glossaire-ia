@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Modèle d'IA à usage général (GPAI)",
+  "terme_en": "General-Purpose AI (GPAI)",
+  "sous_titre_fr": "General-Purpose AI",
+  "sous_titre_en": "Modèle d'IA à usage général",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Modèle d'IA capable d'accomplir une grande variété de tâches et intégrable dans de nombreux systèmes en aval · typiquement les grands modèles de langage. L'AI Act leur impose des obligations propres (documentation, transparence sur les données d'entraînement, respect du droit d'auteur), renforcées pour les modèles présentant un risque systémique.",
+  "definition_en": "An AI model capable of performing a wide variety of tasks and integrable into many downstream systems · typically large language models. The AI Act imposes specific obligations on them (documentation, transparency on training data, copyright compliance), reinforced for models posing a systemic risk.",
+  "exemple_fr": "Un fournisseur de LLM commercialisant son modèle en Europe doit publier un résumé des données d'entraînement, documenter les capacités et limites du modèle, et fournir aux intégrateurs les informations nécessaires à leur propre conformité. Ces obligations remontent la chaîne de responsabilité vers l'amont.",
+  "exemple_en": "An LLM provider marketing its model in Europe must publish a summary of the training data, document the model's capabilities and limits, and give integrators the information needed for their own compliance. These obligations push accountability back up the chain.",
+  "regard_fr": "La catégorie GPAI reconnaît une évidence : le modèle de fondation est un maillon amont dont dépendent des milliers d'usages. En responsabilisant les fournisseurs, l'Europe évite que toute la charge de conformité ne retombe sur les intégrateurs.",
+  "regard_en": "The GPAI category recognises an obvious fact: the foundation model is an upstream link on which thousands of uses depend. By holding providers accountable, Europe avoids the entire compliance burden falling on integrators.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "modele-fondation",
+    "codes-conduite-gpai",
+    "exception-tdm"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, chapitre V",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

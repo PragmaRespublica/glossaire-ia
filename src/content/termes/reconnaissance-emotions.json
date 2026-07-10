@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Reconnaissance des émotions",
+  "terme_en": "Emotion recognition",
+  "sous_titre_fr": "Emotion recognition",
+  "sous_titre_en": "Reconnaissance des émotions",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Systèmes prétendant déduire les émotions d'une personne à partir de son visage, sa voix ou son comportement. Scientifiquement contestés (l'expression n'est pas un indicateur fiable de l'état intérieur), ils sont interdits par l'AI Act dans les lieux de travail et les établissements d'enseignement, et classés à haut risque ailleurs.",
+  "definition_en": "Systems claiming to infer a person's emotions from their face, voice or behaviour. Scientifically contested (expression is not a reliable indicator of inner state), they are banned by the AI Act in workplaces and educational institutions, and classified as high-risk elsewhere.",
+  "exemple_fr": "Un éditeur propose un outil analysant les émotions des candidats pendant un entretien vidéo pour « objectiver » le recrutement. Outre son interdiction dans ce contexte, l'outil repose sur une base scientifique fragile : rien ne prouve qu'un froncement de sourcils traduise un état mental précis. Fausse science et illégalité se cumulent.",
+  "exemple_en": "A vendor offers a tool analysing candidates' emotions during a video interview to \"objectify\" recruitment. Beyond its ban in this context, the tool rests on a fragile scientific basis: nothing proves a frown reflects a specific mental state. Junk science and illegality combine.",
+  "regard_fr": "La reconnaissance des émotions cumule deux problèmes : elle est souvent illégale, et scientifiquement douteuse. Méfiez-vous des outils qui promettent de lire les âmes dans les visages · ils vendent une objectivité qui n'existe pas, avec les habits de la technologie.",
+  "regard_en": "Emotion recognition combines two problems: it is often illegal, and scientifically dubious. Beware of tools promising to read souls in faces · they sell an objectivity that does not exist, dressed in the clothes of technology.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "pratiques-interdites",
+    "informatique-affective",
+    "biais-algorithmique",
+    "systeme-haut-risque"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 5",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

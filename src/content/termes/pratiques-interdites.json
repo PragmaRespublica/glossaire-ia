@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Pratiques d'IA interdites",
+  "terme_en": "Prohibited AI practices",
+  "sous_titre_fr": "Les usages d'IA bannis par l'Europe",
+  "sous_titre_en": "AI uses banned by Europe",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Catégorie la plus haute de l'AI Act : les systèmes d'IA présentant un risque inacceptable, purement et simplement interdits dans l'Union européenne depuis février 2025. On y trouve la notation sociale généralisée, la manipulation subliminale, l'exploitation des vulnérabilités, et certaines formes de surveillance biométrique de masse.",
+  "definition_en": "The highest AI Act category: AI systems posing an unacceptable risk, purely and simply banned in the European Union since February 2025. It includes generalised social scoring, subliminal manipulation, exploitation of vulnerabilities, and certain forms of mass biometric surveillance.",
+  "exemple_fr": "Une entreprise envisage un système notant les employés selon leur comportement global pour conditionner l'accès à certains services internes. Ce type de notation sociale relève des pratiques interdites : le projet est illégal en Europe, quelle que soit sa performance technique. Mieux vaut le découvrir au cadrage qu'après le développement.",
+  "exemple_en": "A company considers a system scoring employees by their overall behaviour to condition access to certain internal services. This kind of social scoring falls under prohibited practices: the project is illegal in Europe, whatever its technical performance. Better to discover it at scoping than after development.",
+  "regard_fr": "Les pratiques interdites tracent une ligne rouge morale autant que juridique. Les connaître évite de gaspiller des mois sur un projet mort-né · et rappelle que toute capacité technique n'est pas une permission d'usage.",
+  "regard_en": "Prohibited practices draw a red line that is moral as much as legal. Knowing them avoids wasting months on a stillborn project · and recalls that every technical capability is not a permission to use.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "notation-sociale",
+    "identification-biometrique",
+    "systeme-haut-risque"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 5",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

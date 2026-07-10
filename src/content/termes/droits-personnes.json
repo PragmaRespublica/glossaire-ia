@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Droits des personnes (RGPD)",
+  "terme_en": "Data subject rights",
+  "sous_titre_fr": "Data subject rights",
+  "sous_titre_en": "Droits des personnes concernées",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des droits que le RGPD confère à toute personne sur ses données : accès, rectification, effacement, opposition, portabilité, limitation. À l'ère de l'IA, ces droits soulèvent des questions inédites : comment effacer une donnée déjà absorbée par un modèle entraîné ? comment expliquer une décision issue d'un système opaque ?",
+  "definition_en": "The set of rights the GDPR grants every person over their data: access, rectification, erasure, objection, portability, restriction. In the AI era, these rights raise novel questions: how to erase data already absorbed by a trained model? how to explain a decision from an opaque system?",
+  "exemple_fr": "Un client demande l'effacement de ses données à une entreprise qui a entraîné un modèle dessus. Effacer la base source est simple ; « désapprendre » le modèle l'est beaucoup moins. L'entreprise doit avoir anticipé : entraîner sur données anonymisées, ou documenter pourquoi le modèle ne permet pas de réidentifier une personne.",
+  "exemple_en": "A customer requests erasure of their data from a company that trained a model on it. Erasing the source database is simple; \"unlearning\" the model much less so. The company must have anticipated: training on anonymised data, or documenting why the model does not allow re-identifying a person.",
+  "regard_fr": "Les droits des personnes sont le test de réalité de tout projet IA : un système dont on ne peut ni expliquer les décisions ni retirer les données n'est pas conforme, aussi performant soit-il. Concevez l'exercice de ces droits dès l'architecture, pas comme une rustine.",
+  "regard_en": "Data subject rights are the reality test of any AI project: a system whose decisions cannot be explained nor whose data can be withdrawn is not compliant, however high-performing. Design the exercise of these rights into the architecture, not as a patch.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "desapprentissage",
+    "explicabilite",
+    "decision-automatisee"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, chapitre III",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

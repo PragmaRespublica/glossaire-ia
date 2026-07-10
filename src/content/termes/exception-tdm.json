@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Exception de fouille de textes et de données (TDM)",
+  "terme_en": "Text and Data Mining exception",
+  "sous_titre_fr": "Text and Data Mining",
+  "sous_titre_en": "Exception de fouille de textes et de données",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Exception au droit d'auteur, introduite par la directive européenne 2019/790, autorisant la fouille automatisée de contenus protégés pour en extraire des informations · fondement invoqué pour entraîner des modèles d'IA. Elle prévoit un droit d'opposition (opt-out) pour les ayants droit, sauf pour la recherche scientifique.",
+  "definition_en": "An exception to copyright, introduced by European directive 2019/790, authorising the automated mining of protected content to extract information · the basis invoked for training AI models. It provides a right to object (opt-out) for rights holders, except for scientific research.",
+  "exemple_fr": "Un éditeur de presse constate que ses articles ont servi à entraîner un modèle commercial. S'il avait exprimé son opt-out de manière lisible par machine (fichier dédié, métadonnées), l'usage serait discutable. S'il ne l'a pas fait, l'exception de fouille peut s'appliquer. La bataille juridique se joue sur la validité et la forme de cet opt-out.",
+  "exemple_en": "A news publisher finds its articles were used to train a commercial model. If it had expressed its opt-out in a machine-readable way (dedicated file, metadata), the use would be debatable. If it did not, the mining exception may apply. The legal battle plays out on the validity and form of this opt-out.",
+  "regard_fr": "L'exception de fouille est le nœud juridique de l'entraînement des IA en Europe. Que vous soyez créateur souhaitant vous protéger ou entreprise entraînant un modèle, la maîtrise de l'opt-out · le donner ou le respecter · est devenue une compétence stratégique.",
+  "regard_en": "The mining exception is the legal knot of AI training in Europe. Whether you are a creator wanting to protect yourself or a company training a model, mastering the opt-out · giving it or respecting it · has become a strategic skill.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "droits-auteur-ia",
+    "opt-out",
+    "scraping",
+    "gpai"
+  ],
+  "sources": [
+    {
+      "titre": "Directive (UE) 2019/790 · droit d'auteur, art. 3-4"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

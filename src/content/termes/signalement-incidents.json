@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Signalement des incidents IA",
+  "terme_en": "AI incident reporting",
+  "sous_titre_fr": "AI incident reporting",
+  "sous_titre_en": "Signalement des incidents IA",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Obligation, pour les fournisseurs et déployeurs de systèmes d'IA à haut risque, de notifier aux autorités les incidents graves : atteintes à la santé ou à la sécurité, violations de droits fondamentaux, dysfonctionnements majeurs. À l'image de la pharmacovigilance, ce dispositif crée une mémoire collective des défaillances de l'IA.",
+  "definition_en": "An obligation, for providers and deployers of high-risk AI systems, to notify authorities of serious incidents: harm to health or safety, fundamental rights violations, major malfunctions. Like pharmacovigilance, this mechanism creates a collective memory of AI failures.",
+  "exemple_fr": "Un système d'IA médicale produit une série de recommandations erronées. Le déployeur doit signaler l'incident grave à l'autorité compétente dans les délais prévus, analyser la cause et documenter les mesures correctives. Ce signalement alimente une base qui aide toute la filière à éviter la répétition du même défaut.",
+  "exemple_en": "A medical AI system produces a series of erroneous recommendations. The deployer must report the serious incident to the competent authority within the prescribed timeframe, analyse the cause and document corrective measures. This reporting feeds a database that helps the whole sector avoid repeating the same flaw.",
+  "regard_fr": "Le signalement des incidents fait entrer l'IA dans une culture de la transparence sur l'échec · comme l'aviation ou la santé. Loin d'être un aveu de faiblesse, c'est le signe d'une filière qui mûrit. Préparez vos procédures de signalement avant d'en avoir besoin.",
+  "regard_en": "Incident reporting brings AI into a culture of transparency about failure · like aviation or healthcare. Far from an admission of weakness, it is the sign of a maturing sector. Prepare your reporting procedures before you need them.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "systeme-haut-risque",
+    "ai-act",
+    "journalisation",
+    "nis2"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 73",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

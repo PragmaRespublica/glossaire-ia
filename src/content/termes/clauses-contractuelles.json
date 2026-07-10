@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Clauses contractuelles types (CCT)",
+  "terme_en": "Standard Contractual Clauses (SCC)",
+  "sous_titre_fr": "Clauses contractuelles types (CCT)",
+  "sous_titre_en": "Standard Contractual Clauses (SCC)",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Modèles de clauses adoptés par la Commission européenne pour encadrer les transferts de données hors UE en l'absence de décision d'adéquation. Intégrées aux contrats avec les fournisseurs, elles imposent des garanties de protection. Depuis Schrems II, elles doivent s'accompagner d'une analyse des risques réels du pays destinataire.",
+  "definition_en": "Model clauses adopted by the European Commission to frame data transfers outside the EU in the absence of an adequacy decision. Integrated into contracts with suppliers, they impose protection safeguards. Since Schrems II, they must be accompanied by an analysis of the destination country's actual risks.",
+  "exemple_fr": "Une PME signe avec un fournisseur d'IA non européen. Le contrat intègre les clauses contractuelles types · mais la PME doit aussi évaluer si le droit local (lois de surveillance) ne vide pas ces clauses de leur effet. C'est cette analyse d'impact du transfert, souvent négligée, qui fait la conformité réelle.",
+  "exemple_en": "An SME signs with a non-European AI provider. The contract includes standard contractual clauses · but the SME must also assess whether local law (surveillance laws) does not empty these clauses of their effect. It is this transfer impact assessment, often neglected, that makes real compliance.",
+  "regard_fr": "Les clauses contractuelles types sont nécessaires mais pas suffisantes : un contrat ne suspend pas une loi de surveillance étrangère. Elles rassurent sur le papier ; l'analyse du droit local dit la vérité. Ne confondez pas signature et protection.",
+  "regard_en": "Standard contractual clauses are necessary but not sufficient: a contract does not suspend a foreign surveillance law. They reassure on paper; the analysis of local law tells the truth. Do not confuse signature with protection.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "transferts-internationaux",
+    "data-privacy-framework",
+    "cloud-act",
+    "clauses-ia-contrats"
+  ],
+  "sources": [
+    {
+      "titre": "Commission européenne · clauses contractuelles types (2021)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

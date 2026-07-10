@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Consentement",
+  "terme_en": "Consent",
+  "sous_titre_fr": "Consent",
+  "sous_titre_en": "Consentement",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Manifestation de volonté libre, spécifique, éclairée et univoque par laquelle une personne accepte le traitement de ses données. C'est l'une des six bases légales du RGPD, la plus exigeante : le consentement doit pouvoir être retiré aussi facilement qu'il a été donné, et un consentement forcé ou pré-coché ne vaut rien.",
+  "definition_en": "A free, specific, informed and unambiguous indication of will by which a person accepts the processing of their data. It is one of the GDPR's six legal bases, the most demanding: consent must be withdrawable as easily as it was given, and forced or pre-ticked consent is worthless.",
+  "exemple_fr": "Un service veut utiliser les conversations des utilisateurs pour améliorer son IA. S'il choisit le consentement, il doit le demander clairement, séparément du reste, et permettre de continuer à utiliser le service en cas de refus. Un consentement « ou tu n'accèdes pas » n'est pas libre · donc pas valable.",
+  "exemple_en": "A service wants to use users' conversations to improve its AI. If it chooses consent, it must ask clearly, separately from the rest, and allow continued use of the service if refused. A \"consent or no access\" is not free · therefore not valid.",
+  "regard_fr": "Le consentement est souvent brandi comme la solution miracle · il est en réalité la base la plus fragile, car révocable et conditionnée. Pour beaucoup de traitements IA, l'intérêt légitime bien documenté est plus solide. Ne choisissez pas le consentement par réflexe.",
+  "regard_en": "Consent is often brandished as the miracle solution · it is in fact the most fragile basis, being revocable and conditional. For many AI processing operations, a well-documented legitimate interest is more robust. Do not choose consent by reflex.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "base-legale",
+    "rgpd",
+    "droits-personnes"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 7",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

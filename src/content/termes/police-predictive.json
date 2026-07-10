@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Police prédictive",
+  "terme_en": "Predictive policing",
+  "sous_titre_fr": "Predictive policing",
+  "sous_titre_en": "Police prédictive",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Usage de l'IA pour anticiper où et par qui des infractions pourraient être commises, à partir de données historiques. Fortement critiquée pour ses biais · elle reproduit et amplifie les discriminations présentes dans les données de police · elle est en partie interdite par l'AI Act, notamment la prédiction du risque qu'une personne commette une infraction.",
+  "definition_en": "The use of AI to anticipate where and by whom offences might be committed, from historical data. Strongly criticised for its biases · it reproduces and amplifies the discriminations present in police data · it is partly banned by the AI Act, notably predicting the risk that a person will commit an offence.",
+  "exemple_fr": "Un système entraîné sur des données de police historiques recommande de patrouiller davantage dans certains quartiers. Mais ces quartiers étaient déjà surveillés · donc surreprésentés dans les données. Le système crée une boucle : plus de patrouilles, plus d'interpellations, données encore plus biaisées. La prédiction devient une prophétie autoréalisatrice.",
+  "exemple_en": "A system trained on historical police data recommends patrolling certain neighbourhoods more. But these neighbourhoods were already surveilled · thus over-represented in the data. The system creates a loop: more patrols, more stops, even more biased data. The prediction becomes a self-fulfilling prophecy.",
+  "regard_fr": "La police prédictive est le cas d'école du biais qui s'auto-entretient : le modèle apprend les préjugés du passé et les projette dans l'avenir en les aggravant. C'est l'illustration la plus nette que l'objectivité apparente d'un algorithme peut masquer une injustice systémique.",
+  "regard_en": "Predictive policing is the textbook case of self-reinforcing bias: the model learns the prejudices of the past and projects them into the future, worsening them. It is the clearest illustration that an algorithm's apparent objectivity can mask systemic injustice.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "biais-algorithmique",
+    "equite-algorithmique",
+    "pratiques-interdites",
+    "notation-sociale"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 5",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

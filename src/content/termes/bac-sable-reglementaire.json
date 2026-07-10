@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Bac à sable réglementaire",
+  "terme_en": "Regulatory sandbox",
+  "sous_titre_fr": "Regulatory sandbox",
+  "sous_titre_en": "Bac à sable réglementaire",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Dispositif encadré permettant de tester une innovation IA en conditions réelles, sous la supervision d'un régulateur, avec un allègement temporaire de certaines contraintes. L'AI Act impose à chaque État membre d'en établir. C'est un espace de dialogue où l'innovateur et le régulateur apprennent ensemble avant la mise sur le marché.",
+  "definition_en": "A supervised mechanism allowing an AI innovation to be tested in real conditions, under a regulator's supervision, with a temporary easing of certain constraints. The AI Act requires each member state to establish one. It is a space of dialogue where innovator and regulator learn together before market launch.",
+  "exemple_fr": "Une jeune pousse développe une IA de diagnostic innovante mais incertaine sur son classement réglementaire. Elle rejoint le bac à sable de son autorité nationale : elle teste en conditions encadrées, obtient un retour direct du régulateur, et clarifie ses obligations avant de lever des fonds. Le dialogue précoce évite des mois d'errance juridique.",
+  "exemple_en": "A start-up develops an innovative diagnostic AI but is unsure of its regulatory classification. It joins its national authority's sandbox: it tests in supervised conditions, gets direct feedback from the regulator, and clarifies its obligations before raising funds. Early dialogue avoids months of legal wandering.",
+  "regard_fr": "Le bac à sable réglementaire renverse l'image d'un régulateur uniquement répressif : c'est un partenaire d'innovation. Pour une jeune pousse européenne, c'est une chance rare de sécuriser son modèle avant l'échelle · à saisir plutôt qu'à craindre.",
+  "regard_en": "The regulatory sandbox overturns the image of a purely repressive regulator: it is an innovation partner. For a European start-up, it is a rare chance to secure its model before scaling · to seize rather than fear.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "conformite-ia",
+    "certification-ia",
+    "ecosysteme-ia-francais"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 57",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

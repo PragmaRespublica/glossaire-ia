@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Base légale (RGPD)",
+  "terme_en": "Legal basis (GDPR)",
+  "sous_titre_fr": "Legal basis, fondement juridique",
+  "sous_titre_en": "Legal basis (GDPR)",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Fondement qui rend licite un traitement de données personnelles selon le RGPD. Il en existe six, dont le consentement, le contrat, l'obligation légale et l'intérêt légitime. Tout traitement d'IA sur des données personnelles · entraînement, RAG, personnalisation · doit reposer sur au moins une base légale identifiée et documentée.",
+  "definition_en": "The ground that makes personal data processing lawful under the GDPR. There are six, including consent, contract, legal obligation and legitimate interest. Any AI processing on personal data · training, RAG, personalisation · must rest on at least one identified and documented legal basis.",
+  "exemple_fr": "Une entreprise veut entraîner un modèle sur les historiques d'échanges de son service client. Le consentement de chaque client serait ingérable ; elle retient l'intérêt légitime, à condition de le documenter, d'informer les personnes et de leur ménager un droit d'opposition. La base légale n'est pas un détail : c'est ce qui rend le projet légal ou non.",
+  "exemple_en": "A company wants to train a model on its customer service exchange history. Consent from each customer would be unmanageable; it relies on legitimate interest, provided it documents it, informs individuals and preserves their right to object. The legal basis is not a detail: it is what makes the project legal or not.",
+  "regard_fr": "Choisir la base légale est la première décision juridique de tout projet IA sur données personnelles · et la plus structurante. Un intérêt légitime mal caractérisé peut faire tomber tout un système. Tranchez-le avec votre DPO au cadrage, pas devant la CNIL.",
+  "regard_en": "Choosing the legal basis is the first legal decision of any AI project on personal data · and the most structuring. A poorly characterised legitimate interest can bring down an entire system. Settle it with your DPO at scoping, not before the CNIL.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "consentement",
+    "aipd",
+    "dpo-delegue"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 6",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

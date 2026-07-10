@@ -1,0 +1,122 @@
+{
+  "systeme-haut-risque": {
+    "sous_titre_fr": "High-risk AI system",
+    "sous_titre_en": "Système d'IA à haut risque",
+    "definition_fr": "Catégorie de l'AI Act regroupant les systèmes d'IA dont une défaillance peut porter atteinte à la santé, à la sécurité ou aux droits fondamentaux : tri de CV, scoring de crédit, examens médicaux, gestion d'infrastructures critiques. Ces systèmes sont soumis aux obligations les plus lourdes · documentation, gestion des risques, supervision humaine, robustesse.",
+    "definition_en": "The AI Act category grouping AI systems whose failure can harm health, safety or fundamental rights: CV screening, credit scoring, medical examinations, critical infrastructure management. These systems face the heaviest obligations · documentation, risk management, human oversight, robustness.",
+    "exemple_fr": "Un éditeur de logiciel RH intègre un tri automatisé de candidatures. L'usage est classé haut risque : il doit constituer une documentation technique, mettre en place une supervision humaine réelle, analyser l'impact sur les droits fondamentaux et enregistrer le système dans la base européenne. Ces obligations changent l'économie du produit dès la conception.",
+    "exemple_en": "An HR software vendor integrates automated application screening. The use is classified high-risk: it must build technical documentation, implement genuine human oversight, assess the impact on fundamental rights and register the system in the European database. These obligations change the product's economics from the design stage.",
+    "regard_fr": "La première question de tout projet IA n'est pas technique mais juridique : dans quelle catégorie de risque tombe mon usage ? La réponse conditionne tout le reste. Se la poser tard, c'est risquer de reconstruire le produit une fois construit.",
+    "regard_en": "The first question of any AI project is not technical but legal: which risk category does my use fall into? The answer conditions everything else. Asking it late means risking rebuilding the product once built.",
+    "termes_lies": ["ai-act", "fria", "supervision-humaine", "pratiques-interdites"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, annexe III", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "pratiques-interdites": {
+    "sous_titre_fr": "Les usages d'IA bannis par l'Europe",
+    "sous_titre_en": "AI uses banned by Europe",
+    "definition_fr": "Catégorie la plus haute de l'AI Act : les systèmes d'IA présentant un risque inacceptable, purement et simplement interdits dans l'Union européenne depuis février 2025. On y trouve la notation sociale généralisée, la manipulation subliminale, l'exploitation des vulnérabilités, et certaines formes de surveillance biométrique de masse.",
+    "definition_en": "The highest AI Act category: AI systems posing an unacceptable risk, purely and simply banned in the European Union since February 2025. It includes generalised social scoring, subliminal manipulation, exploitation of vulnerabilities, and certain forms of mass biometric surveillance.",
+    "exemple_fr": "Une entreprise envisage un système notant les employés selon leur comportement global pour conditionner l'accès à certains services internes. Ce type de notation sociale relève des pratiques interdites : le projet est illégal en Europe, quelle que soit sa performance technique. Mieux vaut le découvrir au cadrage qu'après le développement.",
+    "exemple_en": "A company considers a system scoring employees by their overall behaviour to condition access to certain internal services. This kind of social scoring falls under prohibited practices: the project is illegal in Europe, whatever its technical performance. Better to discover it at scoping than after development.",
+    "regard_fr": "Les pratiques interdites tracent une ligne rouge morale autant que juridique. Les connaître évite de gaspiller des mois sur un projet mort-né · et rappelle que toute capacité technique n'est pas une permission d'usage.",
+    "regard_en": "Prohibited practices draw a red line that is moral as much as legal. Knowing them avoids wasting months on a stillborn project · and recalls that every technical capability is not a permission to use.",
+    "termes_lies": ["ai-act", "notation-sociale", "identification-biometrique", "systeme-haut-risque"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 5", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "gpai": {
+    "sous_titre_fr": "General-Purpose AI",
+    "sous_titre_en": "Modèle d'IA à usage général",
+    "definition_fr": "Modèle d'IA capable d'accomplir une grande variété de tâches et intégrable dans de nombreux systèmes en aval · typiquement les grands modèles de langage. L'AI Act leur impose des obligations propres (documentation, transparence sur les données d'entraînement, respect du droit d'auteur), renforcées pour les modèles présentant un risque systémique.",
+    "definition_en": "An AI model capable of performing a wide variety of tasks and integrable into many downstream systems · typically large language models. The AI Act imposes specific obligations on them (documentation, transparency on training data, copyright compliance), reinforced for models posing a systemic risk.",
+    "exemple_fr": "Un fournisseur de LLM commercialisant son modèle en Europe doit publier un résumé des données d'entraînement, documenter les capacités et limites du modèle, et fournir aux intégrateurs les informations nécessaires à leur propre conformité. Ces obligations remontent la chaîne de responsabilité vers l'amont.",
+    "exemple_en": "An LLM provider marketing its model in Europe must publish a summary of the training data, document the model's capabilities and limits, and give integrators the information needed for their own compliance. These obligations push accountability back up the chain.",
+    "regard_fr": "La catégorie GPAI reconnaît une évidence : le modèle de fondation est un maillon amont dont dépendent des milliers d'usages. En responsabilisant les fournisseurs, l'Europe évite que toute la charge de conformité ne retombe sur les intégrateurs.",
+    "regard_en": "The GPAI category recognises an obvious fact: the foundation model is an upstream link on which thousands of uses depend. By holding providers accountable, Europe avoids the entire compliance burden falling on integrators.",
+    "termes_lies": ["ai-act", "modele-fondation", "codes-conduite-gpai", "exception-tdm"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, chapitre V", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "bureau-ia": {
+    "sous_titre_fr": "European AI Office",
+    "sous_titre_en": "Bureau européen de l'IA",
+    "definition_fr": "Organe de la Commission européenne chargé de superviser l'application de l'AI Act, en particulier pour les modèles à usage général. Il coordonne les autorités nationales, élabore les codes de bonnes pratiques, peut évaluer les modèles et sanctionner les manquements des fournisseurs de modèles à risque systémique.",
+    "definition_en": "A European Commission body responsible for overseeing the application of the AI Act, particularly for general-purpose models. It coordinates national authorities, develops codes of practice, can evaluate models and sanction breaches by providers of systemic-risk models.",
+    "exemple_fr": "Un fournisseur de modèle de fondation reçoit une demande d'information du Bureau européen de l'IA sur ses mesures d'atténuation des risques systémiques. La qualité et la traçabilité de sa documentation technique déterminent la fluidité de l'échange · d'où l'importance de documenter dès l'entraînement, pas au moment du contrôle.",
+    "exemple_en": "A foundation model provider receives an information request from the European AI Office about its systemic-risk mitigation measures. The quality and traceability of its technical documentation determine how smoothly the exchange goes · hence the importance of documenting from training, not at inspection time.",
+    "regard_fr": "Le Bureau européen de l'IA est le maillon qui donne du mordant à l'AI Act pour les modèles les plus puissants. Suivre ses lignes directrices et ses codes de bonnes pratiques est le meilleur moyen d'anticiper l'interprétation concrète du règlement.",
+    "regard_en": "The European AI Office is the link that gives the AI Act teeth for the most powerful models. Following its guidelines and codes of practice is the best way to anticipate the concrete interpretation of the regulation.",
+    "termes_lies": ["ai-act", "gpai", "codes-conduite-gpai"],
+    "sources": [{"titre": "Commission européenne · European AI Office"}]
+  },
+  "marquage-ce": {
+    "sous_titre_fr": "CE marking for AI",
+    "sous_titre_en": "Marquage CE des systèmes d'IA",
+    "definition_fr": "Apposition du marquage CE attestant qu'un système d'IA à haut risque respecte les exigences de l'AI Act, à l'image des produits industriels. Il s'appuie sur une évaluation de conformité, une documentation technique et, le cas échéant, l'intervention d'un organisme notifié. Sans marquage CE, un système haut risque ne peut être mis sur le marché européen.",
+    "definition_en": "Affixing the CE marking certifying that a high-risk AI system meets the AI Act's requirements, like industrial products. It rests on a conformity assessment, technical documentation and, where applicable, the involvement of a notified body. Without CE marking, a high-risk system cannot be placed on the European market.",
+    "exemple_fr": "Un fabricant de dispositif médical intégrant de l'IA cumule deux régimes : le marquage CE médical et les exigences IA de l'AI Act. Anticiper cette double conformité dès la conception évite de refaire l'évaluation deux fois · et d'immobiliser un produit fini faute de documentation.",
+    "exemple_en": "A medical device manufacturer integrating AI faces two regimes: the medical CE marking and the AI Act's AI requirements. Anticipating this dual conformity from the design stage avoids doing the assessment twice · and freezing a finished product for lack of documentation.",
+    "regard_fr": "Le marquage CE fait entrer l'IA dans la culture industrielle de la conformité : preuve, documentation, responsabilité du fabricant. Pour les éditeurs habitués au « livrer vite, corriger après », c'est un changement de paradigme à intégrer tôt.",
+    "regard_en": "CE marking brings AI into the industrial culture of conformity: proof, documentation, manufacturer liability. For vendors used to \"ship fast, fix later\", it is a paradigm shift to integrate early.",
+    "termes_lies": ["systeme-haut-risque", "ai-act", "certification-ia", "normes-harmonisees"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 48", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "fria": {
+    "sous_titre_fr": "Analyse d'impact sur les droits fondamentaux",
+    "sous_titre_en": "Fundamental Rights Impact Assessment",
+    "definition_fr": "Évaluation obligatoire, pour certains déployeurs de systèmes d'IA à haut risque, des effets du système sur les droits fondamentaux des personnes concernées : discrimination, vie privée, accès aux services, dignité. Elle documente les risques identifiés et les mesures d'atténuation avant la mise en service.",
+    "definition_en": "A mandatory assessment, for certain deployers of high-risk AI systems, of the system's effects on the fundamental rights of the people concerned: discrimination, privacy, access to services, dignity. It documents the identified risks and mitigation measures before deployment.",
+    "exemple_fr": "Une collectivité déploie un système d'IA pour prioriser l'attribution de logements sociaux. La FRIA l'oblige à examiner : le système désavantage-t-il certaines populations ? Les demandeurs peuvent-ils contester une décision ? Existe-t-il un recours humain ? L'exercice transforme une bonne intention en dispositif défendable.",
+    "exemple_en": "A local authority deploys an AI system to prioritise social housing allocation. The FRIA requires it to examine: does the system disadvantage certain populations? Can applicants contest a decision? Is there human recourse? The exercise turns a good intention into a defensible mechanism.",
+    "regard_fr": "La FRIA est cousine de l'analyse d'impact RGPD, mais centrée sur les droits fondamentaux. Loin d'être une formalité, elle force à expliciter des arbitrages souvent implicites · et c'est précisément là qu'un atelier structuré comme ORI-IA fait la différence.",
+    "regard_en": "The FRIA is a cousin of the GDPR impact assessment, but centred on fundamental rights. Far from a formality, it forces the explicit statement of often-implicit trade-offs · and that is precisely where a structured workshop like ORI-IA makes the difference.",
+    "termes_lies": ["systeme-haut-risque", "aipd", "ori-ia", "ethique-ia"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, art. 27", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "aipd": {
+    "sous_titre_fr": "Analyse d'impact relative à la protection des données",
+    "sous_titre_en": "Data Protection Impact Assessment (DPIA)",
+    "definition_fr": "Étude imposée par le RGPD avant tout traitement de données personnelles susceptible d'engendrer un risque élevé pour les personnes. Elle décrit le traitement, évalue sa nécessité et sa proportionnalité, identifie les risques et les mesures pour les réduire. La plupart des projets d'IA sur données personnelles y sont soumis.",
+    "definition_en": "A study required by the GDPR before any processing of personal data likely to generate a high risk for individuals. It describes the processing, assesses its necessity and proportionality, identifies the risks and the measures to reduce them. Most AI projects on personal data are subject to it.",
+    "exemple_fr": "Avant de déployer un RAG sur des dossiers RH, une entreprise mène une AIPD avec son DPO : finalité, base légale, durée de conservation, droits des personnes, sécurité de l'index vectoriel. L'analyse révèle qu'il faut anonymiser certaines données avant indexation. Le projet démarre conforme, pas rattrapé après coup.",
+    "exemple_en": "Before deploying a RAG on HR files, a company runs a DPIA with its DPO: purpose, legal basis, retention period, data subject rights, vector index security. The analysis reveals that some data must be anonymised before indexing. The project starts compliant, not retrofitted after the fact.",
+    "regard_fr": "L'AIPD n'est pas un obstacle à l'IA, c'est son garde-corps. Menée tôt, elle oriente l'architecture vers des choix conformes · anonymisation, cloisonnement, minimisation · plutôt que de les imposer douloureusement une fois le système construit.",
+    "regard_en": "The DPIA is not an obstacle to AI, it is its guardrail. Conducted early, it steers the architecture towards compliant choices · anonymisation, compartmentalisation, minimisation · rather than imposing them painfully once the system is built.",
+    "termes_lies": ["rgpd", "fria", "dpo-delegue", "donnees-personnelles"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 35", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}, {"titre": "CNIL · logiciel PIA"}]
+  },
+  "dpo-delegue": {
+    "sous_titre_fr": "Data Protection Officer",
+    "sous_titre_en": "Délégué à la protection des données",
+    "definition_fr": "Personne chargée, au sein d'une organisation, de veiller à la conformité des traitements de données personnelles au RGPD. Le DPO conseille, contrôle, sensibilise et sert de point de contact avec la CNIL. À l'ère de l'IA, son rôle s'élargit : il devient l'interlocuteur clé pour arbitrer quelles données peuvent alimenter quels systèmes.",
+    "definition_en": "The person responsible, within an organisation, for ensuring personal data processing complies with the GDPR. The DPO advises, monitors, raises awareness and serves as the contact point with the CNIL. In the AI era, their role broadens: they become the key interlocutor for arbitrating which data can feed which systems.",
+    "exemple_fr": "Une équipe métier veut lancer un assistant IA sur des données clients. Le DPO, impliqué dès le cadrage, identifie la base légale, cadre la durée de conservation des conversations et impose l'hébergement souverain pour les données sensibles. Sans lui, le projet aurait avancé jusqu'à un blocage tardif · ou pire, jusqu'à une infraction.",
+    "exemple_en": "A business team wants to launch an AI assistant on client data. The DPO, involved from scoping, identifies the legal basis, frames the conversation retention period and requires sovereign hosting for sensitive data. Without them, the project would have advanced to a late blockage · or worse, an infringement.",
+    "regard_fr": "Un DPO qui comprend l'IA est un accélérateur, pas un frein : il transforme des questions de conformité en décisions d'architecture prises au bon moment. Impliquez-le au cadrage, jamais à la validation finale · c'est là qu'il coûte le moins et rapporte le plus.",
+    "regard_en": "A DPO who understands AI is an accelerator, not a brake: they turn compliance questions into architecture decisions made at the right time. Involve them at scoping, never at final sign-off · that is where they cost the least and deliver the most.",
+    "termes_lies": ["rgpd", "aipd", "cnil", "gouvernance-ia"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 37-39", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}]
+  },
+  "cnil": {
+    "sous_titre_fr": "Commission nationale de l'informatique et des libertés",
+    "sous_titre_en": "France's data protection authority",
+    "definition_fr": "Autorité française de protection des données personnelles. La CNIL contrôle l'application du RGPD, conseille, sanctionne, et publie des recommandations · dont un plan d'action IA et des fiches pratiques sur la conformité des systèmes d'IA. Elle propose aussi un glossaire de référence sur l'IA, largement utilisé par les professionnels.",
+    "definition_en": "France's personal data protection authority. The CNIL enforces the GDPR, advises, sanctions, and publishes recommendations · including an AI action plan and practical sheets on AI system compliance. It also offers a reference AI glossary, widely used by professionals.",
+    "exemple_fr": "Une entreprise hésite sur la base légale d'un traitement IA. Plutôt que d'interpréter seule, elle consulte les fiches pratiques IA de la CNIL, qui détaillent comment concilier innovation et RGPD : intérêt légitime, information des personnes, analyse d'impact. La doctrine publique évite bien des erreurs coûteuses.",
+    "exemple_en": "A company hesitates over the legal basis of an AI processing operation. Rather than interpreting alone, it consults the CNIL's practical AI sheets, which detail how to reconcile innovation and the GDPR: legitimate interest, informing individuals, impact assessment. Public doctrine avoids many costly mistakes.",
+    "regard_fr": "La CNIL n'est pas l'ennemie de l'innovation · elle en est le cadre. Ses ressources IA, gratuites et régulièrement mises à jour, sont un point d'appui précieux. Les ignorer par crainte, c'est se priver de la carte du terrain réglementaire.",
+    "regard_en": "The CNIL is not the enemy of innovation · it is its framework. Its AI resources, free and regularly updated, are a valuable support. Ignoring them out of fear means depriving yourself of the map of the regulatory terrain.",
+    "termes_lies": ["rgpd", "dpo-delegue", "aipd", "conformite-ia"],
+    "sources": [{"titre": "CNIL · Intelligence artificielle", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "base-legale": {
+    "sous_titre_fr": "Legal basis, fondement juridique",
+    "sous_titre_en": "Legal basis (GDPR)",
+    "definition_fr": "Fondement qui rend licite un traitement de données personnelles selon le RGPD. Il en existe six, dont le consentement, le contrat, l'obligation légale et l'intérêt légitime. Tout traitement d'IA sur des données personnelles · entraînement, RAG, personnalisation · doit reposer sur au moins une base légale identifiée et documentée.",
+    "definition_en": "The ground that makes personal data processing lawful under the GDPR. There are six, including consent, contract, legal obligation and legitimate interest. Any AI processing on personal data · training, RAG, personalisation · must rest on at least one identified and documented legal basis.",
+    "exemple_fr": "Une entreprise veut entraîner un modèle sur les historiques d'échanges de son service client. Le consentement de chaque client serait ingérable ; elle retient l'intérêt légitime, à condition de le documenter, d'informer les personnes et de leur ménager un droit d'opposition. La base légale n'est pas un détail : c'est ce qui rend le projet légal ou non.",
+    "exemple_en": "A company wants to train a model on its customer service exchange history. Consent from each customer would be unmanageable; it relies on legitimate interest, provided it documents it, informs individuals and preserves their right to object. The legal basis is not a detail: it is what makes the project legal or not.",
+    "regard_fr": "Choisir la base légale est la première décision juridique de tout projet IA sur données personnelles · et la plus structurante. Un intérêt légitime mal caractérisé peut faire tomber tout un système. Tranchez-le avec votre DPO au cadrage, pas devant la CNIL.",
+    "regard_en": "Choosing the legal basis is the first legal decision of any AI project on personal data · and the most structuring. A poorly characterised legitimate interest can bring down an entire system. Settle it with your DPO at scoping, not before the CNIL.",
+    "termes_lies": ["rgpd", "consentement", "aipd", "dpo-delegue"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 6", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Conformité IA (compliance)",
+  "terme_en": "AI compliance",
+  "sous_titre_fr": "AI compliance",
+  "sous_titre_en": "Conformité IA",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des démarches par lesquelles une organisation s'assure que ses usages d'IA respectent le droit applicable : AI Act, RGPD, droit sectoriel, propriété intellectuelle. La conformité IA n'est pas un état figé mais un processus continu · cartographie des usages, analyse des risques, documentation, contrôle, mise à jour.",
+  "definition_en": "The set of actions by which an organisation ensures its AI uses comply with applicable law: AI Act, GDPR, sector law, intellectual property. AI compliance is not a fixed state but a continuous process · usage mapping, risk analysis, documentation, control, updating.",
+  "exemple_fr": "Une entreprise structure sa conformité IA en trois temps : un inventaire de tous ses usages d'IA, un classement par niveau de risque, et un plan d'action priorisé. Elle découvre qu'un tiers de ses usages étaient jusqu'ici invisibles de la direction juridique. La cartographie seule a déjà réduit le risque.",
+  "exemple_en": "A company structures its AI compliance in three steps: an inventory of all its AI uses, a classification by risk level, and a prioritised action plan. It discovers that a third of its uses were until then invisible to the legal department. The mapping alone already reduced the risk.",
+  "regard_fr": "La conformité IA commence par une question simple et rarement posée : « où, dans mon organisation, utilise-t-on déjà de l'IA ? ». La plupart des risques ne viennent pas des projets officiels, mais des usages invisibles. Cartographier avant de réglementer.",
+  "regard_en": "AI compliance begins with a simple, rarely asked question: \"where in my organisation is AI already used?\". Most risks come not from official projects, but from invisible uses. Map before you regulate.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "registre-cas-usage",
+    "gouvernance-ia",
+    "ia-fantome"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

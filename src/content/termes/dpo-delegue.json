@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Délégué à la protection des données (DPO)",
+  "terme_en": "Data Protection Officer (DPO)",
+  "sous_titre_fr": "Data Protection Officer",
+  "sous_titre_en": "Délégué à la protection des données",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Personne chargée, au sein d'une organisation, de veiller à la conformité des traitements de données personnelles au RGPD. Le DPO conseille, contrôle, sensibilise et sert de point de contact avec la CNIL. À l'ère de l'IA, son rôle s'élargit : il devient l'interlocuteur clé pour arbitrer quelles données peuvent alimenter quels systèmes.",
+  "definition_en": "The person responsible, within an organisation, for ensuring personal data processing complies with the GDPR. The DPO advises, monitors, raises awareness and serves as the contact point with the CNIL. In the AI era, their role broadens: they become the key interlocutor for arbitrating which data can feed which systems.",
+  "exemple_fr": "Une équipe métier veut lancer un assistant IA sur des données clients. Le DPO, impliqué dès le cadrage, identifie la base légale, cadre la durée de conservation des conversations et impose l'hébergement souverain pour les données sensibles. Sans lui, le projet aurait avancé jusqu'à un blocage tardif · ou pire, jusqu'à une infraction.",
+  "exemple_en": "A business team wants to launch an AI assistant on client data. The DPO, involved from scoping, identifies the legal basis, frames the conversation retention period and requires sovereign hosting for sensitive data. Without them, the project would have advanced to a late blockage · or worse, an infringement.",
+  "regard_fr": "Un DPO qui comprend l'IA est un accélérateur, pas un frein : il transforme des questions de conformité en décisions d'architecture prises au bon moment. Impliquez-le au cadrage, jamais à la validation finale · c'est là qu'il coûte le moins et rapporte le plus.",
+  "regard_en": "A DPO who understands AI is an accelerator, not a brake: they turn compliance questions into architecture decisions made at the right time. Involve them at scoping, never at final sign-off · that is where they cost the least and deliver the most.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "aipd",
+    "cnil",
+    "gouvernance-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 37-39",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

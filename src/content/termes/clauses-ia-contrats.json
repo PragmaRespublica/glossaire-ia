@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Clauses IA dans les contrats fournisseurs",
+  "terme_en": "AI clauses in vendor contracts",
+  "sous_titre_fr": "Cadrer l'IA dans les contrats fournisseurs",
+  "sous_titre_en": "Framing AI in vendor contracts",
+  "axe": "economie",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Clauses spécifiques à intégrer dans les contrats avec les fournisseurs d'IA : propriété et usage des données, non-réutilisation pour l'entraînement, localisation, réversibilité, niveaux de service, répartition des responsabilités, engagements de conformité à l'AI Act. Ces clauses sont le principal levier de maîtrise face à des fournisseurs souvent en position de force.",
+  "definition_en": "Specific clauses to include in contracts with AI providers: data ownership and use, non-reuse for training, localisation, reversibility, service levels, liability allocation, AI Act compliance commitments. These clauses are the main lever of control against providers often in a position of strength.",
+  "exemple_fr": "Avant de signer avec un fournisseur d'IA, une entreprise fait ajouter trois clauses décisives : interdiction de réutiliser ses données pour entraîner d'autres modèles, engagement de localisation en UE, et réversibilité garantie en fin de contrat. Ces clauses, négociées avant signature, valent bien plus que toutes les protestations après incident.",
+  "exemple_en": "Before signing with an AI provider, a company has three decisive clauses added: a ban on reusing its data to train other models, an EU localisation commitment, and guaranteed reversibility at contract end. These clauses, negotiated before signing, are worth far more than any protests after an incident.",
+  "regard_fr": "Le contrat est l'endroit où se gagne ou se perd la souveraineté, avant toute considération technique. Une clause de non-réutilisation des données et une clause de réversibilité pèsent plus lourd que dix promesses commerciales. Négociez-les tant que vous avez le pouvoir · c'est-à-dire avant de signer.",
+  "regard_en": "The contract is where sovereignty is won or lost, before any technical consideration. A data non-reuse clause and a reversibility clause weigh more than ten sales promises. Negotiate them while you have the power · that is, before signing.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "lock-in",
+    "responsabilite-ia",
+    "clauses-contractuelles",
+    "data-act"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · sous-traitance et RGPD",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

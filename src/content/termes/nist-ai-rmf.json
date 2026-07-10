@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Cadre de gestion des risques IA du NIST",
+  "terme_en": "NIST AI Risk Management Framework",
+  "sous_titre_fr": "Le cadre de gestion des risques du NIST",
+  "sous_titre_en": "The NIST risk management framework",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Cadre volontaire publié par l'institut américain NIST pour gérer les risques des systèmes d'IA autour de quatre fonctions : cartographier, mesurer, gérer, gouverner. Non contraignant mais très influent, il fournit un vocabulaire et une méthode largement adoptés au niveau international, y compris par des organisations européennes.",
+  "definition_en": "A voluntary framework published by the American NIST institute to manage AI system risks around four functions: map, measure, manage, govern. Non-binding but very influential, it provides a vocabulary and method widely adopted internationally, including by European organisations.",
+  "exemple_fr": "Une entreprise internationale veut un référentiel de gestion des risques IA reconnu des deux côtés de l'Atlantique. Elle adopte le NIST AI RMF comme colonne vertébrale méthodologique, puis l'articule avec les exigences contraignantes de l'AI Act. Le cadre américain outille la méthode, le règlement européen fixe les obligations.",
+  "exemple_en": "An international company wants an AI risk management framework recognised on both sides of the Atlantic. It adopts the NIST AI RMF as its methodological backbone, then articulates it with the AI Act's binding requirements. The American framework tools the method, the European regulation sets the obligations.",
+  "regard_fr": "Le NIST AI RMF et l'AI Act ne s'opposent pas · ils se complètent. Le premier donne une méthode souple et éprouvée, le second des obligations. Les combiner, c'est gagner du temps sans réinventer une gouvernance des risques déjà largement documentée.",
+  "regard_en": "The NIST AI RMF and the AI Act do not oppose each other · they complement. The first gives a flexible, proven method, the second obligations. Combining them saves time without reinventing a risk governance already widely documented.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gouvernance-ia",
+    "iso-42001",
+    "red-teaming",
+    "conformite-ia"
+  ],
+  "sources": [
+    {
+      "titre": "NIST · AI Risk Management Framework (AI RMF 1.0)",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

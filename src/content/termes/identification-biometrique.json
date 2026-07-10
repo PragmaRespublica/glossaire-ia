@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Identification biométrique",
+  "terme_en": "Biometric identification",
+  "sous_titre_fr": "Biometric identification",
+  "sous_titre_en": "Identification biométrique",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Reconnaissance d'une personne à partir de caractéristiques physiques ou comportementales : visage, empreinte, voix, iris, démarche. L'AI Act encadre strictement ces systèmes, interdisant certains usages (identification biométrique à distance en temps réel dans l'espace public, sauf exceptions) et classant les autres à haut risque.",
+  "definition_en": "The recognition of a person from physical or behavioural characteristics: face, fingerprint, voice, iris, gait. The AI Act strictly frames these systems, banning certain uses (real-time remote biometric identification in public spaces, save for exceptions) and classifying the others as high-risk.",
+  "exemple_fr": "Une entreprise envisage l'accès à ses locaux par reconnaissance faciale. Elle découvre que ce traitement biométrique est soumis à des règles strictes : nécessité démontrée, alternative non biométrique offerte, analyse d'impact, consultation de la CNIL. Un badge classique, moins intrusif, s'avère souvent la solution proportionnée.",
+  "exemple_en": "A company considers access to its premises by facial recognition. It discovers that this biometric processing is subject to strict rules: demonstrated necessity, a non-biometric alternative offered, impact assessment, CNIL consultation. A classic badge, less intrusive, often proves the proportionate solution.",
+  "regard_fr": "La biométrie séduit par sa fluidité, mais elle touche à ce qu'il y a de plus intime · le corps comme mot de passe. La question n'est jamais « peut-on le faire ? » mais « est-ce nécessaire et proportionné ? ». Le plus souvent, une solution moins intrusive suffit.",
+  "regard_en": "Biometrics seduce with their fluidity, but they touch the most intimate thing · the body as password. The question is never \"can we do it?\" but \"is it necessary and proportionate?\". More often than not, a less intrusive solution suffices.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "reconnaissance-faciale",
+    "pratiques-interdites",
+    "donnees-sensibles",
+    "systeme-haut-risque"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 5 et annexe III",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

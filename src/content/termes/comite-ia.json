@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Comité IA",
+  "terme_en": "AI committee",
+  "sous_titre_fr": "L'instance qui pilote l'IA",
+  "sous_titre_en": "The body that steers AI",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Instance interne réunissant les fonctions clés (DSI, DPO, RSSI, métiers, direction) pour arbitrer les projets d'IA d'une organisation : validation des cas d'usage, gestion des risques, priorisation, veille réglementaire. C'est le lieu où la gouvernance IA devient une pratique vivante plutôt qu'un document mort.",
+  "definition_en": "An internal body bringing together key functions (IT, DPO, CISO, business, management) to arbitrate an organisation's AI projects: use-case validation, risk management, prioritisation, regulatory watch. It is where AI governance becomes a living practice rather than a dead document.",
+  "exemple_fr": "Une entreprise instaure un comité IA trimestriel avec un processus léger : toute nouvelle idée d'usage passe par une fiche standardisée, examinée en séance. Six mois plus tard, 12 usages validés, 3 refusés, zéro incident. Le comité a évité autant de projets risqués qu'il en a autorisé de bons.",
+  "exemple_en": "A company sets up a quarterly AI committee with a lightweight process: every new usage idea goes through a standardised sheet, reviewed in session. Six months later, 12 uses approved, 3 rejected, zero incidents. The committee prevented as many risky projects as it authorised good ones.",
+  "regard_fr": "Un comité IA efficace n'est pas un tribunal qui ralentit, mais un accélérateur qui sécurise. La clé est la légèreté : un processus court, une fiche simple, des décisions traçables. Un comité trop lourd est contourné · et l'IA fantôme reprend ses droits.",
+  "regard_en": "An effective AI committee is not a court that slows things down, but an accelerator that secures. The key is lightness: a short process, a simple sheet, traceable decisions. An over-heavy committee gets bypassed · and shadow AI regains ground.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gouvernance-ia",
+    "registre-cas-usage",
+    "ori-ia",
+    "conformite-ia"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · gouvernance de l'IA",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

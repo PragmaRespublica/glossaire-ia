@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Responsabilité démontrable (accountability)",
+  "terme_en": "Accountability",
+  "sous_titre_fr": "Responsabilité démontrable",
+  "sous_titre_en": "Accountability",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Principe selon lequel une organisation ne doit pas seulement respecter les règles, mais être capable de le prouver à tout moment par une documentation appropriée. Central dans le RGPD et repris par l'AI Act, il inverse la charge : ce n'est pas au régulateur de démontrer la faute, mais à l'organisation de démontrer sa conformité.",
+  "definition_en": "The principle that an organisation must not only respect the rules, but be able to prove it at any time through appropriate documentation. Central to the GDPR and taken up by the AI Act, it reverses the burden: it is not for the regulator to demonstrate fault, but for the organisation to demonstrate its compliance.",
+  "exemple_fr": "Lors d'un contrôle, une entreprise n'a pas à convaincre par de bonnes intentions : elle présente son registre des traitements, ses analyses d'impact, ses journaux, ses décisions de gouvernance. Cette documentation, constituée au fil de l'eau, transforme un contrôle redouté en formalité maîtrisée. L'accountability se prépare, elle ne s'improvise pas.",
+  "exemple_en": "During an inspection, a company does not have to convince with good intentions: it presents its processing register, impact assessments, logs, governance decisions. This documentation, built up over time, turns a dreaded inspection into a controlled formality. Accountability is prepared, not improvised.",
+  "regard_fr": "L'accountability résume l'esprit de la régulation moderne : la bonne foi ne suffit pas, il faut la preuve. Documenter au fil de l'eau paraît fastidieux · c'est pourtant la différence entre subir un contrôle et le traverser sereinement.",
+  "regard_en": "Accountability sums up the spirit of modern regulation: good faith is not enough, proof is required. Documenting as you go seems tedious · yet it is the difference between enduring an inspection and passing through it serenely.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "conformite-ia",
+    "registre-traitements",
+    "journalisation",
+    "gouvernance-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 5.2",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

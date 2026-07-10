@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Système d'IA à haut risque",
+  "terme_en": "High-risk AI system",
+  "sous_titre_fr": "High-risk AI system",
+  "sous_titre_en": "Système d'IA à haut risque",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Catégorie de l'AI Act regroupant les systèmes d'IA dont une défaillance peut porter atteinte à la santé, à la sécurité ou aux droits fondamentaux : tri de CV, scoring de crédit, examens médicaux, gestion d'infrastructures critiques. Ces systèmes sont soumis aux obligations les plus lourdes · documentation, gestion des risques, supervision humaine, robustesse.",
+  "definition_en": "The AI Act category grouping AI systems whose failure can harm health, safety or fundamental rights: CV screening, credit scoring, medical examinations, critical infrastructure management. These systems face the heaviest obligations · documentation, risk management, human oversight, robustness.",
+  "exemple_fr": "Un éditeur de logiciel RH intègre un tri automatisé de candidatures. L'usage est classé haut risque : il doit constituer une documentation technique, mettre en place une supervision humaine réelle, analyser l'impact sur les droits fondamentaux et enregistrer le système dans la base européenne. Ces obligations changent l'économie du produit dès la conception.",
+  "exemple_en": "An HR software vendor integrates automated application screening. The use is classified high-risk: it must build technical documentation, implement genuine human oversight, assess the impact on fundamental rights and register the system in the European database. These obligations change the product's economics from the design stage.",
+  "regard_fr": "La première question de tout projet IA n'est pas technique mais juridique : dans quelle catégorie de risque tombe mon usage ? La réponse conditionne tout le reste. Se la poser tard, c'est risquer de reconstruire le produit une fois construit.",
+  "regard_en": "The first question of any AI project is not technical but legal: which risk category does my use fall into? The answer conditions everything else. Asking it late means risking rebuilding the product once built.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "fria",
+    "supervision-humaine",
+    "pratiques-interdites"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, annexe III",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

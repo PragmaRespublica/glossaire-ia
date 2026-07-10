@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Registre des cas d'usage IA",
+  "terme_en": "AI use-case register",
+  "sous_titre_fr": "AI use-case register",
+  "sous_titre_en": "Registre des cas d'usage IA",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Inventaire tenu à jour de tous les usages d'IA d'une organisation, avec pour chacun sa finalité, ses données, son niveau de risque, son responsable et son statut de conformité. C'est l'outil de base de la gouvernance IA : sans registre, impossible de piloter, de prioriser les contrôles ni de répondre à un régulateur.",
+  "definition_en": "An up-to-date inventory of all an organisation's AI uses, with for each its purpose, data, risk level, owner and compliance status. It is the basic tool of AI governance: without a register, it is impossible to steer, prioritise controls or answer a regulator.",
+  "exemple_fr": "Une ETI met en place son registre des cas d'usage IA. En quelques semaines, elle passe de « on ne sait pas trop qui utilise quoi » à une vision claire : 23 usages recensés, 3 classés haut risque, 5 à régulariser. Le registre transforme un brouillard anxiogène en plan d'action priorisé.",
+  "exemple_en": "A mid-cap sets up its AI use-case register. In a few weeks, it goes from \"we don't really know who uses what\" to a clear picture: 23 uses listed, 3 classified high-risk, 5 to regularise. The register turns an anxiety-inducing fog into a prioritised action plan.",
+  "regard_fr": "Le registre des cas d'usage est le premier livrable de toute gouvernance IA sérieuse · et le plus rentable. Il ne coûte qu'un peu de discipline et révèle immédiatement où sont les risques. Commencez par là, avant même d'écrire la moindre politique.",
+  "regard_en": "The use-case register is the first deliverable of any serious AI governance · and the most cost-effective. It costs only a little discipline and immediately reveals where the risks are. Start there, before writing any policy at all.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gouvernance-ia",
+    "comite-ia",
+    "conformite-ia",
+    "ori-ia"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · recommandations gouvernance IA",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

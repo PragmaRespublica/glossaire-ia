@@ -1,0 +1,38 @@
+{
+  "terme_fr": "CNIL",
+  "terme_en": "CNIL (French data protection authority)",
+  "sous_titre_fr": "Commission nationale de l'informatique et des libertés",
+  "sous_titre_en": "France's data protection authority",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Autorité française de protection des données personnelles. La CNIL contrôle l'application du RGPD, conseille, sanctionne, et publie des recommandations · dont un plan d'action IA et des fiches pratiques sur la conformité des systèmes d'IA. Elle propose aussi un glossaire de référence sur l'IA, largement utilisé par les professionnels.",
+  "definition_en": "France's personal data protection authority. The CNIL enforces the GDPR, advises, sanctions, and publishes recommendations · including an AI action plan and practical sheets on AI system compliance. It also offers a reference AI glossary, widely used by professionals.",
+  "exemple_fr": "Une entreprise hésite sur la base légale d'un traitement IA. Plutôt que d'interpréter seule, elle consulte les fiches pratiques IA de la CNIL, qui détaillent comment concilier innovation et RGPD : intérêt légitime, information des personnes, analyse d'impact. La doctrine publique évite bien des erreurs coûteuses.",
+  "exemple_en": "A company hesitates over the legal basis of an AI processing operation. Rather than interpreting alone, it consults the CNIL's practical AI sheets, which detail how to reconcile innovation and the GDPR: legitimate interest, informing individuals, impact assessment. Public doctrine avoids many costly mistakes.",
+  "regard_fr": "La CNIL n'est pas l'ennemie de l'innovation · elle en est le cadre. Ses ressources IA, gratuites et régulièrement mises à jour, sont un point d'appui précieux. Les ignorer par crainte, c'est se priver de la carte du terrain réglementaire.",
+  "regard_en": "The CNIL is not the enemy of innovation · it is its framework. Its AI resources, free and regularly updated, are a valuable support. Ignoring them out of fear means depriving yourself of the map of the regulatory terrain.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "dpo-delegue",
+    "aipd",
+    "conformite-ia"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Intelligence artificielle",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

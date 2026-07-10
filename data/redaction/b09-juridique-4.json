@@ -1,0 +1,199 @@
+{
+  "registre-cas-usage": {
+    "sous_titre_fr": "AI use-case register",
+    "sous_titre_en": "Registre des cas d'usage IA",
+    "definition_fr": "Inventaire tenu à jour de tous les usages d'IA d'une organisation, avec pour chacun sa finalité, ses données, son niveau de risque, son responsable et son statut de conformité. C'est l'outil de base de la gouvernance IA : sans registre, impossible de piloter, de prioriser les contrôles ni de répondre à un régulateur.",
+    "definition_en": "An up-to-date inventory of all an organisation's AI uses, with for each its purpose, data, risk level, owner and compliance status. It is the basic tool of AI governance: without a register, it is impossible to steer, prioritise controls or answer a regulator.",
+    "exemple_fr": "Une ETI met en place son registre des cas d'usage IA. En quelques semaines, elle passe de « on ne sait pas trop qui utilise quoi » à une vision claire : 23 usages recensés, 3 classés haut risque, 5 à régulariser. Le registre transforme un brouillard anxiogène en plan d'action priorisé.",
+    "exemple_en": "A mid-cap sets up its AI use-case register. In a few weeks, it goes from \"we don't really know who uses what\" to a clear picture: 23 uses listed, 3 classified high-risk, 5 to regularise. The register turns an anxiety-inducing fog into a prioritised action plan.",
+    "regard_fr": "Le registre des cas d'usage est le premier livrable de toute gouvernance IA sérieuse · et le plus rentable. Il ne coûte qu'un peu de discipline et révèle immédiatement où sont les risques. Commencez par là, avant même d'écrire la moindre politique.",
+    "regard_en": "The use-case register is the first deliverable of any serious AI governance · and the most cost-effective. It costs only a little discipline and immediately reveals where the risks are. Start there, before writing any policy at all.",
+    "termes_lies": [
+      "gouvernance-ia",
+      "comite-ia",
+      "conformite-ia",
+      "ori-ia"
+    ],
+    "sources": [
+      {
+        "titre": "CNIL · recommandations gouvernance IA",
+        "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+      }
+    ]
+  },
+  "registre-traitements": {
+    "sous_titre_fr": "Record of processing activities",
+    "sous_titre_en": "Registre des traitements",
+    "definition_fr": "Document imposé par le RGPD recensant tous les traitements de données personnelles d'une organisation : finalités, catégories de données et de personnes, destinataires, durées de conservation, mesures de sécurité. Les traitements impliquant de l'IA doivent y figurer comme les autres · c'est souvent là qu'on découvre des usages non déclarés.",
+    "definition_en": "A document required by the GDPR listing all an organisation's personal data processing operations: purposes, categories of data and individuals, recipients, retention periods, security measures. AI-involving processing must appear there like any other · it is often there that undeclared uses are discovered.",
+    "exemple_fr": "En mettant à jour son registre des traitements, une entreprise réalise qu'un assistant IA déployé par une équipe marketing traite des données clients sans base légale documentée ni mention dans le registre. La mise à jour du registre a fait remonter un risque de conformité invisible jusque-là.",
+    "exemple_en": "While updating its processing register, a company realises that an AI assistant deployed by a marketing team processes client data with no documented legal basis nor mention in the register. Updating the register surfaced a compliance risk invisible until then.",
+    "regard_fr": "Le registre des traitements et le registre des cas d'usage IA se recoupent largement. Les tenir de façon cohérente évite les angles morts : tout traitement IA de données personnelles doit apparaître dans les deux. La cohérence entre eux est un bon indicateur de maturité.",
+    "regard_en": "The processing register and the AI use-case register largely overlap. Keeping them consistent avoids blind spots: every AI processing of personal data must appear in both. Consistency between them is a good maturity indicator.",
+    "termes_lies": [
+      "rgpd",
+      "registre-cas-usage",
+      "accountability",
+      "dpo-delegue"
+    ],
+    "sources": [
+      {
+        "titre": "Règlement (UE) 2016/679 · RGPD, art. 30",
+        "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+      }
+    ]
+  },
+  "comite-ia": {
+    "sous_titre_fr": "L'instance qui pilote l'IA",
+    "sous_titre_en": "The body that steers AI",
+    "definition_fr": "Instance interne réunissant les fonctions clés (DSI, DPO, RSSI, métiers, direction) pour arbitrer les projets d'IA d'une organisation : validation des cas d'usage, gestion des risques, priorisation, veille réglementaire. C'est le lieu où la gouvernance IA devient une pratique vivante plutôt qu'un document mort.",
+    "definition_en": "An internal body bringing together key functions (IT, DPO, CISO, business, management) to arbitrate an organisation's AI projects: use-case validation, risk management, prioritisation, regulatory watch. It is where AI governance becomes a living practice rather than a dead document.",
+    "exemple_fr": "Une entreprise instaure un comité IA trimestriel avec un processus léger : toute nouvelle idée d'usage passe par une fiche standardisée, examinée en séance. Six mois plus tard, 12 usages validés, 3 refusés, zéro incident. Le comité a évité autant de projets risqués qu'il en a autorisé de bons.",
+    "exemple_en": "A company sets up a quarterly AI committee with a lightweight process: every new usage idea goes through a standardised sheet, reviewed in session. Six months later, 12 uses approved, 3 rejected, zero incidents. The committee prevented as many risky projects as it authorised good ones.",
+    "regard_fr": "Un comité IA efficace n'est pas un tribunal qui ralentit, mais un accélérateur qui sécurise. La clé est la légèreté : un processus court, une fiche simple, des décisions traçables. Un comité trop lourd est contourné · et l'IA fantôme reprend ses droits.",
+    "regard_en": "An effective AI committee is not a court that slows things down, but an accelerator that secures. The key is lightness: a short process, a simple sheet, traceable decisions. An over-heavy committee gets bypassed · and shadow AI regains ground.",
+    "termes_lies": [
+      "gouvernance-ia",
+      "registre-cas-usage",
+      "ori-ia",
+      "conformite-ia"
+    ],
+    "sources": [
+      {
+        "titre": "CNIL · gouvernance de l'IA",
+        "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+      }
+    ]
+  },
+  "clauses-ia-contrats": {
+    "sous_titre_fr": "Cadrer l'IA dans les contrats fournisseurs",
+    "sous_titre_en": "Framing AI in vendor contracts",
+    "definition_fr": "Clauses spécifiques à intégrer dans les contrats avec les fournisseurs d'IA : propriété et usage des données, non-réutilisation pour l'entraînement, localisation, réversibilité, niveaux de service, répartition des responsabilités, engagements de conformité à l'AI Act. Ces clauses sont le principal levier de maîtrise face à des fournisseurs souvent en position de force.",
+    "definition_en": "Specific clauses to include in contracts with AI providers: data ownership and use, non-reuse for training, localisation, reversibility, service levels, liability allocation, AI Act compliance commitments. These clauses are the main lever of control against providers often in a position of strength.",
+    "exemple_fr": "Avant de signer avec un fournisseur d'IA, une entreprise fait ajouter trois clauses décisives : interdiction de réutiliser ses données pour entraîner d'autres modèles, engagement de localisation en UE, et réversibilité garantie en fin de contrat. Ces clauses, négociées avant signature, valent bien plus que toutes les protestations après incident.",
+    "exemple_en": "Before signing with an AI provider, a company has three decisive clauses added: a ban on reusing its data to train other models, an EU localisation commitment, and guaranteed reversibility at contract end. These clauses, negotiated before signing, are worth far more than any protests after an incident.",
+    "regard_fr": "Le contrat est l'endroit où se gagne ou se perd la souveraineté, avant toute considération technique. Une clause de non-réutilisation des données et une clause de réversibilité pèsent plus lourd que dix promesses commerciales. Négociez-les tant que vous avez le pouvoir · c'est-à-dire avant de signer.",
+    "regard_en": "The contract is where sovereignty is won or lost, before any technical consideration. A data non-reuse clause and a reversibility clause weigh more than ten sales promises. Negotiate them while you have the power · that is, before signing.",
+    "termes_lies": [
+      "lock-in",
+      "responsabilite-ia",
+      "clauses-contractuelles",
+      "data-act"
+    ],
+    "sources": [
+      {
+        "titre": "CNIL · sous-traitance et RGPD",
+        "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+      }
+    ]
+  },
+  "codes-conduite-gpai": {
+    "sous_titre_fr": "GPAI codes of practice",
+    "sous_titre_en": "Codes de bonnes pratiques pour les modèles à usage général",
+    "definition_fr": "Documents élaborés sous l'égide du Bureau européen de l'IA pour préciser comment les fournisseurs de modèles à usage général respectent leurs obligations : transparence, droit d'auteur, sûreté et sécurité pour les modèles à risque systémique. Y adhérer est un moyen privilégié de démontrer sa conformité avant l'adoption de normes formelles.",
+    "definition_en": "Documents developed under the aegis of the European AI Office to specify how general-purpose model providers meet their obligations: transparency, copyright, safety and security for systemic-risk models. Adhering to them is a preferred way to demonstrate compliance before formal standards are adopted.",
+    "exemple_fr": "Un fournisseur de modèle de fondation adhère au code de bonnes pratiques GPAI : il publie un résumé de ses données d'entraînement, documente ses mesures de sûreté, met en place une politique de droit d'auteur. Cette adhésion volontaire lui offre une présomption de bonne foi face au Bureau européen de l'IA.",
+    "exemple_en": "A foundation model provider adheres to the GPAI code of practice: it publishes a summary of its training data, documents its safety measures, sets up a copyright policy. This voluntary adherence gives it a presumption of good faith before the European AI Office.",
+    "regard_fr": "Les codes de bonnes pratiques sont le droit souple qui précède le droit dur : y adhérer tôt, c'est prendre de l'avance et peser sur l'interprétation des règles. Pour un fournisseur de modèle, c'est un investissement de crédibilité, pas une contrainte de plus.",
+    "regard_en": "Codes of practice are the soft law that precedes hard law: adhering early means getting ahead and influencing the interpretation of the rules. For a model provider, it is a credibility investment, not one more constraint.",
+    "termes_lies": [
+      "gpai",
+      "bureau-ia",
+      "ai-act",
+      "droits-auteur-ia"
+    ],
+    "sources": [
+      {
+        "titre": "Commission européenne · GPAI Code of Practice"
+      }
+    ]
+  },
+  "bac-sable-reglementaire": {
+    "sous_titre_fr": "Regulatory sandbox",
+    "sous_titre_en": "Bac à sable réglementaire",
+    "definition_fr": "Dispositif encadré permettant de tester une innovation IA en conditions réelles, sous la supervision d'un régulateur, avec un allègement temporaire de certaines contraintes. L'AI Act impose à chaque État membre d'en établir. C'est un espace de dialogue où l'innovateur et le régulateur apprennent ensemble avant la mise sur le marché.",
+    "definition_en": "A supervised mechanism allowing an AI innovation to be tested in real conditions, under a regulator's supervision, with a temporary easing of certain constraints. The AI Act requires each member state to establish one. It is a space of dialogue where innovator and regulator learn together before market launch.",
+    "exemple_fr": "Une jeune pousse développe une IA de diagnostic innovante mais incertaine sur son classement réglementaire. Elle rejoint le bac à sable de son autorité nationale : elle teste en conditions encadrées, obtient un retour direct du régulateur, et clarifie ses obligations avant de lever des fonds. Le dialogue précoce évite des mois d'errance juridique.",
+    "exemple_en": "A start-up develops an innovative diagnostic AI but is unsure of its regulatory classification. It joins its national authority's sandbox: it tests in supervised conditions, gets direct feedback from the regulator, and clarifies its obligations before raising funds. Early dialogue avoids months of legal wandering.",
+    "regard_fr": "Le bac à sable réglementaire renverse l'image d'un régulateur uniquement répressif : c'est un partenaire d'innovation. Pour une jeune pousse européenne, c'est une chance rare de sécuriser son modèle avant l'échelle · à saisir plutôt qu'à craindre.",
+    "regard_en": "The regulatory sandbox overturns the image of a purely repressive regulator: it is an innovation partner. For a European start-up, it is a rare chance to secure its model before scaling · to seize rather than fear.",
+    "termes_lies": [
+      "ai-act",
+      "conformite-ia",
+      "certification-ia",
+      "ecosysteme-ia-francais"
+    ],
+    "sources": [
+      {
+        "titre": "Règlement (UE) 2024/1689 · AI Act, art. 57",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      }
+    ]
+  },
+  "signalement-incidents": {
+    "sous_titre_fr": "AI incident reporting",
+    "sous_titre_en": "Signalement des incidents IA",
+    "definition_fr": "Obligation, pour les fournisseurs et déployeurs de systèmes d'IA à haut risque, de notifier aux autorités les incidents graves : atteintes à la santé ou à la sécurité, violations de droits fondamentaux, dysfonctionnements majeurs. À l'image de la pharmacovigilance, ce dispositif crée une mémoire collective des défaillances de l'IA.",
+    "definition_en": "An obligation, for providers and deployers of high-risk AI systems, to notify authorities of serious incidents: harm to health or safety, fundamental rights violations, major malfunctions. Like pharmacovigilance, this mechanism creates a collective memory of AI failures.",
+    "exemple_fr": "Un système d'IA médicale produit une série de recommandations erronées. Le déployeur doit signaler l'incident grave à l'autorité compétente dans les délais prévus, analyser la cause et documenter les mesures correctives. Ce signalement alimente une base qui aide toute la filière à éviter la répétition du même défaut.",
+    "exemple_en": "A medical AI system produces a series of erroneous recommendations. The deployer must report the serious incident to the competent authority within the prescribed timeframe, analyse the cause and document corrective measures. This reporting feeds a database that helps the whole sector avoid repeating the same flaw.",
+    "regard_fr": "Le signalement des incidents fait entrer l'IA dans une culture de la transparence sur l'échec · comme l'aviation ou la santé. Loin d'être un aveu de faiblesse, c'est le signe d'une filière qui mûrit. Préparez vos procédures de signalement avant d'en avoir besoin.",
+    "regard_en": "Incident reporting brings AI into a culture of transparency about failure · like aviation or healthcare. Far from an admission of weakness, it is the sign of a maturing sector. Prepare your reporting procedures before you need them.",
+    "termes_lies": [
+      "systeme-haut-risque",
+      "ai-act",
+      "journalisation",
+      "nis2"
+    ],
+    "sources": [
+      {
+        "titre": "Règlement (UE) 2024/1689 · AI Act, art. 73",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+      }
+    ]
+  },
+  "surveillance-travail": {
+    "sous_titre_fr": "L'IA qui surveille les salariés",
+    "sous_titre_en": "AI that monitors employees",
+    "definition_fr": "Usage de l'IA pour suivre, mesurer ou évaluer l'activité des salariés : analyse de productivité, suivi du temps, notation automatique, surveillance des communications. Fortement encadré en Europe par le RGPD, le droit du travail et l'AI Act, il exige information, proportionnalité, consultation des représentants du personnel et respect de la dignité.",
+    "definition_en": "The use of AI to track, measure or evaluate employees' activity: productivity analysis, time tracking, automatic scoring, communications monitoring. Strongly framed in Europe by the GDPR, labour law and the AI Act, it requires information, proportionality, consultation of staff representatives and respect for dignity.",
+    "exemple_fr": "Une entreprise envisage un outil d'IA notant la productivité de ses téléconseillers en temps réel. Avant tout déploiement, elle doit informer et consulter les représentants du personnel, mener une analyse d'impact, et vérifier la proportionnalité. Sans ce cadre, l'outil est illégal · et socialement explosif.",
+    "exemple_en": "A company considers an AI tool scoring its call agents' productivity in real time. Before any deployment, it must inform and consult staff representatives, conduct an impact assessment, and check proportionality. Without this framework, the tool is illegal · and socially explosive.",
+    "regard_fr": "La surveillance algorithmique au travail est un champ de mines juridique et humain. La question n'est pas seulement « est-ce légal ? » mais « quelle relation de travail construit-on ? ». Un outil techniquement conforme peut détruire la confiance qu'aucune productivité ne rachète.",
+    "regard_en": "Algorithmic workplace surveillance is a legal and human minefield. The question is not only \"is it legal?\" but \"what working relationship are we building?\". A technically compliant tool can destroy trust that no productivity buys back.",
+    "termes_lies": [
+      "decision-automatisee",
+      "rgpd",
+      "ethique-ia",
+      "ia-emploi"
+    ],
+    "sources": [
+      {
+        "titre": "CNIL · encadrement du contrôle de l'activité des salariés",
+        "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+      }
+    ]
+  },
+  "privacy-by-design": {
+    "sous_titre_fr": "La protection dès la conception",
+    "sous_titre_en": "Protection by design",
+    "definition_fr": "Principe du RGPD imposant d'intégrer la protection des données dès la conception d'un système, et par défaut au niveau le plus protecteur. Appliqué à l'IA, il oriente l'architecture vers la minimisation, l'anonymisation, le cloisonnement et le contrôle d'accès · plutôt que de rajouter la conformité en surcouche une fois le système construit.",
+    "definition_en": "A GDPR principle requiring data protection to be built into a system's design, and by default at the most protective level. Applied to AI, it steers the architecture towards minimisation, anonymisation, compartmentalisation and access control · rather than adding compliance as an overlay once the system is built.",
+    "exemple_fr": "Une équipe conçoit un assistant IA interne. En appliquant le privacy by design, elle décide dès le départ que l'historique des conversations est anonymisé au bout de 30 jours, que le RAG hérite des droits d'accès existants, et que rien n'est envoyé hors UE. Ces choix, gratuits à la conception, seraient coûteux à ajouter après.",
+    "exemple_en": "A team designs an internal AI assistant. Applying privacy by design, it decides from the outset that conversation history is anonymised after 30 days, that the RAG inherits existing access rights, and that nothing is sent outside the EU. These choices, free at design time, would be costly to add afterwards.",
+    "regard_fr": "Le privacy by design est la différence entre une conformité subie et une conformité gratuite. Les bonnes décisions d'architecture prises au début ne coûtent presque rien ; les mêmes, imposées à la fin, coûtent une refonte. Décidez tôt.",
+    "regard_en": "Privacy by design is the difference between endured compliance and free compliance. The right architecture decisions made at the start cost almost nothing; the same, imposed at the end, cost a redesign. Decide early.",
+    "termes_lies": [
+      "rgpd",
+      "minimisation",
+      "aipd",
+      "securite-donnees"
+    ],
+    "sources": [
+      {
+        "titre": "Règlement (UE) 2016/679 · RGPD, art. 25",
+        "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Confidentialité dès la conception",
+  "terme_en": "Privacy by design",
+  "sous_titre_fr": "La protection dès la conception",
+  "sous_titre_en": "Protection by design",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Principe du RGPD imposant d'intégrer la protection des données dès la conception d'un système, et par défaut au niveau le plus protecteur. Appliqué à l'IA, il oriente l'architecture vers la minimisation, l'anonymisation, le cloisonnement et le contrôle d'accès · plutôt que de rajouter la conformité en surcouche une fois le système construit.",
+  "definition_en": "A GDPR principle requiring data protection to be built into a system's design, and by default at the most protective level. Applied to AI, it steers the architecture towards minimisation, anonymisation, compartmentalisation and access control · rather than adding compliance as an overlay once the system is built.",
+  "exemple_fr": "Une équipe conçoit un assistant IA interne. En appliquant le privacy by design, elle décide dès le départ que l'historique des conversations est anonymisé au bout de 30 jours, que le RAG hérite des droits d'accès existants, et que rien n'est envoyé hors UE. Ces choix, gratuits à la conception, seraient coûteux à ajouter après.",
+  "exemple_en": "A team designs an internal AI assistant. Applying privacy by design, it decides from the outset that conversation history is anonymised after 30 days, that the RAG inherits existing access rights, and that nothing is sent outside the EU. These choices, free at design time, would be costly to add afterwards.",
+  "regard_fr": "Le privacy by design est la différence entre une conformité subie et une conformité gratuite. Les bonnes décisions d'architecture prises au début ne coûtent presque rien ; les mêmes, imposées à la fin, coûtent une refonte. Décidez tôt.",
+  "regard_en": "Privacy by design is the difference between endured compliance and free compliance. The right architecture decisions made at the start cost almost nothing; the same, imposed at the end, cost a redesign. Decide early.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "minimisation",
+    "aipd",
+    "securite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 25",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

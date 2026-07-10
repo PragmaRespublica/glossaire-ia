@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Data Privacy Framework (DPF)",
+  "terme_en": "EU-US Data Privacy Framework",
+  "sous_titre_fr": "L'accord de transfert UE-États-Unis",
+  "sous_titre_en": "The EU-US transfer agreement",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Cadre juridique adopté en 2023 pour permettre les transferts de données personnelles de l'UE vers des entreprises américaines certifiées. Successeur du Privacy Shield (invalidé en 2020 par l'arrêt Schrems II), il reste contesté : sa solidité juridique dépend des recours en cours et de l'évolution du droit américain de la surveillance.",
+  "definition_en": "A legal framework adopted in 2023 to allow personal data transfers from the EU to certified American companies. Successor to the Privacy Shield (invalidated in 2020 by the Schrems II ruling), it remains contested: its legal robustness depends on ongoing challenges and the evolution of American surveillance law.",
+  "exemple_fr": "Une entreprise s'appuie sur le Data Privacy Framework pour justifier ses transferts vers un fournisseur d'IA américain. C'est licite aujourd'hui · mais l'histoire du Safe Harbor et du Privacy Shield, tous deux invalidés, incite à ne pas bâtir toute sa stratégie sur un cadre qui pourrait tomber. La souveraineté reste le plan B qui ne dépend d'aucun accord.",
+  "exemple_en": "A company relies on the Data Privacy Framework to justify its transfers to an American AI provider. It is lawful today · but the history of Safe Harbor and Privacy Shield, both invalidated, argues against building an entire strategy on a framework that could fall. Sovereignty remains the plan B that depends on no agreement.",
+  "regard_fr": "Le Data Privacy Framework est un pont juridique réel mais historiquement instable : deux de ses prédécesseurs ont été annulés. Bâtir sa conformité IA uniquement dessus, c'est parier sur la durée d'un accord que les tribunaux européens scrutent déjà.",
+  "regard_en": "The Data Privacy Framework is a real but historically unstable legal bridge: two of its predecessors were annulled. Building your AI compliance solely on it means betting on the longevity of an agreement European courts are already scrutinising.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "transferts-internationaux",
+    "cloud-act",
+    "souverainete-numerique",
+    "clauses-contractuelles"
+  ],
+  "sources": [
+    {
+      "titre": "Décision d'adéquation de la Commission européenne (2023)"
+    },
+    {
+      "titre": "CJUE · arrêt Schrems II (2020)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

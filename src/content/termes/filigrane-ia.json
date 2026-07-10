@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Filigrane numérique (watermarking)",
+  "terme_en": "AI watermarking",
+  "sous_titre_fr": "Watermarking, marquage des contenus IA",
+  "sous_titre_en": "AI watermarking",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Technique consistant à insérer dans un contenu généré par IA une marque · visible ou imperceptible · signalant son origine artificielle. L'AI Act impose que les contenus synthétiques soient marqués de manière lisible par machine. Le filigrane reste imparfait (contournable, fragile aux modifications) mais constitue une première ligne de transparence.",
+  "definition_en": "A technique for inserting into AI-generated content a mark · visible or imperceptible · signalling its artificial origin. The AI Act requires synthetic content to be marked in a machine-readable way. Watermarking remains imperfect (bypassable, fragile to modifications) but constitutes a first line of transparency.",
+  "exemple_fr": "Un générateur d'images intègre un filigrane invisible dans chaque création. Une plateforme sociale peut alors détecter automatiquement les images synthétiques et les étiqueter. Mais un recadrage ou une recompression peut effacer la marque · d'où l'intérêt de combiner filigrane et métadonnées de provenance C2PA.",
+  "exemple_en": "An image generator embeds an invisible watermark in every creation. A social platform can then automatically detect synthetic images and label them. But a crop or recompression can erase the mark · hence the value of combining watermarking with C2PA provenance metadata.",
+  "regard_fr": "Le filigrane est nécessaire mais fragile : aucune marque n'est indélébile. La transparence sur les contenus IA ne reposera pas sur une technique unique, mais sur une combinaison · filigrane, provenance, détection. Ne promettez pas l'infaillibilité, construisez des couches.",
+  "regard_en": "Watermarking is necessary but fragile: no mark is indelible. Transparency on AI content will not rest on a single technique, but on a combination · watermarking, provenance, detection. Do not promise infallibility, build layers.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "c2pa",
+    "contenu-genere",
+    "detection-contenu-ia",
+    "deepfake"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 50",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Surveillance algorithmique au travail",
+  "terme_en": "Algorithmic workplace surveillance",
+  "sous_titre_fr": "L'IA qui surveille les salariés",
+  "sous_titre_en": "AI that monitors employees",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Usage de l'IA pour suivre, mesurer ou évaluer l'activité des salariés : analyse de productivité, suivi du temps, notation automatique, surveillance des communications. Fortement encadré en Europe par le RGPD, le droit du travail et l'AI Act, il exige information, proportionnalité, consultation des représentants du personnel et respect de la dignité.",
+  "definition_en": "The use of AI to track, measure or evaluate employees' activity: productivity analysis, time tracking, automatic scoring, communications monitoring. Strongly framed in Europe by the GDPR, labour law and the AI Act, it requires information, proportionality, consultation of staff representatives and respect for dignity.",
+  "exemple_fr": "Une entreprise envisage un outil d'IA notant la productivité de ses téléconseillers en temps réel. Avant tout déploiement, elle doit informer et consulter les représentants du personnel, mener une analyse d'impact, et vérifier la proportionnalité. Sans ce cadre, l'outil est illégal · et socialement explosif.",
+  "exemple_en": "A company considers an AI tool scoring its call agents' productivity in real time. Before any deployment, it must inform and consult staff representatives, conduct an impact assessment, and check proportionality. Without this framework, the tool is illegal · and socially explosive.",
+  "regard_fr": "La surveillance algorithmique au travail est un champ de mines juridique et humain. La question n'est pas seulement « est-ce légal ? » mais « quelle relation de travail construit-on ? ». Un outil techniquement conforme peut détruire la confiance qu'aucune productivité ne rachète.",
+  "regard_en": "Algorithmic workplace surveillance is a legal and human minefield. The question is not only \"is it legal?\" but \"what working relationship are we building?\". A technically compliant tool can destroy trust that no productivity buys back.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "decision-automatisee",
+    "rgpd",
+    "ethique-ia",
+    "ia-emploi"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · encadrement du contrôle de l'activité des salariés",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

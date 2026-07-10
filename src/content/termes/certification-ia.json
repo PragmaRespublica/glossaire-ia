@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Certification des systèmes d'IA",
+  "terme_en": "AI system certification",
+  "sous_titre_fr": "Prouver la conformité d'un système",
+  "sous_titre_en": "Proving a system's conformity",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Processus d'évaluation, par une partie interne ou un organisme tiers, attestant qu'un système d'IA respecte un référentiel donné (AI Act, ISO 42001, exigences sectorielles). La certification matérialise la conformité par un document opposable · elle rassure clients, partenaires et régulateurs, et devient un différenciateur de marché.",
+  "definition_en": "A process of evaluation, by an internal party or a third-party body, attesting that an AI system complies with a given framework (AI Act, ISO 42001, sector requirements). Certification materialises conformity in an enforceable document · it reassures clients, partners and regulators, and becomes a market differentiator.",
+  "exemple_fr": "Un éditeur de logiciel RH obtient une certification attestant la conformité de son système de tri de CV. Face à des clients inquiets de l'AI Act, ce document fait la différence à l'achat : il externalise la preuve de conformité et raccourcit les audits fournisseurs. La certification devient un actif commercial.",
+  "exemple_en": "An HR software vendor obtains a certification attesting its CV screening system's conformity. Facing clients worried about the AI Act, this document makes the difference at purchase: it externalises the proof of conformity and shortens supplier audits. Certification becomes a commercial asset.",
+  "regard_fr": "La certification transforme la conformité d'un coût subi en argument de vente. Dans un marché où chaque acheteur craint l'AI Act, pouvoir prouver sa conformité avant qu'on ne le demande est un avantage concurrentiel · pas seulement une obligation.",
+  "regard_en": "Certification turns compliance from an endured cost into a selling point. In a market where every buyer fears the AI Act, being able to prove conformity before it is asked is a competitive advantage · not just an obligation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "conformite-ia",
+    "iso-42001",
+    "marquage-ce",
+    "normes-harmonisees"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, évaluation de la conformité",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

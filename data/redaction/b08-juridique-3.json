@@ -1,0 +1,122 @@
+{
+  "exception-tdm": {
+    "sous_titre_fr": "Text and Data Mining",
+    "sous_titre_en": "Exception de fouille de textes et de données",
+    "definition_fr": "Exception au droit d'auteur, introduite par la directive européenne 2019/790, autorisant la fouille automatisée de contenus protégés pour en extraire des informations · fondement invoqué pour entraîner des modèles d'IA. Elle prévoit un droit d'opposition (opt-out) pour les ayants droit, sauf pour la recherche scientifique.",
+    "definition_en": "An exception to copyright, introduced by European directive 2019/790, authorising the automated mining of protected content to extract information · the basis invoked for training AI models. It provides a right to object (opt-out) for rights holders, except for scientific research.",
+    "exemple_fr": "Un éditeur de presse constate que ses articles ont servi à entraîner un modèle commercial. S'il avait exprimé son opt-out de manière lisible par machine (fichier dédié, métadonnées), l'usage serait discutable. S'il ne l'a pas fait, l'exception de fouille peut s'appliquer. La bataille juridique se joue sur la validité et la forme de cet opt-out.",
+    "exemple_en": "A news publisher finds its articles were used to train a commercial model. If it had expressed its opt-out in a machine-readable way (dedicated file, metadata), the use would be debatable. If it did not, the mining exception may apply. The legal battle plays out on the validity and form of this opt-out.",
+    "regard_fr": "L'exception de fouille est le nœud juridique de l'entraînement des IA en Europe. Que vous soyez créateur souhaitant vous protéger ou entreprise entraînant un modèle, la maîtrise de l'opt-out · le donner ou le respecter · est devenue une compétence stratégique.",
+    "regard_en": "The mining exception is the legal knot of AI training in Europe. Whether you are a creator wanting to protect yourself or a company training a model, mastering the opt-out · giving it or respecting it · has become a strategic skill.",
+    "termes_lies": ["droits-auteur-ia", "opt-out", "scraping", "gpai"],
+    "sources": [{"titre": "Directive (UE) 2019/790 · droit d'auteur, art. 3-4"}]
+  },
+  "opt-out": {
+    "sous_titre_fr": "Le droit de refuser l'entraînement",
+    "sous_titre_en": "The right to refuse training",
+    "definition_fr": "Faculté pour un ayant droit de s'opposer à ce que ses contenus soient utilisés pour entraîner des modèles d'IA, dans le cadre de l'exception de fouille de textes et de données. Pour être opposable, l'opt-out doit être exprimé de manière appropriée, notamment lisible par machine · d'où l'émergence de standards techniques de réservation de droits.",
+    "definition_en": "A rights holder's ability to object to their content being used to train AI models, under the text and data mining exception. To be enforceable, the opt-out must be expressed appropriately, notably machine-readable · hence the emergence of technical standards for reserving rights.",
+    "exemple_fr": "Un studio de création place sur son site un fichier de réservation des droits et des métadonnées signalant son opt-out. Les acteurs d'IA respectueux du droit européen doivent alors exclure ces contenus de leurs corpus d'entraînement. C'est un geste simple qui transforme une plainte a posteriori en protection a priori.",
+    "exemple_en": "A creative studio places on its site a rights reservation file and metadata signalling its opt-out. AI players respecting European law must then exclude this content from their training corpora. It is a simple act that turns an after-the-fact complaint into upfront protection.",
+    "regard_fr": "L'opt-out déplace la charge : sans expression claire, vos contenus sont présumés utilisables. Pour tout créateur ou entreprise détentrice de contenus, exprimer son opt-out de façon machine-lisible n'est plus optionnel · c'est la seule protection réellement opposable.",
+    "regard_en": "The opt-out shifts the burden: without clear expression, your content is presumed usable. For any creator or content-holding company, expressing your opt-out in a machine-readable way is no longer optional · it is the only truly enforceable protection.",
+    "termes_lies": ["exception-tdm", "droits-auteur-ia", "scraping", "c2pa"],
+    "sources": [{"titre": "Directive (UE) 2019/790 · droit d'auteur, art. 4"}]
+  },
+  "statut-oeuvres-ia": {
+    "sous_titre_fr": "Qui possède ce que l'IA génère ?",
+    "sous_titre_en": "Who owns what AI generates?",
+    "definition_fr": "Ensemble des questions juridiques sur la protection et la titularité des contenus produits par une IA. La plupart des droits d'auteur exigent une création humaine · une œuvre purement générée par IA n'est souvent pas protégeable en tant que telle. La part d'intervention humaine (prompt, sélection, retouche) devient déterminante.",
+    "definition_en": "The set of legal questions on the protection and ownership of content produced by AI. Most copyright laws require a human creation · a work purely generated by AI is often not protectable as such. The share of human intervention (prompt, selection, editing) becomes decisive.",
+    "exemple_fr": "Une agence livre à un client un visuel généré par IA. Aux États-Unis, une image sans intervention humaine substantielle n'est pas protégeable par copyright · un concurrent pourrait la réutiliser librement. L'agence a intérêt à documenter la part créative humaine, et à cadrer contractuellement la cession de ce qui peut l'être.",
+    "exemple_en": "An agency delivers an AI-generated visual to a client. In the United States, an image without substantial human intervention is not copyright-protectable · a competitor could reuse it freely. The agency has an interest in documenting the human creative share, and contractually framing the assignment of what can be assigned.",
+    "regard_fr": "« C'est mon IA qui l'a créé, donc c'est à moi » est un raisonnement juridiquement fragile. Tant que le droit exige une création humaine, la valeur protégeable réside dans votre apport, pas dans la sortie brute du modèle. Documentez-le, contractualisez-le.",
+    "regard_en": "\"My AI created it, so it's mine\" is a legally fragile reasoning. As long as the law requires human creation, the protectable value lies in your contribution, not in the model's raw output. Document it, contractualise it.",
+    "termes_lies": ["droits-auteur-ia", "contenu-genere", "responsabilite-ia"],
+    "sources": [{"titre": "US Copyright Office · guidance on AI-generated works (2023)"}, {"titre": "Directive (UE) 2019/790"}]
+  },
+  "responsabilite-ia": {
+    "sous_titre_fr": "Qui répond des dommages causés par l'IA ?",
+    "sous_titre_en": "Who is liable for AI-caused harm?",
+    "definition_fr": "Ensemble des questions relatives à l'imputation juridique des dommages causés par un système d'IA : le fournisseur du modèle, l'intégrateur, le déployeur, l'utilisateur ? La chaîne de valeur complexe de l'IA brouille les responsabilités classiques. L'Europe travaille à adapter les régimes de responsabilité produit à ces nouveaux systèmes.",
+    "definition_en": "The set of questions on the legal attribution of harm caused by an AI system: the model provider, the integrator, the deployer, the user? AI's complex value chain blurs classic liability. Europe is working to adapt product liability regimes to these new systems.",
+    "exemple_fr": "Un assistant IA médical intégré par un éditeur, s'appuyant sur un modèle de fondation américain, hébergé par un cloud tiers, produit une recommandation erronée ayant causé un préjudice. Qui est responsable ? Sans clauses claires réparties dans les contrats, chacun renverra vers l'autre · d'où l'importance de cadrer la responsabilité en amont.",
+    "exemple_en": "A medical AI assistant integrated by a vendor, relying on an American foundation model, hosted by a third-party cloud, produces an erroneous recommendation that caused harm. Who is liable? Without clear clauses distributed across the contracts, each will point to the other · hence the importance of framing liability upfront.",
+    "regard_fr": "La responsabilité de l'IA ne se règle pas après l'incident, mais dans les contrats signés avant. Répartir clairement les obligations entre fournisseur, intégrateur et déployeur est un exercice fastidieux · et exactement ce qui vous sauvera le jour où quelque chose tourne mal.",
+    "regard_en": "AI liability is not settled after the incident, but in the contracts signed before. Clearly distributing obligations between provider, integrator and deployer is a tedious exercise · and exactly what will save you the day something goes wrong.",
+    "termes_lies": ["clauses-ia-contrats", "ai-act", "gpai", "conformite-ia"],
+    "sources": [{"titre": "Commission européenne · révision de la directive responsabilité du fait des produits"}]
+  },
+  "iso-42001": {
+    "sous_titre_fr": "La norme de management de l'IA",
+    "sous_titre_en": "The AI management standard",
+    "definition_fr": "Norme internationale définissant les exigences d'un système de management de l'IA (AIMS) : politique, gouvernance, gestion des risques, cycle de vie, amélioration continue. À l'image d'ISO 27001 pour la sécurité, elle permet à une organisation de certifier que son usage de l'IA est piloté de façon structurée et responsable.",
+    "definition_en": "An international standard defining the requirements of an AI management system (AIMS): policy, governance, risk management, lifecycle, continuous improvement. Like ISO 27001 for security, it lets an organisation certify that its AI use is steered in a structured and responsible way.",
+    "exemple_fr": "Une entreprise multipliant les projets IA veut structurer sa démarche et rassurer ses clients. Elle vise la certification ISO/IEC 42001 : elle formalise sa gouvernance IA, son registre de cas d'usage, ses processus de gestion des risques. La certification devient un argument commercial et un socle de conformité à l'AI Act.",
+    "exemple_en": "A company multiplying AI projects wants to structure its approach and reassure its clients. It aims for ISO/IEC 42001 certification: it formalises its AI governance, use-case register, risk management processes. The certification becomes a commercial argument and a foundation for AI Act compliance.",
+    "regard_fr": "ISO 42001 offre un cadre prêt à l'emploi pour gouverner l'IA sans réinventer la roue. Pour une organisation déjà familière des normes ISO, c'est le chemin le plus court entre les bonnes intentions et une gouvernance IA démontrable · et un accélérateur de conformité réglementaire.",
+    "regard_en": "ISO 42001 offers a ready-made framework for governing AI without reinventing the wheel. For an organisation already familiar with ISO standards, it is the shortest path between good intentions and demonstrable AI governance · and an accelerator of regulatory compliance.",
+    "termes_lies": ["gouvernance-ia", "nist-ai-rmf", "conformite-ia", "certification-ia"],
+    "sources": [{"titre": "ISO/IEC 42001:2023 · AI management systems", "url": "https://www.iso.org/fr/standard/81230.html"}]
+  },
+  "nist-ai-rmf": {
+    "sous_titre_fr": "Le cadre de gestion des risques du NIST",
+    "sous_titre_en": "The NIST risk management framework",
+    "definition_fr": "Cadre volontaire publié par l'institut américain NIST pour gérer les risques des systèmes d'IA autour de quatre fonctions : cartographier, mesurer, gérer, gouverner. Non contraignant mais très influent, il fournit un vocabulaire et une méthode largement adoptés au niveau international, y compris par des organisations européennes.",
+    "definition_en": "A voluntary framework published by the American NIST institute to manage AI system risks around four functions: map, measure, manage, govern. Non-binding but very influential, it provides a vocabulary and method widely adopted internationally, including by European organisations.",
+    "exemple_fr": "Une entreprise internationale veut un référentiel de gestion des risques IA reconnu des deux côtés de l'Atlantique. Elle adopte le NIST AI RMF comme colonne vertébrale méthodologique, puis l'articule avec les exigences contraignantes de l'AI Act. Le cadre américain outille la méthode, le règlement européen fixe les obligations.",
+    "exemple_en": "An international company wants an AI risk management framework recognised on both sides of the Atlantic. It adopts the NIST AI RMF as its methodological backbone, then articulates it with the AI Act's binding requirements. The American framework tools the method, the European regulation sets the obligations.",
+    "regard_fr": "Le NIST AI RMF et l'AI Act ne s'opposent pas · ils se complètent. Le premier donne une méthode souple et éprouvée, le second des obligations. Les combiner, c'est gagner du temps sans réinventer une gouvernance des risques déjà largement documentée.",
+    "regard_en": "The NIST AI RMF and the AI Act do not oppose each other · they complement. The first gives a flexible, proven method, the second obligations. Combining them saves time without reinventing a risk governance already widely documented.",
+    "termes_lies": ["gouvernance-ia", "iso-42001", "red-teaming", "conformite-ia"],
+    "sources": [{"titre": "NIST · AI Risk Management Framework (AI RMF 1.0)", "url": "https://www.nist.gov/itl/ai-risk-management-framework"}]
+  },
+  "normes-harmonisees": {
+    "sous_titre_fr": "Le pont technique vers la conformité",
+    "sous_titre_en": "The technical bridge to compliance",
+    "definition_fr": "Normes techniques élaborées à la demande de la Commission européenne (par le CEN-CENELEC) pour préciser comment respecter concrètement les exigences de l'AI Act. Se conformer à une norme harmonisée crée une présomption de conformité au règlement · elles sont donc la traduction opérationnelle très attendue des obligations légales.",
+    "definition_en": "Technical standards developed at the European Commission's request (by CEN-CENELEC) to specify how to concretely meet the AI Act's requirements. Complying with a harmonised standard creates a presumption of conformity with the regulation · they are therefore the eagerly awaited operational translation of legal obligations.",
+    "exemple_fr": "Un fabricant de système haut risque attend les normes harmonisées pour savoir précisément quoi documenter et comment tester la robustesse. En s'y conformant, il bénéficie d'une présomption de conformité · un raccourci juridique précieux face à l'incertitude d'interpréter seul un texte réglementaire dense.",
+    "exemple_en": "A high-risk system manufacturer awaits the harmonised standards to know precisely what to document and how to test robustness. By complying, it benefits from a presumption of conformity · a precious legal shortcut against the uncertainty of interpreting a dense regulatory text alone.",
+    "regard_fr": "Les normes harmonisées sont le maillon qui transforme un règlement abstrait en check-list concrète. Suivre leur élaboration, c'est anticiper les attentes du régulateur · et éviter de bâtir sa conformité sur une interprétation personnelle qui pourrait être invalidée.",
+    "regard_en": "Harmonised standards are the link that turns an abstract regulation into a concrete checklist. Following their development means anticipating the regulator's expectations · and avoiding building compliance on a personal interpretation that could be invalidated.",
+    "termes_lies": ["ai-act", "marquage-ce", "certification-ia", "systeme-haut-risque"],
+    "sources": [{"titre": "CEN-CENELEC · JTC 21 (IA)"}]
+  },
+  "certification-ia": {
+    "sous_titre_fr": "Prouver la conformité d'un système",
+    "sous_titre_en": "Proving a system's conformity",
+    "definition_fr": "Processus d'évaluation, par une partie interne ou un organisme tiers, attestant qu'un système d'IA respecte un référentiel donné (AI Act, ISO 42001, exigences sectorielles). La certification matérialise la conformité par un document opposable · elle rassure clients, partenaires et régulateurs, et devient un différenciateur de marché.",
+    "definition_en": "A process of evaluation, by an internal party or a third-party body, attesting that an AI system complies with a given framework (AI Act, ISO 42001, sector requirements). Certification materialises conformity in an enforceable document · it reassures clients, partners and regulators, and becomes a market differentiator.",
+    "exemple_fr": "Un éditeur de logiciel RH obtient une certification attestant la conformité de son système de tri de CV. Face à des clients inquiets de l'AI Act, ce document fait la différence à l'achat : il externalise la preuve de conformité et raccourcit les audits fournisseurs. La certification devient un actif commercial.",
+    "exemple_en": "An HR software vendor obtains a certification attesting its CV screening system's conformity. Facing clients worried about the AI Act, this document makes the difference at purchase: it externalises the proof of conformity and shortens supplier audits. Certification becomes a commercial asset.",
+    "regard_fr": "La certification transforme la conformité d'un coût subi en argument de vente. Dans un marché où chaque acheteur craint l'AI Act, pouvoir prouver sa conformité avant qu'on ne le demande est un avantage concurrentiel · pas seulement une obligation.",
+    "regard_en": "Certification turns compliance from an endured cost into a selling point. In a market where every buyer fears the AI Act, being able to prove conformity before it is asked is a competitive advantage · not just an obligation.",
+    "termes_lies": ["conformite-ia", "iso-42001", "marquage-ce", "normes-harmonisees"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act, évaluation de la conformité", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "conformite-ia": {
+    "sous_titre_fr": "AI compliance",
+    "sous_titre_en": "Conformité IA",
+    "definition_fr": "Ensemble des démarches par lesquelles une organisation s'assure que ses usages d'IA respectent le droit applicable : AI Act, RGPD, droit sectoriel, propriété intellectuelle. La conformité IA n'est pas un état figé mais un processus continu · cartographie des usages, analyse des risques, documentation, contrôle, mise à jour.",
+    "definition_en": "The set of actions by which an organisation ensures its AI uses comply with applicable law: AI Act, GDPR, sector law, intellectual property. AI compliance is not a fixed state but a continuous process · usage mapping, risk analysis, documentation, control, updating.",
+    "exemple_fr": "Une entreprise structure sa conformité IA en trois temps : un inventaire de tous ses usages d'IA, un classement par niveau de risque, et un plan d'action priorisé. Elle découvre qu'un tiers de ses usages étaient jusqu'ici invisibles de la direction juridique. La cartographie seule a déjà réduit le risque.",
+    "exemple_en": "A company structures its AI compliance in three steps: an inventory of all its AI uses, a classification by risk level, and a prioritised action plan. It discovers that a third of its uses were until then invisible to the legal department. The mapping alone already reduced the risk.",
+    "regard_fr": "La conformité IA commence par une question simple et rarement posée : « où, dans mon organisation, utilise-t-on déjà de l'IA ? ». La plupart des risques ne viennent pas des projets officiels, mais des usages invisibles. Cartographier avant de réglementer.",
+    "regard_en": "AI compliance begins with a simple, rarely asked question: \"where in my organisation is AI already used?\". Most risks come not from official projects, but from invisible uses. Map before you regulate.",
+    "termes_lies": ["ai-act", "registre-cas-usage", "gouvernance-ia", "ia-fantome"],
+    "sources": [{"titre": "Règlement (UE) 2024/1689 · AI Act", "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"}]
+  },
+  "accountability": {
+    "sous_titre_fr": "Responsabilité démontrable",
+    "sous_titre_en": "Accountability",
+    "definition_fr": "Principe selon lequel une organisation ne doit pas seulement respecter les règles, mais être capable de le prouver à tout moment par une documentation appropriée. Central dans le RGPD et repris par l'AI Act, il inverse la charge : ce n'est pas au régulateur de démontrer la faute, mais à l'organisation de démontrer sa conformité.",
+    "definition_en": "The principle that an organisation must not only respect the rules, but be able to prove it at any time through appropriate documentation. Central to the GDPR and taken up by the AI Act, it reverses the burden: it is not for the regulator to demonstrate fault, but for the organisation to demonstrate its compliance.",
+    "exemple_fr": "Lors d'un contrôle, une entreprise n'a pas à convaincre par de bonnes intentions : elle présente son registre des traitements, ses analyses d'impact, ses journaux, ses décisions de gouvernance. Cette documentation, constituée au fil de l'eau, transforme un contrôle redouté en formalité maîtrisée. L'accountability se prépare, elle ne s'improvise pas.",
+    "exemple_en": "During an inspection, a company does not have to convince with good intentions: it presents its processing register, impact assessments, logs, governance decisions. This documentation, built up over time, turns a dreaded inspection into a controlled formality. Accountability is prepared, not improvised.",
+    "regard_fr": "L'accountability résume l'esprit de la régulation moderne : la bonne foi ne suffit pas, il faut la preuve. Documenter au fil de l'eau paraît fastidieux · c'est pourtant la différence entre subir un contrôle et le traverser sereinement.",
+    "regard_en": "Accountability sums up the spirit of modern regulation: good faith is not enough, proof is required. Documenting as you go seems tedious · yet it is the difference between enduring an inspection and passing through it serenely.",
+    "termes_lies": ["conformite-ia", "registre-traitements", "journalisation", "gouvernance-ia"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 5.2", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}]
+  }
+}

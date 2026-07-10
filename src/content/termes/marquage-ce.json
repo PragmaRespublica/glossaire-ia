@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Marquage CE des systèmes d'IA",
+  "terme_en": "CE marking for AI",
+  "sous_titre_fr": "CE marking for AI",
+  "sous_titre_en": "Marquage CE des systèmes d'IA",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Apposition du marquage CE attestant qu'un système d'IA à haut risque respecte les exigences de l'AI Act, à l'image des produits industriels. Il s'appuie sur une évaluation de conformité, une documentation technique et, le cas échéant, l'intervention d'un organisme notifié. Sans marquage CE, un système haut risque ne peut être mis sur le marché européen.",
+  "definition_en": "Affixing the CE marking certifying that a high-risk AI system meets the AI Act's requirements, like industrial products. It rests on a conformity assessment, technical documentation and, where applicable, the involvement of a notified body. Without CE marking, a high-risk system cannot be placed on the European market.",
+  "exemple_fr": "Un fabricant de dispositif médical intégrant de l'IA cumule deux régimes : le marquage CE médical et les exigences IA de l'AI Act. Anticiper cette double conformité dès la conception évite de refaire l'évaluation deux fois · et d'immobiliser un produit fini faute de documentation.",
+  "exemple_en": "A medical device manufacturer integrating AI faces two regimes: the medical CE marking and the AI Act's AI requirements. Anticipating this dual conformity from the design stage avoids doing the assessment twice · and freezing a finished product for lack of documentation.",
+  "regard_fr": "Le marquage CE fait entrer l'IA dans la culture industrielle de la conformité : preuve, documentation, responsabilité du fabricant. Pour les éditeurs habitués au « livrer vite, corriger après », c'est un changement de paradigme à intégrer tôt.",
+  "regard_en": "CE marking brings AI into the industrial culture of conformity: proof, documentation, manufacturer liability. For vendors used to \"ship fast, fix later\", it is a paradigm shift to integrate early.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "systeme-haut-risque",
+    "ai-act",
+    "certification-ia",
+    "normes-harmonisees"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 48",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

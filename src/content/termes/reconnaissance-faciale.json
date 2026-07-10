@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Reconnaissance faciale",
+  "terme_en": "Facial recognition",
+  "sous_titre_fr": "Facial recognition",
+  "sous_titre_en": "Reconnaissance faciale",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Technologie d'identification ou de vérification d'une personne à partir de son visage. On distingue l'authentification (comparer un visage à un seul, avec consentement, ex. déverrouiller un téléphone) de l'identification en masse (chercher un visage dans une foule), cette dernière étant très largement encadrée ou interdite dans l'espace public européen.",
+  "definition_en": "A technology for identifying or verifying a person from their face. One distinguishes authentication (comparing a face to a single one, with consent, e.g. unlocking a phone) from mass identification (searching for a face in a crowd), the latter being very largely framed or banned in European public spaces.",
+  "exemple_fr": "Déverrouiller son smartphone par le visage (authentification locale, consentie, sans base centralisée) et scanner une foule pour identifier des individus (surveillance de masse) sont deux mondes juridiques opposés, bien que reposant sur la même brique technique. L'AI Act encadre le second avec une sévérité que le premier ne connaît pas.",
+  "exemple_en": "Unlocking your smartphone by face (local, consented authentication, no centralised database) and scanning a crowd to identify individuals (mass surveillance) are two opposed legal worlds, though resting on the same technical brick. The AI Act frames the second with a severity the first does not face.",
+  "regard_fr": "La reconnaissance faciale n'est ni bonne ni mauvaise en soi : tout dépend de l'usage, du consentement et de la centralisation. Confondre le déverrouillage d'un téléphone et la surveillance de masse, c'est s'interdire de penser · l'analyse au cas par cas est la seule voie sérieuse.",
+  "regard_en": "Facial recognition is neither good nor bad in itself: everything depends on the use, consent and centralisation. Confusing phone unlocking with mass surveillance means refusing to think · case-by-case analysis is the only serious path.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "identification-biometrique",
+    "vision-ordinateur",
+    "pratiques-interdites",
+    "police-predictive"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · reconnaissance faciale",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

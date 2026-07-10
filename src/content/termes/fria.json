@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Analyse d'impact sur les droits fondamentaux (FRIA)",
+  "terme_en": "Fundamental Rights Impact Assessment (FRIA)",
+  "sous_titre_fr": "Analyse d'impact sur les droits fondamentaux",
+  "sous_titre_en": "Fundamental Rights Impact Assessment",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Évaluation obligatoire, pour certains déployeurs de systèmes d'IA à haut risque, des effets du système sur les droits fondamentaux des personnes concernées : discrimination, vie privée, accès aux services, dignité. Elle documente les risques identifiés et les mesures d'atténuation avant la mise en service.",
+  "definition_en": "A mandatory assessment, for certain deployers of high-risk AI systems, of the system's effects on the fundamental rights of the people concerned: discrimination, privacy, access to services, dignity. It documents the identified risks and mitigation measures before deployment.",
+  "exemple_fr": "Une collectivité déploie un système d'IA pour prioriser l'attribution de logements sociaux. La FRIA l'oblige à examiner : le système désavantage-t-il certaines populations ? Les demandeurs peuvent-ils contester une décision ? Existe-t-il un recours humain ? L'exercice transforme une bonne intention en dispositif défendable.",
+  "exemple_en": "A local authority deploys an AI system to prioritise social housing allocation. The FRIA requires it to examine: does the system disadvantage certain populations? Can applicants contest a decision? Is there human recourse? The exercise turns a good intention into a defensible mechanism.",
+  "regard_fr": "La FRIA est cousine de l'analyse d'impact RGPD, mais centrée sur les droits fondamentaux. Loin d'être une formalité, elle force à expliciter des arbitrages souvent implicites · et c'est précisément là qu'un atelier structuré comme ORI-IA fait la différence.",
+  "regard_en": "The FRIA is a cousin of the GDPR impact assessment, but centred on fundamental rights. Far from a formality, it forces the explicit statement of often-implicit trade-offs · and that is precisely where a structured workshop like ORI-IA makes the difference.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "systeme-haut-risque",
+    "aipd",
+    "ori-ia",
+    "ethique-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 27",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

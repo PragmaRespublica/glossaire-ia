@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Opt-out des ayants droit",
+  "terme_en": "Rights holder opt-out",
+  "sous_titre_fr": "Le droit de refuser l'entraînement",
+  "sous_titre_en": "The right to refuse training",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Faculté pour un ayant droit de s'opposer à ce que ses contenus soient utilisés pour entraîner des modèles d'IA, dans le cadre de l'exception de fouille de textes et de données. Pour être opposable, l'opt-out doit être exprimé de manière appropriée, notamment lisible par machine · d'où l'émergence de standards techniques de réservation de droits.",
+  "definition_en": "A rights holder's ability to object to their content being used to train AI models, under the text and data mining exception. To be enforceable, the opt-out must be expressed appropriately, notably machine-readable · hence the emergence of technical standards for reserving rights.",
+  "exemple_fr": "Un studio de création place sur son site un fichier de réservation des droits et des métadonnées signalant son opt-out. Les acteurs d'IA respectueux du droit européen doivent alors exclure ces contenus de leurs corpus d'entraînement. C'est un geste simple qui transforme une plainte a posteriori en protection a priori.",
+  "exemple_en": "A creative studio places on its site a rights reservation file and metadata signalling its opt-out. AI players respecting European law must then exclude this content from their training corpora. It is a simple act that turns an after-the-fact complaint into upfront protection.",
+  "regard_fr": "L'opt-out déplace la charge : sans expression claire, vos contenus sont présumés utilisables. Pour tout créateur ou entreprise détentrice de contenus, exprimer son opt-out de façon machine-lisible n'est plus optionnel · c'est la seule protection réellement opposable.",
+  "regard_en": "The opt-out shifts the burden: without clear expression, your content is presumed usable. For any creator or content-holding company, expressing your opt-out in a machine-readable way is no longer optional · it is the only truly enforceable protection.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "exception-tdm",
+    "droits-auteur-ia",
+    "scraping",
+    "c2pa"
+  ],
+  "sources": [
+    {
+      "titre": "Directive (UE) 2019/790 · droit d'auteur, art. 4"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

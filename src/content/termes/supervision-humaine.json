@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Supervision humaine (AI Act)",
+  "terme_en": "Human oversight (AI Act)",
+  "sous_titre_fr": "Human oversight",
+  "sous_titre_en": "Supervision humaine",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Exigence de l'AI Act imposant que les systèmes à haut risque soient conçus pour être effectivement supervisés par des humains capables de comprendre le système, d'en surveiller le fonctionnement, d'intervenir ou de l'arrêter. La supervision doit être réelle, outillée et confiée à des personnes formées · pas un simple bouton d'arrêt symbolique.",
+  "definition_en": "An AI Act requirement that high-risk systems be designed to be effectively supervised by humans able to understand the system, monitor its operation, intervene or stop it. Oversight must be real, tooled and entrusted to trained people · not a mere symbolic stop button.",
+  "exemple_fr": "Un système d'aide au diagnostic médical propose des interprétations d'imagerie. La supervision humaine impose que le radiologue dispose des éléments pour juger : niveau de confiance, zones analysées, cas d'incertitude signalés. Il reste décideur · l'IA l'assiste sans le remplacer, et sans l'endormir dans une confiance excessive.",
+  "exemple_en": "A medical diagnosis support system proposes imaging interpretations. Human oversight requires the radiologist to have the elements to judge: confidence level, analysed zones, flagged uncertainty cases. They remain the decision-maker · the AI assists without replacing them, and without lulling them into excessive trust.",
+  "regard_fr": "La supervision humaine est le cœur de l'IA de confiance · et son point le plus fragile. Le vrai risque n'est pas que l'humain manque, mais qu'il soit présent sans moyen réel de juger. Concevez la supervision comme une capacité, pas comme une case à cocher.",
+  "regard_en": "Human oversight is the heart of trustworthy AI · and its most fragile point. The real risk is not that the human is absent, but that they are present with no real means to judge. Design oversight as a capability, not a checkbox.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "humain-dans-la-boucle",
+    "systeme-haut-risque",
+    "decision-automatisee",
+    "explicabilite"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 14",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

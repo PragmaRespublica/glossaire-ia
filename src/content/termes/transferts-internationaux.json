@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Transferts internationaux de données",
+  "terme_en": "International data transfers",
+  "sous_titre_fr": "International data transfers",
+  "sous_titre_en": "Transferts internationaux de données",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Régime encadrant par le RGPD la sortie de données personnelles hors de l'Union européenne. Un transfert n'est licite que si le pays de destination offre une protection adéquate, ou moyennant des garanties spécifiques. C'est l'enjeu juridique central de l'usage d'IA hébergée aux États-Unis, où le CLOUD Act coexiste avec le RGPD.",
+  "definition_en": "The GDPR regime framing the exit of personal data outside the European Union. A transfer is only lawful if the destination country offers adequate protection, or subject to specific safeguards. It is the central legal issue of using AI hosted in the United States, where the CLOUD Act coexists with the GDPR.",
+  "exemple_fr": "Une entreprise utilise une API d'IA américaine pour traiter des emails contenant des données personnelles. Ce flux est un transfert international : il doit s'appuyer sur un cadre valide (Data Privacy Framework, clauses contractuelles types) et une analyse des risques liés au CLOUD Act. Beaucoup d'organisations découvrent ce sujet après coup · au risque de la non-conformité.",
+  "exemple_en": "A company uses an American AI API to process emails containing personal data. This flow is an international transfer: it must rest on a valid framework (Data Privacy Framework, standard contractual clauses) and a risk analysis of the CLOUD Act. Many organisations discover this topic after the fact · at the risk of non-compliance.",
+  "regard_fr": "Chaque appel à une API d'IA hors UE contenant des données personnelles est un transfert international qui vous engage. Cartographier ces flux est le préalable oublié de la plupart des déploiements · et l'argument le plus concret en faveur de l'hébergement souverain.",
+  "regard_en": "Every call to a non-EU AI API containing personal data is an international transfer that commits you. Mapping these flows is the forgotten prerequisite of most deployments · and the most concrete argument for sovereign hosting.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "cloud-act",
+    "data-privacy-framework",
+    "clauses-contractuelles"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, chapitre V",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

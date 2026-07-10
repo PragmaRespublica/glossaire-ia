@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Registre des traitements",
+  "terme_en": "Record of processing activities",
+  "sous_titre_fr": "Record of processing activities",
+  "sous_titre_en": "Registre des traitements",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Document imposé par le RGPD recensant tous les traitements de données personnelles d'une organisation : finalités, catégories de données et de personnes, destinataires, durées de conservation, mesures de sécurité. Les traitements impliquant de l'IA doivent y figurer comme les autres · c'est souvent là qu'on découvre des usages non déclarés.",
+  "definition_en": "A document required by the GDPR listing all an organisation's personal data processing operations: purposes, categories of data and individuals, recipients, retention periods, security measures. AI-involving processing must appear there like any other · it is often there that undeclared uses are discovered.",
+  "exemple_fr": "En mettant à jour son registre des traitements, une entreprise réalise qu'un assistant IA déployé par une équipe marketing traite des données clients sans base légale documentée ni mention dans le registre. La mise à jour du registre a fait remonter un risque de conformité invisible jusque-là.",
+  "exemple_en": "While updating its processing register, a company realises that an AI assistant deployed by a marketing team processes client data with no documented legal basis nor mention in the register. Updating the register surfaced a compliance risk invisible until then.",
+  "regard_fr": "Le registre des traitements et le registre des cas d'usage IA se recoupent largement. Les tenir de façon cohérente évite les angles morts : tout traitement IA de données personnelles doit apparaître dans les deux. La cohérence entre eux est un bon indicateur de maturité.",
+  "regard_en": "The processing register and the AI use-case register largely overlap. Keeping them consistent avoids blind spots: every AI processing of personal data must appear in both. Consistency between them is a good maturity indicator.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "registre-cas-usage",
+    "accountability",
+    "dpo-delegue"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 30",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

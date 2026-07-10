@@ -1,0 +1,40 @@
+{
+  "terme_fr": "Hébergement de données de santé (HDS)",
+  "terme_en": "French health data hosting certification (HDS)",
+  "sous_titre_fr": "Hébergement de données de santé",
+  "sous_titre_en": "French health data hosting certification",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Certification française obligatoire pour tout hébergeur de données de santé à caractère personnel. Elle impose des exigences de sécurité, de traçabilité et de confidentialité renforcées. Tout projet d'IA en santé · RAG médical, aide au diagnostic, analyse de dossiers · doit s'appuyer sur une infrastructure certifiée HDS.",
+  "definition_en": "A mandatory French certification for any host of personal health data. It imposes reinforced security, traceability and confidentiality requirements. Any health AI project · medical RAG, diagnosis support, record analysis · must rest on HDS-certified infrastructure.",
+  "exemple_fr": "Une clinique veut un assistant IA interrogeant les dossiers patients. Le cahier des charges est sans appel : hébergement certifié HDS, exclusivement. Cela oriente vers des acteurs français ou européens qualifiés, et écarte les offres non certifiées, aussi performantes soient-elles. En santé, la certification prime sur la performance.",
+  "exemple_en": "A clinic wants an AI assistant querying patient records. The specification is uncompromising: HDS-certified hosting, exclusively. This points to qualified French or European players, and rules out non-certified offerings, however performant. In healthcare, certification prevails over performance.",
+  "regard_fr": "En santé, la certification HDS n'est pas négociable · elle est le préalable de tout. Pour un projet d'IA médicale, commencez par la question de l'hébergement : elle détermine bien plus la faisabilité que le choix du modèle. Le cadre d'abord, la technologie ensuite.",
+  "regard_en": "In healthcare, HDS certification is not negotiable · it is the prerequisite of everything. For a medical AI project, start with the hosting question: it determines feasibility far more than the choice of model. Framework first, technology second.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "donnees-sensibles",
+    "cloud-souverain",
+    "ia-sante",
+    "secnumcloud"
+  ],
+  "sources": [
+    {
+      "titre": "Code de la santé publique · certification HDS"
+    },
+    {
+      "titre": "Agence du Numérique en Santé"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

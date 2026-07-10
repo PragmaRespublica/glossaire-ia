@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Normes harmonisées (CEN-CENELEC)",
+  "terme_en": "Harmonised standards",
+  "sous_titre_fr": "Le pont technique vers la conformité",
+  "sous_titre_en": "The technical bridge to compliance",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Normes techniques élaborées à la demande de la Commission européenne (par le CEN-CENELEC) pour préciser comment respecter concrètement les exigences de l'AI Act. Se conformer à une norme harmonisée crée une présomption de conformité au règlement · elles sont donc la traduction opérationnelle très attendue des obligations légales.",
+  "definition_en": "Technical standards developed at the European Commission's request (by CEN-CENELEC) to specify how to concretely meet the AI Act's requirements. Complying with a harmonised standard creates a presumption of conformity with the regulation · they are therefore the eagerly awaited operational translation of legal obligations.",
+  "exemple_fr": "Un fabricant de système haut risque attend les normes harmonisées pour savoir précisément quoi documenter et comment tester la robustesse. En s'y conformant, il bénéficie d'une présomption de conformité · un raccourci juridique précieux face à l'incertitude d'interpréter seul un texte réglementaire dense.",
+  "exemple_en": "A high-risk system manufacturer awaits the harmonised standards to know precisely what to document and how to test robustness. By complying, it benefits from a presumption of conformity · a precious legal shortcut against the uncertainty of interpreting a dense regulatory text alone.",
+  "regard_fr": "Les normes harmonisées sont le maillon qui transforme un règlement abstrait en check-list concrète. Suivre leur élaboration, c'est anticiper les attentes du régulateur · et éviter de bâtir sa conformité sur une interprétation personnelle qui pourrait être invalidée.",
+  "regard_en": "Harmonised standards are the link that turns an abstract regulation into a concrete checklist. Following their development means anticipating the regulator's expectations · and avoiding building compliance on a personal interpretation that could be invalidated.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "marquage-ce",
+    "certification-ia",
+    "systeme-haut-risque"
+  ],
+  "sources": [
+    {
+      "titre": "CEN-CENELEC · JTC 21 (IA)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

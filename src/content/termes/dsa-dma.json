@@ -1,0 +1,37 @@
+{
+  "terme_fr": "DSA et DMA",
+  "terme_en": "Digital Services Act and Digital Markets Act",
+  "sous_titre_fr": "Digital Services Act et Digital Markets Act",
+  "sous_titre_en": "Digital Services Act and Digital Markets Act",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Deux règlements européens de 2022 encadrant les grandes plateformes numériques. Le DSA porte sur la modération des contenus, la transparence des algorithmes de recommandation et la protection des utilisateurs ; le DMA sur la concurrence et les pratiques des « contrôleurs d'accès ». Tous deux touchent l'IA embarquée dans les plateformes.",
+  "definition_en": "Two European regulations of 2022 framing large digital platforms. The DSA covers content moderation, transparency of recommendation algorithms and user protection; the DMA covers competition and the practices of \"gatekeepers\". Both touch the AI embedded in platforms.",
+  "exemple_fr": "Une très grande plateforme doit, au titre du DSA, expliquer le fonctionnement de son algorithme de recommandation et offrir une option non fondée sur le profilage. Ses systèmes d'IA de curation deviennent auditables. Pour les entreprises qui dépendent de ces plateformes, ces règles ouvrent de nouveaux leviers de transparence.",
+  "exemple_en": "A very large platform must, under the DSA, explain how its recommendation algorithm works and offer an option not based on profiling. Its AI curation systems become auditable. For companies that depend on these platforms, these rules open new transparency levers.",
+  "regard_fr": "DSA et DMA rappellent que l'IA des plateformes n'est plus une boîte noire intouchable : l'Europe impose transparence et loyauté. Comprendre ces règles, c'est mieux négocier sa dépendance aux grands intermédiaires · un enjeu de souveraineté économique.",
+  "regard_en": "The DSA and DMA recall that platforms' AI is no longer an untouchable black box: Europe imposes transparency and fairness. Understanding these rules means better negotiating one's dependence on large intermediaries · a matter of economic sovereignty.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "transparence-algorithmes",
+    "big-tech",
+    "bulle-filtre",
+    "lock-in"
+  ],
+  "sources": [
+    {
+      "titre": "Règlements (UE) 2022/2065 (DSA) et 2022/1925 (DMA)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

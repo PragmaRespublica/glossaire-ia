@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Analyse d'impact protection des données (AIPD)",
+  "terme_en": "Data Protection Impact Assessment (DPIA)",
+  "sous_titre_fr": "Analyse d'impact relative à la protection des données",
+  "sous_titre_en": "Data Protection Impact Assessment (DPIA)",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Étude imposée par le RGPD avant tout traitement de données personnelles susceptible d'engendrer un risque élevé pour les personnes. Elle décrit le traitement, évalue sa nécessité et sa proportionnalité, identifie les risques et les mesures pour les réduire. La plupart des projets d'IA sur données personnelles y sont soumis.",
+  "definition_en": "A study required by the GDPR before any processing of personal data likely to generate a high risk for individuals. It describes the processing, assesses its necessity and proportionality, identifies the risks and the measures to reduce them. Most AI projects on personal data are subject to it.",
+  "exemple_fr": "Avant de déployer un RAG sur des dossiers RH, une entreprise mène une AIPD avec son DPO : finalité, base légale, durée de conservation, droits des personnes, sécurité de l'index vectoriel. L'analyse révèle qu'il faut anonymiser certaines données avant indexation. Le projet démarre conforme, pas rattrapé après coup.",
+  "exemple_en": "Before deploying a RAG on HR files, a company runs a DPIA with its DPO: purpose, legal basis, retention period, data subject rights, vector index security. The analysis reveals that some data must be anonymised before indexing. The project starts compliant, not retrofitted after the fact.",
+  "regard_fr": "L'AIPD n'est pas un obstacle à l'IA, c'est son garde-corps. Menée tôt, elle oriente l'architecture vers des choix conformes · anonymisation, cloisonnement, minimisation · plutôt que de les imposer douloureusement une fois le système construit.",
+  "regard_en": "The DPIA is not an obstacle to AI, it is its guardrail. Conducted early, it steers the architecture towards compliant choices · anonymisation, compartmentalisation, minimisation · rather than imposing them painfully once the system is built.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "fria",
+    "dpo-delegue",
+    "donnees-personnelles"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 35",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    },
+    {
+      "titre": "CNIL · logiciel PIA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

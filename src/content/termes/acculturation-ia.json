@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Acculturation à l'IA (AI literacy)",
+  "terme_en": "AI literacy",
+  "sous_titre_fr": "AI literacy, maîtrise de l'IA",
+  "sous_titre_en": "AI literacy",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Niveau de compréhension de l'IA permettant à une personne d'en faire un usage éclairé, critique et responsable. L'AI Act en fait une obligation : depuis février 2025, les organisations doivent garantir un niveau suffisant de maîtrise de l'IA à leur personnel amené à l'utiliser ou à la superviser.",
+  "definition_en": "The level of understanding of AI enabling a person to use it in an informed, critical and responsible way. The AI Act makes it an obligation: since February 2025, organisations must ensure a sufficient level of AI literacy for staff called to use or supervise it.",
+  "exemple_fr": "Une entreprise déploie des assistants IA à grande échelle. Pour respecter l'obligation d'acculturation, elle forme ses équipes non seulement à l'outil, mais aux notions clés : hallucination, biais, confidentialité, limites. Résultat : moins d'usages naïfs, moins de fuites, plus de valeur. La formation n'est plus une option, c'est la loi.",
+  "exemple_en": "A company deploys AI assistants at scale. To meet the literacy obligation, it trains its teams not only on the tool, but on key notions: hallucination, bias, confidentiality, limits. The result: fewer naive uses, fewer leaks, more value. Training is no longer optional, it is the law.",
+  "regard_fr": "L'acculturation à l'IA est passée du statut de bonne pratique à celui d'obligation légale · et c'est heureux. Un collaborateur qui comprend ce qu'est une hallucination protège l'entreprise mieux que n'importe quel garde-fou technique. Former, c'est le premier acte de conformité.",
+  "regard_en": "AI literacy has moved from good practice to legal obligation · and rightly so. An employee who understands what a hallucination is protects the company better than any technical guardrail. Training is the first act of compliance.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "charte-ia",
+    "conformite-ia",
+    "hallucination"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 4",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

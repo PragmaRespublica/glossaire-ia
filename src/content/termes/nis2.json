@@ -1,0 +1,41 @@
+{
+  "terme_fr": "Directive NIS 2",
+  "terme_en": "NIS 2 Directive",
+  "sous_titre_fr": "La directive européenne de cybersécurité",
+  "sous_titre_en": "The European cybersecurity directive",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Directive européenne renforçant les obligations de cybersécurité d'un large éventail d'organisations dites « essentielles » ou « importantes » : gestion des risques, notification des incidents, sécurisation de la chaîne d'approvisionnement, responsabilité des dirigeants. Les systèmes d'IA critiques de ces organisations entrent dans son périmètre.",
+  "definition_en": "A European directive strengthening the cybersecurity obligations of a broad range of \"essential\" or \"important\" organisations: risk management, incident notification, supply chain security, management liability. These organisations' critical AI systems fall within its scope.",
+  "exemple_fr": "Une entreprise de taille intermédiaire, nouvellement soumise à NIS 2, doit sécuriser sa chaîne d'approvisionnement numérique · y compris les modèles et services d'IA qu'elle intègre. La directive transforme la sécurité de l'IA d'un enjeu technique en une responsabilité de la direction, avec des sanctions à la clé.",
+  "exemple_en": "A mid-sized company, newly subject to NIS 2, must secure its digital supply chain · including the AI models and services it integrates. The directive turns AI security from a technical issue into a management responsibility, with sanctions attached.",
+  "regard_fr": "NIS 2 élargit massivement le cercle des organisations tenues à la cybersécurité · et y intègre implicitement l'IA. Si vous découvrez que vous y êtes soumis, la sécurité de vos systèmes d'IA n'est plus optionnelle : elle engage la responsabilité de vos dirigeants.",
+  "regard_en": "NIS 2 massively widens the circle of organisations bound to cybersecurity · and implicitly includes AI. If you discover you are subject to it, the security of your AI systems is no longer optional: it engages your executives' liability.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chaine-approvisionnement",
+    "anssi",
+    "signalement-incidents",
+    "conformite-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Directive (UE) 2022/2555 · NIS 2"
+    },
+    {
+      "titre": "ANSSI · transposition NIS 2",
+      "url": "https://cyber.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

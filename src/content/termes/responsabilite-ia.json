@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Responsabilité juridique de l'IA",
+  "terme_en": "AI liability",
+  "sous_titre_fr": "Qui répond des dommages causés par l'IA ?",
+  "sous_titre_en": "Who is liable for AI-caused harm?",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des questions relatives à l'imputation juridique des dommages causés par un système d'IA : le fournisseur du modèle, l'intégrateur, le déployeur, l'utilisateur ? La chaîne de valeur complexe de l'IA brouille les responsabilités classiques. L'Europe travaille à adapter les régimes de responsabilité produit à ces nouveaux systèmes.",
+  "definition_en": "The set of questions on the legal attribution of harm caused by an AI system: the model provider, the integrator, the deployer, the user? AI's complex value chain blurs classic liability. Europe is working to adapt product liability regimes to these new systems.",
+  "exemple_fr": "Un assistant IA médical intégré par un éditeur, s'appuyant sur un modèle de fondation américain, hébergé par un cloud tiers, produit une recommandation erronée ayant causé un préjudice. Qui est responsable ? Sans clauses claires réparties dans les contrats, chacun renverra vers l'autre · d'où l'importance de cadrer la responsabilité en amont.",
+  "exemple_en": "A medical AI assistant integrated by a vendor, relying on an American foundation model, hosted by a third-party cloud, produces an erroneous recommendation that caused harm. Who is liable? Without clear clauses distributed across the contracts, each will point to the other · hence the importance of framing liability upfront.",
+  "regard_fr": "La responsabilité de l'IA ne se règle pas après l'incident, mais dans les contrats signés avant. Répartir clairement les obligations entre fournisseur, intégrateur et déployeur est un exercice fastidieux · et exactement ce qui vous sauvera le jour où quelque chose tourne mal.",
+  "regard_en": "AI liability is not settled after the incident, but in the contracts signed before. Clearly distributing obligations between provider, integrator and deployer is a tedious exercise · and exactly what will save you the day something goes wrong.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "clauses-ia-contrats",
+    "ai-act",
+    "gpai",
+    "conformite-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Commission européenne · révision de la directive responsabilité du fait des produits"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Notation sociale",
+  "terme_en": "Social scoring",
+  "sous_titre_fr": "Social scoring",
+  "sous_titre_en": "Notation sociale",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Système attribuant aux individus une note globale fondée sur leur comportement ou leurs caractéristiques, conditionnant leur accès à des services ou des droits. L'AI Act interdit la notation sociale généralisée par les autorités publiques et certains usages privés, y voyant une atteinte fondamentale à la dignité et à l'égalité.",
+  "definition_en": "A system assigning individuals a global score based on their behaviour or characteristics, conditioning their access to services or rights. The AI Act bans generalised social scoring by public authorities and certain private uses, seeing it as a fundamental attack on dignity and equality.",
+  "exemple_fr": "Un système notant les citoyens selon un composite de comportements (paiements, réseaux sociaux, déplacements) pour moduler leurs droits relève de la pratique interdite. Même à but « vertueux », il crée une surveillance totale et une discrimination systémique. L'Europe a tranché : ce modèle est incompatible avec ses valeurs.",
+  "exemple_en": "A system scoring citizens by a composite of behaviours (payments, social media, movements) to modulate their rights falls under prohibited practice. Even for a \"virtuous\" purpose, it creates total surveillance and systemic discrimination. Europe has ruled: this model is incompatible with its values.",
+  "regard_fr": "L'interdiction de la notation sociale est l'une des lignes rouges les plus claires de l'AI Act · et l'une des plus révélatrices du projet européen. Elle rappelle qu'une capacité technique n'est jamais une justification suffisante : certaines choses ne se font pas, même si elles se peuvent.",
+  "regard_en": "The ban on social scoring is one of the clearest red lines of the AI Act · and one of the most revealing of the European project. It recalls that a technical capability is never sufficient justification: some things are not done, even if they can be.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "pratiques-interdites",
+    "ai-act",
+    "ethique-ia",
+    "equite-algorithmique"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, art. 5",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

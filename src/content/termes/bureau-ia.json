@@ -1,0 +1,36 @@
+{
+  "terme_fr": "Bureau européen de l'IA",
+  "terme_en": "European AI Office",
+  "sous_titre_fr": "European AI Office",
+  "sous_titre_en": "Bureau européen de l'IA",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "cadre-juridique",
+  "pages_liees": [],
+  "definition_fr": "Organe de la Commission européenne chargé de superviser l'application de l'AI Act, en particulier pour les modèles à usage général. Il coordonne les autorités nationales, élabore les codes de bonnes pratiques, peut évaluer les modèles et sanctionner les manquements des fournisseurs de modèles à risque systémique.",
+  "definition_en": "A European Commission body responsible for overseeing the application of the AI Act, particularly for general-purpose models. It coordinates national authorities, develops codes of practice, can evaluate models and sanction breaches by providers of systemic-risk models.",
+  "exemple_fr": "Un fournisseur de modèle de fondation reçoit une demande d'information du Bureau européen de l'IA sur ses mesures d'atténuation des risques systémiques. La qualité et la traçabilité de sa documentation technique déterminent la fluidité de l'échange · d'où l'importance de documenter dès l'entraînement, pas au moment du contrôle.",
+  "exemple_en": "A foundation model provider receives an information request from the European AI Office about its systemic-risk mitigation measures. The quality and traceability of its technical documentation determine how smoothly the exchange goes · hence the importance of documenting from training, not at inspection time.",
+  "regard_fr": "Le Bureau européen de l'IA est le maillon qui donne du mordant à l'AI Act pour les modèles les plus puissants. Suivre ses lignes directrices et ses codes de bonnes pratiques est le meilleur moyen d'anticiper l'interprétation concrète du règlement.",
+  "regard_en": "The European AI Office is the link that gives the AI Act teeth for the most powerful models. Following its guidelines and codes of practice is the best way to anticipate the concrete interpretation of the regulation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ai-act",
+    "gpai",
+    "codes-conduite-gpai"
+  ],
+  "sources": [
+    {
+      "titre": "Commission européenne · European AI Office"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
