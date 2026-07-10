@@ -1,0 +1,38 @@
+{
+  "terme_fr": "NVIDIA",
+  "terme_en": "NVIDIA",
+  "sous_titre_fr": "NVIDIA",
+  "sous_titre_en": "NVIDIA",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Entreprise américaine dominant le marché des processeurs graphiques (GPU) indispensables à l'IA. NVIDIA fournit le matériel qui entraîne et exécute la quasi-totalité des grands modèles, une position quasi monopolistique qui en fait l'un des acteurs les plus puissants · et l'un des points de dépendance les plus critiques de tout l'écosystème.",
+  "definition_en": "An American company dominating the market for the graphics processors (GPUs) essential to AI. NVIDIA supplies the hardware that trains and runs nearly all large models, a near-monopolistic position that makes it one of the most powerful players · and one of the most critical dependency points of the whole ecosystem.",
+  "exemple_fr": "Que l'on utilise OpenAI, Mistral ou un modèle ouvert hébergé chez OVHcloud, il y a de fortes chances que les calculs tournent sur des GPU NVIDIA. Cette dépendance universelle à un seul fournisseur, largement américain, est un point de fragilité géopolitique majeur · que ni les modèles ouverts ni l'hébergement souverain ne suffisent à résoudre.",
+  "exemple_en": "Whether one uses OpenAI, Mistral or an open model hosted on OVHcloud, chances are the computations run on NVIDIA GPUs. This universal dependence on a single, largely American supplier is a major geopolitical fragility · that neither open models nor sovereign hosting suffices to resolve.",
+  "regard_fr": "NVIDIA rappelle que la souveraineté sur l'IA ne s'arrête pas au logiciel : elle bute sur le matériel. On peut héberger un modèle ouvert en France, sur des puces conçues et fabriquées ailleurs. C'est le maillon le plus dur à reconquérir · et la raison pour laquelle les initiatives européennes sur les semi-conducteurs comptent tant.",
+  "regard_en": "NVIDIA recalls that AI sovereignty does not stop at software: it hits hardware. One can host an open model in France, on chips designed and made elsewhere. It is the hardest link to reclaim · and the reason why European semiconductor initiatives matter so much.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gpu",
+    "tpu",
+    "chips-act",
+    "autonomie-strategique"
+  ],
+  "sources": [
+    {
+      "titre": "NVIDIA",
+      "url": "https://www.nvidia.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

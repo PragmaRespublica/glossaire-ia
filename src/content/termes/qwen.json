@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Qwen",
+  "terme_en": "Qwen (Alibaba)",
+  "sous_titre_fr": "Qwen (Alibaba)",
+  "sous_titre_en": "Qwen (Alibaba)",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Famille de modèles de langage développée par le géant chinois Alibaba, disponible en grande partie en poids ouverts. Qwen est l'un des modèles ouverts les plus performants et les plus utilisés dans le monde, notamment pour le multilingue · illustrant la place croissante de la Chine dans l'écosystème open source de l'IA.",
+  "definition_en": "A family of language models developed by the Chinese giant Alibaba, largely available as open weights. Qwen is one of the most performant and widely used open models in the world, notably for multilingual tasks · illustrating China's growing place in AI's open-source ecosystem.",
+  "exemple_fr": "De nombreux développeurs dans le monde s'appuient sur Qwen comme base pour leurs propres modèles ouverts, du fait de ses bonnes performances multilingues. Comme pour DeepSeek, son usage suppose de connaître son contexte d'origine et ses éventuels biais · un réflexe à avoir avec tout modèle, quelle que soit sa provenance.",
+  "exemple_en": "Many developers worldwide rely on Qwen as a base for their own open models, thanks to its good multilingual performance. As for DeepSeek, its use means knowing its context of origin and possible biases · a reflex to have with any model, whatever its provenance.",
+  "regard_fr": "Qwen confirme que l'open source de l'IA est devenu un terrain de compétition mondiale où la Chine pèse lourd. Pour l'Europe, s'appuyer sur ces modèles est possible · mais dépendre d'une seule origine, quelle qu'elle soit, recrée un risque. La souveraineté passe par la diversité des sources et la capacité de choisir en conscience.",
+  "regard_en": "Qwen confirms that AI open source has become a global competitive terrain where China weighs heavily. For Europe, relying on these models is possible · but depending on a single origin, whatever it is, recreates a risk. Sovereignty passes through the diversity of sources and the ability to choose consciously.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "open-weights",
+    "deepseek",
+    "modeles-multilingues",
+    "course-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Qwen (Alibaba)",
+      "url": "https://qwen.ai/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

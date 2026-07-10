@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Anthropic",
+  "terme_en": "Anthropic",
+  "sous_titre_fr": "Anthropic",
+  "sous_titre_en": "Anthropic",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Entreprise américaine d'IA fondée en 2021 par d'anciens cadres d'OpenAI, créatrice de la famille de modèles Claude. Anthropic met en avant la sûreté et l'alignement de l'IA, avec sa méthode d'« IA constitutionnelle ». C'est l'un des principaux laboratoires d'IA générative, concurrent direct d'OpenAI et de Google.",
+  "definition_en": "An American AI company founded in 2021 by former OpenAI executives, creator of the Claude model family. Anthropic emphasises AI safety and alignment, with its \"Constitutional AI\" method. It is one of the leading generative AI labs, a direct competitor of OpenAI and Google.",
+  "exemple_fr": "Anthropic se distingue par son insistance sur la sûreté · ses modèles Claude sont réputés pour leur prudence et leur capacité à traiter de longs documents. Mais comme ses concurrents, Anthropic est une entreprise américaine hébergée sur infrastructure américaine · un critère à intégrer pour tout usage sur données sensibles.",
+  "exemple_en": "Anthropic stands out for its emphasis on safety · its Claude models are known for their caution and ability to handle long documents. But like its competitors, Anthropic is an American company hosted on American infrastructure · a criterion to factor in for any use on sensitive data.",
+  "regard_fr": "Anthropic illustre qu'on peut placer la sûreté au cœur d'un projet d'IA · une orientation appréciable. Mais l'excellence technique et éthique ne change rien à la question de souveraineté : les données traitées par Claude relèvent du droit américain. Pour un usage professionnel sensible, ce paramètre reste à peser, quelle que soit la qualité du modèle.",
+  "regard_en": "Anthropic shows that safety can be placed at the heart of an AI project · a commendable orientation. But technical and ethical excellence changes nothing about the sovereignty question: data processed by Claude falls under American law. For sensitive professional use, this parameter remains to be weighed, whatever the model's quality.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "claude",
+    "ia-constitutionnelle",
+    "alignement-ia",
+    "big-tech"
+  ],
+  "sources": [
+    {
+      "titre": "Anthropic",
+      "url": "https://www.anthropic.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Grok (xAI)",
+  "terme_en": "Grok (xAI)",
+  "sous_titre_fr": "Grok (xAI)",
+  "sous_titre_en": "Grok (xAI)",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Assistant conversationnel développé par xAI, l'entreprise d'IA d'Elon Musk, intégré au réseau social X. Grok se distingue par son ton moins bridé et son accès aux données en temps réel de X · ce qui soulève des questions sur la modération, les biais et la fiabilité des informations qu'il relaie.",
+  "definition_en": "A conversational assistant developed by xAI, Elon Musk's AI company, integrated into the social network X. Grok stands out for its less restrained tone and its access to X's real-time data · which raises questions about moderation, bias and the reliability of the information it relays.",
+  "exemple_fr": "Grok accède aux publications en temps réel de X, ce qui lui donne un avantage sur l'actualité · mais l'expose aussi à relayer désinformation et biais présents sur le réseau. Son positionnement « moins bridé » séduit certains, mais interroge sur les garde-fous. Comme tout outil, il se juge sur ses usages et ses limites réelles.",
+  "exemple_en": "Grok accesses X's real-time posts, giving it an edge on current events · but also exposing it to relaying disinformation and biases present on the network. Its \"less restrained\" positioning appeals to some, but raises questions about guardrails. Like any tool, it is judged on its real uses and limits.",
+  "regard_fr": "Grok illustre que le choix des garde-fous d'une IA est un choix éditorial et politique, jamais neutre. « Moins bridé » peut vouloir dire plus libre · ou plus dangereux, selon le contexte. Face à tout assistant, la question n'est pas seulement « que sait-il faire ? » mais « quelles valeurs et quels intérêts guident sa conception ? ».",
+  "regard_en": "Grok illustrates that the choice of an AI's guardrails is an editorial and political choice, never neutral. \"Less restrained\" can mean freer · or more dangerous, depending on the context. Facing any assistant, the question is not only \"what can it do?\" but \"what values and interests guide its design?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "guardrails",
+    "moderation-contenu",
+    "desinformation-ia",
+    "big-tech"
+  ],
+  "sources": [
+    {
+      "titre": "xAI"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

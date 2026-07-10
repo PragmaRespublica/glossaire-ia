@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Meta AI",
+  "terme_en": "Meta AI",
+  "sous_titre_fr": "Meta AI",
+  "sous_titre_en": "Meta AI",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Division IA de Meta (Facebook), créatrice de la famille de modèles LLaMA. Meta a fait le choix stratégique de publier ses modèles en poids ouverts, contribuant fortement à l'écosystème open source · une décision qui a rebattu les cartes du secteur et bénéficie à de nombreux acteurs, y compris européens.",
+  "definition_en": "Meta's (Facebook's) AI division, creator of the LLaMA model family. Meta made the strategic choice to release its models as open weights, strongly contributing to the open-source ecosystem · a decision that reshuffled the sector's cards and benefits many players, including European ones.",
+  "exemple_fr": "En publiant LLaMA en poids ouverts, Meta a permis à des milliers d'organisations de déployer un modèle performant sur leur propre infrastructure. Paradoxe : un géant américain a puissamment contribué à l'autonomie technologique d'autres acteurs. La licence de LLaMA reste toutefois restrictive · à lire avant tout usage commercial.",
+  "exemple_en": "By releasing LLaMA as open weights, Meta enabled thousands of organisations to deploy a performant model on their own infrastructure. A paradox: an American giant powerfully contributed to others' technological autonomy. LLaMA's licence remains restrictive, however · to read before any commercial use.",
+  "regard_fr": "Meta illustre que l'ouverture peut être une stratégie autant qu'une générosité : en libérant LLaMA, elle affaiblit ses concurrents fermés tout en servant l'écosystème. Peu importe le motif · le résultat profite à la souveraineté. Mais gardez l'œil sur les licences : « ouvert » ne signifie pas toujours « libre de tout usage ».",
+  "regard_en": "Meta illustrates that openness can be a strategy as much as generosity: by releasing LLaMA, it weakens its closed competitors while serving the ecosystem. The motive matters little · the result benefits sovereignty. But keep an eye on licences: \"open\" does not always mean \"free for any use\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "llama",
+    "open-weights",
+    "open-source-ia",
+    "licences-open-source"
+  ],
+  "sources": [
+    {
+      "titre": "Meta AI",
+      "url": "https://ai.meta.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

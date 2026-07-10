@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Google DeepMind",
+  "terme_en": "Google DeepMind",
+  "sous_titre_fr": "Google DeepMind",
+  "sous_titre_en": "Google DeepMind",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Division IA de Google, née de la fusion de Google Brain et de DeepMind (laboratoire britannique acquis en 2014). Créatrice des modèles Gemini et de percées majeures comme AlphaFold, Google DeepMind est l'un des acteurs les plus puissants de la recherche en IA · adossé aux ressources considérables de Google.",
+  "definition_en": "Google's AI division, born from the merger of Google Brain and DeepMind (a British lab acquired in 2014). Creator of the Gemini models and major breakthroughs like AlphaFold, Google DeepMind is one of the most powerful players in AI research · backed by Google's considerable resources.",
+  "exemple_fr": "Avec AlphaFold, Google DeepMind a résolu un problème biologique majeur · prédire la structure des protéines · illustrant l'IA au service de la science. Mais l'intégration profonde de Gemini dans les outils Google pose, pour l'entreprise, les mêmes questions de gouvernance des données que les autres géants américains.",
+  "exemple_en": "With AlphaFold, Google DeepMind solved a major biological problem · predicting protein structures · illustrating AI serving science. But Gemini's deep integration into Google's tools poses, for the company, the same data governance questions as the other American giants.",
+  "regard_fr": "Google DeepMind montre le meilleur de l'IA · des avancées scientifiques réelles · et concentre le pouvoir typique des géants : ressources colossales, intégration tentaculaire. Admirer AlphaFold n'empêche pas d'interroger la dépendance qu'entraîne l'écosystème Google. Les deux regards sont nécessaires, jamais l'un sans l'autre.",
+  "regard_en": "Google DeepMind shows the best of AI · real scientific advances · and concentrates the giants' typical power: colossal resources, sprawling integration. Admiring AlphaFold does not prevent questioning the dependence the Google ecosystem entails. Both views are necessary, never one without the other.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gemini",
+    "big-tech",
+    "tpu",
+    "course-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Google DeepMind",
+      "url": "https://deepmind.google/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

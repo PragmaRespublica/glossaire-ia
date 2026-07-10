@@ -1,0 +1,198 @@
+{
+  "openai": {
+    "sous_titre_fr": "OpenAI",
+    "sous_titre_en": "OpenAI",
+    "definition_fr": "Entreprise américaine créatrice de ChatGPT et des modèles GPT, pionnière de la vague actuelle d'IA générative. Fondée en 2015 comme organisation à but non lucratif puis devenue largement commerciale, OpenAI est l'un des acteurs les plus influents du secteur · et le symbole de la domination américaine sur l'IA générative.",
+    "definition_en": "The American company that created ChatGPT and the GPT models, pioneer of the current generative AI wave. Founded in 2015 as a non-profit then becoming largely commercial, OpenAI is one of the sector's most influential players · and the symbol of American dominance over generative AI.",
+    "exemple_fr": "En lançant ChatGPT fin 2022, OpenAI a fait entrer l'IA générative dans le grand public et déclenché la course mondiale actuelle. Sa position dominante lui confère un pouvoir considérable · mais dépendre entièrement de ses API expose une organisation à ses choix de prix, de disponibilité et de conditions, décidés à San Francisco.",
+    "exemple_en": "By launching ChatGPT in late 2022, OpenAI brought generative AI to the general public and triggered the current global race. Its dominant position confers considerable power · but depending entirely on its APIs exposes an organisation to its pricing, availability and terms decisions, made in San Francisco.",
+    "regard_fr": "OpenAI incarne à la fois la prouesse technique et le risque de dépendance. Utiliser ses modèles est légitime · en dépendre exclusivement l'est moins. La bonne posture consiste à connaître ses outils, à les comparer aux alternatives souveraines, et à préserver sa capacité de changer. Admirer l'innovation n'oblige pas à la dépendance.",
+    "regard_en": "OpenAI embodies both the technical feat and the risk of dependence. Using its models is legitimate · depending on them exclusively less so. The right stance is to know its tools, compare them with sovereign alternatives, and preserve the ability to switch. Admiring innovation does not oblige dependence.",
+    "termes_lies": [
+      "chatgpt",
+      "gpt",
+      "big-tech",
+      "lock-in"
+    ],
+    "sources": [
+      {
+        "titre": "OpenAI"
+      }
+    ]
+  },
+  "anthropic": {
+    "sous_titre_fr": "Anthropic",
+    "sous_titre_en": "Anthropic",
+    "definition_fr": "Entreprise américaine d'IA fondée en 2021 par d'anciens cadres d'OpenAI, créatrice de la famille de modèles Claude. Anthropic met en avant la sûreté et l'alignement de l'IA, avec sa méthode d'« IA constitutionnelle ». C'est l'un des principaux laboratoires d'IA générative, concurrent direct d'OpenAI et de Google.",
+    "definition_en": "An American AI company founded in 2021 by former OpenAI executives, creator of the Claude model family. Anthropic emphasises AI safety and alignment, with its \"Constitutional AI\" method. It is one of the leading generative AI labs, a direct competitor of OpenAI and Google.",
+    "exemple_fr": "Anthropic se distingue par son insistance sur la sûreté · ses modèles Claude sont réputés pour leur prudence et leur capacité à traiter de longs documents. Mais comme ses concurrents, Anthropic est une entreprise américaine hébergée sur infrastructure américaine · un critère à intégrer pour tout usage sur données sensibles.",
+    "exemple_en": "Anthropic stands out for its emphasis on safety · its Claude models are known for their caution and ability to handle long documents. But like its competitors, Anthropic is an American company hosted on American infrastructure · a criterion to factor in for any use on sensitive data.",
+    "regard_fr": "Anthropic illustre qu'on peut placer la sûreté au cœur d'un projet d'IA · une orientation appréciable. Mais l'excellence technique et éthique ne change rien à la question de souveraineté : les données traitées par Claude relèvent du droit américain. Pour un usage professionnel sensible, ce paramètre reste à peser, quelle que soit la qualité du modèle.",
+    "regard_en": "Anthropic shows that safety can be placed at the heart of an AI project · a commendable orientation. But technical and ethical excellence changes nothing about the sovereignty question: data processed by Claude falls under American law. For sensitive professional use, this parameter remains to be weighed, whatever the model's quality.",
+    "termes_lies": [
+      "claude",
+      "ia-constitutionnelle",
+      "alignement-ia",
+      "big-tech"
+    ],
+    "sources": [
+      {
+        "titre": "Anthropic",
+        "url": "https://www.anthropic.com/"
+      }
+    ]
+  },
+  "google-deepmind": {
+    "sous_titre_fr": "Google DeepMind",
+    "sous_titre_en": "Google DeepMind",
+    "definition_fr": "Division IA de Google, née de la fusion de Google Brain et de DeepMind (laboratoire britannique acquis en 2014). Créatrice des modèles Gemini et de percées majeures comme AlphaFold, Google DeepMind est l'un des acteurs les plus puissants de la recherche en IA · adossé aux ressources considérables de Google.",
+    "definition_en": "Google's AI division, born from the merger of Google Brain and DeepMind (a British lab acquired in 2014). Creator of the Gemini models and major breakthroughs like AlphaFold, Google DeepMind is one of the most powerful players in AI research · backed by Google's considerable resources.",
+    "exemple_fr": "Avec AlphaFold, Google DeepMind a résolu un problème biologique majeur · prédire la structure des protéines · illustrant l'IA au service de la science. Mais l'intégration profonde de Gemini dans les outils Google pose, pour l'entreprise, les mêmes questions de gouvernance des données que les autres géants américains.",
+    "exemple_en": "With AlphaFold, Google DeepMind solved a major biological problem · predicting protein structures · illustrating AI serving science. But Gemini's deep integration into Google's tools poses, for the company, the same data governance questions as the other American giants.",
+    "regard_fr": "Google DeepMind montre le meilleur de l'IA · des avancées scientifiques réelles · et concentre le pouvoir typique des géants : ressources colossales, intégration tentaculaire. Admirer AlphaFold n'empêche pas d'interroger la dépendance qu'entraîne l'écosystème Google. Les deux regards sont nécessaires, jamais l'un sans l'autre.",
+    "regard_en": "Google DeepMind shows the best of AI · real scientific advances · and concentrates the giants' typical power: colossal resources, sprawling integration. Admiring AlphaFold does not prevent questioning the dependence the Google ecosystem entails. Both views are necessary, never one without the other.",
+    "termes_lies": [
+      "gemini",
+      "big-tech",
+      "tpu",
+      "course-ia"
+    ],
+    "sources": [
+      {
+        "titre": "Google DeepMind",
+        "url": "https://deepmind.google/"
+      }
+    ]
+  },
+  "meta-ai": {
+    "sous_titre_fr": "Meta AI",
+    "sous_titre_en": "Meta AI",
+    "definition_fr": "Division IA de Meta (Facebook), créatrice de la famille de modèles LLaMA. Meta a fait le choix stratégique de publier ses modèles en poids ouverts, contribuant fortement à l'écosystème open source · une décision qui a rebattu les cartes du secteur et bénéficie à de nombreux acteurs, y compris européens.",
+    "definition_en": "Meta's (Facebook's) AI division, creator of the LLaMA model family. Meta made the strategic choice to release its models as open weights, strongly contributing to the open-source ecosystem · a decision that reshuffled the sector's cards and benefits many players, including European ones.",
+    "exemple_fr": "En publiant LLaMA en poids ouverts, Meta a permis à des milliers d'organisations de déployer un modèle performant sur leur propre infrastructure. Paradoxe : un géant américain a puissamment contribué à l'autonomie technologique d'autres acteurs. La licence de LLaMA reste toutefois restrictive · à lire avant tout usage commercial.",
+    "exemple_en": "By releasing LLaMA as open weights, Meta enabled thousands of organisations to deploy a performant model on their own infrastructure. A paradox: an American giant powerfully contributed to others' technological autonomy. LLaMA's licence remains restrictive, however · to read before any commercial use.",
+    "regard_fr": "Meta illustre que l'ouverture peut être une stratégie autant qu'une générosité : en libérant LLaMA, elle affaiblit ses concurrents fermés tout en servant l'écosystème. Peu importe le motif · le résultat profite à la souveraineté. Mais gardez l'œil sur les licences : « ouvert » ne signifie pas toujours « libre de tout usage ».",
+    "regard_en": "Meta illustrates that openness can be a strategy as much as generosity: by releasing LLaMA, it weakens its closed competitors while serving the ecosystem. The motive matters little · the result benefits sovereignty. But keep an eye on licences: \"open\" does not always mean \"free for any use\".",
+    "termes_lies": [
+      "llama",
+      "open-weights",
+      "open-source-ia",
+      "licences-open-source"
+    ],
+    "sources": [
+      {
+        "titre": "Meta AI",
+        "url": "https://ai.meta.com/"
+      }
+    ]
+  },
+  "nvidia": {
+    "sous_titre_fr": "NVIDIA",
+    "sous_titre_en": "NVIDIA",
+    "definition_fr": "Entreprise américaine dominant le marché des processeurs graphiques (GPU) indispensables à l'IA. NVIDIA fournit le matériel qui entraîne et exécute la quasi-totalité des grands modèles, une position quasi monopolistique qui en fait l'un des acteurs les plus puissants · et l'un des points de dépendance les plus critiques de tout l'écosystème.",
+    "definition_en": "An American company dominating the market for the graphics processors (GPUs) essential to AI. NVIDIA supplies the hardware that trains and runs nearly all large models, a near-monopolistic position that makes it one of the most powerful players · and one of the most critical dependency points of the whole ecosystem.",
+    "exemple_fr": "Que l'on utilise OpenAI, Mistral ou un modèle ouvert hébergé chez OVHcloud, il y a de fortes chances que les calculs tournent sur des GPU NVIDIA. Cette dépendance universelle à un seul fournisseur, largement américain, est un point de fragilité géopolitique majeur · que ni les modèles ouverts ni l'hébergement souverain ne suffisent à résoudre.",
+    "exemple_en": "Whether one uses OpenAI, Mistral or an open model hosted on OVHcloud, chances are the computations run on NVIDIA GPUs. This universal dependence on a single, largely American supplier is a major geopolitical fragility · that neither open models nor sovereign hosting suffices to resolve.",
+    "regard_fr": "NVIDIA rappelle que la souveraineté sur l'IA ne s'arrête pas au logiciel : elle bute sur le matériel. On peut héberger un modèle ouvert en France, sur des puces conçues et fabriquées ailleurs. C'est le maillon le plus dur à reconquérir · et la raison pour laquelle les initiatives européennes sur les semi-conducteurs comptent tant.",
+    "regard_en": "NVIDIA recalls that AI sovereignty does not stop at software: it hits hardware. One can host an open model in France, on chips designed and made elsewhere. It is the hardest link to reclaim · and the reason why European semiconductor initiatives matter so much.",
+    "termes_lies": [
+      "gpu",
+      "tpu",
+      "chips-act",
+      "autonomie-strategique"
+    ],
+    "sources": [
+      {
+        "titre": "NVIDIA",
+        "url": "https://www.nvidia.com/"
+      }
+    ]
+  },
+  "le-chat": {
+    "sous_titre_fr": "Le Chat (Mistral)",
+    "sous_titre_en": "Le Chat (Mistral)",
+    "definition_fr": "Assistant conversationnel développé par la société française Mistral AI, alternative européenne à ChatGPT. Le Chat s'appuie sur les modèles Mistral et incarne la possibilité d'un assistant IA performant, ancré dans l'écosystème européen · un choix concret pour les organisations soucieuses de souveraineté et de traitement du français.",
+    "definition_en": "A conversational assistant developed by the French company Mistral AI, a European alternative to ChatGPT. Le Chat relies on the Mistral models and embodies the possibility of a performant AI assistant, rooted in the European ecosystem · a concrete choice for organisations concerned with sovereignty and French processing.",
+    "exemple_fr": "Une entreprise française cherchant une alternative à ChatGPT peut adopter Le Chat : performances comparables sur de nombreux usages, éditeur européen, meilleure prise en compte du français. Pour les données sensibles, elle peut aller plus loin en déployant un modèle Mistral ouvert sur son infrastructure. La souveraineté a désormais des options crédibles.",
+    "exemple_en": "A French company seeking an alternative to ChatGPT can adopt Le Chat: comparable performance on many uses, a European vendor, better handling of French. For sensitive data, it can go further by deploying an open Mistral model on its infrastructure. Sovereignty now has credible options.",
+    "regard_fr": "Le Chat prouve qu'une alternative européenne crédible à ChatGPT existe · un fait qui, il y a peu, paraissait improbable. Le soutenir, c'est nourrir un écosystème dont dépend notre autonomie. La souveraineté ne se décrète pas, elle se construit par des choix d'usage · et choisir une option européenne performante en est un.",
+    "regard_en": "Le Chat proves that a credible European alternative to ChatGPT exists · a fact that not long ago seemed improbable. Supporting it means nourishing an ecosystem on which our autonomy depends. Sovereignty is not decreed, it is built through usage choices · and choosing a performant European option is one.",
+    "termes_lies": [
+      "mistral-ai",
+      "chatgpt",
+      "ia-souveraine",
+      "ecosysteme-ia-francais"
+    ],
+    "sources": [
+      {
+        "titre": "Mistral AI",
+        "url": "https://mistral.ai/"
+      }
+    ]
+  },
+  "grok": {
+    "sous_titre_fr": "Grok (xAI)",
+    "sous_titre_en": "Grok (xAI)",
+    "definition_fr": "Assistant conversationnel développé par xAI, l'entreprise d'IA d'Elon Musk, intégré au réseau social X. Grok se distingue par son ton moins bridé et son accès aux données en temps réel de X · ce qui soulève des questions sur la modération, les biais et la fiabilité des informations qu'il relaie.",
+    "definition_en": "A conversational assistant developed by xAI, Elon Musk's AI company, integrated into the social network X. Grok stands out for its less restrained tone and its access to X's real-time data · which raises questions about moderation, bias and the reliability of the information it relays.",
+    "exemple_fr": "Grok accède aux publications en temps réel de X, ce qui lui donne un avantage sur l'actualité · mais l'expose aussi à relayer désinformation et biais présents sur le réseau. Son positionnement « moins bridé » séduit certains, mais interroge sur les garde-fous. Comme tout outil, il se juge sur ses usages et ses limites réelles.",
+    "exemple_en": "Grok accesses X's real-time posts, giving it an edge on current events · but also exposing it to relaying disinformation and biases present on the network. Its \"less restrained\" positioning appeals to some, but raises questions about guardrails. Like any tool, it is judged on its real uses and limits.",
+    "regard_fr": "Grok illustre que le choix des garde-fous d'une IA est un choix éditorial et politique, jamais neutre. « Moins bridé » peut vouloir dire plus libre · ou plus dangereux, selon le contexte. Face à tout assistant, la question n'est pas seulement « que sait-il faire ? » mais « quelles valeurs et quels intérêts guident sa conception ? ».",
+    "regard_en": "Grok illustrates that the choice of an AI's guardrails is an editorial and political choice, never neutral. \"Less restrained\" can mean freer · or more dangerous, depending on the context. Facing any assistant, the question is not only \"what can it do?\" but \"what values and interests guide its design?\".",
+    "termes_lies": [
+      "guardrails",
+      "moderation-contenu",
+      "desinformation-ia",
+      "big-tech"
+    ],
+    "sources": [
+      {
+        "titre": "xAI"
+      }
+    ]
+  },
+  "deepseek": {
+    "sous_titre_fr": "DeepSeek",
+    "sous_titre_en": "DeepSeek",
+    "definition_fr": "Entreprise chinoise d'IA qui a marqué le secteur en publiant des modèles performants à poids ouverts, entraînés à un coût annoncé bien inférieur à celui des leaders américains. DeepSeek illustre à la fois la montée en puissance de la Chine dans l'IA et la vitalité de l'open source · tout en soulevant des questions de gouvernance et de censure.",
+    "definition_en": "A Chinese AI company that shook the sector by releasing performant open-weights models, trained at an announced cost far below that of the American leaders. DeepSeek illustrates both China's rise in AI and the vitality of open source · while raising questions of governance and censorship.",
+    "exemple_fr": "L'arrivée de DeepSeek a bousculé l'idée qu'entraîner un modèle de pointe exigeait forcément des milliards. Ses modèles ouverts sont utilisables librement · mais leur alignement reflète le contexte chinois, avec des sujets censurés. Utiliser DeepSeek suppose d'en connaître les biais et les angles morts, comme pour tout modèle.",
+    "exemple_en": "DeepSeek's arrival upended the idea that training a cutting-edge model necessarily required billions. Its open models are freely usable · but their alignment reflects the Chinese context, with censored topics. Using DeepSeek means knowing its biases and blind spots, as for any model.",
+    "regard_fr": "DeepSeek rappelle deux choses : l'IA n'est plus un duopole américain, et chaque modèle porte les valeurs de son contexte d'origine. Un modèle chinois a ses angles morts, comme un modèle américain a les siens. La diversité des sources est une richesse · à condition de choisir en connaissance des biais de chacune.",
+    "regard_en": "DeepSeek recalls two things: AI is no longer an American duopoly, and every model carries the values of its context of origin. A Chinese model has its blind spots, as an American one has its own. The diversity of sources is a richness · provided one chooses knowing each one's biases.",
+    "termes_lies": [
+      "open-weights",
+      "course-ia",
+      "biais-algorithmique",
+      "moderation-contenu"
+    ],
+    "sources": [
+      {
+        "titre": "DeepSeek",
+        "url": "https://www.deepseek.com/"
+      }
+    ]
+  },
+  "qwen": {
+    "sous_titre_fr": "Qwen (Alibaba)",
+    "sous_titre_en": "Qwen (Alibaba)",
+    "definition_fr": "Famille de modèles de langage développée par le géant chinois Alibaba, disponible en grande partie en poids ouverts. Qwen est l'un des modèles ouverts les plus performants et les plus utilisés dans le monde, notamment pour le multilingue · illustrant la place croissante de la Chine dans l'écosystème open source de l'IA.",
+    "definition_en": "A family of language models developed by the Chinese giant Alibaba, largely available as open weights. Qwen is one of the most performant and widely used open models in the world, notably for multilingual tasks · illustrating China's growing place in AI's open-source ecosystem.",
+    "exemple_fr": "De nombreux développeurs dans le monde s'appuient sur Qwen comme base pour leurs propres modèles ouverts, du fait de ses bonnes performances multilingues. Comme pour DeepSeek, son usage suppose de connaître son contexte d'origine et ses éventuels biais · un réflexe à avoir avec tout modèle, quelle que soit sa provenance.",
+    "exemple_en": "Many developers worldwide rely on Qwen as a base for their own open models, thanks to its good multilingual performance. As for DeepSeek, its use means knowing its context of origin and possible biases · a reflex to have with any model, whatever its provenance.",
+    "regard_fr": "Qwen confirme que l'open source de l'IA est devenu un terrain de compétition mondiale où la Chine pèse lourd. Pour l'Europe, s'appuyer sur ces modèles est possible · mais dépendre d'une seule origine, quelle qu'elle soit, recrée un risque. La souveraineté passe par la diversité des sources et la capacité de choisir en conscience.",
+    "regard_en": "Qwen confirms that AI open source has become a global competitive terrain where China weighs heavily. For Europe, relying on these models is possible · but depending on a single origin, whatever it is, recreates a risk. Sovereignty passes through the diversity of sources and the ability to choose consciously.",
+    "termes_lies": [
+      "open-weights",
+      "deepseek",
+      "modeles-multilingues",
+      "course-ia"
+    ],
+    "sources": [
+      {
+        "titre": "Qwen (Alibaba)",
+        "url": "https://qwen.ai/"
+      }
+    ]
+  }
+}

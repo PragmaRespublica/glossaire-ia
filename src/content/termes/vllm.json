@@ -1,0 +1,37 @@
+{
+  "terme_fr": "vLLM",
+  "terme_en": "vLLM",
+  "sous_titre_fr": "vLLM",
+  "sous_titre_en": "vLLM",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Bibliothèque open source d'inférence haute performance pour les grands modèles de langage, optimisant fortement le débit et l'usage mémoire. vLLM est l'un des outils qui rendent économiquement viable l'hébergement de modèles ouverts à grande échelle · une brique technique essentielle de l'IA souveraine et performante.",
+  "definition_en": "A high-performance open-source inference library for large language models, strongly optimising throughput and memory use. vLLM is one of the tools that make hosting open models at scale economically viable · an essential technical brick of sovereign, performant AI.",
+  "exemple_fr": "Une entreprise veut servir un modèle ouvert à des milliers d'utilisateurs sur son infrastructure. Sans optimisation, ce serait ruineux. Avec vLLM, elle multiplie le débit de ses serveurs et réduit drastiquement le coût par requête. vLLM transforme l'hébergement souverain d'une idée séduisante en réalité économiquement soutenable.",
+  "exemple_en": "A company wants to serve an open model to thousands of users on its infrastructure. Without optimisation, it would be ruinous. With vLLM, it multiplies its servers' throughput and drastically reduces the cost per request. vLLM turns sovereign hosting from an appealing idea into an economically sustainable reality.",
+  "regard_fr": "vLLM et ses semblables sont les héros discrets de la souveraineté : sans eux, héberger son propre modèle resterait un luxe. Ces communs open source, développés collectivement, sont aussi stratégiques que les modèles eux-mêmes. Les soutenir et les utiliser, c'est investir dans l'autonomie technique de tous.",
+  "regard_en": "vLLM and its peers are the discreet heroes of sovereignty: without them, hosting your own model would remain a luxury. These open-source commons, collectively developed, are as strategic as the models themselves. Supporting and using them means investing in everyone's technical autonomy.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "serveur-inference",
+    "inference",
+    "open-weights",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "vLLM (documentation)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

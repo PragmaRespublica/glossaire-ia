@@ -1,0 +1,37 @@
+{
+  "terme_fr": "LiteLLM",
+  "terme_en": "LiteLLM",
+  "sous_titre_fr": "LiteLLM",
+  "sous_titre_en": "LiteLLM",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Bibliothèque open source offrant une interface unifiée pour appeler des dizaines de fournisseurs de modèles (OpenAI, Anthropic, Mistral, modèles locaux) avec le même code. LiteLLM est un outil clé du « zéro lock-in » : changer de modèle ou de fournisseur devient une affaire de configuration, pas de réécriture. Un rempart concret contre la dépendance.",
+  "definition_en": "An open-source library offering a unified interface to call dozens of model providers (OpenAI, Anthropic, Mistral, local models) with the same code. LiteLLM is a key tool of \"zero lock-in\": changing model or provider becomes a matter of configuration, not rewriting. A concrete bulwark against dependence.",
+  "exemple_fr": "Une application construite avec LiteLLM peut basculer d'OpenAI vers Mistral en changeant une ligne de configuration · sans toucher au reste du code. Le jour où le fournisseur augmente ses prix ou change ses conditions, l'entreprise part sans douleur. LiteLLM matérialise la liberté de changer · c'est-à-dire la souveraineté.",
+  "exemple_en": "An application built with LiteLLM can switch from OpenAI to Mistral by changing one line of configuration · without touching the rest of the code. The day the provider raises prices or changes terms, the company leaves painlessly. LiteLLM materialises the freedom to switch · that is, sovereignty.",
+  "regard_fr": "LiteLLM incarne une sagesse d'architecte : ne jamais se lier à un fournisseur unique. En abstrayant l'appel au modèle, il préserve votre liberté de changer, donc votre pouvoir de négociation. Adopter ce genre d'outil dès le début d'un projet est l'un des meilleurs investissements anti-verrouillage qui soient.",
+  "regard_en": "LiteLLM embodies an architect's wisdom: never tie yourself to a single provider. By abstracting the model call, it preserves your freedom to switch, thus your bargaining power. Adopting this kind of tool from a project's start is one of the best anti-lock-in investments there is.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "lock-in",
+    "orchestration-ia",
+    "interoperabilite",
+    "langchain"
+  ],
+  "sources": [
+    {
+      "titre": "LiteLLM (documentation)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

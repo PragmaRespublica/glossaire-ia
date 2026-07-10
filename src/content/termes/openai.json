@@ -1,0 +1,37 @@
+{
+  "terme_fr": "OpenAI",
+  "terme_en": "OpenAI",
+  "sous_titre_fr": "OpenAI",
+  "sous_titre_en": "OpenAI",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Entreprise américaine créatrice de ChatGPT et des modèles GPT, pionnière de la vague actuelle d'IA générative. Fondée en 2015 comme organisation à but non lucratif puis devenue largement commerciale, OpenAI est l'un des acteurs les plus influents du secteur · et le symbole de la domination américaine sur l'IA générative.",
+  "definition_en": "The American company that created ChatGPT and the GPT models, pioneer of the current generative AI wave. Founded in 2015 as a non-profit then becoming largely commercial, OpenAI is one of the sector's most influential players · and the symbol of American dominance over generative AI.",
+  "exemple_fr": "En lançant ChatGPT fin 2022, OpenAI a fait entrer l'IA générative dans le grand public et déclenché la course mondiale actuelle. Sa position dominante lui confère un pouvoir considérable · mais dépendre entièrement de ses API expose une organisation à ses choix de prix, de disponibilité et de conditions, décidés à San Francisco.",
+  "exemple_en": "By launching ChatGPT in late 2022, OpenAI brought generative AI to the general public and triggered the current global race. Its dominant position confers considerable power · but depending entirely on its APIs exposes an organisation to its pricing, availability and terms decisions, made in San Francisco.",
+  "regard_fr": "OpenAI incarne à la fois la prouesse technique et le risque de dépendance. Utiliser ses modèles est légitime · en dépendre exclusivement l'est moins. La bonne posture consiste à connaître ses outils, à les comparer aux alternatives souveraines, et à préserver sa capacité de changer. Admirer l'innovation n'oblige pas à la dépendance.",
+  "regard_en": "OpenAI embodies both the technical feat and the risk of dependence. Using its models is legitimate · depending on them exclusively less so. The right stance is to know its tools, compare them with sovereign alternatives, and preserve the ability to switch. Admiring innovation does not oblige dependence.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chatgpt",
+    "gpt",
+    "big-tech",
+    "lock-in"
+  ],
+  "sources": [
+    {
+      "titre": "OpenAI"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

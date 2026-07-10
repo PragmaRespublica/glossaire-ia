@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Stable Diffusion",
+  "terme_en": "Stable Diffusion",
+  "sous_titre_fr": "Stable Diffusion",
+  "sous_titre_en": "Stable Diffusion",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Modèle de génération d'images à poids ouverts, qui a démocratisé la création visuelle par IA en permettant de l'exécuter localement et gratuitement. Contrairement à Midjourney, Stable Diffusion peut tourner sur sa propre machine · un choix de souveraineté et de liberté créative, avec les mêmes questions de droit d'auteur sur son entraînement.",
+  "definition_en": "An open-weights image generation model that democratised AI visual creation by allowing it to run locally and freely. Unlike Midjourney, Stable Diffusion can run on your own machine · a choice of sovereignty and creative freedom, with the same copyright questions about its training.",
+  "exemple_fr": "Un studio installe Stable Diffusion sur ses propres machines : il génère des visuels sans dépendre d'un service cloud, sans envoyer ses créations à un tiers, et personnalise le modèle pour son style. La contrepartie de cette liberté est la responsabilité · vérifier les droits reste nécessaire, l'ouverture ne dispense pas de vigilance juridique.",
+  "exemple_en": "A studio installs Stable Diffusion on its own machines: it generates visuals without depending on a cloud service, without sending its creations to a third party, and customises the model for its style. The counterpart of this freedom is responsibility · verifying rights remains necessary, openness does not exempt from legal vigilance.",
+  "regard_fr": "Stable Diffusion incarne la version souveraine de la génération d'images : ouverte, locale, personnalisable. Elle prouve qu'on peut créer sans dépendre d'un service américain. Mais l'ouverture technique ne résout pas la question éthique de l'entraînement · liberté et responsabilité vont toujours de pair, y compris dans la création assistée.",
+  "regard_en": "Stable Diffusion embodies the sovereign version of image generation: open, local, customisable. It proves one can create without depending on an American service. But technical openness does not solve the ethical training question · freedom and responsibility always go together, including in assisted creation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "generation-images",
+    "modeles-diffusion",
+    "open-weights",
+    "midjourney"
+  ],
+  "sources": [
+    {
+      "titre": "Stability AI",
+      "url": "https://stability.ai/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

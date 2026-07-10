@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Midjourney",
+  "terme_en": "Midjourney",
+  "sous_titre_fr": "Midjourney",
+  "sous_titre_en": "Midjourney",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Service américain de génération d'images par IA, réputé pour la qualité esthétique de ses productions. Midjourney illustre la transformation des métiers créatifs par l'IA · un outil puissant, mais qui soulève de vives questions de droit d'auteur (entraînement sur des œuvres protégées) et d'impact sur les illustrateurs et photographes.",
+  "definition_en": "An American AI image generation service, renowned for the aesthetic quality of its outputs. Midjourney illustrates the transformation of creative jobs by AI · a powerful tool, but one that raises sharp questions of copyright (training on protected works) and impact on illustrators and photographers.",
+  "exemple_fr": "Une agence produit des visuels de forte qualité esthétique avec Midjourney en quelques minutes. Gain créatif réel · mais des artistes attaquent en justice l'usage non consenti de leurs œuvres dans l'entraînement. Utiliser Midjourney suppose de connaître ces zones grises juridiques et de vérifier les droits avant tout usage commercial.",
+  "exemple_en": "An agency produces aesthetically high-quality visuals with Midjourney in minutes. A real creative gain · but artists are suing over the non-consented use of their works in training. Using Midjourney means knowing these legal grey areas and verifying rights before any commercial use.",
+  "regard_fr": "Midjourney cristallise le dilemme de l'IA créative : un outil merveilleux bâti sur le travail d'artistes souvent non rémunérés ni consultés. En profiter avec lucidité, c'est reconnaître cette tension, vérifier les droits, et soutenir des modèles plus respectueux de la provenance. La beauté du résultat ne suffit pas à régler la question de sa légitimité.",
+  "regard_en": "Midjourney crystallises the dilemma of creative AI: a marvellous tool built on the work of artists often unpaid and unconsulted. Benefiting from it lucidly means recognising this tension, verifying rights, and supporting models more respectful of provenance. The beauty of the result does not suffice to settle the question of its legitimacy.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "generation-images",
+    "modeles-diffusion",
+    "droits-auteur-ia",
+    "stable-diffusion"
+  ],
+  "sources": [
+    {
+      "titre": "Midjourney"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

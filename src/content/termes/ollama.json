@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Ollama",
+  "terme_en": "Ollama",
+  "sous_titre_fr": "Ollama",
+  "sous_titre_en": "Ollama",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Outil open source permettant d'exécuter facilement des modèles de langage ouverts en local, sur son propre ordinateur ou serveur, avec une installation simple. Ollama a démocratisé l'inférence locale · quiconque peut désormais faire tourner un modèle chez soi, sans cloud ni API, gardant ses données entièrement privées.",
+  "definition_en": "An open-source tool allowing open language models to be easily run locally, on one's own computer or server, with a simple installation. Ollama democratised local inference · anyone can now run a model at home, without cloud or API, keeping their data entirely private.",
+  "exemple_fr": "Un consultant installe Ollama sur son ordinateur portable et fait tourner un modèle ouvert en local pour analyser des documents confidentiels · sans qu'aucune donnée ne quitte sa machine. Ce qui exigeait naguère une infrastructure lourde tient désormais dans un outil gratuit et simple. La souveraineté individuelle devient accessible.",
+  "exemple_en": "A consultant installs Ollama on their laptop and runs an open model locally to analyse confidential documents · without any data leaving their machine. What once required heavy infrastructure now fits in a free, simple tool. Individual sovereignty becomes accessible.",
+  "regard_fr": "Ollama est un formidable outil d'émancipation : il met l'inférence locale à la portée de tous, gratuitement. Pour comprendre concrètement ce qu'est une IA souveraine, rien ne vaut de faire tourner un modèle chez soi avec Ollama. C'est aussi un excellent point de départ pédagogique · la souveraineté par la pratique.",
+  "regard_en": "Ollama is a formidable tool of empowerment: it puts local inference within everyone's reach, for free. To concretely understand what sovereign AI is, nothing beats running a model at home with Ollama. It is also an excellent pedagogical starting point · sovereignty through practice.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "inference-locale",
+    "open-weights",
+    "ia-souveraine",
+    "open-webui"
+  ],
+  "sources": [
+    {
+      "titre": "Ollama",
+      "url": "https://ollama.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "OpenWebUI",
+  "terme_en": "OpenWebUI",
+  "sous_titre_fr": "OpenWebUI",
+  "sous_titre_en": "OpenWebUI",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Interface web open source offrant une expérience de type ChatGPT au-dessus de modèles hébergés localement ou en interne. Couplée à Ollama ou à un serveur d'inférence, OpenWebUI permet à une organisation de déployer un assistant conversationnel privé et souverain, avec gestion des utilisateurs · sans dépendre d'un service cloud externe.",
+  "definition_en": "An open-source web interface offering a ChatGPT-like experience on top of locally or internally hosted models. Coupled with Ollama or an inference server, OpenWebUI lets an organisation deploy a private, sovereign conversational assistant, with user management · without depending on an external cloud service.",
+  "exemple_fr": "Une PME déploie OpenWebUI sur son serveur interne, connecté à un modèle ouvert : ses collaborateurs disposent d'un assistant familier, façon ChatGPT, mais entièrement privé · aucune donnée ne sort. Gestion des accès, historique local, souveraineté complète. L'alternative souveraine à ChatGPT Enterprise existe, et elle est accessible.",
+  "exemple_en": "An SME deploys OpenWebUI on its internal server, connected to an open model: its employees have a familiar, ChatGPT-like assistant, but entirely private · no data leaves. Access management, local history, full sovereignty. The sovereign alternative to ChatGPT Enterprise exists, and it is accessible.",
+  "regard_fr": "OpenWebUI comble le dernier fossé de la souveraineté : l'ergonomie. On reprochait aux solutions souveraines d'être moins agréables · cet outil offre une expérience comparable au grand public, sur une infrastructure maîtrisée. La souveraineté n'oblige plus à sacrifier le confort : c'est une excellente nouvelle pour l'adoption.",
+  "regard_en": "OpenWebUI bridges sovereignty's last gap: ergonomics. Sovereign solutions were criticised for being less pleasant · this tool offers an experience comparable to the consumer one, on controlled infrastructure. Sovereignty no longer requires sacrificing comfort: excellent news for adoption.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ollama",
+    "ia-souveraine",
+    "chatbot",
+    "deploiement-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OpenWebUI",
+      "url": "https://openwebui.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

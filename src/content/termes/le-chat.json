@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Le Chat (Mistral)",
+  "terme_en": "Le Chat (Mistral)",
+  "sous_titre_fr": "Le Chat (Mistral)",
+  "sous_titre_en": "Le Chat (Mistral)",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Assistant conversationnel développé par la société française Mistral AI, alternative européenne à ChatGPT. Le Chat s'appuie sur les modèles Mistral et incarne la possibilité d'un assistant IA performant, ancré dans l'écosystème européen · un choix concret pour les organisations soucieuses de souveraineté et de traitement du français.",
+  "definition_en": "A conversational assistant developed by the French company Mistral AI, a European alternative to ChatGPT. Le Chat relies on the Mistral models and embodies the possibility of a performant AI assistant, rooted in the European ecosystem · a concrete choice for organisations concerned with sovereignty and French processing.",
+  "exemple_fr": "Une entreprise française cherchant une alternative à ChatGPT peut adopter Le Chat : performances comparables sur de nombreux usages, éditeur européen, meilleure prise en compte du français. Pour les données sensibles, elle peut aller plus loin en déployant un modèle Mistral ouvert sur son infrastructure. La souveraineté a désormais des options crédibles.",
+  "exemple_en": "A French company seeking an alternative to ChatGPT can adopt Le Chat: comparable performance on many uses, a European vendor, better handling of French. For sensitive data, it can go further by deploying an open Mistral model on its infrastructure. Sovereignty now has credible options.",
+  "regard_fr": "Le Chat prouve qu'une alternative européenne crédible à ChatGPT existe · un fait qui, il y a peu, paraissait improbable. Le soutenir, c'est nourrir un écosystème dont dépend notre autonomie. La souveraineté ne se décrète pas, elle se construit par des choix d'usage · et choisir une option européenne performante en est un.",
+  "regard_en": "Le Chat proves that a credible European alternative to ChatGPT exists · a fact that not long ago seemed improbable. Supporting it means nourishing an ecosystem on which our autonomy depends. Sovereignty is not decreed, it is built through usage choices · and choosing a performant European option is one.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "mistral-ai",
+    "chatgpt",
+    "ia-souveraine",
+    "ecosysteme-ia-francais"
+  ],
+  "sources": [
+    {
+      "titre": "Mistral AI",
+      "url": "https://mistral.ai/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

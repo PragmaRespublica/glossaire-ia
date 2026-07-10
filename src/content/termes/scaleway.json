@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Scaleway",
+  "terme_en": "Scaleway",
+  "sous_titre_fr": "Scaleway",
+  "sous_titre_en": "Scaleway",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Fournisseur de cloud français, filiale du groupe Iliad, proposant notamment des offres de calcul GPU pour l'IA. Scaleway fait partie des acteurs européens permettant d'entraîner et d'héberger des modèles sur une infrastructure souveraine · une alternative crédible aux hyperscalers américains pour les charges d'IA.",
+  "definition_en": "A French cloud provider, a subsidiary of the Iliad group, offering notably GPU compute for AI. Scaleway is among the European players enabling training and hosting models on sovereign infrastructure · a credible alternative to American hyperscalers for AI workloads.",
+  "exemple_fr": "Une jeune pousse française entraîne son modèle sur les GPU de Scaleway plutôt que chez un hyperscaler américain : elle garde ses données et son savoir-faire en Europe, sous droit européen. Pour les charges d'IA gourmandes en calcul, disposer d'acteurs souverains comme Scaleway est une condition d'indépendance.",
+  "exemple_en": "A French start-up trains its model on Scaleway's GPUs rather than at an American hyperscaler: it keeps its data and know-how in Europe, under European law. For compute-hungry AI workloads, having sovereign players like Scaleway is a condition of independence.",
+  "regard_fr": "Scaleway, aux côtés d'OVHcloud, incarne la possibilité concrète d'une infrastructure d'IA européenne. Leur existence prouve qu'on peut entraîner et héberger sans les géants américains. Chaque charge de travail confiée à ces acteurs renforce un écosystème dont dépend notre autonomie · la souveraineté se construit par ces choix.",
+  "regard_en": "Scaleway, alongside OVHcloud, embodies the concrete possibility of European AI infrastructure. Their existence proves one can train and host without the American giants. Every workload entrusted to these players strengthens an ecosystem on which our autonomy depends · sovereignty is built through these choices.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "cloud-souverain",
+    "ovhcloud",
+    "gpu-cloud",
+    "ecosysteme-ia-francais"
+  ],
+  "sources": [
+    {
+      "titre": "Scaleway",
+      "url": "https://www.scaleway.com/fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "PyTorch",
+  "terme_en": "PyTorch",
+  "sous_titre_fr": "PyTorch",
+  "sous_titre_en": "PyTorch",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Bibliothèque open source de référence pour développer et entraîner des modèles d'apprentissage profond, largement utilisée dans la recherche et l'industrie. Initialement développée par Meta, PyTorch est aujourd'hui un projet ouvert et communautaire · l'un des outils fondamentaux sur lesquels repose l'essentiel de l'IA moderne.",
+  "definition_en": "The reference open-source library for developing and training deep learning models, widely used in research and industry. Initially developed by Meta, PyTorch is today an open, community project · one of the fundamental tools on which most of modern AI rests.",
+  "exemple_fr": "La quasi-totalité des laboratoires et entreprises qui entraînent des modèles utilisent PyTorch. Cet outil ouvert et gratuit est un commun essentiel · sans lui, développer de l'IA coûterait bien plus cher et serait bien moins accessible. Il illustre combien l'IA moderne repose sur une infrastructure logicielle libre et partagée.",
+  "exemple_en": "Almost all labs and companies that train models use PyTorch. This open, free tool is an essential commons · without it, developing AI would cost far more and be far less accessible. It illustrates how much modern AI rests on free, shared software infrastructure.",
+  "regard_fr": "PyTorch rappelle une vérité souvent oubliée : l'IA moderne est bâtie sur des communs open source. Derrière chaque modèle propriétaire se cachent des outils libres, développés collectivement. Cette dépendance à l'open source est aussi une chance pour la souveraineté · ces fondations appartiennent à tous, pas à un seul acteur.",
+  "regard_en": "PyTorch recalls an often-forgotten truth: modern AI is built on open-source commons. Behind every proprietary model lie free tools, collectively developed. This dependence on open source is also a boon for sovereignty · these foundations belong to all, not to a single player.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-profond",
+    "open-source-ia",
+    "entrainement",
+    "licences-open-source"
+  ],
+  "sources": [
+    {
+      "titre": "PyTorch",
+      "url": "https://pytorch.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "DeepSeek",
+  "terme_en": "DeepSeek",
+  "sous_titre_fr": "DeepSeek",
+  "sous_titre_en": "DeepSeek",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Entreprise chinoise d'IA qui a marqué le secteur en publiant des modèles performants à poids ouverts, entraînés à un coût annoncé bien inférieur à celui des leaders américains. DeepSeek illustre à la fois la montée en puissance de la Chine dans l'IA et la vitalité de l'open source · tout en soulevant des questions de gouvernance et de censure.",
+  "definition_en": "A Chinese AI company that shook the sector by releasing performant open-weights models, trained at an announced cost far below that of the American leaders. DeepSeek illustrates both China's rise in AI and the vitality of open source · while raising questions of governance and censorship.",
+  "exemple_fr": "L'arrivée de DeepSeek a bousculé l'idée qu'entraîner un modèle de pointe exigeait forcément des milliards. Ses modèles ouverts sont utilisables librement · mais leur alignement reflète le contexte chinois, avec des sujets censurés. Utiliser DeepSeek suppose d'en connaître les biais et les angles morts, comme pour tout modèle.",
+  "exemple_en": "DeepSeek's arrival upended the idea that training a cutting-edge model necessarily required billions. Its open models are freely usable · but their alignment reflects the Chinese context, with censored topics. Using DeepSeek means knowing its biases and blind spots, as for any model.",
+  "regard_fr": "DeepSeek rappelle deux choses : l'IA n'est plus un duopole américain, et chaque modèle porte les valeurs de son contexte d'origine. Un modèle chinois a ses angles morts, comme un modèle américain a les siens. La diversité des sources est une richesse · à condition de choisir en connaissance des biais de chacune.",
+  "regard_en": "DeepSeek recalls two things: AI is no longer an American duopoly, and every model carries the values of its context of origin. A Chinese model has its blind spots, as an American one has its own. The diversity of sources is a richness · provided one chooses knowing each one's biases.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "open-weights",
+    "course-ia",
+    "biais-algorithmique",
+    "moderation-contenu"
+  ],
+  "sources": [
+    {
+      "titre": "DeepSeek",
+      "url": "https://www.deepseek.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

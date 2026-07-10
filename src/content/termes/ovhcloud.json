@@ -1,0 +1,38 @@
+{
+  "terme_fr": "OVHcloud",
+  "terme_en": "OVHcloud",
+  "sous_titre_fr": "OVHcloud",
+  "sous_titre_en": "OVHcloud",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "ecosysteme-outils",
+  "pages_liees": [],
+  "definition_fr": "Principal fournisseur de cloud européen, entreprise française. OVHcloud propose une infrastructure souveraine, certifiée pour les données sensibles (SecNumCloud, HDS), sur laquelle héberger modèles et RAG hors de portée du droit extraterritorial américain. C'est l'un des piliers concrets d'une IA souveraine en France et en Europe.",
+  "definition_en": "The leading European cloud provider, a French company. OVHcloud offers sovereign infrastructure, certified for sensitive data (SecNumCloud, HDS), on which to host models and RAGs beyond the reach of extraterritorial American law. It is one of the concrete pillars of sovereign AI in France and Europe.",
+  "exemple_fr": "Une mutuelle déploie son assistant IA sur OVHcloud plutôt que sur un cloud américain : ses données de santé restent sous droit européen, certifiées HDS. La performance est au rendez-vous, et le profil juridique change du tout au tout. OVHcloud rend la souveraineté opérationnelle · pas seulement souhaitable.",
+  "exemple_en": "A health insurer deploys its AI assistant on OVHcloud rather than an American cloud: its health data stays under European law, HDS-certified. The performance is there, and the legal profile changes completely. OVHcloud makes sovereignty operational · not just desirable.",
+  "regard_fr": "OVHcloud prouve que la souveraineté cloud n'est pas un vœu pieux mais une option disponible aujourd'hui. Choisir un hébergeur européen certifié pour ses données sensibles est l'un des gestes de souveraineté les plus simples et les plus efficaces. La question n'est pas « est-ce possible ? » mais « pourquoi ne pas le faire ? ».",
+  "regard_en": "OVHcloud proves that cloud sovereignty is not a pious wish but an option available today. Choosing a certified European host for your sensitive data is one of the simplest and most effective acts of sovereignty. The question is not \"is it possible?\" but \"why not do it?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "cloud-souverain",
+    "secnumcloud",
+    "hds",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "OVHcloud",
+      "url": "https://www.ovhcloud.com/fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

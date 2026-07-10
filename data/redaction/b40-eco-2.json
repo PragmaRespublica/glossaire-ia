@@ -1,0 +1,197 @@
+{
+  "ovhcloud": {
+    "sous_titre_fr": "OVHcloud",
+    "sous_titre_en": "OVHcloud",
+    "definition_fr": "Principal fournisseur de cloud européen, entreprise française. OVHcloud propose une infrastructure souveraine, certifiée pour les données sensibles (SecNumCloud, HDS), sur laquelle héberger modèles et RAG hors de portée du droit extraterritorial américain. C'est l'un des piliers concrets d'une IA souveraine en France et en Europe.",
+    "definition_en": "The leading European cloud provider, a French company. OVHcloud offers sovereign infrastructure, certified for sensitive data (SecNumCloud, HDS), on which to host models and RAGs beyond the reach of extraterritorial American law. It is one of the concrete pillars of sovereign AI in France and Europe.",
+    "exemple_fr": "Une mutuelle déploie son assistant IA sur OVHcloud plutôt que sur un cloud américain : ses données de santé restent sous droit européen, certifiées HDS. La performance est au rendez-vous, et le profil juridique change du tout au tout. OVHcloud rend la souveraineté opérationnelle · pas seulement souhaitable.",
+    "exemple_en": "A health insurer deploys its AI assistant on OVHcloud rather than an American cloud: its health data stays under European law, HDS-certified. The performance is there, and the legal profile changes completely. OVHcloud makes sovereignty operational · not just desirable.",
+    "regard_fr": "OVHcloud prouve que la souveraineté cloud n'est pas un vœu pieux mais une option disponible aujourd'hui. Choisir un hébergeur européen certifié pour ses données sensibles est l'un des gestes de souveraineté les plus simples et les plus efficaces. La question n'est pas « est-ce possible ? » mais « pourquoi ne pas le faire ? ».",
+    "regard_en": "OVHcloud proves that cloud sovereignty is not a pious wish but an option available today. Choosing a certified European host for your sensitive data is one of the simplest and most effective acts of sovereignty. The question is not \"is it possible?\" but \"why not do it?\".",
+    "termes_lies": [
+      "cloud-souverain",
+      "secnumcloud",
+      "hds",
+      "ia-souveraine"
+    ],
+    "sources": [
+      {
+        "titre": "OVHcloud",
+        "url": "https://www.ovhcloud.com/fr/"
+      }
+    ]
+  },
+  "scaleway": {
+    "sous_titre_fr": "Scaleway",
+    "sous_titre_en": "Scaleway",
+    "definition_fr": "Fournisseur de cloud français, filiale du groupe Iliad, proposant notamment des offres de calcul GPU pour l'IA. Scaleway fait partie des acteurs européens permettant d'entraîner et d'héberger des modèles sur une infrastructure souveraine · une alternative crédible aux hyperscalers américains pour les charges d'IA.",
+    "definition_en": "A French cloud provider, a subsidiary of the Iliad group, offering notably GPU compute for AI. Scaleway is among the European players enabling training and hosting models on sovereign infrastructure · a credible alternative to American hyperscalers for AI workloads.",
+    "exemple_fr": "Une jeune pousse française entraîne son modèle sur les GPU de Scaleway plutôt que chez un hyperscaler américain : elle garde ses données et son savoir-faire en Europe, sous droit européen. Pour les charges d'IA gourmandes en calcul, disposer d'acteurs souverains comme Scaleway est une condition d'indépendance.",
+    "exemple_en": "A French start-up trains its model on Scaleway's GPUs rather than at an American hyperscaler: it keeps its data and know-how in Europe, under European law. For compute-hungry AI workloads, having sovereign players like Scaleway is a condition of independence.",
+    "regard_fr": "Scaleway, aux côtés d'OVHcloud, incarne la possibilité concrète d'une infrastructure d'IA européenne. Leur existence prouve qu'on peut entraîner et héberger sans les géants américains. Chaque charge de travail confiée à ces acteurs renforce un écosystème dont dépend notre autonomie · la souveraineté se construit par ces choix.",
+    "regard_en": "Scaleway, alongside OVHcloud, embodies the concrete possibility of European AI infrastructure. Their existence proves one can train and host without the American giants. Every workload entrusted to these players strengthens an ecosystem on which our autonomy depends · sovereignty is built through these choices.",
+    "termes_lies": [
+      "cloud-souverain",
+      "ovhcloud",
+      "gpu-cloud",
+      "ecosysteme-ia-francais"
+    ],
+    "sources": [
+      {
+        "titre": "Scaleway",
+        "url": "https://www.scaleway.com/fr/"
+      }
+    ]
+  },
+  "ollama": {
+    "sous_titre_fr": "Ollama",
+    "sous_titre_en": "Ollama",
+    "definition_fr": "Outil open source permettant d'exécuter facilement des modèles de langage ouverts en local, sur son propre ordinateur ou serveur, avec une installation simple. Ollama a démocratisé l'inférence locale · quiconque peut désormais faire tourner un modèle chez soi, sans cloud ni API, gardant ses données entièrement privées.",
+    "definition_en": "An open-source tool allowing open language models to be easily run locally, on one's own computer or server, with a simple installation. Ollama democratised local inference · anyone can now run a model at home, without cloud or API, keeping their data entirely private.",
+    "exemple_fr": "Un consultant installe Ollama sur son ordinateur portable et fait tourner un modèle ouvert en local pour analyser des documents confidentiels · sans qu'aucune donnée ne quitte sa machine. Ce qui exigeait naguère une infrastructure lourde tient désormais dans un outil gratuit et simple. La souveraineté individuelle devient accessible.",
+    "exemple_en": "A consultant installs Ollama on their laptop and runs an open model locally to analyse confidential documents · without any data leaving their machine. What once required heavy infrastructure now fits in a free, simple tool. Individual sovereignty becomes accessible.",
+    "regard_fr": "Ollama est un formidable outil d'émancipation : il met l'inférence locale à la portée de tous, gratuitement. Pour comprendre concrètement ce qu'est une IA souveraine, rien ne vaut de faire tourner un modèle chez soi avec Ollama. C'est aussi un excellent point de départ pédagogique · la souveraineté par la pratique.",
+    "regard_en": "Ollama is a formidable tool of empowerment: it puts local inference within everyone's reach, for free. To concretely understand what sovereign AI is, nothing beats running a model at home with Ollama. It is also an excellent pedagogical starting point · sovereignty through practice.",
+    "termes_lies": [
+      "inference-locale",
+      "open-weights",
+      "ia-souveraine",
+      "open-webui"
+    ],
+    "sources": [
+      {
+        "titre": "Ollama",
+        "url": "https://ollama.com/"
+      }
+    ]
+  },
+  "open-webui": {
+    "sous_titre_fr": "OpenWebUI",
+    "sous_titre_en": "OpenWebUI",
+    "definition_fr": "Interface web open source offrant une expérience de type ChatGPT au-dessus de modèles hébergés localement ou en interne. Couplée à Ollama ou à un serveur d'inférence, OpenWebUI permet à une organisation de déployer un assistant conversationnel privé et souverain, avec gestion des utilisateurs · sans dépendre d'un service cloud externe.",
+    "definition_en": "An open-source web interface offering a ChatGPT-like experience on top of locally or internally hosted models. Coupled with Ollama or an inference server, OpenWebUI lets an organisation deploy a private, sovereign conversational assistant, with user management · without depending on an external cloud service.",
+    "exemple_fr": "Une PME déploie OpenWebUI sur son serveur interne, connecté à un modèle ouvert : ses collaborateurs disposent d'un assistant familier, façon ChatGPT, mais entièrement privé · aucune donnée ne sort. Gestion des accès, historique local, souveraineté complète. L'alternative souveraine à ChatGPT Enterprise existe, et elle est accessible.",
+    "exemple_en": "An SME deploys OpenWebUI on its internal server, connected to an open model: its employees have a familiar, ChatGPT-like assistant, but entirely private · no data leaves. Access management, local history, full sovereignty. The sovereign alternative to ChatGPT Enterprise exists, and it is accessible.",
+    "regard_fr": "OpenWebUI comble le dernier fossé de la souveraineté : l'ergonomie. On reprochait aux solutions souveraines d'être moins agréables · cet outil offre une expérience comparable au grand public, sur une infrastructure maîtrisée. La souveraineté n'oblige plus à sacrifier le confort : c'est une excellente nouvelle pour l'adoption.",
+    "regard_en": "OpenWebUI bridges sovereignty's last gap: ergonomics. Sovereign solutions were criticised for being less pleasant · this tool offers an experience comparable to the consumer one, on controlled infrastructure. Sovereignty no longer requires sacrificing comfort: excellent news for adoption.",
+    "termes_lies": [
+      "ollama",
+      "ia-souveraine",
+      "chatbot",
+      "deploiement-ia"
+    ],
+    "sources": [
+      {
+        "titre": "OpenWebUI",
+        "url": "https://openwebui.com/"
+      }
+    ]
+  },
+  "vllm": {
+    "sous_titre_fr": "vLLM",
+    "sous_titre_en": "vLLM",
+    "definition_fr": "Bibliothèque open source d'inférence haute performance pour les grands modèles de langage, optimisant fortement le débit et l'usage mémoire. vLLM est l'un des outils qui rendent économiquement viable l'hébergement de modèles ouverts à grande échelle · une brique technique essentielle de l'IA souveraine et performante.",
+    "definition_en": "A high-performance open-source inference library for large language models, strongly optimising throughput and memory use. vLLM is one of the tools that make hosting open models at scale economically viable · an essential technical brick of sovereign, performant AI.",
+    "exemple_fr": "Une entreprise veut servir un modèle ouvert à des milliers d'utilisateurs sur son infrastructure. Sans optimisation, ce serait ruineux. Avec vLLM, elle multiplie le débit de ses serveurs et réduit drastiquement le coût par requête. vLLM transforme l'hébergement souverain d'une idée séduisante en réalité économiquement soutenable.",
+    "exemple_en": "A company wants to serve an open model to thousands of users on its infrastructure. Without optimisation, it would be ruinous. With vLLM, it multiplies its servers' throughput and drastically reduces the cost per request. vLLM turns sovereign hosting from an appealing idea into an economically sustainable reality.",
+    "regard_fr": "vLLM et ses semblables sont les héros discrets de la souveraineté : sans eux, héberger son propre modèle resterait un luxe. Ces communs open source, développés collectivement, sont aussi stratégiques que les modèles eux-mêmes. Les soutenir et les utiliser, c'est investir dans l'autonomie technique de tous.",
+    "regard_en": "vLLM and its peers are the discreet heroes of sovereignty: without them, hosting your own model would remain a luxury. These open-source commons, collectively developed, are as strategic as the models themselves. Supporting and using them means investing in everyone's technical autonomy.",
+    "termes_lies": [
+      "serveur-inference",
+      "inference",
+      "open-weights",
+      "ia-souveraine"
+    ],
+    "sources": [
+      {
+        "titre": "vLLM (documentation)"
+      }
+    ]
+  },
+  "litellm": {
+    "sous_titre_fr": "LiteLLM",
+    "sous_titre_en": "LiteLLM",
+    "definition_fr": "Bibliothèque open source offrant une interface unifiée pour appeler des dizaines de fournisseurs de modèles (OpenAI, Anthropic, Mistral, modèles locaux) avec le même code. LiteLLM est un outil clé du « zéro lock-in » : changer de modèle ou de fournisseur devient une affaire de configuration, pas de réécriture. Un rempart concret contre la dépendance.",
+    "definition_en": "An open-source library offering a unified interface to call dozens of model providers (OpenAI, Anthropic, Mistral, local models) with the same code. LiteLLM is a key tool of \"zero lock-in\": changing model or provider becomes a matter of configuration, not rewriting. A concrete bulwark against dependence.",
+    "exemple_fr": "Une application construite avec LiteLLM peut basculer d'OpenAI vers Mistral en changeant une ligne de configuration · sans toucher au reste du code. Le jour où le fournisseur augmente ses prix ou change ses conditions, l'entreprise part sans douleur. LiteLLM matérialise la liberté de changer · c'est-à-dire la souveraineté.",
+    "exemple_en": "An application built with LiteLLM can switch from OpenAI to Mistral by changing one line of configuration · without touching the rest of the code. The day the provider raises prices or changes terms, the company leaves painlessly. LiteLLM materialises the freedom to switch · that is, sovereignty.",
+    "regard_fr": "LiteLLM incarne une sagesse d'architecte : ne jamais se lier à un fournisseur unique. En abstrayant l'appel au modèle, il préserve votre liberté de changer, donc votre pouvoir de négociation. Adopter ce genre d'outil dès le début d'un projet est l'un des meilleurs investissements anti-verrouillage qui soient.",
+    "regard_en": "LiteLLM embodies an architect's wisdom: never tie yourself to a single provider. By abstracting the model call, it preserves your freedom to switch, thus your bargaining power. Adopting this kind of tool from a project's start is one of the best anti-lock-in investments there is.",
+    "termes_lies": [
+      "lock-in",
+      "orchestration-ia",
+      "interoperabilite",
+      "langchain"
+    ],
+    "sources": [
+      {
+        "titre": "LiteLLM (documentation)"
+      }
+    ]
+  },
+  "pytorch": {
+    "sous_titre_fr": "PyTorch",
+    "sous_titre_en": "PyTorch",
+    "definition_fr": "Bibliothèque open source de référence pour développer et entraîner des modèles d'apprentissage profond, largement utilisée dans la recherche et l'industrie. Initialement développée par Meta, PyTorch est aujourd'hui un projet ouvert et communautaire · l'un des outils fondamentaux sur lesquels repose l'essentiel de l'IA moderne.",
+    "definition_en": "The reference open-source library for developing and training deep learning models, widely used in research and industry. Initially developed by Meta, PyTorch is today an open, community project · one of the fundamental tools on which most of modern AI rests.",
+    "exemple_fr": "La quasi-totalité des laboratoires et entreprises qui entraînent des modèles utilisent PyTorch. Cet outil ouvert et gratuit est un commun essentiel · sans lui, développer de l'IA coûterait bien plus cher et serait bien moins accessible. Il illustre combien l'IA moderne repose sur une infrastructure logicielle libre et partagée.",
+    "exemple_en": "Almost all labs and companies that train models use PyTorch. This open, free tool is an essential commons · without it, developing AI would cost far more and be far less accessible. It illustrates how much modern AI rests on free, shared software infrastructure.",
+    "regard_fr": "PyTorch rappelle une vérité souvent oubliée : l'IA moderne est bâtie sur des communs open source. Derrière chaque modèle propriétaire se cachent des outils libres, développés collectivement. Cette dépendance à l'open source est aussi une chance pour la souveraineté · ces fondations appartiennent à tous, pas à un seul acteur.",
+    "regard_en": "PyTorch recalls an often-forgotten truth: modern AI is built on open-source commons. Behind every proprietary model lie free tools, collectively developed. This dependence on open source is also a boon for sovereignty · these foundations belong to all, not to a single player.",
+    "termes_lies": [
+      "apprentissage-profond",
+      "open-source-ia",
+      "entrainement",
+      "licences-open-source"
+    ],
+    "sources": [
+      {
+        "titre": "PyTorch",
+        "url": "https://pytorch.org/"
+      }
+    ]
+  },
+  "midjourney": {
+    "sous_titre_fr": "Midjourney",
+    "sous_titre_en": "Midjourney",
+    "definition_fr": "Service américain de génération d'images par IA, réputé pour la qualité esthétique de ses productions. Midjourney illustre la transformation des métiers créatifs par l'IA · un outil puissant, mais qui soulève de vives questions de droit d'auteur (entraînement sur des œuvres protégées) et d'impact sur les illustrateurs et photographes.",
+    "definition_en": "An American AI image generation service, renowned for the aesthetic quality of its outputs. Midjourney illustrates the transformation of creative jobs by AI · a powerful tool, but one that raises sharp questions of copyright (training on protected works) and impact on illustrators and photographers.",
+    "exemple_fr": "Une agence produit des visuels de forte qualité esthétique avec Midjourney en quelques minutes. Gain créatif réel · mais des artistes attaquent en justice l'usage non consenti de leurs œuvres dans l'entraînement. Utiliser Midjourney suppose de connaître ces zones grises juridiques et de vérifier les droits avant tout usage commercial.",
+    "exemple_en": "An agency produces aesthetically high-quality visuals with Midjourney in minutes. A real creative gain · but artists are suing over the non-consented use of their works in training. Using Midjourney means knowing these legal grey areas and verifying rights before any commercial use.",
+    "regard_fr": "Midjourney cristallise le dilemme de l'IA créative : un outil merveilleux bâti sur le travail d'artistes souvent non rémunérés ni consultés. En profiter avec lucidité, c'est reconnaître cette tension, vérifier les droits, et soutenir des modèles plus respectueux de la provenance. La beauté du résultat ne suffit pas à régler la question de sa légitimité.",
+    "regard_en": "Midjourney crystallises the dilemma of creative AI: a marvellous tool built on the work of artists often unpaid and unconsulted. Benefiting from it lucidly means recognising this tension, verifying rights, and supporting models more respectful of provenance. The beauty of the result does not suffice to settle the question of its legitimacy.",
+    "termes_lies": [
+      "generation-images",
+      "modeles-diffusion",
+      "droits-auteur-ia",
+      "stable-diffusion"
+    ],
+    "sources": [
+      {
+        "titre": "Midjourney"
+      }
+    ]
+  },
+  "stable-diffusion": {
+    "sous_titre_fr": "Stable Diffusion",
+    "sous_titre_en": "Stable Diffusion",
+    "definition_fr": "Modèle de génération d'images à poids ouverts, qui a démocratisé la création visuelle par IA en permettant de l'exécuter localement et gratuitement. Contrairement à Midjourney, Stable Diffusion peut tourner sur sa propre machine · un choix de souveraineté et de liberté créative, avec les mêmes questions de droit d'auteur sur son entraînement.",
+    "definition_en": "An open-weights image generation model that democratised AI visual creation by allowing it to run locally and freely. Unlike Midjourney, Stable Diffusion can run on your own machine · a choice of sovereignty and creative freedom, with the same copyright questions about its training.",
+    "exemple_fr": "Un studio installe Stable Diffusion sur ses propres machines : il génère des visuels sans dépendre d'un service cloud, sans envoyer ses créations à un tiers, et personnalise le modèle pour son style. La contrepartie de cette liberté est la responsabilité · vérifier les droits reste nécessaire, l'ouverture ne dispense pas de vigilance juridique.",
+    "exemple_en": "A studio installs Stable Diffusion on its own machines: it generates visuals without depending on a cloud service, without sending its creations to a third party, and customises the model for its style. The counterpart of this freedom is responsibility · verifying rights remains necessary, openness does not exempt from legal vigilance.",
+    "regard_fr": "Stable Diffusion incarne la version souveraine de la génération d'images : ouverte, locale, personnalisable. Elle prouve qu'on peut créer sans dépendre d'un service américain. Mais l'ouverture technique ne résout pas la question éthique de l'entraînement · liberté et responsabilité vont toujours de pair, y compris dans la création assistée.",
+    "regard_en": "Stable Diffusion embodies the sovereign version of image generation: open, local, customisable. It proves one can create without depending on an American service. But technical openness does not solve the ethical training question · freedom and responsibility always go together, including in assisted creation.",
+    "termes_lies": [
+      "generation-images",
+      "modeles-diffusion",
+      "open-weights",
+      "midjourney"
+    ],
+    "sources": [
+      {
+        "titre": "Stability AI",
+        "url": "https://stability.ai/"
+      }
+    ]
+  }
+}
