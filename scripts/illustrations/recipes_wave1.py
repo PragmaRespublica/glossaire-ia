@@ -165,20 +165,6 @@ def _(c):
         c.node(390, 90 + i * 34, 90, 28, lab, size=11, color=POS)
 
 
-@rec("gpt",
-     "GPT décompose trois idées : génératif, préentraîné, transformer.",
-     "GPT decomposes into three ideas: generative, pre-trained, transformer.")
-def _(c):
-    c.eyebrow("g · p · t")
-    for i, (a, b) in enumerate([("G", "génératif"), ("P", "préentraîné"), ("T", "transformer")]):
-        x = 90 + i * 160
-        c.node(x, 110, 120, 70, a, size=28)
-        c.text(x + 60, 205, b, size=12, anchor="middle", op=0.7)
-        if i < 2:
-            c.text(x + 135, 150, "·", size=24, anchor="middle")
-
-
-# ── Souveraineté ────────────────────────────────────────────────────────
 @rec("ia-souveraine",
      "IA souveraine : les données restent à l'intérieur de la frontière, sous contrôle local.",
      "Sovereign AI: data stays inside the border, under local control.")
@@ -398,44 +384,3 @@ def _(c):
     c.text(300, 245, "mesurez votre coût de sortie", size=11, anchor="middle", op=0.6)
 
 
-@rec("roi-ia",
-     "ROI de l'IA : mesurer la valeur réelle créée face au coût total.",
-     "AI ROI: measuring the real value created against the total cost.")
-def _(c):
-    c.eyebrow("retour sur investissement")
-    c.line(110, 240, 500, 240, arrow=True, sop=0.5)
-    c.line(110, 240, 110, 80, arrow=True, sop=0.5)
-    c.path("M 110 220 C 200 215 260 120 470 90", stroke=POS, sw=2.5)
-    c.path("M 110 225 L 470 200", stroke=INK, sw=2, dash="5 4")
-    c.text(480, 90, "valeur", size=11, color=POS)
-    c.text(480, 200, "coût", size=11, color=INK)
-    c.text(300, 270, "ce qui ne se mesure pas ne se pilote pas", size=10,
-           anchor="middle", op=0.5)
-
-
-@rec("mistral-ai",
-     "Mistral AI : acteur français publiant des modèles ouverts, alternative souveraine.",
-     "Mistral AI: a French player releasing open models, a sovereign alternative.")
-def _(c):
-    c.eyebrow("mistral ai")
-    c.rect(230, 100, 140, 100, rx=8)
-    # vent stylisé
-    for i, y in enumerate([125, 145, 165, 185]):
-        c.line(250, y, 350, y, stroke=[INK, GOLD, POS, INK][i], sw=6, op=0.8)
-    c.text(300, 225, "modèles ouverts · France", size=11, anchor="middle", color=POS, op=0.9)
-    c.text(300, 250, "alternative à ChatGPT", size=11, anchor="middle", op=0.5)
-
-
-@rec("ecosysteme-ia-francais",
-     "Écosystème IA français : une chaîne complète, du modèle à l'hébergement souverain.",
-     "French AI ecosystem: a complete chain, from model to sovereign hosting.")
-def _(c):
-    c.eyebrow("écosystème ia français")
-    chain = ["MISTRAL", "OVHcloud", "INTÉGRATION"]
-    for i, s in enumerate(chain):
-        x = 70 + i * 180
-        c.node(x, 130, 150, 60, s, size=12, color=POS if i < 2 else INK)
-        if i < 2:
-            c.line(x + 150, 160, x + 180, 160, arrow=True)
-    c.text(300, 230, "bâtir de bout en bout sans les géants US", size=11,
-           anchor="middle", op=0.6)

@@ -31,17 +31,37 @@
   "alt_fr": "Des agents IA interagissant par la voix en temps réel.",
   "alt_en": "AI agents interacting by voice in real time."
  },
+ "agi": {
+  "alt_fr": "Une hypothétique IA égalant l'intelligence humaine partout.",
+  "alt_en": "A hypothetical AI matching human intelligence everywhere."
+ },
  "ai-act": {
   "alt_fr": "L'AI Act classe les systèmes en quatre niveaux de risque, de l'inacceptable au minimal.",
   "alt_en": "The AI Act classifies systems into four risk levels, from unacceptable to minimal."
+ },
+ "aiaas": {
+  "alt_fr": "L'IA fournie à la demande via le cloud, sous forme d'API.",
+  "alt_en": "AI provided on demand via the cloud, as APIs."
  },
  "aipd": {
   "alt_fr": "L'étude d'impact imposée avant un traitement à risque élevé.",
   "alt_en": "The impact study required before a high-risk processing."
  },
+ "albert": {
+  "alt_fr": "La suite d'IA générative de l'administration française.",
+  "alt_en": "The French administration's generative AI suite."
+ },
+ "algorithme": {
+  "alt_fr": "Une suite finie d'instructions pour résoudre un problème.",
+  "alt_en": "A finite sequence of instructions to solve a problem."
+ },
  "alignement-ia": {
   "alt_fr": "Faire agir l'IA conformément aux intentions et valeurs humaines.",
   "alt_en": "Making AI act in accordance with human intentions and values."
+ },
+ "analyse-sentiments": {
+  "alt_fr": "Déterminer la tonalité émotionnelle d'un texte.",
+  "alt_en": "Determining the emotional tone of a text."
  },
  "ancrage": {
   "alt_fr": "Rattacher les réponses à des sources vérifiables.",
@@ -55,9 +75,17 @@
   "alt_fr": "L'ANSSI protège l'État par des référentiels de cybersécurité publics.",
   "alt_en": "ANSSI protects the state with public cybersecurity frameworks."
  },
+ "anthropic": {
+  "alt_fr": "L'entreprise américaine créatrice de Claude, axée sur la sûreté.",
+  "alt_en": "The American company that created Claude, focused on safety."
+ },
  "anthropomorphisme": {
   "alt_fr": "Prêter à une IA des intentions ou une conscience qu'elle n'a pas.",
   "alt_en": "Attributing to AI intentions or consciousness it lacks."
+ },
+ "api": {
+  "alt_fr": "L'interface technique par laquelle deux logiciels communiquent.",
+  "alt_en": "The technical interface through which two pieces of software communicate."
  },
  "appel-fonctions": {
   "alt_fr": "Le LLM demande l'exécution de fonctions externes définies.",
@@ -71,6 +99,10 @@
   "alt_fr": "Le modèle génère ses propres étiquettes à partir de la structure des données.",
   "alt_en": "The model generates its own labels from the data's structure."
  },
+ "apprentissage-automatique": {
+  "alt_fr": "Les systèmes apprennent à partir de données plutôt que de règles.",
+  "alt_en": "Systems learn from data rather than rules."
+ },
  "apprentissage-continu": {
   "alt_fr": "Apprendre de nouvelles tâches sans oublier les précédentes.",
   "alt_en": "Learning new tasks without forgetting the previous ones."
@@ -78,6 +110,10 @@
  "apprentissage-non-supervise": {
   "alt_fr": "Le modèle découvre seul des structures dans des données non étiquetées.",
   "alt_en": "The model discovers structures in unlabelled data on its own."
+ },
+ "apprentissage-profond": {
+  "alt_fr": "Des réseaux à nombreuses couches apprenant des représentations abstraites.",
+  "alt_en": "Networks with many layers learning abstract representations."
  },
  "apprentissage-renforcement": {
   "alt_fr": "L'agent apprend par essais et erreurs, guidé par des récompenses.",
@@ -103,6 +139,10 @@
   "alt_fr": "Un classement par votes humains comparant deux réponses anonymes.",
   "alt_en": "A human-vote ranking comparing two anonymous answers."
  },
+ "assistant-vocal": {
+  "alt_fr": "Interagir avec un système par la voix.",
+  "alt_en": "Interacting with a system by voice."
+ },
  "assistants-personnalises": {
   "alt_fr": "Configurer un assistant pour une tâche précise, sans programmer.",
   "alt_en": "Configuring an assistant for a specific task, without coding."
@@ -123,6 +163,14 @@
   "alt_fr": "Créer de nouvelles données par transformations des existantes.",
   "alt_en": "Creating new data by transforming existing data."
  },
+ "auto-attention": {
+  "alt_fr": "Chaque élément est mis en relation avec tous les autres.",
+  "alt_en": "Each element is related to all the others."
+ },
+ "autoencodeur": {
+  "alt_fr": "Un réseau apprenant à compresser puis reconstruire des données.",
+  "alt_en": "A network learning to compress then reconstruct data."
+ },
  "automatisation-intelligente": {
   "alt_fr": "Combiner automatisation classique et IA pour les cas complexes.",
   "alt_en": "Combining classic automation and AI for complex cases."
@@ -130,6 +178,10 @@
  "automl": {
   "alt_fr": "Automatiser les étapes de construction d'un modèle.",
   "alt_en": "Automating the steps of building a model."
+ },
+ "autonomie-strategique": {
+  "alt_fr": "La capacité de l'Europe à décider par elle-même dans le numérique.",
+  "alt_en": "Europe's ability to decide for itself in digital matters."
  },
  "bac-a-sable": {
   "alt_fr": "Un environnement isolé où le code généré s'exécute sans risque.",
@@ -159,13 +211,29 @@
   "alt_fr": "Une collection de prompts éprouvés, partagés dans une organisation.",
   "alt_en": "A collection of proven prompts, shared in an organisation."
  },
+ "big-tech": {
+  "alt_fr": "Les géants technologiques américains dominant cloud et IA.",
+  "alt_en": "The American tech giants dominating cloud and AI."
+ },
+ "bloom": {
+  "alt_fr": "Un grand modèle ouvert issu d'une collaboration internationale.",
+  "alt_en": "A large open model from an international collaboration."
+ },
  "boite-noire": {
   "alt_fr": "Des résultats sans que l'on comprenne le raisonnement.",
   "alt_en": "Results without one understanding the reasoning."
  },
+ "build-vs-buy": {
+  "alt_fr": "L'arbitrage entre développer en interne et acheter du marché.",
+  "alt_en": "The trade-off between building in-house and buying."
+ },
  "bulle-filtre": {
   "alt_fr": "La personnalisation enferme dans un univers conforme à ses opinions.",
   "alt_en": "Personalisation encloses in a universe conforming to one's opinions."
+ },
+ "bulle-ia": {
+  "alt_fr": "La crainte d'une survalorisation financière de l'IA.",
+  "alt_en": "The fear of a financial overvaluation of AI."
  },
  "bureau-ia": {
   "alt_fr": "L'organe supervisant l'AI Act, notamment les modèles à usage général.",
@@ -175,9 +243,17 @@
   "alt_fr": "Le standard attachant à un fichier une preuve d'origine vérifiable.",
   "alt_en": "The standard attaching verifiable origin proof to a file."
  },
+ "cache-kv": {
+  "alt_fr": "Un cache accélérant l'inférence, coûteux en mémoire sur longs contextes.",
+  "alt_en": "A cache speeding inference, memory-costly on long contexts."
+ },
  "calcul-multipartite": {
   "alt_fr": "Plusieurs parties calculent un résultat commun sans révéler leurs données.",
   "alt_en": "Several parties compute a joint result without revealing their data."
+ },
+ "capacites-emergentes": {
+  "alt_fr": "Des aptitudes apparaissant brusquement à partir d'une certaine taille.",
+  "alt_en": "Abilities appearing abruptly beyond a certain size."
  },
  "caracteristique": {
   "alt_fr": "Variable mesurable utilisée en entrée d'un modèle.",
@@ -203,9 +279,21 @@
   "alt_fr": "Le document encadrant l'usage de l'IA dans une organisation.",
   "alt_en": "The document framing AI use in an organisation."
  },
+ "chatbot": {
+  "alt_fr": "Une interface conversationnelle en langage naturel.",
+  "alt_en": "A natural-language conversational interface."
+ },
+ "chatgpt": {
+  "alt_fr": "L'application qui a popularisé les LLM auprès du grand public.",
+  "alt_en": "The app that brought LLMs to the general public."
+ },
  "chevauchement-fragments": {
   "alt_fr": "Faire se recouvrir les fragments pour ne rien perdre aux frontières.",
   "alt_en": "Overlapping fragments so nothing is lost at boundaries."
+ },
+ "chief-ai-officer": {
+  "alt_fr": "La fonction pilotant la stratégie IA au plus haut niveau.",
+  "alt_en": "The role steering AI strategy at the top level."
  },
  "chiffrement": {
   "alt_fr": "Le chiffrement rend les données illisibles sans la clé.",
@@ -215,13 +303,25 @@
   "alt_fr": "Le chiffrement homomorphe calcule directement sur des données chiffrées.",
   "alt_en": "Homomorphic encryption computes directly on encrypted data."
  },
+ "chips-act": {
+  "alt_fr": "Le règlement renforçant la production de puces en Europe.",
+  "alt_en": "The regulation strengthening chip production in Europe."
+ },
  "chunking": {
   "alt_fr": "Découper les documents en fragments avant de les vectoriser.",
   "alt_en": "Splitting documents into fragments before vectorising them."
  },
+ "classification": {
+  "alt_fr": "Attribuer une catégorie à une donnée.",
+  "alt_en": "Assigning a category to a datum."
+ },
  "classification-information": {
   "alt_fr": "Classer l'information par sensibilité conditionne les usages IA autorisés.",
   "alt_en": "Classifying information by sensitivity conditions authorised AI uses."
+ },
+ "claude": {
+  "alt_fr": "La famille de modèles d'Anthropic, méthode Constitutional AI.",
+  "alt_en": "Anthropic's model family, Constitutional AI method."
  },
  "clauses-contractuelles": {
   "alt_fr": "Des clauses types encadrant les transferts, à compléter d'une analyse.",
@@ -231,9 +331,21 @@
   "alt_fr": "Les clauses cadrant l'IA dans les contrats fournisseurs.",
   "alt_en": "The clauses framing AI in vendor contracts."
  },
+ "clonage-vocal": {
+  "alt_fr": "Reproduire la voix d'une personne à partir de quelques secondes.",
+  "alt_en": "Reproducing a person's voice from a few seconds."
+ },
+ "cloud-act": {
+  "alt_fr": "La loi américaine réclamant les données des entreprises US, même à l'étranger.",
+  "alt_en": "The US law claiming US companies' data, even abroad."
+ },
  "cloud-souverain": {
   "alt_fr": "Cloud souverain : un hébergeur européen hors de portée du droit extraterritorial.",
   "alt_en": "Sovereign cloud: a European host beyond the reach of extraterritorial law."
+ },
+ "clustering": {
+  "alt_fr": "Regrouper automatiquement des données similaires.",
+  "alt_en": "Automatically grouping similar data."
  },
  "cnil": {
   "alt_fr": "L'autorité française de protection des données personnelles.",
@@ -242,6 +354,10 @@
  "co2eq": {
   "alt_fr": "Unité agrégeant tous les gaz à effet de serre en équivalent CO₂.",
   "alt_en": "A unit aggregating all greenhouse gases into CO₂ equivalent."
+ },
+ "coaching-pragmaforma": {
+  "alt_fr": "L'accompagnement personnalisé d'un apprenant par un expert.",
+  "alt_en": "The personalised support of a learner by an expert."
  },
  "codes-conduite-gpai": {
   "alt_fr": "Les codes précisant les obligations des modèles à usage général.",
@@ -254,6 +370,10 @@
  "common-crawl": {
   "alt_fr": "L'archive du web qui a nourri les grands modèles de langage.",
   "alt_en": "The web archive that fed large language models."
+ },
+ "communaute-pragmaforma": {
+  "alt_fr": "Un réseau de pairs échangeant autour d'un domaine de compétence.",
+  "alt_en": "A network of peers exchanging around a field of expertise."
  },
  "complaisance-ia": {
   "alt_fr": "Le modèle donne la réponse qui plaît plutôt que la plus exacte.",
@@ -299,13 +419,29 @@
   "alt_fr": "Le modèle tient compte de l'historique, dans la limite du contexte.",
   "alt_en": "The model accounts for history, within the context limit."
  },
+ "copilot": {
+  "alt_fr": "L'assistant IA intégré à la suite Microsoft 365.",
+  "alt_en": "The AI assistant built into Microsoft 365."
+ },
  "corpus-entrainement": {
   "alt_fr": "L'ensemble des textes rassemblés pour entraîner un modèle.",
   "alt_en": "The set of texts gathered to train a model."
  },
+ "correlation-causalite": {
+  "alt_fr": "L'IA excelle à trouver des corrélations, mais pas la causalité.",
+  "alt_en": "AI excels at finding correlations, but not causation."
+ },
+ "couche-neurones": {
+  "alt_fr": "Un ensemble de neurones traitant l'information au même niveau.",
+  "alt_en": "A set of neurons processing information at the same level."
+ },
  "courbes-apprentissage": {
   "alt_fr": "Suivre l'évolution de l'erreur pour diagnostiquer l'entraînement.",
   "alt_en": "Tracking the error's evolution to diagnose training."
+ },
+ "course-ia": {
+  "alt_fr": "La compétition entre puissances pour dominer l'IA.",
+  "alt_en": "The competition between powers to dominate AI."
  },
  "cpf": {
   "alt_fr": "Le Compte Personnel de Formation finance une formation certifiée.",
@@ -314,6 +450,10 @@
  "csrd": {
   "alt_fr": "La directive européenne de reporting de durabilité, où entre l'IA.",
   "alt_en": "The European sustainability reporting directive, which AI enters."
+ },
+ "cursor": {
+  "alt_fr": "Un IDE intégrant profondément l'IA pour assister les développeurs.",
+  "alt_en": "An IDE deeply integrating AI to assist developers."
  },
  "data-act": {
   "alt_fr": "Le règlement rendant les données des objets connectés portables.",
@@ -331,6 +471,10 @@
   "alt_fr": "La date au-delà de laquelle le modèle ignore les événements.",
   "alt_en": "The date beyond which the model is unaware of events."
  },
+ "dax": {
+  "alt_fr": "Le langage de formules de Power BI pour des mesures avancées.",
+  "alt_en": "Power BI's formula language for advanced measures."
+ },
  "dechets-electroniques": {
   "alt_fr": "Les équipements électroniques en fin de vie, aggravés par l'IA.",
   "alt_en": "End-of-life electronic equipment, worsened by AI."
@@ -339,9 +483,25 @@
   "alt_fr": "L'article 22 encadre les décisions prises sans intervention humaine.",
   "alt_en": "Article 22 frames decisions made without human intervention."
  },
+ "decodage-speculatif": {
+  "alt_fr": "Un petit modèle propose, le grand valide plusieurs tokens d'un coup.",
+  "alt_en": "A small model proposes, the large validates several tokens at once."
+ },
+ "deepfake": {
+  "alt_fr": "Un contenu où l'IA fabrique le visage ou la voix d'une personne.",
+  "alt_en": "Content where AI fabricates a person's face or voice."
+ },
+ "deepseek": {
+  "alt_fr": "L'entreprise chinoise publiant des modèles ouverts à bas coût.",
+  "alt_en": "The Chinese company releasing low-cost open models."
+ },
  "dependance-cognitive": {
   "alt_fr": "Déléguer des efforts cognitifs au point d'affaiblir ses capacités.",
   "alt_en": "Delegating cognitive efforts to the point of weakening abilities."
+ },
+ "deploiement-ia": {
+  "alt_fr": "La mise en service opérationnelle d'un système d'IA.",
+  "alt_en": "The operational rollout of an AI system."
  },
  "derive-donnees": {
   "alt_fr": "L'évolution des données d'entrée, cause fréquente de dérive.",
@@ -366,6 +526,10 @@
  "deskilling": {
   "alt_fr": "La perte de compétences quand l'automatisation prend le relais.",
   "alt_en": "The loss of skills when automation takes over."
+ },
+ "detection-anomalies": {
+  "alt_fr": "Repérer les données qui s'écartent significativement de la normale.",
+  "alt_en": "Spotting data that deviates significantly from the norm."
  },
  "detection-contenu-ia": {
   "alt_fr": "Des outils peu fiables cherchant à repérer le contenu généré.",
@@ -431,6 +595,10 @@
   "alt_fr": "Deux règlements encadrant les grandes plateformes numériques.",
   "alt_en": "Two regulations framing large digital platforms."
  },
+ "dsi": {
+  "alt_fr": "La direction responsable de la stratégie des systèmes informatiques.",
+  "alt_en": "The department responsible for IT systems strategy."
+ },
  "echantillonnage": {
   "alt_fr": "Un échantillon non représentatif fausse tout le modèle.",
   "alt_en": "An unrepresentative sample skews the whole model."
@@ -440,8 +608,12 @@
   "alt_en": "A library measuring the footprint of LLM calls."
  },
  "ecosysteme-ia-francais": {
-  "alt_fr": "Écosystème IA français : une chaîne complète, du modèle à l'hébergement souverain.",
-  "alt_en": "French AI ecosystem: a complete chain, from model to sovereign hosting."
+  "alt_fr": "Une chaîne française complète, du modèle à l'hébergement souverain.",
+  "alt_en": "A complete French chain, from model to sovereign hosting."
+ },
+ "edge-computing": {
+  "alt_fr": "Traiter les données au plus près de leur source.",
+  "alt_en": "Processing data as close as possible to its source."
  },
  "effet-rebond": {
   "alt_fr": "Les gains d'efficacité augmentent l'usage total au lieu de le réduire.",
@@ -450,6 +622,10 @@
  "effondrement-modele": {
   "alt_fr": "Les modèles entraînés en boucle sur du contenu IA s'appauvrissent.",
   "alt_en": "Models trained in a loop on AI content impoverish."
+ },
+ "elagage": {
+  "alt_fr": "Supprimer les paramètres peu utiles pour alléger le modèle.",
+  "alt_en": "Removing low-use parameters to lighten the model."
  },
  "embedding": {
   "alt_fr": "Un mot est projeté en vecteur ; les sens proches occupent des positions voisines dans l'espace.",
@@ -471,6 +647,10 @@
   "alt_fr": "Décomposer une tâche complexe en une suite de prompts.",
   "alt_en": "Breaking a complex task into a series of prompts."
  },
+ "encodeur-decodeur": {
+  "alt_fr": "Un encodeur comprend l'entrée, un décodeur produit la sortie.",
+  "alt_en": "An encoder understands the input, a decoder produces the output."
+ },
  "entrainement": {
   "alt_fr": "La phase où un modèle apprend à partir d'un jeu de données massif.",
   "alt_en": "The phase where a model learns from a massive dataset."
@@ -487,6 +667,10 @@
   "alt_fr": "Éviter les discriminations injustifiées, sans définition unique.",
   "alt_en": "Avoiding unjustified discrimination, with no single definition."
  },
+ "espace-latent": {
+  "alt_fr": "L'espace abstrait où un modèle encode les caractéristiques des données.",
+  "alt_en": "The abstract space where a model encodes data features."
+ },
  "ethique-ia": {
   "alt_fr": "La réflexion sur les implications morales de l'IA.",
   "alt_en": "The reflection on AI's moral implications."
@@ -494,6 +678,14 @@
  "etiquetage-donnees": {
   "alt_fr": "Attribuer aux données les étiquettes servant de vérité de référence.",
   "alt_en": "Attaching to data the labels serving as reference truth."
+ },
+ "euro-stack": {
+  "alt_fr": "La vision d'une pile technologique européenne complète.",
+  "alt_en": "The vision of a complete European technology stack."
+ },
+ "eurohpc": {
+  "alt_fr": "Les supercalculateurs européens mutualisés pour l'IA souveraine.",
+  "alt_en": "European pooled supercomputers for sovereign AI."
  },
  "evaluation-agents": {
   "alt_fr": "Évaluer un agent sur son comportement, pas seulement son résultat.",
@@ -543,6 +735,10 @@
   "alt_fr": "Entraîner un modèle sans centraliser les données sensibles.",
   "alt_en": "Training a model without centralising sensitive data."
  },
+ "fenetre-contextuelle": {
+  "alt_fr": "Le volume maximal de texte traité en une seule fois.",
+  "alt_en": "The maximum volume of text processed at once."
+ },
  "filigrane-ia": {
   "alt_fr": "Insérer dans un contenu IA une marque signalant son origine.",
   "alt_en": "Inserting into AI content a mark signalling its origin."
@@ -555,6 +751,10 @@
   "alt_fr": "Un processus où des agents enchaînent des étapes de bout en bout.",
   "alt_en": "A process where agents chain steps end to end."
  },
+ "fonction-activation": {
+  "alt_fr": "La non-linéarité qui permet d'apprendre des relations complexes.",
+  "alt_en": "The non-linearity that allows learning complex relations."
+ },
  "fonction-perte": {
   "alt_fr": "La fonction mesurant l'écart entre prédictions et réponses attendues.",
   "alt_en": "The function measuring the gap between predictions and expected answers."
@@ -563,9 +763,17 @@
   "alt_fr": "Les inégalités d'accès et de maîtrise de l'IA.",
   "alt_en": "The inequalities in access to and mastery of AI."
  },
+ "france-2030": {
+  "alt_fr": "Le plan d'investissement français, dont un volet IA.",
+  "alt_en": "The French investment plan, with an AI component."
+ },
  "fraude-ia": {
   "alt_fr": "L'IA démultiplie la fraude : voix clonées, deepfakes, faux documents.",
   "alt_en": "AI multiplies fraud: cloned voices, deepfakes, fake documents."
+ },
+ "freemium": {
+  "alt_fr": "Un service gratuit dont l'utilisateur « paie » souvent avec ses données.",
+  "alt_en": "A free service where the user often \"pays\" with their data."
  },
  "fria": {
   "alt_fr": "L'analyse d'impact des systèmes à haut risque sur les droits fondamentaux.",
@@ -575,13 +783,45 @@
   "alt_fr": "Un RAG mal cloisonné expose des documents au-delà des droits de l'utilisateur.",
   "alt_en": "A poorly compartmentalised RAG exposes documents beyond the user's rights."
  },
+ "gaia-x": {
+  "alt_fr": "L'initiative européenne pour un cloud et des données souverains.",
+  "alt_en": "The European initiative for sovereign cloud and data."
+ },
+ "gan": {
+  "alt_fr": "Deux réseaux s'affrontent pour produire du réel convaincant.",
+  "alt_en": "Two networks compete to produce convincing reality."
+ },
+ "gemini": {
+  "alt_fr": "Les modèles multimodaux de Google, intégrés à Workspace.",
+  "alt_en": "Google's multimodal models, integrated into Workspace."
+ },
  "generalisation": {
   "alt_fr": "Bien se comporter sur des données jamais vues à l'entraînement.",
   "alt_en": "Behaving well on data never seen in training."
  },
+ "generation-audio": {
+  "alt_fr": "Produire sons, voix et musique par IA.",
+  "alt_en": "Producing sounds, voices and music by AI."
+ },
  "generation-code": {
   "alt_fr": "Produire du code à partir d'une description en langage naturel.",
   "alt_en": "Producing code from a natural-language description."
+ },
+ "generation-images": {
+  "alt_fr": "Produire des images originales à partir d'une description.",
+  "alt_en": "Producing original images from a description."
+ },
+ "generation-video": {
+  "alt_fr": "Produire des séquences vidéo réalistes par IA.",
+  "alt_en": "Producing realistic video sequences by AI."
+ },
+ "github-copilot": {
+  "alt_fr": "L'assistant de programmation de GitHub et OpenAI.",
+  "alt_en": "GitHub and OpenAI's programming assistant."
+ },
+ "google-deepmind": {
+  "alt_fr": "La division IA de Google, puissante en recherche.",
+  "alt_en": "Google's AI division, powerful in research."
  },
  "gouvernance-donnees": {
   "alt_fr": "Rôles, processus et règles organisant la gestion des données.",
@@ -600,8 +840,16 @@
   "alt_en": "A \"Google-proof\" scientific-reasoning benchmark."
  },
  "gpt": {
-  "alt_fr": "GPT décompose trois idées : génératif, préentraîné, transformer.",
-  "alt_en": "GPT decomposes into three ideas: generative, pre-trained, transformer."
+  "alt_fr": "Génératif, préentraîné, transformer : trois idées combinées.",
+  "alt_en": "Generative, pre-trained, transformer: three combined ideas."
+ },
+ "gpu": {
+  "alt_fr": "Le processeur graphique devenu indispensable à l'IA.",
+  "alt_en": "The graphics processor become essential to AI."
+ },
+ "gpu-cloud": {
+  "alt_fr": "L'accès à la demande à des GPU puissants sans acheter le matériel.",
+  "alt_en": "On-demand access to powerful GPUs without buying hardware."
  },
  "graph-rag": {
   "alt_fr": "Un RAG s'appuyant sur un graphe de connaissances.",
@@ -610,6 +858,10 @@
  "graphe-connaissances": {
   "alt_fr": "Des entités reliées par des relations explicites et traçables.",
   "alt_en": "Entities linked by explicit, traceable relations."
+ },
+ "grok": {
+  "alt_fr": "L'assistant de xAI, intégré au réseau X.",
+  "alt_en": "xAI's assistant, integrated into the X network."
  },
  "guardrails": {
   "alt_fr": "Garde-fous : des filtres encadrent les entrées et sorties d'un modèle.",
@@ -626,6 +878,18 @@
  "hds": {
   "alt_fr": "La certification obligatoire pour héberger des données de santé.",
   "alt_en": "The mandatory certification to host health data."
+ },
+ "hebergement-delegue": {
+  "alt_fr": "Un prestataire gère l'infrastructure IA pour le compte du client.",
+  "alt_en": "A provider manages the AI infrastructure for the client."
+ },
+ "hiver-ia": {
+  "alt_fr": "Des périodes où les promesses non tenues ont tari les financements.",
+  "alt_en": "Periods where unmet promises dried up funding."
+ },
+ "hugging-face": {
+  "alt_fr": "La plus grande plateforme open source de modèles et datasets.",
+  "alt_en": "The largest open-source platform for models and datasets."
  },
  "humain-dans-la-boucle": {
   "alt_fr": "L'IA propose, l'humain valide les décisions sensibles.",
@@ -663,9 +927,17 @@
   "alt_fr": "L'IA à l'enseignement, entre individualisation et dépendance.",
   "alt_en": "AI in education, between individualisation and dependence."
  },
+ "ia-embarquee": {
+  "alt_fr": "Une IA intégrée dans un appareil, fonctionnant sans cloud.",
+  "alt_en": "AI embedded in a device, working without cloud."
+ },
  "ia-emploi": {
   "alt_fr": "Les effets de l'IA sur le travail : recomposition, pas remplacement simple.",
   "alt_en": "AI's effects on work: recomposition, not simple replacement."
+ },
+ "ia-faible-forte": {
+  "alt_fr": "Toutes les IA existantes sont « faibles » et spécialisées.",
+  "alt_en": "All existing AIs are \"narrow\" and specialised."
  },
  "ia-fantome": {
   "alt_fr": "L'IA fantôme : usage d'outils IA hors de tout cadre validé par l'organisation.",
@@ -691,9 +963,17 @@
   "alt_fr": "L'IA au droit, avec une exigence absolue de fiabilité.",
   "alt_en": "AI in law, with an absolute reliability requirement."
  },
+ "ia-langue-francaise": {
+  "alt_fr": "La place du français dans l'IA, un enjeu de souveraineté.",
+  "alt_en": "French's place in AI, a sovereignty issue."
+ },
  "ia-marketing": {
   "alt_fr": "L'IA au marketing, entre productivité et saturation.",
   "alt_en": "AI in marketing, between productivity and saturation."
+ },
+ "ia-non-generative": {
+  "alt_fr": "Les systèmes qui prédisent ou classifient sans générer.",
+  "alt_en": "Systems that predict or classify without generating."
  },
  "ia-rh": {
   "alt_fr": "L'IA aux ressources humaines, domaine sensible à haut risque.",
@@ -711,6 +991,10 @@
   "alt_fr": "IA souveraine : les données restent à l'intérieur de la frontière, sous contrôle local.",
   "alt_en": "Sovereign AI: data stays inside the border, under local control."
  },
+ "ia-washing": {
+  "alt_fr": "Exagérer ou inventer l'usage de l'IA dans un produit.",
+  "alt_en": "Exaggerating or inventing the use of AI in a product."
+ },
  "iam": {
   "alt_fr": "L'IAM détermine qui accède à quoi ; l'IA hérite des droits existants.",
   "alt_en": "IAM determines who accesses what; AI inherits existing rights."
@@ -723,9 +1007,25 @@
   "alt_fr": "Extraire et traiter automatiquement des documents non structurés.",
   "alt_en": "Automatically extracting and processing unstructured documents."
  },
+ "inference": {
+  "alt_fr": "La phase d'utilisation d'un modèle déjà entraîné.",
+  "alt_en": "The phase of using an already-trained model."
+ },
  "inference-appartenance": {
   "alt_fr": "Déterminer si les données d'une personne ont servi à entraîner un modèle.",
   "alt_en": "Determining whether a person's data was used to train a model."
+ },
+ "inference-locale": {
+  "alt_fr": "Exécuter un modèle sur son propre matériel, sans cloud.",
+  "alt_en": "Running a model on your own hardware, without cloud."
+ },
+ "informatique-affective": {
+  "alt_fr": "Prétendre détecter et simuler les émotions humaines.",
+  "alt_en": "Claiming to detect and simulate human emotions."
+ },
+ "informatique-quantique": {
+  "alt_fr": "Un paradigme exploitant la physique quantique, encore expérimental.",
+  "alt_en": "A paradigm exploiting quantum physics, still experimental."
  },
  "ingenierie-contexte": {
   "alt_fr": "Composer soigneusement l'information fournie au modèle.",
@@ -738,6 +1038,10 @@
  "instruction-tuning": {
   "alt_fr": "Apprendre au modèle à suivre des instructions en langage naturel.",
   "alt_en": "Teaching the model to follow natural-language instructions."
+ },
+ "intelligence-artificielle": {
+  "alt_fr": "L'ensemble des techniques faisant réaliser aux machines des tâches humaines.",
+  "alt_en": "The set of techniques making machines perform human tasks."
  },
  "intensite-carbone": {
   "alt_fr": "Le CO₂ par kWh varie énormément selon le pays et l'heure.",
@@ -775,6 +1079,18 @@
   "alt_fr": "Enregistrer les événements d'un système IA conditionne son auditabilité.",
   "alt_en": "Logging an AI system's events conditions its auditability."
  },
+ "jumeau-numerique": {
+  "alt_fr": "Une réplique numérique d'un système physique, alimentée en données.",
+  "alt_en": "A digital replica of a physical system, fed with data."
+ },
+ "jury-certification": {
+  "alt_fr": "L'évaluation finale par un panel d'experts indépendants.",
+  "alt_en": "The final assessment by a panel of independent experts."
+ },
+ "kyutai": {
+  "alt_fr": "Un laboratoire français de recherche ouverte en IA.",
+  "alt_en": "A French open AI research lab."
+ },
  "lac-donnees": {
   "alt_fr": "Un réservoir de données brutes ; sans gouvernance, il tourne au marécage.",
   "alt_en": "A reservoir of raw data; without governance, it becomes a swamp."
@@ -787,6 +1103,26 @@
   "alt_fr": "Un framework construisant des applications agentiques en graphes.",
   "alt_en": "A framework building agentic applications as graphs."
  },
+ "latence": {
+  "alt_fr": "Le délai entre l'envoi d'une requête et la réponse.",
+  "alt_en": "The delay between sending a request and the answer."
+ },
+ "le-chat": {
+  "alt_fr": "L'assistant conversationnel français de Mistral AI.",
+  "alt_en": "Mistral AI's French conversational assistant."
+ },
+ "licences-open-source": {
+  "alt_fr": "Les cadres juridiques régissant l'usage des modèles ouverts.",
+  "alt_en": "The legal frameworks governing open-model use."
+ },
+ "litellm": {
+  "alt_fr": "Une interface unifiée pour appeler des dizaines de fournisseurs.",
+  "alt_en": "A unified interface to call dozens of providers."
+ },
+ "llama": {
+  "alt_fr": "La famille de modèles à poids ouverts de Meta.",
+  "alt_en": "Meta's open-weights model family."
+ },
  "llm": {
   "alt_fr": "Un grand modèle de langage prédit le prochain fragment de texte, token après token.",
   "alt_en": "A large language model predicts the next fragment of text, token after token."
@@ -795,6 +1131,10 @@
   "alt_fr": "Utiliser un LLM pour évaluer automatiquement d'autres réponses.",
   "alt_en": "Using an LLM to automatically evaluate other responses."
  },
+ "llmops": {
+  "alt_fr": "Le MLOps spécifique aux grands modèles de langage.",
+  "alt_en": "MLOps specific to large language models."
+ },
  "localisation-donnees": {
   "alt_fr": "Le lieu de stockage ET de traitement détermine le droit applicable.",
   "alt_en": "The place of storage AND processing determines the applicable law."
@@ -802,6 +1142,14 @@
  "lock-in": {
   "alt_fr": "Verrouillage fournisseur : plus le temps passe, plus il devient coûteux de changer.",
   "alt_en": "Vendor lock-in: the more time passes, the costlier it becomes to switch."
+ },
+ "logits": {
+  "alt_fr": "Les scores bruts d'un modèle avant conversion en probabilités.",
+  "alt_en": "A model's raw scores before conversion into probabilities."
+ },
+ "lois-echelle": {
+  "alt_fr": "La performance s'améliore avec la taille, mais à rendements décroissants.",
+  "alt_en": "Performance improves with size, but with diminishing returns."
  },
  "lora": {
   "alt_fr": "Un fine-tuning économe n'ajustant qu'une fine couche d'adaptation.",
@@ -823,9 +1171,17 @@
   "alt_fr": "Un protocole ouvert standardisant la connexion des modèles aux outils.",
   "alt_en": "An open protocol standardising models' connection to tools."
  },
+ "mecanisme-attention": {
+  "alt_fr": "Pondérer dynamiquement l'importance des éléments d'une séquence.",
+  "alt_en": "Dynamically weighing the importance of a sequence's elements."
+ },
  "megadonnees": {
   "alt_fr": "Des données trop volumineuses, rapides ou variées pour les outils classiques.",
   "alt_en": "Data too voluminous, fast or varied for classic tools."
+ },
+ "melange-experts": {
+  "alt_fr": "Un grand modèle dont seuls quelques sous-modèles s'activent par requête.",
+  "alt_en": "A large model where only a few sub-models activate per request."
  },
  "memoire-agent": {
   "alt_fr": "Conserver des informations au-delà d'une seule interaction.",
@@ -835,29 +1191,85 @@
   "alt_fr": "Conserver des informations sur l'utilisateur d'une session à l'autre.",
   "alt_en": "Retaining information about the user from one session to the next."
  },
+ "meta-ai": {
+  "alt_fr": "La division IA de Meta, créatrice de LLaMA en poids ouverts.",
+  "alt_en": "Meta's AI division, creator of open-weights LLaMA."
+ },
  "metadonnees": {
   "alt_fr": "Des données décrivant d'autres données : auteur, date, droits, source.",
   "alt_en": "Data describing other data: author, date, rights, source."
+ },
+ "metiers-ia": {
+  "alt_fr": "Les professions nées ou transformées par l'IA.",
+  "alt_en": "The professions born or transformed by AI."
+ },
+ "midjourney": {
+  "alt_fr": "Un service de génération d'images à forte qualité esthétique.",
+  "alt_en": "An image generation service with high aesthetic quality."
  },
  "minimisation": {
   "alt_fr": "Ne collecter que les données strictement nécessaires à la finalité.",
   "alt_en": "Collecting only the data strictly necessary for the purpose."
  },
  "mistral-ai": {
-  "alt_fr": "Mistral AI : acteur français publiant des modèles ouverts, alternative souveraine.",
-  "alt_en": "Mistral AI: a French player releasing open models, a sovereign alternative."
+  "alt_fr": "L'acteur français des modèles ouverts, alternative souveraine.",
+  "alt_en": "The French open-model player, a sovereign alternative."
  },
  "mix-energetique": {
   "alt_fr": "La répartition des sources d'électricité détermine l'empreinte réelle.",
   "alt_en": "The breakdown of electricity sources determines the real footprint."
  },
+ "mlops": {
+  "alt_fr": "Industrialiser le cycle de vie des modèles de machine learning.",
+  "alt_en": "Industrialising the machine learning model lifecycle."
+ },
  "mmlu": {
   "alt_fr": "Un benchmark de culture générale, souvent sur-interprété.",
   "alt_en": "A general-knowledge benchmark, often over-interpreted."
  },
+ "model-card": {
+  "alt_fr": "Un document décrivant capacités, limites et biais d'un modèle.",
+  "alt_en": "A document describing a model's capabilities, limits and biases."
+ },
+ "modele-autoregressif": {
+  "alt_fr": "Un modèle générant une séquence élément par élément.",
+  "alt_en": "A model generating a sequence element by element."
+ },
+ "modele-discriminatif": {
+  "alt_fr": "Un modèle qui classe ou prédit, sans générer.",
+  "alt_en": "A model that classifies or predicts, without generating."
+ },
+ "modele-fondation": {
+  "alt_fr": "Un grand modèle préentraîné, adapté à de multiples tâches en aval.",
+  "alt_en": "A large pre-trained model, adapted to many downstream tasks."
+ },
+ "modele-generatif": {
+  "alt_fr": "Un modèle produisant du contenu nouveau.",
+  "alt_en": "A model producing new content."
+ },
+ "modele-raisonnement": {
+  "alt_fr": "Des modèles entraînés à réfléchir avant de répondre.",
+  "alt_en": "Models trained to think before answering."
+ },
  "modele-recompense": {
   "alt_fr": "Un modèle auxiliaire prédisant les préférences humaines.",
   "alt_en": "An auxiliary model predicting human preferences."
+ },
+ "modeles-diffusion": {
+  "alt_fr": "Des modèles générant des images en débruitant un bruit aléatoire.",
+  "alt_en": "Models generating images by denoising random noise."
+ },
+ "modeles-monde": {
+  "alt_fr": "Des modèles apprenant une représentation du monde physique.",
+  "alt_en": "Models learning a representation of the physical world."
+ },
+ "modeles-multilingues": {
+  "alt_fr": "Des modèles couvrant plusieurs langues, inégalement.",
+  "alt_en": "Models covering several languages, unequally."
+ },
+ "modeles-symboliques": {
+  "alt_fr": "L'IA fondée sur des règles et un raisonnement logique explicite.",
+  "alt_en": "AI based on explicit rules and logical reasoning."
  },
  "moderation-contenu": {
   "alt_fr": "Filtrer les contenus indésirables à grande échelle, imparfaitement.",
@@ -871,6 +1283,22 @@
   "alt_fr": "La surveillance continue d'un système d'IA en production.",
   "alt_en": "The continuous monitoring of an AI system in production."
  },
+ "mooc": {
+  "alt_fr": "Un cours en ligne massif, sans accompagnement individuel.",
+  "alt_en": "A massive online course, without individual support."
+ },
+ "multimodal": {
+  "alt_fr": "Un modèle traitant plusieurs types d'entrées : texte, image, son.",
+  "alt_en": "A model processing several input types: text, image, sound."
+ },
+ "neuromorphique": {
+  "alt_fr": "Des puces inspirées du cerveau, très économes en énergie.",
+  "alt_en": "Brain-inspired chips, very energy-efficient."
+ },
+ "neurone-artificiel": {
+  "alt_fr": "L'unité de calcul élémentaire d'un réseau de neurones.",
+  "alt_en": "The elementary computation unit of a neural network."
+ },
  "neutralite-carbone": {
   "alt_fr": "Les promesses de neutralité des Big Tech face à la hausse réelle.",
   "alt_en": "Big Tech neutrality pledges against real emission rises."
@@ -882,6 +1310,10 @@
  "nist-ai-rmf": {
   "alt_fr": "Le cadre volontaire du NIST pour gérer les risques de l'IA.",
   "alt_en": "The NIST voluntary framework for managing AI risks."
+ },
+ "nlp": {
+  "alt_fr": "Faire traiter et générer le langage humain par des machines.",
+  "alt_en": "Having machines process and generate human language."
  },
  "no-code": {
   "alt_fr": "Créer des automatisations intelligentes sans écrire de code.",
@@ -895,17 +1327,49 @@
   "alt_fr": "Noter les individus pour conditionner leurs droits : interdit.",
   "alt_en": "Scoring individuals to condition their rights: banned."
  },
+ "notebooklm": {
+  "alt_fr": "L'outil de Google pour dialoguer avec ses propres documents.",
+  "alt_en": "Google's tool to dialogue with your own documents."
+ },
  "numerique-responsable": {
   "alt_fr": "Réduire l'empreinte environnementale et sociale du numérique.",
   "alt_en": "Reducing the environmental and social footprint of digital tech."
+ },
+ "nvidia": {
+  "alt_fr": "L'entreprise dominant le marché des GPU indispensables à l'IA.",
+  "alt_en": "The company dominating the market for AI-essential GPUs."
  },
  "obsolescence-materiel": {
   "alt_fr": "Le renouvellement accéléré des serveurs et terminaux « pour l'IA ».",
   "alt_en": "The accelerated renewal of servers and devices \"for AI\"."
  },
+ "ocr": {
+  "alt_fr": "Convertir en texte le contenu d'images ou documents scannés.",
+  "alt_en": "Converting scanned images or documents into text."
+ },
+ "ollama": {
+  "alt_fr": "Un outil pour exécuter facilement des modèles ouverts en local.",
+  "alt_en": "A tool to easily run open models locally."
+ },
+ "ontologie": {
+  "alt_fr": "Une représentation formelle des concepts d'un domaine.",
+  "alt_en": "A formal representation of a domain's concepts."
+ },
+ "open-source-ia": {
+  "alt_fr": "Un modèle dont les poids sont publiquement disponibles.",
+  "alt_en": "A model whose weights are publicly available."
+ },
+ "open-webui": {
+  "alt_fr": "Une interface web pour un assistant privé au-dessus de modèles locaux.",
+  "alt_en": "A web interface for a private assistant over local models."
+ },
  "open-weights": {
   "alt_fr": "Modèle à poids ouverts : téléchargeable, exécutable et adaptable chez soi.",
   "alt_en": "Open-weights model: downloadable, runnable and adaptable at home."
+ },
+ "openai": {
+  "alt_fr": "L'entreprise américaine créatrice de ChatGPT et des modèles GPT.",
+  "alt_en": "The American company that created ChatGPT and the GPT models."
  },
  "openrag": {
   "alt_fr": "Une plateforme open source de déploiement RAG souverain.",
@@ -919,17 +1383,41 @@
   "alt_fr": "Coordonner modèles, outils et étapes d'un système d'IA.",
   "alt_en": "Coordinating an AI system's models, tools and steps."
  },
+ "ori-ia": {
+  "alt_fr": "La méthode PragmaForma pour cartographier un projet d'IA.",
+  "alt_en": "PragmaForma's method to map an AI project."
+ },
  "oubli-catastrophique": {
   "alt_fr": "Apprendre du nouveau efface brutalement l'ancien.",
   "alt_en": "Learning the new abruptly erases the old."
+ },
+ "outils-proprietaires": {
+  "alt_fr": "Des modèles fermés, conditionnés à une licence commerciale.",
+  "alt_en": "Closed models, subject to a commercial licence."
+ },
+ "ovhcloud": {
+  "alt_fr": "Le principal fournisseur de cloud souverain européen.",
+  "alt_en": "The leading European sovereign cloud provider."
  },
  "owasp-llm": {
   "alt_fr": "Le top 10 OWASP recense les vulnérabilités critiques des applications LLM.",
   "alt_en": "The OWASP Top 10 lists the critical vulnerabilities of LLM applications."
  },
+ "parametres": {
+  "alt_fr": "Les valeurs internes qu'un modèle ajuste pour encoder ce qu'il apprend.",
+  "alt_en": "The internal values a model adjusts to encode what it learns."
+ },
+ "perceptron": {
+  "alt_fr": "Le plus simple des neurones artificiels, aux limites historiques.",
+  "alt_en": "The simplest artificial neuron, with historical limits."
+ },
  "perplexite-metrique": {
   "alt_fr": "Une métrique de « surprise » du modèle, sans dire l'utilité perçue.",
   "alt_en": "A model \"surprise\" metric, not saying perceived usefulness."
+ },
+ "perplexity": {
+  "alt_fr": "Un moteur de recherche augmenté par IA avec citations.",
+  "alt_en": "An AI-augmented search engine with citations."
  },
  "pipeline-donnees": {
   "alt_fr": "Chaîne automatisée acheminant les données de la source à l'usage.",
@@ -942,6 +1430,14 @@
  "planification-agent": {
   "alt_fr": "Décomposer un objectif complexe en étapes ordonnées.",
   "alt_en": "Breaking a complex goal into ordered steps."
+ },
+ "poc": {
+  "alt_fr": "Un pilote démontrant la faisabilité avant tout déploiement.",
+  "alt_en": "A pilot demonstrating feasibility before deployment."
+ },
+ "poids-modele": {
+  "alt_fr": "Les valeurs des paramètres une fois entraîné : tout ce que le modèle « sait ».",
+  "alt_en": "The parameter values once trained: all the model \"knows\"."
  },
  "point-controle": {
   "alt_fr": "Sauvegarder l'état d'un modèle à un instant de son entraînement.",
@@ -962,6 +1458,10 @@
  "post-entrainement": {
   "alt_fr": "Les phases transformant un modèle brut en assistant utile et sûr.",
   "alt_en": "The phases turning a raw model into a useful, safe assistant."
+ },
+ "power-bi": {
+  "alt_fr": "L'outil de visualisation et d'analyse de données de Microsoft.",
+  "alt_en": "Microsoft's data visualisation and analysis tool."
  },
  "pratiques-interdites": {
   "alt_fr": "Les usages d'IA à risque inacceptable, interdits dans l'Union.",
@@ -1011,9 +1511,21 @@
   "alt_fr": "L'efficacité énergétique d'un data center : total / informatique.",
   "alt_en": "A data center's energy efficiency: total / IT."
  },
+ "pytorch": {
+  "alt_fr": "La bibliothèque de référence pour développer des modèles.",
+  "alt_en": "The reference library for developing models."
+ },
  "qualite-donnees": {
   "alt_fr": "La qualité des données plafonne la performance du modèle.",
   "alt_en": "Data quality caps the model's performance."
+ },
+ "quantification": {
+  "alt_fr": "Réduire la précision des paramètres pour alléger un modèle.",
+  "alt_en": "Reducing parameter precision to lighten a model."
+ },
+ "qwen": {
+  "alt_fr": "La famille de modèles ouverts d'Alibaba, forte en multilingue.",
+  "alt_en": "Alibaba's open-model family, strong in multilingual tasks."
  },
  "rag": {
   "alt_fr": "Schéma d'un RAG : une base documentaire alimente une recherche, dont les passages rejoignent la question vers un modèle qui produit une réponse sourcée.",
@@ -1055,9 +1567,17 @@
   "alt_fr": "Prétendre déduire les émotions, contesté et souvent interdit.",
   "alt_en": "Claiming to infer emotions, contested and often banned."
  },
+ "reconnaissance-entites": {
+  "alt_fr": "Identifier et catégoriser les entités mentionnées dans un texte.",
+  "alt_en": "Identifying and categorising entities mentioned in a text."
+ },
  "reconnaissance-faciale": {
   "alt_fr": "Deux mondes juridiques opposés selon consentement et centralisation.",
   "alt_en": "Two opposed legal worlds by consent and centralisation."
+ },
+ "reconnaissance-parole": {
+  "alt_fr": "Convertir la parole en texte.",
+  "alt_en": "Converting speech into text."
  },
  "red-teaming": {
   "alt_fr": "Attaquer volontairement son IA pour trouver les failles avant les attaquants.",
@@ -1087,6 +1607,10 @@
   "alt_fr": "Le document RGPD recensant tous les traitements de données.",
   "alt_en": "The GDPR document listing all data processing operations."
  },
+ "regression": {
+  "alt_fr": "Prédire une valeur numérique continue.",
+  "alt_en": "Predicting a continuous numeric value."
+ },
  "regularisation": {
   "alt_fr": "Limiter la complexité d'un modèle pour éviter le surapprentissage.",
   "alt_en": "Limiting a model's complexity to avoid overfitting."
@@ -1094,6 +1618,18 @@
  "regurgitation": {
   "alt_fr": "Le modèle reproduit mot pour mot des passages de son entraînement.",
   "alt_en": "The model reproduces training passages word for word."
+ },
+ "reseau-convolutif": {
+  "alt_fr": "Une architecture spécialisée dans le traitement d'images.",
+  "alt_en": "An architecture specialised in image processing."
+ },
+ "reseau-neurones": {
+  "alt_fr": "Un modèle de calcul de « neurones » interconnectés en couches.",
+  "alt_en": "A computation model of interconnected \"neurons\" in layers."
+ },
+ "reseau-recurrent": {
+  "alt_fr": "Une architecture pour séquences, dépassée par les transformers.",
+  "alt_en": "An architecture for sequences, surpassed by transformers."
  },
  "responsabilite-ia": {
   "alt_fr": "Qui répond des dommages : fournisseur, intégrateur ou déployeur ?",
@@ -1115,13 +1651,17 @@
   "alt_fr": "Aligner un LLM sur les préférences humaines par renforcement.",
   "alt_en": "Aligning an LLM on human preferences through reinforcement."
  },
+ "robotique-ia": {
+  "alt_fr": "L'IA dans des robots percevant et agissant dans le monde.",
+  "alt_en": "AI in robots perceiving and acting in the world."
+ },
  "robustesse": {
   "alt_fr": "Maintenir ses performances face à des conditions imprévues.",
   "alt_en": "Maintaining performance under unforeseen conditions."
  },
  "roi-ia": {
-  "alt_fr": "ROI de l'IA : mesurer la valeur réelle créée face au coût total.",
-  "alt_en": "AI ROI: measuring the real value created against the total cost."
+  "alt_fr": "Mesurer la valeur réelle créée face au coût total.",
+  "alt_en": "Measuring the real value created against the total cost."
  },
  "role-persona": {
   "alt_fr": "Assigner un rôle au modèle pour orienter le style et le point de vue.",
@@ -1134,6 +1674,14 @@
  "rpa": {
   "alt_fr": "Automatiser des tâches répétitives en imitant les actions humaines.",
   "alt_en": "Automating repetitive tasks by mimicking human actions."
+ },
+ "scaleway": {
+  "alt_fr": "Un fournisseur de cloud français, offres GPU pour l'IA.",
+  "alt_en": "A French cloud provider with GPU offers for AI."
+ },
+ "science-donnees": {
+  "alt_fr": "Extraire connaissance et valeur à partir de données.",
+  "alt_en": "Extracting knowledge and value from data."
  },
  "scope-3": {
   "alt_fr": "Les émissions indirectes de la chaîne de valeur, dont l'IA consommée.",
@@ -1155,6 +1703,10 @@
   "alt_fr": "Protéger les données contre accès non autorisés, fuites et altérations.",
   "alt_en": "Protecting data against unauthorised access, leaks and tampering."
  },
+ "serveur-inference": {
+  "alt_fr": "Un logiciel optimisant l'exécution d'un modèle en production.",
+  "alt_en": "Software optimising a model's execution in production."
+ },
  "signalement-incidents": {
   "alt_fr": "L'obligation de notifier les incidents graves des systèmes à haut risque.",
   "alt_en": "The obligation to report serious incidents of high-risk systems."
@@ -1163,6 +1715,14 @@
   "alt_fr": "Mesurer la proximité de deux vecteurs par l'angle qui les sépare.",
   "alt_en": "Measuring two vectors' proximity by the angle between them."
  },
+ "singularite": {
+  "alt_fr": "L'hypothèse d'une explosion d'intelligence échappant au contrôle.",
+  "alt_en": "The hypothesis of an intelligence explosion escaping control."
+ },
+ "slm": {
+  "alt_fr": "Un modèle de taille réduite, sobre et déployable localement.",
+  "alt_en": "A reduced-size model, frugal and locally deployable."
+ },
  "slop": {
   "alt_fr": "Le contenu IA de masse, de faible qualité, qui sature le web.",
   "alt_en": "Low-quality mass AI content that saturates the web."
@@ -1170,6 +1730,14 @@
  "sobriete-numerique": {
   "alt_fr": "Sobriété numérique : choisir le modèle minimal qui suffit à la tâche.",
   "alt_en": "Digital sobriety: choosing the minimal model that suffices for the task."
+ },
+ "sommets-ia": {
+  "alt_fr": "Les rencontres internationales sur la gouvernance de l'IA.",
+  "alt_en": "International gatherings on AI governance."
+ },
+ "sora": {
+  "alt_fr": "Le modèle de génération de vidéo d'OpenAI.",
+  "alt_en": "OpenAI's video generation model."
  },
  "sorties-structurees": {
   "alt_fr": "Contraindre un modèle à répondre dans un format exploitable.",
@@ -1191,9 +1759,17 @@
   "alt_fr": "S'authentifier une fois pour accéder à plusieurs applications.",
   "alt_en": "Authenticating once to access several applications."
  },
+ "stable-diffusion": {
+  "alt_fr": "Un modèle de génération d'images à poids ouverts, exécutable en local.",
+  "alt_en": "An open-weights image generation model, runnable locally."
+ },
  "statut-oeuvres-ia": {
   "alt_fr": "La protection des contenus générés dépend de l'intervention humaine.",
   "alt_en": "The protection of generated content depends on human intervention."
+ },
+ "superintelligence": {
+  "alt_fr": "Une hypothétique IA dépassant très largement l'humain.",
+  "alt_en": "A hypothetical AI vastly exceeding humans."
  },
  "supervision-humaine": {
   "alt_fr": "Le système doit être effectivement supervisable par un humain.",
@@ -1211,6 +1787,18 @@
   "alt_fr": "Un benchmark de résolution de vrais problèmes logiciels.",
   "alt_en": "A benchmark of solving real software problems."
  },
+ "synchrone-asynchrone": {
+  "alt_fr": "Deux modalités pédagogiques complémentaires.",
+  "alt_en": "Two complementary learning formats."
+ },
+ "synthese-vocale": {
+  "alt_fr": "Convertir du texte en parole naturelle.",
+  "alt_en": "Converting text into natural speech."
+ },
+ "systeme-expert": {
+  "alt_fr": "Un programme reproduisant un raisonnement d'expert par règles.",
+  "alt_en": "A program reproducing expert reasoning through rules."
+ },
  "systeme-haut-risque": {
   "alt_fr": "Un système à haut risque cumule les obligations les plus lourdes.",
   "alt_en": "A high-risk system carries the heaviest obligations."
@@ -1218,6 +1806,14 @@
  "systeme-multi-agents": {
   "alt_fr": "Plusieurs agents spécialisés collaborant sur une tâche complexe.",
   "alt_en": "Several specialised agents collaborating on a complex task."
+ },
+ "systeme-recommandation": {
+  "alt_fr": "Suggérer des contenus selon le comportement de l'utilisateur.",
+  "alt_en": "Suggesting content based on the user's behaviour."
+ },
+ "tarification-usage": {
+  "alt_fr": "La facturation des API au prorata des tokens traités.",
+  "alt_en": "Billing APIs in proportion to tokens processed."
  },
  "taux-apprentissage": {
   "alt_fr": "L'ampleur des ajustements à chaque étape d'entraînement.",
@@ -1227,9 +1823,17 @@
   "alt_fr": "La proportion de réponses factuellement fausses, réduite par le RAG.",
   "alt_en": "The proportion of factually false answers, reduced by RAG."
  },
+ "tco": {
+  "alt_fr": "Le coût total incluant intégration, formation, maintenance, sortie.",
+  "alt_en": "The total cost including integration, training, maintenance, exit."
+ },
  "tee": {
   "alt_fr": "Une zone matérielle isolée protège code et données, même de l'administrateur.",
   "alt_en": "An isolated hardware zone protects code and data, even from the administrator."
+ },
+ "temperature": {
+  "alt_fr": "Le paramètre contrôlant l'aléa des sorties d'un modèle.",
+  "alt_en": "The parameter controlling the randomness of a model's outputs."
  },
  "terres-rares": {
   "alt_fr": "Les minerais critiques des puces, à forte dépendance géopolitique.",
@@ -1243,6 +1847,10 @@
   "alt_fr": "Simuler une attaque réelle pour éprouver les défenses d'une application IA.",
   "alt_en": "Simulating a real attack to test an AI application's defences."
  },
+ "test-turing": {
+  "alt_fr": "Une machine réussit si on ne peut la distinguer d'un humain.",
+  "alt_en": "A machine passes if it cannot be distinguished from a human."
+ },
  "test-validation-ia": {
   "alt_fr": "Vérifier qu'un système d'IA fonctionne comme attendu.",
   "alt_en": "Verifying that an AI system works as expected."
@@ -1255,9 +1863,25 @@
   "alt_fr": "Le nombre de fragments récupérés et fournis au modèle.",
   "alt_en": "The number of fragments retrieved and given to the model."
  },
+ "top-p": {
+  "alt_fr": "Le paramètre contrôlant la diversité des sorties.",
+  "alt_en": "The parameter controlling output diversity."
+ },
+ "tpu": {
+  "alt_fr": "Un processeur conçu par Google pour accélérer l'IA.",
+  "alt_en": "A processor designed by Google to accelerate AI."
+ },
  "tracabilite-donnees": {
   "alt_fr": "Retracer l'origine et le parcours d'une donnée jusqu'à son usage.",
   "alt_en": "Tracing a datum's origin and journey to its use."
+ },
+ "traduction-automatique": {
+  "alt_fr": "Traduire des textes d'une langue à l'autre par réseaux neuronaux.",
+  "alt_en": "Translating texts between languages via neural networks."
+ },
+ "traitement-par-lots": {
+  "alt_fr": "Regrouper les requêtes pour optimiser l'usage du matériel.",
+  "alt_en": "Grouping requests to optimise hardware use."
  },
  "transcription-reunions": {
   "alt_fr": "Transcrire et résumer une réunion, avec ses enjeux de consentement.",
@@ -1311,9 +1935,29 @@
   "alt_fr": "Produire du code en décrivant l'intention en langage naturel.",
   "alt_en": "Producing code by describing intent in natural language."
  },
+ "vision-ordinateur": {
+  "alt_fr": "Faire analyser des images et vidéos par des machines.",
+  "alt_en": "Having machines analyse images and videos."
+ },
+ "vllm": {
+  "alt_fr": "Une bibliothèque d'inférence haute performance pour LLM.",
+  "alt_en": "A high-performance inference library for LLMs."
+ },
+ "web-semantique": {
+  "alt_fr": "Un web où l'information est structurée pour les machines.",
+  "alt_en": "A web where information is structured for machines."
+ },
+ "webinaire": {
+  "alt_fr": "Une conférence pédagogique en direct sur internet.",
+  "alt_en": "A live educational conference on the internet."
+ },
  "wue": {
   "alt_fr": "L'efficacité hydrique d'un data center : litres d'eau par kWh.",
   "alt_en": "A data center's water efficiency: litres of water per kWh."
+ },
+ "zero-shot-few-shot": {
+  "alt_fr": "Réaliser une tâche sans ou avec quelques exemples, sans réentraînement.",
+  "alt_en": "Performing a task with no or a few examples, without retraining."
  },
  "zero-trust": {
   "alt_fr": "Ne jamais faire confiance par défaut : chaque accès est vérifié.",
