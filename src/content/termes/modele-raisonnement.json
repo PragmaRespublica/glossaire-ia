@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Modèle de raisonnement",
+  "terme_en": "Reasoning model",
+  "sous_titre_fr": "Reasoning model",
+  "sous_titre_en": "Modèle de raisonnement",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Génération de modèles entraînés à « réfléchir » avant de répondre, en produisant une chaîne de raisonnement interne parfois longue, pour améliorer leur performance sur les problèmes complexes. Les modèles de raisonnement excellent en mathématiques, logique et code · au prix d'une latence et d'un coût accrus, à réserver aux tâches qui le justifient.",
+  "definition_en": "A generation of models trained to \"think\" before answering, producing a sometimes long internal reasoning chain, to improve their performance on complex problems. Reasoning models excel at mathematics, logic and code · at the cost of increased latency and cost, to reserve for tasks that warrant it.",
+  "exemple_fr": "Sur un problème mathématique complexe, un modèle de raisonnement prend le temps de décomposer, tester, vérifier · et trouve la bonne réponse là où un modèle standard échouerait. Mais pour résumer un email, ce même modèle serait un gaspillage. La règle : le modèle de raisonnement pour les problèmes durs, un modèle standard pour le reste.",
+  "exemple_en": "On a complex mathematical problem, a reasoning model takes time to decompose, test, verify · and finds the right answer where a standard model would fail. But to summarise an email, this same model would be wasteful. The rule: the reasoning model for hard problems, a standard model for the rest.",
+  "regard_fr": "Les modèles de raisonnement ouvrent une piste plus sobre que la course à la taille : mieux vaut un modèle qui réfléchit plus longtemps quand il le faut qu'un géant qui dépense tout le temps. Mais leur coût invite au discernement · ne mobilisez cette puissance que pour les problèmes qui l'exigent réellement.",
+  "regard_en": "Reasoning models open a more frugal path than the race for size: better a model that thinks longer when needed than a giant that spends all the time. But their cost invites discernment · only mobilise this power for problems that truly require it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "raisonnement-etendu",
+    "chaine-pensee",
+    "gpqa",
+    "latence"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des modèles de raisonnement (reasoning models)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

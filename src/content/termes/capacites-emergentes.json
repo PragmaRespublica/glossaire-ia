@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Capacités émergentes",
+  "terme_en": "Emergent capabilities",
+  "sous_titre_fr": "Emergent capabilities",
+  "sous_titre_en": "Capacités émergentes",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Aptitudes qui apparaissent brusquement dans un modèle à partir d'une certaine taille, sans avoir été explicitement programmées ni présentes dans les modèles plus petits : raisonnement, traduction, résolution de problèmes. Les capacités émergentes fascinent et interrogent · elles rendent le comportement des grands modèles en partie imprévisible.",
+  "definition_en": "Abilities that appear abruptly in a model beyond a certain size, without having been explicitly programmed or present in smaller models: reasoning, translation, problem-solving. Emergent capabilities fascinate and puzzle · they make large models' behaviour partly unpredictable.",
+  "exemple_fr": "Un modèle trop petit échoue à une tâche de raisonnement ; passé un certain seuil de taille, la capacité apparaît soudainement, sans qu'on l'ait programmée. Cette émergence par l'échelle est l'un des phénomènes les plus intrigants de l'IA · et l'un des plus discutés, certains y voyant un artefact de mesure.",
+  "exemple_en": "A model too small fails a reasoning task; beyond a certain size threshold, the capability appears suddenly, without being programmed. This emergence through scale is one of AI's most intriguing phenomena · and one of the most debated, some seeing it as a measurement artefact.",
+  "regard_fr": "Les capacités émergentes ont un revers inquiétant : si des aptitudes apparaissent sans qu'on les ait voulues, des comportements indésirables peuvent aussi surgir sans prévenir. Cette imprévisibilité est un argument fort pour l'évaluation rigoureuse et le red teaming des grands modèles · on ne maîtrise bien que ce qu'on a testé.",
+  "regard_en": "Emergent capabilities have a worrying flip side: if abilities appear unintentionally, undesirable behaviours can also arise without warning. This unpredictability is a strong argument for rigorous evaluation and red teaming of large models · one only masters well what one has tested.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "lois-echelle",
+    "modele-fondation",
+    "red-teaming",
+    "alignement-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Wei et al. · Emergent Abilities of Large Language Models"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Analyse de sentiments",
+  "terme_en": "Sentiment analysis",
+  "sous_titre_fr": "Sentiment analysis",
+  "sous_titre_en": "Analyse de sentiments",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technique de TALN déterminant la tonalité émotionnelle d'un texte : positif, négatif, neutre, voire des émotions plus fines. Utilisée pour analyser avis clients, réseaux sociaux, retours d'enquête, l'analyse de sentiments donne une lecture à grande échelle de l'opinion · avec les limites de toute réduction du langage humain à des étiquettes.",
+  "definition_en": "An NLP technique determining the emotional tone of a text: positive, negative, neutral, or even finer emotions. Used to analyse customer reviews, social media, survey responses, sentiment analysis gives a large-scale reading of opinion · with the limits of any reduction of human language to labels.",
+  "exemple_fr": "Une marque analyse automatiquement le sentiment de dizaines de milliers d'avis pour suivre sa réputation en temps réel. Utile pour repérer une crise naissante. Mais l'ironie, le second degré, le contexte culturel échappent souvent à l'analyse · un « super, encore une panne » peut être classé positif. L'outil dégrossit, il ne remplace pas la lecture.",
+  "exemple_en": "A brand automatically analyses the sentiment of tens of thousands of reviews to track its reputation in real time. Useful for spotting an emerging crisis. But irony, second-degree humour, cultural context often escape the analysis · a \"great, another outage\" can be classified positive. The tool roughs out, it does not replace reading.",
+  "regard_fr": "L'analyse de sentiments donne des tendances utiles à grande échelle · à condition de ne pas confondre l'étiquette avec la vérité. Réduire l'émotion humaine à « positif / négatif » perd toute la nuance, l'ironie, l'ambivalence. C'est un instrument de mesure grossier · précieux pour les masses, trompeur au cas par cas.",
+  "regard_en": "Sentiment analysis gives useful trends at scale · provided one does not confuse the label with the truth. Reducing human emotion to \"positive / negative\" loses all nuance, irony, ambivalence. It is a coarse measuring instrument · precious for masses, misleading case by case.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "nlp",
+    "classification",
+    "ia-marketing",
+    "reconnaissance-emotions"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (analyse de sentiments)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

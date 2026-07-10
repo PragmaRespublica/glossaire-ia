@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Corrélation et causalité",
+  "terme_en": "Correlation vs causation",
+  "sous_titre_fr": "Correlation vs causation",
+  "sous_titre_en": "Corrélation et causalité",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Distinction fondamentale : une corrélation est un lien statistique entre deux variables, une causalité un lien de cause à effet. L'IA statistique excelle à trouver des corrélations, mais ne saisit pas la causalité · elle peut confondre « les deux augmentent ensemble » avec « l'un provoque l'autre ». Une limite lourde de conséquences.",
+  "definition_en": "A fundamental distinction: a correlation is a statistical link between two variables, causation a cause-and-effect link. Statistical AI excels at finding correlations, but does not grasp causation · it can confuse \"both rise together\" with \"one causes the other\". A limit with heavy consequences.",
+  "exemple_fr": "Un modèle observe que les ventes de glaces et les noyades augmentent ensemble, et pourrait « conclure » à un lien. La vraie cause commune est la chaleur estivale. L'IA voit la corrélation, pas la causalité. Se fier aveuglément à ses associations, sans esprit critique, mène à des décisions absurdes voire dangereuses.",
+  "exemple_en": "A model observes that ice cream sales and drownings rise together, and might \"conclude\" a link. The real common cause is summer heat. AI sees the correlation, not the causation. Blindly trusting its associations, without critical thinking, leads to absurd or even dangerous decisions.",
+  "regard_fr": "La confusion entre corrélation et causalité est le piège intellectuel majeur de l'ère des données. L'IA, machine à corrélations, ne le résout pas · elle l'amplifie à grande échelle. Garder cette distinction à l'esprit est une compétence critique essentielle pour ne pas prendre les associations d'un modèle pour des vérités causales.",
+  "regard_en": "The confusion between correlation and causation is the major intellectual trap of the data era. AI, a correlation machine, does not solve it · it amplifies it at scale. Keeping this distinction in mind is an essential critical skill to avoid taking a model's associations for causal truths.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "exploration-donnees",
+    "biais-algorithmique",
+    "modeles-monde",
+    "science-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "Littérature sur l'inférence causale"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

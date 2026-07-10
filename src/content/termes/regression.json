@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Régression",
+  "terme_en": "Regression",
+  "sous_titre_fr": "Regression",
+  "sous_titre_en": "Régression",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Tâche consistant à prédire une valeur numérique continue plutôt qu'une catégorie : un prix, une température, une durée, une demande. La régression est, avec la classification, l'un des deux piliers de l'apprentissage supervisé · omniprésente en prévision, en finance et en optimisation, souvent avec des méthodes statistiques simples et robustes.",
+  "definition_en": "The task of predicting a continuous numeric value rather than a category: a price, a temperature, a duration, a demand. Regression is, with classification, one of the two pillars of supervised learning · ubiquitous in forecasting, finance and optimisation, often with simple, robust statistical methods.",
+  "exemple_fr": "Prévoir la demande de produits pour la semaine à venir est un problème de régression. Un modèle prédit un nombre, pas une catégorie. Une régression bien conçue, sur de bonnes données, guide les commandes et évite ruptures et surstocks · sans avoir besoin de la moindre IA générative. L'utile n'est pas toujours spectaculaire.",
+  "exemple_en": "Forecasting product demand for the coming week is a regression problem. A model predicts a number, not a category. A well-designed regression, on good data, guides orders and avoids shortages and overstocks · with no need for any generative AI. The useful is not always spectacular.",
+  "regard_fr": "La régression, discrète et ancienne, résout une immense part des problèmes de prévision en entreprise · pour un coût dérisoire comparé aux grands modèles. Avant de rêver d'IA générative pour prédire un chiffre, souvenez-vous qu'une bonne régression, sobre et explicable, est souvent la réponse la plus intelligente.",
+  "regard_en": "Regression, discreet and old, solves a huge share of business forecasting problems · at a trivial cost compared with large models. Before dreaming of generative AI to predict a number, remember that a good regression, frugal and explainable, is often the smartest answer.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "classification",
+    "modele-discriminatif",
+    "ia-non-generative",
+    "science-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (modèle de régression linéaire)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

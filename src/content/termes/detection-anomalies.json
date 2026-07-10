@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Détection d'anomalies",
+  "terme_en": "Anomaly detection",
+  "sous_titre_fr": "Anomaly detection",
+  "sous_titre_en": "Détection d'anomalies",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technique repérant les données qui s'écartent significativement de la normale : transaction frauduleuse, panne imminente, intrusion, défaut de fabrication. Souvent fondée sur de l'IA non générative, la détection d'anomalies est l'un des usages de l'IA au retour sur investissement le plus tangible en sécurité, industrie et finance.",
+  "definition_en": "A technique spotting data that deviates significantly from the norm: fraudulent transaction, imminent breakdown, intrusion, manufacturing defect. Often based on non-generative AI, anomaly detection is one of AI's uses with the most tangible return on investment in security, industry and finance.",
+  "exemple_fr": "Un système surveille les paramètres de machines industrielles et alerte dès qu'un capteur s'écarte de son comportement habituel · signe d'une panne imminente. La maintenance intervient avant la casse. Cette détection d'anomalies, sobre et spécialisée, évite des arrêts coûteux · un usage de l'IA aussi discret qu'efficace.",
+  "exemple_en": "A system monitors industrial machines' parameters and alerts as soon as a sensor deviates from its usual behaviour · a sign of imminent breakdown. Maintenance intervenes before the failure. This anomaly detection, frugal and specialised, avoids costly stoppages · an AI use as discreet as it is effective.",
+  "regard_fr": "La détection d'anomalies illustre l'IA la plus utile et la moins bavarde : elle ne génère rien, elle surveille et alerte. Pour la fraude, la maintenance, la cybersécurité, elle offre des gains concrets sans le battage des LLM. Un rappel que la valeur de l'IA se mesure aux problèmes résolus, pas au spectacle produit.",
+  "regard_en": "Anomaly detection illustrates the most useful and least talkative AI: it generates nothing, it monitors and alerts. For fraud, maintenance, cybersecurity, it offers concrete gains without the LLM hype. A reminder that AI's value is measured by problems solved, not by the spectacle produced.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-non-generative",
+    "fraude-ia",
+    "monitoring",
+    "classification"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (anomaly detection)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

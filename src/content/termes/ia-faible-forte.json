@@ -1,0 +1,38 @@
+{
+  "terme_fr": "IA faible et IA forte",
+  "terme_en": "Narrow AI and strong AI",
+  "sous_titre_fr": "Narrow AI and strong AI",
+  "sous_titre_en": "IA faible et IA forte",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Distinction classique entre l'IA faible (spécialisée dans une tâche précise, sans conscience ni compréhension réelle) et l'IA forte (hypothétique, dotée d'une intelligence générale comparable à l'humain). Toutes les IA existantes sont des IA faibles · même les plus impressionnantes. L'IA forte relève encore de la théorie et du débat.",
+  "definition_en": "A classic distinction between narrow AI (specialised in a specific task, without consciousness or real understanding) and strong AI (hypothetical, endowed with general intelligence comparable to humans). All existing AIs are narrow AIs · even the most impressive. Strong AI still belongs to theory and debate.",
+  "exemple_fr": "ChatGPT, aussi bluffant soit-il, est une IA faible : il excelle à produire du texte, mais ne « comprend » pas le monde et n'a pas de but propre. Le confondre avec une IA forte · une intelligence consciente · est l'erreur d'interprétation la plus répandue, entretenue par la fluidité trompeuse de ses réponses.",
+  "exemple_en": "ChatGPT, however impressive, is a narrow AI: it excels at producing text, but does not \"understand\" the world and has no purpose of its own. Confusing it with a strong AI · a conscious intelligence · is the most widespread interpretive error, sustained by the deceptive fluency of its answers.",
+  "regard_fr": "La distinction IA faible / IA forte est la boussole anti-fantasme la plus utile : rappeler que toutes nos IA sont « faibles » désamorce à la fois les peurs de science-fiction et les promesses délirantes. Ce que vous utilisez est un outil spécialisé et puissant · pas un être qui pense. Le garder à l'esprit est un acte de lucidité.",
+  "regard_en": "The narrow AI / strong AI distinction is the most useful anti-fantasy compass: recalling that all our AIs are \"narrow\" defuses both science-fiction fears and delirious promises. What you use is a specialised, powerful tool · not a being that thinks. Keeping this in mind is an act of lucidity.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "agi",
+    "intelligence-artificielle",
+    "anthropomorphisme",
+    "test-turing"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (intelligence artificielle faible / forte)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

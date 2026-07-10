@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Vision par ordinateur",
+  "terme_en": "Computer vision",
+  "sous_titre_fr": "Computer vision",
+  "sous_titre_en": "Vision par ordinateur",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Champ de l'IA visant à faire analyser et interpréter des images et des vidéos par des machines : reconnaissance d'objets, détection, segmentation, description. Pilier de nombreuses applications · contrôle qualité, imagerie médicale, véhicules autonomes, sécurité · la vision par ordinateur soulève aussi de forts enjeux de vie privée et de surveillance.",
+  "definition_en": "The field of AI aiming to have machines analyse and interpret images and videos: object recognition, detection, segmentation, description. A pillar of many applications · quality control, medical imaging, autonomous vehicles, security · computer vision also raises strong privacy and surveillance stakes.",
+  "exemple_fr": "Sur une chaîne de production, la vision par ordinateur inspecte chaque pièce et détecte les défauts invisibles à l'œil nu, à grande cadence. Gain de qualité majeur. Mais la même technologie, appliquée à la reconnaissance faciale dans l'espace public, bascule dans un tout autre régime juridique et éthique. L'usage fait la frontière.",
+  "exemple_en": "On a production line, computer vision inspects each part and detects flaws invisible to the naked eye, at high speed. A major quality gain. But the same technology, applied to facial recognition in public spaces, tips into an entirely different legal and ethical regime. The use makes the boundary.",
+  "regard_fr": "La vision par ordinateur est un cas d'école de la dualité de l'IA : la même technique inspecte des pièces ou surveille des foules. La question n'est jamais « que peut-elle faire ? » mais « à quoi la destine-t-on, et sous quel cadre ? ». Le contrôle qualité et la surveillance de masse partagent une technologie, pas une éthique.",
+  "regard_en": "Computer vision is a textbook case of AI's duality: the same technique inspects parts or surveils crowds. The question is never \"what can it do?\" but \"what is it destined for, and under what framework?\". Quality control and mass surveillance share a technology, not an ethics.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "deepfake",
+    "reconnaissance-faciale",
+    "generation-images",
+    "systeme-haut-risque"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (vision par ordinateur)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

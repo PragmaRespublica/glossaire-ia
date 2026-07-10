@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Système expert",
+  "terme_en": "Expert system",
+  "sous_titre_fr": "Expert system",
+  "sous_titre_en": "Système expert",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Programme d'IA reproduisant le raisonnement d'un expert dans un domaine précis à partir de règles explicites (« si... alors... ») et d'une base de connaissances. Emblématique de l'IA symbolique des années 1980, le système expert offre une traçabilité totale · chaque décision s'explique par les règles appliquées, à l'inverse des réseaux de neurones.",
+  "definition_en": "An AI program reproducing an expert's reasoning in a specific domain from explicit rules (\"if... then...\") and a knowledge base. Emblematic of 1980s symbolic AI, the expert system offers total traceability · each decision is explained by the applied rules, unlike neural networks.",
+  "exemple_fr": "Un système expert d'aide au diagnostic applique des centaines de règles médicales explicites. Son grand mérite : chaque conclusion est traçable, on sait exactement pourquoi il a décidé. Là où un réseau de neurones est une boîte noire, le système expert est une boîte de verre · au prix d'une souplesse moindre.",
+  "exemple_en": "An expert system for diagnostic support applies hundreds of explicit medical rules. Its great merit: each conclusion is traceable, one knows exactly why it decided. Where a neural network is a black box, the expert system is a glass box · at the cost of less flexibility.",
+  "regard_fr": "Le système expert, souvent considéré comme dépassé, garde une vertu que l'IA moderne peine à offrir : la transparence totale. Pour les domaines où la traçabilité prime · droit, santé, décisions réglementées · combiner la rigueur symbolique et la puissance générative est une voie d'avenir, pas un retour en arrière.",
+  "regard_en": "The expert system, often considered outdated, retains a virtue modern AI struggles to offer: total transparency. For domains where traceability prevails · law, health, regulated decisions · combining symbolic rigour with generative power is a path forward, not a step back.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "modeles-symboliques",
+    "hiver-ia",
+    "explicabilite",
+    "graphe-connaissances"
+  ],
+  "sources": [
+    {
+      "titre": "Histoire des systèmes experts"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

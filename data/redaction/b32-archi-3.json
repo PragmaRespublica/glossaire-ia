@@ -1,0 +1,122 @@
+{
+  "agi": {
+    "sous_titre_fr": "Artificial General Intelligence (AGI)",
+    "sous_titre_en": "Intelligence artificielle générale",
+    "definition_fr": "Hypothétique IA capable d'égaler l'intelligence humaine dans l'ensemble des domaines, avec la même polyvalence et capacité d'adaptation. Objet de débats intenses, l'AGI n'existe pas aujourd'hui · les IA actuelles, même impressionnantes, restent spécialisées. Sa définition même fait l'objet de désaccords profonds entre chercheurs.",
+    "definition_en": "A hypothetical AI able to match human intelligence across all domains, with the same versatility and adaptability. The object of intense debate, AGI does not exist today · current AIs, however impressive, remain specialised. Its very definition is the subject of deep disagreements among researchers.",
+    "exemple_fr": "Un modèle qui écrit du code brillant peut échouer sur un raisonnement enfantin de bon sens physique. C'est le propre des IA actuelles : puissantes mais étroites. L'AGI · une intelligence aussi souple qu'un humain sur tous les terrains · reste une projection, dont même l'arrivée et la définition divisent les experts.",
+    "exemple_en": "A model that writes brilliant code can fail on a childlike piece of common-sense physical reasoning. That is the nature of current AIs: powerful but narrow. AGI · an intelligence as flexible as a human across all terrains · remains a projection, whose arrival and even definition divide the experts.",
+    "regard_fr": "L'AGI est autant un concept marketing qu'une hypothèse scientifique : brandir sa promesse (ou sa menace) sert à lever des fonds et à capter l'attention. Face à ce terme, la lucidité consiste à distinguer les capacités réelles des IA d'aujourd'hui des spéculations sur celles de demain. Le présent mérite plus d'attention que la prophétie.",
+    "regard_en": "AGI is as much a marketing concept as a scientific hypothesis: brandishing its promise (or threat) serves to raise funds and capture attention. Facing this term, lucidity means distinguishing the real capabilities of today's AIs from speculations about tomorrow's. The present deserves more attention than prophecy.",
+    "termes_lies": ["superintelligence", "singularite", "ia-faible-forte", "test-turing"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (intelligence artificielle forte)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "ia-faible-forte": {
+    "sous_titre_fr": "Narrow AI and strong AI",
+    "sous_titre_en": "IA faible et IA forte",
+    "definition_fr": "Distinction classique entre l'IA faible (spécialisée dans une tâche précise, sans conscience ni compréhension réelle) et l'IA forte (hypothétique, dotée d'une intelligence générale comparable à l'humain). Toutes les IA existantes sont des IA faibles · même les plus impressionnantes. L'IA forte relève encore de la théorie et du débat.",
+    "definition_en": "A classic distinction between narrow AI (specialised in a specific task, without consciousness or real understanding) and strong AI (hypothetical, endowed with general intelligence comparable to humans). All existing AIs are narrow AIs · even the most impressive. Strong AI still belongs to theory and debate.",
+    "exemple_fr": "ChatGPT, aussi bluffant soit-il, est une IA faible : il excelle à produire du texte, mais ne « comprend » pas le monde et n'a pas de but propre. Le confondre avec une IA forte · une intelligence consciente · est l'erreur d'interprétation la plus répandue, entretenue par la fluidité trompeuse de ses réponses.",
+    "exemple_en": "ChatGPT, however impressive, is a narrow AI: it excels at producing text, but does not \"understand\" the world and has no purpose of its own. Confusing it with a strong AI · a conscious intelligence · is the most widespread interpretive error, sustained by the deceptive fluency of its answers.",
+    "regard_fr": "La distinction IA faible / IA forte est la boussole anti-fantasme la plus utile : rappeler que toutes nos IA sont « faibles » désamorce à la fois les peurs de science-fiction et les promesses délirantes. Ce que vous utilisez est un outil spécialisé et puissant · pas un être qui pense. Le garder à l'esprit est un acte de lucidité.",
+    "regard_en": "The narrow AI / strong AI distinction is the most useful anti-fantasy compass: recalling that all our AIs are \"narrow\" defuses both science-fiction fears and delirious promises. What you use is a specialised, powerful tool · not a being that thinks. Keeping this in mind is an act of lucidity.",
+    "termes_lies": ["agi", "intelligence-artificielle", "anthropomorphisme", "test-turing"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (intelligence artificielle faible / forte)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "test-turing": {
+    "sous_titre_fr": "Turing test",
+    "sous_titre_en": "Test de Turing",
+    "definition_fr": "Épreuve proposée par Alan Turing en 1950 : une machine réussit si un humain, en dialoguant avec elle à l'aveugle, ne peut la distinguer d'un autre humain. Longtemps horizon symbolique de l'IA, le test de Turing est aujourd'hui largement dépassé par les LLM · sans que cela signifie qu'ils « pensent » ou « comprennent ».",
+    "definition_en": "A test proposed by Alan Turing in 1950: a machine passes if a human, conversing with it blindly, cannot distinguish it from another human. Long the symbolic horizon of AI, the Turing test is today largely surpassed by LLMs · without this meaning they \"think\" or \"understand\".",
+    "exemple_fr": "Les assistants modernes passent souvent le test de Turing : en conversation, on peut les prendre pour des humains. Mais cela prouve qu'ils imitent bien le langage, pas qu'ils pensent. Le test mesure l'apparence de l'intelligence, pas sa réalité · une nuance que son succès actuel rend plus cruciale que jamais.",
+    "exemple_en": "Modern assistants often pass the Turing test: in conversation, they can be mistaken for humans. But this proves they imitate language well, not that they think. The test measures the appearance of intelligence, not its reality · a nuance that its current success makes more crucial than ever.",
+    "regard_fr": "Le test de Turing, en étant franchi, a révélé sa propre limite : imiter la conversation humaine n'est pas penser. Sa réussite par les LLM devrait nous rendre plus prudents, pas moins : plus une machine paraît humaine, plus il faut se rappeler qu'elle ne l'est pas. L'apparence n'est pas l'essence.",
+    "regard_en": "The Turing test, by being passed, revealed its own limit: imitating human conversation is not thinking. Its success by LLMs should make us more cautious, not less: the more a machine appears human, the more we must remember it is not. Appearance is not essence.",
+    "termes_lies": ["ia-faible-forte", "anthropomorphisme", "agi", "intelligence-artificielle"],
+    "sources": [{"titre": "Alan Turing · Computing Machinery and Intelligence (1950)"}]
+  },
+  "hiver-ia": {
+    "sous_titre_fr": "AI winters",
+    "sous_titre_en": "Hivers de l'IA",
+    "definition_fr": "Périodes historiques (notamment dans les années 1970 et 1980-90) où les promesses excessives de l'IA, non tenues, ont provoqué une chute des financements et de l'intérêt. Les hivers de l'IA rappellent que le domaine a déjà connu des cycles d'emballement et de désillusion · une mémoire utile face à l'euphorie actuelle.",
+    "definition_en": "Historical periods (notably in the 1970s and 1980s-90s) when AI's excessive, unmet promises caused a collapse in funding and interest. The AI winters recall that the field has already known cycles of hype and disillusion · a useful memory in the face of the current euphoria.",
+    "exemple_fr": "Dans les années 1980, les « systèmes experts » devaient révolutionner l'entreprise. La déception a suivi, et les financements se sont taris : un hiver de l'IA. Ceux qui ont vécu ces cycles gardent une prudence salutaire face aux promesses actuelles · l'histoire enseigne que l'emballement précède souvent la correction.",
+    "exemple_en": "In the 1980s, \"expert systems\" were to revolutionise business. Disappointment followed, and funding dried up: an AI winter. Those who lived through these cycles keep a salutary caution towards current promises · history teaches that hype often precedes correction.",
+    "regard_fr": "La mémoire des hivers de l'IA est un antidote précieux à l'euphorie ambiante. Non que l'IA d'aujourd'hui soit un mirage · ses réussites sont réelles · mais l'histoire invite à distinguer les capacités démontrées des promesses spéculatives. Investir dans le concret plutôt que dans le hype est une leçon de ces cycles passés.",
+    "regard_en": "The memory of the AI winters is a precious antidote to the ambient euphoria. Not that today's AI is a mirage · its successes are real · but history invites distinguishing demonstrated capabilities from speculative promises. Investing in the concrete rather than the hype is a lesson from these past cycles.",
+    "termes_lies": ["perceptron", "systeme-expert", "bulle-ia", "intelligence-artificielle"],
+    "sources": [{"titre": "Histoire de l'intelligence artificielle"}]
+  },
+  "systeme-expert": {
+    "sous_titre_fr": "Expert system",
+    "sous_titre_en": "Système expert",
+    "definition_fr": "Programme d'IA reproduisant le raisonnement d'un expert dans un domaine précis à partir de règles explicites (« si... alors... ») et d'une base de connaissances. Emblématique de l'IA symbolique des années 1980, le système expert offre une traçabilité totale · chaque décision s'explique par les règles appliquées, à l'inverse des réseaux de neurones.",
+    "definition_en": "An AI program reproducing an expert's reasoning in a specific domain from explicit rules (\"if... then...\") and a knowledge base. Emblematic of 1980s symbolic AI, the expert system offers total traceability · each decision is explained by the applied rules, unlike neural networks.",
+    "exemple_fr": "Un système expert d'aide au diagnostic applique des centaines de règles médicales explicites. Son grand mérite : chaque conclusion est traçable, on sait exactement pourquoi il a décidé. Là où un réseau de neurones est une boîte noire, le système expert est une boîte de verre · au prix d'une souplesse moindre.",
+    "exemple_en": "An expert system for diagnostic support applies hundreds of explicit medical rules. Its great merit: each conclusion is traceable, one knows exactly why it decided. Where a neural network is a black box, the expert system is a glass box · at the cost of less flexibility.",
+    "regard_fr": "Le système expert, souvent considéré comme dépassé, garde une vertu que l'IA moderne peine à offrir : la transparence totale. Pour les domaines où la traçabilité prime · droit, santé, décisions réglementées · combiner la rigueur symbolique et la puissance générative est une voie d'avenir, pas un retour en arrière.",
+    "regard_en": "The expert system, often considered outdated, retains a virtue modern AI struggles to offer: total transparency. For domains where traceability prevails · law, health, regulated decisions · combining symbolic rigour with generative power is a path forward, not a step back.",
+    "termes_lies": ["modeles-symboliques", "hiver-ia", "explicabilite", "graphe-connaissances"],
+    "sources": [{"titre": "Histoire des systèmes experts"}]
+  },
+  "capacites-emergentes": {
+    "sous_titre_fr": "Emergent capabilities",
+    "sous_titre_en": "Capacités émergentes",
+    "definition_fr": "Aptitudes qui apparaissent brusquement dans un modèle à partir d'une certaine taille, sans avoir été explicitement programmées ni présentes dans les modèles plus petits : raisonnement, traduction, résolution de problèmes. Les capacités émergentes fascinent et interrogent · elles rendent le comportement des grands modèles en partie imprévisible.",
+    "definition_en": "Abilities that appear abruptly in a model beyond a certain size, without having been explicitly programmed or present in smaller models: reasoning, translation, problem-solving. Emergent capabilities fascinate and puzzle · they make large models' behaviour partly unpredictable.",
+    "exemple_fr": "Un modèle trop petit échoue à une tâche de raisonnement ; passé un certain seuil de taille, la capacité apparaît soudainement, sans qu'on l'ait programmée. Cette émergence par l'échelle est l'un des phénomènes les plus intrigants de l'IA · et l'un des plus discutés, certains y voyant un artefact de mesure.",
+    "exemple_en": "A model too small fails a reasoning task; beyond a certain size threshold, the capability appears suddenly, without being programmed. This emergence through scale is one of AI's most intriguing phenomena · and one of the most debated, some seeing it as a measurement artefact.",
+    "regard_fr": "Les capacités émergentes ont un revers inquiétant : si des aptitudes apparaissent sans qu'on les ait voulues, des comportements indésirables peuvent aussi surgir sans prévenir. Cette imprévisibilité est un argument fort pour l'évaluation rigoureuse et le red teaming des grands modèles · on ne maîtrise bien que ce qu'on a testé.",
+    "regard_en": "Emergent capabilities have a worrying flip side: if abilities appear unintentionally, undesirable behaviours can also arise without warning. This unpredictability is a strong argument for rigorous evaluation and red teaming of large models · one only masters well what one has tested.",
+    "termes_lies": ["lois-echelle", "modele-fondation", "red-teaming", "alignement-ia"],
+    "sources": [{"titre": "Wei et al. · Emergent Abilities of Large Language Models"}]
+  },
+  "lois-echelle": {
+    "sous_titre_fr": "Scaling laws",
+    "sous_titre_en": "Lois d'échelle",
+    "definition_fr": "Relations empiriques montrant comment la performance d'un modèle s'améliore de façon prévisible avec l'augmentation de sa taille, de ses données et de sa puissance de calcul. Les lois d'échelle ont guidé la course aux modèles toujours plus grands · mais elles atteignent des rendements décroissants, et leur limite fait débat.",
+    "definition_en": "Empirical relations showing how a model's performance improves predictably with increases in its size, data and compute. Scaling laws have driven the race to ever-larger models · but they reach diminishing returns, and their limit is debated.",
+    "exemple_fr": "Les lois d'échelle ont justifié des investissements colossaux : plus gros modèle, plus de données, plus de calcul, meilleure performance. Mais le gain par euro investi diminue, et doubler la taille ne double plus les capacités. La question qui agite l'industrie : jusqu'où cette recette tiendra-t-elle avant de s'essouffler ?",
+    "exemple_en": "Scaling laws justified colossal investments: bigger model, more data, more compute, better performance. But the gain per euro invested diminishes, and doubling the size no longer doubles capabilities. The question stirring the industry: how far will this recipe hold before running out of steam?",
+    "regard_fr": "Les lois d'échelle ont nourri l'idée qu'il suffisait de « faire plus gros ». Mais cette fuite en avant a un coût environnemental et économique croissant, pour des gains décroissants. L'avenir de l'IA pourrait moins tenir à la taille brute qu'à l'efficience · une bonne nouvelle pour la sobriété et pour les acteurs plus modestes.",
+    "regard_en": "Scaling laws fed the idea that it was enough to \"go bigger\". But this headlong rush has a growing environmental and economic cost, for diminishing gains. AI's future may hinge less on raw size than on efficiency · good news for frugality and for more modest players.",
+    "termes_lies": ["capacites-emergentes", "parametres", "consommation-electrique", "ia-frugale"],
+    "sources": [{"titre": "Kaplan et al. · Scaling Laws for Neural Language Models"}]
+  },
+  "modele-raisonnement": {
+    "sous_titre_fr": "Reasoning model",
+    "sous_titre_en": "Modèle de raisonnement",
+    "definition_fr": "Génération de modèles entraînés à « réfléchir » avant de répondre, en produisant une chaîne de raisonnement interne parfois longue, pour améliorer leur performance sur les problèmes complexes. Les modèles de raisonnement excellent en mathématiques, logique et code · au prix d'une latence et d'un coût accrus, à réserver aux tâches qui le justifient.",
+    "definition_en": "A generation of models trained to \"think\" before answering, producing a sometimes long internal reasoning chain, to improve their performance on complex problems. Reasoning models excel at mathematics, logic and code · at the cost of increased latency and cost, to reserve for tasks that warrant it.",
+    "exemple_fr": "Sur un problème mathématique complexe, un modèle de raisonnement prend le temps de décomposer, tester, vérifier · et trouve la bonne réponse là où un modèle standard échouerait. Mais pour résumer un email, ce même modèle serait un gaspillage. La règle : le modèle de raisonnement pour les problèmes durs, un modèle standard pour le reste.",
+    "exemple_en": "On a complex mathematical problem, a reasoning model takes time to decompose, test, verify · and finds the right answer where a standard model would fail. But to summarise an email, this same model would be wasteful. The rule: the reasoning model for hard problems, a standard model for the rest.",
+    "regard_fr": "Les modèles de raisonnement ouvrent une piste plus sobre que la course à la taille : mieux vaut un modèle qui réfléchit plus longtemps quand il le faut qu'un géant qui dépense tout le temps. Mais leur coût invite au discernement · ne mobilisez cette puissance que pour les problèmes qui l'exigent réellement.",
+    "regard_en": "Reasoning models open a more frugal path than the race for size: better a model that thinks longer when needed than a giant that spends all the time. But their cost invites discernment · only mobilise this power for problems that truly require it.",
+    "termes_lies": ["raisonnement-etendu", "chaine-pensee", "gpqa", "latence"],
+    "sources": [{"titre": "Documentation des modèles de raisonnement (reasoning models)"}]
+  },
+  "modeles-monde": {
+    "sous_titre_fr": "World models",
+    "sous_titre_en": "Modèles du monde",
+    "definition_fr": "Modèles cherchant à apprendre une représentation interne du fonctionnement du monde · physique, causalité, conséquences des actions · pour prédire et planifier. Considérés par certains chercheurs comme une voie vers une IA plus robuste et plus proche de la compréhension, les modèles du monde sont un domaine de recherche actif et prometteur.",
+    "definition_en": "Models seeking to learn an internal representation of how the world works · physics, causality, consequences of actions · to predict and plan. Considered by some researchers as a path towards more robust AI closer to understanding, world models are an active and promising research field.",
+    "exemple_fr": "Un modèle du monde entraîné sur des vidéos apprend qu'un objet lâché tombe, qu'un verre qui se brise ne se reconstitue pas. Cette « intuition physique » lui permet d'anticiper des situations inédites · une capacité que les modèles de langage, qui manipulent des mots sans modèle du réel, peinent à égaler.",
+    "exemple_en": "A world model trained on videos learns that a dropped object falls, that a shattered glass does not reassemble. This \"physical intuition\" lets it anticipate novel situations · a capability that language models, which manipulate words without a model of reality, struggle to match.",
+    "regard_fr": "Les modèles du monde touchent à la question la plus profonde de l'IA : peut-elle « comprendre » plutôt que corréler ? Un modèle qui aurait une représentation causale du monde serait qualitativement différent des LLM actuels. C'est une piste de recherche à suivre · elle pourrait redéfinir ce dont l'IA est capable.",
+    "regard_en": "World models touch AI's deepest question: can it \"understand\" rather than correlate? A model with a causal representation of the world would be qualitatively different from current LLMs. It is a research path to watch · it could redefine what AI is capable of.",
+    "termes_lies": ["correlation-causalite", "robotique-ia", "capacites-emergentes", "multimodal"],
+    "sources": [{"titre": "Recherches sur les world models"}]
+  },
+  "correlation-causalite": {
+    "sous_titre_fr": "Correlation vs causation",
+    "sous_titre_en": "Corrélation et causalité",
+    "definition_fr": "Distinction fondamentale : une corrélation est un lien statistique entre deux variables, une causalité un lien de cause à effet. L'IA statistique excelle à trouver des corrélations, mais ne saisit pas la causalité · elle peut confondre « les deux augmentent ensemble » avec « l'un provoque l'autre ». Une limite lourde de conséquences.",
+    "definition_en": "A fundamental distinction: a correlation is a statistical link between two variables, causation a cause-and-effect link. Statistical AI excels at finding correlations, but does not grasp causation · it can confuse \"both rise together\" with \"one causes the other\". A limit with heavy consequences.",
+    "exemple_fr": "Un modèle observe que les ventes de glaces et les noyades augmentent ensemble, et pourrait « conclure » à un lien. La vraie cause commune est la chaleur estivale. L'IA voit la corrélation, pas la causalité. Se fier aveuglément à ses associations, sans esprit critique, mène à des décisions absurdes voire dangereuses.",
+    "exemple_en": "A model observes that ice cream sales and drownings rise together, and might \"conclude\" a link. The real common cause is summer heat. AI sees the correlation, not the causation. Blindly trusting its associations, without critical thinking, leads to absurd or even dangerous decisions.",
+    "regard_fr": "La confusion entre corrélation et causalité est le piège intellectuel majeur de l'ère des données. L'IA, machine à corrélations, ne le résout pas · elle l'amplifie à grande échelle. Garder cette distinction à l'esprit est une compétence critique essentielle pour ne pas prendre les associations d'un modèle pour des vérités causales.",
+    "regard_en": "The confusion between correlation and causation is the major intellectual trap of the data era. AI, a correlation machine, does not solve it · it amplifies it at scale. Keeping this distinction in mind is an essential critical skill to avoid taking a model's associations for causal truths.",
+    "termes_lies": ["exploration-donnees", "biais-algorithmique", "modeles-monde", "science-donnees"],
+    "sources": [{"titre": "Littérature sur l'inférence causale"}]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Test de Turing",
+  "terme_en": "Turing test",
+  "sous_titre_fr": "Turing test",
+  "sous_titre_en": "Test de Turing",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Épreuve proposée par Alan Turing en 1950 : une machine réussit si un humain, en dialoguant avec elle à l'aveugle, ne peut la distinguer d'un autre humain. Longtemps horizon symbolique de l'IA, le test de Turing est aujourd'hui largement dépassé par les LLM · sans que cela signifie qu'ils « pensent » ou « comprennent ».",
+  "definition_en": "A test proposed by Alan Turing in 1950: a machine passes if a human, conversing with it blindly, cannot distinguish it from another human. Long the symbolic horizon of AI, the Turing test is today largely surpassed by LLMs · without this meaning they \"think\" or \"understand\".",
+  "exemple_fr": "Les assistants modernes passent souvent le test de Turing : en conversation, on peut les prendre pour des humains. Mais cela prouve qu'ils imitent bien le langage, pas qu'ils pensent. Le test mesure l'apparence de l'intelligence, pas sa réalité · une nuance que son succès actuel rend plus cruciale que jamais.",
+  "exemple_en": "Modern assistants often pass the Turing test: in conversation, they can be mistaken for humans. But this proves they imitate language well, not that they think. The test measures the appearance of intelligence, not its reality · a nuance that its current success makes more crucial than ever.",
+  "regard_fr": "Le test de Turing, en étant franchi, a révélé sa propre limite : imiter la conversation humaine n'est pas penser. Sa réussite par les LLM devrait nous rendre plus prudents, pas moins : plus une machine paraît humaine, plus il faut se rappeler qu'elle ne l'est pas. L'apparence n'est pas l'essence.",
+  "regard_en": "The Turing test, by being passed, revealed its own limit: imitating human conversation is not thinking. Its success by LLMs should make us more cautious, not less: the more a machine appears human, the more we must remember it is not. Appearance is not essence.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-faible-forte",
+    "anthropomorphisme",
+    "agi",
+    "intelligence-artificielle"
+  ],
+  "sources": [
+    {
+      "titre": "Alan Turing · Computing Machinery and Intelligence (1950)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,122 @@
+{
+  "classification": {
+    "sous_titre_fr": "Classification",
+    "sous_titre_en": "Classification",
+    "definition_fr": "Tâche consistant à attribuer une catégorie à une donnée : cet email est-il un spam ? ce document relève-t-il des RH ou de la finance ? cette image montre-t-elle un défaut ? La classification est l'une des tâches les plus fondamentales et les plus utiles de l'IA · souvent résolue par des modèles sobres, sans recours à l'IA générative.",
+    "definition_en": "The task of assigning a category to a datum: is this email spam? does this document belong to HR or finance? does this image show a defect? Classification is one of AI's most fundamental and useful tasks · often solved by frugal models, without recourse to generative AI.",
+    "exemple_fr": "Trier automatiquement les demandes entrantes d'un service client par catégorie est un problème de classification. Un modèle léger, entraîné sur des exemples, le résout parfaitement · rapide, sobre, explicable. Sortir un grand LLM pour cette tâche serait un gaspillage. La classification est le cheval de trait discret de l'IA en entreprise.",
+    "exemple_en": "Automatically sorting a customer service's incoming requests by category is a classification problem. A lightweight model, trained on examples, solves it perfectly · fast, frugal, explainable. Bringing out a large LLM for this task would be wasteful. Classification is the discreet workhorse of enterprise AI.",
+    "regard_fr": "La classification rappelle qu'une grande partie de la valeur de l'IA se joue loin des projecteurs des LLM. Pour ranger, trier, catégoriser · l'essentiel du travail administratif · un modèle classique bat souvent l'IA générative. Le bon réflexe : identifier si votre problème est une simple classification avant de sortir l'artillerie lourde.",
+    "regard_en": "Classification recalls that much of AI's value plays out far from the LLM spotlight. To file, sort, categorise · the bulk of administrative work · a classic model often beats generative AI. The right reflex: identify whether your problem is a simple classification before rolling out the heavy artillery.",
+    "termes_lies": ["regression", "clustering", "modele-discriminatif", "ia-non-generative"],
+    "sources": [{"titre": "CNIL · Glossaire IA (classification)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "regression": {
+    "sous_titre_fr": "Regression",
+    "sous_titre_en": "Régression",
+    "definition_fr": "Tâche consistant à prédire une valeur numérique continue plutôt qu'une catégorie : un prix, une température, une durée, une demande. La régression est, avec la classification, l'un des deux piliers de l'apprentissage supervisé · omniprésente en prévision, en finance et en optimisation, souvent avec des méthodes statistiques simples et robustes.",
+    "definition_en": "The task of predicting a continuous numeric value rather than a category: a price, a temperature, a duration, a demand. Regression is, with classification, one of the two pillars of supervised learning · ubiquitous in forecasting, finance and optimisation, often with simple, robust statistical methods.",
+    "exemple_fr": "Prévoir la demande de produits pour la semaine à venir est un problème de régression. Un modèle prédit un nombre, pas une catégorie. Une régression bien conçue, sur de bonnes données, guide les commandes et évite ruptures et surstocks · sans avoir besoin de la moindre IA générative. L'utile n'est pas toujours spectaculaire.",
+    "exemple_en": "Forecasting product demand for the coming week is a regression problem. A model predicts a number, not a category. A well-designed regression, on good data, guides orders and avoids shortages and overstocks · with no need for any generative AI. The useful is not always spectacular.",
+    "regard_fr": "La régression, discrète et ancienne, résout une immense part des problèmes de prévision en entreprise · pour un coût dérisoire comparé aux grands modèles. Avant de rêver d'IA générative pour prédire un chiffre, souvenez-vous qu'une bonne régression, sobre et explicable, est souvent la réponse la plus intelligente.",
+    "regard_en": "Regression, discreet and old, solves a huge share of business forecasting problems · at a trivial cost compared with large models. Before dreaming of generative AI to predict a number, remember that a good regression, frugal and explainable, is often the smartest answer.",
+    "termes_lies": ["classification", "modele-discriminatif", "ia-non-generative", "science-donnees"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (modèle de régression linéaire)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "clustering": {
+    "sous_titre_fr": "Clustering, partitionnement",
+    "sous_titre_en": "Clustering",
+    "definition_fr": "Technique d'apprentissage non supervisé regroupant automatiquement des données similaires en « grappes » (clusters), sans catégories prédéfinies. Le clustering révèle des structures cachées : segments de clients, familles de documents, groupes de comportements. Un outil d'exploration puissant · à condition d'interpréter les groupes qu'il produit.",
+    "definition_en": "An unsupervised learning technique automatically grouping similar data into \"clusters\", without predefined categories. Clustering reveals hidden structures: customer segments, document families, behaviour groups. A powerful exploration tool · provided the groups it produces are interpreted.",
+    "exemple_fr": "Une équipe marketing applique le clustering à sa base clients et découvre cinq segments naturels qu'elle n'avait pas anticipés. Chacun appelle une approche différente. Le clustering a fait émerger une structure que personne n'avait explicitement cherchée · mais c'est l'humain qui donne un sens et un nom à chaque groupe.",
+    "exemple_en": "A marketing team applies clustering to its customer base and discovers five natural segments it had not anticipated. Each calls for a different approach. Clustering surfaced a structure no one had explicitly sought · but it is the human who gives meaning and a name to each group.",
+    "regard_fr": "Le clustering est un révélateur, pas un oracle : il montre des regroupements, mais ne dit pas ce qu'ils signifient. La tentation est de prendre ses grappes pour des vérités. Or un clustering mal interprété peut inventer des segments artificiels. L'outil propose des structures ; le jugement humain en fait du sens.",
+    "regard_en": "Clustering is a revealer, not an oracle: it shows groupings, but does not say what they mean. The temptation is to take its clusters for truths. But a misinterpreted clustering can invent artificial segments. The tool proposes structures; human judgment makes sense of them.",
+    "termes_lies": ["apprentissage-non-supervise", "classification", "reduction-dimension", "exploration-donnees"],
+    "sources": [{"titre": "Google · Machine Learning Glossary (clustering)", "url": "https://developers.google.com/machine-learning/glossary"}]
+  },
+  "detection-anomalies": {
+    "sous_titre_fr": "Anomaly detection",
+    "sous_titre_en": "Détection d'anomalies",
+    "definition_fr": "Technique repérant les données qui s'écartent significativement de la normale : transaction frauduleuse, panne imminente, intrusion, défaut de fabrication. Souvent fondée sur de l'IA non générative, la détection d'anomalies est l'un des usages de l'IA au retour sur investissement le plus tangible en sécurité, industrie et finance.",
+    "definition_en": "A technique spotting data that deviates significantly from the norm: fraudulent transaction, imminent breakdown, intrusion, manufacturing defect. Often based on non-generative AI, anomaly detection is one of AI's uses with the most tangible return on investment in security, industry and finance.",
+    "exemple_fr": "Un système surveille les paramètres de machines industrielles et alerte dès qu'un capteur s'écarte de son comportement habituel · signe d'une panne imminente. La maintenance intervient avant la casse. Cette détection d'anomalies, sobre et spécialisée, évite des arrêts coûteux · un usage de l'IA aussi discret qu'efficace.",
+    "exemple_en": "A system monitors industrial machines' parameters and alerts as soon as a sensor deviates from its usual behaviour · a sign of imminent breakdown. Maintenance intervenes before the failure. This anomaly detection, frugal and specialised, avoids costly stoppages · an AI use as discreet as it is effective.",
+    "regard_fr": "La détection d'anomalies illustre l'IA la plus utile et la moins bavarde : elle ne génère rien, elle surveille et alerte. Pour la fraude, la maintenance, la cybersécurité, elle offre des gains concrets sans le battage des LLM. Un rappel que la valeur de l'IA se mesure aux problèmes résolus, pas au spectacle produit.",
+    "regard_en": "Anomaly detection illustrates the most useful and least talkative AI: it generates nothing, it monitors and alerts. For fraud, maintenance, cybersecurity, it offers concrete gains without the LLM hype. A reminder that AI's value is measured by problems solved, not by the spectacle produced.",
+    "termes_lies": ["ia-non-generative", "fraude-ia", "monitoring", "classification"],
+    "sources": [{"titre": "Google · Machine Learning Glossary (anomaly detection)", "url": "https://developers.google.com/machine-learning/glossary"}]
+  },
+  "systeme-recommandation": {
+    "sous_titre_fr": "Recommender system",
+    "sous_titre_en": "Algorithme de recommandation",
+    "definition_fr": "Système suggérant à un utilisateur des contenus, produits ou services susceptibles de l'intéresser, à partir de son comportement et de celui d'utilisateurs similaires. Omniprésents (commerce, streaming, réseaux sociaux), les systèmes de recommandation façonnent nos choix · d'où leur pouvoir, et les questions de bulle de filtre et de manipulation.",
+    "definition_en": "A system suggesting to a user content, products or services likely to interest them, based on their behaviour and that of similar users. Ubiquitous (commerce, streaming, social networks), recommender systems shape our choices · hence their power, and the questions of filter bubble and manipulation.",
+    "exemple_fr": "Un site de streaming recommande des séries selon vos visionnages passés · pratique. Mais le même mécanisme, optimisé pour maximiser le temps passé, peut vous enfermer dans une bulle et exploiter vos biais. Le système de recommandation est neutre en apparence, orienté en réalité par l'objectif qu'on lui assigne.",
+    "exemple_en": "A streaming site recommends shows based on your past viewing · handy. But the same mechanism, optimised to maximise time spent, can enclose you in a bubble and exploit your biases. The recommender system is neutral in appearance, oriented in reality by the objective assigned to it.",
+    "regard_fr": "Le système de recommandation est l'IA la plus présente dans nos vies · et la plus sous-estimée. Il ne se contente pas de refléter nos goûts, il les façonne. Reprendre le pouvoir passe par la conscience de son influence, et par les droits nouveaux (DSA) d'accéder à des recommandations non fondées sur le profilage.",
+    "regard_en": "The recommender system is the AI most present in our lives · and the most underestimated. It does not merely reflect our tastes, it shapes them. Taking back control means being aware of its influence, and using the new rights (DSA) to access recommendations not based on profiling.",
+    "termes_lies": ["bulle-filtre", "dsa-dma", "biais-algorithmique", "ia-marketing"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (algorithme de recommandation)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "nlp": {
+    "sous_titre_fr": "Natural Language Processing (NLP)",
+    "sous_titre_en": "Traitement automatique du langage naturel",
+    "definition_fr": "Champ de l'IA visant à faire traiter, comprendre et générer le langage humain par des machines : traduction, résumé, extraction, analyse de sentiment, dialogue. Le TALN a connu une révolution avec les transformers et les grands modèles de langage · passant de systèmes rigides à des modèles d'une souplesse inédite.",
+    "definition_en": "The field of AI aiming to have machines process, understand and generate human language: translation, summarisation, extraction, sentiment analysis, dialogue. NLP underwent a revolution with transformers and large language models · moving from rigid systems to models of unprecedented flexibility.",
+    "exemple_fr": "Extraire automatiquement les clauses clés de milliers de contrats, analyser le ton de millions d'avis clients, traduire à la volée · autant de tâches de TALN aujourd'hui banalisées, hier impossibles. Le langage, longtemps la forteresse de l'intelligence humaine, est devenu un terrain où l'IA excelle · avec les limites qu'on connaît.",
+    "exemple_en": "Automatically extracting key clauses from thousands of contracts, analysing the tone of millions of customer reviews, translating on the fly · all NLP tasks now commonplace, once impossible. Language, long the fortress of human intelligence, has become a terrain where AI excels · with the limits we know.",
+    "regard_fr": "Le TALN est le domaine où l'IA a le plus spectaculairement progressé · et le plus trompeusement. Manipuler le langage avec fluidité donne l'illusion de le comprendre. Or l'IA excelle à traiter la forme du langage sans en saisir le sens comme un humain. Cette nuance est au cœur d'un usage lucide des LLM.",
+    "regard_en": "NLP is the domain where AI has progressed most spectacularly · and most deceptively. Manipulating language fluently gives the illusion of understanding it. But AI excels at processing the form of language without grasping its meaning as a human does. This nuance is at the heart of a lucid use of LLMs.",
+    "termes_lies": ["llm", "transformer", "traduction-automatique", "analyse-sentiments"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (traitement automatique des langues)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "vision-ordinateur": {
+    "sous_titre_fr": "Computer vision",
+    "sous_titre_en": "Vision par ordinateur",
+    "definition_fr": "Champ de l'IA visant à faire analyser et interpréter des images et des vidéos par des machines : reconnaissance d'objets, détection, segmentation, description. Pilier de nombreuses applications · contrôle qualité, imagerie médicale, véhicules autonomes, sécurité · la vision par ordinateur soulève aussi de forts enjeux de vie privée et de surveillance.",
+    "definition_en": "The field of AI aiming to have machines analyse and interpret images and videos: object recognition, detection, segmentation, description. A pillar of many applications · quality control, medical imaging, autonomous vehicles, security · computer vision also raises strong privacy and surveillance stakes.",
+    "exemple_fr": "Sur une chaîne de production, la vision par ordinateur inspecte chaque pièce et détecte les défauts invisibles à l'œil nu, à grande cadence. Gain de qualité majeur. Mais la même technologie, appliquée à la reconnaissance faciale dans l'espace public, bascule dans un tout autre régime juridique et éthique. L'usage fait la frontière.",
+    "exemple_en": "On a production line, computer vision inspects each part and detects flaws invisible to the naked eye, at high speed. A major quality gain. But the same technology, applied to facial recognition in public spaces, tips into an entirely different legal and ethical regime. The use makes the boundary.",
+    "regard_fr": "La vision par ordinateur est un cas d'école de la dualité de l'IA : la même technique inspecte des pièces ou surveille des foules. La question n'est jamais « que peut-elle faire ? » mais « à quoi la destine-t-on, et sous quel cadre ? ». Le contrôle qualité et la surveillance de masse partagent une technologie, pas une éthique.",
+    "regard_en": "Computer vision is a textbook case of AI's duality: the same technique inspects parts or surveils crowds. The question is never \"what can it do?\" but \"what is it destined for, and under what framework?\". Quality control and mass surveillance share a technology, not an ethics.",
+    "termes_lies": ["deepfake", "reconnaissance-faciale", "generation-images", "systeme-haut-risque"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (vision par ordinateur)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "analyse-sentiments": {
+    "sous_titre_fr": "Sentiment analysis",
+    "sous_titre_en": "Analyse de sentiments",
+    "definition_fr": "Technique de TALN déterminant la tonalité émotionnelle d'un texte : positif, négatif, neutre, voire des émotions plus fines. Utilisée pour analyser avis clients, réseaux sociaux, retours d'enquête, l'analyse de sentiments donne une lecture à grande échelle de l'opinion · avec les limites de toute réduction du langage humain à des étiquettes.",
+    "definition_en": "An NLP technique determining the emotional tone of a text: positive, negative, neutral, or even finer emotions. Used to analyse customer reviews, social media, survey responses, sentiment analysis gives a large-scale reading of opinion · with the limits of any reduction of human language to labels.",
+    "exemple_fr": "Une marque analyse automatiquement le sentiment de dizaines de milliers d'avis pour suivre sa réputation en temps réel. Utile pour repérer une crise naissante. Mais l'ironie, le second degré, le contexte culturel échappent souvent à l'analyse · un « super, encore une panne » peut être classé positif. L'outil dégrossit, il ne remplace pas la lecture.",
+    "exemple_en": "A brand automatically analyses the sentiment of tens of thousands of reviews to track its reputation in real time. Useful for spotting an emerging crisis. But irony, second-degree humour, cultural context often escape the analysis · a \"great, another outage\" can be classified positive. The tool roughs out, it does not replace reading.",
+    "regard_fr": "L'analyse de sentiments donne des tendances utiles à grande échelle · à condition de ne pas confondre l'étiquette avec la vérité. Réduire l'émotion humaine à « positif / négatif » perd toute la nuance, l'ironie, l'ambivalence. C'est un instrument de mesure grossier · précieux pour les masses, trompeur au cas par cas.",
+    "regard_en": "Sentiment analysis gives useful trends at scale · provided one does not confuse the label with the truth. Reducing human emotion to \"positive / negative\" loses all nuance, irony, ambivalence. It is a coarse measuring instrument · precious for masses, misleading case by case.",
+    "termes_lies": ["nlp", "classification", "ia-marketing", "reconnaissance-emotions"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (analyse de sentiments)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "reconnaissance-entites": {
+    "sous_titre_fr": "Named Entity Recognition (NER)",
+    "sous_titre_en": "Reconnaissance d'entités nommées",
+    "definition_fr": "Technique de TALN identifiant et catégorisant les entités mentionnées dans un texte : noms de personnes, lieux, organisations, dates, montants. Brique de base de l'extraction d'information, la reconnaissance d'entités nommées permet de structurer automatiquement des documents non structurés · un préalable fréquent à leur exploitation.",
+    "definition_en": "An NLP technique identifying and categorising the entities mentioned in a text: names of people, places, organisations, dates, amounts. A basic brick of information extraction, named entity recognition structures unstructured documents automatically · a frequent prerequisite to their exploitation.",
+    "exemple_fr": "Pour anonymiser des milliers de documents avant de les indexer dans un RAG, la reconnaissance d'entités nommées repère automatiquement noms, adresses et numéros. Ce repérage automatique rend possible une anonymisation à grande échelle · impensable à la main. Une brique technique discrète au service de la conformité.",
+    "exemple_en": "To anonymise thousands of documents before indexing them in a RAG, named entity recognition automatically spots names, addresses and numbers. This automatic spotting makes large-scale anonymisation possible · unthinkable by hand. A discreet technical brick serving compliance.",
+    "regard_fr": "La reconnaissance d'entités nommées est un rouage discret mais central de nombreux traitements : anonymisation, structuration, recherche. Elle rappelle que derrière les usages spectaculaires de l'IA, des briques techniques modestes font le vrai travail. Les connaître aide à comprendre ce qui est réellement faisable · et à quel coût.",
+    "regard_en": "Named entity recognition is a discreet but central cog of many processes: anonymisation, structuring, search. It recalls that behind AI's spectacular uses, modest technical bricks do the real work. Knowing them helps understand what is really feasible · and at what cost.",
+    "termes_lies": ["nlp", "anonymisation", "idp", "donnees-structurees"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (reconnaissance d'entités nommées)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "science-donnees": {
+    "sous_titre_fr": "Data science",
+    "sous_titre_en": "Science des données",
+    "definition_fr": "Discipline combinant statistiques, informatique et expertise métier pour extraire de la connaissance et de la valeur à partir de données. La science des données englobe bien plus que l'IA : nettoyage, exploration, visualisation, modélisation, interprétation. Le data scientist est le professionnel qui transforme des données brutes en décisions éclairées.",
+    "definition_en": "A discipline combining statistics, computer science and domain expertise to extract knowledge and value from data. Data science encompasses far more than AI: cleaning, exploration, visualisation, modelling, interpretation. The data scientist is the professional who turns raw data into informed decisions.",
+    "exemple_fr": "Face à une baisse de ventes inexpliquée, un data scientist explore les données, teste des hypothèses, visualise les tendances et identifie la cause · un changement de comportement sur un segment. Il n'a pas forcément mobilisé d'IA générative : sa valeur est dans la démarche rigoureuse, pas dans l'outil à la mode.",
+    "exemple_en": "Facing an unexplained sales drop, a data scientist explores the data, tests hypotheses, visualises trends and identifies the cause · a behaviour change in one segment. They did not necessarily use generative AI: their value is in the rigorous method, not in the fashionable tool.",
+    "regard_fr": "La science des données rappelle que l'IA n'est qu'un outil parmi d'autres au service d'une démarche plus large : comprendre le réel par les données. Se focaliser sur l'IA générative fait oublier que l'essentiel du travail · nettoyer, explorer, interpréter · reste profondément humain. La rigueur prime sur la technologie.",
+    "regard_en": "Data science recalls that AI is only one tool among others serving a broader endeavour: understanding reality through data. Focusing on generative AI makes people forget that most of the work · cleaning, exploring, interpreting · remains deeply human. Rigour prevails over technology.",
+    "termes_lies": ["exploration-donnees", "correlation-causalite", "megadonnees", "power-bi"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (science des données)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  }
+}

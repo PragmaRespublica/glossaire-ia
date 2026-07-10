@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Partitionnement (clustering)",
+  "terme_en": "Clustering",
+  "sous_titre_fr": "Clustering, partitionnement",
+  "sous_titre_en": "Clustering",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technique d'apprentissage non supervisé regroupant automatiquement des données similaires en « grappes » (clusters), sans catégories prédéfinies. Le clustering révèle des structures cachées : segments de clients, familles de documents, groupes de comportements. Un outil d'exploration puissant · à condition d'interpréter les groupes qu'il produit.",
+  "definition_en": "An unsupervised learning technique automatically grouping similar data into \"clusters\", without predefined categories. Clustering reveals hidden structures: customer segments, document families, behaviour groups. A powerful exploration tool · provided the groups it produces are interpreted.",
+  "exemple_fr": "Une équipe marketing applique le clustering à sa base clients et découvre cinq segments naturels qu'elle n'avait pas anticipés. Chacun appelle une approche différente. Le clustering a fait émerger une structure que personne n'avait explicitement cherchée · mais c'est l'humain qui donne un sens et un nom à chaque groupe.",
+  "exemple_en": "A marketing team applies clustering to its customer base and discovers five natural segments it had not anticipated. Each calls for a different approach. Clustering surfaced a structure no one had explicitly sought · but it is the human who gives meaning and a name to each group.",
+  "regard_fr": "Le clustering est un révélateur, pas un oracle : il montre des regroupements, mais ne dit pas ce qu'ils signifient. La tentation est de prendre ses grappes pour des vérités. Or un clustering mal interprété peut inventer des segments artificiels. L'outil propose des structures ; le jugement humain en fait du sens.",
+  "regard_en": "Clustering is a revealer, not an oracle: it shows groupings, but does not say what they mean. The temptation is to take its clusters for truths. But a misinterpreted clustering can invent artificial segments. The tool proposes structures; human judgment makes sense of them.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "apprentissage-non-supervise",
+    "classification",
+    "reduction-dimension",
+    "exploration-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "Google · Machine Learning Glossary (clustering)",
+      "url": "https://developers.google.com/machine-learning/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

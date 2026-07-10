@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Traitement automatique du langage naturel (TALN)",
+  "terme_en": "Natural Language Processing (NLP)",
+  "sous_titre_fr": "Natural Language Processing (NLP)",
+  "sous_titre_en": "Traitement automatique du langage naturel",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Champ de l'IA visant à faire traiter, comprendre et générer le langage humain par des machines : traduction, résumé, extraction, analyse de sentiment, dialogue. Le TALN a connu une révolution avec les transformers et les grands modèles de langage · passant de systèmes rigides à des modèles d'une souplesse inédite.",
+  "definition_en": "The field of AI aiming to have machines process, understand and generate human language: translation, summarisation, extraction, sentiment analysis, dialogue. NLP underwent a revolution with transformers and large language models · moving from rigid systems to models of unprecedented flexibility.",
+  "exemple_fr": "Extraire automatiquement les clauses clés de milliers de contrats, analyser le ton de millions d'avis clients, traduire à la volée · autant de tâches de TALN aujourd'hui banalisées, hier impossibles. Le langage, longtemps la forteresse de l'intelligence humaine, est devenu un terrain où l'IA excelle · avec les limites qu'on connaît.",
+  "exemple_en": "Automatically extracting key clauses from thousands of contracts, analysing the tone of millions of customer reviews, translating on the fly · all NLP tasks now commonplace, once impossible. Language, long the fortress of human intelligence, has become a terrain where AI excels · with the limits we know.",
+  "regard_fr": "Le TALN est le domaine où l'IA a le plus spectaculairement progressé · et le plus trompeusement. Manipuler le langage avec fluidité donne l'illusion de le comprendre. Or l'IA excelle à traiter la forme du langage sans en saisir le sens comme un humain. Cette nuance est au cœur d'un usage lucide des LLM.",
+  "regard_en": "NLP is the domain where AI has progressed most spectacularly · and most deceptively. Manipulating language fluently gives the illusion of understanding it. But AI excels at processing the form of language without grasping its meaning as a human does. This nuance is at the heart of a lucid use of LLMs.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "llm",
+    "transformer",
+    "traduction-automatique",
+    "analyse-sentiments"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (traitement automatique des langues)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

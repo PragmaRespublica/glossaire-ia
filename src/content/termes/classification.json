@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Classification",
+  "terme_en": "Classification",
+  "sous_titre_fr": "Classification",
+  "sous_titre_en": "Classification",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Tâche consistant à attribuer une catégorie à une donnée : cet email est-il un spam ? ce document relève-t-il des RH ou de la finance ? cette image montre-t-elle un défaut ? La classification est l'une des tâches les plus fondamentales et les plus utiles de l'IA · souvent résolue par des modèles sobres, sans recours à l'IA générative.",
+  "definition_en": "The task of assigning a category to a datum: is this email spam? does this document belong to HR or finance? does this image show a defect? Classification is one of AI's most fundamental and useful tasks · often solved by frugal models, without recourse to generative AI.",
+  "exemple_fr": "Trier automatiquement les demandes entrantes d'un service client par catégorie est un problème de classification. Un modèle léger, entraîné sur des exemples, le résout parfaitement · rapide, sobre, explicable. Sortir un grand LLM pour cette tâche serait un gaspillage. La classification est le cheval de trait discret de l'IA en entreprise.",
+  "exemple_en": "Automatically sorting a customer service's incoming requests by category is a classification problem. A lightweight model, trained on examples, solves it perfectly · fast, frugal, explainable. Bringing out a large LLM for this task would be wasteful. Classification is the discreet workhorse of enterprise AI.",
+  "regard_fr": "La classification rappelle qu'une grande partie de la valeur de l'IA se joue loin des projecteurs des LLM. Pour ranger, trier, catégoriser · l'essentiel du travail administratif · un modèle classique bat souvent l'IA générative. Le bon réflexe : identifier si votre problème est une simple classification avant de sortir l'artillerie lourde.",
+  "regard_en": "Classification recalls that much of AI's value plays out far from the LLM spotlight. To file, sort, categorise · the bulk of administrative work · a classic model often beats generative AI. The right reflex: identify whether your problem is a simple classification before rolling out the heavy artillery.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "regression",
+    "clustering",
+    "modele-discriminatif",
+    "ia-non-generative"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (classification)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

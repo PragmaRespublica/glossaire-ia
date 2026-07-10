@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Reconnaissance d'entités nommées",
+  "terme_en": "Named Entity Recognition (NER)",
+  "sous_titre_fr": "Named Entity Recognition (NER)",
+  "sous_titre_en": "Reconnaissance d'entités nommées",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Technique de TALN identifiant et catégorisant les entités mentionnées dans un texte : noms de personnes, lieux, organisations, dates, montants. Brique de base de l'extraction d'information, la reconnaissance d'entités nommées permet de structurer automatiquement des documents non structurés · un préalable fréquent à leur exploitation.",
+  "definition_en": "An NLP technique identifying and categorising the entities mentioned in a text: names of people, places, organisations, dates, amounts. A basic brick of information extraction, named entity recognition structures unstructured documents automatically · a frequent prerequisite to their exploitation.",
+  "exemple_fr": "Pour anonymiser des milliers de documents avant de les indexer dans un RAG, la reconnaissance d'entités nommées repère automatiquement noms, adresses et numéros. Ce repérage automatique rend possible une anonymisation à grande échelle · impensable à la main. Une brique technique discrète au service de la conformité.",
+  "exemple_en": "To anonymise thousands of documents before indexing them in a RAG, named entity recognition automatically spots names, addresses and numbers. This automatic spotting makes large-scale anonymisation possible · unthinkable by hand. A discreet technical brick serving compliance.",
+  "regard_fr": "La reconnaissance d'entités nommées est un rouage discret mais central de nombreux traitements : anonymisation, structuration, recherche. Elle rappelle que derrière les usages spectaculaires de l'IA, des briques techniques modestes font le vrai travail. Les connaître aide à comprendre ce qui est réellement faisable · et à quel coût.",
+  "regard_en": "Named entity recognition is a discreet but central cog of many processes: anonymisation, structuring, search. It recalls that behind AI's spectacular uses, modest technical bricks do the real work. Knowing them helps understand what is really feasible · and at what cost.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "nlp",
+    "anonymisation",
+    "idp",
+    "donnees-structurees"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (reconnaissance d'entités nommées)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

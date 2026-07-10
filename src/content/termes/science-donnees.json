@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Science des données",
+  "terme_en": "Data science",
+  "sous_titre_fr": "Data science",
+  "sous_titre_en": "Science des données",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Discipline combinant statistiques, informatique et expertise métier pour extraire de la connaissance et de la valeur à partir de données. La science des données englobe bien plus que l'IA : nettoyage, exploration, visualisation, modélisation, interprétation. Le data scientist est le professionnel qui transforme des données brutes en décisions éclairées.",
+  "definition_en": "A discipline combining statistics, computer science and domain expertise to extract knowledge and value from data. Data science encompasses far more than AI: cleaning, exploration, visualisation, modelling, interpretation. The data scientist is the professional who turns raw data into informed decisions.",
+  "exemple_fr": "Face à une baisse de ventes inexpliquée, un data scientist explore les données, teste des hypothèses, visualise les tendances et identifie la cause · un changement de comportement sur un segment. Il n'a pas forcément mobilisé d'IA générative : sa valeur est dans la démarche rigoureuse, pas dans l'outil à la mode.",
+  "exemple_en": "Facing an unexplained sales drop, a data scientist explores the data, tests hypotheses, visualises trends and identifies the cause · a behaviour change in one segment. They did not necessarily use generative AI: their value is in the rigorous method, not in the fashionable tool.",
+  "regard_fr": "La science des données rappelle que l'IA n'est qu'un outil parmi d'autres au service d'une démarche plus large : comprendre le réel par les données. Se focaliser sur l'IA générative fait oublier que l'essentiel du travail · nettoyer, explorer, interpréter · reste profondément humain. La rigueur prime sur la technologie.",
+  "regard_en": "Data science recalls that AI is only one tool among others serving a broader endeavour: understanding reality through data. Focusing on generative AI makes people forget that most of the work · cleaning, exploring, interpreting · remains deeply human. Rigour prevails over technology.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "exploration-donnees",
+    "correlation-causalite",
+    "megadonnees",
+    "power-bi"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (science des données)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

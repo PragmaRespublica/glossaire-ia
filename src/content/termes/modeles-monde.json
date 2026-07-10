@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Modèles du monde",
+  "terme_en": "World models",
+  "sous_titre_fr": "World models",
+  "sous_titre_en": "Modèles du monde",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Modèles cherchant à apprendre une représentation interne du fonctionnement du monde · physique, causalité, conséquences des actions · pour prédire et planifier. Considérés par certains chercheurs comme une voie vers une IA plus robuste et plus proche de la compréhension, les modèles du monde sont un domaine de recherche actif et prometteur.",
+  "definition_en": "Models seeking to learn an internal representation of how the world works · physics, causality, consequences of actions · to predict and plan. Considered by some researchers as a path towards more robust AI closer to understanding, world models are an active and promising research field.",
+  "exemple_fr": "Un modèle du monde entraîné sur des vidéos apprend qu'un objet lâché tombe, qu'un verre qui se brise ne se reconstitue pas. Cette « intuition physique » lui permet d'anticiper des situations inédites · une capacité que les modèles de langage, qui manipulent des mots sans modèle du réel, peinent à égaler.",
+  "exemple_en": "A world model trained on videos learns that a dropped object falls, that a shattered glass does not reassemble. This \"physical intuition\" lets it anticipate novel situations · a capability that language models, which manipulate words without a model of reality, struggle to match.",
+  "regard_fr": "Les modèles du monde touchent à la question la plus profonde de l'IA : peut-elle « comprendre » plutôt que corréler ? Un modèle qui aurait une représentation causale du monde serait qualitativement différent des LLM actuels. C'est une piste de recherche à suivre · elle pourrait redéfinir ce dont l'IA est capable.",
+  "regard_en": "World models touch AI's deepest question: can it \"understand\" rather than correlate? A model with a causal representation of the world would be qualitatively different from current LLMs. It is a research path to watch · it could redefine what AI is capable of.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "correlation-causalite",
+    "robotique-ia",
+    "capacites-emergentes",
+    "multimodal"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur les world models"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

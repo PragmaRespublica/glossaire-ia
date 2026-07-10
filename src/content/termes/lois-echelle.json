@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Lois d'échelle",
+  "terme_en": "Scaling laws",
+  "sous_titre_fr": "Scaling laws",
+  "sous_titre_en": "Lois d'échelle",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Relations empiriques montrant comment la performance d'un modèle s'améliore de façon prévisible avec l'augmentation de sa taille, de ses données et de sa puissance de calcul. Les lois d'échelle ont guidé la course aux modèles toujours plus grands · mais elles atteignent des rendements décroissants, et leur limite fait débat.",
+  "definition_en": "Empirical relations showing how a model's performance improves predictably with increases in its size, data and compute. Scaling laws have driven the race to ever-larger models · but they reach diminishing returns, and their limit is debated.",
+  "exemple_fr": "Les lois d'échelle ont justifié des investissements colossaux : plus gros modèle, plus de données, plus de calcul, meilleure performance. Mais le gain par euro investi diminue, et doubler la taille ne double plus les capacités. La question qui agite l'industrie : jusqu'où cette recette tiendra-t-elle avant de s'essouffler ?",
+  "exemple_en": "Scaling laws justified colossal investments: bigger model, more data, more compute, better performance. But the gain per euro invested diminishes, and doubling the size no longer doubles capabilities. The question stirring the industry: how far will this recipe hold before running out of steam?",
+  "regard_fr": "Les lois d'échelle ont nourri l'idée qu'il suffisait de « faire plus gros ». Mais cette fuite en avant a un coût environnemental et économique croissant, pour des gains décroissants. L'avenir de l'IA pourrait moins tenir à la taille brute qu'à l'efficience · une bonne nouvelle pour la sobriété et pour les acteurs plus modestes.",
+  "regard_en": "Scaling laws fed the idea that it was enough to \"go bigger\". But this headlong rush has a growing environmental and economic cost, for diminishing gains. AI's future may hinge less on raw size than on efficiency · good news for frugality and for more modest players.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "capacites-emergentes",
+    "parametres",
+    "consommation-electrique",
+    "ia-frugale"
+  ],
+  "sources": [
+    {
+      "titre": "Kaplan et al. · Scaling Laws for Neural Language Models"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

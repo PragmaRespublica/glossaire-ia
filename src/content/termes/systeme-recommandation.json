@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Algorithme de recommandation",
+  "terme_en": "Recommender system",
+  "sous_titre_fr": "Recommender system",
+  "sous_titre_en": "Algorithme de recommandation",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Système suggérant à un utilisateur des contenus, produits ou services susceptibles de l'intéresser, à partir de son comportement et de celui d'utilisateurs similaires. Omniprésents (commerce, streaming, réseaux sociaux), les systèmes de recommandation façonnent nos choix · d'où leur pouvoir, et les questions de bulle de filtre et de manipulation.",
+  "definition_en": "A system suggesting to a user content, products or services likely to interest them, based on their behaviour and that of similar users. Ubiquitous (commerce, streaming, social networks), recommender systems shape our choices · hence their power, and the questions of filter bubble and manipulation.",
+  "exemple_fr": "Un site de streaming recommande des séries selon vos visionnages passés · pratique. Mais le même mécanisme, optimisé pour maximiser le temps passé, peut vous enfermer dans une bulle et exploiter vos biais. Le système de recommandation est neutre en apparence, orienté en réalité par l'objectif qu'on lui assigne.",
+  "exemple_en": "A streaming site recommends shows based on your past viewing · handy. But the same mechanism, optimised to maximise time spent, can enclose you in a bubble and exploit your biases. The recommender system is neutral in appearance, oriented in reality by the objective assigned to it.",
+  "regard_fr": "Le système de recommandation est l'IA la plus présente dans nos vies · et la plus sous-estimée. Il ne se contente pas de refléter nos goûts, il les façonne. Reprendre le pouvoir passe par la conscience de son influence, et par les droits nouveaux (DSA) d'accéder à des recommandations non fondées sur le profilage.",
+  "regard_en": "The recommender system is the AI most present in our lives · and the most underestimated. It does not merely reflect our tastes, it shapes them. Taking back control means being aware of its influence, and using the new rights (DSA) to access recommendations not based on profiling.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "bulle-filtre",
+    "dsa-dma",
+    "biais-algorithmique",
+    "ia-marketing"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (algorithme de recommandation)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Hivers de l'IA",
+  "terme_en": "AI winters",
+  "sous_titre_fr": "AI winters",
+  "sous_titre_en": "Hivers de l'IA",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Périodes historiques (notamment dans les années 1970 et 1980-90) où les promesses excessives de l'IA, non tenues, ont provoqué une chute des financements et de l'intérêt. Les hivers de l'IA rappellent que le domaine a déjà connu des cycles d'emballement et de désillusion · une mémoire utile face à l'euphorie actuelle.",
+  "definition_en": "Historical periods (notably in the 1970s and 1980s-90s) when AI's excessive, unmet promises caused a collapse in funding and interest. The AI winters recall that the field has already known cycles of hype and disillusion · a useful memory in the face of the current euphoria.",
+  "exemple_fr": "Dans les années 1980, les « systèmes experts » devaient révolutionner l'entreprise. La déception a suivi, et les financements se sont taris : un hiver de l'IA. Ceux qui ont vécu ces cycles gardent une prudence salutaire face aux promesses actuelles · l'histoire enseigne que l'emballement précède souvent la correction.",
+  "exemple_en": "In the 1980s, \"expert systems\" were to revolutionise business. Disappointment followed, and funding dried up: an AI winter. Those who lived through these cycles keep a salutary caution towards current promises · history teaches that hype often precedes correction.",
+  "regard_fr": "La mémoire des hivers de l'IA est un antidote précieux à l'euphorie ambiante. Non que l'IA d'aujourd'hui soit un mirage · ses réussites sont réelles · mais l'histoire invite à distinguer les capacités démontrées des promesses spéculatives. Investir dans le concret plutôt que dans le hype est une leçon de ces cycles passés.",
+  "regard_en": "The memory of the AI winters is a precious antidote to the ambient euphoria. Not that today's AI is a mirage · its successes are real · but history invites distinguishing demonstrated capabilities from speculative promises. Investing in the concrete rather than the hype is a lesson from these past cycles.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "perceptron",
+    "systeme-expert",
+    "bulle-ia",
+    "intelligence-artificielle"
+  ],
+  "sources": [
+    {
+      "titre": "Histoire de l'intelligence artificielle"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

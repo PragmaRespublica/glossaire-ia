@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Intelligence artificielle générale (AGI)",
+  "terme_en": "Artificial General Intelligence (AGI)",
+  "sous_titre_fr": "Artificial General Intelligence (AGI)",
+  "sous_titre_en": "Intelligence artificielle générale",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "architecture-modeles",
+  "pages_liees": [],
+  "definition_fr": "Hypothétique IA capable d'égaler l'intelligence humaine dans l'ensemble des domaines, avec la même polyvalence et capacité d'adaptation. Objet de débats intenses, l'AGI n'existe pas aujourd'hui · les IA actuelles, même impressionnantes, restent spécialisées. Sa définition même fait l'objet de désaccords profonds entre chercheurs.",
+  "definition_en": "A hypothetical AI able to match human intelligence across all domains, with the same versatility and adaptability. The object of intense debate, AGI does not exist today · current AIs, however impressive, remain specialised. Its very definition is the subject of deep disagreements among researchers.",
+  "exemple_fr": "Un modèle qui écrit du code brillant peut échouer sur un raisonnement enfantin de bon sens physique. C'est le propre des IA actuelles : puissantes mais étroites. L'AGI · une intelligence aussi souple qu'un humain sur tous les terrains · reste une projection, dont même l'arrivée et la définition divisent les experts.",
+  "exemple_en": "A model that writes brilliant code can fail on a childlike piece of common-sense physical reasoning. That is the nature of current AIs: powerful but narrow. AGI · an intelligence as flexible as a human across all terrains · remains a projection, whose arrival and even definition divide the experts.",
+  "regard_fr": "L'AGI est autant un concept marketing qu'une hypothèse scientifique : brandir sa promesse (ou sa menace) sert à lever des fonds et à capter l'attention. Face à ce terme, la lucidité consiste à distinguer les capacités réelles des IA d'aujourd'hui des spéculations sur celles de demain. Le présent mérite plus d'attention que la prophétie.",
+  "regard_en": "AGI is as much a marketing concept as a scientific hypothesis: brandishing its promise (or threat) serves to raise funds and capture attention. Facing this term, lucidity means distinguishing the real capabilities of today's AIs from speculations about tomorrow's. The present deserves more attention than prophecy.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "superintelligence",
+    "singularite",
+    "ia-faible-forte",
+    "test-turing"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (intelligence artificielle forte)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
