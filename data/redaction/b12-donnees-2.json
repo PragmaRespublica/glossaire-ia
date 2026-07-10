@@ -1,0 +1,110 @@
+{
+  "megadonnees": {
+    "sous_titre_fr": "Big data",
+    "sous_titre_en": "Mégadonnées",
+    "definition_fr": "Ensembles de données trop volumineux, trop rapides ou trop variés pour les outils classiques, caractérisés par les « 3V » : volume, vélocité, variété. Le big data a précédé et nourri l'essor de l'IA moderne : c'est la disponibilité de données massives qui a rendu possible l'entraînement des grands modèles.",
+    "definition_en": "Datasets too voluminous, too fast or too varied for classic tools, characterised by the \"3Vs\": volume, velocity, variety. Big data preceded and fed the rise of modern AI: it is the availability of massive data that made training large models possible.",
+    "exemple_fr": "Une enseigne de distribution accumule des téraoctets de tickets de caisse, de parcours web et de données de fidélité. Isolées, ces données dorment. Croisées et analysées par des modèles, elles révèlent des schémas d'achat exploitables. Le big data n'a de valeur que par ce qu'on en extrait · l'IA en est le principal moteur.",
+    "exemple_en": "A retail chain accumulates terabytes of receipts, web journeys and loyalty data. Isolated, this data sleeps. Crossed and analysed by models, it reveals exploitable purchase patterns. Big data has value only through what one extracts · AI is its main engine.",
+    "regard_fr": "Le mythe du big data · « plus de données, plus de valeur » · a ses limites : des données massives mais sales ou non gouvernées produisent surtout du bruit coûteux. La vraie question n'est pas le volume, mais la pertinence et la qualité de ce qu'on collecte.",
+    "regard_en": "The big data myth · \"more data, more value\" · has its limits: massive but dirty or ungoverned data mostly produces costly noise. The real question is not volume, but the relevance and quality of what one collects.",
+    "termes_lies": ["donnees-structurees", "lac-donnees", "science-donnees", "qualite-donnees"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (mégadonnées)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "lac-donnees": {
+    "sous_titre_fr": "Data lake",
+    "sous_titre_en": "Lac de données",
+    "definition_fr": "Réservoir centralisé stockant des données brutes de tous formats · structurées, semi-structurées, non structurées · sans schéma imposé à l'entrée. Flexible et adapté à l'IA, le lac de données peut tourner au « marécage » (data swamp) s'il n'est pas gouverné : sans catalogue ni qualité, il devient un dépotoir inexploitable.",
+    "definition_en": "A centralised reservoir storing raw data of all formats · structured, semi-structured, unstructured · with no schema imposed on entry. Flexible and suited to AI, the data lake can turn into a \"swamp\" if ungoverned: without a catalogue or quality, it becomes an unusable dumping ground.",
+    "exemple_fr": "Une entreprise déverse cinq ans de logs, documents et exports dans un lac de données « pour l'IA ». Deux ans plus tard, personne ne sait ce qu'il contient ni si c'est fiable. Faute de catalogue et de gouvernance, le lac est devenu un marécage. La leçon : un lac sans gouvernance est un coût, pas un actif.",
+    "exemple_en": "A company dumps five years of logs, documents and exports into a data lake \"for AI\". Two years later, nobody knows what it contains or whether it is reliable. For lack of a catalogue and governance, the lake has become a swamp. The lesson: a lake without governance is a cost, not an asset.",
+    "regard_fr": "Le lac de données est un outil formidable et un piège classique : sans gouvernance, il se transforme en marécage. Avant de tout y déverser « au cas où », dotez-le d'un catalogue et de règles de qualité. Un lac gouverné est un actif ; un lac abandonné, une dette.",
+    "regard_en": "The data lake is a formidable tool and a classic trap: without governance, it turns into a swamp. Before dumping everything in \"just in case\", equip it with a catalogue and quality rules. A governed lake is an asset; an abandoned lake, a debt.",
+    "termes_lies": ["entrepot-donnees", "marecage-donnees", "gouvernance-donnees", "megadonnees"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (lac de données)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "entrepot-donnees": {
+    "sous_titre_fr": "Data warehouse",
+    "sous_titre_en": "Entrepôt de données",
+    "definition_fr": "Base de données centralisée regroupant des données structurées, nettoyées et organisées selon un schéma défini, optimisée pour l'analyse et le reporting. Contrairement au lac de données (brut, flexible), l'entrepôt privilégie la fiabilité et la performance des requêtes · il alimente traditionnellement la Business Intelligence.",
+    "definition_en": "A centralised database gathering structured, cleaned data organised according to a defined schema, optimised for analysis and reporting. Unlike the data lake (raw, flexible), the warehouse favours reliability and query performance · it traditionally feeds Business Intelligence.",
+    "exemple_fr": "Une direction financière s'appuie sur un entrepôt de données pour ses tableaux de bord : chiffres consolidés, cohérents, rafraîchis chaque nuit. Quand elle veut y ajouter de l'IA prédictive, l'entrepôt bien structuré est un atout · les données propres et documentées facilitent grandement l'entraînement des modèles.",
+    "exemple_en": "A finance department relies on a data warehouse for its dashboards: consolidated, consistent figures, refreshed every night. When it wants to add predictive AI, the well-structured warehouse is an asset · clean, documented data greatly eases model training.",
+    "regard_fr": "Lac ou entrepôt n'est pas un choix idéologique mais un arbitrage : le lac pour la flexibilité et l'exploration, l'entrepôt pour la fiabilité et le reporting. Les architectures modernes combinent souvent les deux. L'essentiel reste la gouvernance, quel que soit le contenant.",
+    "regard_en": "Lake or warehouse is not an ideological choice but a trade-off: the lake for flexibility and exploration, the warehouse for reliability and reporting. Modern architectures often combine both. What matters remains governance, whatever the container.",
+    "termes_lies": ["lac-donnees", "donnees-structurees", "power-bi", "gouvernance-donnees"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (entrepôt de données)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "pipeline-donnees": {
+    "sous_titre_fr": "Data pipeline",
+    "sous_titre_en": "Pipeline de données",
+    "definition_fr": "Chaîne automatisée de traitement acheminant les données de leur source jusqu'à leur usage : extraction, nettoyage, transformation, chargement. Pour l'IA, le pipeline de données conditionne la fraîcheur et la qualité de ce qui alimente les modèles et les RAG. Un pipeline défaillant contamine silencieusement toutes les analyses en aval.",
+    "definition_en": "An automated processing chain routing data from its source to its use: extraction, cleaning, transformation, loading. For AI, the data pipeline conditions the freshness and quality of what feeds models and RAGs. A faulty pipeline silently contaminates all downstream analyses.",
+    "exemple_fr": "Un RAG d'entreprise se dégrade sans raison apparente. L'enquête révèle qu'un changement de format dans le système source a cassé une étape du pipeline : depuis trois semaines, les nouveaux documents arrivaient tronqués. Le modèle n'y était pour rien · le pipeline était le maillon faible.",
+    "exemple_en": "An enterprise RAG degrades for no apparent reason. The investigation reveals that a format change in the source system broke a pipeline step: for three weeks, new documents arrived truncated. The model was blameless · the pipeline was the weak link.",
+    "regard_fr": "Le pipeline de données est l'infrastructure invisible dont dépend toute la chaîne IA. On le remarque seulement quand il casse · souvent trop tard. Le surveiller et le tester est aussi important que d'évaluer le modèle lui-même.",
+    "regard_en": "The data pipeline is the invisible infrastructure on which the whole AI chain depends. You notice it only when it breaks · often too late. Monitoring and testing it is as important as evaluating the model itself.",
+    "termes_lies": ["pipeline-ingestion", "qualite-donnees", "tracabilite-donnees", "monitoring"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "donnees-structurees": {
+    "sous_titre_fr": "Structured and unstructured data",
+    "sous_titre_en": "Données structurées et non structurées",
+    "definition_fr": "Les données structurées suivent un schéma fixe (tableaux, bases relationnelles) et sont faciles à interroger. Les données non structurées · textes, images, audio, vidéo · représentent l'essentiel de l'information d'une organisation mais échappent aux outils classiques. L'IA générative excelle précisément à exploiter ces données non structurées.",
+    "definition_en": "Structured data follows a fixed schema (tables, relational databases) and is easy to query. Unstructured data · text, images, audio, video · represents most of an organisation's information but escapes classic tools. Generative AI excels precisely at exploiting this unstructured data.",
+    "exemple_fr": "Une entreprise dispose d'un ERP impeccable (données structurées) mais de vingt ans de contrats, comptes rendus et emails inexploités (données non structurées), soit 80 % de son savoir. C'est là que l'IA générative change la donne : un RAG rend enfin interrogeable ce patrimoine textuel jusque-là dormant.",
+    "exemple_en": "A company has an impeccable ERP (structured data) but twenty years of unexploited contracts, minutes and emails (unstructured data), i.e. 80% of its knowledge. That is where generative AI changes the game: a RAG finally makes this textual heritage, dormant until now, queryable.",
+    "regard_fr": "La révolution de l'IA générative, c'est d'avoir rendu exploitable l'immense masse des données non structurées · là où dort l'essentiel du savoir des organisations. Vos vingt ans d'archives textuelles ne sont plus un poids mort, mais une matière première.",
+    "regard_en": "The generative AI revolution is having made exploitable the immense mass of unstructured data · where most of organisations' knowledge sleeps. Your twenty years of textual archives are no longer dead weight, but raw material.",
+    "termes_lies": ["megadonnees", "nlp", "rag", "idp"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "metadonnees": {
+    "sous_titre_fr": "Metadata",
+    "sous_titre_en": "Métadonnées",
+    "definition_fr": "Données décrivant d'autres données : auteur, date, format, source, droits, mots-clés. Souvent négligées, les métadonnées sont pourtant décisives en IA : elles permettent de filtrer, tracer, dater et sécuriser les documents d'un RAG, et de porter des signaux essentiels comme l'opt-out ou la provenance des contenus.",
+    "definition_en": "Data describing other data: author, date, format, source, rights, keywords. Often neglected, metadata is nonetheless decisive in AI: it allows filtering, tracing, dating and securing a RAG's documents, and carrying essential signals like opt-out or content provenance.",
+    "exemple_fr": "Un RAG juridique renvoyait parfois des textes abrogés. La solution n'a pas touché au modèle : elle a exploité les métadonnées de date et de statut pour ne récupérer que les textes en vigueur. Des métadonnées bien tenues valent souvent mieux qu'un modèle plus puissant.",
+    "exemple_en": "A legal RAG sometimes returned repealed texts. The solution did not touch the model: it exploited the date and status metadata to retrieve only texts in force. Well-maintained metadata is often worth more than a more powerful model.",
+    "regard_fr": "Les métadonnées sont le parent pauvre de la gestion documentaire · et un trésor pour l'IA. Filtrer un RAG par date, source ou droit d'accès n'est possible que si ces métadonnées existent. Les tenir à jour est un investissement discret au rendement énorme.",
+    "regard_en": "Metadata is the poor relation of document management · and a treasure for AI. Filtering a RAG by date, source or access right is only possible if this metadata exists. Keeping it up to date is a discreet investment with huge returns.",
+    "termes_lies": ["tracabilite-donnees", "chunking", "c2pa", "gouvernance-donnees"],
+    "sources": [{"titre": "FranceTerme · métadonnée", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "donnees-ouvertes": {
+    "sous_titre_fr": "Open data",
+    "sous_titre_en": "Données ouvertes",
+    "definition_fr": "Données rendues librement accessibles, réutilisables et redistribuables, souvent par des acteurs publics, sous une licence ouverte. En France, data.gouv.fr en est le portail de référence. Les données ouvertes sont une ressource majeure pour l'IA souveraine : elles permettent d'entraîner et d'enrichir des modèles sans dépendre de données propriétaires.",
+    "definition_en": "Data made freely accessible, reusable and redistributable, often by public actors, under an open licence. In France, data.gouv.fr is the reference portal. Open data is a major resource for sovereign AI: it allows training and enriching models without depending on proprietary data.",
+    "exemple_fr": "Une jeune pousse construit un assistant juridique en s'appuyant sur les données ouvertes : textes de loi (Légifrance), jurisprudence, référentiels publics. Elle bâtit un service à forte valeur sans acheter une seule base propriétaire · les communs numériques comme socle de souveraineté.",
+    "exemple_en": "A start-up builds a legal assistant relying on open data: legal texts (Légifrance), case law, public reference bases. It builds a high-value service without buying a single proprietary database · digital commons as a foundation for sovereignty.",
+    "regard_fr": "Les données ouvertes sont un actif stratégique sous-exploité de la souveraineté européenne : une matière première gratuite, légale et de qualité. Avant d'acheter des données, demandez-vous ce que l'open data offre déjà · la réponse surprend souvent.",
+    "regard_en": "Open data is an under-exploited strategic asset of European sovereignty: a free, legal, quality raw material. Before buying data, ask what open data already offers · the answer often surprises.",
+    "termes_lies": ["souverainete-donnees", "donnees-fair", "interoperabilite", "open-source-ia"],
+    "sources": [{"titre": "data.gouv.fr · Licence Ouverte", "url": "https://www.numerique.gouv.fr/"}]
+  },
+  "common-crawl": {
+    "sous_titre_fr": "L'archive du web qui a nourri les LLM",
+    "sous_titre_en": "The web archive that fed the LLMs",
+    "definition_fr": "Vaste archive publique du web, mise à jour régulièrement, contenant des pétaoctets de pages collectées automatiquement. Common Crawl est l'une des principales sources d'entraînement des grands modèles de langage · ce qui en fait aussi le point de départ des débats sur le droit d'auteur, les biais et la provenance des données d'IA.",
+    "definition_en": "A vast public web archive, regularly updated, containing petabytes of automatically collected pages. Common Crawl is one of the main training sources of large language models · which also makes it the starting point of debates on copyright, bias and AI data provenance.",
+    "exemple_fr": "Quand on demande d'où viennent les connaissances d'un LLM, une grande partie de la réponse tient dans Common Crawl : des milliards de pages web, avec leurs qualités et leurs travers · désinformation, biais, contenus protégés. Comprendre cette source, c'est comprendre pourquoi les modèles savent tant de choses · et se trompent parfois.",
+    "exemple_en": "When one asks where an LLM's knowledge comes from, much of the answer lies in Common Crawl: billions of web pages, with their qualities and flaws · disinformation, bias, protected content. Understanding this source means understanding why models know so much · and are sometimes wrong.",
+    "regard_fr": "Common Crawl illustre le péché originel des grands modèles : ils ont appris du web tel qu'il est, avec ses trésors et ses poisons. Aucun filtrage n'efface totalement cet héritage. Le savoir de l'IA porte la marque de ses données · impossible de l'oublier en l'utilisant.",
+    "regard_en": "Common Crawl illustrates the original sin of large models: they learned from the web as it is, with its treasures and poisons. No filtering fully erases this legacy. AI's knowledge bears the mark of its data · impossible to forget when using it.",
+    "termes_lies": ["scraping", "donnees-entrainement", "droits-auteur-ia", "biais-algorithmique"],
+    "sources": [{"titre": "Common Crawl Foundation", "url": "https://commoncrawl.org/"}]
+  },
+  "donnees-synthetiques": {
+    "sous_titre_fr": "Synthetic data",
+    "sous_titre_en": "Données synthétiques",
+    "definition_fr": "Données générées artificiellement · par un modèle ou une simulation · imitant les propriétés statistiques de données réelles sans en être. Elles servent à entraîner des modèles quand les vraies données manquent, sont sensibles ou coûteuses. Précieuses mais piégeuses : abuser de données synthétiques peut mener à l'effondrement du modèle.",
+    "definition_en": "Data artificially generated · by a model or a simulation · imitating the statistical properties of real data without being it. It serves to train models when real data is scarce, sensitive or costly. Valuable but tricky: over-relying on synthetic data can lead to model collapse.",
+    "exemple_fr": "Un hôpital ne peut pas partager ses données patients réelles. Il génère des données synthétiques préservant les statistiques utiles sans correspondre à aucun patient réel, et les utilise pour développer un modèle. La confidentialité est protégée · à condition de vérifier que le synthétique ne laisse pas fuiter d'informations sur les vrais patients.",
+    "exemple_en": "A hospital cannot share its real patient data. It generates synthetic data preserving the useful statistics without corresponding to any real patient, and uses it to develop a model. Confidentiality is protected · provided one verifies the synthetic data does not leak information about real patients.",
+    "regard_fr": "Les données synthétiques sont une réponse élégante à la rareté et à la sensibilité · mais pas une solution miracle. Un modèle nourri exclusivement de synthétique s'appauvrit et dérive. La règle : compléter le réel, jamais le remplacer entièrement.",
+    "regard_en": "Synthetic data is an elegant answer to scarcity and sensitivity · but not a miracle solution. A model fed exclusively on synthetic data impoverishes and drifts. The rule: complement the real, never replace it entirely.",
+    "termes_lies": ["augmentation-donnees", "effondrement-modele", "confidentialite-differentielle", "donnees-entrainement"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (données synthétiques)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  }
+}

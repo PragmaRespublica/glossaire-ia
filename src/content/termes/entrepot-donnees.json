@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Entrepôt de données",
+  "terme_en": "Data warehouse",
+  "sous_titre_fr": "Data warehouse",
+  "sous_titre_en": "Entrepôt de données",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Base de données centralisée regroupant des données structurées, nettoyées et organisées selon un schéma défini, optimisée pour l'analyse et le reporting. Contrairement au lac de données (brut, flexible), l'entrepôt privilégie la fiabilité et la performance des requêtes · il alimente traditionnellement la Business Intelligence.",
+  "definition_en": "A centralised database gathering structured, cleaned data organised according to a defined schema, optimised for analysis and reporting. Unlike the data lake (raw, flexible), the warehouse favours reliability and query performance · it traditionally feeds Business Intelligence.",
+  "exemple_fr": "Une direction financière s'appuie sur un entrepôt de données pour ses tableaux de bord : chiffres consolidés, cohérents, rafraîchis chaque nuit. Quand elle veut y ajouter de l'IA prédictive, l'entrepôt bien structuré est un atout · les données propres et documentées facilitent grandement l'entraînement des modèles.",
+  "exemple_en": "A finance department relies on a data warehouse for its dashboards: consolidated, consistent figures, refreshed every night. When it wants to add predictive AI, the well-structured warehouse is an asset · clean, documented data greatly eases model training.",
+  "regard_fr": "Lac ou entrepôt n'est pas un choix idéologique mais un arbitrage : le lac pour la flexibilité et l'exploration, l'entrepôt pour la fiabilité et le reporting. Les architectures modernes combinent souvent les deux. L'essentiel reste la gouvernance, quel que soit le contenant.",
+  "regard_en": "Lake or warehouse is not an ideological choice but a trade-off: the lake for flexibility and exploration, the warehouse for reliability and reporting. Modern architectures often combine both. What matters remains governance, whatever the container.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "lac-donnees",
+    "donnees-structurees",
+    "power-bi",
+    "gouvernance-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (entrepôt de données)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

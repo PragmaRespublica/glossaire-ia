@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Échantillon et biais d'échantillonnage",
+  "terme_en": "Sampling and sampling bias",
+  "sous_titre_fr": "Sampling et biais d'échantillonnage",
+  "sous_titre_en": "Sampling and sampling bias",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Sélection d'un sous-ensemble de données représentatif d'un ensemble plus large. Un échantillonnage mal conçu introduit un biais d'échantillonnage : si l'échantillon ne reflète pas la réalité, le modèle apprend une image déformée du monde. C'est l'une des sources les plus fréquentes · et les plus sous-estimées · de biais algorithmique.",
+  "definition_en": "The selection of a subset of data representative of a larger set. Poorly designed sampling introduces sampling bias: if the sample does not reflect reality, the model learns a distorted image of the world. It is one of the most frequent · and most underestimated · sources of algorithmic bias.",
+  "exemple_fr": "Un modèle de prévision de la demande est entraîné sur les données d'une seule région, puis déployé nationalement. Il se trompe systématiquement ailleurs : l'échantillon n'était pas représentatif. Le problème n'était pas le modèle mais l'échantillonnage · une erreur invisible tant qu'on ne teste pas sur des données diverses.",
+  "exemple_en": "A demand forecasting model is trained on data from a single region, then deployed nationally. It systematically errs elsewhere: the sample was not representative. The problem was not the model but the sampling · an error invisible until you test on diverse data.",
+  "regard_fr": "Le biais d'échantillonnage est le péché discret de nombreux projets d'IA : on entraîne sur les données qu'on a, pas sur celles qu'il faudrait. Avant de blâmer un modèle défaillant, demandez-vous toujours : mon échantillon reflète-t-il vraiment la réalité où le modèle va servir ?",
+  "regard_en": "Sampling bias is the quiet sin of many AI projects: you train on the data you have, not the data you should. Before blaming a failing model, always ask: does my sample truly reflect the reality where the model will operate?",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "biais-algorithmique",
+    "donnees-entrainement",
+    "generalisation",
+    "equite-algorithmique"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (biais de sélection)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

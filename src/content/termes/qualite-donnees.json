@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Qualité des données",
+  "terme_en": "Data quality",
+  "sous_titre_fr": "Data quality",
+  "sous_titre_en": "Qualité des données",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Degré auquel des données sont exactes, complètes, cohérentes, à jour et pertinentes pour l'usage visé. En IA, la qualité des données prime souvent sur la sophistication du modèle : un modèle modeste sur des données propres bat un modèle avancé sur des données médiocres. « Garbage in, garbage out » reste la loi première.",
+  "definition_en": "The degree to which data is accurate, complete, consistent, up-to-date and relevant for the intended use. In AI, data quality often prevails over model sophistication: a modest model on clean data beats an advanced model on poor data. \"Garbage in, garbage out\" remains the first law.",
+  "exemple_fr": "Deux équipes construisent un même assistant. La première investit dans un modèle de pointe sur des données non nettoyées ; la seconde prend un modèle standard mais nettoie soigneusement ses documents. C'est la seconde qui obtient les meilleures réponses. La qualité des données a plus pesé que le choix du modèle.",
+  "exemple_en": "Two teams build the same assistant. The first invests in a cutting-edge model on uncleaned data; the second takes a standard model but carefully cleans its documents. It is the second that gets the best answers. Data quality weighed more than the choice of model.",
+  "regard_fr": "La course aux modèles les plus puissants fait oublier l'évidence : la qualité des données est le premier levier de performance, et le plus négligé. Avant de payer pour un modèle plus gros, nettoyez vos données. Le retour sur investissement est presque toujours supérieur.",
+  "regard_en": "The race for the most powerful models makes people forget the obvious: data quality is the first performance lever, and the most neglected. Before paying for a bigger model, clean your data. The return on investment is almost always higher.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gouvernance-donnees",
+    "donnees-entrainement",
+    "audit-documentaire",
+    "etiquetage-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "ISO 8000 · qualité des données"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

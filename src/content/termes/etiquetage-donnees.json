@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Étiquetage des données (annotation)",
+  "terme_en": "Data labeling",
+  "sous_titre_fr": "Data labeling, annotation",
+  "sous_titre_en": "Étiquetage des données",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Processus consistant à attribuer aux données les étiquettes qui serviront de vérité de référence à l'apprentissage supervisé : marquer un email comme spam, encadrer un objet dans une image, classer un avis en positif ou négatif. Travail souvent manuel, il est le carburant caché · et le coût principal · de nombreux systèmes d'IA.",
+  "definition_en": "The process of attributing to data the labels that will serve as the reference truth for supervised learning: marking an email as spam, boxing an object in an image, classifying a review as positive or negative. Often manual work, it is the hidden fuel · and main cost · of many AI systems.",
+  "exemple_fr": "Pour entraîner un modèle à détecter des pièces défectueuses, il faut d'abord que des humains étiquettent des milliers d'images « défaut » ou « conforme ». La qualité de cet étiquetage plafonne la performance du modèle : des étiquettes incohérentes produisent un modèle confus. L'annotation est un travail d'expertise, pas une corvée à sous-traiter à l'aveugle.",
+  "exemple_en": "To train a model to detect defective parts, humans must first label thousands of images \"defect\" or \"conforming\". The quality of this labelling caps the model's performance: inconsistent labels produce a confused model. Annotation is expert work, not a chore to outsource blindly.",
+  "regard_fr": "L'étiquetage est le travail invisible qui rend l'IA possible · souvent sous-payé, sous-valorisé, délocalisé. Sa qualité détermine celle du modèle, et ses conditions posent une vraie question éthique. Derrière chaque IA « magique » se cachent des milliers d'heures d'annotation humaine.",
+  "regard_en": "Labelling is the invisible work that makes AI possible · often underpaid, undervalued, offshored. Its quality determines the model's, and its conditions raise a real ethical question. Behind every \"magical\" AI lie thousands of hours of human annotation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "travailleurs-clic",
+    "apprentissage-supervise",
+    "verite-terrain",
+    "qualite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (étiquetage des données)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

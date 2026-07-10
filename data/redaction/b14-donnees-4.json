@@ -1,0 +1,98 @@
+{
+  "caracteristique": {
+    "sous_titre_fr": "Feature, variable d'entrée",
+    "sous_titre_en": "Feature, input variable",
+    "definition_fr": "Variable mesurable utilisée en entrée d'un modèle pour faire une prédiction : l'âge, le montant d'une transaction, la fréquence d'un mot. Le choix et la préparation des caractéristiques (feature engineering) ont longtemps été le cœur du métier de data scientist · les modèles modernes en apprennent une partie automatiquement.",
+    "definition_en": "A measurable variable used as input to a model to make a prediction: age, a transaction amount, a word's frequency. The choice and preparation of features (feature engineering) were long the heart of the data scientist's craft · modern models learn part of them automatically.",
+    "exemple_fr": "Pour prédire le risque de défaut d'un crédit, un modèle utilise des caractéristiques : revenus, ancienneté, historique de paiement. Ajouter une caractéristique pertinente · le taux d'endettement · améliore souvent plus le modèle qu'un algorithme plus complexe. Bien choisir ses variables reste un art décisif.",
+    "exemple_en": "To predict a loan's default risk, a model uses features: income, seniority, payment history. Adding a relevant feature · the debt ratio · often improves the model more than a more complex algorithm. Choosing your variables well remains a decisive art.",
+    "regard_fr": "Le choix des caractéristiques est aussi un choix éthique : inclure le code postal, c'est parfois réintroduire par la porte de derrière une discrimination géographique ou ethnique. Chaque variable mérite la question : que capture-t-elle vraiment, et est-ce légitime ?",
+    "regard_en": "The choice of features is also an ethical choice: including the postcode sometimes reintroduces, through the back door, geographic or ethnic discrimination. Every variable deserves the question: what does it really capture, and is it legitimate?",
+    "termes_lies": ["extraction-caracteristiques", "biais-algorithmique", "reduction-dimension", "donnees-entrainement"],
+    "sources": [{"titre": "CNIL · Glossaire IA (caractéristique)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "extraction-caracteristiques": {
+    "sous_titre_fr": "Feature extraction",
+    "sous_titre_en": "Extraction de caractéristiques",
+    "definition_fr": "Processus consistant à transformer des données brutes en un ensemble de caractéristiques exploitables par un modèle : extraire des contours d'une image, des fréquences d'un son, des statistiques d'un texte. C'est une étape de préparation qui conditionne la performance · les réseaux profonds l'automatisent en grande partie.",
+    "definition_en": "The process of transforming raw data into a set of features usable by a model: extracting edges from an image, frequencies from a sound, statistics from a text. It is a preparation step that conditions performance · deep networks largely automate it.",
+    "exemple_fr": "Avant l'apprentissage profond, reconnaître un visage exigeait d'extraire manuellement des caractéristiques : distance entre les yeux, forme du nez. Aujourd'hui, un réseau profond apprend lui-même ces représentations à partir des pixels. L'extraction de caractéristiques est passée du travail manuel à l'apprentissage automatique.",
+    "exemple_en": "Before deep learning, recognising a face required manually extracting features: distance between the eyes, nose shape. Today, a deep network learns these representations itself from the pixels. Feature extraction has moved from manual work to automatic learning.",
+    "regard_fr": "L'histoire de l'extraction de caractéristiques résume celle de l'IA moderne : d'un savoir-faire humain artisanal vers un apprentissage automatique de bout en bout. Cela rend les modèles plus puissants · mais aussi plus opaques, car on ne sait plus toujours quelles caractéristiques ils utilisent.",
+    "regard_en": "The history of feature extraction sums up that of modern AI: from a human artisanal craft to end-to-end automatic learning. This makes models more powerful · but also more opaque, since one no longer always knows which features they use.",
+    "termes_lies": ["caracteristique", "apprentissage-profond", "embedding", "reduction-dimension"],
+    "sources": [{"titre": "CNIL · Glossaire IA (extraction de caractéristiques)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "reduction-dimension": {
+    "sous_titre_fr": "Dimensionality reduction",
+    "sous_titre_en": "Réduction de dimension",
+    "definition_fr": "Ensemble de techniques réduisant le nombre de variables d'un jeu de données tout en préservant l'essentiel de l'information. Elle combat la « malédiction de la dimensionnalité », facilite la visualisation et accélère les calculs. Des méthodes comme l'ACP ou t-SNE sont des outils classiques du prétraitement en IA.",
+    "definition_en": "A set of techniques reducing the number of variables in a dataset while preserving most of the information. It fights the \"curse of dimensionality\", eases visualisation and speeds up computations. Methods like PCA or t-SNE are classic AI preprocessing tools.",
+    "exemple_fr": "Une équipe travaille avec des données à 500 variables · trop pour visualiser ou modéliser efficacement. Une réduction de dimension condense l'information en une dizaine de variables synthétiques. Le modèle devient plus rapide, plus robuste, et les patterns cachés deviennent enfin visibles sur un graphique.",
+    "exemple_en": "A team works with 500-variable data · too many to visualise or model efficiently. Dimensionality reduction condenses the information into about ten synthetic variables. The model becomes faster, more robust, and hidden patterns finally become visible on a chart.",
+    "regard_fr": "La réduction de dimension rappelle qu'en IA, plus n'est pas toujours mieux. Trop de variables noient le signal dans le bruit. Savoir condenser l'information sans la trahir est une compétence discrète qui distingue les bons praticiens des empileurs de données.",
+    "regard_en": "Dimensionality reduction reminds us that in AI, more is not always better. Too many variables drown the signal in noise. Knowing how to condense information without betraying it is a discreet skill that distinguishes good practitioners from data hoarders.",
+    "termes_lies": ["caracteristique", "embedding", "vectorisation", "clustering"],
+    "sources": [{"titre": "CNIL · Glossaire IA (réduction de dimensionnalité)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "vectorisation": {
+    "sous_titre_fr": "Vectorization, transformer en nombres",
+    "sous_titre_en": "Turning things into numbers",
+    "definition_fr": "Opération convertissant des données non numériques · texte, catégories, images · en vecteurs de nombres exploitables par un modèle. C'est le passage obligé de toute IA : un modèle ne manipule que des nombres. La vectorisation la plus riche, l'embedding, capture le sens et fonde les systèmes de recherche sémantique et de RAG.",
+    "definition_en": "The operation converting non-numeric data · text, categories, images · into vectors of numbers usable by a model. It is the mandatory step of all AI: a model only manipulates numbers. The richest vectorisation, embedding, captures meaning and underpins semantic search and RAG systems.",
+    "exemple_fr": "Pour qu'un modèle traite le mot « souveraineté », il faut d'abord le vectoriser · le transformer en une suite de nombres. Une vectorisation naïve (un identifiant par mot) ignore le sens ; un embedding place « souveraineté » près de « indépendance » dans l'espace vectoriel. La qualité de la vectorisation conditionne tout ce qui suit.",
+    "exemple_en": "For a model to process the word \"sovereignty\", it must first be vectorised · turned into a sequence of numbers. A naive vectorisation (one identifier per word) ignores meaning; an embedding places \"sovereignty\" near \"independence\" in the vector space. The quality of vectorisation conditions everything that follows.",
+    "regard_fr": "Toute IA commence par une trahison nécessaire : réduire le monde à des nombres. Comprendre la vectorisation, c'est comprendre ce qui se perd et ce qui se garde dans ce passage. Le choix de la méthode n'est jamais neutre · il décide de ce que le modèle pourra « comprendre ».",
+    "regard_en": "All AI begins with a necessary betrayal: reducing the world to numbers. Understanding vectorisation means understanding what is lost and kept in that passage. The choice of method is never neutral · it decides what the model will be able to \"understand\".",
+    "termes_lies": ["embedding", "vector-store", "reduction-dimension", "recherche-semantique"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (conversion en jetons)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "exploration-donnees": {
+    "sous_titre_fr": "Data mining, fouille de données",
+    "sous_titre_en": "Data mining",
+    "definition_fr": "Ensemble de techniques permettant de découvrir des schémas, corrélations et tendances cachés dans de grands volumes de données. Antérieure à l'IA générative, l'exploration de données reste un pilier de l'analyse : elle transforme des masses brutes en connaissances actionnables, souvent avec des méthodes statistiques classiques et sobres.",
+    "definition_en": "A set of techniques for discovering hidden patterns, correlations and trends in large volumes of data. Predating generative AI, data mining remains a pillar of analysis: it turns raw masses into actionable knowledge, often with classic, frugal statistical methods.",
+    "exemple_fr": "Une enseigne explore ses données de ventes et découvre une corrélation inattendue entre deux produits, exploitée ensuite en rayon. Aucun LLM n'a été mobilisé · une simple analyse d'association a suffi. L'exploration de données rappelle qu'on n'a pas toujours besoin d'IA générative pour créer de la valeur.",
+    "exemple_en": "A retailer explores its sales data and discovers an unexpected correlation between two products, then exploited in-store. No LLM was involved · a simple association analysis sufficed. Data mining recalls that generative AI is not always needed to create value.",
+    "regard_fr": "L'exploration de données est le rappel salutaire que l'IA ne se résume pas aux grands modèles. Bien des questions business se résolvent avec des méthodes statistiques éprouvées, sobres et explicables. Avant de sortir l'artillerie générative, demandez-vous si une bonne vieille fouille de données ne suffirait pas.",
+    "regard_en": "Data mining is the salutary reminder that AI is not reducible to large models. Many business questions are solved with proven, frugal, explainable statistical methods. Before rolling out the generative artillery, ask whether good old data mining would not suffice.",
+    "termes_lies": ["science-donnees", "ia-non-generative", "megadonnees", "correlation-causalite"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (exploration de données)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "echantillonnage": {
+    "sous_titre_fr": "Sampling et biais d'échantillonnage",
+    "sous_titre_en": "Sampling and sampling bias",
+    "definition_fr": "Sélection d'un sous-ensemble de données représentatif d'un ensemble plus large. Un échantillonnage mal conçu introduit un biais d'échantillonnage : si l'échantillon ne reflète pas la réalité, le modèle apprend une image déformée du monde. C'est l'une des sources les plus fréquentes · et les plus sous-estimées · de biais algorithmique.",
+    "definition_en": "The selection of a subset of data representative of a larger set. Poorly designed sampling introduces sampling bias: if the sample does not reflect reality, the model learns a distorted image of the world. It is one of the most frequent · and most underestimated · sources of algorithmic bias.",
+    "exemple_fr": "Un modèle de prévision de la demande est entraîné sur les données d'une seule région, puis déployé nationalement. Il se trompe systématiquement ailleurs : l'échantillon n'était pas représentatif. Le problème n'était pas le modèle mais l'échantillonnage · une erreur invisible tant qu'on ne teste pas sur des données diverses.",
+    "exemple_en": "A demand forecasting model is trained on data from a single region, then deployed nationally. It systematically errs elsewhere: the sample was not representative. The problem was not the model but the sampling · an error invisible until you test on diverse data.",
+    "regard_fr": "Le biais d'échantillonnage est le péché discret de nombreux projets d'IA : on entraîne sur les données qu'on a, pas sur celles qu'il faudrait. Avant de blâmer un modèle défaillant, demandez-vous toujours : mon échantillon reflète-t-il vraiment la réalité où le modèle va servir ?",
+    "regard_en": "Sampling bias is the quiet sin of many AI projects: you train on the data you have, not the data you should. Before blaming a failing model, always ask: does my sample truly reflect the reality where the model will operate?",
+    "termes_lies": ["biais-algorithmique", "donnees-entrainement", "generalisation", "equite-algorithmique"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (biais de sélection)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "marecage-donnees": {
+    "sous_titre_fr": "Data swamp, le lac qui a mal tourné",
+    "sous_titre_en": "Data swamp, the lake gone wrong",
+    "definition_fr": "Lac de données devenu inexploitable faute de gouvernance : données non cataloguées, non documentées, de qualité inconnue, de provenance incertaine. Le marécage de données est le sort d'un lac où l'on a tout déversé sans règles. Pour l'IA, c'est un piège : on croit avoir une mine, on a un dépotoir.",
+    "definition_en": "A data lake become unusable for lack of governance: uncatalogued, undocumented data of unknown quality and uncertain provenance. The data swamp is the fate of a lake where everything was dumped without rules. For AI, it is a trap: you think you have a mine, you have a dump.",
+    "exemple_fr": "Une entreprise veut lancer un projet IA et se réjouit : elle a « des années de données ». À l'examen, c'est un marécage · formats incohérents, doublons, données mortes, aucune documentation. Avant tout projet IA, il faut assécher le marécage · une phase de gouvernance souvent plus longue que le développement du modèle.",
+    "exemple_en": "A company wants to launch an AI project and rejoices: it has \"years of data\". On examination, it is a swamp · inconsistent formats, duplicates, dead data, no documentation. Before any AI project, the swamp must be drained · a governance phase often longer than the model's development.",
+    "regard_fr": "Le marécage de données est le cimetière des ambitions IA mal préparées. « Nous avons beaucoup de données » n'est pas une bonne nouvelle si ces données sont ingérables. La vraie question n'est pas la quantité, mais la gouvernance. Un petit lac propre bat un grand marécage.",
+    "regard_en": "The data swamp is the graveyard of ill-prepared AI ambitions. \"We have a lot of data\" is not good news if that data is unmanageable. The real question is not quantity, but governance. A small clean lake beats a large swamp.",
+    "termes_lies": ["lac-donnees", "gouvernance-donnees", "qualite-donnees", "audit-documentaire"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (marécage de données)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "donnees-dormantes": {
+    "sous_titre_fr": "Dark data, les données oubliées",
+    "sous_titre_en": "Dark data, the forgotten data",
+    "definition_fr": "Données collectées et stockées par une organisation mais jamais exploitées : logs archivés, formulaires oubliés, capteurs enregistrant dans le vide. Le Gartner estime que la majorité des données d'une entreprise sont dormantes. L'IA générative rend soudain exploitable une partie de ce gisement · à condition de le gouverner.",
+    "definition_en": "Data collected and stored by an organisation but never used: archived logs, forgotten forms, sensors recording into the void. Gartner estimates that the majority of a company's data is dormant. Generative AI suddenly makes part of this reservoir exploitable · provided it is governed.",
+    "exemple_fr": "Une entreprise industrielle stocke depuis dix ans les rapports d'intervention de ses techniciens · jamais relus. Un RAG transforme ce gisement dormant en base de connaissances interrogeable : les nouveaux techniciens accèdent enfin à l'expérience accumulée. Les données dormantes étaient un trésor endormi.",
+    "exemple_en": "An industrial company has stored its technicians' intervention reports for ten years · never reread. A RAG turns this dormant reservoir into a queryable knowledge base: new technicians finally access the accumulated experience. The dark data was a sleeping treasure.",
+    "regard_fr": "Les données dormantes sont à la fois une opportunité et un risque : un gisement de valeur, mais aussi une accumulation de données personnelles oubliées, non conformes, non sécurisées. Les réveiller pour l'IA impose de les auditer d'abord · sous peine de réveiller aussi les risques.",
+    "regard_en": "Dark data is both an opportunity and a risk: a reservoir of value, but also an accumulation of forgotten, non-compliant, unsecured personal data. Waking it for AI requires auditing it first · at the risk of also waking the risks.",
+    "termes_lies": ["megadonnees", "audit-documentaire", "gouvernance-donnees", "rag"],
+    "sources": [{"titre": "Gartner · Dark Data"}]
+  }
+}

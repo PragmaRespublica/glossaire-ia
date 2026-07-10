@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Extraction de caractéristiques",
+  "terme_en": "Feature extraction",
+  "sous_titre_fr": "Feature extraction",
+  "sous_titre_en": "Extraction de caractéristiques",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Processus consistant à transformer des données brutes en un ensemble de caractéristiques exploitables par un modèle : extraire des contours d'une image, des fréquences d'un son, des statistiques d'un texte. C'est une étape de préparation qui conditionne la performance · les réseaux profonds l'automatisent en grande partie.",
+  "definition_en": "The process of transforming raw data into a set of features usable by a model: extracting edges from an image, frequencies from a sound, statistics from a text. It is a preparation step that conditions performance · deep networks largely automate it.",
+  "exemple_fr": "Avant l'apprentissage profond, reconnaître un visage exigeait d'extraire manuellement des caractéristiques : distance entre les yeux, forme du nez. Aujourd'hui, un réseau profond apprend lui-même ces représentations à partir des pixels. L'extraction de caractéristiques est passée du travail manuel à l'apprentissage automatique.",
+  "exemple_en": "Before deep learning, recognising a face required manually extracting features: distance between the eyes, nose shape. Today, a deep network learns these representations itself from the pixels. Feature extraction has moved from manual work to automatic learning.",
+  "regard_fr": "L'histoire de l'extraction de caractéristiques résume celle de l'IA moderne : d'un savoir-faire humain artisanal vers un apprentissage automatique de bout en bout. Cela rend les modèles plus puissants · mais aussi plus opaques, car on ne sait plus toujours quelles caractéristiques ils utilisent.",
+  "regard_en": "The history of feature extraction sums up that of modern AI: from a human artisanal craft to end-to-end automatic learning. This makes models more powerful · but also more opaque, since one no longer always knows which features they use.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "caracteristique",
+    "apprentissage-profond",
+    "embedding",
+    "reduction-dimension"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (extraction de caractéristiques)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

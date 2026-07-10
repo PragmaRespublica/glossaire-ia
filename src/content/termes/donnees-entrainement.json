@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Données d'entraînement",
+  "terme_en": "Training data",
+  "sous_titre_fr": "Training data",
+  "sous_titre_en": "Données d'entraînement",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des données à partir desquelles un modèle d'IA apprend. Leur volume, leur qualité, leur diversité et leur représentativité déterminent presque tout le comportement du modèle : ses compétences, ses biais, ses angles morts. « Un modèle n'est jamais meilleur que ses données d'entraînement » résume une vérité centrale de la discipline.",
+  "definition_en": "The set of data from which an AI model learns. Their volume, quality, diversity and representativeness determine almost all of the model's behaviour: its skills, its biases, its blind spots. \"A model is never better than its training data\" sums up a central truth of the field.",
+  "exemple_fr": "Un modèle de reconnaissance vocale entraîné majoritairement sur des voix masculines anglophones comprend mal les femmes et les accents. Le défaut ne vient pas de l'algorithme mais des données. Corriger un tel biais suppose de rééquilibrer le corpus · une opération plus longue et coûteuse qu'un simple réglage technique.",
+  "exemple_en": "A speech recognition model trained mostly on male English-speaking voices poorly understands women and accents. The flaw comes not from the algorithm but from the data. Fixing such a bias means rebalancing the corpus · a longer, costlier operation than a mere technical tweak.",
+  "regard_fr": "Derrière chaque comportement d'un modèle se cache un choix de données · souvent invisible et rarement documenté. Interroger les données d'entraînement, c'est remonter à la source des biais et des capacités. C'est aussi là que se jouent le droit d'auteur et la vie privée.",
+  "regard_en": "Behind every behaviour of a model lies a data choice · often invisible and rarely documented. Questioning the training data means tracing biases and capabilities to their source. It is also where copyright and privacy play out.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "jeu-donnees",
+    "biais-algorithmique",
+    "qualite-donnees",
+    "corpus-entrainement"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (ensemble d'entraînement)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

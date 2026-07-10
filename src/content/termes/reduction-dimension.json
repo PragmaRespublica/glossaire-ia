@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Réduction de dimension",
+  "terme_en": "Dimensionality reduction",
+  "sous_titre_fr": "Dimensionality reduction",
+  "sous_titre_en": "Réduction de dimension",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Ensemble de techniques réduisant le nombre de variables d'un jeu de données tout en préservant l'essentiel de l'information. Elle combat la « malédiction de la dimensionnalité », facilite la visualisation et accélère les calculs. Des méthodes comme l'ACP ou t-SNE sont des outils classiques du prétraitement en IA.",
+  "definition_en": "A set of techniques reducing the number of variables in a dataset while preserving most of the information. It fights the \"curse of dimensionality\", eases visualisation and speeds up computations. Methods like PCA or t-SNE are classic AI preprocessing tools.",
+  "exemple_fr": "Une équipe travaille avec des données à 500 variables · trop pour visualiser ou modéliser efficacement. Une réduction de dimension condense l'information en une dizaine de variables synthétiques. Le modèle devient plus rapide, plus robuste, et les patterns cachés deviennent enfin visibles sur un graphique.",
+  "exemple_en": "A team works with 500-variable data · too many to visualise or model efficiently. Dimensionality reduction condenses the information into about ten synthetic variables. The model becomes faster, more robust, and hidden patterns finally become visible on a chart.",
+  "regard_fr": "La réduction de dimension rappelle qu'en IA, plus n'est pas toujours mieux. Trop de variables noient le signal dans le bruit. Savoir condenser l'information sans la trahir est une compétence discrète qui distingue les bons praticiens des empileurs de données.",
+  "regard_en": "Dimensionality reduction reminds us that in AI, more is not always better. Too many variables drown the signal in noise. Knowing how to condense information without betraying it is a discreet skill that distinguishes good practitioners from data hoarders.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "caracteristique",
+    "embedding",
+    "vectorisation",
+    "clustering"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (réduction de dimensionnalité)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

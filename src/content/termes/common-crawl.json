@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Common Crawl",
+  "terme_en": "Common Crawl",
+  "sous_titre_fr": "L'archive du web qui a nourri les LLM",
+  "sous_titre_en": "The web archive that fed the LLMs",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Vaste archive publique du web, mise à jour régulièrement, contenant des pétaoctets de pages collectées automatiquement. Common Crawl est l'une des principales sources d'entraînement des grands modèles de langage · ce qui en fait aussi le point de départ des débats sur le droit d'auteur, les biais et la provenance des données d'IA.",
+  "definition_en": "A vast public web archive, regularly updated, containing petabytes of automatically collected pages. Common Crawl is one of the main training sources of large language models · which also makes it the starting point of debates on copyright, bias and AI data provenance.",
+  "exemple_fr": "Quand on demande d'où viennent les connaissances d'un LLM, une grande partie de la réponse tient dans Common Crawl : des milliards de pages web, avec leurs qualités et leurs travers · désinformation, biais, contenus protégés. Comprendre cette source, c'est comprendre pourquoi les modèles savent tant de choses · et se trompent parfois.",
+  "exemple_en": "When one asks where an LLM's knowledge comes from, much of the answer lies in Common Crawl: billions of web pages, with their qualities and flaws · disinformation, bias, protected content. Understanding this source means understanding why models know so much · and are sometimes wrong.",
+  "regard_fr": "Common Crawl illustre le péché originel des grands modèles : ils ont appris du web tel qu'il est, avec ses trésors et ses poisons. Aucun filtrage n'efface totalement cet héritage. Le savoir de l'IA porte la marque de ses données · impossible de l'oublier en l'utilisant.",
+  "regard_en": "Common Crawl illustrates the original sin of large models: they learned from the web as it is, with its treasures and poisons. No filtering fully erases this legacy. AI's knowledge bears the mark of its data · impossible to forget when using it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "scraping",
+    "donnees-entrainement",
+    "droits-auteur-ia",
+    "biais-algorithmique"
+  ],
+  "sources": [
+    {
+      "titre": "Common Crawl Foundation",
+      "url": "https://commoncrawl.org/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

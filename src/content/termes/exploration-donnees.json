@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Exploration de données (data mining)",
+  "terme_en": "Data mining",
+  "sous_titre_fr": "Data mining, fouille de données",
+  "sous_titre_en": "Data mining",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Ensemble de techniques permettant de découvrir des schémas, corrélations et tendances cachés dans de grands volumes de données. Antérieure à l'IA générative, l'exploration de données reste un pilier de l'analyse : elle transforme des masses brutes en connaissances actionnables, souvent avec des méthodes statistiques classiques et sobres.",
+  "definition_en": "A set of techniques for discovering hidden patterns, correlations and trends in large volumes of data. Predating generative AI, data mining remains a pillar of analysis: it turns raw masses into actionable knowledge, often with classic, frugal statistical methods.",
+  "exemple_fr": "Une enseigne explore ses données de ventes et découvre une corrélation inattendue entre deux produits, exploitée ensuite en rayon. Aucun LLM n'a été mobilisé · une simple analyse d'association a suffi. L'exploration de données rappelle qu'on n'a pas toujours besoin d'IA générative pour créer de la valeur.",
+  "exemple_en": "A retailer explores its sales data and discovers an unexpected correlation between two products, then exploited in-store. No LLM was involved · a simple association analysis sufficed. Data mining recalls that generative AI is not always needed to create value.",
+  "regard_fr": "L'exploration de données est le rappel salutaire que l'IA ne se résume pas aux grands modèles. Bien des questions business se résolvent avec des méthodes statistiques éprouvées, sobres et explicables. Avant de sortir l'artillerie générative, demandez-vous si une bonne vieille fouille de données ne suffirait pas.",
+  "regard_en": "Data mining is the salutary reminder that AI is not reducible to large models. Many business questions are solved with proven, frugal, explainable statistical methods. Before rolling out the generative artillery, ask whether good old data mining would not suffice.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "science-donnees",
+    "ia-non-generative",
+    "megadonnees",
+    "correlation-causalite"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (exploration de données)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

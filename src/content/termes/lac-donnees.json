@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Lac de données",
+  "terme_en": "Data lake",
+  "sous_titre_fr": "Data lake",
+  "sous_titre_en": "Lac de données",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Réservoir centralisé stockant des données brutes de tous formats · structurées, semi-structurées, non structurées · sans schéma imposé à l'entrée. Flexible et adapté à l'IA, le lac de données peut tourner au « marécage » (data swamp) s'il n'est pas gouverné : sans catalogue ni qualité, il devient un dépotoir inexploitable.",
+  "definition_en": "A centralised reservoir storing raw data of all formats · structured, semi-structured, unstructured · with no schema imposed on entry. Flexible and suited to AI, the data lake can turn into a \"swamp\" if ungoverned: without a catalogue or quality, it becomes an unusable dumping ground.",
+  "exemple_fr": "Une entreprise déverse cinq ans de logs, documents et exports dans un lac de données « pour l'IA ». Deux ans plus tard, personne ne sait ce qu'il contient ni si c'est fiable. Faute de catalogue et de gouvernance, le lac est devenu un marécage. La leçon : un lac sans gouvernance est un coût, pas un actif.",
+  "exemple_en": "A company dumps five years of logs, documents and exports into a data lake \"for AI\". Two years later, nobody knows what it contains or whether it is reliable. For lack of a catalogue and governance, the lake has become a swamp. The lesson: a lake without governance is a cost, not an asset.",
+  "regard_fr": "Le lac de données est un outil formidable et un piège classique : sans gouvernance, il se transforme en marécage. Avant de tout y déverser « au cas où », dotez-le d'un catalogue et de règles de qualité. Un lac gouverné est un actif ; un lac abandonné, une dette.",
+  "regard_en": "The data lake is a formidable tool and a classic trap: without governance, it turns into a swamp. Before dumping everything in \"just in case\", equip it with a catalogue and quality rules. A governed lake is an asset; an abandoned lake, a debt.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "entrepot-donnees",
+    "marecage-donnees",
+    "gouvernance-donnees",
+    "megadonnees"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (lac de données)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

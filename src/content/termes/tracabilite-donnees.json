@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Traçabilité des données (lineage)",
+  "terme_en": "Data lineage",
+  "sous_titre_fr": "Data lineage, le parcours des données",
+  "sous_titre_en": "Data lineage",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Capacité à retracer l'origine, les transformations et le parcours d'une donnée depuis sa source jusqu'à son usage. La traçabilité (lineage) répond à des questions cruciales : d'où vient ce chiffre ? quelle version du document a alimenté cette réponse ? Elle est indispensable à l'auditabilité et à la confiance dans les systèmes d'IA.",
+  "definition_en": "The ability to trace the origin, transformations and journey of a datum from its source to its use. Data lineage answers crucial questions: where does this figure come from? which version of the document fed this answer? It is indispensable for the auditability of and trust in AI systems.",
+  "exemple_fr": "Un tableau de bord alimenté par IA affiche un chiffre surprenant. Grâce à la traçabilité, l'analyste remonte toute la chaîne : source, transformations, calculs. Il identifie qu'une règle d'agrégation avait changé. Sans lineage, il aurait dû choisir entre croire aveuglément le chiffre ou tout recalculer à la main.",
+  "exemple_en": "An AI-fed dashboard displays a surprising figure. Thanks to lineage, the analyst traces the whole chain: source, transformations, calculations. They identify that an aggregation rule had changed. Without lineage, they would have had to choose between blindly trusting the figure or recomputing everything by hand.",
+  "regard_fr": "La traçabilité des données est ce qui sépare une IA de confiance d'une boîte noire. Pouvoir répondre à « d'où vient ce résultat ? » n'est pas un luxe technique · c'est la condition pour qu'un humain puisse vérifier, corriger et assumer une décision assistée par IA.",
+  "regard_en": "Data lineage is what separates a trustworthy AI from a black box. Being able to answer \"where does this result come from?\" is not a technical luxury · it is the condition for a human to verify, correct and own an AI-assisted decision.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gouvernance-donnees",
+    "journalisation",
+    "explicabilite",
+    "metadonnees"
+  ],
+  "sources": [
+    {
+      "titre": "DAMA · Data Management Body of Knowledge"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Souveraineté des données",
+  "terme_en": "Data sovereignty",
+  "sous_titre_fr": "Data sovereignty",
+  "sous_titre_en": "Souveraineté des données",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Principe selon lequel les données d'une organisation ou d'un pays restent soumises à ses propres lois et sous son contrôle, indépendamment de leur lieu de traitement. C'est le prolongement de la souveraineté numérique appliqué à la matière première de l'IA : qui contrôle les données contrôle, in fine, les modèles qui en dérivent.",
+  "definition_en": "The principle that an organisation's or country's data remains subject to its own laws and under its control, regardless of where it is processed. It is the extension of digital sovereignty applied to AI's raw material: whoever controls the data controls, ultimately, the models derived from it.",
+  "exemple_fr": "Une région veut développer des services d'IA à partir des données de ses habitants. En les hébergeant sur une infrastructure souveraine et en gardant la maîtrise des modèles entraînés dessus, elle préserve sa souveraineté sur les données · et sur la valeur qui en découle. Confier le tout à un acteur étranger reviendrait à céder cette valeur.",
+  "exemple_en": "A region wants to develop AI services from its residents' data. By hosting it on sovereign infrastructure and keeping control of the models trained on it, it preserves its sovereignty over the data · and over the value that flows from it. Entrusting it all to a foreign player would mean ceding that value.",
+  "regard_fr": "La souveraineté des données est la bataille en amont de celle des modèles : celui qui détient les données détient le pouvoir de créer et de recréer des IA. Abandonner ses données, c'est abandonner sa capacité future d'innovation · une décision bien plus lourde qu'un simple choix d'hébergement.",
+  "regard_en": "Data sovereignty is the battle upstream of the model battle: whoever holds the data holds the power to create and recreate AIs. Giving up your data means giving up your future capacity to innovate · a decision far heavier than a mere hosting choice.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "souverainete-numerique",
+    "localisation-donnees",
+    "cloud-souverain",
+    "ia-souveraine"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · souveraineté des données",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

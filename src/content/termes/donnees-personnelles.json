@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Données personnelles",
+  "terme_en": "Personal data",
+  "sous_titre_fr": "Personal data",
+  "sous_titre_en": "Données à caractère personnel",
+  "axe": "reglementaire",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Toute information se rapportant à une personne physique identifiée ou identifiable, directement ou indirectement : nom, mais aussi identifiant en ligne, données de localisation, éléments propres à l'identité. C'est la notion pivot du RGPD : dès qu'un traitement d'IA en manipule, tout le régime de protection s'applique.",
+  "definition_en": "Any information relating to an identified or identifiable natural person, directly or indirectly: a name, but also an online identifier, location data, elements specific to identity. It is the pivotal notion of the GDPR: as soon as an AI processing operation handles them, the entire protection regime applies.",
+  "exemple_fr": "Une entreprise croit anonymiser ses données en retirant les noms. Mais la combinaison du code postal, de l'âge et de la profession suffit souvent à réidentifier une personne. Ces données restent donc personnelles · et soumises au RGPD. L'anonymisation réelle est plus exigeante qu'un simple masquage de noms.",
+  "exemple_en": "A company believes it anonymises its data by removing names. But the combination of postcode, age and profession often suffices to re-identify a person. These data therefore remain personal · and subject to the GDPR. Real anonymisation is more demanding than merely masking names.",
+  "regard_fr": "La frontière du « personnel » est plus large qu'on ne le croit : ce n'est pas le nom qui compte, mais la possibilité de remonter à une personne. Sous-estimer cette définition est la première erreur de conformité · et la plus fréquente dans les projets d'IA.",
+  "regard_en": "The boundary of \"personal\" is broader than one thinks: it is not the name that matters, but the possibility of tracing back to a person. Underestimating this definition is the first compliance mistake · and the most frequent in AI projects.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "anonymisation",
+    "pseudonymisation",
+    "donnees-sensibles"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 4",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

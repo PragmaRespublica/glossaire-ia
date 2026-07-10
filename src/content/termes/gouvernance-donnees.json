@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Gouvernance des données",
+  "terme_en": "Data governance",
+  "sous_titre_fr": "Data governance",
+  "sous_titre_en": "Gouvernance des données",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des rôles, processus et règles organisant la gestion des données dans une entreprise : propriété, qualité, sécurité, cycle de vie, conformité. C'est le socle sans lequel aucun projet d'IA sérieux ne tient : sans gouvernance des données, un RAG indexe du désordre et un modèle apprend des erreurs.",
+  "definition_en": "The set of roles, processes and rules organising data management in a company: ownership, quality, security, lifecycle, compliance. It is the foundation without which no serious AI project holds: without data governance, a RAG indexes disorder and a model learns errors.",
+  "exemple_fr": "Une entreprise lance un projet RAG ambitieux qui échoue : réponses contradictoires, sources obsolètes, fuites. Le diagnostic est sans appel · le problème n'est pas l'IA, mais l'absence de gouvernance des données en amont. Les projets d'IA ne font que révéler, en l'amplifiant, l'état réel du patrimoine de données.",
+  "exemple_en": "A company launches an ambitious RAG project that fails: contradictory answers, obsolete sources, leaks. The diagnosis is unequivocal · the problem is not the AI, but the absence of upstream data governance. AI projects merely reveal, by amplifying it, the real state of the data estate.",
+  "regard_fr": "L'IA est un révélateur impitoyable de la gouvernance des données : elle transforme chaque défaut de qualité en réponse fausse visible de tous. Investir dans la gouvernance des données avant l'IA, ce n'est pas retarder le projet · c'est éviter qu'il échoue en public.",
+  "regard_en": "AI is a merciless revealer of data governance: it turns every quality flaw into a wrong answer visible to all. Investing in data governance before AI is not delaying the project · it is preventing it from failing in public.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "qualite-donnees",
+    "audit-documentaire",
+    "tracabilite-donnees",
+    "gouvernance-ia"
+  ],
+  "sources": [
+    {
+      "titre": "DAMA · Data Management Body of Knowledge"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

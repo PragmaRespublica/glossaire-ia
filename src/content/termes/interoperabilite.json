@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Interopérabilité",
+  "terme_en": "Interoperability",
+  "sous_titre_fr": "Interoperability",
+  "sous_titre_en": "Interopérabilité",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Capacité de systèmes, formats ou modèles différents à fonctionner ensemble et à échanger des données sans friction. En IA, l'interopérabilité passe par des formats de données standards, des API ouvertes et des protocoles communs (comme MCP pour les outils d'agents). Elle est la condition technique de la portabilité et de l'indépendance.",
+  "definition_en": "The ability of different systems, formats or models to work together and exchange data without friction. In AI, interoperability relies on standard data formats, open APIs and common protocols (like MCP for agent tools). It is the technical condition of portability and independence.",
+  "exemple_fr": "Une entreprise construit son architecture IA sur des standards ouverts : formats d'échange documentés, API compatibles, protocole MCP pour connecter ses outils. Le jour où elle veut remplacer un composant, l'interopérabilité rend l'opération indolore. À l'inverse, une architecture propriétaire de bout en bout la ligoterait.",
+  "exemple_en": "A company builds its AI architecture on open standards: documented exchange formats, compatible APIs, the MCP protocol to connect its tools. The day it wants to replace a component, interoperability makes the operation painless. Conversely, an end-to-end proprietary architecture would tie it up.",
+  "regard_fr": "L'interopérabilité est la souveraineté à l'échelle technique : elle garantit que vos briques restent interchangeables. Chaque standard ouvert adopté est une porte de sortie préservée ; chaque format propriétaire, une serrure qui se referme. Choisissez l'ouvert par principe.",
+  "regard_en": "Interoperability is sovereignty at the technical scale: it guarantees your building blocks stay interchangeable. Every open standard adopted is a preserved exit; every proprietary format, a lock that closes. Choose open by principle.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "portabilite-donnees",
+    "lock-in",
+    "mcp",
+    "licences-open-source"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · interopérabilité",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

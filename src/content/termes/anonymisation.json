@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Anonymisation",
+  "terme_en": "Anonymization",
+  "sous_titre_fr": "Anonymization",
+  "sous_titre_en": "Anonymisation",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Processus rendant impossible la réidentification d'une personne dans un jeu de données, de manière irréversible. Une donnée réellement anonymisée sort du champ du RGPD. Mais l'anonymisation véritable est difficile : la richesse des données modernes permet souvent de recroiser et de réidentifier, transformant une fausse anonymisation en risque juridique.",
+  "definition_en": "A process making the re-identification of a person in a dataset impossible, irreversibly. Truly anonymised data falls outside the GDPR's scope. But genuine anonymisation is difficult: the richness of modern data often allows re-crossing and re-identification, turning a false anonymisation into a legal risk.",
+  "exemple_fr": "Un jeu de données de trajets « anonymisé » (heures et lieux, sans noms) permet néanmoins d'identifier une personne : le trajet domicile-travail répété est une signature unique. L'anonymisation n'était qu'apparente. Pour être réelle, elle aurait exigé une agrégation ou un bruitage · au prix d'une perte d'information.",
+  "exemple_en": "An \"anonymised\" trip dataset (times and places, no names) nonetheless allows identifying a person: the repeated home-work commute is a unique signature. The anonymisation was only apparent. To be real, it would have required aggregation or noise · at the cost of information loss.",
+  "regard_fr": "« C'est anonymisé » est l'une des affirmations les plus trompeuses en protection des données. La vraie anonymisation est rare et coûteuse en information. Le plus souvent, on fait de la pseudonymisation · qui reste soumise au RGPD. Ne confondez pas les deux.",
+  "regard_en": "\"It's anonymised\" is one of the most misleading claims in data protection. Real anonymisation is rare and costly in information. Most often, one does pseudonymisation · which remains subject to the GDPR. Do not confuse the two.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "pseudonymisation",
+    "donnees-personnelles",
+    "confidentialite-differentielle",
+    "rgpd"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · anonymisation",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

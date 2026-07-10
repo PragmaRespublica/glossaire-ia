@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Mégadonnées (big data)",
+  "terme_en": "Big data",
+  "sous_titre_fr": "Big data",
+  "sous_titre_en": "Mégadonnées",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Ensembles de données trop volumineux, trop rapides ou trop variés pour les outils classiques, caractérisés par les « 3V » : volume, vélocité, variété. Le big data a précédé et nourri l'essor de l'IA moderne : c'est la disponibilité de données massives qui a rendu possible l'entraînement des grands modèles.",
+  "definition_en": "Datasets too voluminous, too fast or too varied for classic tools, characterised by the \"3Vs\": volume, velocity, variety. Big data preceded and fed the rise of modern AI: it is the availability of massive data that made training large models possible.",
+  "exemple_fr": "Une enseigne de distribution accumule des téraoctets de tickets de caisse, de parcours web et de données de fidélité. Isolées, ces données dorment. Croisées et analysées par des modèles, elles révèlent des schémas d'achat exploitables. Le big data n'a de valeur que par ce qu'on en extrait · l'IA en est le principal moteur.",
+  "exemple_en": "A retail chain accumulates terabytes of receipts, web journeys and loyalty data. Isolated, this data sleeps. Crossed and analysed by models, it reveals exploitable purchase patterns. Big data has value only through what one extracts · AI is its main engine.",
+  "regard_fr": "Le mythe du big data · « plus de données, plus de valeur » · a ses limites : des données massives mais sales ou non gouvernées produisent surtout du bruit coûteux. La vraie question n'est pas le volume, mais la pertinence et la qualité de ce qu'on collecte.",
+  "regard_en": "The big data myth · \"more data, more value\" · has its limits: massive but dirty or ungoverned data mostly produces costly noise. The real question is not volume, but the relevance and quality of what one collects.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "donnees-structurees",
+    "lac-donnees",
+    "science-donnees",
+    "qualite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (mégadonnées)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

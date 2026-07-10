@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Vectorisation",
+  "terme_en": "Vectorization",
+  "sous_titre_fr": "Vectorization, transformer en nombres",
+  "sous_titre_en": "Turning things into numbers",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Opération convertissant des données non numériques · texte, catégories, images · en vecteurs de nombres exploitables par un modèle. C'est le passage obligé de toute IA : un modèle ne manipule que des nombres. La vectorisation la plus riche, l'embedding, capture le sens et fonde les systèmes de recherche sémantique et de RAG.",
+  "definition_en": "The operation converting non-numeric data · text, categories, images · into vectors of numbers usable by a model. It is the mandatory step of all AI: a model only manipulates numbers. The richest vectorisation, embedding, captures meaning and underpins semantic search and RAG systems.",
+  "exemple_fr": "Pour qu'un modèle traite le mot « souveraineté », il faut d'abord le vectoriser · le transformer en une suite de nombres. Une vectorisation naïve (un identifiant par mot) ignore le sens ; un embedding place « souveraineté » près de « indépendance » dans l'espace vectoriel. La qualité de la vectorisation conditionne tout ce qui suit.",
+  "exemple_en": "For a model to process the word \"sovereignty\", it must first be vectorised · turned into a sequence of numbers. A naive vectorisation (one identifier per word) ignores meaning; an embedding places \"sovereignty\" near \"independence\" in the vector space. The quality of vectorisation conditions everything that follows.",
+  "regard_fr": "Toute IA commence par une trahison nécessaire : réduire le monde à des nombres. Comprendre la vectorisation, c'est comprendre ce qui se perd et ce qui se garde dans ce passage. Le choix de la méthode n'est jamais neutre · il décide de ce que le modèle pourra « comprendre ».",
+  "regard_en": "All AI begins with a necessary betrayal: reducing the world to numbers. Understanding vectorisation means understanding what is lost and kept in that passage. The choice of method is never neutral · it decides what the model will be able to \"understand\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "embedding",
+    "vector-store",
+    "reduction-dimension",
+    "recherche-semantique"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (conversion en jetons)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

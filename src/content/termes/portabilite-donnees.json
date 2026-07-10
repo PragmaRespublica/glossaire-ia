@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Portabilité des données",
+  "terme_en": "Data portability",
+  "sous_titre_fr": "Data portability",
+  "sous_titre_en": "Portabilité des données",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Capacité à récupérer ses données dans un format réutilisable pour les transférer vers un autre service. Droit garanti aux personnes par le RGPD et renforcé pour les entreprises par le Data Act, la portabilité est une arme directe contre le verrouillage fournisseur · et une condition de la liberté de changer de fournisseur d'IA.",
+  "definition_en": "The ability to retrieve one's data in a reusable format to transfer it to another service. A right guaranteed to individuals by the GDPR and reinforced for companies by the Data Act, portability is a direct weapon against vendor lock-in · and a condition of the freedom to change AI provider.",
+  "exemple_fr": "Une entreprise veut migrer d'un fournisseur d'IA à un concurrent européen. Grâce à des clauses de portabilité négociées à la signature, elle récupère ses documents, historiques et configurations dans des formats standards. La migration prend des jours, pas des mois. La portabilité négociée en amont a préservé sa liberté.",
+  "exemple_en": "A company wants to migrate from one AI provider to a European competitor. Thanks to portability clauses negotiated at signing, it retrieves its documents, histories and configurations in standard formats. The migration takes days, not months. Portability negotiated upfront preserved its freedom.",
+  "regard_fr": "La portabilité est le contraire du verrouillage : elle mesure votre liberté réelle de partir. Un fournisseur qui la facilite est un fournisseur confiant ; un fournisseur qui la complique vous prépare une prison dorée. Testez la portabilité avant de dépendre, pas après.",
+  "regard_en": "Portability is the opposite of lock-in: it measures your real freedom to leave. A provider that facilitates it is a confident provider; one that complicates it is preparing a gilded cage. Test portability before depending, not after.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "lock-in",
+    "data-act",
+    "interoperabilite",
+    "souverainete-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 20",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Données structurées et non structurées",
+  "terme_en": "Structured and unstructured data",
+  "sous_titre_fr": "Structured and unstructured data",
+  "sous_titre_en": "Données structurées et non structurées",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Les données structurées suivent un schéma fixe (tableaux, bases relationnelles) et sont faciles à interroger. Les données non structurées · textes, images, audio, vidéo · représentent l'essentiel de l'information d'une organisation mais échappent aux outils classiques. L'IA générative excelle précisément à exploiter ces données non structurées.",
+  "definition_en": "Structured data follows a fixed schema (tables, relational databases) and is easy to query. Unstructured data · text, images, audio, video · represents most of an organisation's information but escapes classic tools. Generative AI excels precisely at exploiting this unstructured data.",
+  "exemple_fr": "Une entreprise dispose d'un ERP impeccable (données structurées) mais de vingt ans de contrats, comptes rendus et emails inexploités (données non structurées), soit 80 % de son savoir. C'est là que l'IA générative change la donne : un RAG rend enfin interrogeable ce patrimoine textuel jusque-là dormant.",
+  "exemple_en": "A company has an impeccable ERP (structured data) but twenty years of unexploited contracts, minutes and emails (unstructured data), i.e. 80% of its knowledge. That is where generative AI changes the game: a RAG finally makes this textual heritage, dormant until now, queryable.",
+  "regard_fr": "La révolution de l'IA générative, c'est d'avoir rendu exploitable l'immense masse des données non structurées · là où dort l'essentiel du savoir des organisations. Vos vingt ans d'archives textuelles ne sont plus un poids mort, mais une matière première.",
+  "regard_en": "The generative AI revolution is having made exploitable the immense mass of unstructured data · where most of organisations' knowledge sleeps. Your twenty years of textual archives are no longer dead weight, but raw material.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "megadonnees",
+    "nlp",
+    "rag",
+    "idp"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

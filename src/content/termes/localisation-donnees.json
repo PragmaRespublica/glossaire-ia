@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Localisation des données",
+  "terme_en": "Data residency",
+  "sous_titre_fr": "Data residency, où vivent vos données",
+  "sous_titre_en": "Where your data lives",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Emplacement géographique où les données sont physiquement stockées et traitées. La localisation détermine le droit applicable : des données hébergées aux États-Unis relèvent du CLOUD Act, quelle que soit la nationalité de leur propriétaire. Pour l'IA, savoir où transitent et résident les données est le préalable de toute analyse de souveraineté.",
+  "definition_en": "The geographic location where data is physically stored and processed. Residency determines the applicable law: data hosted in the United States falls under the CLOUD Act, whatever its owner's nationality. For AI, knowing where data transits and resides is the prerequisite of any sovereignty analysis.",
+  "exemple_fr": "Une entreprise croit ses données protégées car son fournisseur affiche une « région France ». Mais le traitement d'IA, lui, s'exécute sur des serveurs américains. La donnée réside en France, mais transite ailleurs. Cartographier précisément où résident ET où transitent les données révèle la souveraineté réelle.",
+  "exemple_en": "A company believes its data protected because its provider advertises a \"France region\". But the AI processing itself runs on American servers. The data resides in France, but transits elsewhere. Precisely mapping where data resides AND transits reveals real sovereignty.",
+  "regard_fr": "« Nos données sont en France » ne veut rien dire si le traitement s'exécute ailleurs. La localisation du stockage et celle du traitement sont deux questions distinctes · et les fournisseurs jouent souvent sur la confusion. Exigez les deux réponses.",
+  "regard_en": "\"Our data is in France\" means nothing if the processing runs elsewhere. Storage location and processing location are two distinct questions · and providers often play on the confusion. Demand both answers.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "souverainete-donnees",
+    "cloud-act",
+    "transferts-internationaux",
+    "cloud-souverain"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · localisation et transferts",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

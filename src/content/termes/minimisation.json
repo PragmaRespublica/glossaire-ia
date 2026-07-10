@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Minimisation des données",
+  "terme_en": "Data minimisation",
+  "sous_titre_fr": "Data minimisation",
+  "sous_titre_en": "Minimisation des données",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Principe du RGPD imposant de ne collecter et traiter que les données strictement nécessaires à la finalité poursuivie. Appliqué à l'IA, il contredit la tentation du « collectons tout, on verra plus tard » : chaque donnée superflue est un risque juridique, un coût de stockage et une surface d'attaque en plus.",
+  "definition_en": "A GDPR principle requiring that only the data strictly necessary for the pursued purpose be collected and processed. Applied to AI, it contradicts the \"collect everything, we'll see later\" temptation: every superfluous datum is a legal risk, a storage cost and one more attack surface.",
+  "exemple_fr": "Une équipe veut entraîner un modèle de prévision de churn. Le réflexe serait d'aspirer toutes les données clients. La minimisation impose de se demander : quelles variables sont réellement prédictives ? Souvent, une dizaine suffit. Le modèle est aussi performant, la conformité meilleure, et le risque en cas de fuite bien moindre.",
+  "exemple_en": "A team wants to train a churn prediction model. The reflex would be to suck in all client data. Minimisation requires asking: which variables are truly predictive? Often, about ten suffice. The model is just as performant, compliance is better, and the risk in case of leakage far lower.",
+  "regard_fr": "La minimisation va à rebours de la culture « big data » · et c'est sa force. Moins de données, c'est moins de risque, moins de coût, et souvent des modèles aussi bons. La bonne question n'est pas « quelles données puis-je collecter ? » mais « de quelles données ai-je vraiment besoin ? ».",
+  "regard_en": "Minimisation goes against the \"big data\" culture · and that is its strength. Less data means less risk, less cost, and often just-as-good models. The right question is not \"what data can I collect?\" but \"what data do I really need?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rgpd",
+    "privacy-by-design",
+    "gouvernance-donnees",
+    "qualite-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 5.1.c",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

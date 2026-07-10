@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Métadonnées",
+  "terme_en": "Metadata",
+  "sous_titre_fr": "Metadata",
+  "sous_titre_en": "Métadonnées",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Données décrivant d'autres données : auteur, date, format, source, droits, mots-clés. Souvent négligées, les métadonnées sont pourtant décisives en IA : elles permettent de filtrer, tracer, dater et sécuriser les documents d'un RAG, et de porter des signaux essentiels comme l'opt-out ou la provenance des contenus.",
+  "definition_en": "Data describing other data: author, date, format, source, rights, keywords. Often neglected, metadata is nonetheless decisive in AI: it allows filtering, tracing, dating and securing a RAG's documents, and carrying essential signals like opt-out or content provenance.",
+  "exemple_fr": "Un RAG juridique renvoyait parfois des textes abrogés. La solution n'a pas touché au modèle : elle a exploité les métadonnées de date et de statut pour ne récupérer que les textes en vigueur. Des métadonnées bien tenues valent souvent mieux qu'un modèle plus puissant.",
+  "exemple_en": "A legal RAG sometimes returned repealed texts. The solution did not touch the model: it exploited the date and status metadata to retrieve only texts in force. Well-maintained metadata is often worth more than a more powerful model.",
+  "regard_fr": "Les métadonnées sont le parent pauvre de la gestion documentaire · et un trésor pour l'IA. Filtrer un RAG par date, source ou droit d'accès n'est possible que si ces métadonnées existent. Les tenir à jour est un investissement discret au rendement énorme.",
+  "regard_en": "Metadata is the poor relation of document management · and a treasure for AI. Filtering a RAG by date, source or access right is only possible if this metadata exists. Keeping it up to date is a discreet investment with huge returns.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "tracabilite-donnees",
+    "chunking",
+    "c2pa",
+    "gouvernance-donnees"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · métadonnée",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

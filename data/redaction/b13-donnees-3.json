@@ -1,0 +1,110 @@
+{
+  "augmentation-donnees": {
+    "sous_titre_fr": "Data augmentation",
+    "sous_titre_en": "Augmentation de données",
+    "definition_fr": "Technique consistant à créer de nouvelles données d'entraînement à partir des existantes par transformations : rotation ou recadrage d'images, reformulation de textes, ajout de bruit. Elle enrichit un jeu de données limité et rend le modèle plus robuste, sans avoir à collecter davantage de données réelles.",
+    "definition_en": "A technique for creating new training data from existing data through transformations: rotating or cropping images, rephrasing texts, adding noise. It enriches a limited dataset and makes the model more robust, without having to collect more real data.",
+    "exemple_fr": "Une équipe dispose de 500 photos de pièces défectueuses pour entraîner un contrôle qualité · trop peu. Par augmentation (rotations, variations de luminosité, recadrages), elle multiplie artificiellement son jeu et rend le modèle robuste aux conditions réelles de l'usine. Le modèle apprend à reconnaître un défaut sous tous les angles.",
+    "exemple_en": "A team has 500 photos of defective parts to train a quality check · too few. Through augmentation (rotations, brightness variations, crops), it artificially multiplies its set and makes the model robust to the factory's real conditions. The model learns to recognise a defect from every angle.",
+    "regard_fr": "L'augmentation de données est le levier le moins cher pour améliorer un modèle quand les données manquent. Avant de lancer une coûteuse campagne de collecte, demandez-vous ce que vous pouvez tirer, par transformation intelligente, de ce que vous avez déjà.",
+    "regard_en": "Data augmentation is the cheapest lever for improving a model when data is scarce. Before launching a costly collection campaign, ask what you can draw, through smart transformation, from what you already have.",
+    "termes_lies": ["donnees-synthetiques", "donnees-entrainement", "generalisation", "robustesse"],
+    "sources": [{"titre": "CNIL · Glossaire IA (augmentation de données)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "etiquetage-donnees": {
+    "sous_titre_fr": "Data labeling, annotation",
+    "sous_titre_en": "Étiquetage des données",
+    "definition_fr": "Processus consistant à attribuer aux données les étiquettes qui serviront de vérité de référence à l'apprentissage supervisé : marquer un email comme spam, encadrer un objet dans une image, classer un avis en positif ou négatif. Travail souvent manuel, il est le carburant caché · et le coût principal · de nombreux systèmes d'IA.",
+    "definition_en": "The process of attributing to data the labels that will serve as the reference truth for supervised learning: marking an email as spam, boxing an object in an image, classifying a review as positive or negative. Often manual work, it is the hidden fuel · and main cost · of many AI systems.",
+    "exemple_fr": "Pour entraîner un modèle à détecter des pièces défectueuses, il faut d'abord que des humains étiquettent des milliers d'images « défaut » ou « conforme ». La qualité de cet étiquetage plafonne la performance du modèle : des étiquettes incohérentes produisent un modèle confus. L'annotation est un travail d'expertise, pas une corvée à sous-traiter à l'aveugle.",
+    "exemple_en": "To train a model to detect defective parts, humans must first label thousands of images \"defect\" or \"conforming\". The quality of this labelling caps the model's performance: inconsistent labels produce a confused model. Annotation is expert work, not a chore to outsource blindly.",
+    "regard_fr": "L'étiquetage est le travail invisible qui rend l'IA possible · souvent sous-payé, sous-valorisé, délocalisé. Sa qualité détermine celle du modèle, et ses conditions posent une vraie question éthique. Derrière chaque IA « magique » se cachent des milliers d'heures d'annotation humaine.",
+    "regard_en": "Labelling is the invisible work that makes AI possible · often underpaid, undervalued, offshored. Its quality determines the model's, and its conditions raise a real ethical question. Behind every \"magical\" AI lie thousands of hours of human annotation.",
+    "termes_lies": ["travailleurs-clic", "apprentissage-supervise", "verite-terrain", "qualite-donnees"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (étiquetage des données)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "travailleurs-clic": {
+    "sous_titre_fr": "Click workers, la face cachée de l'IA",
+    "sous_titre_en": "Click workers, the hidden face of AI",
+    "definition_fr": "Personnes réalisant les micro-tâches indispensables à l'IA : étiquetage de données, modération de contenus, évaluation de réponses de modèles. Souvent rémunérés à la tâche, dispersés dans le monde et invisibles, ces travailleurs constituent une main-d'œuvre humaine massive derrière l'apparente autonomie des systèmes.",
+    "definition_en": "People performing the micro-tasks essential to AI: data labelling, content moderation, evaluation of model responses. Often paid per task, scattered across the world and invisible, these workers constitute a massive human workforce behind the apparent autonomy of systems.",
+    "exemple_fr": "Derrière l'alignement d'un grand assistant, des milliers de personnes ont comparé et noté des réponses pour l'affiner. Certaines, chargées de modérer les contenus les plus violents, en gardent des séquelles psychologiques. L'IA « qui apprend seule » repose en réalité sur un travail humain intense et souvent précaire.",
+    "exemple_en": "Behind the alignment of a large assistant, thousands of people compared and rated responses to refine it. Some, tasked with moderating the most violent content, carry psychological scars. AI \"that learns on its own\" in fact rests on intense and often precarious human work.",
+    "regard_fr": "L'IA responsable ne s'arrête pas au modèle : elle interroge la chaîne humaine qui le rend possible. Les conditions des travailleurs du clic sont un angle mort éthique majeur. Choisir des fournisseurs transparents sur ce point fait partie d'une IA vraiment responsable.",
+    "regard_en": "Responsible AI does not stop at the model: it questions the human chain that makes it possible. The conditions of click workers are a major ethical blind spot. Choosing providers transparent on this point is part of a truly responsible AI.",
+    "termes_lies": ["etiquetage-donnees", "rlhf", "moderation-contenu", "ethique-ia"],
+    "sources": [{"titre": "OIT · Digital labour platforms"}]
+  },
+  "donnees-fair": {
+    "sous_titre_fr": "FAIR data",
+    "sous_titre_en": "Données FAIR",
+    "definition_fr": "Principes visant à rendre les données Faciles à trouver, Accessibles, Interopérables et Réutilisables (Findable, Accessible, Interoperable, Reusable). Issus de la recherche scientifique, ils fournissent un cadre concret pour gérer des données de qualité, réutilisables par les humains comme par les machines · un socle utile à toute stratégie IA.",
+    "definition_en": "Principles aiming to make data Findable, Accessible, Interoperable and Reusable. Originating in scientific research, they provide a concrete framework for managing quality, reusable data, by humans and machines alike · a useful foundation for any AI strategy.",
+    "exemple_fr": "Un institut de recherche applique les principes FAIR à ses jeux de données : identifiants pérennes, métadonnées riches, formats standards, licences claires. Résultat, ses données alimentent facilement des modèles internes et externes · sans les semaines de « nettoyage archéologique » qui plombent tant de projets d'IA.",
+    "exemple_en": "A research institute applies the FAIR principles to its datasets: persistent identifiers, rich metadata, standard formats, clear licences. As a result, its data easily feeds internal and external models · without the weeks of \"archaeological cleaning\" that weigh down so many AI projects.",
+    "regard_fr": "Les principes FAIR sont une check-list de bon sens que trop d'organisations ignorent. Des données FAIR, c'est une IA plus rapide à déployer et moins coûteuse à maintenir. Investir dans la « FAIRisation » de ses données, c'est préparer le terrain de tous ses projets futurs.",
+    "regard_en": "The FAIR principles are a common-sense checklist too many organisations ignore. FAIR data means AI that is faster to deploy and cheaper to maintain. Investing in \"FAIRifying\" your data means preparing the ground for all your future projects.",
+    "termes_lies": ["gouvernance-donnees", "interoperabilite", "donnees-ouvertes", "metadonnees"],
+    "sources": [{"titre": "GO FAIR · FAIR Principles"}]
+  },
+  "localisation-donnees": {
+    "sous_titre_fr": "Data residency, où vivent vos données",
+    "sous_titre_en": "Where your data lives",
+    "definition_fr": "Emplacement géographique où les données sont physiquement stockées et traitées. La localisation détermine le droit applicable : des données hébergées aux États-Unis relèvent du CLOUD Act, quelle que soit la nationalité de leur propriétaire. Pour l'IA, savoir où transitent et résident les données est le préalable de toute analyse de souveraineté.",
+    "definition_en": "The geographic location where data is physically stored and processed. Residency determines the applicable law: data hosted in the United States falls under the CLOUD Act, whatever its owner's nationality. For AI, knowing where data transits and resides is the prerequisite of any sovereignty analysis.",
+    "exemple_fr": "Une entreprise croit ses données protégées car son fournisseur affiche une « région France ». Mais le traitement d'IA, lui, s'exécute sur des serveurs américains. La donnée réside en France, mais transite ailleurs. Cartographier précisément où résident ET où transitent les données révèle la souveraineté réelle.",
+    "exemple_en": "A company believes its data protected because its provider advertises a \"France region\". But the AI processing itself runs on American servers. The data resides in France, but transits elsewhere. Precisely mapping where data resides AND transits reveals real sovereignty.",
+    "regard_fr": "« Nos données sont en France » ne veut rien dire si le traitement s'exécute ailleurs. La localisation du stockage et celle du traitement sont deux questions distinctes · et les fournisseurs jouent souvent sur la confusion. Exigez les deux réponses.",
+    "regard_en": "\"Our data is in France\" means nothing if the processing runs elsewhere. Storage location and processing location are two distinct questions · and providers often play on the confusion. Demand both answers.",
+    "termes_lies": ["souverainete-donnees", "cloud-act", "transferts-internationaux", "cloud-souverain"],
+    "sources": [{"titre": "CNIL · localisation et transferts", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "portabilite-donnees": {
+    "sous_titre_fr": "Data portability",
+    "sous_titre_en": "Portabilité des données",
+    "definition_fr": "Capacité à récupérer ses données dans un format réutilisable pour les transférer vers un autre service. Droit garanti aux personnes par le RGPD et renforcé pour les entreprises par le Data Act, la portabilité est une arme directe contre le verrouillage fournisseur · et une condition de la liberté de changer de fournisseur d'IA.",
+    "definition_en": "The ability to retrieve one's data in a reusable format to transfer it to another service. A right guaranteed to individuals by the GDPR and reinforced for companies by the Data Act, portability is a direct weapon against vendor lock-in · and a condition of the freedom to change AI provider.",
+    "exemple_fr": "Une entreprise veut migrer d'un fournisseur d'IA à un concurrent européen. Grâce à des clauses de portabilité négociées à la signature, elle récupère ses documents, historiques et configurations dans des formats standards. La migration prend des jours, pas des mois. La portabilité négociée en amont a préservé sa liberté.",
+    "exemple_en": "A company wants to migrate from one AI provider to a European competitor. Thanks to portability clauses negotiated at signing, it retrieves its documents, histories and configurations in standard formats. The migration takes days, not months. Portability negotiated upfront preserved its freedom.",
+    "regard_fr": "La portabilité est le contraire du verrouillage : elle mesure votre liberté réelle de partir. Un fournisseur qui la facilite est un fournisseur confiant ; un fournisseur qui la complique vous prépare une prison dorée. Testez la portabilité avant de dépendre, pas après.",
+    "regard_en": "Portability is the opposite of lock-in: it measures your real freedom to leave. A provider that facilitates it is a confident provider; one that complicates it is preparing a gilded cage. Test portability before depending, not after.",
+    "termes_lies": ["lock-in", "data-act", "interoperabilite", "souverainete-donnees"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 20", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}]
+  },
+  "interoperabilite": {
+    "sous_titre_fr": "Interoperability",
+    "sous_titre_en": "Interopérabilité",
+    "definition_fr": "Capacité de systèmes, formats ou modèles différents à fonctionner ensemble et à échanger des données sans friction. En IA, l'interopérabilité passe par des formats de données standards, des API ouvertes et des protocoles communs (comme MCP pour les outils d'agents). Elle est la condition technique de la portabilité et de l'indépendance.",
+    "definition_en": "The ability of different systems, formats or models to work together and exchange data without friction. In AI, interoperability relies on standard data formats, open APIs and common protocols (like MCP for agent tools). It is the technical condition of portability and independence.",
+    "exemple_fr": "Une entreprise construit son architecture IA sur des standards ouverts : formats d'échange documentés, API compatibles, protocole MCP pour connecter ses outils. Le jour où elle veut remplacer un composant, l'interopérabilité rend l'opération indolore. À l'inverse, une architecture propriétaire de bout en bout la ligoterait.",
+    "exemple_en": "A company builds its AI architecture on open standards: documented exchange formats, compatible APIs, the MCP protocol to connect its tools. The day it wants to replace a component, interoperability makes the operation painless. Conversely, an end-to-end proprietary architecture would tie it up.",
+    "regard_fr": "L'interopérabilité est la souveraineté à l'échelle technique : elle garantit que vos briques restent interchangeables. Chaque standard ouvert adopté est une porte de sortie préservée ; chaque format propriétaire, une serrure qui se referme. Choisissez l'ouvert par principe.",
+    "regard_en": "Interoperability is sovereignty at the technical scale: it guarantees your building blocks stay interchangeable. Every open standard adopted is a preserved exit; every proprietary format, a lock that closes. Choose open by principle.",
+    "termes_lies": ["portabilite-donnees", "lock-in", "mcp", "licences-open-source"],
+    "sources": [{"titre": "FranceTerme · interopérabilité", "url": "https://www.culture.fr/franceterme"}]
+  },
+  "souverainete-donnees": {
+    "sous_titre_fr": "Data sovereignty",
+    "sous_titre_en": "Souveraineté des données",
+    "definition_fr": "Principe selon lequel les données d'une organisation ou d'un pays restent soumises à ses propres lois et sous son contrôle, indépendamment de leur lieu de traitement. C'est le prolongement de la souveraineté numérique appliqué à la matière première de l'IA : qui contrôle les données contrôle, in fine, les modèles qui en dérivent.",
+    "definition_en": "The principle that an organisation's or country's data remains subject to its own laws and under its control, regardless of where it is processed. It is the extension of digital sovereignty applied to AI's raw material: whoever controls the data controls, ultimately, the models derived from it.",
+    "exemple_fr": "Une région veut développer des services d'IA à partir des données de ses habitants. En les hébergeant sur une infrastructure souveraine et en gardant la maîtrise des modèles entraînés dessus, elle préserve sa souveraineté sur les données · et sur la valeur qui en découle. Confier le tout à un acteur étranger reviendrait à céder cette valeur.",
+    "exemple_en": "A region wants to develop AI services from its residents' data. By hosting it on sovereign infrastructure and keeping control of the models trained on it, it preserves its sovereignty over the data · and over the value that flows from it. Entrusting it all to a foreign player would mean ceding that value.",
+    "regard_fr": "La souveraineté des données est la bataille en amont de celle des modèles : celui qui détient les données détient le pouvoir de créer et de recréer des IA. Abandonner ses données, c'est abandonner sa capacité future d'innovation · une décision bien plus lourde qu'un simple choix d'hébergement.",
+    "regard_en": "Data sovereignty is the battle upstream of the model battle: whoever holds the data holds the power to create and recreate AIs. Giving up your data means giving up your future capacity to innovate · a decision far heavier than a mere hosting choice.",
+    "termes_lies": ["souverainete-numerique", "localisation-donnees", "cloud-souverain", "ia-souveraine"],
+    "sources": [{"titre": "CNIL · souveraineté des données", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "tracabilite-donnees": {
+    "sous_titre_fr": "Data lineage, le parcours des données",
+    "sous_titre_en": "Data lineage",
+    "definition_fr": "Capacité à retracer l'origine, les transformations et le parcours d'une donnée depuis sa source jusqu'à son usage. La traçabilité (lineage) répond à des questions cruciales : d'où vient ce chiffre ? quelle version du document a alimenté cette réponse ? Elle est indispensable à l'auditabilité et à la confiance dans les systèmes d'IA.",
+    "definition_en": "The ability to trace the origin, transformations and journey of a datum from its source to its use. Data lineage answers crucial questions: where does this figure come from? which version of the document fed this answer? It is indispensable for the auditability of and trust in AI systems.",
+    "exemple_fr": "Un tableau de bord alimenté par IA affiche un chiffre surprenant. Grâce à la traçabilité, l'analyste remonte toute la chaîne : source, transformations, calculs. Il identifie qu'une règle d'agrégation avait changé. Sans lineage, il aurait dû choisir entre croire aveuglément le chiffre ou tout recalculer à la main.",
+    "exemple_en": "An AI-fed dashboard displays a surprising figure. Thanks to lineage, the analyst traces the whole chain: source, transformations, calculations. They identify that an aggregation rule had changed. Without lineage, they would have had to choose between blindly trusting the figure or recomputing everything by hand.",
+    "regard_fr": "La traçabilité des données est ce qui sépare une IA de confiance d'une boîte noire. Pouvoir répondre à « d'où vient ce résultat ? » n'est pas un luxe technique · c'est la condition pour qu'un humain puisse vérifier, corriger et assumer une décision assistée par IA.",
+    "regard_en": "Data lineage is what separates a trustworthy AI from a black box. Being able to answer \"where does this result come from?\" is not a technical luxury · it is the condition for a human to verify, correct and own an AI-assisted decision.",
+    "termes_lies": ["gouvernance-donnees", "journalisation", "explicabilite", "metadonnees"],
+    "sources": [{"titre": "DAMA · Data Management Body of Knowledge"}]
+  }
+}

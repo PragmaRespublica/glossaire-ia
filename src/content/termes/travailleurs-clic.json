@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Travailleurs du clic",
+  "terme_en": "Click workers",
+  "sous_titre_fr": "Click workers, la face cachée de l'IA",
+  "sous_titre_en": "Click workers, the hidden face of AI",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Personnes réalisant les micro-tâches indispensables à l'IA : étiquetage de données, modération de contenus, évaluation de réponses de modèles. Souvent rémunérés à la tâche, dispersés dans le monde et invisibles, ces travailleurs constituent une main-d'œuvre humaine massive derrière l'apparente autonomie des systèmes.",
+  "definition_en": "People performing the micro-tasks essential to AI: data labelling, content moderation, evaluation of model responses. Often paid per task, scattered across the world and invisible, these workers constitute a massive human workforce behind the apparent autonomy of systems.",
+  "exemple_fr": "Derrière l'alignement d'un grand assistant, des milliers de personnes ont comparé et noté des réponses pour l'affiner. Certaines, chargées de modérer les contenus les plus violents, en gardent des séquelles psychologiques. L'IA « qui apprend seule » repose en réalité sur un travail humain intense et souvent précaire.",
+  "exemple_en": "Behind the alignment of a large assistant, thousands of people compared and rated responses to refine it. Some, tasked with moderating the most violent content, carry psychological scars. AI \"that learns on its own\" in fact rests on intense and often precarious human work.",
+  "regard_fr": "L'IA responsable ne s'arrête pas au modèle : elle interroge la chaîne humaine qui le rend possible. Les conditions des travailleurs du clic sont un angle mort éthique majeur. Choisir des fournisseurs transparents sur ce point fait partie d'une IA vraiment responsable.",
+  "regard_en": "Responsible AI does not stop at the model: it questions the human chain that makes it possible. The conditions of click workers are a major ethical blind spot. Choosing providers transparent on this point is part of a truly responsible AI.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "etiquetage-donnees",
+    "rlhf",
+    "moderation-contenu",
+    "ethique-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OIT · Digital labour platforms"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

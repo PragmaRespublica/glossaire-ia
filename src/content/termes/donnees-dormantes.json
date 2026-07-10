@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Données dormantes (dark data)",
+  "terme_en": "Dark data",
+  "sous_titre_fr": "Dark data, les données oubliées",
+  "sous_titre_en": "Dark data, the forgotten data",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Données collectées et stockées par une organisation mais jamais exploitées : logs archivés, formulaires oubliés, capteurs enregistrant dans le vide. Le Gartner estime que la majorité des données d'une entreprise sont dormantes. L'IA générative rend soudain exploitable une partie de ce gisement · à condition de le gouverner.",
+  "definition_en": "Data collected and stored by an organisation but never used: archived logs, forgotten forms, sensors recording into the void. Gartner estimates that the majority of a company's data is dormant. Generative AI suddenly makes part of this reservoir exploitable · provided it is governed.",
+  "exemple_fr": "Une entreprise industrielle stocke depuis dix ans les rapports d'intervention de ses techniciens · jamais relus. Un RAG transforme ce gisement dormant en base de connaissances interrogeable : les nouveaux techniciens accèdent enfin à l'expérience accumulée. Les données dormantes étaient un trésor endormi.",
+  "exemple_en": "An industrial company has stored its technicians' intervention reports for ten years · never reread. A RAG turns this dormant reservoir into a queryable knowledge base: new technicians finally access the accumulated experience. The dark data was a sleeping treasure.",
+  "regard_fr": "Les données dormantes sont à la fois une opportunité et un risque : un gisement de valeur, mais aussi une accumulation de données personnelles oubliées, non conformes, non sécurisées. Les réveiller pour l'IA impose de les auditer d'abord · sous peine de réveiller aussi les risques.",
+  "regard_en": "Dark data is both an opportunity and a risk: a reservoir of value, but also an accumulation of forgotten, non-compliant, unsecured personal data. Waking it for AI requires auditing it first · at the risk of also waking the risks.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "megadonnees",
+    "audit-documentaire",
+    "gouvernance-donnees",
+    "rag"
+  ],
+  "sources": [
+    {
+      "titre": "Gartner · Dark Data"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

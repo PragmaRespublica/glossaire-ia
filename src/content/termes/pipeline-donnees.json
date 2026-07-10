@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Pipeline de données",
+  "terme_en": "Data pipeline",
+  "sous_titre_fr": "Data pipeline",
+  "sous_titre_en": "Pipeline de données",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Chaîne automatisée de traitement acheminant les données de leur source jusqu'à leur usage : extraction, nettoyage, transformation, chargement. Pour l'IA, le pipeline de données conditionne la fraîcheur et la qualité de ce qui alimente les modèles et les RAG. Un pipeline défaillant contamine silencieusement toutes les analyses en aval.",
+  "definition_en": "An automated processing chain routing data from its source to its use: extraction, cleaning, transformation, loading. For AI, the data pipeline conditions the freshness and quality of what feeds models and RAGs. A faulty pipeline silently contaminates all downstream analyses.",
+  "exemple_fr": "Un RAG d'entreprise se dégrade sans raison apparente. L'enquête révèle qu'un changement de format dans le système source a cassé une étape du pipeline : depuis trois semaines, les nouveaux documents arrivaient tronqués. Le modèle n'y était pour rien · le pipeline était le maillon faible.",
+  "exemple_en": "An enterprise RAG degrades for no apparent reason. The investigation reveals that a format change in the source system broke a pipeline step: for three weeks, new documents arrived truncated. The model was blameless · the pipeline was the weak link.",
+  "regard_fr": "Le pipeline de données est l'infrastructure invisible dont dépend toute la chaîne IA. On le remarque seulement quand il casse · souvent trop tard. Le surveiller et le tester est aussi important que d'évaluer le modèle lui-même.",
+  "regard_en": "The data pipeline is the invisible infrastructure on which the whole AI chain depends. You notice it only when it breaks · often too late. Monitoring and testing it is as important as evaluating the model itself.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "pipeline-ingestion",
+    "qualite-donnees",
+    "tracabilite-donnees",
+    "monitoring"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

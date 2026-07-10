@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Données synthétiques",
+  "terme_en": "Synthetic data",
+  "sous_titre_fr": "Synthetic data",
+  "sous_titre_en": "Données synthétiques",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Données générées artificiellement · par un modèle ou une simulation · imitant les propriétés statistiques de données réelles sans en être. Elles servent à entraîner des modèles quand les vraies données manquent, sont sensibles ou coûteuses. Précieuses mais piégeuses : abuser de données synthétiques peut mener à l'effondrement du modèle.",
+  "definition_en": "Data artificially generated · by a model or a simulation · imitating the statistical properties of real data without being it. It serves to train models when real data is scarce, sensitive or costly. Valuable but tricky: over-relying on synthetic data can lead to model collapse.",
+  "exemple_fr": "Un hôpital ne peut pas partager ses données patients réelles. Il génère des données synthétiques préservant les statistiques utiles sans correspondre à aucun patient réel, et les utilise pour développer un modèle. La confidentialité est protégée · à condition de vérifier que le synthétique ne laisse pas fuiter d'informations sur les vrais patients.",
+  "exemple_en": "A hospital cannot share its real patient data. It generates synthetic data preserving the useful statistics without corresponding to any real patient, and uses it to develop a model. Confidentiality is protected · provided one verifies the synthetic data does not leak information about real patients.",
+  "regard_fr": "Les données synthétiques sont une réponse élégante à la rareté et à la sensibilité · mais pas une solution miracle. Un modèle nourri exclusivement de synthétique s'appauvrit et dérive. La règle : compléter le réel, jamais le remplacer entièrement.",
+  "regard_en": "Synthetic data is an elegant answer to scarcity and sensitivity · but not a miracle solution. A model fed exclusively on synthetic data impoverishes and drifts. The rule: complement the real, never replace it entirely.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "augmentation-donnees",
+    "effondrement-modele",
+    "confidentialite-differentielle",
+    "donnees-entrainement"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (données synthétiques)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

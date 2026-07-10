@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Jeu de données (dataset)",
+  "terme_en": "Dataset",
+  "sous_titre_fr": "Dataset",
+  "sous_titre_en": "Jeu de données",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Collection structurée de données rassemblées pour une tâche donnée : entraîner un modèle, l'évaluer, ou le tester. On distingue classiquement trois sous-ensembles · entraînement (pour apprendre), validation (pour régler), test (pour évaluer sans triche). La qualité et la séparation stricte de ces jeux conditionnent la fiabilité des résultats.",
+  "definition_en": "A structured collection of data gathered for a given task: training a model, evaluating it, or testing it. One classically distinguishes three subsets · training (to learn), validation (to tune), test (to evaluate without cheating). The quality and strict separation of these sets condition the reliability of the results.",
+  "exemple_fr": "Une équipe évalue un modèle et obtient 98 % de précision · euphorie. En vérifiant, elle découvre que des exemples de test étaient présents dans l'entraînement : le modèle avait « vu les réponses ». Après séparation stricte des jeux, le score réel tombe à 84 %. La rigueur sur les jeux de données évite l'auto-illusion.",
+  "exemple_en": "A team evaluates a model and gets 98% accuracy · euphoria. On checking, it discovers that test examples were present in the training set: the model had \"seen the answers\". After strict separation of the sets, the real score drops to 84%. Rigour on datasets avoids self-delusion.",
+  "regard_fr": "La séparation stricte entre entraînement, validation et test n'est pas une coquetterie académique : c'est ce qui distingue un score honnête d'une illusion. Un modèle qui a vu ses réponses de test brille à l'évaluation et échoue en production.",
+  "regard_en": "The strict separation between training, validation and test is not academic fussiness: it is what distinguishes an honest score from an illusion. A model that has seen its test answers shines in evaluation and fails in production.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "donnees-entrainement",
+    "contamination",
+    "verite-terrain",
+    "evaluation-llm"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (ensemble de test, de validation)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

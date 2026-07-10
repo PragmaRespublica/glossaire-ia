@@ -1,0 +1,110 @@
+{
+  "donnees-entrainement": {
+    "sous_titre_fr": "Training data",
+    "sous_titre_en": "Données d'entraînement",
+    "definition_fr": "Ensemble des données à partir desquelles un modèle d'IA apprend. Leur volume, leur qualité, leur diversité et leur représentativité déterminent presque tout le comportement du modèle : ses compétences, ses biais, ses angles morts. « Un modèle n'est jamais meilleur que ses données d'entraînement » résume une vérité centrale de la discipline.",
+    "definition_en": "The set of data from which an AI model learns. Their volume, quality, diversity and representativeness determine almost all of the model's behaviour: its skills, its biases, its blind spots. \"A model is never better than its training data\" sums up a central truth of the field.",
+    "exemple_fr": "Un modèle de reconnaissance vocale entraîné majoritairement sur des voix masculines anglophones comprend mal les femmes et les accents. Le défaut ne vient pas de l'algorithme mais des données. Corriger un tel biais suppose de rééquilibrer le corpus · une opération plus longue et coûteuse qu'un simple réglage technique.",
+    "exemple_en": "A speech recognition model trained mostly on male English-speaking voices poorly understands women and accents. The flaw comes not from the algorithm but from the data. Fixing such a bias means rebalancing the corpus · a longer, costlier operation than a mere technical tweak.",
+    "regard_fr": "Derrière chaque comportement d'un modèle se cache un choix de données · souvent invisible et rarement documenté. Interroger les données d'entraînement, c'est remonter à la source des biais et des capacités. C'est aussi là que se jouent le droit d'auteur et la vie privée.",
+    "regard_en": "Behind every behaviour of a model lies a data choice · often invisible and rarely documented. Questioning the training data means tracing biases and capabilities to their source. It is also where copyright and privacy play out.",
+    "termes_lies": ["jeu-donnees", "biais-algorithmique", "qualite-donnees", "corpus-entrainement"],
+    "sources": [{"titre": "CNIL · Glossaire IA (ensemble d'entraînement)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "jeu-donnees": {
+    "sous_titre_fr": "Dataset",
+    "sous_titre_en": "Jeu de données",
+    "definition_fr": "Collection structurée de données rassemblées pour une tâche donnée : entraîner un modèle, l'évaluer, ou le tester. On distingue classiquement trois sous-ensembles · entraînement (pour apprendre), validation (pour régler), test (pour évaluer sans triche). La qualité et la séparation stricte de ces jeux conditionnent la fiabilité des résultats.",
+    "definition_en": "A structured collection of data gathered for a given task: training a model, evaluating it, or testing it. One classically distinguishes three subsets · training (to learn), validation (to tune), test (to evaluate without cheating). The quality and strict separation of these sets condition the reliability of the results.",
+    "exemple_fr": "Une équipe évalue un modèle et obtient 98 % de précision · euphorie. En vérifiant, elle découvre que des exemples de test étaient présents dans l'entraînement : le modèle avait « vu les réponses ». Après séparation stricte des jeux, le score réel tombe à 84 %. La rigueur sur les jeux de données évite l'auto-illusion.",
+    "exemple_en": "A team evaluates a model and gets 98% accuracy · euphoria. On checking, it discovers that test examples were present in the training set: the model had \"seen the answers\". After strict separation of the sets, the real score drops to 84%. Rigour on datasets avoids self-delusion.",
+    "regard_fr": "La séparation stricte entre entraînement, validation et test n'est pas une coquetterie académique : c'est ce qui distingue un score honnête d'une illusion. Un modèle qui a vu ses réponses de test brille à l'évaluation et échoue en production.",
+    "regard_en": "The strict separation between training, validation and test is not academic fussiness: it is what distinguishes an honest score from an illusion. A model that has seen its test answers shines in evaluation and fails in production.",
+    "termes_lies": ["donnees-entrainement", "contamination", "verite-terrain", "evaluation-llm"],
+    "sources": [{"titre": "CNIL · Glossaire IA (ensemble de test, de validation)", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "donnees-personnelles": {
+    "sous_titre_fr": "Personal data",
+    "sous_titre_en": "Données à caractère personnel",
+    "definition_fr": "Toute information se rapportant à une personne physique identifiée ou identifiable, directement ou indirectement : nom, mais aussi identifiant en ligne, données de localisation, éléments propres à l'identité. C'est la notion pivot du RGPD : dès qu'un traitement d'IA en manipule, tout le régime de protection s'applique.",
+    "definition_en": "Any information relating to an identified or identifiable natural person, directly or indirectly: a name, but also an online identifier, location data, elements specific to identity. It is the pivotal notion of the GDPR: as soon as an AI processing operation handles them, the entire protection regime applies.",
+    "exemple_fr": "Une entreprise croit anonymiser ses données en retirant les noms. Mais la combinaison du code postal, de l'âge et de la profession suffit souvent à réidentifier une personne. Ces données restent donc personnelles · et soumises au RGPD. L'anonymisation réelle est plus exigeante qu'un simple masquage de noms.",
+    "exemple_en": "A company believes it anonymises its data by removing names. But the combination of postcode, age and profession often suffices to re-identify a person. These data therefore remain personal · and subject to the GDPR. Real anonymisation is more demanding than merely masking names.",
+    "regard_fr": "La frontière du « personnel » est plus large qu'on ne le croit : ce n'est pas le nom qui compte, mais la possibilité de remonter à une personne. Sous-estimer cette définition est la première erreur de conformité · et la plus fréquente dans les projets d'IA.",
+    "regard_en": "The boundary of \"personal\" is broader than one thinks: it is not the name that matters, but the possibility of tracing back to a person. Underestimating this definition is the first compliance mistake · and the most frequent in AI projects.",
+    "termes_lies": ["rgpd", "anonymisation", "pseudonymisation", "donnees-sensibles"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 4", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}]
+  },
+  "donnees-sensibles": {
+    "sous_titre_fr": "Les catégories particulières de données",
+    "sous_titre_en": "Special categories of data",
+    "definition_fr": "Catégorie de données personnelles bénéficiant d'une protection renforcée par le RGPD : origine ethnique, opinions politiques, convictions religieuses, santé, orientation sexuelle, données biométriques et génétiques. Leur traitement est en principe interdit, sauf exceptions strictes · un point crucial pour tout projet d'IA en santé, RH ou sécurité.",
+    "definition_en": "A category of personal data benefiting from reinforced protection under the GDPR: ethnic origin, political opinions, religious beliefs, health, sexual orientation, biometric and genetic data. Their processing is in principle prohibited, save for strict exceptions · a crucial point for any AI project in healthcare, HR or security.",
+    "exemple_fr": "Un RAG RH indexe des dossiers contenant des arrêts maladie · donc des données de santé. Ce traitement de données sensibles exige une base légale renforcée, une sécurité accrue et souvent l'avis du DPO. Beaucoup de projets butent ici, faute d'avoir repéré que leurs documents « ordinaires » contenaient des données sensibles.",
+    "exemple_en": "An HR RAG indexes files containing sick leaves · therefore health data. This processing of sensitive data requires a reinforced legal basis, heightened security and often the DPO's opinion. Many projects stumble here, having failed to spot that their \"ordinary\" documents contained sensitive data.",
+    "regard_fr": "Les données sensibles se cachent souvent dans des documents anodins : un email mentionne une religion, un dossier RH une maladie. Avant d'indexer un corpus dans un RAG, demandez-vous ce qu'il contient vraiment. C'est le rôle de l'audit documentaire.",
+    "regard_en": "Sensitive data often hide in innocuous documents: an email mentions a religion, an HR file an illness. Before indexing a corpus in a RAG, ask what it really contains. That is the role of the document audit.",
+    "termes_lies": ["donnees-personnelles", "rgpd", "audit-documentaire", "hds"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 9", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}]
+  },
+  "anonymisation": {
+    "sous_titre_fr": "Anonymization",
+    "sous_titre_en": "Anonymisation",
+    "definition_fr": "Processus rendant impossible la réidentification d'une personne dans un jeu de données, de manière irréversible. Une donnée réellement anonymisée sort du champ du RGPD. Mais l'anonymisation véritable est difficile : la richesse des données modernes permet souvent de recroiser et de réidentifier, transformant une fausse anonymisation en risque juridique.",
+    "definition_en": "A process making the re-identification of a person in a dataset impossible, irreversibly. Truly anonymised data falls outside the GDPR's scope. But genuine anonymisation is difficult: the richness of modern data often allows re-crossing and re-identification, turning a false anonymisation into a legal risk.",
+    "exemple_fr": "Un jeu de données de trajets « anonymisé » (heures et lieux, sans noms) permet néanmoins d'identifier une personne : le trajet domicile-travail répété est une signature unique. L'anonymisation n'était qu'apparente. Pour être réelle, elle aurait exigé une agrégation ou un bruitage · au prix d'une perte d'information.",
+    "exemple_en": "An \"anonymised\" trip dataset (times and places, no names) nonetheless allows identifying a person: the repeated home-work commute is a unique signature. The anonymisation was only apparent. To be real, it would have required aggregation or noise · at the cost of information loss.",
+    "regard_fr": "« C'est anonymisé » est l'une des affirmations les plus trompeuses en protection des données. La vraie anonymisation est rare et coûteuse en information. Le plus souvent, on fait de la pseudonymisation · qui reste soumise au RGPD. Ne confondez pas les deux.",
+    "regard_en": "\"It's anonymised\" is one of the most misleading claims in data protection. Real anonymisation is rare and costly in information. Most often, one does pseudonymisation · which remains subject to the GDPR. Do not confuse the two.",
+    "termes_lies": ["pseudonymisation", "donnees-personnelles", "confidentialite-differentielle", "rgpd"],
+    "sources": [{"titre": "CNIL · anonymisation", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "pseudonymisation": {
+    "sous_titre_fr": "Pseudonymization",
+    "sous_titre_en": "Pseudonymisation",
+    "definition_fr": "Traitement remplaçant les identifiants directs par des pseudonymes, la table de correspondance étant conservée à part. Contrairement à l'anonymisation, elle est réversible · les données restent donc personnelles et soumises au RGPD, mais avec un risque réduit. C'est une mesure de sécurité recommandée, pas une sortie du régime de protection.",
+    "definition_en": "Processing that replaces direct identifiers with pseudonyms, the correspondence table being kept separately. Unlike anonymisation, it is reversible · the data therefore remains personal and subject to the GDPR, but with reduced risk. It is a recommended security measure, not an exit from the protection regime.",
+    "exemple_fr": "Avant d'entraîner un modèle sur des dossiers clients, une équipe remplace chaque nom par un identifiant aléatoire, la table étant chiffrée à part. En cas de fuite du jeu pseudonymisé, les personnes ne sont pas directement identifiables. Mais le RGPD s'applique toujours · la pseudonymisation réduit le risque, elle ne l'efface pas.",
+    "exemple_en": "Before training a model on client files, a team replaces each name with a random identifier, the table being encrypted separately. If the pseudonymised set leaks, the people are not directly identifiable. But the GDPR still applies · pseudonymisation reduces the risk, it does not erase it.",
+    "regard_fr": "La pseudonymisation est l'une des mesures les plus rentables en protection des données IA : elle réduit fortement le risque pour un coût faible. Mais elle ne vous fait pas sortir du RGPD · seule l'anonymisation irréversible le permet. Sachez précisément laquelle vous appliquez.",
+    "regard_en": "Pseudonymisation is one of the most cost-effective measures in AI data protection: it strongly reduces risk at a low cost. But it does not take you out of the GDPR · only irreversible anonymisation does. Know precisely which one you are applying.",
+    "termes_lies": ["anonymisation", "donnees-personnelles", "securite-donnees", "rgpd"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 4.5", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}]
+  },
+  "minimisation": {
+    "sous_titre_fr": "Data minimisation",
+    "sous_titre_en": "Minimisation des données",
+    "definition_fr": "Principe du RGPD imposant de ne collecter et traiter que les données strictement nécessaires à la finalité poursuivie. Appliqué à l'IA, il contredit la tentation du « collectons tout, on verra plus tard » : chaque donnée superflue est un risque juridique, un coût de stockage et une surface d'attaque en plus.",
+    "definition_en": "A GDPR principle requiring that only the data strictly necessary for the pursued purpose be collected and processed. Applied to AI, it contradicts the \"collect everything, we'll see later\" temptation: every superfluous datum is a legal risk, a storage cost and one more attack surface.",
+    "exemple_fr": "Une équipe veut entraîner un modèle de prévision de churn. Le réflexe serait d'aspirer toutes les données clients. La minimisation impose de se demander : quelles variables sont réellement prédictives ? Souvent, une dizaine suffit. Le modèle est aussi performant, la conformité meilleure, et le risque en cas de fuite bien moindre.",
+    "exemple_en": "A team wants to train a churn prediction model. The reflex would be to suck in all client data. Minimisation requires asking: which variables are truly predictive? Often, about ten suffice. The model is just as performant, compliance is better, and the risk in case of leakage far lower.",
+    "regard_fr": "La minimisation va à rebours de la culture « big data » · et c'est sa force. Moins de données, c'est moins de risque, moins de coût, et souvent des modèles aussi bons. La bonne question n'est pas « quelles données puis-je collecter ? » mais « de quelles données ai-je vraiment besoin ? ».",
+    "regard_en": "Minimisation goes against the \"big data\" culture · and that is its strength. Less data means less risk, less cost, and often just-as-good models. The right question is not \"what data can I collect?\" but \"what data do I really need?\".",
+    "termes_lies": ["rgpd", "privacy-by-design", "gouvernance-donnees", "qualite-donnees"],
+    "sources": [{"titre": "Règlement (UE) 2016/679 · RGPD, art. 5.1.c", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"}]
+  },
+  "gouvernance-donnees": {
+    "sous_titre_fr": "Data governance",
+    "sous_titre_en": "Gouvernance des données",
+    "definition_fr": "Ensemble des rôles, processus et règles organisant la gestion des données dans une entreprise : propriété, qualité, sécurité, cycle de vie, conformité. C'est le socle sans lequel aucun projet d'IA sérieux ne tient : sans gouvernance des données, un RAG indexe du désordre et un modèle apprend des erreurs.",
+    "definition_en": "The set of roles, processes and rules organising data management in a company: ownership, quality, security, lifecycle, compliance. It is the foundation without which no serious AI project holds: without data governance, a RAG indexes disorder and a model learns errors.",
+    "exemple_fr": "Une entreprise lance un projet RAG ambitieux qui échoue : réponses contradictoires, sources obsolètes, fuites. Le diagnostic est sans appel · le problème n'est pas l'IA, mais l'absence de gouvernance des données en amont. Les projets d'IA ne font que révéler, en l'amplifiant, l'état réel du patrimoine de données.",
+    "exemple_en": "A company launches an ambitious RAG project that fails: contradictory answers, obsolete sources, leaks. The diagnosis is unequivocal · the problem is not the AI, but the absence of upstream data governance. AI projects merely reveal, by amplifying it, the real state of the data estate.",
+    "regard_fr": "L'IA est un révélateur impitoyable de la gouvernance des données : elle transforme chaque défaut de qualité en réponse fausse visible de tous. Investir dans la gouvernance des données avant l'IA, ce n'est pas retarder le projet · c'est éviter qu'il échoue en public.",
+    "regard_en": "AI is a merciless revealer of data governance: it turns every quality flaw into a wrong answer visible to all. Investing in data governance before AI is not delaying the project · it is preventing it from failing in public.",
+    "termes_lies": ["qualite-donnees", "audit-documentaire", "tracabilite-donnees", "gouvernance-ia"],
+    "sources": [{"titre": "DAMA · Data Management Body of Knowledge"}]
+  },
+  "qualite-donnees": {
+    "sous_titre_fr": "Data quality",
+    "sous_titre_en": "Qualité des données",
+    "definition_fr": "Degré auquel des données sont exactes, complètes, cohérentes, à jour et pertinentes pour l'usage visé. En IA, la qualité des données prime souvent sur la sophistication du modèle : un modèle modeste sur des données propres bat un modèle avancé sur des données médiocres. « Garbage in, garbage out » reste la loi première.",
+    "definition_en": "The degree to which data is accurate, complete, consistent, up-to-date and relevant for the intended use. In AI, data quality often prevails over model sophistication: a modest model on clean data beats an advanced model on poor data. \"Garbage in, garbage out\" remains the first law.",
+    "exemple_fr": "Deux équipes construisent un même assistant. La première investit dans un modèle de pointe sur des données non nettoyées ; la seconde prend un modèle standard mais nettoie soigneusement ses documents. C'est la seconde qui obtient les meilleures réponses. La qualité des données a plus pesé que le choix du modèle.",
+    "exemple_en": "Two teams build the same assistant. The first invests in a cutting-edge model on uncleaned data; the second takes a standard model but carefully cleans its documents. It is the second that gets the best answers. Data quality weighed more than the choice of model.",
+    "regard_fr": "La course aux modèles les plus puissants fait oublier l'évidence : la qualité des données est le premier levier de performance, et le plus négligé. Avant de payer pour un modèle plus gros, nettoyez vos données. Le retour sur investissement est presque toujours supérieur.",
+    "regard_en": "The race for the most powerful models makes people forget the obvious: data quality is the first performance lever, and the most neglected. Before paying for a bigger model, clean your data. The return on investment is almost always higher.",
+    "termes_lies": ["gouvernance-donnees", "donnees-entrainement", "audit-documentaire", "etiquetage-donnees"],
+    "sources": [{"titre": "ISO 8000 · qualité des données"}]
+  }
+}

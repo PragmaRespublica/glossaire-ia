@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Marécage de données (data swamp)",
+  "terme_en": "Data swamp",
+  "sous_titre_fr": "Data swamp, le lac qui a mal tourné",
+  "sous_titre_en": "Data swamp, the lake gone wrong",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Lac de données devenu inexploitable faute de gouvernance : données non cataloguées, non documentées, de qualité inconnue, de provenance incertaine. Le marécage de données est le sort d'un lac où l'on a tout déversé sans règles. Pour l'IA, c'est un piège : on croit avoir une mine, on a un dépotoir.",
+  "definition_en": "A data lake become unusable for lack of governance: uncatalogued, undocumented data of unknown quality and uncertain provenance. The data swamp is the fate of a lake where everything was dumped without rules. For AI, it is a trap: you think you have a mine, you have a dump.",
+  "exemple_fr": "Une entreprise veut lancer un projet IA et se réjouit : elle a « des années de données ». À l'examen, c'est un marécage · formats incohérents, doublons, données mortes, aucune documentation. Avant tout projet IA, il faut assécher le marécage · une phase de gouvernance souvent plus longue que le développement du modèle.",
+  "exemple_en": "A company wants to launch an AI project and rejoices: it has \"years of data\". On examination, it is a swamp · inconsistent formats, duplicates, dead data, no documentation. Before any AI project, the swamp must be drained · a governance phase often longer than the model's development.",
+  "regard_fr": "Le marécage de données est le cimetière des ambitions IA mal préparées. « Nous avons beaucoup de données » n'est pas une bonne nouvelle si ces données sont ingérables. La vraie question n'est pas la quantité, mais la gouvernance. Un petit lac propre bat un grand marécage.",
+  "regard_en": "The data swamp is the graveyard of ill-prepared AI ambitions. \"We have a lot of data\" is not good news if that data is unmanageable. The real question is not quantity, but governance. A small clean lake beats a large swamp.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "lac-donnees",
+    "gouvernance-donnees",
+    "qualite-donnees",
+    "audit-documentaire"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (marécage de données)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

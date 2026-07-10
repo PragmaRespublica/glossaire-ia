@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Données sensibles",
+  "terme_en": "Sensitive data",
+  "sous_titre_fr": "Les catégories particulières de données",
+  "sous_titre_en": "Special categories of data",
+  "axe": "reglementaire",
+  "niveau": "intermediaire",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Catégorie de données personnelles bénéficiant d'une protection renforcée par le RGPD : origine ethnique, opinions politiques, convictions religieuses, santé, orientation sexuelle, données biométriques et génétiques. Leur traitement est en principe interdit, sauf exceptions strictes · un point crucial pour tout projet d'IA en santé, RH ou sécurité.",
+  "definition_en": "A category of personal data benefiting from reinforced protection under the GDPR: ethnic origin, political opinions, religious beliefs, health, sexual orientation, biometric and genetic data. Their processing is in principle prohibited, save for strict exceptions · a crucial point for any AI project in healthcare, HR or security.",
+  "exemple_fr": "Un RAG RH indexe des dossiers contenant des arrêts maladie · donc des données de santé. Ce traitement de données sensibles exige une base légale renforcée, une sécurité accrue et souvent l'avis du DPO. Beaucoup de projets butent ici, faute d'avoir repéré que leurs documents « ordinaires » contenaient des données sensibles.",
+  "exemple_en": "An HR RAG indexes files containing sick leaves · therefore health data. This processing of sensitive data requires a reinforced legal basis, heightened security and often the DPO's opinion. Many projects stumble here, having failed to spot that their \"ordinary\" documents contained sensitive data.",
+  "regard_fr": "Les données sensibles se cachent souvent dans des documents anodins : un email mentionne une religion, un dossier RH une maladie. Avant d'indexer un corpus dans un RAG, demandez-vous ce qu'il contient vraiment. C'est le rôle de l'audit documentaire.",
+  "regard_en": "Sensitive data often hide in innocuous documents: an email mentions a religion, an HR file an illness. Before indexing a corpus in a RAG, ask what it really contains. That is the role of the document audit.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "donnees-personnelles",
+    "rgpd",
+    "audit-documentaire",
+    "hds"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 9",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

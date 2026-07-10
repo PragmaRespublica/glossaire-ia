@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Caractéristique (feature)",
+  "terme_en": "Feature",
+  "sous_titre_fr": "Feature, variable d'entrée",
+  "sous_titre_en": "Feature, input variable",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Variable mesurable utilisée en entrée d'un modèle pour faire une prédiction : l'âge, le montant d'une transaction, la fréquence d'un mot. Le choix et la préparation des caractéristiques (feature engineering) ont longtemps été le cœur du métier de data scientist · les modèles modernes en apprennent une partie automatiquement.",
+  "definition_en": "A measurable variable used as input to a model to make a prediction: age, a transaction amount, a word's frequency. The choice and preparation of features (feature engineering) were long the heart of the data scientist's craft · modern models learn part of them automatically.",
+  "exemple_fr": "Pour prédire le risque de défaut d'un crédit, un modèle utilise des caractéristiques : revenus, ancienneté, historique de paiement. Ajouter une caractéristique pertinente · le taux d'endettement · améliore souvent plus le modèle qu'un algorithme plus complexe. Bien choisir ses variables reste un art décisif.",
+  "exemple_en": "To predict a loan's default risk, a model uses features: income, seniority, payment history. Adding a relevant feature · the debt ratio · often improves the model more than a more complex algorithm. Choosing your variables well remains a decisive art.",
+  "regard_fr": "Le choix des caractéristiques est aussi un choix éthique : inclure le code postal, c'est parfois réintroduire par la porte de derrière une discrimination géographique ou ethnique. Chaque variable mérite la question : que capture-t-elle vraiment, et est-ce légitime ?",
+  "regard_en": "The choice of features is also an ethical choice: including the postcode sometimes reintroduces, through the back door, geographic or ethnic discrimination. Every variable deserves the question: what does it really capture, and is it legitimate?",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "extraction-caracteristiques",
+    "biais-algorithmique",
+    "reduction-dimension",
+    "donnees-entrainement"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (caractéristique)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Pseudonymisation",
+  "terme_en": "Pseudonymization",
+  "sous_titre_fr": "Pseudonymization",
+  "sous_titre_en": "Pseudonymisation",
+  "axe": "reglementaire",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Traitement remplaçant les identifiants directs par des pseudonymes, la table de correspondance étant conservée à part. Contrairement à l'anonymisation, elle est réversible · les données restent donc personnelles et soumises au RGPD, mais avec un risque réduit. C'est une mesure de sécurité recommandée, pas une sortie du régime de protection.",
+  "definition_en": "Processing that replaces direct identifiers with pseudonyms, the correspondence table being kept separately. Unlike anonymisation, it is reversible · the data therefore remains personal and subject to the GDPR, but with reduced risk. It is a recommended security measure, not an exit from the protection regime.",
+  "exemple_fr": "Avant d'entraîner un modèle sur des dossiers clients, une équipe remplace chaque nom par un identifiant aléatoire, la table étant chiffrée à part. En cas de fuite du jeu pseudonymisé, les personnes ne sont pas directement identifiables. Mais le RGPD s'applique toujours · la pseudonymisation réduit le risque, elle ne l'efface pas.",
+  "exemple_en": "Before training a model on client files, a team replaces each name with a random identifier, the table being encrypted separately. If the pseudonymised set leaks, the people are not directly identifiable. But the GDPR still applies · pseudonymisation reduces the risk, it does not erase it.",
+  "regard_fr": "La pseudonymisation est l'une des mesures les plus rentables en protection des données IA : elle réduit fortement le risque pour un coût faible. Mais elle ne vous fait pas sortir du RGPD · seule l'anonymisation irréversible le permet. Sachez précisément laquelle vous appliquez.",
+  "regard_en": "Pseudonymisation is one of the most cost-effective measures in AI data protection: it strongly reduces risk at a low cost. But it does not take you out of the GDPR · only irreversible anonymisation does. Know precisely which one you are applying.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "anonymisation",
+    "donnees-personnelles",
+    "securite-donnees",
+    "rgpd"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2016/679 · RGPD, art. 4.5",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Données FAIR",
+  "terme_en": "FAIR data",
+  "sous_titre_fr": "FAIR data",
+  "sous_titre_en": "Données FAIR",
+  "axe": "souverainete",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Principes visant à rendre les données Faciles à trouver, Accessibles, Interopérables et Réutilisables (Findable, Accessible, Interoperable, Reusable). Issus de la recherche scientifique, ils fournissent un cadre concret pour gérer des données de qualité, réutilisables par les humains comme par les machines · un socle utile à toute stratégie IA.",
+  "definition_en": "Principles aiming to make data Findable, Accessible, Interoperable and Reusable. Originating in scientific research, they provide a concrete framework for managing quality, reusable data, by humans and machines alike · a useful foundation for any AI strategy.",
+  "exemple_fr": "Un institut de recherche applique les principes FAIR à ses jeux de données : identifiants pérennes, métadonnées riches, formats standards, licences claires. Résultat, ses données alimentent facilement des modèles internes et externes · sans les semaines de « nettoyage archéologique » qui plombent tant de projets d'IA.",
+  "exemple_en": "A research institute applies the FAIR principles to its datasets: persistent identifiers, rich metadata, standard formats, clear licences. As a result, its data easily feeds internal and external models · without the weeks of \"archaeological cleaning\" that weigh down so many AI projects.",
+  "regard_fr": "Les principes FAIR sont une check-list de bon sens que trop d'organisations ignorent. Des données FAIR, c'est une IA plus rapide à déployer et moins coûteuse à maintenir. Investir dans la « FAIRisation » de ses données, c'est préparer le terrain de tous ses projets futurs.",
+  "regard_en": "The FAIR principles are a common-sense checklist too many organisations ignore. FAIR data means AI that is faster to deploy and cheaper to maintain. Investing in \"FAIRifying\" your data means preparing the ground for all your future projects.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "gouvernance-donnees",
+    "interoperabilite",
+    "donnees-ouvertes",
+    "metadonnees"
+  ],
+  "sources": [
+    {
+      "titre": "GO FAIR · FAIR Principles"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

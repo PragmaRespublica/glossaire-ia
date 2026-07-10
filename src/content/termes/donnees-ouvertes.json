@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Données ouvertes (open data)",
+  "terme_en": "Open data",
+  "sous_titre_fr": "Open data",
+  "sous_titre_en": "Données ouvertes",
+  "axe": "souverainete",
+  "niveau": "fondamental",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Données rendues librement accessibles, réutilisables et redistribuables, souvent par des acteurs publics, sous une licence ouverte. En France, data.gouv.fr en est le portail de référence. Les données ouvertes sont une ressource majeure pour l'IA souveraine : elles permettent d'entraîner et d'enrichir des modèles sans dépendre de données propriétaires.",
+  "definition_en": "Data made freely accessible, reusable and redistributable, often by public actors, under an open licence. In France, data.gouv.fr is the reference portal. Open data is a major resource for sovereign AI: it allows training and enriching models without depending on proprietary data.",
+  "exemple_fr": "Une jeune pousse construit un assistant juridique en s'appuyant sur les données ouvertes : textes de loi (Légifrance), jurisprudence, référentiels publics. Elle bâtit un service à forte valeur sans acheter une seule base propriétaire · les communs numériques comme socle de souveraineté.",
+  "exemple_en": "A start-up builds a legal assistant relying on open data: legal texts (Légifrance), case law, public reference bases. It builds a high-value service without buying a single proprietary database · digital commons as a foundation for sovereignty.",
+  "regard_fr": "Les données ouvertes sont un actif stratégique sous-exploité de la souveraineté européenne : une matière première gratuite, légale et de qualité. Avant d'acheter des données, demandez-vous ce que l'open data offre déjà · la réponse surprend souvent.",
+  "regard_en": "Open data is an under-exploited strategic asset of European sovereignty: a free, legal, quality raw material. Before buying data, ask what open data already offers · the answer often surprises.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "souverainete-donnees",
+    "donnees-fair",
+    "interoperabilite",
+    "open-source-ia"
+  ],
+  "sources": [
+    {
+      "titre": "data.gouv.fr · Licence Ouverte",
+      "url": "https://www.numerique.gouv.fr/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

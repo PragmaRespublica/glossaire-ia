@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Augmentation de données",
+  "terme_en": "Data augmentation",
+  "sous_titre_fr": "Data augmentation",
+  "sous_titre_en": "Augmentation de données",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "donnees",
+  "pages_liees": [],
+  "definition_fr": "Technique consistant à créer de nouvelles données d'entraînement à partir des existantes par transformations : rotation ou recadrage d'images, reformulation de textes, ajout de bruit. Elle enrichit un jeu de données limité et rend le modèle plus robuste, sans avoir à collecter davantage de données réelles.",
+  "definition_en": "A technique for creating new training data from existing data through transformations: rotating or cropping images, rephrasing texts, adding noise. It enriches a limited dataset and makes the model more robust, without having to collect more real data.",
+  "exemple_fr": "Une équipe dispose de 500 photos de pièces défectueuses pour entraîner un contrôle qualité · trop peu. Par augmentation (rotations, variations de luminosité, recadrages), elle multiplie artificiellement son jeu et rend le modèle robuste aux conditions réelles de l'usine. Le modèle apprend à reconnaître un défaut sous tous les angles.",
+  "exemple_en": "A team has 500 photos of defective parts to train a quality check · too few. Through augmentation (rotations, brightness variations, crops), it artificially multiplies its set and makes the model robust to the factory's real conditions. The model learns to recognise a defect from every angle.",
+  "regard_fr": "L'augmentation de données est le levier le moins cher pour améliorer un modèle quand les données manquent. Avant de lancer une coûteuse campagne de collecte, demandez-vous ce que vous pouvez tirer, par transformation intelligente, de ce que vous avez déjà.",
+  "regard_en": "Data augmentation is the cheapest lever for improving a model when data is scarce. Before launching a costly collection campaign, ask what you can draw, through smart transformation, from what you already have.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "donnees-synthetiques",
+    "donnees-entrainement",
+    "generalisation",
+    "robustesse"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · Glossaire IA (augmentation de données)",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
