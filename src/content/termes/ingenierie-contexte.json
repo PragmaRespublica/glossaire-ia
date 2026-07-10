@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Ingénierie de contexte",
+  "terme_en": "Context engineering",
+  "sous_titre_fr": "Context engineering",
+  "sous_titre_en": "Ingénierie de contexte",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Discipline consistant à composer soigneusement l'ensemble des informations fournies à un modèle pour une tâche : instructions, documents récupérés, exemples, historique, outils disponibles. Évolution de l'ingénierie de prompt à l'ère des grandes fenêtres contextuelles et des agents, elle vise à donner au modèle la bonne information, ni trop ni trop peu.",
+  "definition_en": "The discipline of carefully composing the whole set of information provided to a model for a task: instructions, retrieved documents, examples, history, available tools. An evolution of prompt engineering in the era of large context windows and agents, it aims to give the model the right information, neither too much nor too little.",
+  "exemple_fr": "Un agent performe mal non par manque d'intelligence, mais parce que son contexte est mal composé : instructions noyées, documents inutiles, historique trop long. En rationalisant le contexte · l'essentiel, bien ordonné · ses réponses s'améliorent nettement. L'ingénierie de contexte remplace le bricolage de prompt par une vraie architecture de l'information.",
+  "exemple_en": "An agent performs poorly not from lack of intelligence, but because its context is badly composed: instructions drowned, useless documents, overly long history. By streamlining the context · the essentials, well ordered · its answers improve markedly. Context engineering replaces prompt tinkering with a real information architecture.",
+  "regard_fr": "L'ingénierie de contexte est en train de devenir le vrai savoir-faire de l'IA appliquée : à l'ère des agents, tout se joue dans ce qu'on donne au modèle et comment on l'organise. Ce n'est plus « trouver la formule magique » mais « architecturer l'information ». Une compétence à cultiver.",
+  "regard_en": "Context engineering is becoming the real craft of applied AI: in the era of agents, everything plays out in what you give the model and how you organise it. It is no longer \"finding the magic formula\" but \"architecting information\". A skill to cultivate.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt-engineering",
+    "fenetre-contextuelle",
+    "top-k",
+    "rag"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur l'ingénierie de contexte (Anthropic)",
+      "url": "https://www.anthropic.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Reformulation de requête",
+  "terme_en": "Query rewriting",
+  "sous_titre_fr": "Query rewriting",
+  "sous_titre_en": "Reformulation de requête",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Technique où un modèle reformule ou enrichit la question de l'utilisateur avant de lancer la recherche dans un RAG : préciser une question vague, la découper en sous-questions, ajouter des synonymes, résoudre les références au contexte de la conversation. Elle améliore nettement la pertinence de la récupération.",
+  "definition_en": "A technique where a model rephrases or enriches the user's question before launching the RAG search: clarifying a vague question, splitting it into sub-questions, adding synonyms, resolving references to the conversation's context. It markedly improves retrieval relevance.",
+  "exemple_fr": "Un utilisateur demande « et pour les CDD ? » après une question sur les congés. Seule, cette requête est incompréhensible pour la recherche. La reformulation la reconstruit : « quelles sont les règles de congés pour les contrats à durée déterminée ? ». Le RAG retrouve alors le bon document. La reformulation rend la conversation naturelle.",
+  "exemple_en": "A user asks \"and for fixed-term contracts?\" after a question about leave. Alone, this query is incomprehensible to the search. Reformulation rebuilds it: \"what are the leave rules for fixed-term contracts?\". The RAG then finds the right document. Reformulation makes conversation natural.",
+  "regard_fr": "La reformulation de requête est un petit rouage discret qui change tout dans un RAG conversationnel : sans elle, l'utilisateur doit tout réexpliquer à chaque question. C'est le genre de raffinement invisible qui distingue un RAG agréable d'un RAG frustrant · souvent pour un coût minime.",
+  "regard_en": "Query rewriting is a small discreet cog that changes everything in a conversational RAG: without it, the user must re-explain everything at each question. It is the kind of invisible refinement that distinguishes a pleasant RAG from a frustrating one · often at minimal cost.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rag",
+    "conversation-multitour",
+    "recherche-semantique",
+    "ingenierie-contexte"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation RAG avancé (query transformation)",
+      "url": "https://www.langchain.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

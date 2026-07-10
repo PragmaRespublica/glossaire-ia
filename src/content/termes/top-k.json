@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Top-k · récupération",
+  "terme_en": "Top-k retrieval",
+  "sous_titre_fr": "Top-k retrieval",
+  "sous_titre_en": "Récupération des k meilleurs",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Paramètre d'un RAG définissant le nombre de fragments (k) récupérés et fournis au modèle pour répondre. Un k trop faible prive le modèle d'informations utiles ; un k trop élevé noie le signal, augmente le coût et peut dégrader la réponse. Régler k est un arbitrage central de tout RAG.",
+  "definition_en": "A RAG parameter defining the number of fragments (k) retrieved and provided to the model to answer. A k too low deprives the model of useful information; a k too high drowns the signal, increases cost and can degrade the answer. Tuning k is a central trade-off of any RAG.",
+  "exemple_fr": "Une équipe augmente le top-k de 3 à 20, pensant améliorer les réponses. Résultat inverse : le modèle, noyé sous 20 fragments dont la moitié hors sujet, produit des réponses plus confuses et plus chères. Après tests, k=5 s'avère optimal. Plus de contexte n'est pas toujours mieux · il faut mesurer.",
+  "exemple_en": "A team raises top-k from 3 to 20, thinking it will improve answers. The opposite happens: the model, drowned under 20 fragments half of them off-topic, produces more confused and more expensive answers. After testing, k=5 proves optimal. More context is not always better · you must measure.",
+  "regard_fr": "Le réglage du top-k illustre une loi contre-intuitive du RAG : plus de contexte peut nuire. Le bon k n'est pas le plus grand, mais celui qui maximise la pertinence sans diluer le signal. Comme souvent en IA, la réponse se trouve par la mesure, pas par l'intuition.",
+  "regard_en": "Tuning top-k illustrates a counterintuitive RAG law: more context can hurt. The right k is not the largest, but the one that maximises relevance without diluting the signal. As often in AI, the answer is found by measuring, not by intuition.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "reclassement",
+    "rag",
+    "ingenierie-contexte",
+    "fenetre-contextuelle"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation RAG (LangChain, LlamaIndex)",
+      "url": "https://www.langchain.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

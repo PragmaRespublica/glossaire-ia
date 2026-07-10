@@ -1,0 +1,37 @@
+{
+  "terme_fr": "GraphRAG",
+  "terme_en": "GraphRAG",
+  "sous_titre_fr": "GraphRAG",
+  "sous_titre_en": "RAG sur graphe de connaissances",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Variante du RAG qui s'appuie sur un graphe de connaissances plutôt que sur de simples fragments de texte : les entités et leurs relations sont explicitement modélisées. Le GraphRAG excelle pour les questions qui exigent de relier plusieurs informations dispersées · là où le RAG classique, fragment par fragment, peine à faire le lien.",
+  "definition_en": "A RAG variant relying on a knowledge graph rather than mere text fragments: entities and their relations are explicitly modelled. GraphRAG excels for questions requiring linking several scattered pieces of information · where classic RAG, fragment by fragment, struggles to connect.",
+  "exemple_fr": "Une question du type « quels projets partagent un fournisseur avec le projet Alpha ? » exige de relier plusieurs documents. Un RAG classique récupère des fragments isolés et peine à faire la synthèse. Un GraphRAG, qui a modélisé les liens projet-fournisseur, répond directement en parcourant le graphe.",
+  "exemple_en": "A question like \"which projects share a supplier with project Alpha?\" requires linking several documents. Classic RAG retrieves isolated fragments and struggles to synthesise. A GraphRAG, having modelled the project-supplier links, answers directly by traversing the graph.",
+  "regard_fr": "Le GraphRAG répond à la limite du RAG classique face aux questions relationnelles. Mais il exige de construire et maintenir un graphe de connaissances · un investissement lourd. Réservez-le aux domaines où les relations entre entités sont le cœur de la valeur, pas à tout RAG par principe.",
+  "regard_en": "GraphRAG addresses classic RAG's limit on relational questions. But it requires building and maintaining a knowledge graph · a heavy investment. Reserve it for domains where entity relations are the core of the value, not for every RAG on principle.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rag",
+    "graphe-connaissances",
+    "base-connaissances",
+    "recherche-semantique"
+  ],
+  "sources": [
+    {
+      "titre": "Microsoft Research · GraphRAG"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

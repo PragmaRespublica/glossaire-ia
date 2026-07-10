@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Chevauchement de fragments",
+  "terme_en": "Chunk overlap",
+  "sous_titre_fr": "Chunk overlap",
+  "sous_titre_en": "Chevauchement de fragments",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Technique consistant à faire se recouvrir légèrement les fragments consécutifs d'un document découpé pour un RAG, afin qu'une information à cheval sur deux fragments ne soit perdue par aucun. Un réglage fin qui évite les réponses tronquées quand un concept traverse une frontière de découpage.",
+  "definition_en": "A technique of slightly overlapping consecutive fragments of a document chunked for a RAG, so that information straddling two fragments is lost by neither. A fine setting that avoids truncated answers when a concept crosses a chunking boundary.",
+  "exemple_fr": "Sans chevauchement, une clause importante coupée entre deux fragments n'apparaît complète dans aucun · le RAG ne la retrouve jamais entière. Avec un léger chevauchement, chaque fragment reprend la fin du précédent : la clause reste lisible. Un détail technique aux conséquences concrètes sur la fiabilité.",
+  "exemple_en": "Without overlap, an important clause cut between two fragments appears complete in neither · the RAG never retrieves it whole. With a slight overlap, each fragment repeats the end of the previous one: the clause stays legible. A technical detail with concrete consequences for reliability.",
+  "regard_fr": "Le chevauchement illustre une vérité du RAG : la qualité se joue dans mille petits réglages, pas dans le seul choix du modèle. Ces détails d'ingénierie · invisibles pour l'utilisateur · font la différence entre un RAG qui inspire confiance et un RAG qui déçoit.",
+  "regard_en": "Overlap illustrates a RAG truth: quality plays out in a thousand small settings, not in the choice of model alone. These engineering details · invisible to the user · make the difference between a RAG that inspires trust and one that disappoints.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chunking",
+    "rag",
+    "pipeline-ingestion",
+    "ingenierie-contexte"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation LangChain",
+      "url": "https://www.langchain.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

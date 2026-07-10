@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Pipeline d'ingestion documentaire",
+  "terme_en": "Document ingestion pipeline",
+  "sous_titre_fr": "Document ingestion pipeline",
+  "sous_titre_en": "Pipeline d'ingestion documentaire",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Chaîne de traitement qui prépare les documents pour un RAG : extraction du texte, nettoyage, découpage, vectorisation, indexation. La qualité de ce pipeline conditionne tout le RAG · un document mal extrait ou mal découpé à l'ingestion produira des réponses médiocres, quel que soit le modèle en aval.",
+  "definition_en": "The processing chain that prepares documents for a RAG: text extraction, cleaning, chunking, vectorisation, indexing. The quality of this pipeline conditions the whole RAG · a document badly extracted or badly chunked at ingestion will produce mediocre answers, whatever the downstream model.",
+  "exemple_fr": "Un RAG répond mal sur les tableaux d'un rapport. La cause n'est pas le modèle : à l'ingestion, l'extraction avait transformé les tableaux en charabia. En corrigeant le pipeline pour préserver la structure des tableaux, les réponses redeviennent justes. Tout se joue avant même que le modèle n'intervienne.",
+  "exemple_en": "A RAG answers poorly on a report's tables. The cause is not the model: at ingestion, extraction had turned the tables into gibberish. By fixing the pipeline to preserve table structure, answers become accurate again. Everything plays out before the model even intervenes.",
+  "regard_fr": "Le pipeline d'ingestion est la fondation invisible d'un RAG : personne ne le regarde, tout en dépend. La majorité des problèmes de qualité d'un RAG se règlent à l'ingestion, pas dans le modèle. Avant de changer de LLM, auditez comment vos documents y entrent.",
+  "regard_en": "The ingestion pipeline is a RAG's invisible foundation: no one looks at it, everything depends on it. The majority of a RAG's quality problems are solved at ingestion, not in the model. Before changing LLM, audit how your documents enter it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chunking",
+    "pipeline-donnees",
+    "rag",
+    "ocr"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation RAG (LlamaIndex, LangChain)",
+      "url": "https://www.langchain.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

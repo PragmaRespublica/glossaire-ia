@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Orchestration IA",
+  "terme_en": "AI orchestration",
+  "sous_titre_fr": "AI orchestration",
+  "sous_titre_en": "Orchestration IA",
+  "axe": "souverainete",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Coordination des différents composants d'un système d'IA · modèles, outils, sources de données, étapes de traitement · pour accomplir une tâche de bout en bout. La couche d'orchestration décide quel modèle appeler, quand utiliser un outil, comment enchaîner les étapes. Bien conçue, elle préserve la liberté de changer chaque composant.",
+  "definition_en": "The coordination of an AI system's various components · models, tools, data sources, processing steps · to accomplish a task end to end. The orchestration layer decides which model to call, when to use a tool, how to chain steps. Well designed, it preserves the freedom to change each component.",
+  "exemple_fr": "Une application d'orchestration route les questions simples vers un petit modèle local, les questions complexes vers un grand modèle, et déclenche un RAG quand une source documentaire est nécessaire. Cette couche, si elle est bien abstraite, permet de remplacer n'importe quel modèle sans réécrire l'application.",
+  "exemple_en": "An orchestration application routes simple questions to a small local model, complex ones to a large model, and triggers a RAG when a document source is needed. This layer, if well abstracted, allows replacing any model without rewriting the application.",
+  "regard_fr": "L'orchestration est le lieu où se gagne ou se perd votre indépendance : une couche d'orchestration ouverte et abstraite vous laisse changer de modèle en une ligne ; une architecture soudée à un fournisseur vous enferme. Investissez dans cette couche · c'est votre assurance anti-verrouillage.",
+  "regard_en": "Orchestration is where your independence is won or lost: an open, abstracted orchestration layer lets you change model in one line; an architecture welded to a vendor locks you in. Invest in this layer · it is your anti-lock-in insurance.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "langchain",
+    "litellm",
+    "lock-in",
+    "systeme-multi-agents"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des frameworks d'orchestration (LangChain)",
+      "url": "https://www.langchain.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

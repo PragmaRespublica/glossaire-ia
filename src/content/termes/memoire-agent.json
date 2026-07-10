@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Mémoire d'agent",
+  "terme_en": "Agent memory",
+  "sous_titre_fr": "Agent memory",
+  "sous_titre_en": "Mémoire d'agent",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Mécanismes permettant à un agent IA de conserver et réutiliser des informations au-delà d'une seule interaction : mémoire de travail à court terme (le fil de la tâche en cours) et mémoire à long terme (préférences, faits, historique). La mémoire rend un agent plus utile · mais pose des questions de vie privée et de sécurité.",
+  "definition_en": "Mechanisms allowing an AI agent to retain and reuse information beyond a single interaction: short-term working memory (the thread of the current task) and long-term memory (preferences, facts, history). Memory makes an agent more useful · but raises privacy and security questions.",
+  "exemple_fr": "Un agent d'assistance se souvient, d'une session à l'autre, des préférences et du contexte d'un utilisateur · précieux pour la continuité. Mais cette mémoire stocke des données personnelles qui doivent être sécurisées, limitées dans le temps et effaçables sur demande. Une mémoire mal gouvernée devient une base de données à risque.",
+  "exemple_en": "An assistance agent remembers, from one session to the next, a user's preferences and context · valuable for continuity. But this memory stores personal data that must be secured, time-limited and erasable on request. A poorly governed memory becomes a risky database.",
+  "regard_fr": "La mémoire des agents est le prochain grand terrain de la vie privée : ce que l'IA retient de vous devient un actif · et un risque. Avant de déployer des agents à mémoire longue, posez les règles : que retenir, combien de temps, comment l'effacer. La mémoire sans gouvernance est un piège.",
+  "regard_en": "Agent memory is the next big privacy frontier: what AI remembers of you becomes an asset · and a risk. Before deploying long-memory agents, set the rules: what to retain, for how long, how to erase it. Memory without governance is a trap.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "memoire-assistants",
+    "agent-ia",
+    "donnees-personnelles",
+    "droits-personnes"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur la mémoire des agents LLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

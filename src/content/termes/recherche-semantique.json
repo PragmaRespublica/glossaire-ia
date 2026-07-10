@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Recherche sémantique",
+  "terme_en": "Semantic search",
+  "sous_titre_fr": "Semantic search",
+  "sous_titre_en": "Recherche sémantique",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Recherche fondée sur le sens plutôt que sur les mots exacts : elle retrouve des documents pertinents même s'ils n'emploient pas les termes de la requête, grâce aux embeddings. C'est le cœur du RAG et le grand progrès face à la recherche par mots-clés, qui échouait dès que le vocabulaire différait.",
+  "definition_en": "Search based on meaning rather than exact words: it retrieves relevant documents even if they do not use the query's terms, thanks to embeddings. It is the heart of RAG and the great leap beyond keyword search, which failed as soon as vocabulary differed.",
+  "exemple_fr": "Un employé cherche « comment poser des congés ». La recherche par mots-clés ne trouve rien car le document RH s'intitule « absences et récupération ». La recherche sémantique, elle, comprend que les deux parlent de la même chose et remonte le bon document. Le sens l'emporte sur la lettre.",
+  "exemple_en": "An employee searches \"how to book leave\". Keyword search finds nothing because the HR document is titled \"absences and time off\". Semantic search understands the two speak of the same thing and surfaces the right document. Meaning wins over the letter.",
+  "regard_fr": "La recherche sémantique résout le problème le plus frustrant de la recherche documentaire classique : ne pas trouver ce qui existe faute d'avoir tapé le bon mot. Pour une entreprise assise sur des années d'archives, c'est souvent le premier bénéfice tangible de l'IA · avant même la génération.",
+  "regard_en": "Semantic search solves the most frustrating problem of classic document search: not finding what exists for lack of typing the right word. For a company sitting on years of archives, it is often the first tangible benefit of AI · even before generation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "embedding",
+    "vector-store",
+    "rag",
+    "recherche-hybride"
+  ],
+  "sources": [
+    {
+      "titre": "Google Cloud · Generative AI Glossary",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

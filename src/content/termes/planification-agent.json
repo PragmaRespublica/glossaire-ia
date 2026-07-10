@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Planification (agents)",
+  "terme_en": "Agent planning",
+  "sous_titre_fr": "Agent planning",
+  "sous_titre_en": "Planification d'agent",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Capacité d'un agent IA à décomposer un objectif complexe en une séquence d'étapes ordonnées avant de les exécuter. La planification distingue un vrai agent d'un simple exécutant : au lieu de réagir coup par coup, l'agent élabore une stratégie, l'ajuste en cours de route et anticipe les dépendances entre tâches.",
+  "definition_en": "An AI agent's ability to break a complex goal into a sequence of ordered steps before executing them. Planning distinguishes a true agent from a mere executor: instead of reacting step by step, the agent devises a strategy, adjusts it along the way and anticipates dependencies between tasks.",
+  "exemple_fr": "Chargé d'organiser un séminaire, un agent planificateur établit d'abord un plan : réserver la salle, inviter les participants, commander le traiteur, préparer les supports. Il identifie les dépendances (la salle avant les invitations) et exécute dans le bon ordre. La planification évite les actions incohérentes ou prématurées.",
+  "exemple_en": "Tasked with organising a seminar, a planning agent first draws up a plan: book the room, invite participants, order catering, prepare materials. It identifies dependencies (the room before invitations) and executes in the right order. Planning avoids incoherent or premature actions.",
+  "regard_fr": "La planification est ce qui sépare un agent utile d'un agent erratique. Mais un plan élaboré par un modèle reste faillible : il peut être fondé sur une hypothèse fausse. Pour les tâches à enjeu, faites valider le plan par un humain avant l'exécution · relire un plan coûte moins cher que réparer ses conséquences.",
+  "regard_en": "Planning is what separates a useful agent from an erratic one. But a plan devised by a model remains fallible: it may rest on a false assumption. For high-stakes tasks, have the plan validated by a human before execution · reviewing a plan costs less than repairing its consequences.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "agent-autonome",
+    "react",
+    "humain-dans-la-boucle",
+    "flux-agentiques"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur la planification des agents LLM"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Similarité cosinus",
+  "terme_en": "Cosine similarity",
+  "sous_titre_fr": "Cosine similarity",
+  "sous_titre_en": "Similarité cosinus",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Mesure mathématique de la proximité entre deux vecteurs, fondée sur l'angle qui les sépare. Très utilisée dans les RAG et la recherche sémantique, elle quantifie à quel point deux embeddings · donc deux textes · sont proches par le sens. C'est l'opération qui, en coulisses, permet de retrouver les documents pertinents.",
+  "definition_en": "A mathematical measure of proximity between two vectors, based on the angle separating them. Widely used in RAGs and semantic search, it quantifies how close two embeddings · thus two texts · are in meaning. It is the operation that, behind the scenes, finds relevant documents.",
+  "exemple_fr": "Quand un RAG cherche les documents proches d'une question, il calcule la similarité cosinus entre le vecteur de la question et ceux de chaque fragment, puis retient les plus élevés. C'est cette simple mesure d'angle, répétée des milliers de fois, qui fait « comprendre » au système quels documents sont pertinents.",
+  "exemple_en": "When a RAG searches for documents close to a question, it computes the cosine similarity between the question's vector and each fragment's, then keeps the highest. It is this simple angle measure, repeated thousands of times, that makes the system \"understand\" which documents are relevant.",
+  "regard_fr": "La similarité cosinus démystifie la « magie » du RAG : derrière la recherche sémantique se cache une opération géométrique simple. Comprendre ce mécanisme aide à saisir les limites du système · deux textes proches par le calcul ne le sont pas toujours par le sens réel. La géométrie n'est pas la compréhension.",
+  "regard_en": "Cosine similarity demystifies the \"magic\" of RAG: behind semantic search lies a simple geometric operation. Understanding this mechanism helps grasp the system's limits · two texts close by computation are not always close in real meaning. Geometry is not comprehension.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "embedding",
+    "vector-store",
+    "recherche-semantique",
+    "vectorisation"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des bases vectorielles (Qdrant, Weaviate)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

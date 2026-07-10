@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Système multi-agents",
+  "terme_en": "Multi-agent system",
+  "sous_titre_fr": "Multi-agent system",
+  "sous_titre_en": "Système multi-agents",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Architecture où plusieurs agents IA spécialisés collaborent pour accomplir une tâche complexe, chacun avec son rôle : un agent planifie, un autre recherche, un troisième rédige, un quatrième vérifie. La division du travail améliore souvent la qualité · mais multiplie les coûts, la latence et les risques à maîtriser.",
+  "definition_en": "An architecture where several specialised AI agents collaborate to accomplish a complex task, each with its role: one agent plans, another searches, a third writes, a fourth verifies. The division of labour often improves quality · but multiplies costs, latency and risks to control.",
+  "exemple_fr": "Pour produire un rapport d'analyse, un système multi-agents répartit le travail : un agent collecte les données, un autre les analyse, un troisième rédige, un dernier relit et vérifie les sources. Le résultat est meilleur qu'un agent unique · mais chaque étape a un coût, et une erreur en amont se propage.",
+  "exemple_en": "To produce an analysis report, a multi-agent system divides the work: one agent collects data, another analyses it, a third writes, a last one reviews and checks sources. The result is better than a single agent · but each step has a cost, and an upstream error propagates.",
+  "regard_fr": "Les systèmes multi-agents séduisent par leur élégance, mais attention à la complexité : plus d'agents, c'est plus de coûts, plus de latence, plus de points de défaillance. Commencez simple. La question n'est pas « combien d'agents ? » mais « quel est le système le plus simple qui résout le problème ? ».",
+  "regard_en": "Multi-agent systems seduce with their elegance, but beware of complexity: more agents means more cost, more latency, more failure points. Start simple. The question is not \"how many agents?\" but \"what is the simplest system that solves the problem?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "agent-ia",
+    "orchestration-ia",
+    "protocole-a2a",
+    "flux-agentiques"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (système multiagent)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

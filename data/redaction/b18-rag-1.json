@@ -1,0 +1,122 @@
+{
+  "recherche-semantique": {
+    "sous_titre_fr": "Semantic search",
+    "sous_titre_en": "Recherche sémantique",
+    "definition_fr": "Recherche fondée sur le sens plutôt que sur les mots exacts : elle retrouve des documents pertinents même s'ils n'emploient pas les termes de la requête, grâce aux embeddings. C'est le cœur du RAG et le grand progrès face à la recherche par mots-clés, qui échouait dès que le vocabulaire différait.",
+    "definition_en": "Search based on meaning rather than exact words: it retrieves relevant documents even if they do not use the query's terms, thanks to embeddings. It is the heart of RAG and the great leap beyond keyword search, which failed as soon as vocabulary differed.",
+    "exemple_fr": "Un employé cherche « comment poser des congés ». La recherche par mots-clés ne trouve rien car le document RH s'intitule « absences et récupération ». La recherche sémantique, elle, comprend que les deux parlent de la même chose et remonte le bon document. Le sens l'emporte sur la lettre.",
+    "exemple_en": "An employee searches \"how to book leave\". Keyword search finds nothing because the HR document is titled \"absences and time off\". Semantic search understands the two speak of the same thing and surfaces the right document. Meaning wins over the letter.",
+    "regard_fr": "La recherche sémantique résout le problème le plus frustrant de la recherche documentaire classique : ne pas trouver ce qui existe faute d'avoir tapé le bon mot. Pour une entreprise assise sur des années d'archives, c'est souvent le premier bénéfice tangible de l'IA · avant même la génération.",
+    "regard_en": "Semantic search solves the most frustrating problem of classic document search: not finding what exists for lack of typing the right word. For a company sitting on years of archives, it is often the first tangible benefit of AI · even before generation.",
+    "termes_lies": ["embedding", "vector-store", "rag", "recherche-hybride"],
+    "sources": [{"titre": "Google Cloud · Generative AI Glossary", "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"}]
+  },
+  "chunking": {
+    "sous_titre_fr": "Découpage en fragments",
+    "sous_titre_en": "Splitting into fragments",
+    "definition_fr": "Découpage des documents en fragments (chunks) de taille maîtrisée avant leur vectorisation dans un RAG. La stratégie de découpage · taille, chevauchement, respect de la structure · influence fortement la qualité des réponses : des fragments trop grands diluent le sens, trop petits perdent le contexte.",
+    "definition_en": "Splitting documents into manageable-sized fragments (chunks) before their vectorisation in a RAG. The chunking strategy · size, overlap, respect for structure · strongly influences answer quality: fragments too large dilute meaning, too small lose context.",
+    "exemple_fr": "Un RAG juridique donne de mauvaises réponses. Le diagnostic : les contrats étaient découpés à la longueur fixe, coupant les articles en plein milieu. En découpant plutôt par article, chaque fragment devient cohérent et autonome. La qualité des réponses bondit · sans changer une ligne du modèle.",
+    "exemple_en": "A legal RAG gives poor answers. The diagnosis: contracts were chunked at fixed length, cutting articles in the middle. By chunking instead by article, each fragment becomes coherent and self-contained. Answer quality jumps · without changing a line of the model.",
+    "regard_fr": "Le découpage est le réglage le plus sous-estimé d'un RAG : invisible, il conditionne pourtant tout. Avant de blâmer le modèle pour des réponses médiocres, regardez comment vos documents sont fragmentés. C'est souvent là que se cache le vrai problème · et la solution la moins coûteuse.",
+    "regard_en": "Chunking is the most underestimated setting of a RAG: invisible, it nonetheless conditions everything. Before blaming the model for mediocre answers, look at how your documents are fragmented. That is often where the real problem hides · and the cheapest solution.",
+    "termes_lies": ["chevauchement-fragments", "embedding", "rag", "pipeline-ingestion"],
+    "sources": [{"titre": "Documentation LangChain · text splitting", "url": "https://www.langchain.com/"}]
+  },
+  "chevauchement-fragments": {
+    "sous_titre_fr": "Chunk overlap",
+    "sous_titre_en": "Chevauchement de fragments",
+    "definition_fr": "Technique consistant à faire se recouvrir légèrement les fragments consécutifs d'un document découpé pour un RAG, afin qu'une information à cheval sur deux fragments ne soit perdue par aucun. Un réglage fin qui évite les réponses tronquées quand un concept traverse une frontière de découpage.",
+    "definition_en": "A technique of slightly overlapping consecutive fragments of a document chunked for a RAG, so that information straddling two fragments is lost by neither. A fine setting that avoids truncated answers when a concept crosses a chunking boundary.",
+    "exemple_fr": "Sans chevauchement, une clause importante coupée entre deux fragments n'apparaît complète dans aucun · le RAG ne la retrouve jamais entière. Avec un léger chevauchement, chaque fragment reprend la fin du précédent : la clause reste lisible. Un détail technique aux conséquences concrètes sur la fiabilité.",
+    "exemple_en": "Without overlap, an important clause cut between two fragments appears complete in neither · the RAG never retrieves it whole. With a slight overlap, each fragment repeats the end of the previous one: the clause stays legible. A technical detail with concrete consequences for reliability.",
+    "regard_fr": "Le chevauchement illustre une vérité du RAG : la qualité se joue dans mille petits réglages, pas dans le seul choix du modèle. Ces détails d'ingénierie · invisibles pour l'utilisateur · font la différence entre un RAG qui inspire confiance et un RAG qui déçoit.",
+    "regard_en": "Overlap illustrates a RAG truth: quality plays out in a thousand small settings, not in the choice of model alone. These engineering details · invisible to the user · make the difference between a RAG that inspires trust and one that disappoints.",
+    "termes_lies": ["chunking", "rag", "pipeline-ingestion", "ingenierie-contexte"],
+    "sources": [{"titre": "Documentation LangChain", "url": "https://www.langchain.com/"}]
+  },
+  "recherche-hybride": {
+    "sous_titre_fr": "Hybrid search",
+    "sous_titre_en": "Recherche hybride",
+    "definition_fr": "Combinaison de la recherche sémantique (par sens, via embeddings) et de la recherche lexicale (par mots-clés exacts) pour tirer le meilleur des deux. La recherche hybride récupère à la fois les documents conceptuellement proches et ceux contenant un terme précis · références, codes, noms propres · que la sémantique seule peut manquer.",
+    "definition_en": "The combination of semantic search (by meaning, via embeddings) and lexical search (by exact keywords) to get the best of both. Hybrid search retrieves both conceptually close documents and those containing a precise term · references, codes, proper nouns · that semantics alone can miss.",
+    "exemple_fr": "Un RAG technique doit retrouver la fiche de la pièce « réf. XJ-2291 ». La recherche sémantique seule, focalisée sur le sens, peut rater cette référence exacte. La recherche hybride ajoute la correspondance lexicale et retrouve la pièce à coup sûr. Le meilleur des deux mondes pour les documents techniques.",
+    "exemple_en": "A technical RAG must find the sheet for part \"ref. XJ-2291\". Semantic search alone, focused on meaning, may miss this exact reference. Hybrid search adds lexical matching and finds the part for sure. The best of both worlds for technical documents.",
+    "regard_fr": "La recherche hybride corrige le point faible de la sémantique pure : les identifiants exacts, les codes, les noms. Pour un RAG sur des données techniques ou juridiques riches en références précises, elle est souvent le réglage qui fait passer de « à peu près » à « fiable ».",
+    "regard_en": "Hybrid search corrects the weak point of pure semantics: exact identifiers, codes, names. For a RAG on technical or legal data rich in precise references, it is often the setting that moves from \"roughly\" to \"reliable\".",
+    "termes_lies": ["recherche-semantique", "reclassement", "rag", "top-k"],
+    "sources": [{"titre": "Documentation des moteurs de recherche vectorielle (Qdrant, Weaviate)"}]
+  },
+  "reclassement": {
+    "sous_titre_fr": "Reranking",
+    "sous_titre_en": "Reclassement",
+    "definition_fr": "Étape d'un RAG qui réordonne les documents récupérés selon leur pertinence réelle pour la requête, à l'aide d'un modèle spécialisé plus précis mais plus coûteux. Le reclassement affine une première sélection large : on récupère beaucoup, puis on ne garde que le meilleur · un compromis efficace entre rappel et précision.",
+    "definition_en": "A RAG step that reorders retrieved documents by their real relevance to the query, using a specialised model that is more precise but more costly. Reranking refines a broad first selection: retrieve many, then keep only the best · an efficient compromise between recall and precision.",
+    "exemple_fr": "Un RAG récupère 50 fragments potentiellement pertinents · trop pour le contexte du modèle. Un modèle de reclassement les note finement et ne conserve que les 5 meilleurs, réellement utiles à la question. La réponse gagne en précision et le coût baisse, car le LLM traite moins de contexte inutile.",
+    "exemple_en": "A RAG retrieves 50 potentially relevant fragments · too many for the model's context. A reranking model scores them finely and keeps only the 5 best, truly useful to the question. The answer gains precision and the cost drops, since the LLM processes less useless context.",
+    "regard_fr": "Le reclassement est l'un des leviers les plus rentables pour améliorer un RAG : il augmente la pertinence sans changer de modèle génératif. Récupérer large puis reclasser finement bat presque toujours une récupération étroite d'emblée. Un réflexe d'architecture à connaître.",
+    "regard_en": "Reranking is one of the most cost-effective levers to improve a RAG: it increases relevance without changing the generative model. Retrieving broadly then reranking finely almost always beats a narrow retrieval upfront. An architecture reflex worth knowing.",
+    "termes_lies": ["recherche-hybride", "top-k", "rag", "recherche-semantique"],
+    "sources": [{"titre": "Documentation sur les modèles de reranking (cross-encoders)"}]
+  },
+  "top-k": {
+    "sous_titre_fr": "Top-k retrieval",
+    "sous_titre_en": "Récupération des k meilleurs",
+    "definition_fr": "Paramètre d'un RAG définissant le nombre de fragments (k) récupérés et fournis au modèle pour répondre. Un k trop faible prive le modèle d'informations utiles ; un k trop élevé noie le signal, augmente le coût et peut dégrader la réponse. Régler k est un arbitrage central de tout RAG.",
+    "definition_en": "A RAG parameter defining the number of fragments (k) retrieved and provided to the model to answer. A k too low deprives the model of useful information; a k too high drowns the signal, increases cost and can degrade the answer. Tuning k is a central trade-off of any RAG.",
+    "exemple_fr": "Une équipe augmente le top-k de 3 à 20, pensant améliorer les réponses. Résultat inverse : le modèle, noyé sous 20 fragments dont la moitié hors sujet, produit des réponses plus confuses et plus chères. Après tests, k=5 s'avère optimal. Plus de contexte n'est pas toujours mieux · il faut mesurer.",
+    "exemple_en": "A team raises top-k from 3 to 20, thinking it will improve answers. The opposite happens: the model, drowned under 20 fragments half of them off-topic, produces more confused and more expensive answers. After testing, k=5 proves optimal. More context is not always better · you must measure.",
+    "regard_fr": "Le réglage du top-k illustre une loi contre-intuitive du RAG : plus de contexte peut nuire. Le bon k n'est pas le plus grand, mais celui qui maximise la pertinence sans diluer le signal. Comme souvent en IA, la réponse se trouve par la mesure, pas par l'intuition.",
+    "regard_en": "Tuning top-k illustrates a counterintuitive RAG law: more context can hurt. The right k is not the largest, but the one that maximises relevance without diluting the signal. As often in AI, the answer is found by measuring, not by intuition.",
+    "termes_lies": ["reclassement", "rag", "ingenierie-contexte", "fenetre-contextuelle"],
+    "sources": [{"titre": "Documentation RAG (LangChain, LlamaIndex)", "url": "https://www.langchain.com/"}]
+  },
+  "ancrage": {
+    "sous_titre_fr": "Grounding",
+    "sous_titre_en": "Ancrage",
+    "definition_fr": "Fait de rattacher les réponses d'un modèle à des sources vérifiables plutôt qu'à sa seule mémoire interne. L'ancrage · dont le RAG est la principale technique · réduit les hallucinations et permet la citation des sources. Un modèle ancré répond « selon ce document », pas « selon ce que je crois savoir ».",
+    "definition_en": "Anchoring a model's answers to verifiable sources rather than its internal memory alone. Grounding · of which RAG is the main technique · reduces hallucinations and enables source citation. A grounded model answers \"according to this document\", not \"according to what I think I know\".",
+    "exemple_fr": "Un assistant réglementaire non ancré affirme une règle avec assurance · parfois périmée ou inventée. Ancré sur les textes officiels à jour, le même assistant cite l'article exact et sa date. L'ancrage transforme un beau parleur en source fiable · c'est la condition de tout usage sérieux sur des données critiques.",
+    "exemple_en": "A non-grounded regulatory assistant asserts a rule with confidence · sometimes outdated or invented. Grounded on up-to-date official texts, the same assistant cites the exact article and its date. Grounding turns a smooth talker into a reliable source · the condition of any serious use on critical data.",
+    "regard_fr": "L'ancrage est la réponse structurelle à l'hallucination : au lieu d'espérer que le modèle « sache », on lui donne la source et on exige qu'il s'y tienne. Pour toute application où la justesse compte, un modèle ancré et citant ses sources vaut mille fois un modèle brillant mais livré à sa mémoire.",
+    "regard_en": "Grounding is the structural answer to hallucination: instead of hoping the model \"knows\", you give it the source and require it to stick to it. For any application where accuracy matters, a grounded model citing its sources is worth a thousand times a brilliant one left to its memory.",
+    "termes_lies": ["rag", "hallucination", "taux-hallucination", "base-connaissances"],
+    "sources": [{"titre": "Google Cloud · Generative AI Glossary (grounding)", "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"}]
+  },
+  "graph-rag": {
+    "sous_titre_fr": "GraphRAG",
+    "sous_titre_en": "RAG sur graphe de connaissances",
+    "definition_fr": "Variante du RAG qui s'appuie sur un graphe de connaissances plutôt que sur de simples fragments de texte : les entités et leurs relations sont explicitement modélisées. Le GraphRAG excelle pour les questions qui exigent de relier plusieurs informations dispersées · là où le RAG classique, fragment par fragment, peine à faire le lien.",
+    "definition_en": "A RAG variant relying on a knowledge graph rather than mere text fragments: entities and their relations are explicitly modelled. GraphRAG excels for questions requiring linking several scattered pieces of information · where classic RAG, fragment by fragment, struggles to connect.",
+    "exemple_fr": "Une question du type « quels projets partagent un fournisseur avec le projet Alpha ? » exige de relier plusieurs documents. Un RAG classique récupère des fragments isolés et peine à faire la synthèse. Un GraphRAG, qui a modélisé les liens projet-fournisseur, répond directement en parcourant le graphe.",
+    "exemple_en": "A question like \"which projects share a supplier with project Alpha?\" requires linking several documents. Classic RAG retrieves isolated fragments and struggles to synthesise. A GraphRAG, having modelled the project-supplier links, answers directly by traversing the graph.",
+    "regard_fr": "Le GraphRAG répond à la limite du RAG classique face aux questions relationnelles. Mais il exige de construire et maintenir un graphe de connaissances · un investissement lourd. Réservez-le aux domaines où les relations entre entités sont le cœur de la valeur, pas à tout RAG par principe.",
+    "regard_en": "GraphRAG addresses classic RAG's limit on relational questions. But it requires building and maintaining a knowledge graph · a heavy investment. Reserve it for domains where entity relations are the core of the value, not for every RAG on principle.",
+    "termes_lies": ["rag", "graphe-connaissances", "base-connaissances", "recherche-semantique"],
+    "sources": [{"titre": "Microsoft Research · GraphRAG"}]
+  },
+  "base-connaissances": {
+    "sous_titre_fr": "Knowledge base",
+    "sous_titre_en": "Base de connaissances",
+    "definition_fr": "Ensemble structuré et organisé des connaissances d'une organisation, destiné à être interrogé · manuellement ou par une IA. Dans un RAG, la base de connaissances est le corpus de référence sur lequel le modèle s'appuie. Sa qualité, sa fraîcheur et sa couverture déterminent directement la pertinence des réponses.",
+    "definition_en": "A structured, organised set of an organisation's knowledge, meant to be queried · manually or by an AI. In a RAG, the knowledge base is the reference corpus the model relies on. Its quality, freshness and coverage directly determine the relevance of the answers.",
+    "exemple_fr": "Une entreprise bâtit un RAG sur une base de connaissances soigneusement constituée : procédures validées, documents à jour, sources fiables. Une autre branche son RAG sur le fouillis de son serveur de fichiers. La première obtient des réponses fiables, la seconde du bruit. La base de connaissances fait la différence.",
+    "exemple_en": "A company builds a RAG on a carefully curated knowledge base: validated procedures, up-to-date documents, reliable sources. Another plugs its RAG into the mess of its file server. The first gets reliable answers, the second noise. The knowledge base makes the difference.",
+    "regard_fr": "La base de connaissances est le vrai cerveau d'un RAG · le modèle n'en est que la voix. Investir dans la qualité et la curation de cette base rapporte plus que n'importe quel changement de modèle. Un RAG excellent sur une base médiocre reste médiocre.",
+    "regard_en": "The knowledge base is the real brain of a RAG · the model is merely its voice. Investing in the quality and curation of this base pays more than any model change. An excellent RAG on a mediocre base remains mediocre.",
+    "termes_lies": ["rag", "audit-documentaire", "qualite-donnees", "graphe-connaissances"],
+    "sources": [{"titre": "Google Cloud · Generative AI Glossary", "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"}]
+  },
+  "graphe-connaissances": {
+    "sous_titre_fr": "Knowledge graph",
+    "sous_titre_en": "Graphe de connaissances",
+    "definition_fr": "Représentation des connaissances sous forme d'entités (personnes, lieux, concepts) reliées par des relations explicites. Le graphe de connaissances rend le savoir interrogeable de façon structurée et traçable · une approche plus ancienne que les LLM, mais qui connaît un regain d'intérêt en complément des modèles génératifs.",
+    "definition_en": "A representation of knowledge as entities (people, places, concepts) linked by explicit relations. The knowledge graph makes knowledge queryable in a structured, traceable way · an approach older than LLMs, but enjoying renewed interest as a complement to generative models.",
+    "exemple_fr": "Une entreprise modélise ses produits, clients, contrats et fournisseurs dans un graphe de connaissances. Une question complexe · « quels clients sont exposés à un fournisseur en difficulté ? » · se résout par un parcours du graphe, avec une réponse exacte et traçable. Là où un LLM hallucinerait, le graphe raisonne.",
+    "exemple_en": "A company models its products, clients, contracts and suppliers in a knowledge graph. A complex question · \"which clients are exposed to a struggling supplier?\" · is solved by traversing the graph, with an exact, traceable answer. Where an LLM would hallucinate, the graph reasons.",
+    "regard_fr": "Le graphe de connaissances rappelle que l'IA ne se résume pas aux modèles statistiques. Pour les questions exigeant traçabilité et exactitude relationnelle, la rigueur d'un graphe bat l'à-peu-près d'un LLM. L'avenir est souvent dans la combinaison des deux, pas dans le remplacement de l'un par l'autre.",
+    "regard_en": "The knowledge graph recalls that AI is not reducible to statistical models. For questions demanding traceability and relational accuracy, a graph's rigour beats an LLM's approximation. The future often lies in combining the two, not replacing one with the other.",
+    "termes_lies": ["graph-rag", "ontologie", "modeles-symboliques", "base-connaissances"],
+    "sources": [{"titre": "FranceTerme · web sémantique et graphes", "url": "https://www.culture.fr/franceterme"}]
+  }
+}

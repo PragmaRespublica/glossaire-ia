@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Protocole d'agent à agent (A2A)",
+  "terme_en": "Agent-to-Agent protocol (A2A)",
+  "sous_titre_fr": "Agent-to-Agent protocol",
+  "sous_titre_en": "Protocole d'agent à agent",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Protocole permettant à des agents IA autonomes de communiquer, se coordonner et déléguer des tâches entre eux, potentiellement conçus par des fournisseurs différents. Alors que le MCP connecte un agent à des outils, les protocoles agent-à-agent connectent les agents entre eux · une brique clé des systèmes multi-agents interopérables.",
+  "definition_en": "A protocol enabling autonomous AI agents to communicate, coordinate and delegate tasks between themselves, potentially built by different vendors. Whereas MCP connects an agent to tools, agent-to-agent protocols connect agents to each other · a key brick of interoperable multi-agent systems.",
+  "exemple_fr": "Un agent de planification de voyage délègue la réservation d'hôtel à un agent spécialisé d'un autre fournisseur, qui lui-même interroge un agent de paiement. Grâce à un protocole commun, ces agents hétérogènes coopèrent sans intégration sur mesure. C'est la promesse · et le défi de sécurité · d'un écosystème d'agents interopérables.",
+  "exemple_en": "A travel-planning agent delegates hotel booking to a specialised agent from another vendor, which itself queries a payment agent. Thanks to a common protocol, these heterogeneous agents cooperate without bespoke integration. It is the promise · and the security challenge · of an interoperable agent ecosystem.",
+  "regard_fr": "Les protocoles agent-à-agent dessinent un futur où des agents de fournisseurs différents coopèrent · fascinant et vertigineux. Chaque délégation est aussi une surface de risque : qui répond des actions d'un agent tiers ? L'interopérabilité des agents avancera au rythme de la confiance qu'on saura y bâtir.",
+  "regard_en": "Agent-to-agent protocols sketch a future where agents from different vendors cooperate · fascinating and dizzying. Every delegation is also a risk surface: who answers for a third-party agent's actions? Agent interoperability will advance at the pace of the trust we can build into it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "mcp",
+    "systeme-multi-agents",
+    "interoperabilite",
+    "orchestration-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Spécifications de protocoles d'interopérabilité d'agents (A2A)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

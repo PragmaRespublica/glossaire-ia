@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Flux agentiques",
+  "terme_en": "Agentic workflows",
+  "sous_titre_fr": "Agentic workflows",
+  "sous_titre_en": "Flux agentiques",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Processus métier où un ou plusieurs agents IA enchaînent automatiquement des étapes pour accomplir une tâche de bout en bout : recevoir une demande, la classer, chercher l'information, produire une réponse, la faire valider, l'archiver. Les flux agentiques déplacent l'IA du rôle d'assistant ponctuel à celui de processus autonome encadré.",
+  "definition_en": "A business process where one or more AI agents automatically chain steps to accomplish a task end to end: receive a request, classify it, find the information, produce a response, get it validated, archive it. Agentic workflows move AI from the role of occasional assistant to that of a framed autonomous process.",
+  "exemple_fr": "Le traitement des demandes de congés devient un flux agentique : l'agent lit la demande, vérifie les soldes, contrôle les règles, propose une décision, la soumet au manager pour validation, puis met à jour les systèmes. L'humain n'intervient que pour valider · le reste est automatisé, tracé et cohérent.",
+  "exemple_en": "Leave request handling becomes an agentic workflow: the agent reads the request, checks balances, verifies rules, proposes a decision, submits it to the manager for validation, then updates the systems. The human only intervenes to validate · the rest is automated, traced and consistent.",
+  "regard_fr": "Les flux agentiques sont la promesse concrète de l'IA en entreprise : automatiser des processus entiers, pas seulement assister des tâches. Mais chaque flux automatisé doit garder des points de contrôle humains sur les décisions sensibles · l'efficacité ne doit jamais éliminer la responsabilité.",
+  "regard_en": "Agentic workflows are AI's concrete promise in the enterprise: automating whole processes, not just assisting tasks. But every automated flow must keep human checkpoints on sensitive decisions · efficiency must never eliminate accountability.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "agent-autonome",
+    "orchestration-ia",
+    "hyperautomatisation",
+    "humain-dans-la-boucle"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des frameworks d'orchestration d'agents"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

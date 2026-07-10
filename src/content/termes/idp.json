@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Traitement intelligent de documents (IDP)",
+  "terme_en": "Intelligent Document Processing (IDP)",
+  "sous_titre_fr": "Intelligent Document Processing",
+  "sous_titre_en": "Traitement intelligent de documents",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Automatisation de l'extraction, de la classification et du traitement d'informations à partir de documents non structurés · factures, contrats, formulaires, courriers. Combinant OCR, NLP et IA générative, l'IDP transforme des piles de documents en données exploitables, souvent avec un fort retour sur investissement dans les fonctions administratives.",
+  "definition_en": "The automation of extracting, classifying and processing information from unstructured documents · invoices, contracts, forms, letters. Combining OCR, NLP and generative AI, IDP turns stacks of documents into usable data, often with a strong return on investment in administrative functions.",
+  "exemple_fr": "Un service comptable traitait 2 000 factures fournisseurs par mois à la main. Un système d'IDP lit chaque facture, extrait le montant, le fournisseur, l'échéance, et pré-remplit l'ERP. Les comptables ne font plus que valider les cas douteux. Le temps de traitement est divisé par cinq · un cas d'usage IA à ROI immédiat.",
+  "exemple_en": "An accounting department processed 2,000 supplier invoices a month by hand. An IDP system reads each invoice, extracts the amount, supplier and due date, and pre-fills the ERP. Accountants now only validate doubtful cases. Processing time is divided by five · an AI use case with immediate ROI.",
+  "regard_fr": "L'IDP est l'un des usages de l'IA au retour sur investissement le plus rapide et le moins spectaculaire : il ne fait pas rêver, mais il libère un temps considérable sur des tâches ingrates. Avant de chercher l'IA « stratégique », regardez vos processus documentaires · le trésor est souvent là.",
+  "regard_en": "IDP is one of AI's fastest-ROI and least spectacular uses: it does not make people dream, but it frees considerable time on thankless tasks. Before seeking \"strategic\" AI, look at your document processes · the treasure is often there.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ocr",
+    "nlp",
+    "donnees-structurees",
+    "automatisation-intelligente"
+  ],
+  "sources": [
+    {
+      "titre": "Analystes du marché IDP (Gartner, Everest)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

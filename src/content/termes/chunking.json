@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Découpage en fragments (chunking)",
+  "terme_en": "Chunking",
+  "sous_titre_fr": "Découpage en fragments",
+  "sous_titre_en": "Splitting into fragments",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Découpage des documents en fragments (chunks) de taille maîtrisée avant leur vectorisation dans un RAG. La stratégie de découpage · taille, chevauchement, respect de la structure · influence fortement la qualité des réponses : des fragments trop grands diluent le sens, trop petits perdent le contexte.",
+  "definition_en": "Splitting documents into manageable-sized fragments (chunks) before their vectorisation in a RAG. The chunking strategy · size, overlap, respect for structure · strongly influences answer quality: fragments too large dilute meaning, too small lose context.",
+  "exemple_fr": "Un RAG juridique donne de mauvaises réponses. Le diagnostic : les contrats étaient découpés à la longueur fixe, coupant les articles en plein milieu. En découpant plutôt par article, chaque fragment devient cohérent et autonome. La qualité des réponses bondit · sans changer une ligne du modèle.",
+  "exemple_en": "A legal RAG gives poor answers. The diagnosis: contracts were chunked at fixed length, cutting articles in the middle. By chunking instead by article, each fragment becomes coherent and self-contained. Answer quality jumps · without changing a line of the model.",
+  "regard_fr": "Le découpage est le réglage le plus sous-estimé d'un RAG : invisible, il conditionne pourtant tout. Avant de blâmer le modèle pour des réponses médiocres, regardez comment vos documents sont fragmentés. C'est souvent là que se cache le vrai problème · et la solution la moins coûteuse.",
+  "regard_en": "Chunking is the most underestimated setting of a RAG: invisible, it nonetheless conditions everything. Before blaming the model for mediocre answers, look at how your documents are fragmented. That is often where the real problem hides · and the cheapest solution.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chevauchement-fragments",
+    "embedding",
+    "rag",
+    "pipeline-ingestion"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation LangChain · text splitting",
+      "url": "https://www.langchain.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

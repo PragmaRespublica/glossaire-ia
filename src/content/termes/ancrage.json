@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Ancrage (grounding)",
+  "terme_en": "Grounding",
+  "sous_titre_fr": "Grounding",
+  "sous_titre_en": "Ancrage",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Fait de rattacher les réponses d'un modèle à des sources vérifiables plutôt qu'à sa seule mémoire interne. L'ancrage · dont le RAG est la principale technique · réduit les hallucinations et permet la citation des sources. Un modèle ancré répond « selon ce document », pas « selon ce que je crois savoir ».",
+  "definition_en": "Anchoring a model's answers to verifiable sources rather than its internal memory alone. Grounding · of which RAG is the main technique · reduces hallucinations and enables source citation. A grounded model answers \"according to this document\", not \"according to what I think I know\".",
+  "exemple_fr": "Un assistant réglementaire non ancré affirme une règle avec assurance · parfois périmée ou inventée. Ancré sur les textes officiels à jour, le même assistant cite l'article exact et sa date. L'ancrage transforme un beau parleur en source fiable · c'est la condition de tout usage sérieux sur des données critiques.",
+  "exemple_en": "A non-grounded regulatory assistant asserts a rule with confidence · sometimes outdated or invented. Grounded on up-to-date official texts, the same assistant cites the exact article and its date. Grounding turns a smooth talker into a reliable source · the condition of any serious use on critical data.",
+  "regard_fr": "L'ancrage est la réponse structurelle à l'hallucination : au lieu d'espérer que le modèle « sache », on lui donne la source et on exige qu'il s'y tienne. Pour toute application où la justesse compte, un modèle ancré et citant ses sources vaut mille fois un modèle brillant mais livré à sa mémoire.",
+  "regard_en": "Grounding is the structural answer to hallucination: instead of hoping the model \"knows\", you give it the source and require it to stick to it. For any application where accuracy matters, a grounded model citing its sources is worth a thousand times a brilliant one left to its memory.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rag",
+    "hallucination",
+    "taux-hallucination",
+    "base-connaissances"
+  ],
+  "sources": [
+    {
+      "titre": "Google Cloud · Generative AI Glossary (grounding)",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

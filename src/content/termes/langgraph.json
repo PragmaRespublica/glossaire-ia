@@ -1,0 +1,38 @@
+{
+  "terme_fr": "LangGraph",
+  "terme_en": "LangGraph",
+  "sous_titre_fr": "Le framework des agents en graphe",
+  "sous_titre_en": "The graph-based agent framework",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Framework open source pour construire des applications agentiques sous forme de graphes d'états : chaque nœud est une étape (appel de modèle, outil, décision), chaque arête une transition. Il permet de bâtir des flux agentiques complexes, cycliques et contrôlables, avec des points de reprise et de supervision humaine.",
+  "definition_en": "An open-source framework for building agentic applications as state graphs: each node is a step (model call, tool, decision), each edge a transition. It enables building complex, cyclic, controllable agentic flows, with checkpoints and human supervision.",
+  "exemple_fr": "Une équipe construit un agent de traitement de réclamations avec LangGraph : un nœud analyse la demande, un autre cherche dans la base, un point de contrôle demande la validation d'un humain avant toute action irréversible, puis l'agent poursuit. Le graphe rend le flux lisible, testable et sûr · sans repartir de zéro.",
+  "exemple_en": "A team builds a complaint-handling agent with LangGraph: one node analyses the request, another searches the base, a checkpoint requests a human's validation before any irreversible action, then the agent continues. The graph makes the flow legible, testable and safe · without starting from scratch.",
+  "regard_fr": "Des outils comme LangGraph font mûrir l'IA agentique : on passe du prompt bricolé au flux explicite et contrôlable. Choisir un framework open source pour ces orchestrations, c'est garder la maîtrise et l'interopérabilité · plutôt que de s'enfermer dans la plateforme d'un fournisseur.",
+  "regard_en": "Tools like LangGraph mature agentic AI: moving from tinkered prompts to explicit, controllable flows. Choosing an open-source framework for these orchestrations means keeping control and interoperability · rather than locking into a vendor's platform.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "orchestration-ia",
+    "flux-agentiques",
+    "langchain",
+    "systeme-multi-agents"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation LangGraph",
+      "url": "https://www.langchain.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

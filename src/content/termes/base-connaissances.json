@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Base de connaissances",
+  "terme_en": "Knowledge base",
+  "sous_titre_fr": "Knowledge base",
+  "sous_titre_en": "Base de connaissances",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Ensemble structuré et organisé des connaissances d'une organisation, destiné à être interrogé · manuellement ou par une IA. Dans un RAG, la base de connaissances est le corpus de référence sur lequel le modèle s'appuie. Sa qualité, sa fraîcheur et sa couverture déterminent directement la pertinence des réponses.",
+  "definition_en": "A structured, organised set of an organisation's knowledge, meant to be queried · manually or by an AI. In a RAG, the knowledge base is the reference corpus the model relies on. Its quality, freshness and coverage directly determine the relevance of the answers.",
+  "exemple_fr": "Une entreprise bâtit un RAG sur une base de connaissances soigneusement constituée : procédures validées, documents à jour, sources fiables. Une autre branche son RAG sur le fouillis de son serveur de fichiers. La première obtient des réponses fiables, la seconde du bruit. La base de connaissances fait la différence.",
+  "exemple_en": "A company builds a RAG on a carefully curated knowledge base: validated procedures, up-to-date documents, reliable sources. Another plugs its RAG into the mess of its file server. The first gets reliable answers, the second noise. The knowledge base makes the difference.",
+  "regard_fr": "La base de connaissances est le vrai cerveau d'un RAG · le modèle n'en est que la voix. Investir dans la qualité et la curation de cette base rapporte plus que n'importe quel changement de modèle. Un RAG excellent sur une base médiocre reste médiocre.",
+  "regard_en": "The knowledge base is the real brain of a RAG · the model is merely its voice. Investing in the quality and curation of this base pays more than any model change. An excellent RAG on a mediocre base remains mediocre.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rag",
+    "audit-documentaire",
+    "qualite-donnees",
+    "graphe-connaissances"
+  ],
+  "sources": [
+    {
+      "titre": "Google Cloud · Generative AI Glossary",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "RAG multimodal",
+  "terme_en": "Multimodal RAG",
+  "sous_titre_fr": "Multimodal RAG",
+  "sous_titre_en": "RAG multimodal",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Extension du RAG capable de récupérer et de raisonner sur des sources de types variés : texte, mais aussi images, schémas, tableaux, voire audio ou vidéo. Le RAG multimodal permet, par exemple, de retrouver un schéma technique pertinent et de l'interpréter · là où un RAG textuel classique ignorerait tout ce qui n'est pas du texte.",
+  "definition_en": "An extension of RAG able to retrieve and reason over varied source types: text, but also images, diagrams, tables, even audio or video. Multimodal RAG can, for instance, find a relevant technical diagram and interpret it · where a classic text RAG would ignore everything that is not text.",
+  "exemple_fr": "Un RAG multimodal sur des manuels techniques retrouve non seulement les paragraphes pertinents, mais aussi le schéma de câblage correspondant, et l'explique à l'utilisateur. Sur des documents où l'essentiel de l'information est visuel · plans, schémas, graphiques · c'est un saut de pertinence que le texte seul ne permettait pas.",
+  "exemple_en": "A multimodal RAG on technical manuals retrieves not only the relevant paragraphs, but also the corresponding wiring diagram, and explains it to the user. On documents where most of the information is visual · plans, diagrams, charts · it is a relevance leap that text alone could not deliver.",
+  "regard_fr": "Le RAG multimodal ouvre l'IA documentaire à ce qui échappait au texte : plans, schémas, tableaux, où réside souvent l'essentiel de la connaissance technique. C'est une avancée majeure pour l'industrie · à condition de vérifier que l'interprétation des visuels est fiable, car l'hallucination visuelle existe aussi.",
+  "regard_en": "Multimodal RAG opens document AI to what escaped text: plans, diagrams, tables, where much of technical knowledge often resides. It is a major advance for industry · provided you verify that visual interpretation is reliable, for visual hallucination exists too.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rag",
+    "multimodal",
+    "vision-ordinateur",
+    "idp"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur le RAG multimodal"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

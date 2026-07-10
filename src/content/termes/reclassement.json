@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Reclassement (reranking)",
+  "terme_en": "Reranking",
+  "sous_titre_fr": "Reranking",
+  "sous_titre_en": "Reclassement",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Étape d'un RAG qui réordonne les documents récupérés selon leur pertinence réelle pour la requête, à l'aide d'un modèle spécialisé plus précis mais plus coûteux. Le reclassement affine une première sélection large : on récupère beaucoup, puis on ne garde que le meilleur · un compromis efficace entre rappel et précision.",
+  "definition_en": "A RAG step that reorders retrieved documents by their real relevance to the query, using a specialised model that is more precise but more costly. Reranking refines a broad first selection: retrieve many, then keep only the best · an efficient compromise between recall and precision.",
+  "exemple_fr": "Un RAG récupère 50 fragments potentiellement pertinents · trop pour le contexte du modèle. Un modèle de reclassement les note finement et ne conserve que les 5 meilleurs, réellement utiles à la question. La réponse gagne en précision et le coût baisse, car le LLM traite moins de contexte inutile.",
+  "exemple_en": "A RAG retrieves 50 potentially relevant fragments · too many for the model's context. A reranking model scores them finely and keeps only the 5 best, truly useful to the question. The answer gains precision and the cost drops, since the LLM processes less useless context.",
+  "regard_fr": "Le reclassement est l'un des leviers les plus rentables pour améliorer un RAG : il augmente la pertinence sans changer de modèle génératif. Récupérer large puis reclasser finement bat presque toujours une récupération étroite d'emblée. Un réflexe d'architecture à connaître.",
+  "regard_en": "Reranking is one of the most cost-effective levers to improve a RAG: it increases relevance without changing the generative model. Retrieving broadly then reranking finely almost always beats a narrow retrieval upfront. An architecture reflex worth knowing.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "recherche-hybride",
+    "top-k",
+    "rag",
+    "recherche-semantique"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation sur les modèles de reranking (cross-encoders)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

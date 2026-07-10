@@ -1,0 +1,122 @@
+{
+  "appel-fonctions": {
+    "sous_titre_fr": "Function calling, tool calling",
+    "sous_titre_en": "Function calling",
+    "definition_fr": "Capacité d'un LLM à demander l'exécution de fonctions externes définies par le développeur · consulter une base, appeler une API, lancer un calcul · en produisant un appel structuré que l'application exécute, avant de renvoyer le résultat au modèle. C'est la brique qui transforme un modèle bavard en système capable d'agir.",
+    "definition_en": "A LLM's ability to request the execution of external functions defined by the developer · querying a database, calling an API, running a computation · by producing a structured call that the application executes, before returning the result to the model. It is the brick that turns a talkative model into a system able to act.",
+    "exemple_fr": "Un assistant reçoit « quel est le solde du compte de M. Durand ? ». Plutôt que d'inventer un chiffre, il émet un appel de fonction vers l'API bancaire interne, reçoit le solde réel et le restitue. L'appel de fonctions ancre le modèle dans les vraies données de l'entreprise · fini l'hallucination sur les faits vérifiables.",
+    "exemple_en": "An assistant receives \"what is Mr Durand's account balance?\". Rather than inventing a figure, it emits a function call to the internal banking API, receives the real balance and returns it. Function calling anchors the model in the company's real data · no more hallucinating on verifiable facts.",
+    "regard_fr": "L'appel de fonctions est le pont entre le langage et l'action · le moment où un LLM cesse de seulement parler pour commencer à faire. C'est aussi le début des questions de sécurité : chaque fonction exposée est un pouvoir donné au modèle. Ouvrez-les avec discernement.",
+    "regard_en": "Function calling is the bridge between language and action · the moment a LLM stops merely talking to start doing. It is also the start of security questions: every exposed function is a power granted to the model. Open them with discernment.",
+    "termes_lies": ["usage-outils", "agent-ia", "mcp", "moindre-privilege"],
+    "sources": [{"titre": "Google Cloud · Generative AI Glossary (function calling)", "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"}]
+  },
+  "usage-outils": {
+    "sous_titre_fr": "Tool use",
+    "sous_titre_en": "Usage d'outils",
+    "definition_fr": "Capacité d'un système d'IA à utiliser des outils externes · recherche web, calculatrice, code, bases de données · pour accomplir des tâches qu'il ne pourrait pas réaliser seul. L'usage d'outils décuple les capacités d'un LLM : plutôt que de tout « savoir », il apprend à mobiliser les bonnes ressources au bon moment.",
+    "definition_en": "An AI system's ability to use external tools · web search, calculator, code, databases · to accomplish tasks it could not perform alone. Tool use multiplies a LLM's capabilities: rather than \"knowing\" everything, it learns to mobilise the right resources at the right time.",
+    "exemple_fr": "Interrogé sur un calcul complexe, un LLM seul se trompe souvent · l'arithmétique n'est pas son fort. Doté d'un outil « calculatrice », il délègue le calcul et donne un résultat exact. L'usage d'outils compense les faiblesses intrinsèques du modèle en s'appuyant sur des composants fiables et spécialisés.",
+    "exemple_en": "Asked about a complex calculation, a lone LLM often errs · arithmetic is not its strength. Equipped with a \"calculator\" tool, it delegates the computation and gives an exact result. Tool use compensates for the model's intrinsic weaknesses by relying on reliable, specialised components.",
+    "regard_fr": "L'usage d'outils marque un changement de philosophie : on ne cherche plus un modèle omniscient, mais un modèle qui sait déléguer. C'est plus sobre, plus fiable et plus maîtrisable · un petit modèle bien outillé bat souvent un grand modèle livré à lui-même.",
+    "regard_en": "Tool use marks a shift in philosophy: no longer seeking an omniscient model, but one that knows how to delegate. It is more frugal, more reliable and more controllable · a small well-equipped model often beats a large one left to itself.",
+    "termes_lies": ["appel-fonctions", "agent-ia", "mcp", "react"],
+    "sources": [{"titre": "Google Cloud · Generative AI Glossary", "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"}]
+  },
+  "mcp": {
+    "sous_titre_fr": "Model Context Protocol",
+    "sous_titre_en": "Model Context Protocol",
+    "definition_fr": "Protocole ouvert standardisant la manière dont les modèles d'IA se connectent aux outils, données et services externes. Introduit par Anthropic et largement adopté, le MCP joue pour les agents le rôle d'un port universel : au lieu d'intégrations sur mesure, un serveur MCP expose une ressource à tout modèle compatible.",
+    "definition_en": "An open protocol standardising how AI models connect to external tools, data and services. Introduced by Anthropic and widely adopted, MCP plays the role of a universal port for agents: instead of bespoke integrations, an MCP server exposes a resource to any compatible model.",
+    "exemple_fr": "Une entreprise veut connecter son assistant à son CRM, son agenda et sa base documentaire. Sans standard, chaque connexion serait un développement spécifique. Avec des serveurs MCP, chaque outil expose une interface commune : l'assistant s'y branche sans intégration sur mesure. Le MCP réduit le coût et le verrouillage.",
+    "exemple_en": "A company wants to connect its assistant to its CRM, calendar and document base. Without a standard, each connection would be a specific development. With MCP servers, each tool exposes a common interface: the assistant plugs in without bespoke integration. MCP reduces cost and lock-in.",
+    "regard_fr": "Le MCP est à l'IA agentique ce que l'USB fut aux périphériques : un standard qui libère de l'intégration propriétaire. Adopter des protocoles ouverts comme le MCP, c'est préserver son interopérabilité et fuir le verrouillage · un réflexe de souveraineté technique.",
+    "regard_en": "MCP is to agentic AI what USB was to peripherals: a standard that frees from proprietary integration. Adopting open protocols like MCP means preserving interoperability and escaping lock-in · a reflex of technical sovereignty.",
+    "termes_lies": ["usage-outils", "protocole-a2a", "interoperabilite", "agent-ia"],
+    "sources": [{"titre": "Model Context Protocol · spécification ouverte", "url": "https://modelcontextprotocol.io/"}]
+  },
+  "protocole-a2a": {
+    "sous_titre_fr": "Agent-to-Agent protocol",
+    "sous_titre_en": "Protocole d'agent à agent",
+    "definition_fr": "Protocole permettant à des agents IA autonomes de communiquer, se coordonner et déléguer des tâches entre eux, potentiellement conçus par des fournisseurs différents. Alors que le MCP connecte un agent à des outils, les protocoles agent-à-agent connectent les agents entre eux · une brique clé des systèmes multi-agents interopérables.",
+    "definition_en": "A protocol enabling autonomous AI agents to communicate, coordinate and delegate tasks between themselves, potentially built by different vendors. Whereas MCP connects an agent to tools, agent-to-agent protocols connect agents to each other · a key brick of interoperable multi-agent systems.",
+    "exemple_fr": "Un agent de planification de voyage délègue la réservation d'hôtel à un agent spécialisé d'un autre fournisseur, qui lui-même interroge un agent de paiement. Grâce à un protocole commun, ces agents hétérogènes coopèrent sans intégration sur mesure. C'est la promesse · et le défi de sécurité · d'un écosystème d'agents interopérables.",
+    "exemple_en": "A travel-planning agent delegates hotel booking to a specialised agent from another vendor, which itself queries a payment agent. Thanks to a common protocol, these heterogeneous agents cooperate without bespoke integration. It is the promise · and the security challenge · of an interoperable agent ecosystem.",
+    "regard_fr": "Les protocoles agent-à-agent dessinent un futur où des agents de fournisseurs différents coopèrent · fascinant et vertigineux. Chaque délégation est aussi une surface de risque : qui répond des actions d'un agent tiers ? L'interopérabilité des agents avancera au rythme de la confiance qu'on saura y bâtir.",
+    "regard_en": "Agent-to-agent protocols sketch a future where agents from different vendors cooperate · fascinating and dizzying. Every delegation is also a risk surface: who answers for a third-party agent's actions? Agent interoperability will advance at the pace of the trust we can build into it.",
+    "termes_lies": ["mcp", "systeme-multi-agents", "interoperabilite", "orchestration-ia"],
+    "sources": [{"titre": "Spécifications de protocoles d'interopérabilité d'agents (A2A)"}]
+  },
+  "systeme-multi-agents": {
+    "sous_titre_fr": "Multi-agent system",
+    "sous_titre_en": "Système multi-agents",
+    "definition_fr": "Architecture où plusieurs agents IA spécialisés collaborent pour accomplir une tâche complexe, chacun avec son rôle : un agent planifie, un autre recherche, un troisième rédige, un quatrième vérifie. La division du travail améliore souvent la qualité · mais multiplie les coûts, la latence et les risques à maîtriser.",
+    "definition_en": "An architecture where several specialised AI agents collaborate to accomplish a complex task, each with its role: one agent plans, another searches, a third writes, a fourth verifies. The division of labour often improves quality · but multiplies costs, latency and risks to control.",
+    "exemple_fr": "Pour produire un rapport d'analyse, un système multi-agents répartit le travail : un agent collecte les données, un autre les analyse, un troisième rédige, un dernier relit et vérifie les sources. Le résultat est meilleur qu'un agent unique · mais chaque étape a un coût, et une erreur en amont se propage.",
+    "exemple_en": "To produce an analysis report, a multi-agent system divides the work: one agent collects data, another analyses it, a third writes, a last one reviews and checks sources. The result is better than a single agent · but each step has a cost, and an upstream error propagates.",
+    "regard_fr": "Les systèmes multi-agents séduisent par leur élégance, mais attention à la complexité : plus d'agents, c'est plus de coûts, plus de latence, plus de points de défaillance. Commencez simple. La question n'est pas « combien d'agents ? » mais « quel est le système le plus simple qui résout le problème ? ».",
+    "regard_en": "Multi-agent systems seduce with their elegance, but beware of complexity: more agents means more cost, more latency, more failure points. Start simple. The question is not \"how many agents?\" but \"what is the simplest system that solves the problem?\".",
+    "termes_lies": ["agent-ia", "orchestration-ia", "protocole-a2a", "flux-agentiques"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (système multiagent)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "orchestration-ia": {
+    "sous_titre_fr": "AI orchestration",
+    "sous_titre_en": "Orchestration IA",
+    "definition_fr": "Coordination des différents composants d'un système d'IA · modèles, outils, sources de données, étapes de traitement · pour accomplir une tâche de bout en bout. La couche d'orchestration décide quel modèle appeler, quand utiliser un outil, comment enchaîner les étapes. Bien conçue, elle préserve la liberté de changer chaque composant.",
+    "definition_en": "The coordination of an AI system's various components · models, tools, data sources, processing steps · to accomplish a task end to end. The orchestration layer decides which model to call, when to use a tool, how to chain steps. Well designed, it preserves the freedom to change each component.",
+    "exemple_fr": "Une application d'orchestration route les questions simples vers un petit modèle local, les questions complexes vers un grand modèle, et déclenche un RAG quand une source documentaire est nécessaire. Cette couche, si elle est bien abstraite, permet de remplacer n'importe quel modèle sans réécrire l'application.",
+    "exemple_en": "An orchestration application routes simple questions to a small local model, complex ones to a large model, and triggers a RAG when a document source is needed. This layer, if well abstracted, allows replacing any model without rewriting the application.",
+    "regard_fr": "L'orchestration est le lieu où se gagne ou se perd votre indépendance : une couche d'orchestration ouverte et abstraite vous laisse changer de modèle en une ligne ; une architecture soudée à un fournisseur vous enferme. Investissez dans cette couche · c'est votre assurance anti-verrouillage.",
+    "regard_en": "Orchestration is where your independence is won or lost: an open, abstracted orchestration layer lets you change model in one line; an architecture welded to a vendor locks you in. Invest in this layer · it is your anti-lock-in insurance.",
+    "termes_lies": ["langchain", "litellm", "lock-in", "systeme-multi-agents"],
+    "sources": [{"titre": "Documentation des frameworks d'orchestration (LangChain)", "url": "https://www.langchain.com/"}]
+  },
+  "react": {
+    "sous_titre_fr": "Reasoning and Acting",
+    "sous_titre_en": "Raisonner et agir",
+    "definition_fr": "Approche où un agent alterne explicitement raisonnement et action : il réfléchit à ce qu'il doit faire, exécute une action (recherche, calcul), observe le résultat, puis recommence jusqu'à résoudre la tâche. Ce cycle « penser, agir, observer » est le schéma fondateur de nombreux agents IA modernes.",
+    "definition_en": "An approach where an agent explicitly alternates reasoning and action: it thinks about what to do, executes an action (search, computation), observes the result, then repeats until solving the task. This \"think, act, observe\" cycle is the founding pattern of many modern AI agents.",
+    "exemple_fr": "Un agent doit répondre à une question factuelle récente. En mode ReAct : il raisonne (« je dois chercher »), agit (recherche web), observe (lit les résultats), raisonne à nouveau (« il me manque une date »), agit encore. Cette boucle transparente rend son cheminement lisible · et donc auditable.",
+    "exemple_en": "An agent must answer a recent factual question. In ReAct mode: it reasons (\"I must search\"), acts (web search), observes (reads the results), reasons again (\"I'm missing a date\"), acts once more. This transparent loop makes its path legible · and therefore auditable.",
+    "regard_fr": "Le schéma ReAct a une vertu sous-estimée : il rend le raisonnement de l'agent visible. On voit pourquoi il a fait quoi. Face à des agents de plus en plus autonomes, cette traçabilité du « penser-agir » n'est pas un détail · c'est la condition de la confiance et du débogage.",
+    "regard_en": "The ReAct pattern has an underestimated virtue: it makes the agent's reasoning visible. You see why it did what. Facing increasingly autonomous agents, this traceability of \"think-act\" is not a detail · it is the condition of trust and debugging.",
+    "termes_lies": ["agent-ia", "chaine-pensee", "usage-outils", "planification-agent"],
+    "sources": [{"titre": "Yao et al. · ReAct: Synergizing Reasoning and Acting in Language Models"}]
+  },
+  "agent-autonome": {
+    "sous_titre_fr": "Autonomous agent",
+    "sous_titre_en": "Agent autonome",
+    "definition_fr": "Agent IA capable de poursuivre un objectif sur plusieurs étapes sans validation humaine à chaque action : il planifie, exécute, corrige et itère de lui-même. Plus l'autonomie augmente, plus le potentiel et le risque croissent · un agent autonome mal cadré peut agir à grande vitesse dans une mauvaise direction.",
+    "definition_en": "An AI agent able to pursue a goal over several steps without human validation at each action: it plans, executes, corrects and iterates on its own. The more autonomy increases, the more both potential and risk grow · a poorly framed autonomous agent can act at high speed in the wrong direction.",
+    "exemple_fr": "Un agent autonome est chargé de « nettoyer les doublons dans la base clients ». Bien cadré, il fait gagner des heures. Mal cadré, il supprime des enregistrements légitimes qu'il a jugés en double · à grande vitesse, avant toute intervention. L'autonomie sans garde-fous transforme une aide en danger.",
+    "exemple_en": "An autonomous agent is tasked with \"cleaning duplicates in the client database\". Well framed, it saves hours. Poorly framed, it deletes legitimate records it judged duplicates · at high speed, before any intervention. Autonomy without guardrails turns help into hazard.",
+    "regard_fr": "L'autonomie d'un agent est un curseur, pas un interrupteur. La bonne question n'est pas « autonome ou non ? » mais « quel niveau d'autonomie pour quel niveau de risque ? ». Sur des actions irréversibles, gardez l'humain dans la boucle · quitte à sacrifier un peu de fluidité.",
+    "regard_en": "An agent's autonomy is a dial, not a switch. The right question is not \"autonomous or not?\" but \"what level of autonomy for what level of risk?\". On irreversible actions, keep the human in the loop · even at the cost of some fluidity.",
+    "termes_lies": ["agent-ia", "humain-dans-la-boucle", "moindre-privilege", "planification-agent"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (agent autonome)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "controle-ordinateur": {
+    "sous_titre_fr": "Computer use",
+    "sous_titre_en": "Contrôle d'ordinateur par IA",
+    "definition_fr": "Capacité d'un agent IA à piloter directement une interface d'ordinateur comme le ferait un humain : déplacer le curseur, cliquer, saisir du texte, lire l'écran. Elle permet d'automatiser des logiciels sans API, mais soulève des enjeux de sécurité majeurs · un agent qui contrôle l'écran peut, en principe, tout faire.",
+    "definition_en": "An AI agent's ability to directly drive a computer interface as a human would: moving the cursor, clicking, typing, reading the screen. It enables automating software without APIs, but raises major security stakes · an agent controlling the screen can, in principle, do anything.",
+    "exemple_fr": "Une entreprise utilise un agent capable de contrôler l'ordinateur pour automatiser un vieux logiciel métier sans API. L'agent remplit les formulaires à la place des opérateurs. Gain de temps réel · mais l'agent a désormais les mêmes pouvoirs qu'un utilisateur humain. Le cloisonnement et la supervision deviennent vitaux.",
+    "exemple_en": "A company uses a computer-controlling agent to automate an old business software with no API. The agent fills in the forms in place of operators. Real time savings · but the agent now has the same powers as a human user. Compartmentalisation and supervision become vital.",
+    "regard_fr": "Le contrôle d'ordinateur est à la fois la capacité la plus utile et la plus inquiétante des agents : un agent qui voit et manipule l'écran contourne toutes les protections applicatives. À réserver à des environnements cloisonnés et surveillés · jamais lâché sans filet sur un poste de production.",
+    "regard_en": "Computer use is both agents' most useful and most worrying capability: an agent that sees and manipulates the screen bypasses all application-level protections. To reserve for compartmentalised, monitored environments · never let loose without a net on a production workstation.",
+    "termes_lies": ["agent-autonome", "bac-a-sable", "moindre-privilege", "injection-indirecte"],
+    "sources": [{"titre": "Documentation des agents de contrôle d'ordinateur", "url": "https://www.anthropic.com/"}]
+  },
+  "memoire-agent": {
+    "sous_titre_fr": "Agent memory",
+    "sous_titre_en": "Mémoire d'agent",
+    "definition_fr": "Mécanismes permettant à un agent IA de conserver et réutiliser des informations au-delà d'une seule interaction : mémoire de travail à court terme (le fil de la tâche en cours) et mémoire à long terme (préférences, faits, historique). La mémoire rend un agent plus utile · mais pose des questions de vie privée et de sécurité.",
+    "definition_en": "Mechanisms allowing an AI agent to retain and reuse information beyond a single interaction: short-term working memory (the thread of the current task) and long-term memory (preferences, facts, history). Memory makes an agent more useful · but raises privacy and security questions.",
+    "exemple_fr": "Un agent d'assistance se souvient, d'une session à l'autre, des préférences et du contexte d'un utilisateur · précieux pour la continuité. Mais cette mémoire stocke des données personnelles qui doivent être sécurisées, limitées dans le temps et effaçables sur demande. Une mémoire mal gouvernée devient une base de données à risque.",
+    "exemple_en": "An assistance agent remembers, from one session to the next, a user's preferences and context · valuable for continuity. But this memory stores personal data that must be secured, time-limited and erasable on request. A poorly governed memory becomes a risky database.",
+    "regard_fr": "La mémoire des agents est le prochain grand terrain de la vie privée : ce que l'IA retient de vous devient un actif · et un risque. Avant de déployer des agents à mémoire longue, posez les règles : que retenir, combien de temps, comment l'effacer. La mémoire sans gouvernance est un piège.",
+    "regard_en": "Agent memory is the next big privacy frontier: what AI remembers of you becomes an asset · and a risk. Before deploying long-memory agents, set the rules: what to retain, for how long, how to erase it. Memory without governance is a trap.",
+    "termes_lies": ["memoire-assistants", "agent-ia", "donnees-personnelles", "droits-personnes"],
+    "sources": [{"titre": "Documentation sur la mémoire des agents LLM"}]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "ReAct · raisonner et agir",
+  "terme_en": "ReAct (Reasoning and Acting)",
+  "sous_titre_fr": "Reasoning and Acting",
+  "sous_titre_en": "Raisonner et agir",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Approche où un agent alterne explicitement raisonnement et action : il réfléchit à ce qu'il doit faire, exécute une action (recherche, calcul), observe le résultat, puis recommence jusqu'à résoudre la tâche. Ce cycle « penser, agir, observer » est le schéma fondateur de nombreux agents IA modernes.",
+  "definition_en": "An approach where an agent explicitly alternates reasoning and action: it thinks about what to do, executes an action (search, computation), observes the result, then repeats until solving the task. This \"think, act, observe\" cycle is the founding pattern of many modern AI agents.",
+  "exemple_fr": "Un agent doit répondre à une question factuelle récente. En mode ReAct : il raisonne (« je dois chercher »), agit (recherche web), observe (lit les résultats), raisonne à nouveau (« il me manque une date »), agit encore. Cette boucle transparente rend son cheminement lisible · et donc auditable.",
+  "exemple_en": "An agent must answer a recent factual question. In ReAct mode: it reasons (\"I must search\"), acts (web search), observes (reads the results), reasons again (\"I'm missing a date\"), acts once more. This transparent loop makes its path legible · and therefore auditable.",
+  "regard_fr": "Le schéma ReAct a une vertu sous-estimée : il rend le raisonnement de l'agent visible. On voit pourquoi il a fait quoi. Face à des agents de plus en plus autonomes, cette traçabilité du « penser-agir » n'est pas un détail · c'est la condition de la confiance et du débogage.",
+  "regard_en": "The ReAct pattern has an underestimated virtue: it makes the agent's reasoning visible. You see why it did what. Facing increasingly autonomous agents, this traceability of \"think-act\" is not a detail · it is the condition of trust and debugging.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "agent-ia",
+    "chaine-pensee",
+    "usage-outils",
+    "planification-agent"
+  ],
+  "sources": [
+    {
+      "titre": "Yao et al. · ReAct: Synergizing Reasoning and Acting in Language Models"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

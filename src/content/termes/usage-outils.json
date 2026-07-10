@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Usage d'outils par l'IA",
+  "terme_en": "Tool use",
+  "sous_titre_fr": "Tool use",
+  "sous_titre_en": "Usage d'outils",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Capacité d'un système d'IA à utiliser des outils externes · recherche web, calculatrice, code, bases de données · pour accomplir des tâches qu'il ne pourrait pas réaliser seul. L'usage d'outils décuple les capacités d'un LLM : plutôt que de tout « savoir », il apprend à mobiliser les bonnes ressources au bon moment.",
+  "definition_en": "An AI system's ability to use external tools · web search, calculator, code, databases · to accomplish tasks it could not perform alone. Tool use multiplies a LLM's capabilities: rather than \"knowing\" everything, it learns to mobilise the right resources at the right time.",
+  "exemple_fr": "Interrogé sur un calcul complexe, un LLM seul se trompe souvent · l'arithmétique n'est pas son fort. Doté d'un outil « calculatrice », il délègue le calcul et donne un résultat exact. L'usage d'outils compense les faiblesses intrinsèques du modèle en s'appuyant sur des composants fiables et spécialisés.",
+  "exemple_en": "Asked about a complex calculation, a lone LLM often errs · arithmetic is not its strength. Equipped with a \"calculator\" tool, it delegates the computation and gives an exact result. Tool use compensates for the model's intrinsic weaknesses by relying on reliable, specialised components.",
+  "regard_fr": "L'usage d'outils marque un changement de philosophie : on ne cherche plus un modèle omniscient, mais un modèle qui sait déléguer. C'est plus sobre, plus fiable et plus maîtrisable · un petit modèle bien outillé bat souvent un grand modèle livré à lui-même.",
+  "regard_en": "Tool use marks a shift in philosophy: no longer seeking an omniscient model, but one that knows how to delegate. It is more frugal, more reliable and more controllable · a small well-equipped model often beats a large one left to itself.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "appel-fonctions",
+    "agent-ia",
+    "mcp",
+    "react"
+  ],
+  "sources": [
+    {
+      "titre": "Google Cloud · Generative AI Glossary",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

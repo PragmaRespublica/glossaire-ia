@@ -1,0 +1,38 @@
+{
+  "terme_fr": "MCP · Model Context Protocol",
+  "terme_en": "Model Context Protocol (MCP)",
+  "sous_titre_fr": "Model Context Protocol",
+  "sous_titre_en": "Model Context Protocol",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Protocole ouvert standardisant la manière dont les modèles d'IA se connectent aux outils, données et services externes. Introduit par Anthropic et largement adopté, le MCP joue pour les agents le rôle d'un port universel : au lieu d'intégrations sur mesure, un serveur MCP expose une ressource à tout modèle compatible.",
+  "definition_en": "An open protocol standardising how AI models connect to external tools, data and services. Introduced by Anthropic and widely adopted, MCP plays the role of a universal port for agents: instead of bespoke integrations, an MCP server exposes a resource to any compatible model.",
+  "exemple_fr": "Une entreprise veut connecter son assistant à son CRM, son agenda et sa base documentaire. Sans standard, chaque connexion serait un développement spécifique. Avec des serveurs MCP, chaque outil expose une interface commune : l'assistant s'y branche sans intégration sur mesure. Le MCP réduit le coût et le verrouillage.",
+  "exemple_en": "A company wants to connect its assistant to its CRM, calendar and document base. Without a standard, each connection would be a specific development. With MCP servers, each tool exposes a common interface: the assistant plugs in without bespoke integration. MCP reduces cost and lock-in.",
+  "regard_fr": "Le MCP est à l'IA agentique ce que l'USB fut aux périphériques : un standard qui libère de l'intégration propriétaire. Adopter des protocoles ouverts comme le MCP, c'est préserver son interopérabilité et fuir le verrouillage · un réflexe de souveraineté technique.",
+  "regard_en": "MCP is to agentic AI what USB was to peripherals: a standard that frees from proprietary integration. Adopting open protocols like MCP means preserving interoperability and escaping lock-in · a reflex of technical sovereignty.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "usage-outils",
+    "protocole-a2a",
+    "interoperabilite",
+    "agent-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Model Context Protocol · spécification ouverte",
+      "url": "https://modelcontextprotocol.io/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

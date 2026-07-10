@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Agents vocaux",
+  "terme_en": "Voice agents",
+  "sous_titre_fr": "Voice agents",
+  "sous_titre_en": "Agents vocaux",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Agents IA interagissant par la voix en temps réel : ils écoutent, comprennent, répondent et peuvent exécuter des actions, le tout en langage parlé naturel. Combinant reconnaissance vocale, LLM et synthèse vocale, ils transforment l'accueil téléphonique, le service client et l'assistance · avec des enjeux forts de transparence et de consentement.",
+  "definition_en": "AI agents interacting by voice in real time: they listen, understand, respond and can execute actions, all in natural spoken language. Combining speech recognition, LLMs and voice synthesis, they transform phone reception, customer service and assistance · with strong stakes of transparency and consent.",
+  "exemple_fr": "Une entreprise déploie un agent vocal pour son accueil téléphonique de premier niveau : il répond aux questions courantes, oriente, prend des messages. Les cas complexes sont transférés à un humain. Point crucial · l'agent annonce clairement sa nature d'IA en début d'appel, comme l'exige la transparence due aux personnes.",
+  "exemple_en": "A company deploys a voice agent for its first-level phone reception: it answers common questions, directs calls, takes messages. Complex cases are transferred to a human. Crucial point · the agent clearly announces its AI nature at the start of the call, as required by the transparency owed to individuals.",
+  "regard_fr": "Les agents vocaux sont d'une efficacité redoutable · et d'un potentiel de tromperie tout aussi grand. Une voix synthétique naturelle peut faire oublier qu'on parle à une machine. La règle éthique et bientôt légale est simple : dire d'emblée que c'est une IA. La transparence n'est pas négociable.",
+  "regard_en": "Voice agents are formidably effective · and just as capable of deception. A natural synthetic voice can make you forget you are talking to a machine. The ethical and soon legal rule is simple: state upfront that it is an AI. Transparency is non-negotiable.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "reconnaissance-parole",
+    "synthese-vocale",
+    "agent-ia",
+    "ia-service-client"
+  ],
+  "sources": [
+    {
+      "titre": "Règlement (UE) 2024/1689 · AI Act, transparence (art. 50)",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

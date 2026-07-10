@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Agent autonome",
+  "terme_en": "Autonomous agent",
+  "sous_titre_fr": "Autonomous agent",
+  "sous_titre_en": "Agent autonome",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Agent IA capable de poursuivre un objectif sur plusieurs étapes sans validation humaine à chaque action : il planifie, exécute, corrige et itère de lui-même. Plus l'autonomie augmente, plus le potentiel et le risque croissent · un agent autonome mal cadré peut agir à grande vitesse dans une mauvaise direction.",
+  "definition_en": "An AI agent able to pursue a goal over several steps without human validation at each action: it plans, executes, corrects and iterates on its own. The more autonomy increases, the more both potential and risk grow · a poorly framed autonomous agent can act at high speed in the wrong direction.",
+  "exemple_fr": "Un agent autonome est chargé de « nettoyer les doublons dans la base clients ». Bien cadré, il fait gagner des heures. Mal cadré, il supprime des enregistrements légitimes qu'il a jugés en double · à grande vitesse, avant toute intervention. L'autonomie sans garde-fous transforme une aide en danger.",
+  "exemple_en": "An autonomous agent is tasked with \"cleaning duplicates in the client database\". Well framed, it saves hours. Poorly framed, it deletes legitimate records it judged duplicates · at high speed, before any intervention. Autonomy without guardrails turns help into hazard.",
+  "regard_fr": "L'autonomie d'un agent est un curseur, pas un interrupteur. La bonne question n'est pas « autonome ou non ? » mais « quel niveau d'autonomie pour quel niveau de risque ? ». Sur des actions irréversibles, gardez l'humain dans la boucle · quitte à sacrifier un peu de fluidité.",
+  "regard_en": "An agent's autonomy is a dial, not a switch. The right question is not \"autonomous or not?\" but \"what level of autonomy for what level of risk?\". On irreversible actions, keep the human in the loop · even at the cost of some fluidity.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "agent-ia",
+    "humain-dans-la-boucle",
+    "moindre-privilege",
+    "planification-agent"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (agent autonome)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

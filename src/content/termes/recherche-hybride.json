@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Recherche hybride",
+  "terme_en": "Hybrid search",
+  "sous_titre_fr": "Hybrid search",
+  "sous_titre_en": "Recherche hybride",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Combinaison de la recherche sémantique (par sens, via embeddings) et de la recherche lexicale (par mots-clés exacts) pour tirer le meilleur des deux. La recherche hybride récupère à la fois les documents conceptuellement proches et ceux contenant un terme précis · références, codes, noms propres · que la sémantique seule peut manquer.",
+  "definition_en": "The combination of semantic search (by meaning, via embeddings) and lexical search (by exact keywords) to get the best of both. Hybrid search retrieves both conceptually close documents and those containing a precise term · references, codes, proper nouns · that semantics alone can miss.",
+  "exemple_fr": "Un RAG technique doit retrouver la fiche de la pièce « réf. XJ-2291 ». La recherche sémantique seule, focalisée sur le sens, peut rater cette référence exacte. La recherche hybride ajoute la correspondance lexicale et retrouve la pièce à coup sûr. Le meilleur des deux mondes pour les documents techniques.",
+  "exemple_en": "A technical RAG must find the sheet for part \"ref. XJ-2291\". Semantic search alone, focused on meaning, may miss this exact reference. Hybrid search adds lexical matching and finds the part for sure. The best of both worlds for technical documents.",
+  "regard_fr": "La recherche hybride corrige le point faible de la sémantique pure : les identifiants exacts, les codes, les noms. Pour un RAG sur des données techniques ou juridiques riches en références précises, elle est souvent le réglage qui fait passer de « à peu près » à « fiable ».",
+  "regard_en": "Hybrid search corrects the weak point of pure semantics: exact identifiers, codes, names. For a RAG on technical or legal data rich in precise references, it is often the setting that moves from \"roughly\" to \"reliable\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "recherche-semantique",
+    "reclassement",
+    "rag",
+    "top-k"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des moteurs de recherche vectorielle (Qdrant, Weaviate)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Contrôle d'ordinateur par IA (computer use)",
+  "terme_en": "Computer use",
+  "sous_titre_fr": "Computer use",
+  "sous_titre_en": "Contrôle d'ordinateur par IA",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Capacité d'un agent IA à piloter directement une interface d'ordinateur comme le ferait un humain : déplacer le curseur, cliquer, saisir du texte, lire l'écran. Elle permet d'automatiser des logiciels sans API, mais soulève des enjeux de sécurité majeurs · un agent qui contrôle l'écran peut, en principe, tout faire.",
+  "definition_en": "An AI agent's ability to directly drive a computer interface as a human would: moving the cursor, clicking, typing, reading the screen. It enables automating software without APIs, but raises major security stakes · an agent controlling the screen can, in principle, do anything.",
+  "exemple_fr": "Une entreprise utilise un agent capable de contrôler l'ordinateur pour automatiser un vieux logiciel métier sans API. L'agent remplit les formulaires à la place des opérateurs. Gain de temps réel · mais l'agent a désormais les mêmes pouvoirs qu'un utilisateur humain. Le cloisonnement et la supervision deviennent vitaux.",
+  "exemple_en": "A company uses a computer-controlling agent to automate an old business software with no API. The agent fills in the forms in place of operators. Real time savings · but the agent now has the same powers as a human user. Compartmentalisation and supervision become vital.",
+  "regard_fr": "Le contrôle d'ordinateur est à la fois la capacité la plus utile et la plus inquiétante des agents : un agent qui voit et manipule l'écran contourne toutes les protections applicatives. À réserver à des environnements cloisonnés et surveillés · jamais lâché sans filet sur un poste de production.",
+  "regard_en": "Computer use is both agents' most useful and most worrying capability: an agent that sees and manipulates the screen bypasses all application-level protections. To reserve for compartmentalised, monitored environments · never let loose without a net on a production workstation.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "agent-autonome",
+    "bac-a-sable",
+    "moindre-privilege",
+    "injection-indirecte"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des agents de contrôle d'ordinateur",
+      "url": "https://www.anthropic.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Graphe de connaissances",
+  "terme_en": "Knowledge graph",
+  "sous_titre_fr": "Knowledge graph",
+  "sous_titre_en": "Graphe de connaissances",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Représentation des connaissances sous forme d'entités (personnes, lieux, concepts) reliées par des relations explicites. Le graphe de connaissances rend le savoir interrogeable de façon structurée et traçable · une approche plus ancienne que les LLM, mais qui connaît un regain d'intérêt en complément des modèles génératifs.",
+  "definition_en": "A representation of knowledge as entities (people, places, concepts) linked by explicit relations. The knowledge graph makes knowledge queryable in a structured, traceable way · an approach older than LLMs, but enjoying renewed interest as a complement to generative models.",
+  "exemple_fr": "Une entreprise modélise ses produits, clients, contrats et fournisseurs dans un graphe de connaissances. Une question complexe · « quels clients sont exposés à un fournisseur en difficulté ? » · se résout par un parcours du graphe, avec une réponse exacte et traçable. Là où un LLM hallucinerait, le graphe raisonne.",
+  "exemple_en": "A company models its products, clients, contracts and suppliers in a knowledge graph. A complex question · \"which clients are exposed to a struggling supplier?\" · is solved by traversing the graph, with an exact, traceable answer. Where an LLM would hallucinate, the graph reasons.",
+  "regard_fr": "Le graphe de connaissances rappelle que l'IA ne se résume pas aux modèles statistiques. Pour les questions exigeant traçabilité et exactitude relationnelle, la rigueur d'un graphe bat l'à-peu-près d'un LLM. L'avenir est souvent dans la combinaison des deux, pas dans le remplacement de l'un par l'autre.",
+  "regard_en": "The knowledge graph recalls that AI is not reducible to statistical models. For questions demanding traceability and relational accuracy, a graph's rigour beats an LLM's approximation. The future often lies in combining the two, not replacing one with the other.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "graph-rag",
+    "ontologie",
+    "modeles-symboliques",
+    "base-connaissances"
+  ],
+  "sources": [
+    {
+      "titre": "FranceTerme · web sémantique et graphes",
+      "url": "https://www.culture.fr/franceterme"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

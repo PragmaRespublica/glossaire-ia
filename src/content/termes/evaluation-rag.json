@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Évaluation d'un RAG",
+  "terme_en": "RAG evaluation",
+  "sous_titre_fr": "RAG evaluation",
+  "sous_titre_en": "Évaluation d'un RAG",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Ensemble de méthodes pour mesurer la qualité d'un système RAG sur deux axes : la récupération (a-t-on trouvé les bons documents ?) et la génération (la réponse est-elle fidèle aux sources et pertinente ?). Évaluer séparément ces deux étages permet d'identifier où se situe un problème · dans la recherche ou dans la rédaction.",
+  "definition_en": "A set of methods for measuring a RAG system's quality on two axes: retrieval (were the right documents found?) and generation (is the answer faithful to the sources and relevant?). Evaluating these two stages separately identifies where a problem lies · in the search or in the writing.",
+  "exemple_fr": "Un RAG donne de mauvaises réponses. L'évaluation séparée tranche : la récupération est excellente (les bons documents remontent), mais la génération invente au-delà des sources. Le problème est dans le prompt de génération, pas dans la recherche. Sans cette évaluation à deux étages, l'équipe aurait cherché au mauvais endroit.",
+  "exemple_en": "A RAG gives poor answers. Separate evaluation settles it: retrieval is excellent (the right documents surface), but generation invents beyond the sources. The problem is in the generation prompt, not the search. Without this two-stage evaluation, the team would have looked in the wrong place.",
+  "regard_fr": "Évaluer un RAG globalement, c'est se condamner à tâtonner. La bonne pratique est de mesurer séparément récupération et génération : cela dit précisément quel étage réparer. Un RAG est un système à deux moteurs · diagnostiquez chacun avant de tout changer.",
+  "regard_en": "Evaluating a RAG globally means condemning yourself to guesswork. Good practice is to measure retrieval and generation separately: it says precisely which stage to fix. A RAG is a two-engine system · diagnose each before changing everything.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rag",
+    "evaluation-llm",
+    "taux-hallucination",
+    "ancrage"
+  ],
+  "sources": [
+    {
+      "titre": "Frameworks d'évaluation RAG (RAGAS, TruLens)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

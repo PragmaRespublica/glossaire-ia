@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Appel de fonctions",
+  "terme_en": "Function calling",
+  "sous_titre_fr": "Function calling, tool calling",
+  "sous_titre_en": "Function calling",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "rag-agents",
+  "pages_liees": [],
+  "definition_fr": "Capacité d'un LLM à demander l'exécution de fonctions externes définies par le développeur · consulter une base, appeler une API, lancer un calcul · en produisant un appel structuré que l'application exécute, avant de renvoyer le résultat au modèle. C'est la brique qui transforme un modèle bavard en système capable d'agir.",
+  "definition_en": "A LLM's ability to request the execution of external functions defined by the developer · querying a database, calling an API, running a computation · by producing a structured call that the application executes, before returning the result to the model. It is the brick that turns a talkative model into a system able to act.",
+  "exemple_fr": "Un assistant reçoit « quel est le solde du compte de M. Durand ? ». Plutôt que d'inventer un chiffre, il émet un appel de fonction vers l'API bancaire interne, reçoit le solde réel et le restitue. L'appel de fonctions ancre le modèle dans les vraies données de l'entreprise · fini l'hallucination sur les faits vérifiables.",
+  "exemple_en": "An assistant receives \"what is Mr Durand's account balance?\". Rather than inventing a figure, it emits a function call to the internal banking API, receives the real balance and returns it. Function calling anchors the model in the company's real data · no more hallucinating on verifiable facts.",
+  "regard_fr": "L'appel de fonctions est le pont entre le langage et l'action · le moment où un LLM cesse de seulement parler pour commencer à faire. C'est aussi le début des questions de sécurité : chaque fonction exposée est un pouvoir donné au modèle. Ouvrez-les avec discernement.",
+  "regard_en": "Function calling is the bridge between language and action · the moment a LLM stops merely talking to start doing. It is also the start of security questions: every exposed function is a power granted to the model. Open them with discernment.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "usage-outils",
+    "agent-ia",
+    "mcp",
+    "moindre-privilege"
+  ],
+  "sources": [
+    {
+      "titre": "Google Cloud · Generative AI Glossary (function calling)",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
