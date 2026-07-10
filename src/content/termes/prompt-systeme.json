@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Prompt système",
+  "terme_en": "System prompt",
+  "sous_titre_fr": "System prompt",
+  "sous_titre_en": "Prompt système",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Instruction de fond, invisible pour l'utilisateur final, qui définit le comportement, le rôle, le ton et les limites d'un assistant IA pour toute une conversation. Le prompt système est le lieu où l'on cadre une IA : ce qu'elle peut faire, ce qu'elle doit refuser, comment elle s'exprime. Un levier de contrôle majeur.",
+  "definition_en": "A background instruction, invisible to the end user, defining an AI assistant's behaviour, role, tone and limits for a whole conversation. The system prompt is where an AI is framed: what it can do, what it must refuse, how it expresses itself. A major control lever.",
+  "exemple_fr": "Une entreprise déploie un assistant client. Son prompt système fixe le cadre : « Tu es le conseiller de la société X. Tu réponds en vouvoyant, tu ne parles jamais des concurrents, tu refuses toute question hors sujet. » Ce cadrage invisible garantit une expérience cohérente, quel que soit l'utilisateur.",
+  "exemple_en": "A company deploys a customer assistant. Its system prompt sets the frame: \"You are company X's advisor. You answer formally, you never mention competitors, you decline any off-topic question.\" This invisible framing guarantees a consistent experience, whatever the user.",
+  "regard_fr": "Le prompt système est le contrat de comportement d'un assistant · mais rappelez-vous qu'il n'est pas une barrière infranchissable. Un utilisateur déterminé peut tenter de le contourner (injection, débridage). Il cadre, il n'emprisonne pas. Pour les usages sensibles, ajoutez de vrais garde-fous en plus.",
+  "regard_en": "The system prompt is an assistant's behaviour contract · but remember it is not an impassable barrier. A determined user can try to bypass it (injection, jailbreak). It frames, it does not imprison. For sensitive uses, add real guardrails on top.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt",
+    "guardrails",
+    "prompt-injection",
+    "assistants-personnalises"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des API de LLM (system prompt)",
+      "url": "https://www.anthropic.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

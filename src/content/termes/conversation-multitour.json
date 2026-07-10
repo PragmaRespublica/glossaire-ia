@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Conversation multitour",
+  "terme_en": "Multi-turn conversation",
+  "sous_titre_fr": "Multi-turn conversation",
+  "sous_titre_en": "Conversation multitour",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Échange où le modèle tient compte de l'historique des tours précédents pour répondre de façon cohérente, sans qu'on ait à tout répéter. La conversation multitour est ce qui distingue un assistant d'un simple répondeur : il « se souvient » du contexte de l'échange · dans la limite de sa fenêtre contextuelle.",
+  "definition_en": "An exchange where the model takes into account the history of previous turns to answer coherently, without everything having to be repeated. Multi-turn conversation is what distinguishes an assistant from a mere responder: it \"remembers\" the exchange's context · within the limit of its context window.",
+  "exemple_fr": "Un utilisateur demande une analyse, puis « et si on double le budget ? ». Grâce à la conversation multitour, le modèle comprend que la question porte sur l'analyse précédente, sans qu'il faille tout reformuler. Mais attention : passé la fenêtre contextuelle, le début de la conversation est oublié · et les incohérences apparaissent.",
+  "exemple_en": "A user asks for an analysis, then \"what if we double the budget?\". Thanks to multi-turn conversation, the model understands the question concerns the previous analysis, without everything needing rephrasing. But beware: past the context window, the start of the conversation is forgotten · and inconsistencies appear.",
+  "regard_fr": "La conversation multitour crée une illusion de mémoire qu'il faut savoir démystifier : le modèle ne « se souvient » que de ce qui tient dans sa fenêtre contextuelle. Sur les longs échanges, il oublie le début. Comprendre cette limite évite de s'étonner qu'un assistant « perde le fil » d'une longue discussion.",
+  "regard_en": "Multi-turn conversation creates an illusion of memory that must be demystified: the model only \"remembers\" what fits in its context window. On long exchanges, it forgets the start. Understanding this limit avoids being surprised that an assistant \"loses the thread\" of a long discussion.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "fenetre-contextuelle",
+    "memoire-assistants",
+    "reformulation-requete",
+    "iteration-requetes"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des API conversationnelles",
+      "url": "https://www.anthropic.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

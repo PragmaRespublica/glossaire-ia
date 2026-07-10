@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Adoption de l'IA en entreprise",
+  "terme_en": "Enterprise AI adoption",
+  "sous_titre_fr": "Enterprise AI adoption",
+  "sous_titre_en": "Adoption de l'IA en entreprise",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Processus par lequel une organisation intègre réellement l'IA dans ses pratiques, au-delà de l'expérimentation. L'adoption ne se décrète pas : elle suppose formation, accompagnement, cas d'usage pertinents, confiance et gouvernance. Le principal frein n'est presque jamais technique · il est humain, culturel et organisationnel.",
+  "definition_en": "The process by which an organisation truly integrates AI into its practices, beyond experimentation. Adoption cannot be decreed: it requires training, support, relevant use cases, trust and governance. The main obstacle is almost never technical · it is human, cultural and organisational.",
+  "exemple_fr": "Une entreprise déploie un excellent outil d'IA · et personne ne l'utilise. Le problème n'était pas l'outil, mais l'absence de formation, de sens et de confiance. Une autre, avec un outil modeste mais un vrai accompagnement, obtient une adoption massive. L'adoption se joue dans les têtes, pas dans la technologie.",
+  "exemple_en": "A company deploys an excellent AI tool · and no one uses it. The problem was not the tool, but the lack of training, meaning and trust. Another, with a modest tool but real support, achieves massive adoption. Adoption plays out in minds, not in technology.",
+  "regard_fr": "L'échec de la plupart des projets d'IA n'est pas technologique mais humain : on a soigné l'outil et négligé les gens. Investir dans la formation et l'accompagnement rapporte plus que dans un modèle plus cher. L'IA est une transformation des pratiques avant d'être une technologie · c'est notre conviction fondatrice.",
+  "regard_en": "The failure of most AI projects is not technological but human: the tool was polished and the people neglected. Investing in training and support pays more than in a costlier model. AI is a transformation of practices before being a technology · that is our founding conviction.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "cas-usage",
+    "conduite-changement",
+    "acculturation-ia",
+    "gouvernance-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Études sur l'adoption de l'IA en entreprise"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

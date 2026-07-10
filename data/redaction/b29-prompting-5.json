@@ -1,0 +1,122 @@
+{
+  "ia-sante": {
+    "sous_titre_fr": "AI in healthcare",
+    "sous_titre_en": "IA en santé",
+    "definition_fr": "Applications de l'IA au domaine médical : aide au diagnostic, analyse d'imagerie, découverte de médicaments, optimisation des parcours de soins. Porteuse d'immenses promesses, l'IA en santé est aussi l'un des domaines les plus encadrés · données sensibles, systèmes à haut risque, hébergement certifié HDS, supervision humaine impérative.",
+    "definition_en": "Applications of AI to the medical field: diagnostic support, imaging analysis, drug discovery, care pathway optimisation. Bearing immense promise, health AI is also one of the most tightly framed domains · sensitive data, high-risk systems, HDS-certified hosting, imperative human oversight.",
+    "exemple_fr": "Un système d'IA aide un radiologue à repérer des anomalies sur des mammographies, signalant les zones suspectes. Le radiologue garde la décision · l'IA ne remplace pas son jugement, elle attire son attention. Encadré, hébergé en HDS, supervisé, cet usage améliore la détection sans déresponsabiliser le médecin.",
+    "exemple_en": "An AI system helps a radiologist spot anomalies on mammograms, flagging suspicious areas. The radiologist keeps the decision · AI does not replace their judgment, it draws their attention. Framed, HDS-hosted, supervised, this use improves detection without absolving the doctor of responsibility.",
+    "regard_fr": "En santé, l'IA sauve des vies · et peut en coûter si elle est mal encadrée. C'est le domaine où la rigueur (données, hébergement, supervision, validation clinique) n'est pas une contrainte mais une condition vitale. L'enthousiasme technologique doit y céder le pas à l'exigence médicale. La vie n'admet pas le « ça marche à peu près ».",
+    "regard_en": "In healthcare, AI saves lives · and can cost them if poorly framed. It is the domain where rigour (data, hosting, supervision, clinical validation) is not a constraint but a vital condition. Technological enthusiasm must yield to medical exactingness. Life does not admit \"roughly works\".",
+    "termes_lies": ["hds", "systeme-haut-risque", "donnees-sensibles", "supervision-humaine"],
+    "sources": [{"titre": "Haute Autorité de Santé · IA en santé"}]
+  },
+  "ia-juridique": {
+    "sous_titre_fr": "Legal AI, legaltech",
+    "sous_titre_en": "IA juridique",
+    "definition_fr": "Applications de l'IA au droit : recherche juridique, analyse de contrats, rédaction d'actes, prédiction de jurisprudence. Puissante pour traiter la masse documentaire du droit, l'IA juridique se heurte à une exigence absolue de fiabilité · une hallucination sur une référence de loi ou un arrêt peut avoir des conséquences graves.",
+    "definition_en": "Applications of AI to law: legal research, contract analysis, drafting, case-law prediction. Powerful for handling law's documentary mass, legal AI faces an absolute reliability requirement · a hallucination on a statute or ruling reference can have serious consequences.",
+    "exemple_fr": "Un cabinet utilise un assistant juridique ancré sur une base de textes et de jurisprudence à jour, avec citation systématique des sources. Il gagne des heures de recherche · mais chaque référence citée est vérifiable et vérifiée. L'IA juridique fiable est celle qui montre ses sources, pas celle qui affirme sans preuve.",
+    "exemple_en": "A firm uses a legal assistant grounded on an up-to-date base of texts and case law, with systematic source citation. It saves hours of research · but every cited reference is verifiable and verified. Reliable legal AI is the one that shows its sources, not the one that asserts without proof.",
+    "regard_fr": "Le droit est le domaine où l'hallucination coûte le plus cher · des avocats ont été sanctionnés pour avoir cité des jurisprudences inventées par une IA. La règle est sans appel : en droit, jamais d'IA sans ancrage sur des sources vérifiables et sans relecture humaine. La fiabilité prime absolument sur la fluidité.",
+    "regard_en": "Law is the domain where hallucination costs the most · lawyers have been sanctioned for citing case law invented by an AI. The rule is unequivocal: in law, never AI without grounding on verifiable sources and without human review. Reliability absolutely prevails over fluency.",
+    "termes_lies": ["ancrage", "hallucination", "rag", "droits-auteur-ia"],
+    "sources": [{"titre": "Conseil national des barreaux · IA et professions du droit"}]
+  },
+  "ia-rh": {
+    "sous_titre_fr": "AI in HR",
+    "sous_titre_en": "IA et ressources humaines",
+    "definition_fr": "Applications de l'IA aux ressources humaines : tri de candidatures, analyse de CV, évaluation, gestion des talents, chatbots RH. Domaine sensible par excellence · les décisions touchent des personnes et des carrières · l'IA RH est souvent classée à haut risque et exposée aux enjeux de biais, de discrimination et de transparence.",
+    "definition_en": "Applications of AI to human resources: application screening, CV analysis, evaluation, talent management, HR chatbots. A sensitive domain par excellence · decisions affect people and careers · HR AI is often classified high-risk and exposed to bias, discrimination and transparency issues.",
+    "exemple_fr": "Une DRH veut accélérer le tri de milliers de candidatures. Un outil d'IA le permet · mais il doit être audité pour biais, offrir une supervision humaine réelle, et informer les candidats. Sans ces garde-fous, l'outil reproduirait et amplifierait les discriminations passées présentes dans ses données d'entraînement.",
+    "exemple_en": "An HR director wants to speed up screening thousands of applications. An AI tool allows it · but it must be audited for bias, offer real human oversight, and inform candidates. Without these guardrails, the tool would reproduce and amplify the past discriminations present in its training data.",
+    "regard_fr": "L'IA RH concentre les risques éthiques et juridiques de l'IA : elle décide du sort de personnes à partir de données historiquement biaisées. C'est le domaine où « ça fait gagner du temps » ne suffit jamais à justifier un déploiement. Chaque outil RH doit passer le test de l'équité avant celui de l'efficacité.",
+    "regard_en": "HR AI concentrates AI's ethical and legal risks: it decides people's fate from historically biased data. It is the domain where \"it saves time\" never suffices to justify a deployment. Every HR tool must pass the fairness test before the efficiency one.",
+    "termes_lies": ["biais-algorithmique", "systeme-haut-risque", "surveillance-travail", "equite-algorithmique"],
+    "sources": [{"titre": "CNIL · IA et recrutement", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "ia-marketing": {
+    "sous_titre_fr": "AI in marketing",
+    "sous_titre_en": "IA en marketing",
+    "definition_fr": "Applications de l'IA au marketing : génération de contenu, personnalisation, ciblage, analyse de sentiment, optimisation des campagnes. L'un des domaines d'adoption les plus rapides · gains de productivité immédiats · mais qui soulève des questions de qualité (saturation par le contenu générique), de vie privée (ciblage) et d'authenticité.",
+    "definition_en": "Applications of AI to marketing: content generation, personalisation, targeting, sentiment analysis, campaign optimisation. One of the fastest-adoption domains · immediate productivity gains · but raising questions of quality (saturation by generic content), privacy (targeting) and authenticity.",
+    "exemple_fr": "Une équipe marketing génère dix variantes d'un email en quelques minutes et les teste. Gain de temps réel. Mais la tentation est grande de produire du contenu générique en masse · au risque de noyer sa marque dans le slop ambiant. Les meilleures équipes utilisent l'IA pour accélérer, pas pour remplacer la créativité et la voix propre.",
+    "exemple_en": "A marketing team generates ten variants of an email in minutes and tests them. Real time savings. But the temptation is strong to produce generic content en masse · at the risk of drowning the brand in ambient slop. The best teams use AI to accelerate, not to replace creativity and their own voice.",
+    "regard_fr": "En marketing, l'IA offre un pouvoir de production illimité · et c'est précisément le piège. Quand tout le monde génère le même contenu générique, la voix authentique devient rare et donc précieuse. L'IA doit servir votre singularité, pas la diluer dans la moyenne. La quantité est facile ; la différence reste humaine.",
+    "regard_en": "In marketing, AI offers unlimited production power · and that is precisely the trap. When everyone generates the same generic content, the authentic voice becomes rare and thus precious. AI must serve your singularity, not dilute it into the average. Quantity is easy; difference stays human.",
+    "termes_lies": ["contenu-genere", "slop", "redaction-assistee", "bulle-filtre"],
+    "sources": [{"titre": "Études sur l'adoption de l'IA en marketing"}]
+  },
+  "ia-finance": {
+    "sous_titre_fr": "AI in finance",
+    "sous_titre_en": "IA en finance",
+    "definition_fr": "Applications de l'IA à la finance : détection de fraude, scoring de crédit, analyse de risque, trading algorithmique, conformité automatisée. Secteur régulé et à fort enjeu · les décisions engagent de l'argent et des droits · l'IA financière combine potentiel élevé et exigences strictes de robustesse, d'explicabilité et de contrôle.",
+    "definition_en": "Applications of AI to finance: fraud detection, credit scoring, risk analysis, algorithmic trading, automated compliance. A regulated, high-stakes sector · decisions involve money and rights · financial AI combines high potential with strict requirements of robustness, explainability and control.",
+    "exemple_fr": "Une banque utilise l'IA pour détecter les fraudes en temps réel · un usage à haute valeur. Mais pour le scoring de crédit, la même banque doit garantir explicabilité et non-discrimination : un refus de crédit doit pouvoir être justifié et contesté. Selon l'usage, les mêmes techniques appellent des niveaux d'exigence très différents.",
+    "exemple_en": "A bank uses AI to detect fraud in real time · a high-value use. But for credit scoring, the same bank must guarantee explainability and non-discrimination: a loan refusal must be justifiable and contestable. Depending on the use, the same techniques call for very different levels of requirement.",
+    "regard_fr": "La finance illustre qu'un même outil d'IA change de nature selon l'usage : détecter une fraude et refuser un crédit n'engagent pas les mêmes exigences. Le réflexe · « c'est de l'IA financière » · ne suffit pas ; il faut qualifier chaque usage par son enjeu réel pour les personnes. Le contexte fait la règle.",
+    "regard_en": "Finance illustrates that the same AI tool changes nature depending on the use: detecting fraud and refusing a loan do not carry the same requirements. The reflex · \"it's financial AI\" · does not suffice; each use must be qualified by its real stake for people. Context makes the rule.",
+    "termes_lies": ["decision-automatisee", "explicabilite", "detection-anomalies", "systeme-haut-risque"],
+    "sources": [{"titre": "ACPR · IA dans le secteur financier"}]
+  },
+  "ia-industrie": {
+    "sous_titre_fr": "Industrial AI",
+    "sous_titre_en": "IA industrielle",
+    "definition_fr": "Applications de l'IA à l'industrie : maintenance prédictive, contrôle qualité par vision, optimisation de production, jumeaux numériques, robotique. Souvent fondée sur de l'IA non générative sobre et spécialisée, l'IA industrielle offre des retours sur investissement concrets et mesurables · un terrain où l'IA prouve sa valeur loin du battage médiatique.",
+    "definition_en": "Applications of AI to industry: predictive maintenance, vision-based quality control, production optimisation, digital twins, robotics. Often based on frugal, specialised non-generative AI, industrial AI offers concrete, measurable returns on investment · a terrain where AI proves its value far from the media hype.",
+    "exemple_fr": "Une usine équipe ses machines de capteurs et d'un modèle de maintenance prédictive. Le système anticipe les pannes avant qu'elles ne surviennent, évitant des arrêts coûteux. Aucun LLM, aucun battage · juste de l'IA spécialisée qui rapporte. L'IA industrielle est souvent la plus rentable et la moins spectaculaire.",
+    "exemple_en": "A factory equips its machines with sensors and a predictive maintenance model. The system anticipates breakdowns before they occur, avoiding costly stoppages. No LLM, no hype · just specialised AI that pays off. Industrial AI is often the most cost-effective and least spectacular.",
+    "regard_fr": "L'IA industrielle rappelle une vérité que le tumulte autour des LLM fait oublier : les usages les plus rentables de l'IA sont souvent les plus discrets, fondés sur des modèles sobres et spécialisés. Avant de courir après l'IA générative, regardez ce que l'IA classique peut déjà optimiser chez vous. Le trésor est souvent là.",
+    "regard_en": "Industrial AI recalls a truth the LLM tumult makes people forget: AI's most cost-effective uses are often the most discreet, based on frugal, specialised models. Before chasing generative AI, look at what classic AI can already optimise for you. The treasure is often there.",
+    "termes_lies": ["ia-non-generative", "detection-anomalies", "jumeau-numerique", "vision-ordinateur"],
+    "sources": [{"titre": "Analyses sur l'IA dans l'industrie 4.0"}]
+  },
+  "ia-education": {
+    "sous_titre_fr": "AI in education",
+    "sous_titre_en": "IA en éducation",
+    "definition_fr": "Applications de l'IA à l'enseignement : tutorat personnalisé, génération d'exercices, correction assistée, accompagnement. Porteuse de promesses d'individualisation, l'IA en éducation soulève aussi des questions profondes : dépendance cognitive, évaluation, équité d'accès, et le risque d'affaiblir les apprentissages qu'elle prétend soutenir.",
+    "definition_en": "Applications of AI to teaching: personalised tutoring, exercise generation, assisted grading, support. Bearing promises of individualisation, education AI also raises deep questions: cognitive dependence, assessment, equity of access, and the risk of weakening the very learning it claims to support.",
+    "exemple_fr": "Un enseignant utilise l'IA pour générer des exercices adaptés au niveau de chaque élève · individualisation précieuse. Mais il veille à ce que les élèves continuent d'exercer leur propre réflexion, plutôt que de déléguer à l'IA. L'outil enrichit sa pédagogie sans se substituer à l'effort d'apprendre. L'équilibre est délicat mais décisif.",
+    "exemple_en": "A teacher uses AI to generate exercises adapted to each student's level · valuable individualisation. But they ensure students keep exercising their own thinking, rather than delegating to AI. The tool enriches their pedagogy without replacing the effort of learning. The balance is delicate but decisive.",
+    "regard_fr": "L'IA en éducation porte un paradoxe : elle peut aider à apprendre ou dispenser d'apprendre. Un outil qui donne la réponse trop vite atrophie la pensée qu'il devrait former. La question centrale n'est pas « l'IA peut-elle aider ? » mais « aide-t-elle à penser, ou à ne plus penser ? ». L'enjeu est celui des générations futures.",
+    "regard_en": "Education AI carries a paradox: it can help learning or dispense with it. A tool that gives the answer too fast atrophies the thinking it should form. The central question is not \"can AI help?\" but \"does it help thinking, or not thinking anymore?\". The stakes are those of future generations.",
+    "termes_lies": ["dependance-cognitive", "deskilling", "acculturation-ia", "fracture-numerique"],
+    "sources": [{"titre": "Ministère de l'Éducation nationale · IA et éducation"}]
+  },
+  "ia-service-client": {
+    "sous_titre_fr": "AI in customer service",
+    "sous_titre_en": "IA en service client",
+    "definition_fr": "Applications de l'IA à la relation client : chatbots, agents vocaux, assistance aux conseillers, analyse des demandes, routage intelligent. L'un des usages les plus répandus · disponibilité continue, traitement des demandes courantes · à condition de bien articuler l'IA et l'humain, et d'annoncer clairement quand on parle à une machine.",
+    "definition_en": "Applications of AI to customer relations: chatbots, voice agents, advisor assistance, request analysis, intelligent routing. One of the most widespread uses · continuous availability, handling common requests · provided AI and humans are well articulated, and it is clearly announced when one talks to a machine.",
+    "exemple_fr": "Une entreprise déploie un assistant IA qui traite les demandes courantes 24 h/24 et transfère les cas complexes à un conseiller humain, avec le contexte. Les clients sont mieux servis, les conseillers déchargés du répétitif. Point clé · l'assistant annonce sa nature d'IA, et le passage à l'humain est fluide et toujours possible.",
+    "exemple_en": "A company deploys an AI assistant that handles common requests 24/7 and transfers complex cases to a human advisor, with context. Customers are better served, advisors relieved of the repetitive. Key point · the assistant announces its AI nature, and the handover to a human is smooth and always possible.",
+    "regard_fr": "En service client, l'IA réussit quand elle sert la relation, échoue quand elle l'empêche. Un chatbot qui piège le client dans une boucle sans issue humaine détruit la confiance. La bonne conception garde toujours une porte vers l'humain · l'IA traite le volume, l'humain préserve le lien. Ne sacrifiez jamais le second au premier.",
+    "regard_en": "In customer service, AI succeeds when it serves the relationship, fails when it prevents it. A chatbot that traps the customer in a loop with no human exit destroys trust. Good design always keeps a door to the human · AI handles the volume, the human preserves the bond. Never sacrifice the latter to the former.",
+    "termes_lies": ["chatbot", "agents-vocaux", "humain-dans-la-boucle", "automatisation-intelligente"],
+    "sources": [{"titre": "Études sur l'IA dans la relation client"}]
+  },
+  "ia-accessibilite": {
+    "sous_titre_fr": "AI and accessibility",
+    "sous_titre_en": "IA et accessibilité",
+    "definition_fr": "Usages de l'IA au service des personnes en situation de handicap : description d'images pour les malvoyants, sous-titrage et transcription pour les malentendants, synthèse et simplification de texte, commande vocale, traduction en langue des signes. L'un des domaines où l'IA tient le mieux sa promesse d'émancipation et d'inclusion.",
+    "definition_en": "Uses of AI serving people with disabilities: image description for the visually impaired, captioning and transcription for the hearing impaired, text synthesis and simplification, voice control, sign-language translation. One of the domains where AI best keeps its promise of empowerment and inclusion.",
+    "exemple_fr": "Une personne malvoyante utilise une IA qui décrit en temps réel ce que capte la caméra de son téléphone : un document, une rue, un visage. L'autonomie gagnée est considérable. C'est l'un des usages où l'IA change concrètement des vies · un rappel que la technologie, bien orientée, est d'abord un outil d'émancipation.",
+    "exemple_en": "A visually impaired person uses an AI that describes in real time what their phone camera captures: a document, a street, a face. The autonomy gained is considerable. It is one of the uses where AI concretely changes lives · a reminder that technology, well oriented, is first a tool of empowerment.",
+    "regard_fr": "L'IA au service de l'accessibilité est peut-être son plus beau visage : elle rend possible ce qui ne l'était pas, elle inclut plutôt qu'elle ne remplace. Ce domaine rappelle pourquoi on développe ces technologies · non pour la performance en soi, mais pour ce qu'elles permettent aux humains. Une boussole utile face aux dérives.",
+    "regard_en": "AI serving accessibility is perhaps its finest face: it makes possible what was not, it includes rather than replaces. This domain recalls why these technologies are developed · not for performance itself, but for what they enable for humans. A useful compass against the excesses.",
+    "termes_lies": ["synthese-vocale", "reconnaissance-parole", "multimodal", "fracture-numerique"],
+    "sources": [{"titre": "Référentiel d'accessibilité et IA (RGAA)"}]
+  },
+  "fracture-numerique": {
+    "sous_titre_fr": "AI digital divide",
+    "sous_titre_en": "Fracture numérique et IA",
+    "definition_fr": "Inégalités d'accès et de maîtrise de l'IA entre personnes, organisations et territoires. La fracture numérique se rejoue avec l'IA : ceux qui savent l'utiliser gagnent un avantage, ceux qui l'ignorent ou n'y ont pas accès prennent du retard. Un enjeu d'inclusion, d'éducation et d'équité territoriale, autant qu'un enjeu économique.",
+    "definition_en": "Inequalities in access to and mastery of AI between people, organisations and territories. The digital divide replays with AI: those who know how to use it gain an advantage, those who ignore it or lack access fall behind. An issue of inclusion, education and territorial equity, as much as an economic one.",
+    "exemple_fr": "Deux PME du même secteur : l'une forme ses équipes à l'IA et gagne en productivité, l'autre, faute de moyens ou de culture, reste à l'écart et perd en compétitivité. À l'échelle d'un territoire, ce creusement d'écarts devient un enjeu de politique publique. La fracture de l'IA se superpose aux fractures existantes et les aggrave.",
+    "exemple_en": "Two SMEs in the same sector: one trains its teams in AI and gains productivity, the other, for lack of means or culture, stays aside and loses competitiveness. At the scale of a territory, this widening of gaps becomes a public policy issue. The AI divide overlaps with existing divides and worsens them.",
+    "regard_fr": "La fracture numérique de l'IA n'est pas une fatalité technique mais un choix de société : forme-t-on tout le monde, ou laisse-t-on l'avantage à quelques-uns ? L'acculturation à l'IA du plus grand nombre est un enjeu démocratique. C'est le sens profond de notre mission · « comprendre pour reprendre le pouvoir » vaut pour tous.",
+    "regard_en": "The AI digital divide is not a technical fatality but a societal choice: do we train everyone, or leave the advantage to a few? AI literacy for the greatest number is a democratic issue. It is the deep meaning of our mission · \"understand to take back control\" applies to all.",
+    "termes_lies": ["acculturation-ia", "ia-education", "ia-accessibilite", "souverainete-numerique"],
+    "sources": [{"titre": "Analyses sur les inégalités face à l'IA"}]
+  }
+}

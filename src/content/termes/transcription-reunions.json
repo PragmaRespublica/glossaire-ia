@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Transcription de réunions par IA",
+  "terme_en": "AI meeting transcription",
+  "sous_titre_fr": "AI meeting transcription",
+  "sous_titre_en": "Transcription de réunions par IA",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Usage de l'IA pour transcrire, résumer et extraire les décisions et actions d'une réunion en temps réel ou en différé. L'un des usages les plus adoptés en entreprise · un gain de temps immédiat. Il soulève cependant des enjeux de consentement, de confidentialité et de conservation : enregistrer une réunion n'est jamais anodin.",
+  "definition_en": "The use of AI to transcribe, summarise and extract decisions and actions from a meeting in real time or afterwards. One of the most-adopted uses in business · an immediate time saving. It raises, however, consent, confidentiality and retention stakes: recording a meeting is never trivial.",
+  "exemple_fr": "Après chaque réunion, un outil d'IA envoie automatiquement le compte rendu, les décisions et les actions assignées. Gain de temps massif. Mais l'entreprise a d'abord posé le cadre : information des participants, consentement, durée de conservation, exclusion des réunions sensibles. L'usage est efficace parce qu'il est encadré.",
+  "exemple_en": "After each meeting, an AI tool automatically sends the minutes, decisions and assigned actions. Massive time saving. But the company first set the frame: informing participants, consent, retention period, exclusion of sensitive meetings. The use is effective because it is framed.",
+  "regard_fr": "La transcription de réunions est d'une utilité immédiate · et d'un angle mort fréquent : on enregistre des propos, donc des données personnelles, souvent sans cadre. Avant de généraliser l'outil, posez les règles de consentement et de conservation. La commodité ne dispense jamais de la conformité.",
+  "regard_en": "Meeting transcription is immediately useful · and a frequent blind spot: you record speech, thus personal data, often without a frame. Before generalising the tool, set the consent and retention rules. Convenience never exempts from compliance.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "resume-automatique",
+    "reconnaissance-parole",
+    "donnees-personnelles",
+    "consentement"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · enregistrement et transcription",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

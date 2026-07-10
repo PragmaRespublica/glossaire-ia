@@ -1,0 +1,37 @@
+{
+  "terme_fr": "No-code, low-code et IA",
+  "terme_en": "No-code / low-code AI",
+  "sous_titre_fr": "No-code, low-code et IA",
+  "sous_titre_en": "No-code / low-code AI",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Approches permettant de créer des applications ou des automatisations sans écrire de code (no-code) ou avec un minimum de code (low-code), via des interfaces visuelles. Couplées à l'IA, elles mettent la création d'automatisations intelligentes à la portée des métiers · démocratisation réelle, à encadrer par la gouvernance.",
+  "definition_en": "Approaches allowing applications or automations to be created without writing code (no-code) or with minimal code (low-code), via visual interfaces. Coupled with AI, they put the creation of intelligent automations within business teams' reach · a real democratisation, to be framed by governance.",
+  "exemple_fr": "Une responsable RH, sans compétence technique, assemble un flux no-code : quand un CV arrive, une IA le résume et l'envoie au bon manager. Elle a créé un outil utile sans développeur. Formidable · à condition que la DSI garde une visibilité, pour éviter une prolifération d'automatisations non maîtrisées.",
+  "exemple_en": "An HR manager, without technical skills, assembles a no-code flow: when a CV arrives, an AI summarises it and sends it to the right manager. They created a useful tool without a developer. Formidable · provided IT keeps visibility, to avoid a proliferation of uncontrolled automations.",
+  "regard_fr": "Le no-code couplé à l'IA libère l'initiative des métiers · une chance. Mais sans gouvernance, il engendre une « IA fantôme » d'automatisations invisibles et fragiles. La bonne posture n'est pas d'interdire, mais d'outiller et d'encadrer cette autonomie nouvelle. Démocratiser sans perdre le contrôle.",
+  "regard_en": "No-code coupled with AI frees business initiative · a boon. But without governance, it breeds a \"shadow AI\" of invisible, fragile automations. The right stance is not to ban, but to equip and frame this new autonomy. Democratise without losing control.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "generation-code",
+    "automatisation-intelligente",
+    "ia-fantome",
+    "assistants-personnalises"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses du marché no-code / low-code"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

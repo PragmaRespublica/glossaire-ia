@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA en santé",
+  "terme_en": "AI in healthcare",
+  "sous_titre_fr": "AI in healthcare",
+  "sous_titre_en": "IA en santé",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Applications de l'IA au domaine médical : aide au diagnostic, analyse d'imagerie, découverte de médicaments, optimisation des parcours de soins. Porteuse d'immenses promesses, l'IA en santé est aussi l'un des domaines les plus encadrés · données sensibles, systèmes à haut risque, hébergement certifié HDS, supervision humaine impérative.",
+  "definition_en": "Applications of AI to the medical field: diagnostic support, imaging analysis, drug discovery, care pathway optimisation. Bearing immense promise, health AI is also one of the most tightly framed domains · sensitive data, high-risk systems, HDS-certified hosting, imperative human oversight.",
+  "exemple_fr": "Un système d'IA aide un radiologue à repérer des anomalies sur des mammographies, signalant les zones suspectes. Le radiologue garde la décision · l'IA ne remplace pas son jugement, elle attire son attention. Encadré, hébergé en HDS, supervisé, cet usage améliore la détection sans déresponsabiliser le médecin.",
+  "exemple_en": "An AI system helps a radiologist spot anomalies on mammograms, flagging suspicious areas. The radiologist keeps the decision · AI does not replace their judgment, it draws their attention. Framed, HDS-hosted, supervised, this use improves detection without absolving the doctor of responsibility.",
+  "regard_fr": "En santé, l'IA sauve des vies · et peut en coûter si elle est mal encadrée. C'est le domaine où la rigueur (données, hébergement, supervision, validation clinique) n'est pas une contrainte mais une condition vitale. L'enthousiasme technologique doit y céder le pas à l'exigence médicale. La vie n'admet pas le « ça marche à peu près ».",
+  "regard_en": "In healthcare, AI saves lives · and can cost them if poorly framed. It is the domain where rigour (data, hosting, supervision, clinical validation) is not a constraint but a vital condition. Technological enthusiasm must yield to medical exactingness. Life does not admit \"roughly works\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "hds",
+    "systeme-haut-risque",
+    "donnees-sensibles",
+    "supervision-humaine"
+  ],
+  "sources": [
+    {
+      "titre": "Haute Autorité de Santé · IA en santé"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Rédaction assistée par IA",
+  "terme_en": "AI-assisted writing",
+  "sous_titre_fr": "AI-assisted writing",
+  "sous_titre_en": "Rédaction assistée par IA",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Usage de l'IA générative pour aider à écrire : brouillons, reformulations, corrections, adaptations de ton, traductions. La rédaction assistée est l'un des usages les plus répandus de l'IA en entreprise · un gain de productivité réel, à condition de garder la main sur le fond, la véracité et la responsabilité du texte final.",
+  "definition_en": "The use of generative AI to help write: drafts, rephrasings, corrections, tone adaptations, translations. AI-assisted writing is one of the most widespread AI uses in business · a real productivity gain, provided one keeps control of the substance, truthfulness and responsibility of the final text.",
+  "exemple_fr": "Un chargé de communication produit un premier jet d'un communiqué avec l'IA, puis le retravaille : il corrige un fait inexact, ajuste le ton, ajoute une nuance stratégique. L'IA a fait gagner du temps sur la mise en forme ; l'humain a gardé la maîtrise du message. Une division du travail saine et productive.",
+  "exemple_en": "A communications officer produces a first draft of a press release with AI, then reworks it: correcting an inaccurate fact, adjusting the tone, adding a strategic nuance. AI saved time on the formatting; the human kept control of the message. A healthy, productive division of labour.",
+  "regard_fr": "La rédaction assistée est un formidable accélérateur · à condition de ne jamais publier sans relire. L'IA propose, l'humain dispose et assume. Déléguer la mise en forme est sage ; déléguer la responsabilité du contenu ne l'est jamais. Votre nom reste sur le texte, pas celui du modèle.",
+  "regard_en": "AI-assisted writing is a formidable accelerator · provided you never publish without reviewing. AI proposes, the human disposes and owns. Delegating the formatting is wise; delegating responsibility for the content never is. Your name stays on the text, not the model's.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "contenu-genere",
+    "resume-automatique",
+    "traduction-automatique",
+    "humain-dans-la-boucle"
+  ],
+  "sources": [
+    {
+      "titre": "Études sur la productivité de la rédaction assistée par IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

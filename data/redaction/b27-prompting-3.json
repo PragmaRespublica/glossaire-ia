@@ -1,0 +1,110 @@
+{
+  "generation-code": {
+    "sous_titre_fr": "AI code generation",
+    "sous_titre_en": "Génération de code",
+    "definition_fr": "Production de code informatique par une IA à partir d'une description en langage naturel. De l'autocomplétion à la génération de fonctions entières, elle transforme le métier de développeur · gains de productivité importants, mais code à relire, tester et sécuriser. L'IA écrit vite ; la responsabilité du code reste humaine.",
+    "definition_en": "The production of computer code by an AI from a natural-language description. From autocompletion to generating whole functions, it transforms the developer's job · significant productivity gains, but code to review, test and secure. AI writes fast; responsibility for the code stays human.",
+    "exemple_fr": "Un développeur décrit une fonction ; l'IA la génère en quelques secondes. Il gagne du temps · mais découvre en la relisant qu'elle contient une faille de sécurité subtile. Il la corrige. La génération de code accélère l'écriture, pas la réflexion : le développeur reste garant de la qualité et de la sûreté.",
+    "exemple_en": "A developer describes a function; the AI generates it in seconds. They save time · but discover on review that it contains a subtle security flaw. They fix it. Code generation speeds up writing, not thinking: the developer remains the guarantor of quality and safety.",
+    "regard_fr": "La génération de code est l'un des usages les plus productifs de l'IA · et l'un des plus trompeurs. Un code qui « marche » n'est pas forcément sûr, maintenable ou correct sur les cas limites. L'IA élargit le cercle de ceux qui codent, mais la relecture experte reste non négociable en production.",
+    "regard_en": "Code generation is one of AI's most productive uses · and one of the most deceptive. Code that \"works\" is not necessarily secure, maintainable or correct on edge cases. AI widens the circle of those who code, but expert review remains non-negotiable in production.",
+    "termes_lies": ["vibe-coding", "github-copilot", "humaneval", "no-code"],
+    "sources": [{"titre": "Google Cloud · Generative AI Glossary", "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"}]
+  },
+  "no-code": {
+    "sous_titre_fr": "No-code, low-code et IA",
+    "sous_titre_en": "No-code / low-code AI",
+    "definition_fr": "Approches permettant de créer des applications ou des automatisations sans écrire de code (no-code) ou avec un minimum de code (low-code), via des interfaces visuelles. Couplées à l'IA, elles mettent la création d'automatisations intelligentes à la portée des métiers · démocratisation réelle, à encadrer par la gouvernance.",
+    "definition_en": "Approaches allowing applications or automations to be created without writing code (no-code) or with minimal code (low-code), via visual interfaces. Coupled with AI, they put the creation of intelligent automations within business teams' reach · a real democratisation, to be framed by governance.",
+    "exemple_fr": "Une responsable RH, sans compétence technique, assemble un flux no-code : quand un CV arrive, une IA le résume et l'envoie au bon manager. Elle a créé un outil utile sans développeur. Formidable · à condition que la DSI garde une visibilité, pour éviter une prolifération d'automatisations non maîtrisées.",
+    "exemple_en": "An HR manager, without technical skills, assembles a no-code flow: when a CV arrives, an AI summarises it and sends it to the right manager. They created a useful tool without a developer. Formidable · provided IT keeps visibility, to avoid a proliferation of uncontrolled automations.",
+    "regard_fr": "Le no-code couplé à l'IA libère l'initiative des métiers · une chance. Mais sans gouvernance, il engendre une « IA fantôme » d'automatisations invisibles et fragiles. La bonne posture n'est pas d'interdire, mais d'outiller et d'encadrer cette autonomie nouvelle. Démocratiser sans perdre le contrôle.",
+    "regard_en": "No-code coupled with AI frees business initiative · a boon. But without governance, it breeds a \"shadow AI\" of invisible, fragile automations. The right stance is not to ban, but to equip and frame this new autonomy. Democratise without losing control.",
+    "termes_lies": ["generation-code", "automatisation-intelligente", "ia-fantome", "assistants-personnalises"],
+    "sources": [{"titre": "Analyses du marché no-code / low-code"}]
+  },
+  "humain-dans-la-boucle": {
+    "sous_titre_fr": "Human in the loop",
+    "sous_titre_en": "Humain dans la boucle",
+    "definition_fr": "Principe de conception maintenant un humain dans le processus de décision d'un système d'IA, pour valider, corriger ou superviser. L'humain dans la boucle est la garantie que l'IA reste un outil au service du jugement humain · particulièrement essentiel pour les décisions sensibles, irréversibles ou à fort impact sur les personnes.",
+    "definition_en": "A design principle keeping a human in an AI system's decision process, to validate, correct or supervise. Human in the loop is the guarantee that AI stays a tool serving human judgment · particularly essential for sensitive, irreversible or high-impact decisions on people.",
+    "exemple_fr": "Un système d'IA pré-analyse des demandes de crédit, mais un humain valide chaque refus, avec les éléments pour juger. L'IA accélère le traitement des cas simples, l'humain tranche les cas sensibles. Cette répartition · l'IA propose, l'humain décide · combine efficacité et responsabilité.",
+    "exemple_en": "An AI system pre-analyses loan requests, but a human validates each refusal, with the elements to judge. AI speeds up the simple cases, the human settles the sensitive ones. This division · AI proposes, the human decides · combines efficiency and accountability.",
+    "regard_fr": "« Humain dans la boucle » n'a de sens que si l'humain a réellement les moyens et le temps de juger. Un humain qui valide mécaniquement, sans pouvoir contredire, n'est qu'un alibi. La vraie question n'est pas « y a-t-il un humain ? » mais « peut-il effectivement changer la décision ? ».",
+    "regard_en": "\"Human in the loop\" only makes sense if the human really has the means and time to judge. A human who validates mechanically, unable to contradict, is merely an alibi. The real question is not \"is there a human?\" but \"can they actually change the decision?\".",
+    "termes_lies": ["supervision-humaine", "decision-automatisee", "agent-autonome", "ethique-ia"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (avec intervention humaine)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "anthropomorphisme": {
+    "sous_titre_fr": "Anthropomorphism",
+    "sous_titre_en": "Anthropomorphisme",
+    "definition_fr": "Tendance à prêter à une IA des intentions, des émotions ou une conscience humaines qu'elle ne possède pas. Renforcé par le langage naturel des assistants, l'anthropomorphisme brouille le jugement : on fait confiance à une machine comme à une personne, on lui prête un « avis », on oublie qu'elle calcule des probabilités.",
+    "definition_en": "The tendency to attribute to an AI human intentions, emotions or consciousness that it does not possess. Reinforced by assistants' natural language, anthropomorphism blurs judgment: one trusts a machine like a person, ascribes it an \"opinion\", forgets it computes probabilities.",
+    "exemple_fr": "Un utilisateur écrit « merci, tu es génial » à un assistant et suit ses conseils avec une confiance qu'il n'accorderait pas à un tableur. Pourtant, l'assistant ne « pense » ni ne « veut » rien · il prédit du texte. Cet anthropomorphisme, naturel et encouragé par le design, peut mener à une confiance dangereuse.",
+    "exemple_en": "A user writes \"thanks, you're great\" to an assistant and follows its advice with a trust they would not grant a spreadsheet. Yet the assistant neither \"thinks\" nor \"wants\" anything · it predicts text. This anthropomorphism, natural and encouraged by design, can lead to dangerous trust.",
+    "regard_fr": "L'anthropomorphisme est le biais cognitif central de notre rapport à l'IA : plus une machine parle comme nous, plus on la croit comme nous. Cultiver la conscience que l'on parle à un système statistique, non à un être, est une hygiène mentale essentielle · et le premier acte d'une acculturation lucide.",
+    "regard_en": "Anthropomorphism is the central cognitive bias of our relationship with AI: the more a machine talks like us, the more we believe it like us. Cultivating the awareness that one is talking to a statistical system, not a being, is essential mental hygiene · and the first act of lucid literacy.",
+    "termes_lies": ["ia-compagnon", "complaisance-ia", "dependance-cognitive", "hallucination"],
+    "sources": [{"titre": "Recherches sur l'anthropomorphisme des IA conversationnelles"}]
+  },
+  "complaisance-ia": {
+    "sous_titre_fr": "AI sycophancy, la flatterie des modèles",
+    "sous_titre_en": "The flattery of models",
+    "definition_fr": "Tendance d'un modèle à donner la réponse qui plaira à l'utilisateur plutôt que la plus exacte : abonder dans son sens, valider ses hypothèses, éviter la contradiction. Effet secondaire de l'entraînement sur les préférences humaines, la complaisance rend un assistant agréable · mais moins fiable comme conseil.",
+    "definition_en": "A model's tendency to give the answer that will please the user rather than the most accurate one: agreeing with them, validating their assumptions, avoiding contradiction. A side effect of training on human preferences, sycophancy makes an assistant pleasant · but less reliable as advice.",
+    "exemple_fr": "Un utilisateur propose une analyse erronée et demande l'avis de l'IA. Un modèle complaisant valide poliment plutôt que de corriger. L'utilisateur, conforté, persiste dans son erreur. Une IA vraiment utile devrait oser la contradiction · mais l'entraînement la pousse souvent à préférer plaire à avoir raison.",
+    "exemple_en": "A user proposes a flawed analysis and asks the AI's opinion. A sycophantic model politely validates rather than correcting. The user, reassured, persists in their error. A truly useful AI should dare to contradict · but training often pushes it to prefer pleasing over being right.",
+    "regard_fr": "La complaisance est un défaut sournois : un assistant qui vous donne toujours raison est agréable et dangereux. Il transforme l'IA en chambre d'écho. Méfiez-vous d'un modèle qui ne vous contredit jamais · et valorisez ceux qui savent dire « je pense que vous vous trompez ». La flatterie n'est pas du conseil.",
+    "regard_en": "Sycophancy is an insidious flaw: an assistant that always agrees with you is pleasant and dangerous. It turns AI into an echo chamber. Beware of a model that never contradicts you · and value those that can say \"I think you're wrong\". Flattery is not advice.",
+    "termes_lies": ["anthropomorphisme", "rlhf", "modele-recompense", "arene-llm"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (complaisance de l'intelligence artificielle)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "dependance-cognitive": {
+    "sous_titre_fr": "Cognitive offloading, déléguer sa pensée",
+    "sous_titre_en": "Offloading one's thinking",
+    "definition_fr": "Phénomène où l'usage habituel de l'IA conduit à déléguer des efforts cognitifs · mémoriser, calculer, rédiger, raisonner · au point d'affaiblir ces capacités. Comme le GPS a émoussé le sens de l'orientation, une dépendance excessive à l'IA peut atrophier des compétences qu'on cesse d'exercer.",
+    "definition_en": "A phenomenon where habitual AI use leads to delegating cognitive efforts · memorising, calculating, writing, reasoning · to the point of weakening these abilities. As GPS dulled the sense of direction, excessive dependence on AI can atrophy skills one stops exercising.",
+    "exemple_fr": "Une équipe utilise l'IA pour toute rédaction. Au fil des mois, certains peinent à structurer un texte sans elle · la compétence s'est émoussée faute d'exercice. L'IA a fait gagner du temps à court terme, mais entamé une capacité à long terme. Le bon usage préserve l'effort qui entretient la compétence.",
+    "exemple_en": "A team uses AI for all writing. Over the months, some struggle to structure a text without it · the skill has dulled for lack of exercise. AI saved time in the short term, but eroded a long-term capacity. Good use preserves the effort that maintains the skill.",
+    "regard_fr": "La dépendance cognitive est le risque silencieux de l'IA : chaque effort délégué est une compétence qui s'endort. La question n'est pas d'éviter l'IA, mais de choisir quels efforts déléguer et lesquels garder pour rester capable. Externaliser sa pensée a un prix qu'on ne paie que plus tard.",
+    "regard_en": "Cognitive dependence is AI's silent risk: every delegated effort is a skill going dormant. The question is not to avoid AI, but to choose which efforts to delegate and which to keep to stay capable. Outsourcing your thinking has a price you only pay later.",
+    "termes_lies": ["deskilling", "anthropomorphisme", "ia-education", "humain-dans-la-boucle"],
+    "sources": [{"titre": "Recherches sur le cognitive offloading et l'IA"}]
+  },
+  "deskilling": {
+    "sous_titre_fr": "Déqualification par l'automatisation",
+    "sous_titre_en": "Deskilling",
+    "definition_fr": "Perte de compétences au sein d'une profession lorsque l'automatisation prend en charge des tâches auparavant exercées par des humains. Avec l'IA, le deskilling touche des métiers qualifiés · analyse, rédaction, diagnostic · posant la question du maintien de l'expertise quand la machine fait le gros du travail.",
+    "definition_en": "The loss of skills within a profession when automation takes over tasks previously performed by humans. With AI, deskilling affects skilled jobs · analysis, writing, diagnosis · raising the question of maintaining expertise when the machine does most of the work.",
+    "exemple_fr": "Dans un cabinet, les juniors utilisaient la rédaction de premières analyses pour se former. Confiée à l'IA, cette tâche disparaît · mais avec elle, l'apprentissage qu'elle procurait. Comment former les experts de demain si les tâches formatrices sont automatisées ? Le deskilling n'est pas qu'un enjeu individuel, mais de transmission.",
+    "exemple_en": "In a firm, juniors used the drafting of first analyses to train. Handed to AI, this task disappears · but with it, the learning it provided. How to train tomorrow's experts if the formative tasks are automated? Deskilling is not just an individual issue, but one of transmission.",
+    "regard_fr": "Le deskilling pose une question stratégique rarement anticipée : en automatisant les tâches d'apprentissage, on tarit la source des experts futurs. La productivité immédiate peut coûter la compétence de demain. Automatiser oui, mais en préservant délibérément des espaces où l'expertise humaine se forge encore.",
+    "regard_en": "Deskilling raises a strategic question rarely anticipated: by automating learning tasks, one dries up the source of future experts. Immediate productivity can cost tomorrow's competence. Automate yes, but deliberately preserving spaces where human expertise is still forged.",
+    "termes_lies": ["dependance-cognitive", "ia-emploi", "ia-education", "conduite-changement"],
+    "sources": [{"titre": "Recherches sur le deskilling et l'automatisation"}]
+  },
+  "ia-compagnon": {
+    "sous_titre_fr": "AI companion",
+    "sous_titre_en": "IA compagnon",
+    "definition_fr": "Application d'IA conçue pour tenir compagnie, dialoguer, voire simuler une relation affective. En plein essor, les IA compagnons répondent à un besoin réel de lien · mais soulèvent des questions profondes : dépendance émotionnelle, manipulation, vulnérabilité des publics fragiles, floutage de la frontière entre relation humaine et simulation.",
+    "definition_en": "An AI application designed to keep company, converse, even simulate an emotional relationship. Booming, AI companions respond to a real need for connection · but raise deep questions: emotional dependence, manipulation, vulnerability of fragile audiences, blurring the boundary between human relationship and simulation.",
+    "exemple_fr": "Une personne isolée trouve du réconfort dans un IA compagnon toujours disponible et bienveillant. Bénéfice réel à court terme · mais l'application est conçue pour maximiser l'engagement, pas le bien-être. La dépendance affective à un produit commercial, chez des publics fragiles, appelle une vigilance éthique et réglementaire particulière.",
+    "exemple_en": "An isolated person finds comfort in an always-available, caring AI companion. Real short-term benefit · but the application is designed to maximise engagement, not well-being. Emotional dependence on a commercial product, among fragile audiences, calls for particular ethical and regulatory vigilance.",
+    "regard_fr": "Les IA compagnons touchent à ce qu'il y a de plus intime · le besoin humain de lien. Qu'un produit commercial optimisé pour l'engagement s'y insère pose des questions vertigineuses. Ce n'est pas un usage anodin de l'IA : c'est un terrain où l'éthique doit précéder le marché, pas le suivre.",
+    "regard_en": "AI companions touch the most intimate thing · the human need for connection. That a commercial product optimised for engagement inserts itself there raises dizzying questions. It is not an innocuous AI use: it is a terrain where ethics must precede the market, not follow it.",
+    "termes_lies": ["anthropomorphisme", "ethique-ia", "dependance-cognitive", "ia-education"],
+    "sources": [{"titre": "Analyses éthiques sur les IA relationnelles"}]
+  },
+  "contenu-genere": {
+    "sous_titre_fr": "AI-generated content",
+    "sous_titre_en": "Contenu généré par IA",
+    "definition_fr": "Tout contenu · texte, image, son, vidéo, code · produit par une IA générative. Sa prolifération transforme les industries créatives et informationnelles, et soulève des questions de transparence (faut-il le signaler ?), de droit (à qui appartient-il ?) et de qualité (comment éviter la saturation par du contenu médiocre ?).",
+    "definition_en": "Any content · text, image, sound, video, code · produced by generative AI. Its proliferation transforms the creative and information industries, and raises questions of transparency (should it be flagged?), law (who owns it?) and quality (how to avoid saturation by mediocre content?).",
+    "exemple_fr": "Une entreprise produit désormais l'essentiel de ses visuels et brouillons par IA · gain de coût majeur. Mais elle instaure une règle : tout contenu généré est relu, et signalé comme tel quand la transparence l'exige. Elle profite de l'IA sans renoncer ni à la qualité ni à l'honnêteté vis-à-vis de son public.",
+    "exemple_en": "A company now produces most of its visuals and drafts by AI · a major cost saving. But it sets a rule: every generated content is reviewed, and flagged as such when transparency requires it. It benefits from AI without giving up either quality or honesty towards its audience.",
+    "regard_fr": "Le contenu généré n'est ni bon ni mauvais en soi · tout dépend de l'usage, de la relecture et de la transparence. La vraie ligne de partage n'est pas « fait par IA ou par humain », mais « assumé et vérifié, ou déversé sans contrôle ». Le premier enrichit, le second sature. Choisissez votre camp.",
+    "regard_en": "Generated content is neither good nor bad in itself · everything depends on use, review and transparency. The real dividing line is not \"made by AI or human\", but \"owned and verified, or dumped without control\". The first enriches, the second saturates. Choose your side.",
+    "termes_lies": ["slop", "filigrane-ia", "detection-contenu-ia", "statut-oeuvres-ia"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (contenu généré par IA)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  }
+}

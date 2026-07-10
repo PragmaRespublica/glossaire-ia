@@ -1,0 +1,110 @@
+{
+  "prompt-engineering": {
+    "sous_titre_fr": "Ingénierie de prompt",
+    "sous_titre_en": "Ingénierie de prompt",
+    "definition_fr": "Art et méthode de formuler des instructions efficaces pour un modèle génératif : préciser le rôle, la tâche, le format, le contexte et les contraintes. Le prompt engineering maximise la qualité des réponses pour un coût minimal. À l'ère des agents, il évolue vers l'ingénierie de contexte, plus large et plus structurée.",
+    "definition_en": "The art and method of formulating effective instructions for a generative model: specifying the role, task, format, context and constraints. Prompt engineering maximises answer quality at minimal cost. In the agent era, it evolves towards context engineering, broader and more structured.",
+    "exemple_fr": "Un débutant écrit « fais-moi un plan marketing » et obtient du générique. Un prompt travaillé · rôle, cible, contraintes, format attendu · produit un livrable directement exploitable. La différence de résultat, pour le même modèle, est spectaculaire. Le prompt engineering est le premier levier de valeur, avant tout changement de modèle.",
+    "exemple_en": "A beginner writes \"make me a marketing plan\" and gets generic output. A crafted prompt · role, target, constraints, expected format · produces a directly usable deliverable. The difference in result, for the same model, is spectacular. Prompt engineering is the first value lever, before any model change.",
+    "regard_fr": "Le prompt engineering est la compétence la plus rentable de l'IA générative : gratuite, immédiate, et démultipliant la valeur de n'importe quel modèle. Former ses équipes à bien prompter rapporte plus que d'acheter un modèle plus cher. C'est le cœur de nos formations · et le plus accessible des progrès.",
+    "regard_en": "Prompt engineering is the most cost-effective skill of generative AI: free, immediate, and multiplying the value of any model. Training your teams to prompt well pays more than buying a costlier model. It is the heart of our training · and the most accessible of gains.",
+    "termes_lies": ["prompt", "ingenierie-contexte", "chaine-pensee", "role-persona"],
+    "sources": [{"titre": "Google Cloud · Generative AI Glossary (prompt engineering)", "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"}]
+  },
+  "prompt-systeme": {
+    "sous_titre_fr": "System prompt",
+    "sous_titre_en": "Prompt système",
+    "definition_fr": "Instruction de fond, invisible pour l'utilisateur final, qui définit le comportement, le rôle, le ton et les limites d'un assistant IA pour toute une conversation. Le prompt système est le lieu où l'on cadre une IA : ce qu'elle peut faire, ce qu'elle doit refuser, comment elle s'exprime. Un levier de contrôle majeur.",
+    "definition_en": "A background instruction, invisible to the end user, defining an AI assistant's behaviour, role, tone and limits for a whole conversation. The system prompt is where an AI is framed: what it can do, what it must refuse, how it expresses itself. A major control lever.",
+    "exemple_fr": "Une entreprise déploie un assistant client. Son prompt système fixe le cadre : « Tu es le conseiller de la société X. Tu réponds en vouvoyant, tu ne parles jamais des concurrents, tu refuses toute question hors sujet. » Ce cadrage invisible garantit une expérience cohérente, quel que soit l'utilisateur.",
+    "exemple_en": "A company deploys a customer assistant. Its system prompt sets the frame: \"You are company X's advisor. You answer formally, you never mention competitors, you decline any off-topic question.\" This invisible framing guarantees a consistent experience, whatever the user.",
+    "regard_fr": "Le prompt système est le contrat de comportement d'un assistant · mais rappelez-vous qu'il n'est pas une barrière infranchissable. Un utilisateur déterminé peut tenter de le contourner (injection, débridage). Il cadre, il n'emprisonne pas. Pour les usages sensibles, ajoutez de vrais garde-fous en plus.",
+    "regard_en": "The system prompt is an assistant's behaviour contract · but remember it is not an impassable barrier. A determined user can try to bypass it (injection, jailbreak). It frames, it does not imprison. For sensitive uses, add real guardrails on top.",
+    "termes_lies": ["prompt", "guardrails", "prompt-injection", "assistants-personnalises"],
+    "sources": [{"titre": "Documentation des API de LLM (system prompt)", "url": "https://www.anthropic.com/"}]
+  },
+  "chaine-pensee": {
+    "sous_titre_fr": "Chain-of-thought (CoT)",
+    "sous_titre_en": "Chaîne de pensée",
+    "definition_fr": "Technique consistant à demander à un modèle d'expliciter son raisonnement étape par étape avant de conclure, plutôt que de répondre directement. La chaîne de pensée améliore nettement la performance sur les problèmes complexes · logique, mathématiques, analyse · en laissant au modèle « la place » de réfléchir.",
+    "definition_en": "A technique of asking a model to spell out its reasoning step by step before concluding, rather than answering directly. Chain-of-thought markedly improves performance on complex problems · logic, mathematics, analysis · by giving the model \"room\" to think.",
+    "exemple_fr": "Face à un problème de logique, un modèle interrogé directement se trompe souvent. En lui demandant « raisonne étape par étape », il décompose, vérifie, et trouve la bonne réponse. La chaîne de pensée transforme un modèle impulsif en modèle méthodique · un simple ajout dans le prompt qui change tout.",
+    "exemple_en": "Facing a logic problem, a model asked directly often errs. Asking it to \"reason step by step\", it decomposes, verifies, and finds the right answer. Chain-of-thought turns an impulsive model into a methodical one · a simple addition to the prompt that changes everything.",
+    "regard_fr": "La chaîne de pensée illustre une vérité contre-intuitive : forcer un modèle à ralentir le rend plus juste. Elle a aussi un mérite de transparence · on voit le raisonnement, donc on peut le vérifier. Un raisonnement affiché et faux vaut mieux qu'une bonne réponse inexplicable qu'on ne peut contrôler.",
+    "regard_en": "Chain-of-thought illustrates a counterintuitive truth: forcing a model to slow down makes it more accurate. It also has a transparency merit · you see the reasoning, so you can verify it. A displayed, wrong reasoning is better than an unexplained right answer you cannot check.",
+    "termes_lies": ["arbre-pensees", "raisonnement-etendu", "modele-raisonnement", "prompt-engineering"],
+    "sources": [{"titre": "Wei et al. · Chain-of-Thought Prompting"}]
+  },
+  "arbre-pensees": {
+    "sous_titre_fr": "Tree of Thoughts (ToT)",
+    "sous_titre_en": "Arbre de pensées",
+    "definition_fr": "Extension de la chaîne de pensée où le modèle explore plusieurs pistes de raisonnement en parallèle, les évalue, et garde les plus prometteuses · comme un arbre de possibilités. Plus coûteux mais plus puissant sur les problèmes exigeant exploration et retour en arrière, là où un raisonnement linéaire s'enferme dans une impasse.",
+    "definition_en": "An extension of chain-of-thought where the model explores several reasoning paths in parallel, evaluates them, and keeps the most promising · like a tree of possibilities. Costlier but more powerful on problems requiring exploration and backtracking, where linear reasoning gets stuck in a dead end.",
+    "exemple_fr": "Pour résoudre une énigme complexe, un raisonnement linéaire s'engage dans une voie et s'y perd. L'arbre de pensées explore plusieurs approches, abandonne les impasses, poursuit les pistes fécondes. Sur les problèmes de planification ou de logique difficile, cette exploration structurée fait la différence.",
+    "exemple_en": "To solve a complex puzzle, linear reasoning commits to one path and gets lost. Tree of Thoughts explores several approaches, abandons dead ends, pursues fruitful leads. On planning or hard-logic problems, this structured exploration makes the difference.",
+    "regard_fr": "L'arbre de pensées rapproche le raisonnement des modèles de la façon dont un humain aborde un problème difficile : essayer, reculer, réessayer. Puissant, mais coûteux · réservez-le aux problèmes qui le justifient vraiment. Pour la plupart des tâches, une simple chaîne de pensée suffit largement.",
+    "regard_en": "Tree of Thoughts brings model reasoning closer to how a human tackles a hard problem: try, back up, try again. Powerful, but costly · reserve it for problems that truly warrant it. For most tasks, a simple chain-of-thought is more than enough.",
+    "termes_lies": ["chaine-pensee", "raisonnement-etendu", "planification-agent", "modele-raisonnement"],
+    "sources": [{"titre": "Yao et al. · Tree of Thoughts"}]
+  },
+  "role-persona": {
+    "sous_titre_fr": "Role prompting",
+    "sous_titre_en": "Attribution de rôle",
+    "definition_fr": "Technique consistant à assigner un rôle ou une expertise au modèle dans le prompt · « tu es un juriste spécialisé en droit du travail » · pour orienter le style, le niveau de détail et le point de vue de ses réponses. Simple et efficace, elle cadre la posture du modèle et améliore souvent la pertinence.",
+    "definition_en": "A technique of assigning a role or expertise to the model in the prompt · \"you are a lawyer specialising in labour law\" · to steer the style, level of detail and viewpoint of its answers. Simple and effective, it frames the model's stance and often improves relevance.",
+    "exemple_fr": "« Explique-moi ce contrat » donne une réponse générique. « Tu es un avocat en droit des affaires ; explique à un dirigeant non juriste les risques de ce contrat en trois points » donne une réponse ciblée, au bon niveau. L'attribution de rôle aligne le modèle sur le contexte et l'interlocuteur réels.",
+    "exemple_en": "\"Explain this contract to me\" gives a generic answer. \"You are a business lawyer; explain to a non-lawyer executive the risks of this contract in three points\" gives a targeted answer, at the right level. Role prompting aligns the model with the real context and audience.",
+    "regard_fr": "L'attribution de rôle est un raccourci puissant · mais ne vous y trompez pas : dire à un modèle « tu es médecin » ne lui donne pas les compétences d'un médecin, seulement le style. Utile pour cadrer le ton et la posture, dangereux si on le prend pour une garantie d'expertise réelle.",
+    "regard_en": "Role prompting is a powerful shortcut · but make no mistake: telling a model \"you are a doctor\" does not give it a doctor's competence, only the style. Useful for framing tone and stance, dangerous if taken as a guarantee of real expertise.",
+    "termes_lies": ["prompt-engineering", "prompt-systeme", "anthropomorphisme", "zero-shot-few-shot"],
+    "sources": [{"titre": "Guides de prompt engineering (rôle et persona)"}]
+  },
+  "sorties-structurees": {
+    "sous_titre_fr": "Structured outputs",
+    "sous_titre_en": "Sorties structurées",
+    "definition_fr": "Capacité à contraindre un modèle à répondre dans un format précis et exploitable par une machine · typiquement du JSON respectant un schéma défini. Les sorties structurées sont la clé de l'intégration de l'IA dans des applications : elles transforment une réponse en texte libre en données directement utilisables par le système.",
+    "definition_en": "The ability to constrain a model to answer in a precise, machine-usable format · typically JSON respecting a defined schema. Structured outputs are the key to integrating AI into applications: they turn a free-text answer into data directly usable by the system.",
+    "exemple_fr": "Une application extrait des informations de factures via un LLM. Sans format imposé, chaque réponse varie et l'intégration casse. En exigeant une sortie structurée · un JSON avec les champs montant, date, fournisseur · l'application reçoit des données fiables et régulières. La sortie structurée rend l'IA industrialisable.",
+    "exemple_en": "An application extracts information from invoices via a LLM. Without an imposed format, each answer varies and the integration breaks. By requiring a structured output · a JSON with the fields amount, date, supplier · the application receives reliable, regular data. Structured output makes AI industrialisable.",
+    "regard_fr": "Les sorties structurées sont le pont entre la souplesse du langage et la rigueur des systèmes. Sans elles, l'IA reste un gadget conversationnel ; avec elles, elle devient un composant logiciel fiable. C'est un détail technique qui décide de la capacité réelle d'une IA à s'intégrer dans vos processus.",
+    "regard_en": "Structured outputs are the bridge between language's flexibility and systems' rigour. Without them, AI stays a conversational gadget; with them, it becomes a reliable software component. It is a technical detail that decides an AI's real ability to integrate into your processes.",
+    "termes_lies": ["appel-fonctions", "prompt-engineering", "generation-code", "automatisation-intelligente"],
+    "sources": [{"titre": "Documentation des API de LLM (structured outputs)", "url": "https://www.anthropic.com/"}]
+  },
+  "prompt-negatif": {
+    "sous_titre_fr": "Negative prompt",
+    "sous_titre_en": "Prompt négatif",
+    "definition_fr": "Instruction précisant ce qu'un modèle génératif doit éviter de produire, surtout en génération d'images : exclure un style, un élément, un défaut. Le prompt négatif affine le résultat en cadrant par la négative · dire ce qu'on ne veut pas est parfois plus efficace que de décrire ce qu'on veut.",
+    "definition_en": "An instruction specifying what a generative model should avoid producing, especially in image generation: excluding a style, an element, a flaw. The negative prompt refines the result by framing in the negative · saying what you don't want is sometimes more effective than describing what you want.",
+    "exemple_fr": "Un designer génère un visuel mais obtient toujours des mains déformées, défaut classique. En ajoutant un prompt négatif « mains déformées, doigts en trop », il guide le modèle à les éviter. Le résultat s'améliore nettement. Cadrer par ce qu'on refuse complète utilement la description de ce qu'on souhaite.",
+    "exemple_en": "A designer generates a visual but always gets deformed hands, a classic flaw. By adding a negative prompt \"deformed hands, extra fingers\", they guide the model to avoid them. The result improves markedly. Framing by what you refuse usefully complements the description of what you want.",
+    "regard_fr": "Le prompt négatif rappelle qu'en génération, on sculpte autant en retirant qu'en ajoutant. Cette technique, familière aux créatifs, mérite d'être connue au-delà de l'image · dans tout usage génératif, préciser ce qu'on ne veut pas est un levier de contrôle souvent négligé.",
+    "regard_en": "The negative prompt recalls that in generation, one sculpts as much by removing as by adding. This technique, familiar to creatives, deserves to be known beyond images · in any generative use, specifying what you don't want is an often-neglected control lever.",
+    "termes_lies": ["prompt-engineering", "generation-images", "modeles-diffusion", "prompt"],
+    "sources": [{"titre": "Guides de génération d'images (negative prompting)"}]
+  },
+  "iteration-requetes": {
+    "sous_titre_fr": "Iterative prompting, affiner en dialoguant",
+    "sous_titre_en": "Refining through dialogue",
+    "definition_fr": "Pratique consistant à obtenir un bon résultat non pas d'un seul prompt parfait, mais d'un dialogue : on demande, on évalue, on affine, on corrige. L'itération de requêtes est la façon la plus réaliste de travailler avec un LLM · rarement la première réponse est la bonne, souvent la troisième l'est.",
+    "definition_en": "The practice of obtaining a good result not from a single perfect prompt, but from a dialogue: you ask, evaluate, refine, correct. Iterative prompting is the most realistic way to work with a LLM · rarely is the first answer the right one, often the third is.",
+    "exemple_fr": "Un rédacteur demande un texte, le juge trop formel, demande « plus direct », puis « raccourcis le deuxième paragraphe », puis « ajoute un exemple ». En quatre échanges, il obtient exactement ce qu'il voulait. Chercher le prompt parfait du premier coup est une perte de temps · le dialogue est plus efficace.",
+    "exemple_en": "A writer asks for a text, judges it too formal, asks for \"more direct\", then \"shorten the second paragraph\", then \"add an example\". In four exchanges, they get exactly what they wanted. Seeking the perfect prompt on the first try is a waste of time · dialogue is more effective.",
+    "regard_fr": "L'itération de requêtes déculpabilise l'utilisateur : non, vous n'avez pas à trouver le prompt parfait du premier coup. Travailler avec un LLM, c'est dialoguer, pas commander. Cette posture · essayer, ajuster, recommencer · est plus productive que la quête illusoire de la formule magique.",
+    "regard_en": "Iterative prompting reassures the user: no, you do not have to find the perfect prompt on the first try. Working with a LLM means dialoguing, not commanding. This stance · try, adjust, retry · is more productive than the illusory quest for the magic formula.",
+    "termes_lies": ["prompt-engineering", "conversation-multitour", "enchainement-requetes", "reformulation-requete"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (itération de requêtes)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "enchainement-requetes": {
+    "sous_titre_fr": "Prompt chaining",
+    "sous_titre_en": "Enchaînement de requêtes",
+    "definition_fr": "Technique consistant à décomposer une tâche complexe en une suite de prompts, où la sortie de l'un alimente l'entrée du suivant. Plutôt qu'un unique prompt géant, on enchaîne des étapes ciblées : extraire, puis analyser, puis rédiger. L'enchaînement améliore la fiabilité et rend le processus lisible et débogable.",
+    "definition_en": "A technique of breaking a complex task into a series of prompts, where the output of one feeds the input of the next. Rather than a single giant prompt, one chains targeted steps: extract, then analyse, then write. Chaining improves reliability and makes the process legible and debuggable.",
+    "exemple_fr": "Pour produire une synthèse d'entretiens, plutôt qu'un prompt monstrueux, une équipe enchaîne : extraire les verbatims clés, puis les regrouper par thème, puis rédiger la synthèse. Chaque étape est simple, vérifiable, corrigible. L'enchaînement transforme une tâche floue en processus maîtrisé.",
+    "exemple_en": "To produce a synthesis of interviews, rather than a monstrous prompt, a team chains: extract the key verbatims, then group them by theme, then write the synthesis. Each step is simple, verifiable, correctable. Chaining turns a fuzzy task into a controlled process.",
+    "regard_fr": "L'enchaînement de requêtes applique à l'IA une sagesse d'ingénieur : décomposer un problème complexe en étapes simples. Un prompt géant est fragile et opaque ; une chaîne d'étapes ciblées est robuste et transparente. Diviser pour mieux fiabiliser · un réflexe qui distingue l'amateur du professionnel.",
+    "regard_en": "Prompt chaining applies an engineer's wisdom to AI: breaking a complex problem into simple steps. A giant prompt is fragile and opaque; a chain of targeted steps is robust and transparent. Divide to make more reliable · a reflex that distinguishes the amateur from the professional.",
+    "termes_lies": ["iteration-requetes", "flux-agentiques", "prompt-engineering", "orchestration-ia"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (enchaînement de requêtes)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  }
+}

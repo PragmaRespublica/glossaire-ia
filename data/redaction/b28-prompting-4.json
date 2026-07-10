@@ -1,0 +1,122 @@
+{
+  "cas-usage": {
+    "sous_titre_fr": "AI use case",
+    "sous_titre_en": "Cas d'usage IA",
+    "definition_fr": "Application concrète et délimitée de l'IA à un problème métier précis, avec un objectif, des utilisateurs et une valeur attendue clairs. Raisonner par cas d'usage · plutôt que par technologie · est la clé d'une adoption réussie : on part du besoin, pas de l'outil. Un bon cas d'usage est mesurable, borné et aligné sur un enjeu réel.",
+    "definition_en": "A concrete, bounded application of AI to a specific business problem, with clear objective, users and expected value. Reasoning by use case · rather than by technology · is the key to successful adoption: you start from the need, not the tool. A good use case is measurable, bounded and aligned with a real stake.",
+    "exemple_fr": "Une entreprise veut « faire de l'IA ». Formulé ainsi, le projet patine. Reformulé en cas d'usage · « réduire de moitié le temps de traitement des factures fournisseurs » · il devient concret, mesurable, finançable. Le cas d'usage transforme une ambition floue en projet exécutable. C'est le point de départ de toute démarche sérieuse.",
+    "exemple_en": "A company wants to \"do AI\". Framed that way, the project stalls. Reframed as a use case · \"halve the processing time of supplier invoices\" · it becomes concrete, measurable, fundable. The use case turns a vague ambition into an executable project. It is the starting point of any serious approach.",
+    "regard_fr": "Commencer par la technologie · « déployons un LLM » · est la meilleure façon d'échouer. Commencer par le cas d'usage · « quel problème coûteux résoudre ? » · est la meilleure façon de réussir. La question n'est jamais « que peut faire l'IA ? » mais « quel besoin ai-je, et l'IA est-elle la bonne réponse ? ».",
+    "regard_en": "Starting from the technology · \"let's deploy a LLM\" · is the best way to fail. Starting from the use case · \"what costly problem to solve?\" · is the best way to succeed. The question is never \"what can AI do?\" but \"what need do I have, and is AI the right answer?\".",
+    "termes_lies": ["adoption-ia", "roi-ia", "poc", "registre-cas-usage"],
+    "sources": [{"titre": "Méthodologies de cadrage de projets IA"}]
+  },
+  "adoption-ia": {
+    "sous_titre_fr": "Enterprise AI adoption",
+    "sous_titre_en": "Adoption de l'IA en entreprise",
+    "definition_fr": "Processus par lequel une organisation intègre réellement l'IA dans ses pratiques, au-delà de l'expérimentation. L'adoption ne se décrète pas : elle suppose formation, accompagnement, cas d'usage pertinents, confiance et gouvernance. Le principal frein n'est presque jamais technique · il est humain, culturel et organisationnel.",
+    "definition_en": "The process by which an organisation truly integrates AI into its practices, beyond experimentation. Adoption cannot be decreed: it requires training, support, relevant use cases, trust and governance. The main obstacle is almost never technical · it is human, cultural and organisational.",
+    "exemple_fr": "Une entreprise déploie un excellent outil d'IA · et personne ne l'utilise. Le problème n'était pas l'outil, mais l'absence de formation, de sens et de confiance. Une autre, avec un outil modeste mais un vrai accompagnement, obtient une adoption massive. L'adoption se joue dans les têtes, pas dans la technologie.",
+    "exemple_en": "A company deploys an excellent AI tool · and no one uses it. The problem was not the tool, but the lack of training, meaning and trust. Another, with a modest tool but real support, achieves massive adoption. Adoption plays out in minds, not in technology.",
+    "regard_fr": "L'échec de la plupart des projets d'IA n'est pas technologique mais humain : on a soigné l'outil et négligé les gens. Investir dans la formation et l'accompagnement rapporte plus que dans un modèle plus cher. L'IA est une transformation des pratiques avant d'être une technologie · c'est notre conviction fondatrice.",
+    "regard_en": "The failure of most AI projects is not technological but human: the tool was polished and the people neglected. Investing in training and support pays more than in a costlier model. AI is a transformation of practices before being a technology · that is our founding conviction.",
+    "termes_lies": ["cas-usage", "conduite-changement", "acculturation-ia", "gouvernance-ia"],
+    "sources": [{"titre": "Études sur l'adoption de l'IA en entreprise"}]
+  },
+  "conduite-changement": {
+    "sous_titre_fr": "AI change management",
+    "sous_titre_en": "Conduite du changement IA",
+    "definition_fr": "Ensemble des démarches accompagnant l'intégration de l'IA pour lever les résistances, former, rassurer et embarquer les équipes. L'IA bouscule les métiers, les habitudes et parfois les identités professionnelles · la conduite du changement transforme une technologie imposée en outil approprié. Sans elle, même la meilleure IA échoue à l'usage.",
+    "definition_en": "The set of actions accompanying AI integration to lift resistance, train, reassure and bring teams on board. AI disrupts jobs, habits and sometimes professional identities · change management turns an imposed technology into an appropriated tool. Without it, even the best AI fails in use.",
+    "exemple_fr": "Une entreprise introduit un assistant IA sans préparation. Les équipes, craignant pour leurs emplois, le sabotent passivement. Une autre explique, forme, montre comment l'IA les décharge des tâches ingrates, implique les utilisateurs dans la conception. La seconde réussit là où la première échoue · même technologie, résultat opposé.",
+    "exemple_en": "A company introduces an AI assistant without preparation. Teams, fearing for their jobs, passively sabotage it. Another explains, trains, shows how AI relieves them of thankless tasks, involves users in the design. The second succeeds where the first fails · same technology, opposite result.",
+    "regard_fr": "La conduite du changement n'est pas un supplément d'âme des projets d'IA · c'en est le cœur. La peur, non traitée, tue les meilleurs projets. Écouter, expliquer, associer les équipes coûte du temps · infiniment moins que l'échec d'un déploiement rejeté. L'humain d'abord, toujours.",
+    "regard_en": "Change management is not a nice-to-have of AI projects · it is their core. Untreated fear kills the best projects. Listening, explaining, involving teams costs time · infinitely less than the failure of a rejected deployment. People first, always.",
+    "termes_lies": ["adoption-ia", "ia-emploi", "deskilling", "acculturation-ia"],
+    "sources": [{"titre": "Méthodologies de conduite du changement"}]
+  },
+  "automatisation-intelligente": {
+    "sous_titre_fr": "Intelligent automation",
+    "sous_titre_en": "Automatisation intelligente",
+    "definition_fr": "Combinaison de l'automatisation classique (règles, workflows) et de l'IA (compréhension, décision, génération) pour automatiser des processus jusque-là trop complexes ou trop variables. L'automatisation intelligente traite les cas nuancés que les règles rigides ne savaient gérer · en gardant idéalement un humain pour les exceptions.",
+    "definition_en": "The combination of classic automation (rules, workflows) and AI (understanding, decision, generation) to automate processes previously too complex or too variable. Intelligent automation handles the nuanced cases that rigid rules could not manage · ideally keeping a human for the exceptions.",
+    "exemple_fr": "Un traitement de réclamations reposait sur des règles fixes, incapables de gérer les cas atypiques renvoyés à des agents débordés. L'automatisation intelligente ajoute une IA qui comprend le langage naturel des réclamations, propose une réponse, et n'escalade que les vrais cas complexes. Le taux d'automatisation bondit sans dégrader la qualité.",
+    "exemple_en": "A complaint-handling process relied on fixed rules, unable to manage atypical cases sent to overwhelmed agents. Intelligent automation adds an AI that understands the natural language of complaints, proposes a response, and only escalates the truly complex cases. The automation rate jumps without degrading quality.",
+    "regard_fr": "L'automatisation intelligente est la vraie promesse de l'IA en entreprise : non pas remplacer l'humain, mais automatiser ce qui résistait à l'automatisation classique, tout en réservant à l'humain les cas qui le méritent. La clé reste de bien placer la frontière entre ce qu'on automatise et ce qu'on supervise.",
+    "regard_en": "Intelligent automation is AI's true promise in the enterprise: not replacing the human, but automating what resisted classic automation, while reserving for the human the cases that deserve it. The key remains placing the boundary well between what you automate and what you supervise.",
+    "termes_lies": ["rpa", "hyperautomatisation", "flux-agentiques", "idp"],
+    "sources": [{"titre": "Analyses du marché de l'automatisation intelligente"}]
+  },
+  "rpa": {
+    "sous_titre_fr": "Robotic Process Automation",
+    "sous_titre_en": "Automatisation robotisée des processus",
+    "definition_fr": "Technologie automatisant des tâches répétitives et réglées en imitant les actions humaines dans les logiciels : saisies, copier-coller, transferts entre applications. Antérieure à l'IA générative, la RPA gère bien les processus stables et structurés · couplée à l'IA, elle s'attaque à des tâches plus variables et non structurées.",
+    "definition_en": "A technology automating repetitive, rule-based tasks by mimicking human actions in software: data entry, copy-paste, transfers between applications. Predating generative AI, RPA handles stable, structured processes well · coupled with AI, it tackles more variable, unstructured tasks.",
+    "exemple_fr": "Une équipe passait des heures à recopier des données d'un logiciel à un autre. Un robot RPA fait la même chose sans erreur, 24 h/24. Simple et efficace · tant que le processus ne change pas. Dès qu'il faut interpréter un document non structuré, on ajoute de l'IA à la RPA. Chacune a son domaine.",
+    "exemple_en": "A team spent hours recopying data from one software to another. An RPA robot does the same without error, 24/7. Simple and effective · as long as the process does not change. As soon as an unstructured document must be interpreted, AI is added to RPA. Each has its domain.",
+    "regard_fr": "La RPA rappelle que toute automatisation n'a pas besoin d'IA : pour des tâches stables et réglées, un robot simple suffit, plus sobre et plus fiable qu'un LLM. La sagesse consiste à réserver l'IA aux tâches qui exigent réellement de la compréhension · et la RPA classique au reste. Le bon outil pour le bon problème.",
+    "regard_en": "RPA recalls that not all automation needs AI: for stable, rule-based tasks, a simple robot suffices, more frugal and reliable than a LLM. Wisdom lies in reserving AI for tasks that truly require understanding · and classic RPA for the rest. The right tool for the right problem.",
+    "termes_lies": ["automatisation-intelligente", "hyperautomatisation", "ia-non-generative", "idp"],
+    "sources": [{"titre": "Analyses du marché RPA"}]
+  },
+  "hyperautomatisation": {
+    "sous_titre_fr": "Hyperautomation",
+    "sous_titre_en": "Hyperautomatisation",
+    "definition_fr": "Démarche visant à automatiser le plus grand nombre possible de processus d'une organisation en combinant IA, RPA, no-code et orchestration. Popularisée par les analystes, l'hyperautomatisation est autant une ambition stratégique qu'un ensemble d'outils · avec le risque, si elle est mal gouvernée, d'automatiser le désordre plutôt que de l'ordonner.",
+    "definition_en": "An approach aiming to automate as many of an organisation's processes as possible by combining AI, RPA, no-code and orchestration. Popularised by analysts, hyperautomation is as much a strategic ambition as a set of tools · with the risk, if poorly governed, of automating disorder rather than ordering it.",
+    "exemple_fr": "Une entreprise lance un programme d'hyperautomatisation et automatise des dizaines de processus. Bilan mitigé : certains gains sont réels, mais on a aussi automatisé des processus absurdes qu'il aurait mieux valu supprimer. Automatiser un mauvais processus ne fait que produire du mauvais plus vite. Repenser avant d'automatiser.",
+    "exemple_en": "A company launches a hyperautomation programme and automates dozens of processes. Mixed results: some gains are real, but absurd processes that would have been better eliminated were also automated. Automating a bad process merely produces bad faster. Rethink before automating.",
+    "regard_fr": "L'hyperautomatisation porte un piège dans son nom : la course au « tout automatiser » fait oublier de se demander ce qui mérite de l'être. Le premier réflexe devant un processus n'est pas « comment l'automatiser ? » mais « faut-il le faire, et sous cette forme ? ». Automatiser l'inutile reste inutile.",
+    "regard_en": "Hyperautomation carries a trap in its name: the race to \"automate everything\" makes people forget to ask what deserves it. The first reflex facing a process is not \"how to automate it?\" but \"should it exist, and in this form?\". Automating the useless remains useless.",
+    "termes_lies": ["automatisation-intelligente", "rpa", "flux-agentiques", "gouvernance-ia"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (hyperautomatisation)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  },
+  "transcription-reunions": {
+    "sous_titre_fr": "AI meeting transcription",
+    "sous_titre_en": "Transcription de réunions par IA",
+    "definition_fr": "Usage de l'IA pour transcrire, résumer et extraire les décisions et actions d'une réunion en temps réel ou en différé. L'un des usages les plus adoptés en entreprise · un gain de temps immédiat. Il soulève cependant des enjeux de consentement, de confidentialité et de conservation : enregistrer une réunion n'est jamais anodin.",
+    "definition_en": "The use of AI to transcribe, summarise and extract decisions and actions from a meeting in real time or afterwards. One of the most-adopted uses in business · an immediate time saving. It raises, however, consent, confidentiality and retention stakes: recording a meeting is never trivial.",
+    "exemple_fr": "Après chaque réunion, un outil d'IA envoie automatiquement le compte rendu, les décisions et les actions assignées. Gain de temps massif. Mais l'entreprise a d'abord posé le cadre : information des participants, consentement, durée de conservation, exclusion des réunions sensibles. L'usage est efficace parce qu'il est encadré.",
+    "exemple_en": "After each meeting, an AI tool automatically sends the minutes, decisions and assigned actions. Massive time saving. But the company first set the frame: informing participants, consent, retention period, exclusion of sensitive meetings. The use is effective because it is framed.",
+    "regard_fr": "La transcription de réunions est d'une utilité immédiate · et d'un angle mort fréquent : on enregistre des propos, donc des données personnelles, souvent sans cadre. Avant de généraliser l'outil, posez les règles de consentement et de conservation. La commodité ne dispense jamais de la conformité.",
+    "regard_en": "Meeting transcription is immediately useful · and a frequent blind spot: you record speech, thus personal data, often without a frame. Before generalising the tool, set the consent and retention rules. Convenience never exempts from compliance.",
+    "termes_lies": ["resume-automatique", "reconnaissance-parole", "donnees-personnelles", "consentement"],
+    "sources": [{"titre": "CNIL · enregistrement et transcription", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "veille-ia": {
+    "sous_titre_fr": "AI-powered monitoring",
+    "sous_titre_en": "Veille augmentée par IA",
+    "definition_fr": "Usage de l'IA pour surveiller, filtrer et synthétiser en continu de grandes quantités d'informations · réglementaire, concurrentielle, technologique. La veille augmentée par IA traite un volume qu'aucune équipe humaine ne pourrait suivre, en remontant l'essentiel. À condition de vérifier : une veille qui hallucine désinforme au lieu d'informer.",
+    "definition_en": "The use of AI to continuously monitor, filter and synthesise large quantities of information · regulatory, competitive, technological. AI-powered monitoring processes a volume no human team could follow, surfacing the essentials. Provided one verifies: monitoring that hallucinates disinforms instead of informing.",
+    "exemple_fr": "Un service juridique doit suivre les évolutions réglementaires de dix pays. Une veille augmentée par IA scrute les sources officielles, repère les changements pertinents et les résume chaque matin. L'équipe se concentre sur l'analyse, pas sur la collecte. Mais elle recoupe toujours les alertes critiques avec la source · l'IA trie, l'humain valide.",
+    "exemple_en": "A legal department must follow the regulatory developments of ten countries. AI-powered monitoring scans official sources, spots relevant changes and summarises them every morning. The team focuses on analysis, not collection. But it always cross-checks critical alerts against the source · AI sorts, the human validates.",
+    "regard_fr": "La veille augmentée par IA libère un temps précieux · à condition de ne jamais confondre « signalé par l'IA » et « vérifié ». Sur les sujets à enjeu, l'IA est un premier filtre, pas une source de vérité. Elle vous dit où regarder ; c'est encore à vous de regarder vraiment.",
+    "regard_en": "AI-powered monitoring frees precious time · provided you never confuse \"flagged by AI\" with \"verified\". On high-stakes subjects, AI is a first filter, not a source of truth. It tells you where to look; it is still up to you to actually look.",
+    "termes_lies": ["recherche-approfondie", "resume-automatique", "verification-faits", "recherche-ia"],
+    "sources": [{"titre": "Méthodologies de veille stratégique augmentée"}]
+  },
+  "detection-contenu-ia": {
+    "sous_titre_fr": "AI content detection",
+    "sous_titre_en": "Détection de contenu généré par IA",
+    "definition_fr": "Outils cherchant à déterminer si un texte, une image ou une vidéo a été généré par IA. Utiles en apparence · éducation, journalisme, modération · ils sont en réalité peu fiables : taux d'erreur élevé, faux positifs pénalisant des créations humaines, contournables. Une piste fragile face au problème de l'authenticité.",
+    "definition_en": "Tools seeking to determine whether a text, image or video was generated by AI. Seemingly useful · education, journalism, moderation · they are in fact unreliable: high error rate, false positives penalising human creations, bypassable. A fragile avenue against the authenticity problem.",
+    "exemple_fr": "Une école adopte un détecteur de texte IA pour repérer la triche. Problème : il accuse à tort des élèves ayant écrit eux-mêmes, et laisse passer des textes IA légèrement retouchés. Les faux positifs créent des injustices. La détection seule ne règle pas la question · mieux vaut repenser l'évaluation que se fier à un outil faillible.",
+    "exemple_en": "A school adopts an AI text detector to catch cheating. Problem: it wrongly accuses students who wrote their own work, and lets slightly edited AI texts through. False positives create injustices. Detection alone does not settle the question · better to rethink assessment than trust a fallible tool.",
+    "regard_fr": "Les détecteurs de contenu IA promettent une certitude qu'ils ne peuvent tenir. Se fier à un outil qui accuse à tort est pire que de ne rien faire. La provenance vérifiable (C2PA) est une piste plus solide que la détection a posteriori. Face à l'authenticité, méfiez-vous des solutions miracles.",
+    "regard_en": "AI content detectors promise a certainty they cannot deliver. Trusting a tool that wrongly accuses is worse than doing nothing. Verifiable provenance (C2PA) is a more solid avenue than after-the-fact detection. Facing authenticity, beware of miracle solutions.",
+    "termes_lies": ["contenu-genere", "c2pa", "filigrane-ia", "slop"],
+    "sources": [{"titre": "Études sur la fiabilité des détecteurs de contenu IA"}]
+  },
+  "slop": {
+    "sous_titre_fr": "AI slop, la pollution du contenu IA",
+    "sous_titre_en": "The pollution of AI content",
+    "definition_fr": "Terme désignant le contenu généré par IA en masse, de faible qualité, produit sans souci de véracité ni de valeur · articles creux, images génériques, commentaires automatiques. Le slop sature progressivement le web, les réseaux et les résultats de recherche, dégradant l'écosystème informationnel et menaçant, par ricochet, l'entraînement des futurs modèles.",
+    "definition_en": "A term for AI content generated en masse, of low quality, produced with no concern for truth or value · hollow articles, generic images, automatic comments. Slop progressively saturates the web, social networks and search results, degrading the information ecosystem and threatening, by ricochet, the training of future models.",
+    "exemple_fr": "Une recherche sur une question pointue remonte désormais dix articles génériques générés par IA, sans substance, optimisés pour le référencement · du slop. La vraie information, humaine et documentée, est noyée. Ce phénomène dégrade la valeur du web pour tous · et prépare l'effondrement de modèles entraînés dessus.",
+    "exemple_en": "A search on a specific question now surfaces ten generic AI-generated articles, without substance, optimised for search ranking · slop. The real information, human and documented, is drowned. This phenomenon degrades the web's value for everyone · and sets up the collapse of models trained on it.",
+    "regard_fr": "Le slop est la pollution de l'ère de l'IA générative : facile à produire, coûteuse pour tous. Il donne une valeur nouvelle à ce qui est authentique, vérifié et travaillé. Face à la marée du contenu creux, la qualité et l'honnêteté deviennent des marqueurs distinctifs · un choix éditorial autant qu'éthique.",
+    "regard_en": "Slop is the pollution of the generative AI era: easy to produce, costly for all. It gives new value to what is authentic, verified and crafted. Against the tide of hollow content, quality and honesty become distinctive markers · an editorial as much as ethical choice.",
+    "termes_lies": ["contenu-genere", "effondrement-modele", "desinformation-ia", "detection-contenu-ia"],
+    "sources": [{"titre": "Analyses sur le phénomène du AI slop"}]
+  }
+}

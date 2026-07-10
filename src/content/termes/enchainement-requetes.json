@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Enchaînement de requêtes",
+  "terme_en": "Prompt chaining",
+  "sous_titre_fr": "Prompt chaining",
+  "sous_titre_en": "Enchaînement de requêtes",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Technique consistant à décomposer une tâche complexe en une suite de prompts, où la sortie de l'un alimente l'entrée du suivant. Plutôt qu'un unique prompt géant, on enchaîne des étapes ciblées : extraire, puis analyser, puis rédiger. L'enchaînement améliore la fiabilité et rend le processus lisible et débogable.",
+  "definition_en": "A technique of breaking a complex task into a series of prompts, where the output of one feeds the input of the next. Rather than a single giant prompt, one chains targeted steps: extract, then analyse, then write. Chaining improves reliability and makes the process legible and debuggable.",
+  "exemple_fr": "Pour produire une synthèse d'entretiens, plutôt qu'un prompt monstrueux, une équipe enchaîne : extraire les verbatims clés, puis les regrouper par thème, puis rédiger la synthèse. Chaque étape est simple, vérifiable, corrigible. L'enchaînement transforme une tâche floue en processus maîtrisé.",
+  "exemple_en": "To produce a synthesis of interviews, rather than a monstrous prompt, a team chains: extract the key verbatims, then group them by theme, then write the synthesis. Each step is simple, verifiable, correctable. Chaining turns a fuzzy task into a controlled process.",
+  "regard_fr": "L'enchaînement de requêtes applique à l'IA une sagesse d'ingénieur : décomposer un problème complexe en étapes simples. Un prompt géant est fragile et opaque ; une chaîne d'étapes ciblées est robuste et transparente. Diviser pour mieux fiabiliser · un réflexe qui distingue l'amateur du professionnel.",
+  "regard_en": "Prompt chaining applies an engineer's wisdom to AI: breaking a complex problem into simple steps. A giant prompt is fragile and opaque; a chain of targeted steps is robust and transparent. Divide to make more reliable · a reflex that distinguishes the amateur from the professional.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "iteration-requetes",
+    "flux-agentiques",
+    "prompt-engineering",
+    "orchestration-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (enchaînement de requêtes)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

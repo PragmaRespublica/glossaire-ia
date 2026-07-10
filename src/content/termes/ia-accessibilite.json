@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA et accessibilité",
+  "terme_en": "AI and accessibility",
+  "sous_titre_fr": "AI and accessibility",
+  "sous_titre_en": "IA et accessibilité",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Usages de l'IA au service des personnes en situation de handicap : description d'images pour les malvoyants, sous-titrage et transcription pour les malentendants, synthèse et simplification de texte, commande vocale, traduction en langue des signes. L'un des domaines où l'IA tient le mieux sa promesse d'émancipation et d'inclusion.",
+  "definition_en": "Uses of AI serving people with disabilities: image description for the visually impaired, captioning and transcription for the hearing impaired, text synthesis and simplification, voice control, sign-language translation. One of the domains where AI best keeps its promise of empowerment and inclusion.",
+  "exemple_fr": "Une personne malvoyante utilise une IA qui décrit en temps réel ce que capte la caméra de son téléphone : un document, une rue, un visage. L'autonomie gagnée est considérable. C'est l'un des usages où l'IA change concrètement des vies · un rappel que la technologie, bien orientée, est d'abord un outil d'émancipation.",
+  "exemple_en": "A visually impaired person uses an AI that describes in real time what their phone camera captures: a document, a street, a face. The autonomy gained is considerable. It is one of the uses where AI concretely changes lives · a reminder that technology, well oriented, is first a tool of empowerment.",
+  "regard_fr": "L'IA au service de l'accessibilité est peut-être son plus beau visage : elle rend possible ce qui ne l'était pas, elle inclut plutôt qu'elle ne remplace. Ce domaine rappelle pourquoi on développe ces technologies · non pour la performance en soi, mais pour ce qu'elles permettent aux humains. Une boussole utile face aux dérives.",
+  "regard_en": "AI serving accessibility is perhaps its finest face: it makes possible what was not, it includes rather than replaces. This domain recalls why these technologies are developed · not for performance itself, but for what they enable for humans. A useful compass against the excesses.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "synthese-vocale",
+    "reconnaissance-parole",
+    "multimodal",
+    "fracture-numerique"
+  ],
+  "sources": [
+    {
+      "titre": "Référentiel d'accessibilité et IA (RGAA)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

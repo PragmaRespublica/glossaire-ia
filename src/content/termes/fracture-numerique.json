@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Fracture numérique et IA",
+  "terme_en": "AI digital divide",
+  "sous_titre_fr": "AI digital divide",
+  "sous_titre_en": "Fracture numérique et IA",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Inégalités d'accès et de maîtrise de l'IA entre personnes, organisations et territoires. La fracture numérique se rejoue avec l'IA : ceux qui savent l'utiliser gagnent un avantage, ceux qui l'ignorent ou n'y ont pas accès prennent du retard. Un enjeu d'inclusion, d'éducation et d'équité territoriale, autant qu'un enjeu économique.",
+  "definition_en": "Inequalities in access to and mastery of AI between people, organisations and territories. The digital divide replays with AI: those who know how to use it gain an advantage, those who ignore it or lack access fall behind. An issue of inclusion, education and territorial equity, as much as an economic one.",
+  "exemple_fr": "Deux PME du même secteur : l'une forme ses équipes à l'IA et gagne en productivité, l'autre, faute de moyens ou de culture, reste à l'écart et perd en compétitivité. À l'échelle d'un territoire, ce creusement d'écarts devient un enjeu de politique publique. La fracture de l'IA se superpose aux fractures existantes et les aggrave.",
+  "exemple_en": "Two SMEs in the same sector: one trains its teams in AI and gains productivity, the other, for lack of means or culture, stays aside and loses competitiveness. At the scale of a territory, this widening of gaps becomes a public policy issue. The AI divide overlaps with existing divides and worsens them.",
+  "regard_fr": "La fracture numérique de l'IA n'est pas une fatalité technique mais un choix de société : forme-t-on tout le monde, ou laisse-t-on l'avantage à quelques-uns ? L'acculturation à l'IA du plus grand nombre est un enjeu démocratique. C'est le sens profond de notre mission · « comprendre pour reprendre le pouvoir » vaut pour tous.",
+  "regard_en": "The AI digital divide is not a technical fatality but a societal choice: do we train everyone, or leave the advantage to a few? AI literacy for the greatest number is a democratic issue. It is the deep meaning of our mission · \"understand to take back control\" applies to all.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "acculturation-ia",
+    "ia-education",
+    "ia-accessibilite",
+    "souverainete-numerique"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses sur les inégalités face à l'IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

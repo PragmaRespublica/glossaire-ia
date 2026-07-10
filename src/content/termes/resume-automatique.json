@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Résumé automatique",
+  "terme_en": "Automatic summarization",
+  "sous_titre_fr": "Automatic summarization",
+  "sous_titre_en": "Résumé automatique",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Génération automatique d'une version condensée d'un texte, préservant ses idées essentielles. L'un des usages les plus utiles et fiables des LLM : synthétiser des rapports, des réunions, des masses de documents. Attention néanmoins · un résumé peut omettre une nuance décisive ou introduire une erreur subtile.",
+  "definition_en": "The automatic generation of a condensed version of a text, preserving its essential ideas. One of the most useful and reliable LLM uses: synthesising reports, meetings, masses of documents. Beware nonetheless · a summary can omit a decisive nuance or introduce a subtle error.",
+  "exemple_fr": "Un dirigeant reçoit chaque matin un résumé automatique des cent articles de veille de son secteur. Gain de temps considérable. Mais pour une décision stratégique, il retourne au texte source : un résumé, aussi bon soit-il, lisse les nuances. L'outil dégrossit, l'humain approfondit ce qui compte.",
+  "exemple_en": "An executive receives every morning an automatic summary of the hundred monitoring articles of their sector. Considerable time savings. But for a strategic decision, they return to the source text: a summary, however good, smooths over nuances. The tool roughs out, the human deepens what matters.",
+  "regard_fr": "Le résumé automatique est l'un des usages de l'IA au meilleur rapport valeur-risque · mais gardez à l'esprit qu'un résumé est une interprétation, pas une photographie. Pour l'information de fond ou les décisions à enjeu, le résumé oriente, il ne remplace pas la lecture de la source.",
+  "regard_en": "Automatic summarisation is one of AI's best value-risk uses · but bear in mind that a summary is an interpretation, not a photograph. For background information or high-stakes decisions, the summary guides, it does not replace reading the source.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "redaction-assistee",
+    "transcription-reunions",
+    "rouge-bleu",
+    "nlp"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (résumé automatique)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

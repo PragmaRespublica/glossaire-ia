@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Rôle et persona",
+  "terme_en": "Role prompting",
+  "sous_titre_fr": "Role prompting",
+  "sous_titre_en": "Attribution de rôle",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Technique consistant à assigner un rôle ou une expertise au modèle dans le prompt · « tu es un juriste spécialisé en droit du travail » · pour orienter le style, le niveau de détail et le point de vue de ses réponses. Simple et efficace, elle cadre la posture du modèle et améliore souvent la pertinence.",
+  "definition_en": "A technique of assigning a role or expertise to the model in the prompt · \"you are a lawyer specialising in labour law\" · to steer the style, level of detail and viewpoint of its answers. Simple and effective, it frames the model's stance and often improves relevance.",
+  "exemple_fr": "« Explique-moi ce contrat » donne une réponse générique. « Tu es un avocat en droit des affaires ; explique à un dirigeant non juriste les risques de ce contrat en trois points » donne une réponse ciblée, au bon niveau. L'attribution de rôle aligne le modèle sur le contexte et l'interlocuteur réels.",
+  "exemple_en": "\"Explain this contract to me\" gives a generic answer. \"You are a business lawyer; explain to a non-lawyer executive the risks of this contract in three points\" gives a targeted answer, at the right level. Role prompting aligns the model with the real context and audience.",
+  "regard_fr": "L'attribution de rôle est un raccourci puissant · mais ne vous y trompez pas : dire à un modèle « tu es médecin » ne lui donne pas les compétences d'un médecin, seulement le style. Utile pour cadrer le ton et la posture, dangereux si on le prend pour une garantie d'expertise réelle.",
+  "regard_en": "Role prompting is a powerful shortcut · but make no mistake: telling a model \"you are a doctor\" does not give it a doctor's competence, only the style. Useful for framing tone and stance, dangerous if taken as a guarantee of real expertise.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt-engineering",
+    "prompt-systeme",
+    "anthropomorphisme",
+    "zero-shot-few-shot"
+  ],
+  "sources": [
+    {
+      "titre": "Guides de prompt engineering (rôle et persona)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Raisonnement étendu (test-time compute)",
+  "terme_en": "Extended reasoning (test-time compute)",
+  "sous_titre_fr": "Test-time compute, calcul au moment de l'inférence",
+  "sous_titre_en": "Extended reasoning (test-time compute)",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Approche où un modèle consacre davantage de calcul à réfléchir avant de répondre · en explorant, vérifiant, révisant son raisonnement · plutôt que de produire une réponse immédiate. Ce « temps de réflexion » supplémentaire améliore nettement les performances sur les problèmes difficiles, au prix d'une latence et d'un coût accrus.",
+  "definition_en": "An approach where a model devotes more compute to thinking before answering · exploring, verifying, revising its reasoning · rather than producing an immediate answer. This extra \"thinking time\" markedly improves performance on hard problems, at the cost of increased latency and cost.",
+  "exemple_fr": "Pour un problème d'analyse complexe, un modèle en mode raisonnement étendu prend le temps de décomposer, tester plusieurs pistes et vérifier · comme un expert qui réfléchit avant de parler. La réponse est bien meilleure, mais arrive en dix secondes au lieu d'une. Un arbitrage entre qualité et rapidité, à choisir selon l'enjeu.",
+  "exemple_en": "For a complex analysis problem, a model in extended reasoning mode takes the time to decompose, test several leads and verify · like an expert who thinks before speaking. The answer is far better, but arrives in ten seconds instead of one. A trade-off between quality and speed, to choose according to the stakes.",
+  "regard_fr": "Le raisonnement étendu déplace le levier de performance : au lieu de toujours agrandir le modèle, on le laisse réfléchir plus longtemps. C'est une piste plus sobre · dépenser du calcul à la demande, seulement quand le problème le justifie, plutôt que d'entraîner sans fin des modèles toujours plus gros.",
+  "regard_en": "Extended reasoning shifts the performance lever: instead of always enlarging the model, you let it think longer. It is a more frugal path · spending compute on demand, only when the problem warrants it, rather than endlessly training ever-bigger models.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chaine-pensee",
+    "modele-raisonnement",
+    "arbre-pensees",
+    "latence"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur le test-time compute (reasoning models)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

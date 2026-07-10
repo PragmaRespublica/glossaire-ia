@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Humain dans la boucle",
+  "terme_en": "Human in the loop",
+  "sous_titre_fr": "Human in the loop",
+  "sous_titre_en": "Humain dans la boucle",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Principe de conception maintenant un humain dans le processus de décision d'un système d'IA, pour valider, corriger ou superviser. L'humain dans la boucle est la garantie que l'IA reste un outil au service du jugement humain · particulièrement essentiel pour les décisions sensibles, irréversibles ou à fort impact sur les personnes.",
+  "definition_en": "A design principle keeping a human in an AI system's decision process, to validate, correct or supervise. Human in the loop is the guarantee that AI stays a tool serving human judgment · particularly essential for sensitive, irreversible or high-impact decisions on people.",
+  "exemple_fr": "Un système d'IA pré-analyse des demandes de crédit, mais un humain valide chaque refus, avec les éléments pour juger. L'IA accélère le traitement des cas simples, l'humain tranche les cas sensibles. Cette répartition · l'IA propose, l'humain décide · combine efficacité et responsabilité.",
+  "exemple_en": "An AI system pre-analyses loan requests, but a human validates each refusal, with the elements to judge. AI speeds up the simple cases, the human settles the sensitive ones. This division · AI proposes, the human decides · combines efficiency and accountability.",
+  "regard_fr": "« Humain dans la boucle » n'a de sens que si l'humain a réellement les moyens et le temps de juger. Un humain qui valide mécaniquement, sans pouvoir contredire, n'est qu'un alibi. La vraie question n'est pas « y a-t-il un humain ? » mais « peut-il effectivement changer la décision ? ».",
+  "regard_en": "\"Human in the loop\" only makes sense if the human really has the means and time to judge. A human who validates mechanically, unable to contradict, is merely an alibi. The real question is not \"is there a human?\" but \"can they actually change the decision?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "supervision-humaine",
+    "decision-automatisee",
+    "agent-autonome",
+    "ethique-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (avec intervention humaine)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

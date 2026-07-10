@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Bibliothèque de prompts",
+  "terme_en": "Prompt library",
+  "sous_titre_fr": "Prompt library",
+  "sous_titre_en": "Bibliothèque de prompts",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Collection organisée de prompts éprouvés, réutilisables et partagés au sein d'une équipe ou d'une organisation. La bibliothèque de prompts capitalise le savoir-faire : plutôt que chacun réinvente ses instructions, on mutualise les meilleures. Un actif discret mais précieux pour industrialiser et fiabiliser l'usage de l'IA.",
+  "definition_en": "An organised collection of proven, reusable prompts shared within a team or organisation. The prompt library capitalises know-how: rather than everyone reinventing their instructions, the best are pooled. A discreet but valuable asset to industrialise and make AI use reliable.",
+  "exemple_fr": "Dans une entreprise, chaque service bricolait ses prompts dans son coin, avec des résultats inégaux. En créant une bibliothèque de prompts partagée · validés, documentés, versionnés · la qualité s'homogénéise et les nouveaux arrivants sont productifs immédiatement. Le savoir-faire cesse d'être individuel pour devenir collectif.",
+  "exemple_en": "In a company, each department tinkered with its prompts on its own, with uneven results. By creating a shared prompt library · validated, documented, versioned · quality becomes consistent and newcomers are productive immediately. Know-how stops being individual to become collective.",
+  "regard_fr": "La bibliothèque de prompts transforme un savoir-faire tacite en patrimoine partagé. C'est l'un des premiers réflexes d'une organisation qui prend l'IA au sérieux : capitaliser plutôt que de laisser chacun réinventer la roue. Un investissement modeste au rendement collectif élevé.",
+  "regard_en": "The prompt library turns tacit know-how into shared heritage. It is one of the first reflexes of an organisation that takes AI seriously: capitalise rather than let everyone reinvent the wheel. A modest investment with high collective returns.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt-engineering",
+    "assistants-personnalises",
+    "adoption-ia",
+    "gouvernance-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Bonnes pratiques d'industrialisation du prompt engineering"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

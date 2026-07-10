@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA en éducation",
+  "terme_en": "AI in education",
+  "sous_titre_fr": "AI in education",
+  "sous_titre_en": "IA en éducation",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Applications de l'IA à l'enseignement : tutorat personnalisé, génération d'exercices, correction assistée, accompagnement. Porteuse de promesses d'individualisation, l'IA en éducation soulève aussi des questions profondes : dépendance cognitive, évaluation, équité d'accès, et le risque d'affaiblir les apprentissages qu'elle prétend soutenir.",
+  "definition_en": "Applications of AI to teaching: personalised tutoring, exercise generation, assisted grading, support. Bearing promises of individualisation, education AI also raises deep questions: cognitive dependence, assessment, equity of access, and the risk of weakening the very learning it claims to support.",
+  "exemple_fr": "Un enseignant utilise l'IA pour générer des exercices adaptés au niveau de chaque élève · individualisation précieuse. Mais il veille à ce que les élèves continuent d'exercer leur propre réflexion, plutôt que de déléguer à l'IA. L'outil enrichit sa pédagogie sans se substituer à l'effort d'apprendre. L'équilibre est délicat mais décisif.",
+  "exemple_en": "A teacher uses AI to generate exercises adapted to each student's level · valuable individualisation. But they ensure students keep exercising their own thinking, rather than delegating to AI. The tool enriches their pedagogy without replacing the effort of learning. The balance is delicate but decisive.",
+  "regard_fr": "L'IA en éducation porte un paradoxe : elle peut aider à apprendre ou dispenser d'apprendre. Un outil qui donne la réponse trop vite atrophie la pensée qu'il devrait former. La question centrale n'est pas « l'IA peut-elle aider ? » mais « aide-t-elle à penser, ou à ne plus penser ? ». L'enjeu est celui des générations futures.",
+  "regard_en": "Education AI carries a paradox: it can help learning or dispense with it. A tool that gives the answer too fast atrophies the thinking it should form. The central question is not \"can AI help?\" but \"does it help thinking, or not thinking anymore?\". The stakes are those of future generations.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "dependance-cognitive",
+    "deskilling",
+    "acculturation-ia",
+    "fracture-numerique"
+  ],
+  "sources": [
+    {
+      "titre": "Ministère de l'Éducation nationale · IA et éducation"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

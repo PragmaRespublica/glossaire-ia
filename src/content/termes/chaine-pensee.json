@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Chaîne de pensée (CoT)",
+  "terme_en": "Chain-of-thought (CoT)",
+  "sous_titre_fr": "Chain-of-thought (CoT)",
+  "sous_titre_en": "Chaîne de pensée",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Technique consistant à demander à un modèle d'expliciter son raisonnement étape par étape avant de conclure, plutôt que de répondre directement. La chaîne de pensée améliore nettement la performance sur les problèmes complexes · logique, mathématiques, analyse · en laissant au modèle « la place » de réfléchir.",
+  "definition_en": "A technique of asking a model to spell out its reasoning step by step before concluding, rather than answering directly. Chain-of-thought markedly improves performance on complex problems · logic, mathematics, analysis · by giving the model \"room\" to think.",
+  "exemple_fr": "Face à un problème de logique, un modèle interrogé directement se trompe souvent. En lui demandant « raisonne étape par étape », il décompose, vérifie, et trouve la bonne réponse. La chaîne de pensée transforme un modèle impulsif en modèle méthodique · un simple ajout dans le prompt qui change tout.",
+  "exemple_en": "Facing a logic problem, a model asked directly often errs. Asking it to \"reason step by step\", it decomposes, verifies, and finds the right answer. Chain-of-thought turns an impulsive model into a methodical one · a simple addition to the prompt that changes everything.",
+  "regard_fr": "La chaîne de pensée illustre une vérité contre-intuitive : forcer un modèle à ralentir le rend plus juste. Elle a aussi un mérite de transparence · on voit le raisonnement, donc on peut le vérifier. Un raisonnement affiché et faux vaut mieux qu'une bonne réponse inexplicable qu'on ne peut contrôler.",
+  "regard_en": "Chain-of-thought illustrates a counterintuitive truth: forcing a model to slow down makes it more accurate. It also has a transparency merit · you see the reasoning, so you can verify it. A displayed, wrong reasoning is better than an unexplained right answer you cannot check.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "arbre-pensees",
+    "raisonnement-etendu",
+    "modele-raisonnement",
+    "prompt-engineering"
+  ],
+  "sources": [
+    {
+      "titre": "Wei et al. · Chain-of-Thought Prompting"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

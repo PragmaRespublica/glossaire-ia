@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Hyperautomatisation",
+  "terme_en": "Hyperautomation",
+  "sous_titre_fr": "Hyperautomation",
+  "sous_titre_en": "Hyperautomatisation",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Démarche visant à automatiser le plus grand nombre possible de processus d'une organisation en combinant IA, RPA, no-code et orchestration. Popularisée par les analystes, l'hyperautomatisation est autant une ambition stratégique qu'un ensemble d'outils · avec le risque, si elle est mal gouvernée, d'automatiser le désordre plutôt que de l'ordonner.",
+  "definition_en": "An approach aiming to automate as many of an organisation's processes as possible by combining AI, RPA, no-code and orchestration. Popularised by analysts, hyperautomation is as much a strategic ambition as a set of tools · with the risk, if poorly governed, of automating disorder rather than ordering it.",
+  "exemple_fr": "Une entreprise lance un programme d'hyperautomatisation et automatise des dizaines de processus. Bilan mitigé : certains gains sont réels, mais on a aussi automatisé des processus absurdes qu'il aurait mieux valu supprimer. Automatiser un mauvais processus ne fait que produire du mauvais plus vite. Repenser avant d'automatiser.",
+  "exemple_en": "A company launches a hyperautomation programme and automates dozens of processes. Mixed results: some gains are real, but absurd processes that would have been better eliminated were also automated. Automating a bad process merely produces bad faster. Rethink before automating.",
+  "regard_fr": "L'hyperautomatisation porte un piège dans son nom : la course au « tout automatiser » fait oublier de se demander ce qui mérite de l'être. Le premier réflexe devant un processus n'est pas « comment l'automatiser ? » mais « faut-il le faire, et sous cette forme ? ». Automatiser l'inutile reste inutile.",
+  "regard_en": "Hyperautomation carries a trap in its name: the race to \"automate everything\" makes people forget to ask what deserves it. The first reflex facing a process is not \"how to automate it?\" but \"should it exist, and in this form?\". Automating the useless remains useless.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "automatisation-intelligente",
+    "rpa",
+    "flux-agentiques",
+    "gouvernance-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (hyperautomatisation)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

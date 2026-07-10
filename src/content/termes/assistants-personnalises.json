@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Assistants personnalisés (GPTs, Gems, Projets)",
+  "terme_en": "Custom assistants",
+  "sous_titre_fr": "Custom assistants (GPTs, Gems, Projets)",
+  "sous_titre_en": "Custom assistants",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Assistants IA configurés pour une tâche ou un domaine précis, sans programmation : on définit un prompt système, on ajoute des documents de référence, éventuellement des outils. Popularisés sous divers noms (GPTs, Gems, Projets), ils permettent à chacun de créer son propre assistant spécialisé · une porte d'entrée accessible vers l'IA sur mesure.",
+  "definition_en": "AI assistants configured for a specific task or domain, without programming: you define a system prompt, add reference documents, possibly tools. Popularised under various names (GPTs, Gems, Projects), they let anyone create their own specialised assistant · an accessible gateway to bespoke AI.",
+  "exemple_fr": "Une équipe juridique crée un assistant personnalisé : prompt système cadrant son rôle, plus les contrats-types de l'entreprise en référence. Chaque juriste dispose désormais d'un assistant qui connaît le contexte maison · sans une ligne de code. Les assistants personnalisés mettent l'IA sur mesure à portée des métiers.",
+  "exemple_en": "A legal team creates a custom assistant: a system prompt framing its role, plus the company's template contracts as reference. Each lawyer now has an assistant that knows the house context · without a line of code. Custom assistants put bespoke AI within business teams' reach.",
+  "regard_fr": "Les assistants personnalisés démocratisent la création d'IA spécialisée · une vraie avancée. Mais attention aux données qu'on y verse : sur une plateforme grand public, les documents de référence peuvent échapper à votre contrôle. Pour des données sensibles, préférez une solution souveraine, même moins ergonomique.",
+  "regard_en": "Custom assistants democratise the creation of specialised AI · a real advance. But beware the data you pour in: on a consumer platform, reference documents may escape your control. For sensitive data, prefer a sovereign solution, even if less ergonomic.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt-systeme",
+    "no-code",
+    "rag",
+    "bibliotheque-prompts"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des plateformes d'assistants personnalisés"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

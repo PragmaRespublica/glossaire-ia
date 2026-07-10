@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Conduite du changement IA",
+  "terme_en": "AI change management",
+  "sous_titre_fr": "AI change management",
+  "sous_titre_en": "Conduite du changement IA",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Ensemble des démarches accompagnant l'intégration de l'IA pour lever les résistances, former, rassurer et embarquer les équipes. L'IA bouscule les métiers, les habitudes et parfois les identités professionnelles · la conduite du changement transforme une technologie imposée en outil approprié. Sans elle, même la meilleure IA échoue à l'usage.",
+  "definition_en": "The set of actions accompanying AI integration to lift resistance, train, reassure and bring teams on board. AI disrupts jobs, habits and sometimes professional identities · change management turns an imposed technology into an appropriated tool. Without it, even the best AI fails in use.",
+  "exemple_fr": "Une entreprise introduit un assistant IA sans préparation. Les équipes, craignant pour leurs emplois, le sabotent passivement. Une autre explique, forme, montre comment l'IA les décharge des tâches ingrates, implique les utilisateurs dans la conception. La seconde réussit là où la première échoue · même technologie, résultat opposé.",
+  "exemple_en": "A company introduces an AI assistant without preparation. Teams, fearing for their jobs, passively sabotage it. Another explains, trains, shows how AI relieves them of thankless tasks, involves users in the design. The second succeeds where the first fails · same technology, opposite result.",
+  "regard_fr": "La conduite du changement n'est pas un supplément d'âme des projets d'IA · c'en est le cœur. La peur, non traitée, tue les meilleurs projets. Écouter, expliquer, associer les équipes coûte du temps · infiniment moins que l'échec d'un déploiement rejeté. L'humain d'abord, toujours.",
+  "regard_en": "Change management is not a nice-to-have of AI projects · it is their core. Untreated fear kills the best projects. Listening, explaining, involving teams costs time · infinitely less than the failure of a rejected deployment. People first, always.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "adoption-ia",
+    "ia-emploi",
+    "deskilling",
+    "acculturation-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Méthodologies de conduite du changement"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

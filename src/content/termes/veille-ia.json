@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Veille augmentée par IA",
+  "terme_en": "AI-powered monitoring",
+  "sous_titre_fr": "AI-powered monitoring",
+  "sous_titre_en": "Veille augmentée par IA",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Usage de l'IA pour surveiller, filtrer et synthétiser en continu de grandes quantités d'informations · réglementaire, concurrentielle, technologique. La veille augmentée par IA traite un volume qu'aucune équipe humaine ne pourrait suivre, en remontant l'essentiel. À condition de vérifier : une veille qui hallucine désinforme au lieu d'informer.",
+  "definition_en": "The use of AI to continuously monitor, filter and synthesise large quantities of information · regulatory, competitive, technological. AI-powered monitoring processes a volume no human team could follow, surfacing the essentials. Provided one verifies: monitoring that hallucinates disinforms instead of informing.",
+  "exemple_fr": "Un service juridique doit suivre les évolutions réglementaires de dix pays. Une veille augmentée par IA scrute les sources officielles, repère les changements pertinents et les résume chaque matin. L'équipe se concentre sur l'analyse, pas sur la collecte. Mais elle recoupe toujours les alertes critiques avec la source · l'IA trie, l'humain valide.",
+  "exemple_en": "A legal department must follow the regulatory developments of ten countries. AI-powered monitoring scans official sources, spots relevant changes and summarises them every morning. The team focuses on analysis, not collection. But it always cross-checks critical alerts against the source · AI sorts, the human validates.",
+  "regard_fr": "La veille augmentée par IA libère un temps précieux · à condition de ne jamais confondre « signalé par l'IA » et « vérifié ». Sur les sujets à enjeu, l'IA est un premier filtre, pas une source de vérité. Elle vous dit où regarder ; c'est encore à vous de regarder vraiment.",
+  "regard_en": "AI-powered monitoring frees precious time · provided you never confuse \"flagged by AI\" with \"verified\". On high-stakes subjects, AI is a first filter, not a source of truth. It tells you where to look; it is still up to you to actually look.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "recherche-approfondie",
+    "resume-automatique",
+    "verification-faits",
+    "recherche-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Méthodologies de veille stratégique augmentée"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

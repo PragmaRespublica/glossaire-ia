@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Slop · contenu IA de masse",
+  "terme_en": "AI slop",
+  "sous_titre_fr": "AI slop, la pollution du contenu IA",
+  "sous_titre_en": "The pollution of AI content",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Terme désignant le contenu généré par IA en masse, de faible qualité, produit sans souci de véracité ni de valeur · articles creux, images génériques, commentaires automatiques. Le slop sature progressivement le web, les réseaux et les résultats de recherche, dégradant l'écosystème informationnel et menaçant, par ricochet, l'entraînement des futurs modèles.",
+  "definition_en": "A term for AI content generated en masse, of low quality, produced with no concern for truth or value · hollow articles, generic images, automatic comments. Slop progressively saturates the web, social networks and search results, degrading the information ecosystem and threatening, by ricochet, the training of future models.",
+  "exemple_fr": "Une recherche sur une question pointue remonte désormais dix articles génériques générés par IA, sans substance, optimisés pour le référencement · du slop. La vraie information, humaine et documentée, est noyée. Ce phénomène dégrade la valeur du web pour tous · et prépare l'effondrement de modèles entraînés dessus.",
+  "exemple_en": "A search on a specific question now surfaces ten generic AI-generated articles, without substance, optimised for search ranking · slop. The real information, human and documented, is drowned. This phenomenon degrades the web's value for everyone · and sets up the collapse of models trained on it.",
+  "regard_fr": "Le slop est la pollution de l'ère de l'IA générative : facile à produire, coûteuse pour tous. Il donne une valeur nouvelle à ce qui est authentique, vérifié et travaillé. Face à la marée du contenu creux, la qualité et l'honnêteté deviennent des marqueurs distinctifs · un choix éditorial autant qu'éthique.",
+  "regard_en": "Slop is the pollution of the generative AI era: easy to produce, costly for all. It gives new value to what is authentic, verified and crafted. Against the tide of hollow content, quality and honesty become distinctive markers · an editorial as much as ethical choice.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "contenu-genere",
+    "effondrement-modele",
+    "desinformation-ia",
+    "detection-contenu-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses sur le phénomène du AI slop"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

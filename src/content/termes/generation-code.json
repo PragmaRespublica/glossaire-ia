@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Génération de code",
+  "terme_en": "AI code generation",
+  "sous_titre_fr": "AI code generation",
+  "sous_titre_en": "Génération de code",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Production de code informatique par une IA à partir d'une description en langage naturel. De l'autocomplétion à la génération de fonctions entières, elle transforme le métier de développeur · gains de productivité importants, mais code à relire, tester et sécuriser. L'IA écrit vite ; la responsabilité du code reste humaine.",
+  "definition_en": "The production of computer code by an AI from a natural-language description. From autocompletion to generating whole functions, it transforms the developer's job · significant productivity gains, but code to review, test and secure. AI writes fast; responsibility for the code stays human.",
+  "exemple_fr": "Un développeur décrit une fonction ; l'IA la génère en quelques secondes. Il gagne du temps · mais découvre en la relisant qu'elle contient une faille de sécurité subtile. Il la corrige. La génération de code accélère l'écriture, pas la réflexion : le développeur reste garant de la qualité et de la sûreté.",
+  "exemple_en": "A developer describes a function; the AI generates it in seconds. They save time · but discover on review that it contains a subtle security flaw. They fix it. Code generation speeds up writing, not thinking: the developer remains the guarantor of quality and safety.",
+  "regard_fr": "La génération de code est l'un des usages les plus productifs de l'IA · et l'un des plus trompeurs. Un code qui « marche » n'est pas forcément sûr, maintenable ou correct sur les cas limites. L'IA élargit le cercle de ceux qui codent, mais la relecture experte reste non négociable en production.",
+  "regard_en": "Code generation is one of AI's most productive uses · and one of the most deceptive. Code that \"works\" is not necessarily secure, maintainable or correct on edge cases. AI widens the circle of those who code, but expert review remains non-negotiable in production.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "vibe-coding",
+    "github-copilot",
+    "humaneval",
+    "no-code"
+  ],
+  "sources": [
+    {
+      "titre": "Google Cloud · Generative AI Glossary",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA en finance",
+  "terme_en": "AI in finance",
+  "sous_titre_fr": "AI in finance",
+  "sous_titre_en": "IA en finance",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Applications de l'IA à la finance : détection de fraude, scoring de crédit, analyse de risque, trading algorithmique, conformité automatisée. Secteur régulé et à fort enjeu · les décisions engagent de l'argent et des droits · l'IA financière combine potentiel élevé et exigences strictes de robustesse, d'explicabilité et de contrôle.",
+  "definition_en": "Applications of AI to finance: fraud detection, credit scoring, risk analysis, algorithmic trading, automated compliance. A regulated, high-stakes sector · decisions involve money and rights · financial AI combines high potential with strict requirements of robustness, explainability and control.",
+  "exemple_fr": "Une banque utilise l'IA pour détecter les fraudes en temps réel · un usage à haute valeur. Mais pour le scoring de crédit, la même banque doit garantir explicabilité et non-discrimination : un refus de crédit doit pouvoir être justifié et contesté. Selon l'usage, les mêmes techniques appellent des niveaux d'exigence très différents.",
+  "exemple_en": "A bank uses AI to detect fraud in real time · a high-value use. But for credit scoring, the same bank must guarantee explainability and non-discrimination: a loan refusal must be justifiable and contestable. Depending on the use, the same techniques call for very different levels of requirement.",
+  "regard_fr": "La finance illustre qu'un même outil d'IA change de nature selon l'usage : détecter une fraude et refuser un crédit n'engagent pas les mêmes exigences. Le réflexe · « c'est de l'IA financière » · ne suffit pas ; il faut qualifier chaque usage par son enjeu réel pour les personnes. Le contexte fait la règle.",
+  "regard_en": "Finance illustrates that the same AI tool changes nature depending on the use: detecting fraud and refusing a loan do not carry the same requirements. The reflex · \"it's financial AI\" · does not suffice; each use must be qualified by its real stake for people. Context makes the rule.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "decision-automatisee",
+    "explicabilite",
+    "detection-anomalies",
+    "systeme-haut-risque"
+  ],
+  "sources": [
+    {
+      "titre": "ACPR · IA dans le secteur financier"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

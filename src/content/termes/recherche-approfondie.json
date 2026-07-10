@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Recherche approfondie (deep research)",
+  "terme_en": "Deep research",
+  "sous_titre_fr": "Deep research",
+  "sous_titre_en": "Recherche approfondie",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Mode où un agent IA mène une enquête autonome sur plusieurs minutes : il planifie, cherche dans de nombreuses sources, recoupe, et produit un rapport structuré et sourcé. Bien plus qu'une réponse instantanée, la recherche approfondie automatise une partie du travail de veille et d'analyse documentaire · à vérifier néanmoins.",
+  "definition_en": "A mode where an AI agent conducts an autonomous investigation over several minutes: it plans, searches numerous sources, cross-references, and produces a structured, sourced report. Far more than an instant answer, deep research automates part of the work of monitoring and document analysis · to be verified nonetheless.",
+  "exemple_fr": "Un analyste demande un panorama d'un marché de niche. L'agent de recherche approfondie explore des dizaines de sources pendant plusieurs minutes et rend un rapport structuré avec ses sources. L'analyste gagne des heures · mais garde la responsabilité de vérifier les affirmations clés avant de s'appuyer dessus.",
+  "exemple_en": "An analyst requests an overview of a niche market. The deep research agent explores dozens of sources over several minutes and delivers a structured report with its sources. The analyst saves hours · but keeps the responsibility to verify the key claims before relying on them.",
+  "regard_fr": "La recherche approfondie est bluffante · et c'est là le danger : sa qualité formelle inspire une confiance excessive. Un rapport bien structuré et sourcé peut contenir des erreurs ou des sources mal interprétées. L'outil accélère la veille, il ne dispense pas du regard critique. Vérifiez avant de citer.",
+  "regard_en": "Deep research is impressive · and that is the danger: its formal quality inspires excessive trust. A well-structured, sourced report can contain errors or misinterpreted sources. The tool speeds up monitoring, it does not exempt from critical scrutiny. Verify before citing.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "recherche-ia",
+    "agent-autonome",
+    "veille-ia",
+    "verification-faits"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des agents de recherche approfondie"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

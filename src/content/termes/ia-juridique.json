@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA juridique (legaltech)",
+  "terme_en": "Legal AI",
+  "sous_titre_fr": "Legal AI, legaltech",
+  "sous_titre_en": "IA juridique",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Applications de l'IA au droit : recherche juridique, analyse de contrats, rédaction d'actes, prédiction de jurisprudence. Puissante pour traiter la masse documentaire du droit, l'IA juridique se heurte à une exigence absolue de fiabilité · une hallucination sur une référence de loi ou un arrêt peut avoir des conséquences graves.",
+  "definition_en": "Applications of AI to law: legal research, contract analysis, drafting, case-law prediction. Powerful for handling law's documentary mass, legal AI faces an absolute reliability requirement · a hallucination on a statute or ruling reference can have serious consequences.",
+  "exemple_fr": "Un cabinet utilise un assistant juridique ancré sur une base de textes et de jurisprudence à jour, avec citation systématique des sources. Il gagne des heures de recherche · mais chaque référence citée est vérifiable et vérifiée. L'IA juridique fiable est celle qui montre ses sources, pas celle qui affirme sans preuve.",
+  "exemple_en": "A firm uses a legal assistant grounded on an up-to-date base of texts and case law, with systematic source citation. It saves hours of research · but every cited reference is verifiable and verified. Reliable legal AI is the one that shows its sources, not the one that asserts without proof.",
+  "regard_fr": "Le droit est le domaine où l'hallucination coûte le plus cher · des avocats ont été sanctionnés pour avoir cité des jurisprudences inventées par une IA. La règle est sans appel : en droit, jamais d'IA sans ancrage sur des sources vérifiables et sans relecture humaine. La fiabilité prime absolument sur la fluidité.",
+  "regard_en": "Law is the domain where hallucination costs the most · lawyers have been sanctioned for citing case law invented by an AI. The rule is unequivocal: in law, never AI without grounding on verifiable sources and without human review. Reliability absolutely prevails over fluency.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ancrage",
+    "hallucination",
+    "rag",
+    "droits-auteur-ia"
+  ],
+  "sources": [
+    {
+      "titre": "Conseil national des barreaux · IA et professions du droit"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

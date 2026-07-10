@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Ingénierie de prompt",
+  "terme_en": "Prompt engineering",
+  "sous_titre_fr": "Ingénierie de prompt",
+  "sous_titre_en": "Ingénierie de prompt",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Art et méthode de formuler des instructions efficaces pour un modèle génératif : préciser le rôle, la tâche, le format, le contexte et les contraintes. Le prompt engineering maximise la qualité des réponses pour un coût minimal. À l'ère des agents, il évolue vers l'ingénierie de contexte, plus large et plus structurée.",
+  "definition_en": "The art and method of formulating effective instructions for a generative model: specifying the role, task, format, context and constraints. Prompt engineering maximises answer quality at minimal cost. In the agent era, it evolves towards context engineering, broader and more structured.",
+  "exemple_fr": "Un débutant écrit « fais-moi un plan marketing » et obtient du générique. Un prompt travaillé · rôle, cible, contraintes, format attendu · produit un livrable directement exploitable. La différence de résultat, pour le même modèle, est spectaculaire. Le prompt engineering est le premier levier de valeur, avant tout changement de modèle.",
+  "exemple_en": "A beginner writes \"make me a marketing plan\" and gets generic output. A crafted prompt · role, target, constraints, expected format · produces a directly usable deliverable. The difference in result, for the same model, is spectacular. Prompt engineering is the first value lever, before any model change.",
+  "regard_fr": "Le prompt engineering est la compétence la plus rentable de l'IA générative : gratuite, immédiate, et démultipliant la valeur de n'importe quel modèle. Former ses équipes à bien prompter rapporte plus que d'acheter un modèle plus cher. C'est le cœur de nos formations · et le plus accessible des progrès.",
+  "regard_en": "Prompt engineering is the most cost-effective skill of generative AI: free, immediate, and multiplying the value of any model. Training your teams to prompt well pays more than buying a costlier model. It is the heart of our training · and the most accessible of gains.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt",
+    "ingenierie-contexte",
+    "chaine-pensee",
+    "role-persona"
+  ],
+  "sources": [
+    {
+      "titre": "Google Cloud · Generative AI Glossary (prompt engineering)",
+      "url": "https://docs.cloud.google.com/docs/generative-ai/glossary"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

@@ -1,0 +1,110 @@
+{
+  "conversation-multitour": {
+    "sous_titre_fr": "Multi-turn conversation",
+    "sous_titre_en": "Conversation multitour",
+    "definition_fr": "Échange où le modèle tient compte de l'historique des tours précédents pour répondre de façon cohérente, sans qu'on ait à tout répéter. La conversation multitour est ce qui distingue un assistant d'un simple répondeur : il « se souvient » du contexte de l'échange · dans la limite de sa fenêtre contextuelle.",
+    "definition_en": "An exchange where the model takes into account the history of previous turns to answer coherently, without everything having to be repeated. Multi-turn conversation is what distinguishes an assistant from a mere responder: it \"remembers\" the exchange's context · within the limit of its context window.",
+    "exemple_fr": "Un utilisateur demande une analyse, puis « et si on double le budget ? ». Grâce à la conversation multitour, le modèle comprend que la question porte sur l'analyse précédente, sans qu'il faille tout reformuler. Mais attention : passé la fenêtre contextuelle, le début de la conversation est oublié · et les incohérences apparaissent.",
+    "exemple_en": "A user asks for an analysis, then \"what if we double the budget?\". Thanks to multi-turn conversation, the model understands the question concerns the previous analysis, without everything needing rephrasing. But beware: past the context window, the start of the conversation is forgotten · and inconsistencies appear.",
+    "regard_fr": "La conversation multitour crée une illusion de mémoire qu'il faut savoir démystifier : le modèle ne « se souvient » que de ce qui tient dans sa fenêtre contextuelle. Sur les longs échanges, il oublie le début. Comprendre cette limite évite de s'étonner qu'un assistant « perde le fil » d'une longue discussion.",
+    "regard_en": "Multi-turn conversation creates an illusion of memory that must be demystified: the model only \"remembers\" what fits in its context window. On long exchanges, it forgets the start. Understanding this limit avoids being surprised that an assistant \"loses the thread\" of a long discussion.",
+    "termes_lies": ["fenetre-contextuelle", "memoire-assistants", "reformulation-requete", "iteration-requetes"],
+    "sources": [{"titre": "Documentation des API conversationnelles", "url": "https://www.anthropic.com/"}]
+  },
+  "memoire-assistants": {
+    "sous_titre_fr": "AI assistant memory",
+    "sous_titre_en": "Mémoire des assistants IA",
+    "definition_fr": "Fonctionnalité permettant à un assistant de conserver des informations sur l'utilisateur d'une conversation à l'autre : préférences, faits, contexte récurrent. Pratique pour la continuité, elle soulève des enjeux de vie privée · ce que l'IA retient de vous devient une donnée personnelle à protéger, limiter et pouvoir effacer.",
+    "definition_en": "A feature allowing an assistant to retain information about the user from one conversation to the next: preferences, facts, recurring context. Handy for continuity, it raises privacy stakes · what AI remembers about you becomes personal data to protect, limit and be able to erase.",
+    "exemple_fr": "Un assistant se souvient qu'un utilisateur préfère les réponses concises et travaille dans la finance · pratique. Mais cette mémoire accumule aussi des informations sensibles. L'utilisateur doit pouvoir la consulter, la corriger, l'effacer. Une mémoire d'assistant sans ces contrôles est une collecte de données personnelles non maîtrisée.",
+    "exemple_en": "An assistant remembers that a user prefers concise answers and works in finance · handy. But this memory also accumulates sensitive information. The user must be able to view, correct, erase it. An assistant memory without these controls is uncontrolled personal data collection.",
+    "regard_fr": "La mémoire des assistants est un confort qui a un prix en vie privée. Avant d'activer ou de déployer cette fonction, posez les questions du RGPD : que retient-on, pourquoi, combien de temps, comment l'effacer ? Une mémoire pratique mais opaque est une bombe à retardement de conformité.",
+    "regard_en": "Assistant memory is a convenience with a privacy price. Before enabling or deploying this feature, ask the GDPR questions: what is retained, why, for how long, how to erase it? A convenient but opaque memory is a compliance time bomb.",
+    "termes_lies": ["conversation-multitour", "memoire-agent", "donnees-personnelles", "droits-personnes"],
+    "sources": [{"titre": "CNIL · assistants conversationnels et vie privée", "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"}]
+  },
+  "assistants-personnalises": {
+    "sous_titre_fr": "Custom assistants (GPTs, Gems, Projets)",
+    "sous_titre_en": "Custom assistants",
+    "definition_fr": "Assistants IA configurés pour une tâche ou un domaine précis, sans programmation : on définit un prompt système, on ajoute des documents de référence, éventuellement des outils. Popularisés sous divers noms (GPTs, Gems, Projets), ils permettent à chacun de créer son propre assistant spécialisé · une porte d'entrée accessible vers l'IA sur mesure.",
+    "definition_en": "AI assistants configured for a specific task or domain, without programming: you define a system prompt, add reference documents, possibly tools. Popularised under various names (GPTs, Gems, Projects), they let anyone create their own specialised assistant · an accessible gateway to bespoke AI.",
+    "exemple_fr": "Une équipe juridique crée un assistant personnalisé : prompt système cadrant son rôle, plus les contrats-types de l'entreprise en référence. Chaque juriste dispose désormais d'un assistant qui connaît le contexte maison · sans une ligne de code. Les assistants personnalisés mettent l'IA sur mesure à portée des métiers.",
+    "exemple_en": "A legal team creates a custom assistant: a system prompt framing its role, plus the company's template contracts as reference. Each lawyer now has an assistant that knows the house context · without a line of code. Custom assistants put bespoke AI within business teams' reach.",
+    "regard_fr": "Les assistants personnalisés démocratisent la création d'IA spécialisée · une vraie avancée. Mais attention aux données qu'on y verse : sur une plateforme grand public, les documents de référence peuvent échapper à votre contrôle. Pour des données sensibles, préférez une solution souveraine, même moins ergonomique.",
+    "regard_en": "Custom assistants democratise the creation of specialised AI · a real advance. But beware the data you pour in: on a consumer platform, reference documents may escape your control. For sensitive data, prefer a sovereign solution, even if less ergonomic.",
+    "termes_lies": ["prompt-systeme", "no-code", "rag", "bibliotheque-prompts"],
+    "sources": [{"titre": "Documentation des plateformes d'assistants personnalisés"}]
+  },
+  "bibliotheque-prompts": {
+    "sous_titre_fr": "Prompt library",
+    "sous_titre_en": "Bibliothèque de prompts",
+    "definition_fr": "Collection organisée de prompts éprouvés, réutilisables et partagés au sein d'une équipe ou d'une organisation. La bibliothèque de prompts capitalise le savoir-faire : plutôt que chacun réinvente ses instructions, on mutualise les meilleures. Un actif discret mais précieux pour industrialiser et fiabiliser l'usage de l'IA.",
+    "definition_en": "An organised collection of proven, reusable prompts shared within a team or organisation. The prompt library capitalises know-how: rather than everyone reinventing their instructions, the best are pooled. A discreet but valuable asset to industrialise and make AI use reliable.",
+    "exemple_fr": "Dans une entreprise, chaque service bricolait ses prompts dans son coin, avec des résultats inégaux. En créant une bibliothèque de prompts partagée · validés, documentés, versionnés · la qualité s'homogénéise et les nouveaux arrivants sont productifs immédiatement. Le savoir-faire cesse d'être individuel pour devenir collectif.",
+    "exemple_en": "In a company, each department tinkered with its prompts on its own, with uneven results. By creating a shared prompt library · validated, documented, versioned · quality becomes consistent and newcomers are productive immediately. Know-how stops being individual to become collective.",
+    "regard_fr": "La bibliothèque de prompts transforme un savoir-faire tacite en patrimoine partagé. C'est l'un des premiers réflexes d'une organisation qui prend l'IA au sérieux : capitaliser plutôt que de laisser chacun réinventer la roue. Un investissement modeste au rendement collectif élevé.",
+    "regard_en": "The prompt library turns tacit know-how into shared heritage. It is one of the first reflexes of an organisation that takes AI seriously: capitalise rather than let everyone reinvent the wheel. A modest investment with high collective returns.",
+    "termes_lies": ["prompt-engineering", "assistants-personnalises", "adoption-ia", "gouvernance-ia"],
+    "sources": [{"titre": "Bonnes pratiques d'industrialisation du prompt engineering"}]
+  },
+  "raisonnement-etendu": {
+    "sous_titre_fr": "Test-time compute, calcul au moment de l'inférence",
+    "sous_titre_en": "Extended reasoning (test-time compute)",
+    "definition_fr": "Approche où un modèle consacre davantage de calcul à réfléchir avant de répondre · en explorant, vérifiant, révisant son raisonnement · plutôt que de produire une réponse immédiate. Ce « temps de réflexion » supplémentaire améliore nettement les performances sur les problèmes difficiles, au prix d'une latence et d'un coût accrus.",
+    "definition_en": "An approach where a model devotes more compute to thinking before answering · exploring, verifying, revising its reasoning · rather than producing an immediate answer. This extra \"thinking time\" markedly improves performance on hard problems, at the cost of increased latency and cost.",
+    "exemple_fr": "Pour un problème d'analyse complexe, un modèle en mode raisonnement étendu prend le temps de décomposer, tester plusieurs pistes et vérifier · comme un expert qui réfléchit avant de parler. La réponse est bien meilleure, mais arrive en dix secondes au lieu d'une. Un arbitrage entre qualité et rapidité, à choisir selon l'enjeu.",
+    "exemple_en": "For a complex analysis problem, a model in extended reasoning mode takes the time to decompose, test several leads and verify · like an expert who thinks before speaking. The answer is far better, but arrives in ten seconds instead of one. A trade-off between quality and speed, to choose according to the stakes.",
+    "regard_fr": "Le raisonnement étendu déplace le levier de performance : au lieu de toujours agrandir le modèle, on le laisse réfléchir plus longtemps. C'est une piste plus sobre · dépenser du calcul à la demande, seulement quand le problème le justifie, plutôt que d'entraîner sans fin des modèles toujours plus gros.",
+    "regard_en": "Extended reasoning shifts the performance lever: instead of always enlarging the model, you let it think longer. It is a more frugal path · spending compute on demand, only when the problem warrants it, rather than endlessly training ever-bigger models.",
+    "termes_lies": ["chaine-pensee", "modele-raisonnement", "arbre-pensees", "latence"],
+    "sources": [{"titre": "Recherches sur le test-time compute (reasoning models)"}]
+  },
+  "recherche-ia": {
+    "sous_titre_fr": "AI-powered search",
+    "sous_titre_en": "Recherche augmentée par IA",
+    "definition_fr": "Nouvelle génération de moteurs de recherche qui, au lieu de lister des liens, synthétisent une réponse directe à partir de plusieurs sources, avec citations. La recherche augmentée par IA change les usages · et l'économie du web · en captant l'attention avant le clic. Elle pose des questions de fiabilité, de sources et de dépendance.",
+    "definition_en": "A new generation of search engines that, instead of listing links, synthesise a direct answer from several sources, with citations. AI-powered search changes usage · and the web's economy · by capturing attention before the click. It raises questions of reliability, sources and dependence.",
+    "exemple_fr": "Un utilisateur pose une question complexe à un moteur de recherche IA. Au lieu de dix liens à explorer, il reçoit une synthèse sourcée en quelques secondes · gain de temps réel. Mais il ne visite plus les sites sources : un bouleversement pour les éditeurs, dont le trafic s'effondre au profit de la synthèse.",
+    "exemple_en": "A user asks a search engine AI a complex question. Instead of ten links to explore, they receive a sourced synthesis in seconds · real time savings. But they no longer visit the source sites: an upheaval for publishers, whose traffic collapses in favour of the synthesis.",
+    "regard_fr": "La recherche augmentée par IA est confortable · et redoutable pour l'écosystème de l'information. En répondant à notre place, elle nous prive parfois de la confrontation des sources qui forge le jugement. Gardez le réflexe de vérifier, surtout sur les sujets qui comptent · la synthèse n'est pas la vérité.",
+    "regard_en": "AI-powered search is convenient · and formidable for the information ecosystem. By answering in our place, it sometimes deprives us of the confrontation of sources that forges judgment. Keep the reflex to verify, especially on subjects that matter · the synthesis is not the truth.",
+    "termes_lies": ["recherche-approfondie", "rag", "verification-faits", "perplexity"],
+    "sources": [{"titre": "Analyses sur l'impact de la recherche générative"}]
+  },
+  "recherche-approfondie": {
+    "sous_titre_fr": "Deep research",
+    "sous_titre_en": "Recherche approfondie",
+    "definition_fr": "Mode où un agent IA mène une enquête autonome sur plusieurs minutes : il planifie, cherche dans de nombreuses sources, recoupe, et produit un rapport structuré et sourcé. Bien plus qu'une réponse instantanée, la recherche approfondie automatise une partie du travail de veille et d'analyse documentaire · à vérifier néanmoins.",
+    "definition_en": "A mode where an AI agent conducts an autonomous investigation over several minutes: it plans, searches numerous sources, cross-references, and produces a structured, sourced report. Far more than an instant answer, deep research automates part of the work of monitoring and document analysis · to be verified nonetheless.",
+    "exemple_fr": "Un analyste demande un panorama d'un marché de niche. L'agent de recherche approfondie explore des dizaines de sources pendant plusieurs minutes et rend un rapport structuré avec ses sources. L'analyste gagne des heures · mais garde la responsabilité de vérifier les affirmations clés avant de s'appuyer dessus.",
+    "exemple_en": "An analyst requests an overview of a niche market. The deep research agent explores dozens of sources over several minutes and delivers a structured report with its sources. The analyst saves hours · but keeps the responsibility to verify the key claims before relying on them.",
+    "regard_fr": "La recherche approfondie est bluffante · et c'est là le danger : sa qualité formelle inspire une confiance excessive. Un rapport bien structuré et sourcé peut contenir des erreurs ou des sources mal interprétées. L'outil accélère la veille, il ne dispense pas du regard critique. Vérifiez avant de citer.",
+    "regard_en": "Deep research is impressive · and that is the danger: its formal quality inspires excessive trust. A well-structured, sourced report can contain errors or misinterpreted sources. The tool speeds up monitoring, it does not exempt from critical scrutiny. Verify before citing.",
+    "termes_lies": ["recherche-ia", "agent-autonome", "veille-ia", "verification-faits"],
+    "sources": [{"titre": "Documentation des agents de recherche approfondie"}]
+  },
+  "redaction-assistee": {
+    "sous_titre_fr": "AI-assisted writing",
+    "sous_titre_en": "Rédaction assistée par IA",
+    "definition_fr": "Usage de l'IA générative pour aider à écrire : brouillons, reformulations, corrections, adaptations de ton, traductions. La rédaction assistée est l'un des usages les plus répandus de l'IA en entreprise · un gain de productivité réel, à condition de garder la main sur le fond, la véracité et la responsabilité du texte final.",
+    "definition_en": "The use of generative AI to help write: drafts, rephrasings, corrections, tone adaptations, translations. AI-assisted writing is one of the most widespread AI uses in business · a real productivity gain, provided one keeps control of the substance, truthfulness and responsibility of the final text.",
+    "exemple_fr": "Un chargé de communication produit un premier jet d'un communiqué avec l'IA, puis le retravaille : il corrige un fait inexact, ajuste le ton, ajoute une nuance stratégique. L'IA a fait gagner du temps sur la mise en forme ; l'humain a gardé la maîtrise du message. Une division du travail saine et productive.",
+    "exemple_en": "A communications officer produces a first draft of a press release with AI, then reworks it: correcting an inaccurate fact, adjusting the tone, adding a strategic nuance. AI saved time on the formatting; the human kept control of the message. A healthy, productive division of labour.",
+    "regard_fr": "La rédaction assistée est un formidable accélérateur · à condition de ne jamais publier sans relire. L'IA propose, l'humain dispose et assume. Déléguer la mise en forme est sage ; déléguer la responsabilité du contenu ne l'est jamais. Votre nom reste sur le texte, pas celui du modèle.",
+    "regard_en": "AI-assisted writing is a formidable accelerator · provided you never publish without reviewing. AI proposes, the human disposes and owns. Delegating the formatting is wise; delegating responsibility for the content never is. Your name stays on the text, not the model's.",
+    "termes_lies": ["contenu-genere", "resume-automatique", "traduction-automatique", "humain-dans-la-boucle"],
+    "sources": [{"titre": "Études sur la productivité de la rédaction assistée par IA"}]
+  },
+  "resume-automatique": {
+    "sous_titre_fr": "Automatic summarization",
+    "sous_titre_en": "Résumé automatique",
+    "definition_fr": "Génération automatique d'une version condensée d'un texte, préservant ses idées essentielles. L'un des usages les plus utiles et fiables des LLM : synthétiser des rapports, des réunions, des masses de documents. Attention néanmoins · un résumé peut omettre une nuance décisive ou introduire une erreur subtile.",
+    "definition_en": "The automatic generation of a condensed version of a text, preserving its essential ideas. One of the most useful and reliable LLM uses: synthesising reports, meetings, masses of documents. Beware nonetheless · a summary can omit a decisive nuance or introduce a subtle error.",
+    "exemple_fr": "Un dirigeant reçoit chaque matin un résumé automatique des cent articles de veille de son secteur. Gain de temps considérable. Mais pour une décision stratégique, il retourne au texte source : un résumé, aussi bon soit-il, lisse les nuances. L'outil dégrossit, l'humain approfondit ce qui compte.",
+    "exemple_en": "An executive receives every morning an automatic summary of the hundred monitoring articles of their sector. Considerable time savings. But for a strategic decision, they return to the source text: a summary, however good, smooths over nuances. The tool roughs out, the human deepens what matters.",
+    "regard_fr": "Le résumé automatique est l'un des usages de l'IA au meilleur rapport valeur-risque · mais gardez à l'esprit qu'un résumé est une interprétation, pas une photographie. Pour l'information de fond ou les décisions à enjeu, le résumé oriente, il ne remplace pas la lecture de la source.",
+    "regard_en": "Automatic summarisation is one of AI's best value-risk uses · but bear in mind that a summary is an interpretation, not a photograph. For background information or high-stakes decisions, the summary guides, it does not replace reading the source.",
+    "termes_lies": ["redaction-assistee", "transcription-reunions", "rouge-bleu", "nlp"],
+    "sources": [{"titre": "OQLF · Vitrine linguistique (résumé automatique)", "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"}]
+  }
+}

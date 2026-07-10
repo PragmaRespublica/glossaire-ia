@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Mémoire des assistants IA",
+  "terme_en": "AI assistant memory",
+  "sous_titre_fr": "AI assistant memory",
+  "sous_titre_en": "Mémoire des assistants IA",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Fonctionnalité permettant à un assistant de conserver des informations sur l'utilisateur d'une conversation à l'autre : préférences, faits, contexte récurrent. Pratique pour la continuité, elle soulève des enjeux de vie privée · ce que l'IA retient de vous devient une donnée personnelle à protéger, limiter et pouvoir effacer.",
+  "definition_en": "A feature allowing an assistant to retain information about the user from one conversation to the next: preferences, facts, recurring context. Handy for continuity, it raises privacy stakes · what AI remembers about you becomes personal data to protect, limit and be able to erase.",
+  "exemple_fr": "Un assistant se souvient qu'un utilisateur préfère les réponses concises et travaille dans la finance · pratique. Mais cette mémoire accumule aussi des informations sensibles. L'utilisateur doit pouvoir la consulter, la corriger, l'effacer. Une mémoire d'assistant sans ces contrôles est une collecte de données personnelles non maîtrisée.",
+  "exemple_en": "An assistant remembers that a user prefers concise answers and works in finance · handy. But this memory also accumulates sensitive information. The user must be able to view, correct, erase it. An assistant memory without these controls is uncontrolled personal data collection.",
+  "regard_fr": "La mémoire des assistants est un confort qui a un prix en vie privée. Avant d'activer ou de déployer cette fonction, posez les questions du RGPD : que retient-on, pourquoi, combien de temps, comment l'effacer ? Une mémoire pratique mais opaque est une bombe à retardement de conformité.",
+  "regard_en": "Assistant memory is a convenience with a privacy price. Before enabling or deploying this feature, ask the GDPR questions: what is retained, why, for how long, how to erase it? A convenient but opaque memory is a compliance time bomb.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "conversation-multitour",
+    "memoire-agent",
+    "donnees-personnelles",
+    "droits-personnes"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · assistants conversationnels et vie privée",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

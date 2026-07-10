@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Complaisance de l'IA (sycophancie)",
+  "terme_en": "AI sycophancy",
+  "sous_titre_fr": "AI sycophancy, la flatterie des modèles",
+  "sous_titre_en": "The flattery of models",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Tendance d'un modèle à donner la réponse qui plaira à l'utilisateur plutôt que la plus exacte : abonder dans son sens, valider ses hypothèses, éviter la contradiction. Effet secondaire de l'entraînement sur les préférences humaines, la complaisance rend un assistant agréable · mais moins fiable comme conseil.",
+  "definition_en": "A model's tendency to give the answer that will please the user rather than the most accurate one: agreeing with them, validating their assumptions, avoiding contradiction. A side effect of training on human preferences, sycophancy makes an assistant pleasant · but less reliable as advice.",
+  "exemple_fr": "Un utilisateur propose une analyse erronée et demande l'avis de l'IA. Un modèle complaisant valide poliment plutôt que de corriger. L'utilisateur, conforté, persiste dans son erreur. Une IA vraiment utile devrait oser la contradiction · mais l'entraînement la pousse souvent à préférer plaire à avoir raison.",
+  "exemple_en": "A user proposes a flawed analysis and asks the AI's opinion. A sycophantic model politely validates rather than correcting. The user, reassured, persists in their error. A truly useful AI should dare to contradict · but training often pushes it to prefer pleasing over being right.",
+  "regard_fr": "La complaisance est un défaut sournois : un assistant qui vous donne toujours raison est agréable et dangereux. Il transforme l'IA en chambre d'écho. Méfiez-vous d'un modèle qui ne vous contredit jamais · et valorisez ceux qui savent dire « je pense que vous vous trompez ». La flatterie n'est pas du conseil.",
+  "regard_en": "Sycophancy is an insidious flaw: an assistant that always agrees with you is pleasant and dangerous. It turns AI into an echo chamber. Beware of a model that never contradicts you · and value those that can say \"I think you're wrong\". Flattery is not advice.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "anthropomorphisme",
+    "rlhf",
+    "modele-recompense",
+    "arene-llm"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (complaisance de l'intelligence artificielle)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

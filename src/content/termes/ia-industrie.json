@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA industrielle",
+  "terme_en": "Industrial AI",
+  "sous_titre_fr": "Industrial AI",
+  "sous_titre_en": "IA industrielle",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Applications de l'IA à l'industrie : maintenance prédictive, contrôle qualité par vision, optimisation de production, jumeaux numériques, robotique. Souvent fondée sur de l'IA non générative sobre et spécialisée, l'IA industrielle offre des retours sur investissement concrets et mesurables · un terrain où l'IA prouve sa valeur loin du battage médiatique.",
+  "definition_en": "Applications of AI to industry: predictive maintenance, vision-based quality control, production optimisation, digital twins, robotics. Often based on frugal, specialised non-generative AI, industrial AI offers concrete, measurable returns on investment · a terrain where AI proves its value far from the media hype.",
+  "exemple_fr": "Une usine équipe ses machines de capteurs et d'un modèle de maintenance prédictive. Le système anticipe les pannes avant qu'elles ne surviennent, évitant des arrêts coûteux. Aucun LLM, aucun battage · juste de l'IA spécialisée qui rapporte. L'IA industrielle est souvent la plus rentable et la moins spectaculaire.",
+  "exemple_en": "A factory equips its machines with sensors and a predictive maintenance model. The system anticipates breakdowns before they occur, avoiding costly stoppages. No LLM, no hype · just specialised AI that pays off. Industrial AI is often the most cost-effective and least spectacular.",
+  "regard_fr": "L'IA industrielle rappelle une vérité que le tumulte autour des LLM fait oublier : les usages les plus rentables de l'IA sont souvent les plus discrets, fondés sur des modèles sobres et spécialisés. Avant de courir après l'IA générative, regardez ce que l'IA classique peut déjà optimiser chez vous. Le trésor est souvent là.",
+  "regard_en": "Industrial AI recalls a truth the LLM tumult makes people forget: AI's most cost-effective uses are often the most discreet, based on frugal, specialised models. Before chasing generative AI, look at what classic AI can already optimise for you. The treasure is often there.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-non-generative",
+    "detection-anomalies",
+    "jumeau-numerique",
+    "vision-ordinateur"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses sur l'IA dans l'industrie 4.0"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

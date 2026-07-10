@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Contenu généré par IA",
+  "terme_en": "AI-generated content",
+  "sous_titre_fr": "AI-generated content",
+  "sous_titre_en": "Contenu généré par IA",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Tout contenu · texte, image, son, vidéo, code · produit par une IA générative. Sa prolifération transforme les industries créatives et informationnelles, et soulève des questions de transparence (faut-il le signaler ?), de droit (à qui appartient-il ?) et de qualité (comment éviter la saturation par du contenu médiocre ?).",
+  "definition_en": "Any content · text, image, sound, video, code · produced by generative AI. Its proliferation transforms the creative and information industries, and raises questions of transparency (should it be flagged?), law (who owns it?) and quality (how to avoid saturation by mediocre content?).",
+  "exemple_fr": "Une entreprise produit désormais l'essentiel de ses visuels et brouillons par IA · gain de coût majeur. Mais elle instaure une règle : tout contenu généré est relu, et signalé comme tel quand la transparence l'exige. Elle profite de l'IA sans renoncer ni à la qualité ni à l'honnêteté vis-à-vis de son public.",
+  "exemple_en": "A company now produces most of its visuals and drafts by AI · a major cost saving. But it sets a rule: every generated content is reviewed, and flagged as such when transparency requires it. It benefits from AI without giving up either quality or honesty towards its audience.",
+  "regard_fr": "Le contenu généré n'est ni bon ni mauvais en soi · tout dépend de l'usage, de la relecture et de la transparence. La vraie ligne de partage n'est pas « fait par IA ou par humain », mais « assumé et vérifié, ou déversé sans contrôle ». Le premier enrichit, le second sature. Choisissez votre camp.",
+  "regard_en": "Generated content is neither good nor bad in itself · everything depends on use, review and transparency. The real dividing line is not \"made by AI or human\", but \"owned and verified, or dumped without control\". The first enriches, the second saturates. Choose your side.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "slop",
+    "filigrane-ia",
+    "detection-contenu-ia",
+    "statut-oeuvres-ia"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (contenu généré par IA)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

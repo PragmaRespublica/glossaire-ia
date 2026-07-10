@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Prompt négatif",
+  "terme_en": "Negative prompt",
+  "sous_titre_fr": "Negative prompt",
+  "sous_titre_en": "Prompt négatif",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Instruction précisant ce qu'un modèle génératif doit éviter de produire, surtout en génération d'images : exclure un style, un élément, un défaut. Le prompt négatif affine le résultat en cadrant par la négative · dire ce qu'on ne veut pas est parfois plus efficace que de décrire ce qu'on veut.",
+  "definition_en": "An instruction specifying what a generative model should avoid producing, especially in image generation: excluding a style, an element, a flaw. The negative prompt refines the result by framing in the negative · saying what you don't want is sometimes more effective than describing what you want.",
+  "exemple_fr": "Un designer génère un visuel mais obtient toujours des mains déformées, défaut classique. En ajoutant un prompt négatif « mains déformées, doigts en trop », il guide le modèle à les éviter. Le résultat s'améliore nettement. Cadrer par ce qu'on refuse complète utilement la description de ce qu'on souhaite.",
+  "exemple_en": "A designer generates a visual but always gets deformed hands, a classic flaw. By adding a negative prompt \"deformed hands, extra fingers\", they guide the model to avoid them. The result improves markedly. Framing by what you refuse usefully complements the description of what you want.",
+  "regard_fr": "Le prompt négatif rappelle qu'en génération, on sculpte autant en retirant qu'en ajoutant. Cette technique, familière aux créatifs, mérite d'être connue au-delà de l'image · dans tout usage génératif, préciser ce qu'on ne veut pas est un levier de contrôle souvent négligé.",
+  "regard_en": "The negative prompt recalls that in generation, one sculpts as much by removing as by adding. This technique, familiar to creatives, deserves to be known beyond images · in any generative use, specifying what you don't want is an often-neglected control lever.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt-engineering",
+    "generation-images",
+    "modeles-diffusion",
+    "prompt"
+  ],
+  "sources": [
+    {
+      "titre": "Guides de génération d'images (negative prompting)"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

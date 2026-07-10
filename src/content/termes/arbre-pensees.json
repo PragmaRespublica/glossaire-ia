@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Arbre de pensées (ToT)",
+  "terme_en": "Tree of Thoughts (ToT)",
+  "sous_titre_fr": "Tree of Thoughts (ToT)",
+  "sous_titre_en": "Arbre de pensées",
+  "axe": "fondamentaux",
+  "niveau": "avance",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Extension de la chaîne de pensée où le modèle explore plusieurs pistes de raisonnement en parallèle, les évalue, et garde les plus prometteuses · comme un arbre de possibilités. Plus coûteux mais plus puissant sur les problèmes exigeant exploration et retour en arrière, là où un raisonnement linéaire s'enferme dans une impasse.",
+  "definition_en": "An extension of chain-of-thought where the model explores several reasoning paths in parallel, evaluates them, and keeps the most promising · like a tree of possibilities. Costlier but more powerful on problems requiring exploration and backtracking, where linear reasoning gets stuck in a dead end.",
+  "exemple_fr": "Pour résoudre une énigme complexe, un raisonnement linéaire s'engage dans une voie et s'y perd. L'arbre de pensées explore plusieurs approches, abandonne les impasses, poursuit les pistes fécondes. Sur les problèmes de planification ou de logique difficile, cette exploration structurée fait la différence.",
+  "exemple_en": "To solve a complex puzzle, linear reasoning commits to one path and gets lost. Tree of Thoughts explores several approaches, abandons dead ends, pursues fruitful leads. On planning or hard-logic problems, this structured exploration makes the difference.",
+  "regard_fr": "L'arbre de pensées rapproche le raisonnement des modèles de la façon dont un humain aborde un problème difficile : essayer, reculer, réessayer. Puissant, mais coûteux · réservez-le aux problèmes qui le justifient vraiment. Pour la plupart des tâches, une simple chaîne de pensée suffit largement.",
+  "regard_en": "Tree of Thoughts brings model reasoning closer to how a human tackles a hard problem: try, back up, try again. Powerful, but costly · reserve it for problems that truly warrant it. For most tasks, a simple chain-of-thought is more than enough.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chaine-pensee",
+    "raisonnement-etendu",
+    "planification-agent",
+    "modele-raisonnement"
+  ],
+  "sources": [
+    {
+      "titre": "Yao et al. · Tree of Thoughts"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

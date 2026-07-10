@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Cas d'usage IA",
+  "terme_en": "AI use case",
+  "sous_titre_fr": "AI use case",
+  "sous_titre_en": "Cas d'usage IA",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Application concrète et délimitée de l'IA à un problème métier précis, avec un objectif, des utilisateurs et une valeur attendue clairs. Raisonner par cas d'usage · plutôt que par technologie · est la clé d'une adoption réussie : on part du besoin, pas de l'outil. Un bon cas d'usage est mesurable, borné et aligné sur un enjeu réel.",
+  "definition_en": "A concrete, bounded application of AI to a specific business problem, with clear objective, users and expected value. Reasoning by use case · rather than by technology · is the key to successful adoption: you start from the need, not the tool. A good use case is measurable, bounded and aligned with a real stake.",
+  "exemple_fr": "Une entreprise veut « faire de l'IA ». Formulé ainsi, le projet patine. Reformulé en cas d'usage · « réduire de moitié le temps de traitement des factures fournisseurs » · il devient concret, mesurable, finançable. Le cas d'usage transforme une ambition floue en projet exécutable. C'est le point de départ de toute démarche sérieuse.",
+  "exemple_en": "A company wants to \"do AI\". Framed that way, the project stalls. Reframed as a use case · \"halve the processing time of supplier invoices\" · it becomes concrete, measurable, fundable. The use case turns a vague ambition into an executable project. It is the starting point of any serious approach.",
+  "regard_fr": "Commencer par la technologie · « déployons un LLM » · est la meilleure façon d'échouer. Commencer par le cas d'usage · « quel problème coûteux résoudre ? » · est la meilleure façon de réussir. La question n'est jamais « que peut faire l'IA ? » mais « quel besoin ai-je, et l'IA est-elle la bonne réponse ? ».",
+  "regard_en": "Starting from the technology · \"let's deploy a LLM\" · is the best way to fail. Starting from the use case · \"what costly problem to solve?\" · is the best way to succeed. The question is never \"what can AI do?\" but \"what need do I have, and is AI the right answer?\".",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "adoption-ia",
+    "roi-ia",
+    "poc",
+    "registre-cas-usage"
+  ],
+  "sources": [
+    {
+      "titre": "Méthodologies de cadrage de projets IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

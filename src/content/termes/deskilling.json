@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Déqualification (deskilling)",
+  "terme_en": "Deskilling",
+  "sous_titre_fr": "Déqualification par l'automatisation",
+  "sous_titre_en": "Deskilling",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Perte de compétences au sein d'une profession lorsque l'automatisation prend en charge des tâches auparavant exercées par des humains. Avec l'IA, le deskilling touche des métiers qualifiés · analyse, rédaction, diagnostic · posant la question du maintien de l'expertise quand la machine fait le gros du travail.",
+  "definition_en": "The loss of skills within a profession when automation takes over tasks previously performed by humans. With AI, deskilling affects skilled jobs · analysis, writing, diagnosis · raising the question of maintaining expertise when the machine does most of the work.",
+  "exemple_fr": "Dans un cabinet, les juniors utilisaient la rédaction de premières analyses pour se former. Confiée à l'IA, cette tâche disparaît · mais avec elle, l'apprentissage qu'elle procurait. Comment former les experts de demain si les tâches formatrices sont automatisées ? Le deskilling n'est pas qu'un enjeu individuel, mais de transmission.",
+  "exemple_en": "In a firm, juniors used the drafting of first analyses to train. Handed to AI, this task disappears · but with it, the learning it provided. How to train tomorrow's experts if the formative tasks are automated? Deskilling is not just an individual issue, but one of transmission.",
+  "regard_fr": "Le deskilling pose une question stratégique rarement anticipée : en automatisant les tâches d'apprentissage, on tarit la source des experts futurs. La productivité immédiate peut coûter la compétence de demain. Automatiser oui, mais en préservant délibérément des espaces où l'expertise humaine se forge encore.",
+  "regard_en": "Deskilling raises a strategic question rarely anticipated: by automating learning tasks, one dries up the source of future experts. Immediate productivity can cost tomorrow's competence. Automate yes, but deliberately preserving spaces where human expertise is still forged.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "dependance-cognitive",
+    "ia-emploi",
+    "ia-education",
+    "conduite-changement"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur le deskilling et l'automatisation"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

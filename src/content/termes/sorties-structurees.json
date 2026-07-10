@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Sorties structurées (JSON)",
+  "terme_en": "Structured outputs",
+  "sous_titre_fr": "Structured outputs",
+  "sous_titre_en": "Sorties structurées",
+  "axe": "fondamentaux",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Capacité à contraindre un modèle à répondre dans un format précis et exploitable par une machine · typiquement du JSON respectant un schéma défini. Les sorties structurées sont la clé de l'intégration de l'IA dans des applications : elles transforment une réponse en texte libre en données directement utilisables par le système.",
+  "definition_en": "The ability to constrain a model to answer in a precise, machine-usable format · typically JSON respecting a defined schema. Structured outputs are the key to integrating AI into applications: they turn a free-text answer into data directly usable by the system.",
+  "exemple_fr": "Une application extrait des informations de factures via un LLM. Sans format imposé, chaque réponse varie et l'intégration casse. En exigeant une sortie structurée · un JSON avec les champs montant, date, fournisseur · l'application reçoit des données fiables et régulières. La sortie structurée rend l'IA industrialisable.",
+  "exemple_en": "An application extracts information from invoices via a LLM. Without an imposed format, each answer varies and the integration breaks. By requiring a structured output · a JSON with the fields amount, date, supplier · the application receives reliable, regular data. Structured output makes AI industrialisable.",
+  "regard_fr": "Les sorties structurées sont le pont entre la souplesse du langage et la rigueur des systèmes. Sans elles, l'IA reste un gadget conversationnel ; avec elles, elle devient un composant logiciel fiable. C'est un détail technique qui décide de la capacité réelle d'une IA à s'intégrer dans vos processus.",
+  "regard_en": "Structured outputs are the bridge between language's flexibility and systems' rigour. Without them, AI stays a conversational gadget; with them, it becomes a reliable software component. It is a technical detail that decides an AI's real ability to integrate into your processes.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "appel-fonctions",
+    "prompt-engineering",
+    "generation-code",
+    "automatisation-intelligente"
+  ],
+  "sources": [
+    {
+      "titre": "Documentation des API de LLM (structured outputs)",
+      "url": "https://www.anthropic.com/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

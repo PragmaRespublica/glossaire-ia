@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA en service client",
+  "terme_en": "AI in customer service",
+  "sous_titre_fr": "AI in customer service",
+  "sous_titre_en": "IA en service client",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Applications de l'IA à la relation client : chatbots, agents vocaux, assistance aux conseillers, analyse des demandes, routage intelligent. L'un des usages les plus répandus · disponibilité continue, traitement des demandes courantes · à condition de bien articuler l'IA et l'humain, et d'annoncer clairement quand on parle à une machine.",
+  "definition_en": "Applications of AI to customer relations: chatbots, voice agents, advisor assistance, request analysis, intelligent routing. One of the most widespread uses · continuous availability, handling common requests · provided AI and humans are well articulated, and it is clearly announced when one talks to a machine.",
+  "exemple_fr": "Une entreprise déploie un assistant IA qui traite les demandes courantes 24 h/24 et transfère les cas complexes à un conseiller humain, avec le contexte. Les clients sont mieux servis, les conseillers déchargés du répétitif. Point clé · l'assistant annonce sa nature d'IA, et le passage à l'humain est fluide et toujours possible.",
+  "exemple_en": "A company deploys an AI assistant that handles common requests 24/7 and transfers complex cases to a human advisor, with context. Customers are better served, advisors relieved of the repetitive. Key point · the assistant announces its AI nature, and the handover to a human is smooth and always possible.",
+  "regard_fr": "En service client, l'IA réussit quand elle sert la relation, échoue quand elle l'empêche. Un chatbot qui piège le client dans une boucle sans issue humaine détruit la confiance. La bonne conception garde toujours une porte vers l'humain · l'IA traite le volume, l'humain préserve le lien. Ne sacrifiez jamais le second au premier.",
+  "regard_en": "In customer service, AI succeeds when it serves the relationship, fails when it prevents it. A chatbot that traps the customer in a loop with no human exit destroys trust. Good design always keeps a door to the human · AI handles the volume, the human preserves the bond. Never sacrifice the latter to the former.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "chatbot",
+    "agents-vocaux",
+    "humain-dans-la-boucle",
+    "automatisation-intelligente"
+  ],
+  "sources": [
+    {
+      "titre": "Études sur l'IA dans la relation client"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

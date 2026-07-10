@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Automatisation robotisée des processus (RPA)",
+  "terme_en": "Robotic Process Automation (RPA)",
+  "sous_titre_fr": "Robotic Process Automation",
+  "sous_titre_en": "Automatisation robotisée des processus",
+  "axe": "economie",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Technologie automatisant des tâches répétitives et réglées en imitant les actions humaines dans les logiciels : saisies, copier-coller, transferts entre applications. Antérieure à l'IA générative, la RPA gère bien les processus stables et structurés · couplée à l'IA, elle s'attaque à des tâches plus variables et non structurées.",
+  "definition_en": "A technology automating repetitive, rule-based tasks by mimicking human actions in software: data entry, copy-paste, transfers between applications. Predating generative AI, RPA handles stable, structured processes well · coupled with AI, it tackles more variable, unstructured tasks.",
+  "exemple_fr": "Une équipe passait des heures à recopier des données d'un logiciel à un autre. Un robot RPA fait la même chose sans erreur, 24 h/24. Simple et efficace · tant que le processus ne change pas. Dès qu'il faut interpréter un document non structuré, on ajoute de l'IA à la RPA. Chacune a son domaine.",
+  "exemple_en": "A team spent hours recopying data from one software to another. An RPA robot does the same without error, 24/7. Simple and effective · as long as the process does not change. As soon as an unstructured document must be interpreted, AI is added to RPA. Each has its domain.",
+  "regard_fr": "La RPA rappelle que toute automatisation n'a pas besoin d'IA : pour des tâches stables et réglées, un robot simple suffit, plus sobre et plus fiable qu'un LLM. La sagesse consiste à réserver l'IA aux tâches qui exigent réellement de la compréhension · et la RPA classique au reste. Le bon outil pour le bon problème.",
+  "regard_en": "RPA recalls that not all automation needs AI: for stable, rule-based tasks, a simple robot suffices, more frugal and reliable than a LLM. Wisdom lies in reserving AI for tasks that truly require understanding · and classic RPA for the rest. The right tool for the right problem.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "automatisation-intelligente",
+    "hyperautomatisation",
+    "ia-non-generative",
+    "idp"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses du marché RPA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

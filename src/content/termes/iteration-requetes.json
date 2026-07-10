@@ -1,0 +1,38 @@
+{
+  "terme_fr": "Itération de requêtes",
+  "terme_en": "Iterative prompting",
+  "sous_titre_fr": "Iterative prompting, affiner en dialoguant",
+  "sous_titre_en": "Refining through dialogue",
+  "axe": "fondamentaux",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Pratique consistant à obtenir un bon résultat non pas d'un seul prompt parfait, mais d'un dialogue : on demande, on évalue, on affine, on corrige. L'itération de requêtes est la façon la plus réaliste de travailler avec un LLM · rarement la première réponse est la bonne, souvent la troisième l'est.",
+  "definition_en": "The practice of obtaining a good result not from a single perfect prompt, but from a dialogue: you ask, evaluate, refine, correct. Iterative prompting is the most realistic way to work with a LLM · rarely is the first answer the right one, often the third is.",
+  "exemple_fr": "Un rédacteur demande un texte, le juge trop formel, demande « plus direct », puis « raccourcis le deuxième paragraphe », puis « ajoute un exemple ». En quatre échanges, il obtient exactement ce qu'il voulait. Chercher le prompt parfait du premier coup est une perte de temps · le dialogue est plus efficace.",
+  "exemple_en": "A writer asks for a text, judges it too formal, asks for \"more direct\", then \"shorten the second paragraph\", then \"add an example\". In four exchanges, they get exactly what they wanted. Seeking the perfect prompt on the first try is a waste of time · dialogue is more effective.",
+  "regard_fr": "L'itération de requêtes déculpabilise l'utilisateur : non, vous n'avez pas à trouver le prompt parfait du premier coup. Travailler avec un LLM, c'est dialoguer, pas commander. Cette posture · essayer, ajuster, recommencer · est plus productive que la quête illusoire de la formule magique.",
+  "regard_en": "Iterative prompting reassures the user: no, you do not have to find the perfect prompt on the first try. Working with a LLM means dialoguing, not commanding. This stance · try, adjust, retry · is more productive than the illusory quest for the magic formula.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "prompt-engineering",
+    "conversation-multitour",
+    "enchainement-requetes",
+    "reformulation-requete"
+  ],
+  "sources": [
+    {
+      "titre": "OQLF · Vitrine linguistique (itération de requêtes)",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

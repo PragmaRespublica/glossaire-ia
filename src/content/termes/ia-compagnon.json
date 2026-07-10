@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA compagnon",
+  "terme_en": "AI companion",
+  "sous_titre_fr": "AI companion",
+  "sous_titre_en": "IA compagnon",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Application d'IA conçue pour tenir compagnie, dialoguer, voire simuler une relation affective. En plein essor, les IA compagnons répondent à un besoin réel de lien · mais soulèvent des questions profondes : dépendance émotionnelle, manipulation, vulnérabilité des publics fragiles, floutage de la frontière entre relation humaine et simulation.",
+  "definition_en": "An AI application designed to keep company, converse, even simulate an emotional relationship. Booming, AI companions respond to a real need for connection · but raise deep questions: emotional dependence, manipulation, vulnerability of fragile audiences, blurring the boundary between human relationship and simulation.",
+  "exemple_fr": "Une personne isolée trouve du réconfort dans un IA compagnon toujours disponible et bienveillant. Bénéfice réel à court terme · mais l'application est conçue pour maximiser l'engagement, pas le bien-être. La dépendance affective à un produit commercial, chez des publics fragiles, appelle une vigilance éthique et réglementaire particulière.",
+  "exemple_en": "An isolated person finds comfort in an always-available, caring AI companion. Real short-term benefit · but the application is designed to maximise engagement, not well-being. Emotional dependence on a commercial product, among fragile audiences, calls for particular ethical and regulatory vigilance.",
+  "regard_fr": "Les IA compagnons touchent à ce qu'il y a de plus intime · le besoin humain de lien. Qu'un produit commercial optimisé pour l'engagement s'y insère pose des questions vertigineuses. Ce n'est pas un usage anodin de l'IA : c'est un terrain où l'éthique doit précéder le marché, pas le suivre.",
+  "regard_en": "AI companions touch the most intimate thing · the human need for connection. That a commercial product optimised for engagement inserts itself there raises dizzying questions. It is not an innocuous AI use: it is a terrain where ethics must precede the market, not follow it.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "anthropomorphisme",
+    "ethique-ia",
+    "dependance-cognitive",
+    "ia-education"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses éthiques sur les IA relationnelles"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

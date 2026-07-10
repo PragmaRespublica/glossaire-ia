@@ -1,0 +1,37 @@
+{
+  "terme_fr": "IA en marketing",
+  "terme_en": "AI in marketing",
+  "sous_titre_fr": "AI in marketing",
+  "sous_titre_en": "IA en marketing",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Applications de l'IA au marketing : génération de contenu, personnalisation, ciblage, analyse de sentiment, optimisation des campagnes. L'un des domaines d'adoption les plus rapides · gains de productivité immédiats · mais qui soulève des questions de qualité (saturation par le contenu générique), de vie privée (ciblage) et d'authenticité.",
+  "definition_en": "Applications of AI to marketing: content generation, personalisation, targeting, sentiment analysis, campaign optimisation. One of the fastest-adoption domains · immediate productivity gains · but raising questions of quality (saturation by generic content), privacy (targeting) and authenticity.",
+  "exemple_fr": "Une équipe marketing génère dix variantes d'un email en quelques minutes et les teste. Gain de temps réel. Mais la tentation est grande de produire du contenu générique en masse · au risque de noyer sa marque dans le slop ambiant. Les meilleures équipes utilisent l'IA pour accélérer, pas pour remplacer la créativité et la voix propre.",
+  "exemple_en": "A marketing team generates ten variants of an email in minutes and tests them. Real time savings. But the temptation is strong to produce generic content en masse · at the risk of drowning the brand in ambient slop. The best teams use AI to accelerate, not to replace creativity and their own voice.",
+  "regard_fr": "En marketing, l'IA offre un pouvoir de production illimité · et c'est précisément le piège. Quand tout le monde génère le même contenu générique, la voix authentique devient rare et donc précieuse. L'IA doit servir votre singularité, pas la diluer dans la moyenne. La quantité est facile ; la différence reste humaine.",
+  "regard_en": "In marketing, AI offers unlimited production power · and that is precisely the trap. When everyone generates the same generic content, the authentic voice becomes rare and thus precious. AI must serve your singularity, not dilute it into the average. Quantity is easy; difference stays human.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "contenu-genere",
+    "slop",
+    "redaction-assistee",
+    "bulle-filtre"
+  ],
+  "sources": [
+    {
+      "titre": "Études sur l'adoption de l'IA en marketing"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

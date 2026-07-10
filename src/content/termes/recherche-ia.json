@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Recherche augmentée par IA",
+  "terme_en": "AI-powered search",
+  "sous_titre_fr": "AI-powered search",
+  "sous_titre_en": "Recherche augmentée par IA",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Nouvelle génération de moteurs de recherche qui, au lieu de lister des liens, synthétisent une réponse directe à partir de plusieurs sources, avec citations. La recherche augmentée par IA change les usages · et l'économie du web · en captant l'attention avant le clic. Elle pose des questions de fiabilité, de sources et de dépendance.",
+  "definition_en": "A new generation of search engines that, instead of listing links, synthesise a direct answer from several sources, with citations. AI-powered search changes usage · and the web's economy · by capturing attention before the click. It raises questions of reliability, sources and dependence.",
+  "exemple_fr": "Un utilisateur pose une question complexe à un moteur de recherche IA. Au lieu de dix liens à explorer, il reçoit une synthèse sourcée en quelques secondes · gain de temps réel. Mais il ne visite plus les sites sources : un bouleversement pour les éditeurs, dont le trafic s'effondre au profit de la synthèse.",
+  "exemple_en": "A user asks a search engine AI a complex question. Instead of ten links to explore, they receive a sourced synthesis in seconds · real time savings. But they no longer visit the source sites: an upheaval for publishers, whose traffic collapses in favour of the synthesis.",
+  "regard_fr": "La recherche augmentée par IA est confortable · et redoutable pour l'écosystème de l'information. En répondant à notre place, elle nous prive parfois de la confrontation des sources qui forge le jugement. Gardez le réflexe de vérifier, surtout sur les sujets qui comptent · la synthèse n'est pas la vérité.",
+  "regard_en": "AI-powered search is convenient · and formidable for the information ecosystem. By answering in our place, it sometimes deprives us of the confrontation of sources that forges judgment. Keep the reflex to verify, especially on subjects that matter · the synthesis is not the truth.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "recherche-approfondie",
+    "rag",
+    "verification-faits",
+    "perplexity"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses sur l'impact de la recherche générative"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

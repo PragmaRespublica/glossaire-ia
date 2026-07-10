@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Anthropomorphisme",
+  "terme_en": "Anthropomorphism",
+  "sous_titre_fr": "Anthropomorphism",
+  "sous_titre_en": "Anthropomorphisme",
+  "axe": "responsabilite",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Tendance à prêter à une IA des intentions, des émotions ou une conscience humaines qu'elle ne possède pas. Renforcé par le langage naturel des assistants, l'anthropomorphisme brouille le jugement : on fait confiance à une machine comme à une personne, on lui prête un « avis », on oublie qu'elle calcule des probabilités.",
+  "definition_en": "The tendency to attribute to an AI human intentions, emotions or consciousness that it does not possess. Reinforced by assistants' natural language, anthropomorphism blurs judgment: one trusts a machine like a person, ascribes it an \"opinion\", forgets it computes probabilities.",
+  "exemple_fr": "Un utilisateur écrit « merci, tu es génial » à un assistant et suit ses conseils avec une confiance qu'il n'accorderait pas à un tableur. Pourtant, l'assistant ne « pense » ni ne « veut » rien · il prédit du texte. Cet anthropomorphisme, naturel et encouragé par le design, peut mener à une confiance dangereuse.",
+  "exemple_en": "A user writes \"thanks, you're great\" to an assistant and follows its advice with a trust they would not grant a spreadsheet. Yet the assistant neither \"thinks\" nor \"wants\" anything · it predicts text. This anthropomorphism, natural and encouraged by design, can lead to dangerous trust.",
+  "regard_fr": "L'anthropomorphisme est le biais cognitif central de notre rapport à l'IA : plus une machine parle comme nous, plus on la croit comme nous. Cultiver la conscience que l'on parle à un système statistique, non à un être, est une hygiène mentale essentielle · et le premier acte d'une acculturation lucide.",
+  "regard_en": "Anthropomorphism is the central cognitive bias of our relationship with AI: the more a machine talks like us, the more we believe it like us. Cultivating the awareness that one is talking to a statistical system, not a being, is essential mental hygiene · and the first act of lucid literacy.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "ia-compagnon",
+    "complaisance-ia",
+    "dependance-cognitive",
+    "hallucination"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur l'anthropomorphisme des IA conversationnelles"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

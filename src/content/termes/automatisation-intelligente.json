@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Automatisation intelligente",
+  "terme_en": "Intelligent automation",
+  "sous_titre_fr": "Intelligent automation",
+  "sous_titre_en": "Automatisation intelligente",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Combinaison de l'automatisation classique (règles, workflows) et de l'IA (compréhension, décision, génération) pour automatiser des processus jusque-là trop complexes ou trop variables. L'automatisation intelligente traite les cas nuancés que les règles rigides ne savaient gérer · en gardant idéalement un humain pour les exceptions.",
+  "definition_en": "The combination of classic automation (rules, workflows) and AI (understanding, decision, generation) to automate processes previously too complex or too variable. Intelligent automation handles the nuanced cases that rigid rules could not manage · ideally keeping a human for the exceptions.",
+  "exemple_fr": "Un traitement de réclamations reposait sur des règles fixes, incapables de gérer les cas atypiques renvoyés à des agents débordés. L'automatisation intelligente ajoute une IA qui comprend le langage naturel des réclamations, propose une réponse, et n'escalade que les vrais cas complexes. Le taux d'automatisation bondit sans dégrader la qualité.",
+  "exemple_en": "A complaint-handling process relied on fixed rules, unable to manage atypical cases sent to overwhelmed agents. Intelligent automation adds an AI that understands the natural language of complaints, proposes a response, and only escalates the truly complex cases. The automation rate jumps without degrading quality.",
+  "regard_fr": "L'automatisation intelligente est la vraie promesse de l'IA en entreprise : non pas remplacer l'humain, mais automatiser ce qui résistait à l'automatisation classique, tout en réservant à l'humain les cas qui le méritent. La clé reste de bien placer la frontière entre ce qu'on automatise et ce qu'on supervise.",
+  "regard_en": "Intelligent automation is AI's true promise in the enterprise: not replacing the human, but automating what resisted classic automation, while reserving for the human the cases that deserve it. The key remains placing the boundary well between what you automate and what you supervise.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "rpa",
+    "hyperautomatisation",
+    "flux-agentiques",
+    "idp"
+  ],
+  "sources": [
+    {
+      "titre": "Analyses du marché de l'automatisation intelligente"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

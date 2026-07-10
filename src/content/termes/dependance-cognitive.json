@@ -1,0 +1,37 @@
+{
+  "terme_fr": "Dépendance cognitive à l'IA",
+  "terme_en": "Cognitive offloading",
+  "sous_titre_fr": "Cognitive offloading, déléguer sa pensée",
+  "sous_titre_en": "Offloading one's thinking",
+  "axe": "responsabilite",
+  "niveau": "intermediaire",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Phénomène où l'usage habituel de l'IA conduit à déléguer des efforts cognitifs · mémoriser, calculer, rédiger, raisonner · au point d'affaiblir ces capacités. Comme le GPS a émoussé le sens de l'orientation, une dépendance excessive à l'IA peut atrophier des compétences qu'on cesse d'exercer.",
+  "definition_en": "A phenomenon where habitual AI use leads to delegating cognitive efforts · memorising, calculating, writing, reasoning · to the point of weakening these abilities. As GPS dulled the sense of direction, excessive dependence on AI can atrophy skills one stops exercising.",
+  "exemple_fr": "Une équipe utilise l'IA pour toute rédaction. Au fil des mois, certains peinent à structurer un texte sans elle · la compétence s'est émoussée faute d'exercice. L'IA a fait gagner du temps à court terme, mais entamé une capacité à long terme. Le bon usage préserve l'effort qui entretient la compétence.",
+  "exemple_en": "A team uses AI for all writing. Over the months, some struggle to structure a text without it · the skill has dulled for lack of exercise. AI saved time in the short term, but eroded a long-term capacity. Good use preserves the effort that maintains the skill.",
+  "regard_fr": "La dépendance cognitive est le risque silencieux de l'IA : chaque effort délégué est une compétence qui s'endort. La question n'est pas d'éviter l'IA, mais de choisir quels efforts déléguer et lesquels garder pour rester capable. Externaliser sa pensée a un prix qu'on ne paie que plus tard.",
+  "regard_en": "Cognitive dependence is AI's silent risk: every delegated effort is a skill going dormant. The question is not to avoid AI, but to choose which efforts to delegate and which to keep to stay capable. Outsourcing your thinking has a price you only pay later.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "deskilling",
+    "anthropomorphisme",
+    "ia-education",
+    "humain-dans-la-boucle"
+  ],
+  "sources": [
+    {
+      "titre": "Recherches sur le cognitive offloading et l'IA"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}

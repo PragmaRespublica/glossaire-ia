@@ -1,0 +1,38 @@
+{
+  "terme_fr": "IA et ressources humaines",
+  "terme_en": "AI in HR",
+  "sous_titre_fr": "AI in HR",
+  "sous_titre_en": "IA et ressources humaines",
+  "axe": "economie",
+  "niveau": "fondamental",
+  "theme": "prompting-usage",
+  "pages_liees": [],
+  "definition_fr": "Applications de l'IA aux ressources humaines : tri de candidatures, analyse de CV, évaluation, gestion des talents, chatbots RH. Domaine sensible par excellence · les décisions touchent des personnes et des carrières · l'IA RH est souvent classée à haut risque et exposée aux enjeux de biais, de discrimination et de transparence.",
+  "definition_en": "Applications of AI to human resources: application screening, CV analysis, evaluation, talent management, HR chatbots. A sensitive domain par excellence · decisions affect people and careers · HR AI is often classified high-risk and exposed to bias, discrimination and transparency issues.",
+  "exemple_fr": "Une DRH veut accélérer le tri de milliers de candidatures. Un outil d'IA le permet · mais il doit être audité pour biais, offrir une supervision humaine réelle, et informer les candidats. Sans ces garde-fous, l'outil reproduirait et amplifierait les discriminations passées présentes dans ses données d'entraînement.",
+  "exemple_en": "An HR director wants to speed up screening thousands of applications. An AI tool allows it · but it must be audited for bias, offer real human oversight, and inform candidates. Without these guardrails, the tool would reproduce and amplify the past discriminations present in its training data.",
+  "regard_fr": "L'IA RH concentre les risques éthiques et juridiques de l'IA : elle décide du sort de personnes à partir de données historiquement biaisées. C'est le domaine où « ça fait gagner du temps » ne suffit jamais à justifier un déploiement. Chaque outil RH doit passer le test de l'équité avant celui de l'efficacité.",
+  "regard_en": "HR AI concentrates AI's ethical and legal risks: it decides people's fate from historically biased data. It is the domain where \"it saves time\" never suffices to justify a deployment. Every HR tool must pass the fairness test before the efficiency one.",
+  "schema": {
+    "type": "none",
+    "contenu": "",
+    "alt_fr": "",
+    "alt_en": ""
+  },
+  "video": null,
+  "articles": [],
+  "termes_lies": [
+    "biais-algorithmique",
+    "systeme-haut-risque",
+    "surveillance-travail",
+    "equite-algorithmique"
+  ],
+  "sources": [
+    {
+      "titre": "CNIL · IA et recrutement",
+      "url": "https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia"
+    }
+  ],
+  "cta": null,
+  "statut": "a_relire"
+}
