@@ -1,5 +1,11 @@
 ---
 import '../styles/global.css';
+// Polices auto-hébergées (plus d'appel à Google Fonts : RGPD + rendu fiable).
+// Seule Inter est réellement affichée ; DM Sans reste en fallback déclaratif.
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
 import { t, type Lang } from '../i18n/ui';
 import LangSwitch from '../components/LangSwitch.astro';
 
@@ -14,6 +20,12 @@ interface Props {
 const { lang, title, description, altPath } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const altLang: Lang = lang === 'fr' ? 'en' : 'fr';
+
+// URLs absolues : canonical, hreflang et Open Graph exigent des URLs complètes.
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const altUrl = new URL(`${base}${altPath}`, Astro.site);
+const xDefault = lang === 'fr' ? canonical : altUrl;
+const ogImage = new URL(`${base}/og-image.png`, Astro.site);
 ---
 
 <html lang={lang}>
@@ -23,15 +35,29 @@ const altLang: Lang = lang === 'fr' ? 'en' : 'fr';
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
-    <link rel="alternate" hreflang={altLang} href={`${base}${altPath}`} />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={lang} href={canonical} />
+    <link rel="alternate" hreflang={altLang} href={altUrl} />
+    <link rel="alternate" hreflang="x-default" href={xDefault} />
+    <link rel="sitemap" type="application/xml" href={`${base}/sitemap-index.xml`} />
+    <meta property="og:site_name" content={t(lang, 'site.title')} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={t(lang, 'site.title')} />
+    <meta property="og:locale" content={lang === 'fr' ? 'fr_FR' : 'en_US'} />
+    <meta property="og:locale:alternate" content={lang === 'fr' ? 'en_US' : 'fr_FR'} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="generator" content={Astro.generator} />
     <meta name="app-base" content={base} />
+    <slot name="head" />
   </head>
   <body>
     <a href="#contenu" class="skip-link">{t(lang, 'a11y.skip')}</a>

@@ -4,6 +4,7 @@ import Base from '../../layouts/Base.astro';
 import TermCard from '../../components/TermCard.astro';
 import FilterBar from '../../components/FilterBar.astro';
 import { t, LANGS, type Lang } from '../../i18n/ui';
+import { metaDescription } from '../../lib/seo';
 
 export function getStaticPaths() {
   return LANGS.map((lang) => ({ params: { lang } }));
@@ -28,14 +29,32 @@ function initial(entry: (typeof sorted)[number]): string {
 }
 
 const lettres = [...new Set(sorted.map(initial))];
+
+// Données structurées : la page d'accueil est le DefinedTermSet du glossaire.
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTermSet',
+  '@id': canonical,
+  name: t(lang, 'site.title'),
+  description: metaDescription(t(lang, 'hero.lede')),
+  url: canonical,
+  inLanguage: lang,
+  publisher: {
+    '@type': 'Organization',
+    name: 'PragmaForma',
+    url: 'https://pragmaforma.com/',
+  },
+};
 ---
 
 <Base
   lang={lang}
   title={t(lang, 'site.title')}
-  description={t(lang, 'hero.lede').slice(0, 155)}
+  description={metaDescription(t(lang, 'hero.lede'))}
   altPath={`/${lang === 'fr' ? 'en' : 'fr'}/`}
 >
+  <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
   <section class="hero">
     <div class="container">
       <span class="hero-eyebrow">{t(lang, 'hero.eyebrow')} · {sorted.length} {lang === 'fr' ? 'définitions' : 'definitions'}</span>

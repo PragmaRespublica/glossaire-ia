@@ -1,12 +1,17 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import pagefind from 'astro-pagefind';
+import sitemap from '@astrojs/sitemap';
 
-// URL cible : https://pragmarespublica.github.io/glossaire-ia/
-// Portable vers un domaine custom ou un hébergeur souverain : changer site/base ici.
+// URL actuelle : https://pragmarespublica.github.io/glossaire-ia/
+// Bascule vers glossaire.pragmaforma.com : SITE = 'https://glossaire.pragmaforma.com'
+// et BASE = '' · voir INTEGRATION.md pour la procédure complète.
+const SITE = 'https://pragmarespublica.github.io';
+const BASE = '/glossaire-ia';
+
 export default defineConfig({
-  site: 'https://pragmarespublica.github.io',
-  base: '/glossaire-ia',
+  site: SITE,
+  base: BASE || '/',
   trailingSlash: 'ignore',
   // CSS inliné dans chaque page : évite la page « nue » quand un HTML en cache
   // (GitHub Pages, max-age=600) référence un CSS haché supprimé par un déploiement.
@@ -21,5 +26,15 @@ export default defineConfig({
       redirectToDefaultLocale: true,
     },
   },
-  integrations: [pagefind()],
+  integrations: [
+    pagefind(),
+    sitemap({
+      // La racine est une redirection vers /fr/ : inutile dans le sitemap.
+      filter: (page) => new URL(page).pathname !== `${BASE}/`,
+      i18n: {
+        defaultLocale: 'fr',
+        locales: { fr: 'fr-FR', en: 'en-US' },
+      },
+    }),
+  ],
 });

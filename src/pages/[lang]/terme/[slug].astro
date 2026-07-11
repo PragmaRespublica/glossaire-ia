@@ -12,6 +12,7 @@ import {
   type Lang,
 } from '../../../i18n/ui';
 import illustrations from '../../../data/illustrations.json';
+import { metaDescription } from '../../../lib/seo';
 
 const ILLUS = illustrations as Record<string, { alt_fr: string; alt_en: string }>;
 
@@ -48,14 +49,47 @@ const lies = (
 const illus = ILLUS[entry.id];
 const illusAlt = illus ? (lang === 'fr' ? illus.alt_fr : illus.alt_en) : '';
 const illusSrc = illus ? `${base}/illustrations/${entry.id}.svg` : '';
+
+// Données structurées : chaque fiche est un DefinedTerm du glossaire.
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const glossaireUrl = new URL(`${base}/${lang}/`, Astro.site).href;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'DefinedTerm',
+      '@id': canonical,
+      name: terme,
+      alternateName: aka,
+      description: definition,
+      url: canonical,
+      inLanguage: lang,
+      inDefinedTermSet: {
+        '@type': 'DefinedTermSet',
+        '@id': glossaireUrl,
+        name: t(lang, 'site.title'),
+        url: glossaireUrl,
+        inLanguage: lang,
+      },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: t(lang, 'site.title'), item: glossaireUrl },
+        { '@type': 'ListItem', position: 2, name: terme, item: canonical },
+      ],
+    },
+  ],
+};
 ---
 
 <Base
   lang={lang}
   title={`${terme} · ${t(lang, 'site.title')}`}
-  description={definition.slice(0, 155)}
+  description={metaDescription(definition)}
   altPath={`/${lang === 'fr' ? 'en' : 'fr'}/terme/${entry.id}/`}
 >
+  <script is:inline type="application/ld+json" slot="head" set:html={JSON.stringify(jsonLd)} />
   <article class="container fiche" data-pagefind-body>
     <header class="fiche-head">
       <p class="hero-eyebrow">{t(lang, 'hero.eyebrow')}</p>
