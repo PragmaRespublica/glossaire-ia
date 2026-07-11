@@ -8,6 +8,11 @@ export default defineConfig({
   site: 'https://pragmarespublica.github.io',
   base: '/glossaire-ia',
   trailingSlash: 'ignore',
+  // CSS inliné dans chaque page : évite la page « nue » quand un HTML en cache
+  // (GitHub Pages, max-age=600) référence un CSS haché supprimé par un déploiement.
+  build: {
+    inlineStylesheets: 'always',
+  },
   i18n: {
     defaultLocale: 'fr',
     locales: ['fr', 'en'],
