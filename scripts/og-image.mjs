@@ -1,7 +1,7 @@
 // Génère public/og-image.png (1200×630) · carte de partage social du glossaire.
 // Style blueprint de la charte : fond charcoal, tracés orange, monospace.
 // Régénérer : node scripts/og-image.mjs (après ajout massif de termes, pour le compteur).
-import { readdirSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
@@ -13,6 +13,11 @@ const nbTermes = readdirSync(join(racine, 'src/content/termes')).filter((f) =>
 
 const sans = "'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif";
 const mono = "'SF Mono', Menlo, 'Courier New', monospace";
+
+// Logo officiel PragmaForma (blanc, 2220×285), embarqué en data URI.
+const logo = readFileSync(join(racine, 'public/logo-pragmaforma.png')).toString('base64');
+const logoH = 44;
+const logoW = Math.round((logoH * 2220) / 285);
 
 const svg = `<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <rect width="1200" height="630" fill="#1a1b1c"/>
@@ -45,8 +50,8 @@ const svg = `<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http:/
   <text x="96" y="404" font-family="${sans}" font-size="28" fill="#b8b2a6">${nbTermes} termes · Français / English · définitions, exemples, regard critique</text>
 
   <!-- Pied : marque -->
-  <text x="96" y="516" font-family="${sans}" font-size="40" font-weight="700" fill="#f0ebe2">Pragma<tspan fill="#f65009">Forma</tspan></text>
-  <text x="96" y="552" font-family="${sans}" font-size="21" fill="#7d7870">Comprendre pour reprendre le pouvoir</text>
+  <image x="96" y="476" width="${logoW}" height="${logoH}" href="data:image/png;base64,${logo}"/>
+  <text x="96" y="556" font-family="${sans}" font-size="21" fill="#7d7870">Comprendre pour reprendre le pouvoir</text>
 </svg>`;
 
 await sharp(Buffer.from(svg)).png().toFile(join(racine, 'public/og-image.png'));

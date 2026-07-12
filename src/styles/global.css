@@ -88,14 +88,27 @@ header.site-header {
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 22px;
-  letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
 }
 
-.logo span {
-  color: var(--orange);
+/* Logo officiel PragmaForma (blanc, fond transparent) · source : pragmaforma.com/img/PragmaFormat-Logo-blanc.png */
+.logo img {
+  display: block;
+  height: 26px;
+  width: auto;
+}
+
+@media (max-width: 640px) {
+  .logo img {
+    height: 20px;
+  }
+
+  /* Le logo image est plus large que l'ancien logo texte : sans retrait du
+     lien retour, le sélecteur FR/EN sortait de l'écran sur mobile. */
+  .nav-back {
+    display: none;
+  }
 }
 
 .header-nav {
