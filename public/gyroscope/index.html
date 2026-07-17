@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#050a1e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Ciel &amp; Océan · Gyroscope</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    background: #050a1e;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: none;
+    overscroll-behavior: none;
+  }
+
+  #scene {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* ---------- Écran d'accueil ---------- */
+  #intro {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+    color: #eaf2ff;
+    background: linear-gradient(180deg,
+      #050a1e 0%, #0a1638 38%,
+      #123a52 55%,
+      #0b4d5c 70%, #06293b 100%);
+    transition: opacity 0.6s ease, visibility 0.6s;
+  }
+  #intro.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+
+  #intro h1 {
+    font-size: clamp(1.8rem, 8vw, 2.6rem);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+    text-shadow: 0 2px 18px rgba(120, 200, 255, 0.35);
+  }
+  #intro p {
+    max-width: 30rem;
+    line-height: 1.55;
+    font-size: 1rem;
+    opacity: 0.85;
+    margin-bottom: 32px;
+  }
+  #intro .emoji-row {
+    font-size: 2rem;
+    margin-bottom: 18px;
+    letter-spacing: 0.4em;
+  }
+
+  #startBtn {
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #06283f;
+    padding: 16px 46px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #9fe8ff, #58b8f0);
+    box-shadow: 0 6px 30px rgba(90, 190, 255, 0.45);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  #startBtn:active {
+    transform: scale(0.96);
+    box-shadow: 0 3px 14px rgba(90, 190, 255, 0.35);
+  }
+
+  #introNote {
+    margin-top: 22px;
+    font-size: 0.8rem;
+    opacity: 0.55;
+    max-width: 26rem;
+    line-height: 1.5;
+  }
+
+  /* ---------- Indication en cours de session ---------- */
+  #hint {
+    position: fixed;
+    left: 50%;
+    bottom: calc(24px + env(safe-area-inset-bottom));
+    transform: translateX(-50%);
+    z-index: 5;
+    padding: 10px 20px;
+    border-radius: 999px;
+    background: rgba(8, 16, 36, 0.55);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #dceaff;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    pointer-events: none;
+  }
+  #hint.visible { opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<canvas id="scene"></canvas>
+
+<div id="intro">
+  <div class="emoji-row">✨ 🌊</div>
+  <h1>Ciel &amp; Océan</h1>
+  <p>Incline ton téléphone vers le haut pour contempler les étoiles,
+     vers le bas pour plonger dans l'océan.
+     À mi-chemin, l'horizon mélange les deux mondes.</p>
+  <button id="startBtn" type="button">Commencer</button>
+  <div id="introNote">Sur iPhone, une autorisation d'accès aux capteurs de mouvement
+    te sera demandée. Sans capteur, glisse simplement le doigt
+    verticalement sur l'écran.</div>
+</div>
+
+<div id="hint"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  // ---------------------------------------------------------------
+  // Canvas et dimensionnement
+  // ---------------------------------------------------------------
+  var canvas = document.getElementById('scene');
+  var ctx = canvas.getContext('2d');
+  var W = 0, H = 0;
+  var DPR = Math.min(window.devicePixelRatio || 1, 2);
+
+  function resize() {
+    W = window.innerWidth;
+    H = window.innerHeight;
+    canvas.width = Math.round(W * DPR);
+    canvas.height = Math.round(H * DPR);
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  }
+  window.addEventListener('resize', resize);
+  window.addEventListener('orientationchange', function () {
+    setTimeout(resize, 300);
+  });
+  resize();
+
+  // ---------------------------------------------------------------
+  // État d'inclinaison : beta 0 = sol, 90 = horizon, 180 = ciel
+  // ---------------------------------------------------------------
+  var betaTarget = 90;
+  var betaSmooth = 90;
+  var sensorActive = false;
+  var started = false;
+
+  function clamp(v, a, b) { return v < a ? a : (v > b ? b : v); }
+  function smoothstep(t) { return t * t * (3 - 2 * t); }
+
+  function onOrientation(e) {
+    if (e.beta === null || e.beta === undefined) return;
+    sensorActive = true;
+    betaTarget = clamp(e.beta, 0, 180);
+  }
+
+  // ---------------------------------------------------------------
+  // Fallback tactile : glisser verticalement pour simuler le tilt.
+  // Glisser vers le bas fait « lever les yeux » vers le ciel,
+  // comme si l'on tirait le paysage vers soi.
+  // ---------------------------------------------------------------
+  var dragging = false;
+  var lastY = 0;
+
+  function dragStart(y) { dragging = true; lastY = y; }
+  function dragMove(y) {
+    if (!dragging || sensorActive) return;
+    betaTarget = clamp(betaTarget + (y - lastY) * 0.35, 0, 180);
+    lastY = y;
+  }
+  function dragEnd() { dragging = false; }
+
+  canvas.addEventListener('touchstart', function (e) { dragStart(e.touches[0].clientY); }, { passive: true });
+  canvas.addEventListener('touchmove', function (e) { dragMove(e.touches[0].clientY); }, { passive: true });
+  canvas.addEventListener('touchend', dragEnd);
+  canvas.addEventListener('mousedown', function (e) { dragStart(e.clientY); });
+  window.addEventListener('mousemove', function (e) { dragMove(e.clientY); });
+  window.addEventListener('mouseup', dragEnd);
+
+  // ---------------------------------------------------------------
+  // Génération procédurale : étoiles
+  // ---------------------------------------------------------------
+  // Coordonnées relatives (0-1) pour survivre aux redimensionnements.
+  var stars = [];
+  (function makeStars() {
+    var i, n = 150;
+    for (i = 0; i < n; i++) {
+      stars.push({
+        x: Math.random(),
+        y: Math.random(),
+        r: 0.4 + Math.random() * 1.4,
+        phase: Math.random() * Math.PI * 2,
+        speed: 0.5 + Math.random() * 2.5,
+        warm: Math.random() < 0.2
+      });
+    }
+    // Amas plus dense le long de la voie lactée (diagonale).
+    for (i = 0; i < 70; i++) {
+      var t = Math.random();
+      var spread = (Math.random() - 0.5) * 0.22;
+      stars.push({
+        x: clamp(t + spread * 0.4, 0, 1),
+        y: clamp(0.85 - t * 0.7 + spread, 0, 1),
+        r: 0.3 + Math.random() * 0.9,
+        phase: Math.random() * Math.PI * 2,
+        speed: 0.5 + Math.random() * 3,
+        warm: Math.random() < 0.15
+      });
+    }
+  })();
+
+  var shootingStars = [];
+
+  function spawnShootingStar() {
+    var angle = Math.PI * (0.65 + Math.random() * 0.25);
+    var speed = 500 + Math.random() * 400;
+    shootingStars.push({
+      x: (0.3 + Math.random() * 0.7) * W,
+      y: Math.random() * H * 0.35,
+      vx: Math.cos(angle) * speed,
+      vy: -Math.sin(angle) * speed,
+      life: 0,
+      maxLife: 0.7 + Math.random() * 0.5
+    });
+  }
+
+  // ---------------------------------------------------------------
+  // Génération procédurale : poissons et bulles
+  // ---------------------------------------------------------------
+  var FISH_COLORS = [
+    ['#ff9d5c', '#e0662a'],
+    ['#ffd166', '#e0a12a'],
+    ['#6ee7d8', '#2aa79a'],
+    ['#8ab6ff', '#4d7fe0'],
+    ['#ff8fa3', '#d9536f'],
+    ['#c9f27e', '#7fb63f']
+  ];
+
+  var fishes = [];
+  (function makeFishes() {
+    for (var i = 0; i < 9; i++) {
+      fishes.push(newFish(true));
+    }
+  })();
+
+  function newFish(anywhere) {
+    var dir = Math.random() < 0.5 ? 1 : -1;
+    var size = 12 + Math.random() * 22;
+    return {
+      x: anywhere ? Math.random() * W : (dir === 1 ? -size * 3 : W + size * 3),
+      y: (0.25 + Math.random() * 0.7) * H,
+      dir: dir,
+      size: size,
+      speed: 30 + Math.random() * 55,
+      color: FISH_COLORS[(Math.random() * FISH_COLORS.length) | 0],
+      wobblePhase: Math.random() * Math.PI * 2,
+      wobbleSpeed: 1 + Math.random() * 1.5,
+      tailPhase: Math.random() * Math.PI * 2
+    };
+  }
+
+  var bubbles = [];
+  (function makeBubbles() {
+    for (var i = 0; i < 26; i++) {
+      bubbles.push({
+        x: Math.random(),
+        y: Math.random(),
+        r: 1.5 + Math.random() * 4,
+        speed: 0.03 + Math.random() * 0.07,
+        wobblePhase: Math.random() * Math.PI * 2,
+        wobbleAmp: 4 + Math.random() * 10
+      });
+    }
+  })();
+
+  // ---------------------------------------------------------------
+  // Rendu : ciel étoilé
+  // ---------------------------------------------------------------
+  function drawSky(now, alpha, shift) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.translate(0, shift);
+
+    var g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, '#02031a');
+    g.addColorStop(0.55, '#071137');
+    g.addColorStop(1, '#122457');
+    ctx.fillStyle = g;
+    ctx.fillRect(0, -Math.abs(shift), W, H + Math.abs(shift) * 2);
+
+    // Voie lactée : bande diagonale douce.
+    ctx.save();
+    ctx.translate(W * 0.5, H * 0.5);
+    ctx.rotate(-0.6);
+    var mw = ctx.createLinearGradient(0, -H * 0.22, 0, H * 0.22);
+    mw.addColorStop(0, 'rgba(150,170,255,0)');
+    mw.addColorStop(0.4, 'rgba(190,200,255,0.10)');
+    mw.addColorStop(0.5, 'rgba(230,235,255,0.16)');
+    mw.addColorStop(0.6, 'rgba(190,200,255,0.10)');
+    mw.addColorStop(1, 'rgba(150,170,255,0)');
+    ctx.fillStyle = mw;
+    ctx.fillRect(-W * 1.2, -H * 0.25, W * 2.4, H * 0.5);
+    ctx.restore();
+
+    // Étoiles scintillantes.
+    for (var i = 0; i < stars.length; i++) {
+      var s = stars[i];
+      var tw = 0.55 + 0.45 * Math.sin(now * s.speed + s.phase);
+      ctx.globalAlpha = alpha * (0.25 + 0.75 * tw);
+      ctx.fillStyle = s.warm ? '#ffe9c4' : '#eaf2ff';
+      ctx.beginPath();
+      ctx.arc(s.x * W, s.y * H, s.r * (0.8 + 0.3 * tw), 0, 6.2832);
+      ctx.fill();
+    }
+    ctx.globalAlpha = alpha;
+
+    // Étoiles filantes.
+    for (var j = shootingStars.length - 1; j >= 0; j--) {
+      var st = shootingStars[j];
+      var lifeT = st.life / st.maxLife;
+      var fade = lifeT < 0.15 ? lifeT / 0.15 : 1 - (lifeT - 0.15) / 0.85;
+      var tailX = st.x - st.vx * 0.14;
+      var tailY = st.y - st.vy * 0.14;
+      var grad = ctx.createLinearGradient(st.x, st.y, tailX, tailY);
+      grad.addColorStop(0, 'rgba(255,255,255,' + (0.95 * fade).toFixed(3) + ')');
+      grad.addColorStop(1, 'rgba(255,255,255,0)');
+      ctx.strokeStyle = grad;
+      ctx.lineWidth = 2;
+      ctx.lineCap = 'round';
+      ctx.beginPath();
+      ctx.moveTo(st.x, st.y);
+      ctx.lineTo(tailX, tailY);
+      ctx.stroke();
+    }
+
+    ctx.restore();
+  }
+
+  function updateSky(dt, visible) {
+    if (visible && Math.random() < dt * 0.35) spawnShootingStar();
+    for (var j = shootingStars.length - 1; j >= 0; j--) {
+      var st = shootingStars[j];
+      st.life += dt;
+      st.x += st.vx * dt;
+      st.y += st.vy * dt;
+      if (st.life >= st.maxLife) shootingStars.splice(j, 1);
+    }
+  }
+
+  // ---------------------------------------------------------------
+  // Rendu : fond marin
+  // ---------------------------------------------------------------
+  function drawFish(f, now) {
+    var wobbleY = Math.sin(now * f.wobbleSpeed + f.wobblePhase) * f.size * 0.4;
+    var tail = Math.sin(now * 8 + f.tailPhase) * 0.5;
+    var s = f.size;
+
+    ctx.save();
+    ctx.translate(f.x, f.y + wobbleY);
+    ctx.scale(f.dir, 1);
+
+    // Queue animée.
+    ctx.fillStyle = f.color[1];
+    ctx.beginPath();
+    ctx.moveTo(-s * 0.75, 0);
+    ctx.quadraticCurveTo(-s * 1.5, -s * 0.55 + tail * s * 0.5, -s * 1.65, -s * 0.5 + tail * s);
+    ctx.quadraticCurveTo(-s * 1.35, 0, -s * 1.65, s * 0.5 + tail * s);
+    ctx.quadraticCurveTo(-s * 1.5, s * 0.55 + tail * s * 0.5, -s * 0.75, 0);
+    ctx.fill();
+
+    // Corps.
+    var bg = ctx.createLinearGradient(0, -s * 0.5, 0, s * 0.5);
+    bg.addColorStop(0, f.color[0]);
+    bg.addColorStop(1, f.color[1]);
+    ctx.fillStyle = bg;
+    ctx.beginPath();
+    ctx.ellipse(0, 0, s, s * 0.52, 0, 0, 6.2832);
+    ctx.fill();
+
+    // Nageoire dorsale et pectorale.
+    ctx.fillStyle = f.color[1];
+    ctx.beginPath();
+    ctx.moveTo(-s * 0.1, -s * 0.45);
+    ctx.quadraticCurveTo(s * 0.15, -s * 0.95, s * 0.45, -s * 0.4);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.moveTo(s * 0.05, s * 0.15);
+    ctx.quadraticCurveTo(-s * 0.25, s * 0.7 + tail * s * 0.2, -s * 0.35, s * 0.25);
+    ctx.fill();
+
+    // Œil.
+    ctx.fillStyle = '#0b2030';
+    ctx.beginPath();
+    ctx.arc(s * 0.55, -s * 0.08, s * 0.09, 0, 6.2832);
+    ctx.fill();
+    ctx.fillStyle = 'rgba(255,255,255,0.85)';
+    ctx.beginPath();
+    ctx.arc(s * 0.58, -s * 0.11, s * 0.035, 0, 6.2832);
+    ctx.fill();
+
+    ctx.restore();
+  }
+
+  function drawSea(now, alpha, shift) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.translate(0, shift);
+
+    var g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, '#1a7f8f');
+    g.addColorStop(0.4, '#0e5d74');
+    g.addColorStop(1, '#052637');
+    ctx.fillStyle = g;
+    ctx.fillRect(0, -Math.abs(shift), W, H + Math.abs(shift) * 2);
+
+    // Rais de lumière qui ondulent depuis la surface.
+    for (var r = 0; r < 4; r++) {
+      var cx = W * (0.15 + r * 0.25);
+      var sway = Math.sin(now * 0.3 + r * 1.7) * W * 0.06;
+      var lg = ctx.createLinearGradient(0, 0, 0, H * 0.85);
+      lg.addColorStop(0, 'rgba(190,255,240,0.13)');
+      lg.addColorStop(1, 'rgba(190,255,240,0)');
+      ctx.fillStyle = lg;
+      ctx.beginPath();
+      ctx.moveTo(cx - W * 0.03, 0);
+      ctx.lineTo(cx + W * 0.03, 0);
+      ctx.lineTo(cx + sway + W * 0.11, H * 0.85);
+      ctx.lineTo(cx + sway - W * 0.11, H * 0.85);
+      ctx.closePath();
+      ctx.fill();
+    }
+
+    // Poissons.
+    for (var i = 0; i < fishes.length; i++) drawFish(fishes[i], now);
+
+    // Bulles qui remontent.
+    ctx.strokeStyle = 'rgba(220,245,255,0.55)';
+    ctx.fillStyle = 'rgba(220,245,255,0.12)';
+    ctx.lineWidth = 1;
+    for (var b = 0; b < bubbles.length; b++) {
+      var bu = bubbles[b];
+      var bx = bu.x * W + Math.sin(now * 1.4 + bu.wobblePhase) * bu.wobbleAmp;
+      var by = bu.y * H;
+      ctx.beginPath();
+      ctx.arc(bx, by, bu.r, 0, 6.2832);
+      ctx.fill();
+      ctx.stroke();
+    }
+
+    ctx.restore();
+  }
+
+  function updateSea(dt, now) {
+    for (var i = 0; i < fishes.length; i++) {
+      var f = fishes[i];
+      f.x += f.dir * f.speed * dt;
+      if (f.dir === 1 && f.x > W + f.size * 3) fishes[i] = newFish(false);
+      else if (f.dir === -1 && f.x < -f.size * 3) fishes[i] = newFish(false);
+    }
+    for (var b = 0; b < bubbles.length; b++) {
+      var bu = bubbles[b];
+      bu.y -= bu.speed * dt;
+      if (bu.y * H < -12) {
+        bu.y = 1.05;
+        bu.x = Math.random();
+        bu.r = 1.5 + Math.random() * 4;
+      }
+    }
+  }
+
+  // ---------------------------------------------------------------
+  // Boucle principale : crossfade piloté par beta lissé
+  // ---------------------------------------------------------------
+  var lastTime = 0;
+
+  function frame(ts) {
+    requestAnimationFrame(frame);
+    var now = ts / 1000;
+    var dt = Math.min(now - lastTime, 0.05);
+    lastTime = now;
+    if (dt <= 0) return;
+
+    // Lissage exponentiel (indépendant du framerate).
+    betaSmooth += (betaTarget - betaSmooth) * (1 - Math.exp(-dt * 5));
+
+    // beta 50 -> 100 % océan · beta 130 -> 100 % ciel · 90 = horizon.
+    var t = smoothstep(clamp((betaSmooth - 50) / 80, 0, 1));
+    var skyAlpha = t;
+    var seaAlpha = 1 - t;
+
+    updateSky(dt, skyAlpha > 0.25);
+    updateSea(dt, now);
+
+    ctx.fillStyle = '#000';
+    ctx.fillRect(0, 0, W, H);
+
+    // Léger décalage vertical opposé : effet d'horizon pendant le mélange.
+    if (seaAlpha > 0.01) drawSea(now, seaAlpha, t * H * 0.12);
+    if (skyAlpha > 0.01) drawSky(now, skyAlpha, -(1 - t) * H * 0.12);
+
+    ctx.globalAlpha = 1;
+  }
+  requestAnimationFrame(frame);
+
+  // ---------------------------------------------------------------
+  // Démarrage et permission iOS 13+
+  // ---------------------------------------------------------------
+  var intro = document.getElementById('intro');
+  var hint = document.getElementById('hint');
+
+  function showHint(text, duration) {
+    hint.textContent = text;
+    hint.classList.add('visible');
+    setTimeout(function () { hint.classList.remove('visible'); }, duration || 5000);
+  }
+
+  function begin(withSensor) {
+    started = true;
+    intro.classList.add('hidden');
+    if (withSensor) {
+      window.addEventListener('deviceorientation', onOrientation);
+      // Si aucun événement capteur n'arrive, on bascule sur le tactile.
+      setTimeout(function () {
+        if (!sensorActive) {
+          showHint('Pas de gyroscope détecté · glisse le doigt verticalement', 6000);
+        } else {
+          showHint('Incline le téléphone vers le ciel ou vers le sol', 4500);
+        }
+      }, 1500);
+    } else {
+      showHint('Glisse le doigt verticalement pour explorer', 6000);
+    }
+  }
+
+  document.getElementById('startBtn').addEventListener('click', function () {
+    if (typeof DeviceOrientationEvent !== 'undefined' &&
+        typeof DeviceOrientationEvent.requestPermission === 'function') {
+      // iOS 13+ : la demande doit venir d'un geste utilisateur.
+      DeviceOrientationEvent.requestPermission()
+        .then(function (state) { begin(state === 'granted'); })
+        .catch(function () { begin(false); });
+    } else if (typeof DeviceOrientationEvent !== 'undefined') {
+      begin(true);
+    } else {
+      begin(false);
+    }
+  });
+})();
+</script>
+</body>
+</html>
