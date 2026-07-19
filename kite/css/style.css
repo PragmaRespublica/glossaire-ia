@@ -1,0 +1,280 @@
+/* ============================================================
+   Kite Marseille — style. Mobile d'abord, sobre et lisible
+   en plein soleil (contrastes forts, gros chiffres).
+   ============================================================ */
+
+:root {
+  --fond: #f4f7fa;
+  --carte: #ffffff;
+  --texte: #14202b;
+  --texte-2: #5a6b7b;
+  --bord: #dde5ec;
+  --accent: #0369a1;
+  --vert: #16a34a;
+  --vert-fond: #ecfdf3;
+  --orange: #d97706;
+  --orange-fond: #fffaeb;
+  --rouge: #dc2626;
+  --rouge-fond: #fef2f2;
+  --tabs-h: 64px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- en-tête ---------- */
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--accent);
+  color: #fff;
+}
+
+.topbar h1 { margin: 0; font-size: 1.1rem; font-weight: 700; }
+
+.topbar-right { display: flex; align-items: center; gap: 10px; }
+
+.maj { font-size: 0.8rem; opacity: 0.9; }
+
+.btn-refresh {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: transparent;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 5px 9px;
+  cursor: pointer;
+}
+.btn-refresh:active { background: rgba(255, 255, 255, 0.2); }
+
+/* ---------- écrans / onglets ---------- */
+
+main { padding-bottom: var(--tabs-h); }
+
+.ecran { display: none; padding: 14px; }
+.ecran.actif { display: block; }
+
+.tabs {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--tabs-h);
+  display: flex;
+  background: var(--carte);
+  border-top: 1px solid var(--bord);
+  z-index: 500;
+}
+
+.tab {
+  flex: 1;
+  border: none;
+  background: none;
+  font-size: 1.25rem;
+  color: var(--texte-2);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.tab span { font-size: 0.7rem; font-weight: 600; }
+.tab.actif { color: var(--accent); }
+
+/* ---------- écran 1 · tableau ---------- */
+
+.table-wrap {
+  overflow-x: auto;
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: 12px;
+}
+
+table { width: 100%; border-collapse: collapse; min-width: 560px; }
+
+th, td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--bord);
+  white-space: nowrap;
+}
+
+thead th {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--texte-2);
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+td.num { font-size: 1.15rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+td.num small { font-size: 0.7rem; font-weight: 400; color: var(--texte-2); }
+td small { color: var(--texte-2); }
+
+td.tendance { font-size: 1.2rem; }
+
+.ligne-vert   { background: var(--vert-fond); }
+.ligne-orange { background: var(--orange-fond); }
+.ligne-rouge  { background: var(--rouge-fond); }
+
+.note { font-size: 0.78rem; color: var(--texte-2); margin: 10px 4px; }
+
+/* ---------- badges & flèches ---------- */
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #fff;
+}
+.badge-vert   { background: var(--vert); }
+.badge-orange { background: var(--orange); }
+.badge-rouge  { background: var(--rouge); }
+
+.fleche-vent {
+  display: inline-block;
+  font-weight: 700;
+  transform-origin: center;
+}
+
+/* ---------- écran 2 · reco ---------- */
+
+.reglages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  font-size: 0.88rem;
+  color: var(--texte-2);
+}
+
+.reglages input {
+  width: 56px;
+  padding: 5px 6px;
+  border: 1px solid var(--bord);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.cartes-reco {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.carte-spot {
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: 14px;
+  overflow: hidden;
+  border-top: 4px solid var(--bord);
+}
+.carte-vert   { border-top-color: var(--vert); }
+.carte-orange { border-top-color: var(--orange); }
+.carte-rouge  { border-top-color: var(--rouge); }
+
+.carte-image { height: 140px; background: #dbe7f0; }
+.carte-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #7d93a6;
+  background: linear-gradient(135deg, #dbe7f0, #c3d6e5);
+}
+
+.carte-corps { padding: 12px 14px 14px; }
+.carte-corps h2 {
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.carte-mesures { margin: 0 0 4px; font-weight: 600; font-size: 0.92rem; }
+.carte-raison  { margin: 0 0 6px; font-size: 0.88rem; }
+.carte-aile    { margin: 0 0 6px; font-size: 0.88rem; color: var(--accent); }
+.carte-notes   { margin: 0; font-size: 0.8rem; color: var(--texte-2); }
+
+/* ---------- écran 3 · carte ---------- */
+
+#ecran-carte { padding: 0; }
+
+#map {
+  height: calc(100vh - var(--tabs-h) - 47px);
+  width: 100%;
+}
+
+.marqueur-spot {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pastille-nom {
+  margin-top: 2px;
+  padding: 1px 7px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--texte);
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.pastille {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.05;
+}
+
+.pastille-fleche {
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: inline-block;
+  transform-origin: center;
+}
+
+.pastille-vent { font-size: 1.05rem; font-weight: 800; }
